@@ -158,7 +158,10 @@ for (const id of ["modal-close", "modal-done", "modal-backdrop"]) {
   document.getElementById(id)?.addEventListener("click", closeReader);
 }
 document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") closeReader();
+  if (e.key === "Escape") {
+    closeReader();
+    closeLightbox();
+  }
 });
 
 function fill(listId, emptyId, nodes) {
@@ -232,6 +235,180 @@ function render(data) {
   track.replaceChildren(...half(), ...half());
 }
 
+// ---- research reports ----------------------------------------------------------
+
+// Minimal injection-safe markdown renderer: builds DOM nodes (never innerHTML
+// with feed text). Supports headings, paragraphs, bold/code/links inline,
+// bullet/numbered lists, tables, blockquotes, and rules — enough for the
+// generated research notes.
+function mdInline(text) {
+  const out = [];
+  // links, bold, inline code
+  const re = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)|\*\*([^*]+)\*\*|`([^`]+)`/g;
+  let last = 0;
+  let m;
+  while ((m = re.exec(text))) {
+    if (m.index > last) out.push(document.createTextNode(text.slice(last, m.index)));
+    if (m[1]) {
+      const a = document.createElement("a");
+      a.href = m[2];
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = m[1];
+      out.push(a);
+    } else if (m[3]) {
+      out.push(el("strong", null, m[3]));
+    } else {
+      out.push(el("code", null, m[4]));
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(document.createTextNode(text.slice(last)));
+  return out;
+}
+
+function renderMarkdown(md) {
+  const container = el("div", "md-body");
+  const lines = md.split(/\r?\n/);
+  let i = 0;
+  const isTableRow = (s) => /^\s*\|.*\|\s*$/.test(s);
+  while (i < lines.length) {
+    const line = lines[i];
+    if (!line.trim()) { i++; continue; }
+    const h = /^(#{1,4})\s+(.*)$/.exec(line);
+    if (h) {
+      const node = el(`h${Math.min(h[1].length + 1, 5)}`, "md-h");
+      node.append(...mdInline(h[2]));
+      container.appendChild(node);
+      i++;
+      continue;
+    }
+    if (/^\s*(---+|\*\*\*+)\s*$/.test(line)) { container.appendChild(el("hr")); i++; continue; }
+    if (isTableRow(line)) {
+      const rows = [];
+      while (i < lines.length && isTableRow(lines[i])) { rows.push(lines[i]); i++; }
+      const table = el("table", "md-table");
+      rows
+        .filter((r) => !/^\s*\|[\s:|-]+\|\s*$/.test(r)) // drop separator row
+        .forEach((r, idx) => {
+          const tr = el("tr");
+          r.trim().replace(/^\||\|$/g, "").split("|").forEach((cell) => {
+            const td = el(idx === 0 ? "th" : "td");
+            td.append(...mdInline(cell.trim()));
+            tr.appendChild(td);
+          });
+          table.appendChild(tr);
+        });
+      container.appendChild(table);
+      continue;
+    }
+    if (/^\s*[-*]\s+/.test(line) || /^\s*\d+\.\s+/.test(line)) {
+      const ordered = /^\s*\d+\.\s+/.test(line);
+      const list = el(ordered ? "ol" : "ul", "md-list");
+      while (i < lines.length && (/^\s*[-*]\s+/.test(lines[i]) || /^\s*\d+\.\s+/.test(lines[i]))) {
+        const li = el("li");
+        li.append(...mdInline(lines[i].replace(/^\s*[-*]\s+/, "").replace(/^\s*\d+\.\s+/, "")));
+        list.appendChild(li);
+        i++;
+      }
+      container.appendChild(list);
+      continue;
+    }
+    if (/^\s*>\s?/.test(line)) {
+      const quote = el("blockquote", "md-quote");
+      while (i < lines.length && /^\s*>\s?/.test(lines[i])) {
+        const p = el("p");
+        p.append(...mdInline(lines[i].replace(/^\s*>\s?/, "")));
+        quote.appendChild(p);
+        i++;
+      }
+      container.appendChild(quote);
+      continue;
+    }
+    // paragraph: gather until blank line / block start
+    const para = [];
+    while (
+      i < lines.length && lines[i].trim() &&
+      !/^(#{1,4})\s/.test(lines[i]) && !isTableRow(lines[i]) &&
+      !/^\s*[-*]\s+/.test(lines[i]) && !/^\s*\d+\.\s+/.test(lines[i]) && !/^\s*>/.test(lines[i])
+    ) { para.push(lines[i].trim()); i++; }
+    const p = el("p", "md-p");
+    p.append(...mdInline(para.join(" ")));
+    container.appendChild(p);
+  }
+  return container;
+}
+
+function reportCard(meta, body) {
+  const card = el("article", "report");
+  const head = el("button", "report-head");
+  head.setAttribute("aria-expanded", "false");
+  head.appendChild(el("span", "report-title", meta.title));
+  head.appendChild(
+    el("span", "report-meta", `${timeAgo(meta.generatedAt)} · ${meta.model ?? ""}`),
+  );
+  head.appendChild(el("span", "report-toggle", "+"));
+  const content = el("div", "report-body");
+  content.hidden = true;
+  content.appendChild(renderMarkdown(body.markdown ?? ""));
+  head.addEventListener("click", () => {
+    content.hidden = !content.hidden;
+    head.setAttribute("aria-expanded", String(!content.hidden));
+    head.querySelector(".report-toggle").textContent = content.hidden ? "+" : "−";
+  });
+  card.appendChild(head);
+  card.appendChild(content);
+  return card;
+}
+
+async function loadReports() {
+  const list = document.getElementById("reports-list");
+  const empty = document.getElementById("reports-empty");
+  try {
+    const res = await fetch(`data/reports/index.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error("no reports yet");
+    const index = await res.json();
+    const cards = [];
+    for (const meta of index) {
+      try {
+        const r = await fetch(`data/reports/${meta.key}.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (r.ok) cards.push(reportCard(meta, await r.json()));
+      } catch { /* skip a single broken report */ }
+    }
+    list.replaceChildren(...cards);
+    empty.hidden = cards.length > 0;
+  } catch {
+    list.replaceChildren();
+    empty.hidden = false;
+  }
+}
+
+// ---- image lightbox (site plan) -------------------------------------------------
+
+function openLightbox(src, caption) {
+  document.getElementById("lightbox-img").src = src;
+  document.getElementById("lightbox-caption").textContent = caption ?? "";
+  document.getElementById("lightbox").hidden = false;
+  document.body.classList.add("modal-open");
+  document.getElementById("lightbox-close").focus();
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").hidden = true;
+  document.body.classList.remove("modal-open");
+}
+
+for (const id of ["lightbox-close", "lightbox-backdrop"]) {
+  document.getElementById(id)?.addEventListener("click", closeLightbox);
+}
+document.querySelector(".map-frame")?.addEventListener("click", (e) => {
+  e.preventDefault();
+  openLightbox(
+    "assets/fermi-campus-map.jpg",
+    "Fermi America — Advanced Energy and AI Campus site plan (~7,570 acres)",
+  );
+});
+
 // ---- tabs ----------------------------------------------------------------------
 
 function activateTab(name) {
@@ -299,4 +476,6 @@ async function load() {
 }
 
 load();
+loadReports();
 setInterval(load, 5 * 60 * 1000);
+setInterval(loadReports, 30 * 60 * 1000);

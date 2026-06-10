@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=7" />
+  <link rel="stylesheet" href="style.css?v=8" />
 </head>
 <body>
 
@@ -146,6 +146,7 @@
         <button class="tab" role="tab" aria-selected="false" data-tab="filings" id="tab-filings">FILINGS<span class="tab-note">SEC EDGAR</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="social" id="tab-social">SOCIAL<span class="tab-note">VETTED</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="brief" id="tab-brief">AI BRIEF<span class="tab-note">THE FIELD</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="reports" id="tab-reports">REPORTS<span class="tab-note">AI RESEARCH</span></button>
       </div>
 
       <section class="panel is-active" id="panel-frmi" role="tabpanel" aria-labelledby="tab-frmi">
@@ -173,6 +174,19 @@
       <section class="panel" id="panel-brief" role="tabpanel" aria-labelledby="tab-brief" hidden>
         <ol id="brief-list" class="brief"></ol>
         <p id="brief-empty" class="empty" hidden>No stories collected yet — first run pending.</p>
+      </section>
+
+      <section class="panel" id="panel-reports" role="tabpanel" aria-labelledby="tab-reports" hidden>
+        <p class="panel-note">
+          Research generated daily by Claude with live web search, using this
+          site's research skills: the news read, an earnings review, a banker-style
+          workup, and a sector pack. AI-generated — verify before acting. Not investment advice.
+        </p>
+        <div id="reports-list" class="reports"></div>
+        <p id="reports-empty" class="empty" hidden>
+          No reports yet — they generate each weekday pre-market once the
+          ANTHROPIC_API_KEY secret is configured.
+        </p>
       </section>
     </div>
   </main>
@@ -205,6 +219,16 @@
     </div>
   </footer>
 
+  <!-- ======== IMAGE LIGHTBOX (site plan) ======== -->
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <figure class="lightbox-figure" role="dialog" aria-modal="true" aria-label="Site plan, enlarged">
+      <button class="modal-close lightbox-close" id="lightbox-close" aria-label="Close and return to site">✕</button>
+      <img id="lightbox-img" src="" alt="Enlarged image" />
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
   <!-- ======== STORY READER (in-site overlay) ======== -->
   <div class="modal" id="modal" hidden>
     <div class="modal-backdrop" id="modal-backdrop"></div>
@@ -229,6 +253,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

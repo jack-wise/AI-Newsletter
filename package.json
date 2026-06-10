@@ -1,0 +1,13 @@
+{
+  "name": "ai-newsletter",
+  "private": true,
+  "type": "module",
+  "description": "Self-updating AI news site with FRMI priority coverage and scheduled research reports",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "reports": "node scripts/reports.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}

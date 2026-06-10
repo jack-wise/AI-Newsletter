@@ -1,0 +1,60 @@
+# Daily research reports: runs the adapted skills (news, earnings, banker,
+# market) through the Claude API with web search and publishes the output to
+# the site's Reports tab. Runs pre-market US time; also dispatchable manually
+# (optionally for a single report key).
+#
+# Requires the ANTHROPIC_API_KEY secret (console.anthropic.com). Without it the
+# script exits cleanly with a "skipped" note. Optional: REPORTS_MODEL variable
+# to override the model (default claude-opus-4-8).
+
+name: generate-reports
+
+on:
+  schedule:
+    - cron: "30 10 * * 1-5" # 10:30 UTC ≈ 6:30am ET, weekdays
+  workflow_dispatch:
+    inputs:
+      report:
+        description: "Single report key to run (news|earnings|banker|market); empty = all"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-reports
+  cancel-in-progress: false
+
+jobs:
+  reports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install SDK
+        run: npm ci || npm install
+
+      - name: Generate reports
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REPORTS_MODEL: ${{ vars.REPORTS_MODEL }}
+        run: node scripts/reports.mjs ${{ inputs.report }}
+
+      - name: Commit reports
+        run: |
+          git config user.name "newsletter-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/reports
+          if git diff --cached --quiet; then
+            echo "No report changes."
+            exit 0
+          fi
+          git commit -m "reports: refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git pull --rebase origin main
+          git push origin main

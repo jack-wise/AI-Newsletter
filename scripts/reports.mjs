@@ -1,0 +1,138 @@
+// Scheduled research reports: runs the site's research skills (news,
+// earnings-reviewer, banker, market-researcher — adapted in prompts/*.md)
+// through the Claude API with web search, and publishes the output as
+// docs/data/reports/<key>.json for the site's Reports tab.
+//
+// Requires the ANTHROPIC_API_KEY repo secret; with no key this exits 0 with a
+// note so the workflow stays green until the secret is configured.
+// Model is overridable via REPORTS_MODEL (default claude-opus-4-8).
+//
+// Run locally: ANTHROPIC_API_KEY=... node scripts/reports.mjs [key]
+
+import Anthropic from "@anthropic-ai/sdk";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+
+const REPORTS = [
+  { key: "news", title: "FRMI News & Price Impact", prompt: "news.md" },
+  { key: "earnings", title: "FRMI Earnings Review", prompt: "earnings.md" },
+  { key: "banker", title: "FRMI Research Workup", prompt: "banker.md" },
+  { key: "market", title: "AI Data-Center Power — Sector Pack", prompt: "market.md" },
+];
+
+const MODEL = process.env.REPORTS_MODEL || "claude-opus-4-8";
+const MAX_SEARCHES_PER_REPORT = 10;
+const MAX_CONTINUATIONS = 5; // pause_turn resume cap
+
+// Exported for the offline smoke test: the exact request body for one report.
+export function buildRequest(promptText, today, priorMessages = null) {
+  return {
+    model: MODEL,
+    max_tokens: 32000,
+    thinking: { type: "adaptive" },
+    system:
+      "You are a research engine publishing to an automated finance site. " +
+      "Today's date is " + today + ". Output ONLY the markdown report — no preamble, " +
+      "no meta-commentary about searching. Ground every claim in your searches.",
+    tools: [
+      { type: "web_search_20260209", name: "web_search", max_uses: MAX_SEARCHES_PER_REPORT },
+    ],
+    messages: priorMessages ?? [{ role: "user", content: promptText }],
+  };
+}
+
+function extractText(message) {
+  return message.content
+    .filter((b) => b.type === "text")
+    .map((b) => b.text)
+    .join("\n")
+    .trim();
+}
+
+async function runReport(client, def, today) {
+  const promptText = readFileSync(join(root, "prompts", def.prompt), "utf8");
+  let messages = [{ role: "user", content: promptText }];
+  let message;
+  let usage = { input_tokens: 0, output_tokens: 0 };
+
+  // Server-side tool loops can stop with pause_turn; append the assistant turn
+  // and re-send — the API resumes where it left off (no extra user message).
+  for (let i = 0; i <= MAX_CONTINUATIONS; i++) {
+    const stream = client.messages.stream(buildRequest(promptText, today, messages));
+    message = await stream.finalMessage();
+    usage.input_tokens += message.usage.input_tokens ?? 0;
+    usage.output_tokens += message.usage.output_tokens ?? 0;
+    if (message.stop_reason !== "pause_turn") break;
+    messages = [...messages, { role: "assistant", content: message.content }];
+  }
+
+  const markdown = extractText(message);
+  if (!markdown || markdown.length < 200) {
+    throw new Error(`report '${def.key}' came back empty (stop: ${message.stop_reason})`);
+  }
+  return {
+    key: def.key,
+    title: def.title,
+    generatedAt: new Date().toISOString(),
+    model: MODEL,
+    stopReason: message.stop_reason,
+    usage,
+    markdown,
+  };
+}
+
+async function main() {
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.log("reports: skipped — no ANTHROPIC_API_KEY configured");
+    return;
+  }
+  const only = process.argv[2] ?? null;
+  const client = new Anthropic({ maxRetries: 3 });
+  const today = new Date().toISOString().slice(0, 10);
+  const outDir = join(root, "docs", "data", "reports");
+  mkdirSync(outDir, { recursive: true });
+
+  const index = [];
+  let failed = 0;
+  for (const def of REPORTS) {
+    if (only && def.key !== only) continue;
+    try {
+      console.log(`reports: running '${def.key}' (${MODEL})...`);
+      const report = await runReport(client, def, today);
+      writeFileSync(join(outDir, `${def.key}.json`), JSON.stringify(report, null, 2));
+      index.push({
+        key: report.key,
+        title: report.title,
+        generatedAt: report.generatedAt,
+        model: report.model,
+      });
+      console.log(
+        `reports: '${def.key}' done — ${report.markdown.length} chars, ` +
+          `${report.usage.input_tokens} in / ${report.usage.output_tokens} out tokens`,
+      );
+    } catch (e) {
+      failed++;
+      console.error(`reports: '${def.key}' FAILED: ${e?.message ?? e}`);
+      // Keep the previous edition of this report on the site; continue with the rest.
+    }
+  }
+  if (index.length) {
+    // Merge with any existing index entries for reports not run this time.
+    let existing = [];
+    try {
+      existing = JSON.parse(readFileSync(join(outDir, "index.json"), "utf8"));
+    } catch {
+      /* first run */
+    }
+    const byKey = new Map(existing.map((r) => [r.key, r]));
+    for (const r of index) byKey.set(r.key, r);
+    const merged = REPORTS.map((d) => byKey.get(d.key)).filter(Boolean);
+    writeFileSync(join(outDir, "index.json"), JSON.stringify(merged, null, 2));
+  }
+  if (failed && !index.length) process.exit(1); // total failure should show red
+}
+
+await main();

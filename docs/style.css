@@ -13,8 +13,8 @@
   --ink: #f2f5fa;
   --dim: #97a3b8;
   --faint: #5e6a80;
-  --amber: #ffb224;
-  --amber-deep: #e08700;
+  --amber: #38b6e3;
+  --amber-deep: #1f7fc4;
   --blue: #4d8dff;
   --green: #2fd483;
   --display: "Archivo", "Arial Narrow", Impact, sans-serif;
@@ -61,12 +61,12 @@ a { color: inherit; }
 .brand-core {
   width: 14px; height: 14px; border-radius: 50%;
   background: radial-gradient(circle at 35% 35%, var(--amber), var(--amber-deep) 70%);
-  box-shadow: 0 0 14px rgba(255, 178, 36, 0.7);
+  box-shadow: 0 0 14px rgba(56, 182, 227, 0.7);
   animation: corepulse 3s ease-in-out infinite;
 }
 @keyframes corepulse {
-  0%, 100% { box-shadow: 0 0 10px rgba(255,178,36,.5); }
-  50% { box-shadow: 0 0 22px rgba(255,178,36,.9); }
+  0%, 100% { box-shadow: 0 0 10px rgba(56,182,227,.5); }
+  50% { box-shadow: 0 0 22px rgba(56,182,227,.9); }
 }
 .brand-word {
   font-family: var(--display);
@@ -147,7 +147,7 @@ a { color: inherit; }
   align-items: center;
   padding: 9px 16px;
   background: var(--amber);
-  color: #160e00;
+  color: #03141f;
   font-family: var(--display);
   font-weight: 900;
   font-size: 11px;
@@ -195,7 +195,7 @@ a { color: inherit; }
 @keyframes gridpan { to { background-position: 0 56px, 56px 0; } }
 
 .hero-glow { position: absolute; border-radius: 50%; filter: blur(90px); opacity: 0.5; }
-.glow-a { width: 560px; height: 560px; background: rgba(255, 178, 36, 0.16); top: -180px; right: -120px; animation: drift 14s ease-in-out infinite alternate; }
+.glow-a { width: 560px; height: 560px; background: rgba(56, 182, 227, 0.16); top: -180px; right: -120px; animation: drift 14s ease-in-out infinite alternate; }
 .glow-b { width: 480px; height: 480px; background: rgba(77, 141, 255, 0.14); bottom: -200px; left: -120px; animation: drift 18s ease-in-out infinite alternate-reverse; }
 @keyframes drift { to { transform: translate(40px, 26px) scale(1.08); } }
 
@@ -340,8 +340,8 @@ a { color: inherit; }
   transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease, color 140ms ease;
 }
 .btn:hover { transform: translateY(-2px); }
-.btn-solid { background: var(--amber); color: #160e00; box-shadow: 0 8px 28px rgba(255, 178, 36, 0.25); }
-.btn-solid:hover { background: #ffc14d; box-shadow: 0 12px 34px rgba(255, 178, 36, 0.35); }
+.btn-solid { background: var(--amber); color: #03141f; box-shadow: 0 8px 28px rgba(56, 182, 227, 0.25); }
+.btn-solid:hover { background: #5fd4ef; box-shadow: 0 12px 34px rgba(56, 182, 227, 0.35); }
 .btn-ghost { border: 1px solid var(--line-2); color: var(--ink); }
 .btn-ghost:hover { border-color: var(--amber); color: var(--amber); }
 
@@ -466,7 +466,7 @@ a { color: inherit; }
   right: 0;
   top: -18%;
   height: 16%;
-  background: linear-gradient(to bottom, transparent, rgba(255, 178, 36, 0.22) 55%, rgba(255, 178, 36, 0.55) 82%, transparent);
+  background: linear-gradient(to bottom, transparent, rgba(56, 182, 227, 0.22) 55%, rgba(56, 182, 227, 0.55) 82%, transparent);
   mix-blend-mode: screen;
   animation: scan 6.5s linear infinite;
   pointer-events: none;
@@ -656,7 +656,7 @@ a { color: inherit; }
   text-decoration: none;
   transition: background 120ms ease;
 }
-.row:hover { background: rgba(255, 178, 36, 0.04); }
+.row:hover { background: rgba(56, 182, 227, 0.04); }
 .row-form {
   font-family: var(--display);
   font-weight: 800;
@@ -692,11 +692,11 @@ a { color: inherit; }
   border-radius: 3px;
   text-transform: uppercase;
 }
-.tag-ticker { background: rgba(255, 178, 36, 0.14); color: var(--amber); }
+.tag-ticker { background: rgba(56, 182, 227, 0.14); color: var(--amber); }
 .tag-eco { background: rgba(77, 141, 255, 0.14); color: var(--blue); }
 .tag-sec { background: rgba(47, 212, 131, 0.12); color: var(--green); }
 .tag-x-high { background: rgba(47, 212, 131, 0.12); color: var(--green); }
-.tag-x-medium { background: rgba(255, 178, 36, 0.14); color: var(--amber); }
+.tag-x-medium { background: rgba(56, 182, 227, 0.14); color: var(--amber); }
 .tag-x-limited { background: var(--line); color: var(--dim); }
 
 /* ---- brief list ---- */
@@ -866,10 +866,10 @@ body.modal-open { overflow: hidden; }
   top: -14px;
   right: -14px;
   background: var(--amber);
-  color: #160e00;
+  color: #03141f;
   z-index: 1;
 }
-.lightbox-close:hover { background: #ffc14d; color: #160e00; }
+.lightbox-close:hover { background: #5fd4ef; color: #03141f; }
 .lightbox-figure figcaption {
   margin-top: 12px;
   text-align: center;

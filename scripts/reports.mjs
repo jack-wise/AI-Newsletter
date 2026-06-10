@@ -84,12 +84,30 @@ async function runReport(client, def, today) {
   };
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Low API tiers allow ~10k input tokens/minute: pace the reports apart and,
+// on a 429, wait out the minute window and retry rather than giving up.
+async function runReportPaced(client, def, today) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await runReport(client, def, today);
+    } catch (e) {
+      const rateLimited = e?.status === 429 || /rate_limit/i.test(String(e?.message ?? ""));
+      if (!rateLimited || attempt >= 4) throw e;
+      console.log(`reports: '${def.key}' rate-limited; waiting 90s (attempt ${attempt}/4)...`);
+      await sleep(90_000);
+    }
+  }
+}
+
 async function main() {
   if (!process.env.ANTHROPIC_API_KEY) {
     console.log("reports: skipped — no ANTHROPIC_API_KEY configured");
     return;
   }
-  const only = process.argv[2] ?? null;
+  // Optional arg: comma-separated report keys (e.g. "earnings,banker,market").
+  const only = process.argv[2] ? process.argv[2].split(",").map((s) => s.trim()) : null;
   const client = new Anthropic({ maxRetries: 3 });
   const today = new Date().toISOString().slice(0, 10);
   const outDir = join(root, "docs", "data", "reports");
@@ -97,11 +115,17 @@ async function main() {
 
   const index = [];
   let failed = 0;
+  let ranAny = false;
   for (const def of REPORTS) {
-    if (only && def.key !== only) continue;
+    if (only && !only.includes(def.key)) continue;
+    if (ranAny) {
+      console.log("reports: pacing 75s between reports (per-minute rate limits)...");
+      await sleep(75_000);
+    }
+    ranAny = true;
     try {
       console.log(`reports: running '${def.key}' (${MODEL})...`);
-      const report = await runReport(client, def, today);
+      const report = await runReportPaced(client, def, today);
       writeFileSync(join(outDir, `${def.key}.json`), JSON.stringify(report, null, 2));
       index.push({
         key: report.key,

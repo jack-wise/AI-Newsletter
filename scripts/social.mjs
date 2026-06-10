@@ -12,6 +12,8 @@
 //      trust:"limited" with the Reddit-side signals that surfaced them; the
 //      full X vetting gate only runs when the paid API token is configured.
 
+import { decodeEntities } from "./sources.mjs";
+
 const UA = "AI Newsletter jack.wise@donoco.com";
 
 async function getJson(url, headers = {}) {
@@ -70,7 +72,8 @@ export async function fetchStockTwits(symbol, cfg) {
     const { score, reasons } = stocktwitsCredibility(msg.user, likes, cfg);
     if (score < (cfg.minCredibility ?? 45)) continue; // same vetting gate
     items.push({
-      title: String(msg.body ?? "").replace(/\s+/g, " ").slice(0, 240),
+      // StockTwits bodies carry HTML entities (&#39; &amp;) — decode for display.
+      title: decodeEntities(String(msg.body ?? "")).replace(/\s+/g, " ").slice(0, 240),
       url: `https://stocktwits.com/${msg.user.username}/message/${msg.id}`,
       source: `@${msg.user.username} on StockTwits`,
       publishedAt: msg.created_at ? new Date(msg.created_at).toISOString() : null,
@@ -136,10 +139,13 @@ export async function fetchRedditXLinks(query, cfg) {
         "https://publish.twitter.com/oembed?omit_script=1&url=" +
           encodeURIComponent(`https://x.com/${link.handle}/status/${link.id}`),
       );
-      // oEmbed html is the tweet blockquote; strip tags for a plain title.
-      const text = String(oembed.html ?? "")
-        .replace(/<[^>]+>/g, " ")
-        .replace(/&mdash;.*$/s, "") // trailing "— Author (@handle) date"
+      // oEmbed html is the tweet blockquote; strip tags, then decode the HTML
+      // entities (&#39; etc.) so raw codes never reach the ticker or cards.
+      const text = decodeEntities(
+        String(oembed.html ?? "")
+          .replace(/<[^>]+>/g, " ")
+          .replace(/&mdash;.*$/s, ""), // trailing "— Author (@handle) date"
+      )
         .replace(/\s+/g, " ")
         .trim()
         .slice(0, 240);

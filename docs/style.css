@@ -187,6 +187,9 @@ a { color: inherit; }
 /* ================= HERO ================= */
 
 .hero { position: relative; overflow: hidden; padding: 96px 0 64px; }
+/* The hero breathes wider than the content shell so the headline, sub, and
+   stat band stretch across big screens instead of pooling in a 1180px column. */
+.hero .shell { max-width: 1320px; }
 
 .hero-bg { position: absolute; inset: 0; pointer-events: none; }
 .hero-grid {
@@ -217,13 +220,15 @@ a { color: inherit; }
   position: absolute;
   top: 70px;
   bottom: 40px;
-  width: clamp(220px, calc((100vw - 1280px) / 2), 430px);
+  /* Sized to the space OUTSIDE the (now 1320px) hero shell so the panels
+     never collide with the stretched headline at any viewport width. */
+  width: clamp(160px, calc((100vw - 1420px) / 2), 430px);
   pointer-events: none;
 }
 .hero-side-left { left: 26px; }
 .hero-side-right { right: 26px; }
 
-@media (min-width: 1360px) {
+@media (min-width: 1700px) {
   .hero-side { display: block; }
 }
 
@@ -319,7 +324,7 @@ a { color: inherit; }
   margin: 0 0 22px;
   font-family: var(--display);
   font-weight: 900;
-  font-size: clamp(38px, 7vw, 78px);
+  font-size: clamp(40px, 6.6vw, 96px);
   line-height: 0.98;
   letter-spacing: 0.005em;
   text-transform: uppercase;
@@ -327,9 +332,9 @@ a { color: inherit; }
 .hero-title span { display: block; }
 
 .hero-sub {
-  max-width: 620px;
+  max-width: 780px;
   margin: 0 0 30px;
-  font-size: 16.5px;
+  font-size: 17px;
   line-height: 1.7;
   color: var(--dim);
 }

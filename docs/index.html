@@ -9,7 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
+       CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
@@ -144,6 +146,6 @@
   </footer>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

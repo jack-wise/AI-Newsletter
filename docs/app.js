@@ -218,6 +218,18 @@ function render(data) {
   countUp(document.getElementById("stat-stories"), all.length);
   countUp(document.getElementById("stat-filings"), filings.length);
   countUp(document.getElementById("stat-sources"), new Set(all.map((i) => i.source)).size);
+
+  // Headline ticker: top priority stories on a seamless marquee (content is
+  // rendered twice; the keyframe translates -50% so the loop never jumps).
+  const tickerItems = priority.slice(0, 8);
+  const track = document.getElementById("ticker-track");
+  const half = () =>
+    tickerItems.flatMap((item) => {
+      const a = storyLink(item, "tk-item");
+      a.textContent = displayTitle(item);
+      return [a, el("span", "tk-sep", "◆")];
+    });
+  track.replaceChildren(...half(), ...half());
 }
 
 // ---- tabs ----------------------------------------------------------------------

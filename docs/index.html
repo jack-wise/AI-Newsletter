@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=6" />
+  <link rel="stylesheet" href="style.css?v=7" />
 </head>
 <body>
 
@@ -21,6 +21,9 @@
       <a class="brand" href="./">
         <span class="brand-core" aria-hidden="true"></span>
         <span class="brand-word">FERMI<em>WATCH</em></span>
+        <span class="brand-sep" aria-hidden="true"></span>
+        <span class="brand-tracks">TRACKING</span>
+        <img class="fermi-logo" src="assets/fermi-logo-color.png" alt="Fermi America" />
       </a>
       <nav class="topnav" aria-label="Sections">
         <a href="#site">The Site</a>
@@ -37,6 +40,12 @@
     </div>
   </header>
 
+  <!-- ======== LIVE HEADLINE TICKER ======== -->
+  <div class="ticker" aria-label="Latest FRMI headlines">
+    <span class="ticker-label">LATEST</span>
+    <div class="ticker-clip"><div class="ticker-track" id="ticker-track"></div></div>
+  </div>
+
   <!-- ======== HERO ======== -->
   <section class="hero">
     <div class="hero-bg" aria-hidden="true">
@@ -47,11 +56,11 @@
     <!-- Decorative side visuals: fill the wide-viewport flanks; hidden when
          the layout narrows and the space disappears. -->
     <div class="hero-side hero-side-left" aria-hidden="true">
-      <figure class="side-panel sp-a"><figcaption>GRID-INDEPENDENT POWER</figcaption></figure>
-      <figure class="side-panel sp-b"><figcaption>GENERATION AT SCALE</figcaption></figure>
+      <figure class="side-panel sp-a"><figcaption>10 GW NATURAL GAS — PLANNED</figcaption></figure>
+      <figure class="side-panel sp-b"><figcaption>SOLAR GENERATION</figcaption></figure>
     </div>
     <div class="hero-side hero-side-right" aria-hidden="true">
-      <figure class="side-panel sp-c"><figcaption>PROJECT MATADOR — SITE PLAN</figcaption></figure>
+      <figure class="side-panel sp-c"><figcaption>6 GW NUCLEAR — PLANNED</figcaption></figure>
       <figure class="side-panel sp-d"><figcaption>HYPERSCALE COMPUTE</figcaption></figure>
     </div>
     <div class="shell hero-inner">
@@ -104,6 +113,7 @@
           <span class="map-chip">SITE PLAN · CLICK TO ENLARGE</span>
         </a>
         <div class="map-facts reveal">
+          <img class="fermi-logo fermi-logo-lg" src="assets/fermi-logo-color.png" alt="Fermi America" />
           <h3>ADVANCED ENERGY + AI CAMPUS</h3>
           <p>
             ~7,570 acres billed as the largest site of its kind in the world:
@@ -183,10 +193,13 @@
     <div class="shell foot-inner">
       <div>
         <span class="brand-word foot-brand">FERMI<em>WATCH</em></span>
-        <p class="foot-fine">Independent coverage tracker. Not affiliated with Fermi Inc. / Fermi America. Not investment advice.</p>
+        <span class="brand-sep" aria-hidden="true"></span>
+        <img class="fermi-logo" src="assets/fermi-logo-white.png" alt="Fermi America" />
+        <p class="foot-fine">Independent coverage tracker. Not affiliated with Fermi Inc. / Fermi America; the Fermi logo and site plan belong to Fermi America and identify the company we cover. Not investment advice.</p>
       </div>
       <div class="foot-meta">
         <span>Sources: Google News · SEC EDGAR · Yahoo Finance · StockTwits · X (oEmbed)</span>
+        <span>Imagery: Wikimedia Commons · Unsplash · Fermi America site plan</span>
         <span>Auto-generated every 30 minutes · <a href="https://github.com/jack-wise/AI-Newsletter">Source on GitHub</a></span>
       </div>
     </div>
@@ -216,6 +229,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

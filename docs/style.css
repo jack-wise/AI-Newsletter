@@ -118,6 +118,63 @@ a { color: inherit; }
   50% { box-shadow: 0 0 0 7px rgba(47, 212, 131, 0); }
 }
 
+/* ---- brand logo + ticker ---- */
+
+.fermi-logo { height: 15px; width: auto; display: inline-block; transform: translateY(1px); }
+.fermi-logo-lg { height: 24px; display: block; margin-bottom: 12px; }
+.brand-sep { width: 1px; height: 18px; background: var(--line-2); margin: 0 12px; align-self: center; }
+.brand-tracks {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 0.26em;
+  color: var(--faint);
+  margin-right: 8px;
+  align-self: center;
+}
+@media (max-width: 680px) { .brand-sep, .brand-tracks, .topbar .fermi-logo { display: none; } }
+
+.ticker {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg-2);
+  overflow: hidden;
+}
+.ticker-label {
+  flex: none;
+  display: flex;
+  align-items: center;
+  padding: 9px 16px;
+  background: var(--amber);
+  color: #160e00;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+}
+.ticker-clip { overflow: hidden; flex: 1; display: flex; align-items: center; }
+.ticker-track {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  white-space: nowrap;
+  width: max-content;
+  animation: marquee 60s linear infinite;
+}
+.ticker:hover .ticker-track { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+.tk-item {
+  color: var(--dim);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 9px 0;
+}
+.tk-item:hover { color: var(--amber); }
+.tk-sep { color: var(--amber); font-size: 9px; padding: 0 22px; }
+
 /* ================= HERO ================= */
 
 .hero { position: relative; overflow: hidden; padding: 96px 0 64px; }
@@ -177,7 +234,7 @@ a { color: inherit; }
   opacity: 0;
   animation:
     sidein 900ms ease forwards,
-    floaty 8s ease-in-out 1s infinite alternate;
+    floaty 5.5s ease-in-out 1s infinite alternate;
 }
 .side-panel::after {
   content: "";
@@ -197,13 +254,14 @@ a { color: inherit; }
   color: var(--ink);
 }
 
-/* Side-panel subjects: only verified imagery — the same transmission/solar
-   shots already proven in the photo strip, plus Fermi's own site plan. */
+/* Side-panel subjects mirror Fermi's actual generation mix (gas, solar,
+   nuclear) plus compute — every image self-hosted and visually verified,
+   none repeated elsewhere on the page. */
 .sp-a {
   top: 4%;
   transform: rotate(-2.2deg);
   animation-delay: 250ms, 1s;
-  background-image: url("https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=70");
+  background-image: url("assets/gas-turbines.jpg");
 }
 .sp-b {
   top: 56%;
@@ -218,8 +276,7 @@ a { color: inherit; }
   top: 6%;
   transform: rotate(2.2deg);
   animation-delay: 350ms, 1.7s;
-  background-image: url("assets/fermi-campus-map.jpg");
-  background-position: 18% 30%;
+  background-image: url("assets/nuclear-towers.jpg");
 }
 .sp-d {
   top: 58%;
@@ -228,7 +285,7 @@ a { color: inherit; }
   height: 36%;
   transform: rotate(-1.8deg);
   animation-delay: 550ms, 3.1s;
-  background-image: url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=70");
+  background-image: url("assets/datacenter-blue.jpg");
 }
 
 @keyframes sidein {
@@ -237,7 +294,7 @@ a { color: inherit; }
 }
 @keyframes floaty {
   from { translate: 0 0; }
-  to { translate: 0 -14px; }
+  to { translate: 0 -22px; }
 }
 
 .hero-kicker {
@@ -394,12 +451,12 @@ a { color: inherit; }
   width: 100%;
   height: auto;
   /* Ken Burns: a slow survey drift across the plan. */
-  animation: kenburns 38s ease-in-out infinite alternate;
+  animation: kenburns 18s ease-in-out infinite alternate;
   transform-origin: 35% 40%;
 }
 @keyframes kenburns {
   from { transform: scale(1); }
-  to { transform: scale(1.08) translate(-2.5%, 2%); }
+  to { transform: scale(1.12) translate(-3.5%, 3%); }
 }
 
 /* Radar-style scan sweep down the plan. */
@@ -823,5 +880,6 @@ footer { border-top: 1px solid var(--line); background: var(--bg); }
   .side-panel { animation: none !important; opacity: 1; }
   .map-frame img, .map-scan { animation: none !important; }
   .map-scan { display: none; }
+  .ticker-track { animation: none !important; }
   * { transition-duration: 1ms !important; }
 }

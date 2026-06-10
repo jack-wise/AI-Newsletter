@@ -17,10 +17,10 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 const REPORTS = [
-  { key: "news", title: "FRMI News & Price Impact", prompt: "news.md" },
-  { key: "earnings", title: "FRMI Earnings Review", prompt: "earnings.md" },
-  { key: "banker", title: "FRMI Research Workup", prompt: "banker.md" },
-  { key: "market", title: "AI Data-Center Power — Sector Pack", prompt: "market.md" },
+  { key: "news",     title: "FRMI News & Price Impact",           prompt: "news.md"     },
+  { key: "earnings", title: "FRMI Earnings Review",               prompt: "earnings.md" },
+  { key: "banker",   title: "FRMI Research Workup",               prompt: "banker.md",  agent: "queequeg" },
+  { key: "market",   title: "AI Data-Center Power — Sector Pack", prompt: "market.md",  agent: "queequeg" },
 ];
 
 const MODEL = process.env.REPORTS_MODEL || "claude-opus-4-8";

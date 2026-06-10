@@ -344,9 +344,10 @@ function reportCard(meta, body) {
   const head = el("button", "report-head");
   head.setAttribute("aria-expanded", "false");
   head.appendChild(el("span", "report-title", meta.title));
-  head.appendChild(
-    el("span", "report-meta", `${timeAgo(meta.generatedAt)} · ${meta.model ?? ""}`),
-  );
+  const metaText = meta.agent
+    ? `${timeAgo(meta.generatedAt)} · ${meta.model ?? ""} · ${meta.agent}`
+    : `${timeAgo(meta.generatedAt)} · ${meta.model ?? ""}`;
+  head.appendChild(el("span", "report-meta", metaText));
   head.appendChild(el("span", "report-toggle", "+"));
   const content = el("div", "report-body");
   content.hidden = true;

@@ -414,7 +414,7 @@ document.querySelector(".map-frame")?.addEventListener("click", (e) => {
 
 // Cloudflare Worker endpoint that proxies to the queequeg persona.
 // After deploying worker/, paste the printed URL here (…workers.dev).
-const QUEEQUEG_ENDPOINT = "https://queequeg-chat.REPLACE-ME.workers.dev";
+const QUEEQUEG_ENDPOINT = "https://transition-spread-need-smoke.trycloudflare.com";
 
 const chatHistory = []; // {role:"user"|"assistant", content:string}
 

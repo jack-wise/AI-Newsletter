@@ -11,20 +11,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=11" />
+  <link rel="stylesheet" href="style.css?v=12" />
 </head>
 <body>
 
   <!-- ======== TOP NAV ======== -->
   <header class="topbar">
     <div class="shell topbar-inner">
-      <a class="brand" href="./">
-        <span class="brand-core" aria-hidden="true"></span>
-        <span class="brand-word">FERMI<em>WATCH</em></span>
+      <span class="brand">
+        <a class="brand-home" href="./">
+          <span class="brand-core" aria-hidden="true"></span>
+          <span class="brand-word">FERMI<em>WATCH</em></span>
+        </a>
         <span class="brand-sep" aria-hidden="true"></span>
         <span class="brand-tracks">TRACKING</span>
-        <img class="fermi-logo" src="assets/fermi-logo-color.png" alt="Fermi America" />
-      </a>
+        <a class="fermi-link" href="https://fermiamerica.com" target="_blank" rel="noopener noreferrer" aria-label="Fermi America website">
+          <img class="fermi-logo" src="assets/fermi-logo-color.png" alt="Fermi America" />
+        </a>
+      </span>
       <nav class="topnav" aria-label="Sections">
         <a href="#site">The Site</a>
         <a href="#coverage" data-nav="frmi">FRMI</a>
@@ -114,7 +118,9 @@
           <span class="map-chip">SITE PLAN · CLICK TO ENLARGE</span>
         </a>
         <div class="map-facts reveal">
-          <img class="fermi-logo fermi-logo-lg" src="assets/fermi-logo-color.png" alt="Fermi America" />
+          <a class="fermi-link" href="https://fermiamerica.com" target="_blank" rel="noopener noreferrer" aria-label="Fermi America website">
+            <img class="fermi-logo fermi-logo-lg" src="assets/fermi-logo-color.png" alt="Fermi America" />
+          </a>
           <h3>ADVANCED ENERGY + AI CAMPUS</h3>
           <p>
             ~7,570 acres billed as the largest site of its kind in the world:
@@ -127,7 +133,7 @@
             <li><span>10 GW</span>NATURAL GAS PLANNED (5.6 + 4.4)</li>
             <li><span>6 GW</span>NUCLEAR FACILITY PLANNED</li>
           </ul>
-          <p class="map-credit">Source: Fermi America site-plan material. Figures as printed on the plan.</p>
+          <p class="map-credit">Source: <a href="https://fermiamerica.com" target="_blank" rel="noopener noreferrer">Fermi America</a> site-plan material. Figures as printed on the plan.</p>
         </div>
       </div>
     </div>
@@ -209,8 +215,10 @@
       <div>
         <span class="brand-word foot-brand">FERMI<em>WATCH</em></span>
         <span class="brand-sep" aria-hidden="true"></span>
-        <img class="fermi-logo" src="assets/fermi-logo-white.png" alt="Fermi America" />
-        <p class="foot-fine">Independent coverage tracker. Not affiliated with Fermi Inc. / Fermi America; the Fermi logo and site plan belong to Fermi America and identify the company we cover. Not investment advice.</p>
+        <a class="fermi-link" href="https://fermiamerica.com" target="_blank" rel="noopener noreferrer" aria-label="Fermi America website">
+          <img class="fermi-logo" src="assets/fermi-logo-white.png" alt="Fermi America" />
+        </a>
+        <p class="foot-fine">Independent coverage tracker. Not affiliated with <a href="https://fermiamerica.com" target="_blank" rel="noopener noreferrer">Fermi Inc. / Fermi America</a>; the Fermi logo and site plan belong to Fermi America and identify the company we cover. Not investment advice.</p>
       </div>
       <div class="foot-meta">
         <span>Sources: Google News · SEC EDGAR · Yahoo Finance · StockTwits · X (oEmbed)</span>

@@ -62,7 +62,11 @@ a { color: inherit; }
 .brand { flex: none; }
 .live-pill { flex: none; }
 
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-home { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; }
+.fermi-link { display: inline-flex; align-items: center; transition: opacity 130ms ease; }
+.fermi-link:hover { opacity: 0.7; }
+.map-credit a, .foot-fine a { color: var(--dim); }
 .brand-core {
   width: 14px; height: 14px; border-radius: 50%;
   background: radial-gradient(circle at 35% 35%, var(--amber), var(--amber-deep) 70%);
@@ -98,7 +102,7 @@ a { color: inherit; }
 /* Progressive slimming keeps everything on one line as the window narrows:
    tighter gaps, then drop the TRACKING+logo group, then collapse the nav. */
 @media (max-width: 1280px) { .topnav { gap: 16px; } .topnav a { letter-spacing: 0.1em; font-size: 12px; } }
-@media (max-width: 1120px) { .brand-sep, .brand-tracks, .topbar .fermi-logo { display: none; } .topnav { gap: 13px; } }
+@media (max-width: 1120px) { .brand-sep, .brand-tracks, .topbar .fermi-link { display: none; } .topnav { gap: 13px; } }
 @media (max-width: 880px) { .topnav { display: none; } }
 
 .live-pill {

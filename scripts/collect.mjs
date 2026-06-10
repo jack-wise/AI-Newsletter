@@ -92,14 +92,44 @@ async function main() {
       ),
     );
 
+  // X state (pay-per-use cost control + continuity): since_id watermarks mean
+  // each run reads only NEW tweets, so previously vetted tweets are persisted
+  // here and carried forward for 7 days (the recent-search window) — otherwise
+  // they would vanish from the site one cycle after arriving.
+  const xStatePath = join(root, "docs", "data", "x-state.json");
+  const xState = existsSync(xStatePath)
+    ? JSON.parse(readFileSync(xStatePath, "utf8"))
+    : { sinceId: {}, tweets: [] };
+  let xSkippedMsg = null;
+  async function collectX(t) {
+    try {
+      const out = await searchX(
+        t.xQuery,
+        config.x ?? {},
+        process.env.X_BEARER_TOKEN,
+        xState.sinceId?.[t.ticker] ?? null,
+      );
+      if (out.skipped) {
+        xSkippedMsg = out.skipped;
+        return [];
+      }
+      if (out.newestId) {
+        xState.sinceId = { ...(xState.sinceId ?? {}), [t.ticker]: out.newestId };
+      }
+      return out.items;
+    } catch (e) {
+      sourceErrors.push({ source: `x:${t.ticker}`, error: String(e?.message ?? e) });
+      return [];
+    }
+  }
+
   // Priority tickers: news queries + SEC filings + Yahoo headlines + X.
+  const xTasks = [];
   for (const t of config.priorityTickers ?? []) {
     for (const q of t.newsQueries ?? []) run(`google-news:${t.ticker}`, fetchGoogleNews(q));
     if (t.cik) run(`edgar:${t.ticker}`, fetchEdgarFilings(t.cik));
     run(`yahoo:${t.ticker}`, fetchYahooFinance(t.ticker));
-    if (t.xQuery) {
-      run(`x:${t.ticker}`, searchX(t.xQuery, config.x ?? {}, process.env.X_BEARER_TOKEN));
-    }
+    if (t.xQuery) xTasks.push(collectX(t));
   }
   // Related ecosystem (suppliers / potential tenants): news queries only, so the
   // big names don't swamp the run; their patterns also catch general-feed items.
@@ -111,7 +141,20 @@ async function main() {
   for (const q of config.generalQueries ?? []) run(`google-news:general`, fetchGoogleNews(q));
 
   const settled = await Promise.all(tasks);
-  const xSkipped = settled.find((s) => s.skipped)?.skipped ?? null;
+
+  // Merge new tweets into the persisted 7-day set (dedupe by tweet URL) and
+  // feed the MERGED set into the pipeline, so X items persist across runs.
+  const newTweets = (await Promise.all(xTasks)).flat();
+  const tweetCutoff = Date.now() - 7 * 86_400_000;
+  const tweetsByUrl = new Map(
+    (xState.tweets ?? [])
+      .filter((tw) => tw.publishedAt && Date.parse(tw.publishedAt) > tweetCutoff)
+      .map((tw) => [tw.url, tw]),
+  );
+  for (const tw of newTweets) tweetsByUrl.set(tw.url, tw);
+  xState.tweets = [...tweetsByUrl.values()];
+  settled.push({ label: "x:merged", items: xState.tweets });
+  const xSkipped = xSkippedMsg;
 
   // Normalize, tag, tier, dedupe (keep the best-tier copy of each cluster).
   const byKey = new Map();
@@ -167,6 +210,7 @@ async function main() {
   const dataDir = join(root, "docs", "data");
   mkdirSync(dataDir, { recursive: true });
   writeFileSync(join(dataDir, "news.json"), JSON.stringify(payload, null, 2));
+  writeFileSync(xStatePath, JSON.stringify(xState, null, 2));
 
   // Per-day archive: merge today's items by dedupe key so the day file grows
   // across runs without duplicates (an honest record of what the day surfaced).

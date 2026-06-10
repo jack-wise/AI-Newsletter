@@ -1,10 +1,17 @@
 // X (Twitter) ingestion with account-credibility vetting.
 //
-// Uses the official X API v2 recent-search endpoint, which requires a PAID plan
-// (Basic tier or above — the free tier cannot search). Provide the app's bearer
-// token as the X_BEARER_TOKEN secret; with no token this module is skipped and
-// the site notes that X coverage is off. Unofficial scraping is deliberately not
+// Uses the official X API v2 recent-search endpoint under X's pay-per-use
+// pricing (Feb 2026: ~$0.005 per post READ, billed per tweet returned; sign up
+// at console.x.com and set a monthly spend cap). Provide the app's bearer token
+// as the X_BEARER_TOKEN secret; with no token this module is skipped and the
+// site notes that X coverage is off. Unofficial scraping is deliberately not
 // implemented: it violates X's ToS and breaks without warning.
+//
+// COST CONTROL: the caller passes the newest tweet id seen on the previous run
+// (sinceId, persisted in docs/data/x-state.json between runs) so each cycle
+// reads ONLY new tweets — a no-news cycle returns zero results and bills zero.
+// A sinceId older than the 7-day search window makes the API 400; that one
+// case retries without sinceId rather than going dark.
 //
 // Credibility model (the "verify validity" gate): every tweet is scored 0-100
 // from its author's public signals — follower count, follower/following ratio,
@@ -75,24 +82,42 @@ export function credibilityScore(user, tweet, cfg) {
   return { score: Math.max(0, Math.min(100, score)), reasons };
 }
 
-export async function searchX(query, cfg, bearerToken) {
-  if (!bearerToken) return { items: [], skipped: "no X_BEARER_TOKEN configured" };
-
+async function recentSearch(query, cfg, bearerToken, sinceId) {
   const params = new URLSearchParams({
     query,
-    max_results: "50",
+    max_results: String(cfg.maxResults ?? 25),
     expansions: "author_id",
     "tweet.fields": "created_at,public_metrics,lang",
     "user.fields": "created_at,location,public_metrics,verified,verified_type,username,name",
   });
+  if (sinceId) params.set("since_id", sinceId);
   const res = await fetch(`${API}?${params}`, {
     headers: { Authorization: `Bearer ${bearerToken}` },
     signal: AbortSignal.timeout(20_000),
   });
   if (!res.ok) {
-    throw new Error(`X API HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    const detail = (await res.text()).slice(0, 200);
+    const err = new Error(`X API HTTP ${res.status}: ${detail}`);
+    err.status = res.status;
+    throw err;
   }
-  const body = await res.json();
+  return res.json();
+}
+
+export async function searchX(query, cfg, bearerToken, sinceId = null) {
+  if (!bearerToken) return { items: [], skipped: "no X_BEARER_TOKEN configured" };
+
+  let body;
+  try {
+    body = await recentSearch(query, cfg, bearerToken, sinceId);
+  } catch (e) {
+    // A stale since_id (older than the 7-day window) 400s; one retry without it.
+    if (e.status === 400 && sinceId) {
+      body = await recentSearch(query, cfg, bearerToken, null);
+    } else {
+      throw e;
+    }
+  }
   const users = new Map((body.includes?.users ?? []).map((u) => [u.id, u]));
 
   const items = [];
@@ -114,5 +139,7 @@ export async function searchX(query, cfg, bearerToken) {
       },
     });
   }
-  return { items };
+  // newest_id advances the caller's since_id watermark; null when nothing new
+  // (the caller keeps its previous watermark).
+  return { items, newestId: body.meta?.newest_id ?? null };
 }

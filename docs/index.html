@@ -3,53 +3,96 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Newsletter</title>
-  <meta name="description" content="AI & AI-infrastructure news, refreshed every 30 minutes. Priority coverage: FRMI." />
+  <title>AI Newsletter — FRMI Priority Coverage</title>
+  <meta name="description" content="AI & AI-infrastructure news, refreshed every 30 minutes. Priority coverage: FRMI (Fermi Inc.) and its ecosystem." />
+  <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0c0e12" media="(prefers-color-scheme: dark)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <h1 id="site-title">AI Newsletter</h1>
-      <p id="tagline" class="tagline">AI &amp; AI-infrastructure news, refreshed every 30 minutes</p>
-      <p class="meta-line">
-        <span id="updated">loading…</span>
-        <span id="x-status" class="x-status"></span>
-      </p>
+
+  <header class="masthead">
+    <div class="shell mast-inner">
+      <a class="brand" href="./">
+        <span class="brand-glyph" aria-hidden="true">◆</span>
+        <span class="brand-name">AI&nbsp;Newsletter</span>
+      </a>
+      <div class="mast-status">
+        <span class="pulse" aria-hidden="true"></span>
+        <span id="updated">Loading latest edition…</span>
+      </div>
     </div>
   </header>
 
-  <main class="wrap">
-    <section id="priority-section">
-      <h2><span class="badge priority-badge" id="priority-label">FRMI</span> Priority coverage</h2>
-      <ol id="priority-list" class="items"></ol>
-      <p id="priority-empty" class="empty" hidden>No priority-ticker stories in the current window.</p>
-    </section>
+  <div class="shell dateline">
+    <span id="edition-date">—</span>
+    <span class="dateline-sep" aria-hidden="true">·</span>
+    <span id="tagline">AI &amp; AI-infrastructure news, refreshed every 30 minutes</span>
+    <span class="dateline-sep" aria-hidden="true">·</span>
+    <span id="x-status" class="x-status"></span>
+  </div>
 
-    <section id="related-section">
-      <h2><span class="badge related-badge">Ecosystem</span> Fermi-adjacent: suppliers &amp; potential partners</h2>
-      <ol id="related-list" class="items"></ol>
-      <p id="related-empty" class="empty" hidden>No ecosystem stories in the current window.</p>
-    </section>
+  <main class="shell layout">
+    <div class="col-main">
 
-    <section id="general-section">
-      <h2>AI news</h2>
-      <ol id="general-list" class="items"></ol>
-      <p id="general-empty" class="empty" hidden>No stories collected yet — first run pending.</p>
-    </section>
+      <section id="priority-section" aria-labelledby="priority-heading">
+        <div class="kicker">
+          <span class="kicker-chip chip-frmi" id="priority-label">FRMI</span>
+          <h2 id="priority-heading">Priority coverage — Fermi Inc.</h2>
+          <span class="kicker-rule" aria-hidden="true"></span>
+        </div>
+        <div id="priority-lead"></div>
+        <div id="priority-list" class="stack"></div>
+        <p id="priority-empty" class="empty" hidden>No priority-ticker stories in the current window.</p>
+      </section>
+
+      <section id="related-section" aria-labelledby="related-heading">
+        <div class="kicker">
+          <span class="kicker-chip chip-eco">Ecosystem</span>
+          <h2 id="related-heading">Fermi-adjacent — suppliers &amp; potential partners</h2>
+          <span class="kicker-rule" aria-hidden="true"></span>
+        </div>
+        <div id="related-list" class="card-grid"></div>
+        <p id="related-empty" class="empty" hidden>No ecosystem stories in the current window.</p>
+      </section>
+
+    </div>
+
+    <aside class="col-side">
+      <section id="general-section" aria-labelledby="general-heading">
+        <div class="side-head">
+          <h2 id="general-heading">The AI Brief</h2>
+          <span class="side-head-note">latest from the wider field</span>
+        </div>
+        <ol id="general-list" class="brief"></ol>
+        <p id="general-empty" class="empty" hidden>No stories collected yet — first run pending.</p>
+      </section>
+
+      <section class="about" aria-label="About this site">
+        <h3>How this works</h3>
+        <p>
+          A collector sweeps Google News, SEC EDGAR, Yahoo Finance and X every
+          30 minutes, de-duplicates wire reprints, and ranks by source quality
+          and freshness. <strong>FRMI</strong> stories pin to the top;
+          X posts are credibility-vetted (followers, engagement, account age,
+          location) before they appear.
+        </p>
+        <p class="about-fine">Auto-generated · Not investment advice</p>
+      </section>
+    </aside>
   </main>
 
-  <footer class="wrap">
-    <p>
-      Auto-generated every 30 minutes by
-      <a href="https://github.com/jack-wise/AI-Newsletter">AI-Newsletter</a>.
-      Sources: Google News, SEC EDGAR, Yahoo Finance, X (when enabled).
-      X items are credibility-vetted (followers, engagement, account age, location);
-      vetting is heuristic, not an endorsement. Not investment advice.
-    </p>
+  <footer>
+    <div class="shell foot-inner">
+      <span>© 2026 AI Newsletter · <a href="https://github.com/jack-wise/AI-Newsletter">Source on GitHub</a></span>
+      <span>Sources: Google News · SEC EDGAR · Yahoo Finance · X (when enabled)</span>
+    </div>
   </footer>
 
-  <noscript><p class="wrap empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
+  <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
   <script src="app.js"></script>
 </body>
 </html>

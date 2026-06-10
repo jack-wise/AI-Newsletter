@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Newsletter</title>
+  <meta name="description" content="AI & AI-infrastructure news, refreshed every 30 minutes. Priority coverage: FRMI." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1 id="site-title">AI Newsletter</h1>
+      <p id="tagline" class="tagline">AI &amp; AI-infrastructure news, refreshed every 30 minutes</p>
+      <p class="meta-line">
+        <span id="updated">loading…</span>
+        <span id="x-status" class="x-status"></span>
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="priority-section">
+      <h2><span class="badge priority-badge" id="priority-label">FRMI</span> Priority coverage</h2>
+      <ol id="priority-list" class="items"></ol>
+      <p id="priority-empty" class="empty" hidden>No priority-ticker stories in the current window.</p>
+    </section>
+
+    <section id="general-section">
+      <h2>AI news</h2>
+      <ol id="general-list" class="items"></ol>
+      <p id="general-empty" class="empty" hidden>No stories collected yet — first run pending.</p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>
+      Auto-generated every 30 minutes by
+      <a href="https://github.com/jack-wise/AI-Newsletter">AI-Newsletter</a>.
+      Sources: Google News, SEC EDGAR, Yahoo Finance, X (when enabled).
+      X items are credibility-vetted (followers, engagement, account age, location);
+      vetting is heuristic, not an endorsement. Not investment advice.
+    </p>
+  </footer>
+
+  <noscript><p class="wrap empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+# Collects news every 30 minutes and commits the refreshed data, which GitHub
+# Pages (serving /docs on main) picks up automatically.
+#
+# Notes:
+# - GitHub cron is best-effort; runs can start a few minutes late under load.
+# - Scheduled workflows pause after ~60 days without repo activity; the
+#   collector's own commits keep the repo active.
+# - X coverage activates when the X_BEARER_TOKEN secret is set (paid X API
+#   Basic tier or above; the free tier cannot search).
+
+name: update-newsletter
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-newsletter
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Collect news
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: node scripts/collect.mjs
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "newsletter-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No changes this cycle."
+            exit 0
+          fi
+          git commit -m "data: refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
+          # A concurrent push (e.g. a manual edit) should not kill the cycle.
+          git pull --rebase origin main
+          git push origin main

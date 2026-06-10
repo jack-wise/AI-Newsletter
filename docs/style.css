@@ -1,0 +1,68 @@
+:root {
+  --bg: #0e1116;
+  --panel: #161b22;
+  --line: #283038;
+  --ink: #e6edf3;
+  --dim: #9aa7b1;
+  --faint: #6b7681;
+  --accent: #4ade80;
+  --amber: #f4b740;
+  --blue: #58a6ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+
+header { border-bottom: 1px solid var(--line); padding: 28px 0 18px; background: var(--panel); }
+h1 { margin: 0; font-size: 26px; letter-spacing: 0.3px; }
+.tagline { margin: 6px 0 0; color: var(--dim); }
+.meta-line { margin: 10px 0 0; font-size: 12.5px; color: var(--faint); display: flex; gap: 14px; flex-wrap: wrap; }
+.x-status { color: var(--faint); }
+
+main { padding: 10px 20px 30px; }
+h2 { font-size: 17px; margin: 28px 0 10px; display: flex; align-items: center; gap: 10px; }
+
+.items { list-style: none; margin: 0; padding: 0; }
+.item {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 0 0 10px;
+}
+.item a { color: var(--ink); text-decoration: none; font-weight: 600; }
+.item a:hover { color: var(--blue); text-decoration: underline; }
+.item-meta { margin-top: 6px; font-size: 12px; color: var(--faint); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
+.kind-filing { border-left: 3px solid var(--accent); }
+.kind-tweet { border-left: 3px solid var(--blue); }
+.tier-0 { border-color: #2f4538; }
+
+.badge {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+.priority-badge { background: rgba(74, 222, 128, 0.14); color: var(--accent); border: 1px solid rgba(74, 222, 128, 0.4); }
+.ticker-badge { background: rgba(74, 222, 128, 0.12); color: var(--accent); }
+.filing-badge { background: rgba(74, 222, 128, 0.12); color: var(--accent); }
+.cred-badge { background: rgba(88, 166, 255, 0.12); color: var(--blue); }
+.cred-high { background: rgba(74, 222, 128, 0.12); color: var(--accent); }
+.cred-medium { background: rgba(244, 183, 64, 0.12); color: var(--amber); }
+
+.empty { color: var(--faint); font-style: italic; }
+
+footer { border-top: 1px solid var(--line); padding: 16px 20px 28px; font-size: 12px; color: var(--faint); }
+footer a { color: var(--dim); }

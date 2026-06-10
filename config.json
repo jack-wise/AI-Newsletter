@@ -1,0 +1,53 @@
+{
+  "siteTitle": "AI Newsletter",
+  "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
+  "priorityTickers": [
+    {
+      "ticker": "FRMI",
+      "company": "Fermi Inc.",
+      "cik": "0002071778",
+      "patterns": [
+        "\\bFRMI\\b",
+        "Fermi Inc",
+        "Fermi America",
+        "Project Matador",
+        "Neugebauer"
+      ],
+      "newsQueries": [
+        "\"FRMI\" OR \"Fermi Inc\" stock",
+        "\"Fermi America\" OR \"Project Matador\""
+      ],
+      "xQuery": "(FRMI OR \"Fermi Inc\" OR \"Fermi America\" OR \"Project Matador\") -is:retweet lang:en"
+    }
+  ],
+  "generalQueries": [
+    "artificial intelligence news",
+    "AI data center power",
+    "OpenAI OR Anthropic OR Nvidia AI",
+    "AI infrastructure investment"
+  ],
+  "limits": {
+    "priorityItems": 30,
+    "generalItems": 50,
+    "perFeed": 25
+  },
+  "x": {
+    "minCredibility": 45,
+    "minFollowers": 200,
+    "minAccountAgeDays": 90,
+    "boostLocations": ["united states", "usa", "us", "texas", "new york", "houston", "amarillo"]
+  },
+  "sourceTiers": {
+    "0": ["sec.gov"],
+    "1": [
+      "reuters.com", "bloomberg.com", "apnews.com", "wsj.com", "cnbc.com",
+      "barrons.com", "ft.com", "marketwatch.com", "prnewswire.com",
+      "businesswire.com", "globenewswire.com", "axios.com", "theinformation.com"
+    ],
+    "2": [
+      "seekingalpha.com", "morningstar.com", "fool.com", "stocktitan.net",
+      "investing.com", "benzinga.com", "techcrunch.com", "theverge.com",
+      "arstechnica.com", "venturebeat.com"
+    ]
+  }
+}

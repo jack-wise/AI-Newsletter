@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
 </head>
 <body>
 
@@ -42,6 +42,16 @@
       <div class="hero-grid"></div>
       <div class="hero-glow glow-a"></div>
       <div class="hero-glow glow-b"></div>
+    </div>
+    <!-- Decorative side visuals: fill the wide-viewport flanks; hidden when
+         the layout narrows and the space disappears. -->
+    <div class="hero-side hero-side-left" aria-hidden="true">
+      <figure class="side-panel sp-a"><figcaption>GRID-INDEPENDENT POWER</figcaption></figure>
+      <figure class="side-panel sp-b"><figcaption>GENERATION AT SCALE</figcaption></figure>
+    </div>
+    <div class="hero-side hero-side-right" aria-hidden="true">
+      <figure class="side-panel sp-c"><figcaption>HYPERSCALE COMPUTE</figcaption></figure>
+      <figure class="side-panel sp-d"><figcaption>ALWAYS ON · 30-MIN SWEEP</figcaption></figure>
     </div>
     <div class="shell hero-inner">
       <p class="hero-kicker reveal">NASDAQ&nbsp;:&nbsp;FRMI · AMARILLO, TEXAS · PROJECT MATADOR</p>

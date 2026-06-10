@@ -16,17 +16,24 @@ GitHub Actions (cron */30) ──► scripts/collect.mjs ──► docs/data/new
   - Google News RSS — per-query searches (FRMI queries + general AI queries)
   - SEC EDGAR Atom — every Fermi Inc. filing (8-K, DFAN14A, Form 4 …), Tier 0
   - Yahoo Finance RSS — FRMI headlines
-- **X (Twitter) — optional, key needed:** the official X API v2 recent search
-  under X's **pay-per-use pricing** (Feb 2026: ~$0.005 per post read, billed
-  per tweet returned; sign up at console.x.com, add a payment method, and set
-  a monthly spend cap). Add the app bearer token as the `X_BEARER_TOKEN` repo
-  secret and X coverage switches on automatically. Cost control is built in:
-  a per-ticker `since_id` watermark (persisted in `docs/data/x-state.json`)
-  means each run reads only NEW tweets — a quiet cycle bills zero — and vetted
-  tweets are carried forward for 7 days so they stay on the site. Expected
-  cost at FRMI tweet volume: a few dollars per month. Unofficial scraping is
-  deliberately not implemented (ToS + breakage). The site shows whether X
-  coverage is on or off.
+- **Social — keyless (default):** two free channels, no X API spend:
+  - **StockTwits** public symbol stream — finance chatter where the API
+    exposes author followers, join date, and official badges, so the **full
+    credibility gate applies** (same thresholds as X vetting).
+  - **Reddit-discovered X links** — Reddit's search Atom feed (the JSON API
+    403s without OAuth) surfaces posts sharing `x.com/...status/...` links,
+    which are hydrated through **X's official oEmbed endpoint**
+    (publish.twitter.com, keyless, built for embedding). oEmbed exposes no
+    author metadata, so these render with an honest **"limited" trust badge**
+    — content without follower/location vetting. We never scrape x.com.
+- **X official API — optional upgrade:** API v2 recent search under X's
+  **pay-per-use pricing** (Feb 2026: ~$0.005 per post read; console.x.com,
+  set a monthly spend cap). Add the bearer token as the `X_BEARER_TOKEN` repo
+  secret and full-vetting X search switches on automatically. Cost control is
+  built in: a per-ticker `since_id` watermark (persisted in
+  `docs/data/x-state.json`) means each run reads only NEW tweets — a quiet
+  cycle bills zero — and vetted tweets carry forward for 7 days. Expected
+  cost at FRMI volume: a few dollars per month.
 - **X credibility vetting:** every tweet's author is scored 0–100 on follower
   count, follower/following ratio, account age, verified status, stated
   location (configurable region boost), and the tweet's engagement. Tweets

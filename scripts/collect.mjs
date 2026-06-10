@@ -10,6 +10,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchGoogleNews, fetchEdgarFilings, fetchYahooFinance } from "./sources.mjs";
 import { searchX } from "./x.mjs";
+import { fetchStockTwits, fetchRedditXLinks } from "./social.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(readFileSync(join(root, "config.json"), "utf8"));
@@ -21,7 +22,7 @@ for (const [tier, domains] of Object.entries(config.sourceTiers ?? {})) {
 }
 function sourceTier(item) {
   if (item.kind === "filing") return 0;
-  if (item.kind === "tweet") return 2;
+  if (item.kind === "tweet" || item.kind === "social") return 2;
   try {
     const host = new URL(item.url).hostname.replace(/^www\./, "");
     for (const [domain, tier] of tierByDomain) {
@@ -131,6 +132,18 @@ async function main() {
     run(`yahoo:${t.ticker}`, fetchYahooFinance(t.ticker));
     if (t.xQuery) xTasks.push(collectX(t));
   }
+  // Keyless social coverage (no X API needed): StockTwits per symbol (full
+  // credibility gate — the API exposes author followers/age/official badge),
+  // and Reddit-discovered X links hydrated via X's official oEmbed (labeled
+  // trust:"limited" since oEmbed exposes no author metadata to vet).
+  const socialCfg = { ...(config.x ?? {}), ...(config.social ?? {}) };
+  for (const sym of config.social?.stocktwitsSymbols ?? []) {
+    run(`stocktwits:${sym}`, fetchStockTwits(sym, socialCfg));
+  }
+  for (const q of config.social?.redditQueries ?? []) {
+    run(`reddit-x`, fetchRedditXLinks(q, socialCfg));
+  }
+
   // Related ecosystem (suppliers / potential tenants): news queries only, so the
   // big names don't swamp the run; their patterns also catch general-feed items.
   for (const t of config.relatedTickers ?? []) {
@@ -200,7 +213,9 @@ async function main() {
     tagline: config.tagline,
     priorityTickers: (config.priorityTickers ?? []).map((t) => t.ticker),
     relatedTickers: (config.relatedTickers ?? []).map((t) => t.ticker ?? t.company),
-    xStatus: xSkipped ? `X coverage off — ${xSkipped}` : "X coverage on",
+    xStatus: xSkipped
+      ? "X via open-web discovery (oEmbed) + StockTwits — official X API off"
+      : "X coverage on (official API)",
     priority,
     related,
     general,

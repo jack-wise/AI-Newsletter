@@ -64,6 +64,11 @@
       "newsQueries": ["Siemens Energy turbines AI data center"]
     }
   ],
+  "social": {
+    "stocktwitsSymbols": ["FRMI"],
+    "redditQueries": ["FRMI OR \"Fermi Inc\" OR \"Fermi America\" OR \"Project Matador\""],
+    "maxHydrations": 8
+  },
   "generalQueries": [
     "artificial intelligence news",
     "AI data center power",

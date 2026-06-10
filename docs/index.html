@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=14" />
+  <link rel="stylesheet" href="style.css?v=15" />
 </head>
 <body>
 
@@ -154,6 +154,7 @@
         <button class="tab" role="tab" aria-selected="false" data-tab="social" id="tab-social">SOCIAL<span class="tab-note">VETTED</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="brief" id="tab-brief">AI BRIEF<span class="tab-note">THE FIELD</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="reports" id="tab-reports">REPORTS<span class="tab-note">AI RESEARCH</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="queequeg" id="tab-queequeg">QUEEQUEG<span class="tab-note">LIVE CHAT</span></button>
       </div>
 
       <section class="panel is-active" id="panel-frmi" role="tabpanel" aria-labelledby="tab-frmi">
@@ -194,6 +195,33 @@
           No reports yet — they generate each weekday pre-market once the
           ANTHROPIC_API_KEY secret is configured.
         </p>
+      </section>
+
+      <section class="panel" id="panel-queequeg" role="tabpanel" aria-labelledby="tab-queequeg" hidden>
+        <p class="panel-note">
+          Live chat with <strong>queequeg</strong>, the Donovan Ventures quant-research agent.
+          Ask about any ticker or sector, or fire a command:
+          <code>/banker FRMI full</code>,
+          <code>/earnings NVDA</code>,
+          <code>/market-research AI data-center power</code>,
+          <code>/model-builder FRMI dcf</code>.
+          Grounded in live web search. AI-generated — verify before acting. Not investment advice.
+        </p>
+        <div class="chat" id="chat">
+          <div class="chat-log" id="chat-log" aria-live="polite">
+            <div class="chat-msg chat-msg-bot">
+              <div class="chat-bubble">
+                <p><strong>queequeg</strong> — quant research, ready. Try <code>/banker FRMI</code> or just ask me about a stock or sector.</p>
+              </div>
+            </div>
+          </div>
+          <form class="chat-form" id="chat-form" autocomplete="off">
+            <input class="chat-input" id="chat-input" type="text"
+              placeholder="Ask queequeg, or type a command like /banker FRMI…"
+              aria-label="Message queequeg" />
+            <button class="btn btn-solid btn-sm chat-send" id="chat-send" type="submit">SEND</button>
+          </form>
+        </div>
       </section>
     </div>
   </main>
@@ -262,6 +290,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
 </body>
 </html>

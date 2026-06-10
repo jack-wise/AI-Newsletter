@@ -410,6 +410,87 @@ document.querySelector(".map-frame")?.addEventListener("click", (e) => {
   );
 });
 
+// ---- queequeg chat -------------------------------------------------------------
+
+// Cloudflare Worker endpoint that proxies to the queequeg persona.
+// After deploying worker/, paste the printed URL here (…workers.dev).
+const QUEEQUEG_ENDPOINT = "https://queequeg-chat.REPLACE-ME.workers.dev";
+
+const chatHistory = []; // {role:"user"|"assistant", content:string}
+
+function chatBubble(role, node) {
+  const wrap = el("div", `chat-msg chat-msg-${role === "user" ? "user" : "bot"}`);
+  const bubble = el("div", "chat-bubble");
+  bubble.appendChild(node);
+  wrap.appendChild(bubble);
+  return wrap;
+}
+
+function initChat() {
+  const form = document.getElementById("chat-form");
+  const input = document.getElementById("chat-input");
+  const log = document.getElementById("chat-log");
+  const sendBtn = document.getElementById("chat-send");
+  if (!form || !input || !log) return;
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const text = input.value.trim();
+    if (!text) return;
+
+    // Render the user's message.
+    log.appendChild(chatBubble("user", el("p", null, text)));
+    chatHistory.push({ role: "user", content: text });
+    input.value = "";
+    log.scrollTop = log.scrollHeight;
+
+    // Typing indicator.
+    const thinking = chatBubble("bot", el("p", "chat-typing", "queequeg is researching…"));
+    log.appendChild(thinking);
+    log.scrollTop = log.scrollHeight;
+    input.disabled = true;
+    sendBtn.disabled = true;
+
+    if (QUEEQUEG_ENDPOINT.includes("REPLACE-ME")) {
+      thinking.remove();
+      const warn = el("p", null,
+        "Chat backend not configured yet. Deploy worker/ and set QUEEQUEG_ENDPOINT in app.js.");
+      log.appendChild(chatBubble("bot", warn));
+      input.disabled = false;
+      sendBtn.disabled = false;
+      input.focus();
+      return;
+    }
+
+    try {
+      const res = await fetch(QUEEQUEG_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: chatHistory }),
+      });
+      const data = await res.json();
+      thinking.remove();
+      if (!res.ok || data.error) {
+        const msg = el("p", null, `Error: ${data.error || res.status}`);
+        log.appendChild(chatBubble("bot", msg));
+      } else {
+        const reply = data.reply || "(no response)";
+        chatHistory.push({ role: "assistant", content: reply });
+        log.appendChild(chatBubble("bot", renderMarkdown(reply)));
+      }
+    } catch (err) {
+      thinking.remove();
+      log.appendChild(chatBubble("bot", el("p", null, `Network error: ${err.message}`)));
+    } finally {
+      input.disabled = false;
+      sendBtn.disabled = false;
+      input.focus();
+      log.scrollTop = log.scrollHeight;
+    }
+  });
+}
+initChat();
+
 // ---- tabs ----------------------------------------------------------------------
 
 function activateTab(name) {

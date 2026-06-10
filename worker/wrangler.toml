@@ -1,0 +1,10 @@
+name = "queequeg-chat"
+main = "queequeg-worker.js"
+compatibility_date = "2026-06-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://jack-wise.github.io"
+MODEL = "claude-opus-4-8"
+
+# Set the API key as a secret (NOT here):
+#   cd worker && wrangler secret put ANTHROPIC_API_KEY

@@ -48,6 +48,10 @@ jobs:
 
       - name: Commit reports
         run: |
+          if [ ! -d docs/data/reports ]; then
+            echo "No reports directory — run was skipped (no API key) or produced nothing."
+            exit 0
+          fi
           git config user.name "newsletter-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/data/reports

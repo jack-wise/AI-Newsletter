@@ -1,10 +1,9 @@
-// Renders data/news.json into the editorial layout: a serif lead story +
-// stacked cards for FRMI, a card grid for the ecosystem, and a numbered
-// sidebar brief for general AI news. Re-polls every 5 minutes so an open tab
-// tracks the 30-minute collector. All text is set via textContent (no HTML
-// injection from feed data).
+// FERMI WATCH front end: fills the five tab panels from data/news.json, runs
+// the tab switcher, count-up stats, and scroll reveals. Re-polls every 5
+// minutes. All feed text is set via textContent (no HTML injection).
 
 const TIER_LABELS = { 0: "Primary", 1: "Wire", 2: "Analysis", 3: "Web" };
+const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function timeAgo(iso) {
   if (!iso) return "undated";
@@ -17,8 +16,6 @@ function timeAgo(iso) {
   return `${Math.round(hours / 24)}d ago`;
 }
 
-// Strip Google News' " - Publisher" suffix for display; the publisher is
-// already shown in the meta row.
 function displayTitle(item) {
   const m = /^(.*\S)\s+-\s+[^-]{2,60}$/.exec(item.title);
   return item.kind === "news" && m ? m[1] : item.title;
@@ -33,11 +30,7 @@ function el(tag, className, text) {
 
 function favicon(item) {
   let host = null;
-  try {
-    host = new URL(item.url).hostname;
-  } catch {
-    return null;
-  }
+  try { host = new URL(item.url).hostname; } catch { return null; }
   const img = el("img", "favicon");
   img.src = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(host)}&sz=32`;
   img.alt = "";
@@ -50,25 +43,19 @@ function tags(item) {
   const out = [];
   for (const t of item.tickers ?? []) out.push(el("span", "tag tag-ticker", t));
   for (const t of item.related ?? []) out.push(el("span", "tag tag-eco", t));
-  if (item.kind === "filing") out.push(el("span", "tag tag-sec", "SEC filing"));
+  if (item.kind === "filing") out.push(el("span", "tag tag-sec", "SEC"));
   if (item.credibility) {
-    const c = el(
-      "span",
-      `tag tag-x-${item.credibility.trust}`,
-      `X · ${item.credibility.trust} trust`,
-    );
+    const c = el("span", `tag tag-x-${item.credibility.trust}`, `${item.credibility.trust} trust`);
     c.title = (item.credibility.reasons ?? []).join(" · ");
     out.push(c);
   }
   return out;
 }
 
-function metaRow(item, { withIcon = true } = {}) {
+function metaRow(item) {
   const meta = el("div", "meta");
-  if (withIcon) {
-    const icon = favicon(item);
-    if (icon) meta.appendChild(icon);
-  }
+  const icon = favicon(item);
+  if (icon) meta.appendChild(icon);
   meta.appendChild(el("span", "src", item.source ?? "Unknown source"));
   meta.appendChild(el("span", "dot"));
   const when = el("span", null, timeAgo(item.publishedAt));
@@ -80,30 +67,37 @@ function metaRow(item, { withIcon = true } = {}) {
   return meta;
 }
 
-function storyLink(href) {
+function storyLink(href, className) {
   const a = document.createElement("a");
   a.href = href;
   a.target = "_blank";
   a.rel = "noopener noreferrer";
+  if (className) a.className = className;
   return a;
 }
 
 function leadCard(item) {
-  const a = storyLink(item.url);
-  a.className = "lead";
-  const eyebrow = el("div", "lead-eyebrow");
-  eyebrow.appendChild(el("span", null, "Top story"));
-  a.appendChild(eyebrow);
+  const a = storyLink(item.url, "lead");
+  a.appendChild(el("div", "lead-eyebrow", "TOP STORY — FRMI"));
   a.appendChild(el("h3", "lead-title", displayTitle(item)));
   a.appendChild(metaRow(item));
   return a;
 }
 
 function storyCard(item) {
-  const a = storyLink(item.url);
-  a.className = "card";
+  const a = storyLink(item.url, "card");
   a.appendChild(el("h3", "card-title", displayTitle(item)));
   a.appendChild(metaRow(item));
+  return a;
+}
+
+function filingRow(item) {
+  const a = storyLink(item.url, "row");
+  // "SEC filing: DFAN14A — Fermi Inc. (desc)" -> form + remainder
+  const m = /^SEC filing:\s*([^—]+)—\s*(.*)$/.exec(item.title);
+  a.appendChild(el("span", "row-form", (m?.[1] ?? "FILING").trim()));
+  a.appendChild(el("span", "row-title", (m?.[2] ?? item.title).trim()));
+  a.appendChild(el("span", "row-date", item.publishedAt ? item.publishedAt.slice(0, 10) : ""));
   return a;
 }
 
@@ -111,62 +105,115 @@ function briefRow(item) {
   const li = document.createElement("li");
   const a = storyLink(item.url);
   a.textContent = displayTitle(item);
-  const meta = el("span", "brief-meta", `${item.source ?? ""} · ${timeAgo(item.publishedAt)}`);
-  a.appendChild(meta);
+  a.appendChild(el("span", "brief-meta", `${item.source ?? ""} · ${timeAgo(item.publishedAt)}`));
   li.appendChild(a);
   return li;
 }
 
-function setSkeletons() {
-  document.getElementById("priority-lead").replaceChildren(el("div", "skeleton skeleton-lead"));
-  document
-    .getElementById("priority-list")
-    .replaceChildren(el("div", "skeleton"), el("div", "skeleton"));
-  document
-    .getElementById("related-list")
-    .replaceChildren(el("div", "skeleton"), el("div", "skeleton"));
+function fill(listId, emptyId, nodes) {
+  document.getElementById(listId).replaceChildren(...nodes);
+  document.getElementById(emptyId).hidden = nodes.length > 0;
 }
 
+// ---- count-up stats ----------------------------------------------------------
+
+function countUp(node, target) {
+  if (REDUCED || target <= 0) { node.textContent = String(target); return; }
+  const dur = 900;
+  const t0 = performance.now();
+  function tick(t) {
+    const p = Math.min(1, (t - t0) / dur);
+    node.textContent = String(Math.round(target * (1 - Math.pow(1 - p, 3))));
+    if (p < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+// ---- render -------------------------------------------------------------------
+
 function render(data) {
-  // Masthead + dateline
+  const all = [...(data.priority ?? []), ...(data.related ?? []), ...(data.general ?? [])];
+
   document.getElementById("updated").textContent =
-    `Updated ${timeAgo(data.generatedAt)} — refreshes every 30 min`;
-  document.getElementById("edition-date").textContent = new Date(
-    data.generatedAt,
-  ).toLocaleDateString(undefined, {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-  if (data.tagline) document.getElementById("tagline").textContent = data.tagline;
+    `LIVE · UPDATED ${timeAgo(data.generatedAt).toUpperCase()}`;
+  document.getElementById("edition-date").textContent = new Date(data.generatedAt)
+    .toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" });
   document.getElementById("x-status").textContent = data.xStatus ?? "";
-  document.getElementById("priority-label").textContent =
-    (data.priorityTickers ?? []).join(" · ") || "Priority";
 
-  // Priority: serif lead + stacked cards
+  // FRMI panel
   const priority = data.priority ?? [];
-  document
-    .getElementById("priority-lead")
+  document.getElementById("frmi-lead")
     .replaceChildren(...(priority.length ? [leadCard(priority[0])] : []));
-  document
-    .getElementById("priority-list")
-    .replaceChildren(...priority.slice(1, 12).map(storyCard));
-  document.getElementById("priority-empty").hidden = priority.length > 0;
+  fill("frmi-list", "frmi-empty", priority.slice(1, 13).map(storyCard));
+  document.getElementById("frmi-empty").hidden = priority.length > 0;
 
-  // Ecosystem: two-column card grid
-  const related = data.related ?? [];
-  document
-    .getElementById("related-list")
-    .replaceChildren(...related.slice(0, 12).map(storyCard));
-  document.getElementById("related-empty").hidden = related.length > 0;
+  // Ecosystem panel
+  fill("eco-list", "eco-empty", (data.related ?? []).slice(0, 12).map(storyCard));
 
-  // Sidebar brief
-  const general = data.general ?? [];
-  document
-    .getElementById("general-list")
-    .replaceChildren(...general.slice(0, 14).map(briefRow));
-  document.getElementById("general-empty").hidden = general.length > 0;
+  // Filings panel (chronological)
+  const filings = all
+    .filter((i) => i.kind === "filing")
+    .sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
+  fill("filings-list", "filings-empty", filings.slice(0, 20).map(filingRow));
+
+  // Social panel
+  const social = all.filter((i) => i.kind === "tweet" || i.kind === "social");
+  fill("social-list", "social-empty", social.slice(0, 12).map(storyCard));
+
+  // AI brief panel
+  fill("brief-list", "brief-empty", (data.general ?? []).slice(0, 16).map(briefRow));
+
+  // Stat band
+  countUp(document.getElementById("stat-stories"), all.length);
+  countUp(document.getElementById("stat-filings"), filings.length);
+  countUp(document.getElementById("stat-sources"), new Set(all.map((i) => i.source)).size);
+}
+
+// ---- tabs ----------------------------------------------------------------------
+
+function activateTab(name) {
+  for (const tab of document.querySelectorAll(".tab")) {
+    const active = tab.dataset.tab === name;
+    tab.classList.toggle("is-active", active);
+    tab.setAttribute("aria-selected", String(active));
+  }
+  for (const panel of document.querySelectorAll(".panel")) {
+    panel.hidden = panel.id !== `panel-${name}`;
+  }
+}
+
+for (const tab of document.querySelectorAll(".tab")) {
+  tab.addEventListener("click", () => activateTab(tab.dataset.tab));
+}
+// Nav links + hero CTAs carry data-nav: jump to coverage AND switch the tab.
+for (const link of document.querySelectorAll("[data-nav]")) {
+  link.addEventListener("click", () => activateTab(link.dataset.nav));
+}
+
+// ---- scroll reveals -------------------------------------------------------------
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    for (const e of entries) {
+      if (e.isIntersecting) {
+        e.target.classList.add("in");
+        observer.unobserve(e.target);
+      }
+    }
+  },
+  { threshold: 0.12 },
+);
+for (const node of document.querySelectorAll(".reveal")) {
+  if (REDUCED) node.classList.add("in");
+  else observer.observe(node);
+}
+
+// ---- load loop ------------------------------------------------------------------
+
+function setSkeletons() {
+  document.getElementById("frmi-lead").replaceChildren(el("div", "skeleton skeleton-lead"));
+  document.getElementById("frmi-list").replaceChildren(el("div", "skeleton"), el("div", "skeleton"));
+  document.getElementById("eco-list").replaceChildren(el("div", "skeleton"), el("div", "skeleton"));
 }
 
 let loadedOnce = false;
@@ -179,12 +226,11 @@ async function load() {
     render(await res.json());
     loadedOnce = true;
   } catch (e) {
-    document.getElementById("updated").textContent =
-      `Couldn't load the latest edition (${e.message}) — retrying shortly.`;
+    document.getElementById("updated").textContent = `OFFLINE · RETRYING (${e.message})`;
     if (!loadedOnce) {
-      document.getElementById("priority-lead").replaceChildren();
-      document.getElementById("priority-list").replaceChildren();
-      document.getElementById("related-list").replaceChildren();
+      for (const id of ["frmi-lead", "frmi-list", "eco-list"]) {
+        document.getElementById(id).replaceChildren();
+      }
     }
   }
 }

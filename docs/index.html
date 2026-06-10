@@ -3,92 +3,143 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Newsletter — FRMI Priority Coverage</title>
-  <meta name="description" content="AI & AI-infrastructure news, refreshed every 30 minutes. Priority coverage: FRMI (Fermi Inc.) and its ecosystem." />
-  <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#0c0e12" media="(prefers-color-scheme: dark)" />
+  <title>FERMI WATCH — AI Power Intelligence, Every 30 Minutes</title>
+  <meta name="description" content="Live intelligence on Fermi Inc. (NASDAQ: FRMI) and the AI-power buildout. News, SEC filings, and vetted social — refreshed every 30 minutes." />
+  <meta name="theme-color" content="#05080f" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header class="masthead">
-    <div class="shell mast-inner">
+  <!-- ======== TOP NAV ======== -->
+  <header class="topbar">
+    <div class="shell topbar-inner">
       <a class="brand" href="./">
-        <span class="brand-glyph" aria-hidden="true">◆</span>
-        <span class="brand-name">AI&nbsp;Newsletter</span>
+        <span class="brand-core" aria-hidden="true"></span>
+        <span class="brand-word">FERMI<em>WATCH</em></span>
       </a>
-      <div class="mast-status">
+      <nav class="topnav" aria-label="Sections">
+        <a href="#coverage" data-nav="frmi">FRMI</a>
+        <a href="#coverage" data-nav="eco">Ecosystem</a>
+        <a href="#coverage" data-nav="filings">Filings</a>
+        <a href="#coverage" data-nav="social">Social</a>
+        <a href="#coverage" data-nav="brief">AI Brief</a>
+      </nav>
+      <div class="live-pill">
         <span class="pulse" aria-hidden="true"></span>
-        <span id="updated">Loading latest edition…</span>
+        <span id="updated">SYNCING…</span>
       </div>
     </div>
   </header>
 
-  <div class="shell dateline">
-    <span id="edition-date">—</span>
-    <span class="dateline-sep" aria-hidden="true">·</span>
-    <span id="tagline">AI &amp; AI-infrastructure news, refreshed every 30 minutes</span>
-    <span class="dateline-sep" aria-hidden="true">·</span>
-    <span id="x-status" class="x-status"></span>
-  </div>
-
-  <main class="shell layout">
-    <div class="col-main">
-
-      <section id="priority-section" aria-labelledby="priority-heading">
-        <div class="kicker">
-          <span class="kicker-chip chip-frmi" id="priority-label">FRMI</span>
-          <h2 id="priority-heading">Priority coverage — Fermi Inc.</h2>
-          <span class="kicker-rule" aria-hidden="true"></span>
-        </div>
-        <div id="priority-lead"></div>
-        <div id="priority-list" class="stack"></div>
-        <p id="priority-empty" class="empty" hidden>No priority-ticker stories in the current window.</p>
-      </section>
-
-      <section id="related-section" aria-labelledby="related-heading">
-        <div class="kicker">
-          <span class="kicker-chip chip-eco">Ecosystem</span>
-          <h2 id="related-heading">Fermi-adjacent — suppliers &amp; potential partners</h2>
-          <span class="kicker-rule" aria-hidden="true"></span>
-        </div>
-        <div id="related-list" class="card-grid"></div>
-        <p id="related-empty" class="empty" hidden>No ecosystem stories in the current window.</p>
-      </section>
-
+  <!-- ======== HERO ======== -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="hero-glow glow-a"></div>
+      <div class="hero-glow glow-b"></div>
     </div>
+    <div class="shell hero-inner">
+      <p class="hero-kicker reveal">NASDAQ&nbsp;:&nbsp;FRMI · AMARILLO, TEXAS · PROJECT MATADOR</p>
+      <h1 class="hero-title">
+        <span class="reveal d1">AI DEMAND HAS</span>
+        <span class="reveal d2">OUTRUN THE NEWS CYCLE.</span>
+        <span class="reveal d3 accent">WE'RE TRACKING IT.</span>
+      </h1>
+      <p class="hero-sub reveal d4">
+        Every 30 minutes, this site sweeps the wires, SEC EDGAR, and vetted social
+        for <strong>Fermi Inc.</strong> and the companies powering the AI buildout —
+        ranked by source quality, deduplicated, and timestamped.
+      </p>
+      <div class="hero-ctas reveal d5">
+        <a class="btn btn-solid" href="#coverage" data-nav="frmi">VIEW FRMI COVERAGE</a>
+        <a class="btn btn-ghost" href="#coverage" data-nav="filings">LATEST SEC FILINGS</a>
+      </div>
+    </div>
+    <div class="shell statband reveal d6" id="statband">
+      <div class="stat"><span class="stat-num" id="stat-stories" data-suffix="">0</span><span class="stat-label">STORIES TRACKED NOW</span></div>
+      <div class="stat"><span class="stat-num" id="stat-filings" data-suffix="">0</span><span class="stat-label">SEC FILINGS IN FEED</span></div>
+      <div class="stat"><span class="stat-num" id="stat-sources" data-suffix="">0</span><span class="stat-label">DISTINCT SOURCES</span></div>
+      <div class="stat"><span class="stat-num" data-static="30">30</span><span class="stat-label">MINUTE REFRESH</span></div>
+    </div>
+  </section>
 
-    <aside class="col-side">
-      <section id="general-section" aria-labelledby="general-heading">
-        <div class="side-head">
-          <h2 id="general-heading">The AI Brief</h2>
-          <span class="side-head-note">latest from the wider field</span>
-        </div>
-        <ol id="general-list" class="brief"></ol>
-        <p id="general-empty" class="empty" hidden>No stories collected yet — first run pending.</p>
+  <!-- ======== PHOTO STRIP ======== -->
+  <section class="strip" aria-hidden="true">
+    <figure class="strip-img img-a"><figcaption>POWER GENERATION</figcaption></figure>
+    <figure class="strip-img img-b"><figcaption>TRANSMISSION</figcaption></figure>
+    <figure class="strip-img img-c"><figcaption>COMPUTE AT SCALE</figcaption></figure>
+  </section>
+
+  <!-- ======== COVERAGE (TABS) ======== -->
+  <main id="coverage" class="coverage">
+    <div class="shell">
+      <div class="section-head reveal">
+        <h2>THE NEW POWER REALITY<span class="accent">.</span> TRACKED<span class="accent">.</span></h2>
+        <p class="section-sub"><span id="edition-date">—</span> · <span id="x-status"></span></p>
+      </div>
+
+      <div class="tabbar" role="tablist" aria-label="Coverage sections">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="frmi" id="tab-frmi">FRMI<span class="tab-note">PRIORITY</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="eco" id="tab-eco">ECOSYSTEM<span class="tab-note">PARTNERS</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="filings" id="tab-filings">FILINGS<span class="tab-note">SEC EDGAR</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="social" id="tab-social">SOCIAL<span class="tab-note">VETTED</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="brief" id="tab-brief">AI BRIEF<span class="tab-note">THE FIELD</span></button>
+      </div>
+
+      <section class="panel is-active" id="panel-frmi" role="tabpanel" aria-labelledby="tab-frmi">
+        <div id="frmi-lead"></div>
+        <div id="frmi-list" class="grid"></div>
+        <p id="frmi-empty" class="empty" hidden>No priority-ticker stories in the current window.</p>
       </section>
 
-      <section class="about" aria-label="About this site">
-        <h3>How this works</h3>
-        <p>
-          A collector sweeps Google News, SEC EDGAR, Yahoo Finance and X every
-          30 minutes, de-duplicates wire reprints, and ranks by source quality
-          and freshness. <strong>FRMI</strong> stories pin to the top;
-          X posts are credibility-vetted (followers, engagement, account age,
-          location) before they appear.
-        </p>
-        <p class="about-fine">Auto-generated · Not investment advice</p>
+      <section class="panel" id="panel-eco" role="tabpanel" aria-labelledby="tab-eco" hidden>
+        <div id="eco-list" class="grid"></div>
+        <p id="eco-empty" class="empty" hidden>No ecosystem stories in the current window.</p>
       </section>
-    </aside>
+
+      <section class="panel" id="panel-filings" role="tabpanel" aria-labelledby="tab-filings" hidden>
+        <div id="filings-list" class="rows"></div>
+        <p id="filings-empty" class="empty" hidden>No SEC filings in the current feed.</p>
+      </section>
+
+      <section class="panel" id="panel-social" role="tabpanel" aria-labelledby="tab-social" hidden>
+        <p class="panel-note">Accounts are credibility-scored on followers, engagement, account age and stated location. Items found via open-web discovery carry a <span class="tag tag-x-limited">limited</span> badge — content without full vetting.</p>
+        <div id="social-list" class="grid"></div>
+        <p id="social-empty" class="empty" hidden>No vetted social posts in the current window.</p>
+      </section>
+
+      <section class="panel" id="panel-brief" role="tabpanel" aria-labelledby="tab-brief" hidden>
+        <ol id="brief-list" class="brief"></ol>
+        <p id="brief-empty" class="empty" hidden>No stories collected yet — first run pending.</p>
+      </section>
+    </div>
   </main>
+
+  <!-- ======== MISSION BAND ======== -->
+  <section class="band">
+    <div class="shell band-inner reveal">
+      <h2>MOST FEEDS ARE NOISE<span class="accent">.</span><br />THIS ONE IS RANKED<span class="accent">.</span></h2>
+      <div class="band-cols">
+        <div class="band-col"><h3>PRIMARY FIRST</h3><p>SEC EDGAR filings outrank wires; wires outrank commentary. Tier is shown on every story.</p></div>
+        <div class="band-col"><h3>DEDUPLICATED</h3><p>Fifty reprints of one press release collapse into a single story — best source wins.</p></div>
+        <div class="band-col"><h3>VETTED SOCIAL</h3><p>Follower count, account age, engagement and stated location gate every social post. Unvetted means labeled.</p></div>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <div class="shell foot-inner">
-      <span>© 2026 AI Newsletter · <a href="https://github.com/jack-wise/AI-Newsletter">Source on GitHub</a></span>
-      <span>Sources: Google News · SEC EDGAR · Yahoo Finance · X (when enabled)</span>
+      <div>
+        <span class="brand-word foot-brand">FERMI<em>WATCH</em></span>
+        <p class="foot-fine">Independent coverage tracker. Not affiliated with Fermi Inc. / Fermi America. Not investment advice.</p>
+      </div>
+      <div class="foot-meta">
+        <span>Sources: Google News · SEC EDGAR · Yahoo Finance · StockTwits · X (oEmbed)</span>
+        <span>Auto-generated every 30 minutes · <a href="https://github.com/jack-wise/AI-Newsletter">Source on GitHub</a></span>
+      </div>
     </div>
   </footer>
 

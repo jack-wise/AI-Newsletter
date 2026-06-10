@@ -197,11 +197,13 @@ a { color: inherit; }
   color: var(--ink);
 }
 
+/* Side-panel subjects: only verified imagery — the same transmission/solar
+   shots already proven in the photo strip, plus Fermi's own site plan. */
 .sp-a {
   top: 4%;
   transform: rotate(-2.2deg);
   animation-delay: 250ms, 1s;
-  background-image: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&w=900&q=70");
+  background-image: url("https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=70");
 }
 .sp-b {
   top: 56%;
@@ -216,7 +218,8 @@ a { color: inherit; }
   top: 6%;
   transform: rotate(2.2deg);
   animation-delay: 350ms, 1.7s;
-  background-image: url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=70");
+  background-image: url("assets/fermi-campus-map.jpg");
+  background-position: 18% 30%;
 }
 .sp-d {
   top: 58%;
@@ -225,7 +228,7 @@ a { color: inherit; }
   height: 36%;
   transform: rotate(-1.8deg);
   animation-delay: 550ms, 3.1s;
-  background-image: url("https://images.unsplash.com/photo-1605980776566-0486c3ac7617?auto=format&fit=crop&w=900&q=70");
+  background-image: url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=70");
 }
 
 @keyframes sidein {
@@ -362,6 +365,109 @@ a { color: inherit; }
 .img-a { background-image: url("https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=70"); }
 .img-b { background-image: url("https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1400&q=70"); }
 .img-c { background-image: url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=70"); }
+
+/* ================= THE SITE (Project Matador map) ================= */
+
+.site { padding: 76px 0 70px; background: var(--bg); border-bottom: 1px solid var(--line); }
+
+.map-wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(280px, 1fr);
+  gap: 36px;
+  align-items: start;
+}
+@media (max-width: 920px) { .map-wrap { grid-template-columns: 1fr; } }
+
+.map-frame {
+  position: relative;
+  display: block;
+  border: 1px solid var(--line-2);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.55);
+  transition: box-shadow 180ms ease, border-color 180ms ease;
+}
+.map-frame:hover { border-color: var(--amber); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.65); }
+
+.map-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* Ken Burns: a slow survey drift across the plan. */
+  animation: kenburns 38s ease-in-out infinite alternate;
+  transform-origin: 35% 40%;
+}
+@keyframes kenburns {
+  from { transform: scale(1); }
+  to { transform: scale(1.08) translate(-2.5%, 2%); }
+}
+
+/* Radar-style scan sweep down the plan. */
+.map-scan {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -18%;
+  height: 16%;
+  background: linear-gradient(to bottom, transparent, rgba(255, 178, 36, 0.22) 55%, rgba(255, 178, 36, 0.55) 82%, transparent);
+  mix-blend-mode: screen;
+  animation: scan 6.5s linear infinite;
+  pointer-events: none;
+}
+@keyframes scan { to { top: 112%; } }
+
+/* HUD corner brackets. */
+.map-corner { position: absolute; width: 26px; height: 26px; border: 2px solid var(--amber); pointer-events: none; }
+.c-tl { top: 10px; left: 10px; border-right: none; border-bottom: none; }
+.c-tr { top: 10px; right: 10px; border-left: none; border-bottom: none; }
+.c-bl { bottom: 10px; left: 10px; border-right: none; border-top: none; }
+.c-br { bottom: 10px; right: 10px; border-left: none; border-top: none; }
+
+.map-chip {
+  position: absolute;
+  top: 14px;
+  right: 46px;
+  background: rgba(5, 8, 15, 0.78);
+  border: 1px solid var(--line-2);
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 9.5px;
+  letter-spacing: 0.18em;
+  color: var(--amber);
+}
+
+.map-facts h3 {
+  margin: 4px 0 12px;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 19px;
+  letter-spacing: 0.06em;
+}
+.map-facts > p { margin: 0 0 22px; color: var(--dim); font-size: 14.5px; line-height: 1.75; }
+
+.fact-list { list-style: none; margin: 0 0 18px; padding: 0; }
+.fact-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  border-top: 1px solid var(--line);
+  padding: 12px 0;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  color: var(--dim);
+}
+.fact-list li span {
+  font-size: 26px;
+  font-weight: 900;
+  color: var(--amber);
+  min-width: 96px;
+  font-variant-numeric: tabular-nums;
+}
+.map-credit { font-size: 11px; color: var(--faint); margin: 0; }
 
 /* ================= COVERAGE / TABS ================= */
 
@@ -715,5 +821,7 @@ footer { border-top: 1px solid var(--line); background: var(--bg); }
   .hero-grid, .hero-glow, .pulse, .brand-core, .skeleton { animation: none !important; }
   .panel { animation: none; }
   .side-panel { animation: none !important; opacity: 1; }
+  .map-frame img, .map-scan { animation: none !important; }
+  .map-scan { display: none; }
   * { transition-duration: 1ms !important; }
 }

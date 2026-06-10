@@ -20,6 +20,50 @@
       "xQuery": "(FRMI OR \"Fermi Inc\" OR \"Fermi America\" OR \"Project Matador\") -is:retweet lang:en"
     }
   ],
+  "relatedTickers": [
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "patterns": ["\\bNVDA\\b", "NVIDIA"],
+      "newsQueries": ["NVIDIA AI data center OR GPU supply"]
+    },
+    {
+      "ticker": null,
+      "company": "OpenAI",
+      "patterns": ["OpenAI", "Stargate project"],
+      "newsQueries": ["OpenAI data center OR compute OR Stargate"]
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "patterns": ["\\bMSFT\\b", "Microsoft"],
+      "newsQueries": ["Microsoft AI data center OR Azure capacity"]
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon / AWS",
+      "patterns": ["\\bAMZN\\b", "Amazon Web Services", "\\bAWS\\b", "Amazon.{0,20}data center"],
+      "newsQueries": ["AWS Amazon AI data center power"]
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Google / Alphabet",
+      "patterns": ["\\bGOOGL?\\b", "Google", "Alphabet Inc"],
+      "newsQueries": ["Google AI data center power"]
+    },
+    {
+      "ticker": "GEV",
+      "company": "GE Vernova",
+      "patterns": ["\\bGEV\\b", "GE Vernova"],
+      "newsQueries": ["GE Vernova gas turbine AI data center"]
+    },
+    {
+      "ticker": "SMNEY",
+      "company": "Siemens Energy",
+      "patterns": ["Siemens Energy", "\\bSGT-800\\b"],
+      "newsQueries": ["Siemens Energy turbines AI data center"]
+    }
+  ],
   "generalQueries": [
     "artificial intelligence news",
     "AI data center power",
@@ -28,6 +72,7 @@
   ],
   "limits": {
     "priorityItems": 30,
+    "relatedItems": 30,
     "generalItems": 50,
     "perFeed": 25
   },

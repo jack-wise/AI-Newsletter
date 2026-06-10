@@ -38,15 +38,22 @@ function sourceTier(item) {
   return 3;
 }
 
-// Ticker tagging: a priority item is anything matching a configured pattern.
-const tickerMatchers = (config.priorityTickers ?? []).map((t) => ({
-  ticker: t.ticker,
-  res: t.patterns.map((p) => new RegExp(p, "i")),
-}));
-function matchTickers(text) {
-  return tickerMatchers
+// Tagging: priority tickers (e.g. FRMI) pin to the top section; related
+// tickers/companies (Fermi's ecosystem — suppliers, potential tenants) get
+// their own section. A label falls back to the company name for ticker-less
+// entries (e.g. OpenAI). Priority wins when an item matches both.
+function buildMatchers(list) {
+  return (list ?? []).map((t) => ({
+    label: t.ticker ?? t.company,
+    res: t.patterns.map((p) => new RegExp(p, "i")),
+  }));
+}
+const priorityMatchers = buildMatchers(config.priorityTickers);
+const relatedMatchers = buildMatchers(config.relatedTickers);
+function matchLabels(matchers, text) {
+  return matchers
     .filter((t) => t.res.some((re) => re.test(text)))
-    .map((t) => t.ticker);
+    .map((t) => t.label);
 }
 
 // Dedupe key: normalized title with the Google News " - Publisher" suffix and
@@ -94,6 +101,12 @@ async function main() {
       run(`x:${t.ticker}`, searchX(t.xQuery, config.x ?? {}, process.env.X_BEARER_TOKEN));
     }
   }
+  // Related ecosystem (suppliers / potential tenants): news queries only, so the
+  // big names don't swamp the run; their patterns also catch general-feed items.
+  for (const t of config.relatedTickers ?? []) {
+    const label = t.ticker ?? t.company;
+    for (const q of t.newsQueries ?? []) run(`google-news:${label}`, fetchGoogleNews(q));
+  }
   // General AI coverage.
   for (const q of config.generalQueries ?? []) run(`google-news:general`, fetchGoogleNews(q));
 
@@ -107,7 +120,8 @@ async function main() {
       const item = {
         ...raw,
         tier: sourceTier(raw),
-        tickers: matchTickers(raw.title),
+        tickers: matchLabels(priorityMatchers, raw.title),
+        related: matchLabels(relatedMatchers, raw.title),
       };
       const key = dedupeKey(item);
       if (!key) continue;
@@ -121,21 +135,31 @@ async function main() {
     score:
       freshnessScore(item.publishedAt) +
       (3 - Math.min(item.tier, 3)) * 10 +
-      (item.tickers.length ? 25 : 0) +
+      (item.tickers.length ? 25 : item.related.length ? 15 : 0) +
       (item.credibility ? item.credibility.score / 10 : 0),
   }));
   const byScore = (a, b) => b.score - a.score || String(b.publishedAt).localeCompare(String(a.publishedAt));
 
+  // Section routing: priority beats related beats general.
   const priority = all.filter((i) => i.tickers.length).sort(byScore).slice(0, config.limits.priorityItems);
-  const general = all.filter((i) => !i.tickers.length).sort(byScore).slice(0, config.limits.generalItems);
+  const related = all
+    .filter((i) => !i.tickers.length && i.related.length)
+    .sort(byScore)
+    .slice(0, config.limits.relatedItems ?? 30);
+  const general = all
+    .filter((i) => !i.tickers.length && !i.related.length)
+    .sort(byScore)
+    .slice(0, config.limits.generalItems);
 
   const payload = {
     generatedAt: new Date().toISOString(),
     siteTitle: config.siteTitle,
     tagline: config.tagline,
     priorityTickers: (config.priorityTickers ?? []).map((t) => t.ticker),
+    relatedTickers: (config.relatedTickers ?? []).map((t) => t.ticker ?? t.company),
     xStatus: xSkipped ? `X coverage off — ${xSkipped}` : "X coverage on",
     priority,
+    related,
     general,
     sourceErrors,
   };
@@ -154,7 +178,7 @@ async function main() {
     ? JSON.parse(readFileSync(archivePath, "utf8"))
     : { day, items: [] };
   const merged = new Map(existing.items.map((i) => [dedupeKey(i), i]));
-  for (const i of [...priority, ...general]) {
+  for (const i of [...priority, ...related, ...general]) {
     if (!merged.has(dedupeKey(i))) merged.set(dedupeKey(i), i);
   }
   writeFileSync(
@@ -163,7 +187,7 @@ async function main() {
   );
 
   console.log(
-    `collected: ${priority.length} priority + ${general.length} general ` +
+    `collected: ${priority.length} priority + ${related.length} related + ${general.length} general ` +
       `(${sourceErrors.length} source errors)${xSkipped ? ` · ${xSkipped}` : ""}`,
   );
   for (const e of sourceErrors) console.warn(`  source error: ${e.source}: ${e.error}`);

@@ -35,6 +35,12 @@ function itemNode(item) {
     b.textContent = t;
     meta.appendChild(b);
   }
+  for (const t of item.related ?? []) {
+    const b = document.createElement("span");
+    b.className = "badge related-badge";
+    b.textContent = t;
+    meta.appendChild(b);
+  }
   if (item.kind === "filing") {
     const b = document.createElement("span");
     b.className = "badge filing-badge";
@@ -78,6 +84,7 @@ async function load() {
     document.getElementById("x-status").textContent = data.xStatus ?? "";
 
     renderList("priority-list", "priority-empty", data.priority);
+    renderList("related-list", "related-empty", data.related);
     renderList("general-list", "general-empty", data.general);
     document.title = `${data.siteTitle ?? "AI Newsletter"} — ${(data.priorityTickers ?? []).join(", ")}`;
   } catch (e) {

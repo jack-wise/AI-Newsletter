@@ -14,9 +14,13 @@ const UA =
   "Mozilla/5.0 (compatible; AI-Newsletter-unfurler; +https://github.com/jack-wise/AI-Newsletter)";
 
 // --- Google News redirect resolution -------------------------------------------
-// RSS article links are news.google.com redirects whose path id is base64url
-// data that usually embeds the real article URL. Decoding locally avoids both
-// the redirect hop and Google's JS interstitial; on any miss, keep the link.
+// Two-stage: (1) the legacy base64 trick — older article ids embed the real URL
+// directly; (2) for current ids (the AU_yqL format, no embedded URL), Google's
+// own internal batchexecute endpoint, the same call the embedded article page
+// makes: GET the article page for a per-id signature + timestamp, then POST a
+// garturlreq envelope and parse the garturlres URL out of the response.
+// Reverse-engineered (the googlenewsdecoder approach) — treated as best-effort
+// and fail-open; a change on Google's side degrades to the unresolved link.
 export function decodeGoogleNewsUrl(gnUrl) {
   try {
     const m = /news\.google\.com\/rss\/articles\/([^?/]+)/.exec(gnUrl);
@@ -31,6 +35,51 @@ export function decodeGoogleNewsUrl(gnUrl) {
     // first character that can't appear in a URL.
     const clean = real.replace(/[^A-Za-z0-9\-._~:/?#[\]@!$&'()*+,;=%]+.*$/s, "");
     return /^https?:\/\/[^/]+\.[a-z]{2,}/i.test(clean) ? clean : null;
+  } catch {
+    return null;
+  }
+}
+
+const BATCH_URL = "https://news.google.com/_/DotsSplashUi/data/batchexecute";
+// Google's endpoints reject bot-styled agents; a plain browser UA is what the
+// real article page sends for this exact call.
+const GOOGLE_UA =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36";
+
+export async function resolveGoogleNewsId(id) {
+  const page = await fetch(
+    `https://news.google.com/articles/${encodeURIComponent(id)}?hl=en-US&gl=US&ceid=US:en`,
+    { headers: { "User-Agent": GOOGLE_UA }, signal: AbortSignal.timeout(15_000) },
+  );
+  if (!page.ok) return null;
+  const html = await page.text();
+  const sg = /data-n-a-sg="([^"]+)"/.exec(html)?.[1];
+  const ts = /data-n-a-ts="([^"]+)"/.exec(html)?.[1];
+  if (!sg || !ts) return null;
+
+  const inner = JSON.stringify([
+    "garturlreq",
+    [["X", "X", ["X", "X"], null, null, 1, 1, "US:en", null, 1, null, null, null, null, null, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0],
+    id, Number(ts), sg,
+  ]);
+  const res = await fetch(BATCH_URL, {
+    method: "POST",
+    headers: {
+      "User-Agent": GOOGLE_UA,
+      "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+    },
+    body: "f.req=" + encodeURIComponent(JSON.stringify([[["Fbv4je", inner, null, "generic"]]])),
+    signal: AbortSignal.timeout(15_000),
+  });
+  if (!res.ok) return null;
+  const text = await res.text(); // ")]}'" anti-JSON prefix, then the envelope
+  try {
+    const data = JSON.parse(text.slice(text.indexOf("[")));
+    const payload = data.find((r) => Array.isArray(r) && r[0] === "wrb.fr" && r[1] === "Fbv4je")?.[2];
+    const arr = JSON.parse(payload);
+    return arr?.[0] === "garturlres" && typeof arr[1] === "string" && /^https?:\/\//.test(arr[1])
+      ? arr[1]
+      : null;
   } catch {
     return null;
   }
@@ -133,16 +182,24 @@ export async function enrichItems(items, cache, { patterns = [], maxFetches = 12
       continue;
     }
     if (budget <= 0) continue;
-    const real = decodeGoogleNewsUrl(item.url);
-    if (!real && /news\.google\.com/.test(item.url)) {
-      // Current Google News ids don't embed the article URL and the redirect
-      // page is a JS shell — unfetchable. Don't burn budget; the Bing/Yahoo
-      // copy of the same story carries the summary via dedupe preference.
-      cache[item.url] = { at: new Date().toISOString(), failed: true };
-      continue;
-    }
     budget--;
     const entry = { at: new Date().toISOString() };
+    let real = decodeGoogleNewsUrl(item.url);
+    if (!real && /news\.google\.com/.test(item.url)) {
+      // Current ids don't embed the URL — resolve through Google's own
+      // batchexecute endpoint (counts against the same per-run budget; the
+      // result is cached so each article resolves at most once, ever).
+      const id = /articles\/([^?/]+)/.exec(item.url)?.[1];
+      try {
+        real = id ? await resolveGoogleNewsId(id) : null;
+      } catch {
+        real = null;
+      }
+      if (!real) {
+        cache[item.url] = { ...entry, failed: true };
+        continue;
+      }
+    }
     try {
       const target = real ?? item.url;
       if (real) entry.resolvedUrl = real;

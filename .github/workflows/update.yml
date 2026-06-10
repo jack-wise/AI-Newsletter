@@ -12,7 +12,10 @@ name: update-newsletter
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # :07 and :37 rather than :00/:30 — GitHub's scheduler heavily delays or
+    # skips the contended on-the-hour and half-hour slots; offset minutes fire
+    # far more reliably. Still a 30-minute cadence.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
 
 permissions:

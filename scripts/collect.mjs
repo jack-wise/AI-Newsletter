@@ -8,9 +8,15 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchGoogleNews, fetchEdgarFilings, fetchYahooFinance } from "./sources.mjs";
+import {
+  fetchBingNews,
+  fetchEdgarFilings,
+  fetchGoogleNews,
+  fetchYahooFinance,
+} from "./sources.mjs";
 import { searchX } from "./x.mjs";
 import { fetchStockTwits, fetchRedditXLinks } from "./social.mjs";
+import { enrichItems } from "./enrich.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(readFileSync(join(root, "config.json"), "utf8"));
@@ -128,6 +134,7 @@ async function main() {
   const xTasks = [];
   for (const t of config.priorityTickers ?? []) {
     for (const q of t.newsQueries ?? []) run(`google-news:${t.ticker}`, fetchGoogleNews(q));
+    for (const q of t.bingQueries ?? []) run(`bing-news:${t.ticker}`, fetchBingNews(q));
     if (t.cik) run(`edgar:${t.ticker}`, fetchEdgarFilings(t.cik));
     run(`yahoo:${t.ticker}`, fetchYahooFinance(t.ticker));
     if (t.xQuery) xTasks.push(collectX(t));
@@ -182,7 +189,13 @@ async function main() {
       const key = dedupeKey(item);
       if (!key) continue;
       const prev = byKey.get(key);
-      if (!prev || item.tier < prev.tier) byKey.set(key, item);
+      // Better tier wins; on a tie, prefer the copy that carries a summary and
+      // a direct publisher URL (Bing/Yahoo) over a bare redirect (Google News).
+      const better =
+        !prev ||
+        item.tier < prev.tier ||
+        (item.tier === prev.tier && Boolean(item.summary) && !prev.summary);
+      if (better) byKey.set(key, item);
     }
   }
 
@@ -207,6 +220,18 @@ async function main() {
     .sort(byScore)
     .slice(0, config.limits.generalItems);
 
+  // On-site reader enrichment: priority (FRMI) stories get article summaries +
+  // Fermi-mention excerpts (one cached fetch each), filings get plain-English
+  // form explanations, social posts carry their own text. Cache persists across
+  // runs so each article is fetched at most once.
+  const summariesPath = join(root, "docs", "data", "summaries.json");
+  const summaries = existsSync(summariesPath)
+    ? JSON.parse(readFileSync(summariesPath, "utf8"))
+    : {};
+  const fermiPatterns = (config.priorityTickers ?? []).flatMap((t) => t.patterns);
+  await enrichItems(priority, summaries, { patterns: fermiPatterns, maxFetches: 12 });
+  await enrichItems(related, summaries, { patterns: fermiPatterns, maxFetches: 4 });
+
   const payload = {
     generatedAt: new Date().toISOString(),
     siteTitle: config.siteTitle,
@@ -226,6 +251,7 @@ async function main() {
   mkdirSync(dataDir, { recursive: true });
   writeFileSync(join(dataDir, "news.json"), JSON.stringify(payload, null, 2));
   writeFileSync(xStatePath, JSON.stringify(xState, null, 2));
+  writeFileSync(summariesPath, JSON.stringify(summaries, null, 2));
 
   // Per-day archive: merge today's items by dedupe key so the day file grows
   // across runs without duplicates (an honest record of what the day surfaced).

@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
 
@@ -145,7 +145,30 @@
     </div>
   </footer>
 
+  <!-- ======== STORY READER (in-site overlay) ======== -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      <p class="modal-eyebrow" id="modal-eyebrow"></p>
+      <h3 class="modal-title" id="modal-title"></h3>
+      <div class="modal-tags" id="modal-tags"></div>
+      <div class="modal-block" id="modal-summary-block">
+        <h4>WHAT WAS SAID</h4>
+        <p id="modal-summary"></p>
+      </div>
+      <div class="modal-block" id="modal-excerpt-block" hidden>
+        <h4>FERMI MENTIONS</h4>
+        <p id="modal-excerpt"></p>
+      </div>
+      <div class="modal-foot">
+        <a class="btn btn-ghost btn-sm" id="modal-source" href="#" target="_blank" rel="noopener noreferrer">READ ORIGINAL ↗</a>
+        <button class="btn btn-solid btn-sm" id="modal-done">BACK TO FEED</button>
+      </div>
+    </article>
+  </div>
+
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

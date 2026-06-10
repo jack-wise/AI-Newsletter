@@ -17,6 +17,7 @@
         "\"FRMI\" OR \"Fermi Inc\" stock",
         "\"Fermi America\" OR \"Project Matador\""
       ],
+      "bingQueries": ["Fermi FRMI", "Fermi America Project Matador"],
       "xQuery": "(FRMI OR \"Fermi Inc\" OR \"Fermi America\" OR \"Project Matador\") -is:retweet lang:en"
     }
   ],

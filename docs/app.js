@@ -67,17 +67,25 @@ function metaRow(item) {
   return meta;
 }
 
-function storyLink(href, className) {
+// Story clicks stay ON-SITE: every card opens the reader overlay instead of
+// navigating away. The href is kept so middle-click / open-in-new-tab still
+// reaches the original source for readers who want it.
+function storyLink(item, className) {
   const a = document.createElement("a");
-  a.href = href;
+  a.href = item.url;
   a.target = "_blank";
   a.rel = "noopener noreferrer";
   if (className) a.className = className;
+  a.addEventListener("click", (e) => {
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1) return;
+    e.preventDefault();
+    openReader(item);
+  });
   return a;
 }
 
 function leadCard(item) {
-  const a = storyLink(item.url, "lead");
+  const a = storyLink(item, "lead");
   a.appendChild(el("div", "lead-eyebrow", "TOP STORY — FRMI"));
   a.appendChild(el("h3", "lead-title", displayTitle(item)));
   a.appendChild(metaRow(item));
@@ -85,14 +93,14 @@ function leadCard(item) {
 }
 
 function storyCard(item) {
-  const a = storyLink(item.url, "card");
+  const a = storyLink(item, "card");
   a.appendChild(el("h3", "card-title", displayTitle(item)));
   a.appendChild(metaRow(item));
   return a;
 }
 
 function filingRow(item) {
-  const a = storyLink(item.url, "row");
+  const a = storyLink(item, "row");
   // "SEC filing: DFAN14A — Fermi Inc. (desc)" -> form + remainder
   const m = /^SEC filing:\s*([^—]+)—\s*(.*)$/.exec(item.title);
   a.appendChild(el("span", "row-form", (m?.[1] ?? "FILING").trim()));
@@ -103,12 +111,55 @@ function filingRow(item) {
 
 function briefRow(item) {
   const li = document.createElement("li");
-  const a = storyLink(item.url);
+  const a = storyLink(item);
   a.textContent = displayTitle(item);
   a.appendChild(el("span", "brief-meta", `${item.source ?? ""} · ${timeAgo(item.publishedAt)}`));
   li.appendChild(a);
   return li;
 }
+
+// ---- story reader overlay ------------------------------------------------------
+
+function openReader(item) {
+  const eyebrow = [item.source, timeAgo(item.publishedAt), TIER_LABELS[item.tier] ?? "Web"]
+    .filter(Boolean)
+    .join(" · ");
+  document.getElementById("modal-eyebrow").textContent = eyebrow;
+  document.getElementById("modal-title").textContent = displayTitle(item);
+  document.getElementById("modal-tags").replaceChildren(...tags(item));
+
+  const summaryEl = document.getElementById("modal-summary");
+  if (item.summary) {
+    summaryEl.textContent = item.summary;
+  } else {
+    summaryEl.textContent =
+      `${item.source ?? "This source"} hasn't been summarized yet — the collector ` +
+      "captures descriptions on its next pass when the publisher allows it. " +
+      "The original is one click below.";
+  }
+
+  const excerptBlock = document.getElementById("modal-excerpt-block");
+  const hasExcerpt = item.excerpt && item.excerpt !== item.summary;
+  excerptBlock.hidden = !hasExcerpt;
+  if (hasExcerpt) document.getElementById("modal-excerpt").textContent = `“${item.excerpt}”`;
+
+  document.getElementById("modal-source").href = item.url;
+  document.getElementById("modal").hidden = false;
+  document.body.classList.add("modal-open");
+  document.getElementById("modal-close").focus();
+}
+
+function closeReader() {
+  document.getElementById("modal").hidden = true;
+  document.body.classList.remove("modal-open");
+}
+
+for (const id of ["modal-close", "modal-done", "modal-backdrop"]) {
+  document.getElementById(id)?.addEventListener("click", closeReader);
+}
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeReader();
+});
 
 function fill(listId, emptyId, nodes) {
   document.getElementById(listId).replaceChildren(...nodes);

@@ -120,12 +120,67 @@ export async function fetchYahooFinance(ticker) {
     const title = tag(it, "title");
     const link = tag(it, "link");
     if (!title || !link) continue;
+    // Yahoo's <description> is a real article snippet — a free summary for the
+    // on-site reader view, no extra fetch needed.
+    const desc = tag(it, "description");
     items.push({
       title,
       url: link,
       source: "Yahoo Finance",
       publishedAt: toIso(tag(it, "pubDate")),
       kind: "news",
+      ...(desc && desc.length > 30
+        ? { summary: desc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 480) }
+        : {}),
+    });
+  }
+  return items;
+}
+
+// --- Bing News RSS -------------------------------------------------------------
+// Keyless like Google News, but with two things Google's feed no longer gives:
+// a real per-item <description> snippet (an instant summary for the on-site
+// reader) and a resolvable publisher URL (inside the apiclick redirect's url=
+// param), which makes the article fetchable for Fermi-mention excerpts.
+// Quirk: Bing's RSS chokes on quoted/OR query syntax — keep queries simple.
+export async function fetchBingNews(query) {
+  const url =
+    "https://www.bing.com/news/search?q=" + encodeURIComponent(query) + "&format=rss";
+  const xml = await fetchText(url);
+  const items = [];
+  for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+    const it = m[1];
+    const title = tag(it, "title");
+    let link = tag(it, "link");
+    if (!title || !link) continue;
+    // Unwrap the apiclick redirect to the publisher's own URL.
+    const real = /[?&]url=([^&]+)/.exec(link);
+    if (real) {
+      try {
+        link = decodeURIComponent(real[1]);
+      } catch {
+        /* keep the redirect link */
+      }
+    }
+    const source =
+      tag(it, "News:Source") ??
+      (() => {
+        try {
+          return new URL(link).hostname.replace(/^www\./, "");
+        } catch {
+          return "Bing News";
+        }
+      })();
+    const desc = tag(it, "description");
+    items.push({
+      title,
+      url: link,
+      source,
+      publishedAt: toIso(tag(it, "pubDate")),
+      kind: "news",
+      ...(desc && desc.length > 30
+        ? { summary: desc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 480) }
+        : {}),
     });
   }
   return items;

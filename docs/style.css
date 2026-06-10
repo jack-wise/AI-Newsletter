@@ -50,12 +50,17 @@ a { color: inherit; }
   border-bottom: 1px solid var(--line);
 }
 .topbar-inner {
+  /* Wider than the content shell so the seven nav labels sit on ONE line. */
+  max-width: 1480px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 18px;
   height: 64px;
+  flex-wrap: nowrap;
 }
+.brand { flex: none; }
+.live-pill { flex: none; }
 
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .brand-core {
@@ -76,7 +81,7 @@ a { color: inherit; }
 }
 .brand-word em { font-style: normal; color: var(--amber); }
 
-.topnav { display: flex; gap: 26px; }
+.topnav { display: flex; gap: 24px; flex-wrap: nowrap; min-width: 0; }
 .topnav a {
   font-family: var(--display);
   font-weight: 700;
@@ -87,9 +92,14 @@ a { color: inherit; }
   padding: 6px 0;
   border-bottom: 2px solid transparent;
   transition: color 140ms ease, border-color 140ms ease;
+  white-space: nowrap; /* never wrap a label like "The Site" onto two lines */
 }
 .topnav a:hover { color: var(--ink); border-color: var(--amber); }
-@media (max-width: 860px) { .topnav { display: none; } }
+/* Progressive slimming keeps everything on one line as the window narrows:
+   tighter gaps, then drop the TRACKING+logo group, then collapse the nav. */
+@media (max-width: 1280px) { .topnav { gap: 16px; } .topnav a { letter-spacing: 0.1em; font-size: 12px; } }
+@media (max-width: 1120px) { .brand-sep, .brand-tracks, .topbar .fermi-logo { display: none; } .topnav { gap: 13px; } }
+@media (max-width: 880px) { .topnav { display: none; } }
 
 .live-pill {
   display: flex;
@@ -132,7 +142,6 @@ a { color: inherit; }
   margin-right: 8px;
   align-self: center;
 }
-@media (max-width: 680px) { .brand-sep, .brand-tracks, .topbar .fermi-logo { display: none; } }
 
 .ticker {
   display: flex;

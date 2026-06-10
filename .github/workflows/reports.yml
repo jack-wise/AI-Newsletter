@@ -1,7 +1,7 @@
-# Daily research reports: runs the adapted skills (news, earnings, banker,
-# market) through the Claude API with web search and publishes the output to
-# the site's Reports tab. Runs pre-market US time; also dispatchable manually
-# (optionally for a single report key).
+# Research reports via the Claude API with web search, published to the site's
+# Reports tab. The SCHEDULE runs only the daily news read; earnings, banker,
+# and market are generated on demand via Run workflow (leave the input empty
+# to run all four, or pass comma-separated keys).
 #
 # Requires the ANTHROPIC_API_KEY secret (console.anthropic.com). Without it the
 # script exits cleanly with a "skipped" note. Optional: REPORTS_MODEL variable
@@ -44,7 +44,9 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           REPORTS_MODEL: ${{ vars.REPORTS_MODEL }}
-        run: node scripts/reports.mjs ${{ inputs.report }}
+        # Scheduled runs generate ONLY the daily news read; manual dispatch
+        # runs the requested keys (or all four when the input is empty).
+        run: node scripts/reports.mjs ${{ github.event_name == 'schedule' && 'news' || inputs.report }}
 
       - name: Commit reports
         run: |

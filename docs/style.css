@@ -437,11 +437,9 @@ a { color: inherit; }
   letter-spacing: 0.22em;
   color: var(--ink);
 }
-/* Self-hosted, FERMI-branded renders for the gas + compute slots; transmission
-   stays on a verified Unsplash shot. */
-.img-a { background-image: url("assets/fermi-gas-turbines.jpg"); }
+.img-a { background-image: url("https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=70"); }
 .img-b { background-image: url("https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1400&q=70"); }
-.img-c { background-image: url("assets/fermi-datacenter.jpg"); }
+.img-c { background-image: url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=70"); }
 
 /* ================= THE SITE (Project Matador map) ================= */
 

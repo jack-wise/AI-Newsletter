@@ -435,7 +435,9 @@ async function loadReports() {
 
 // The collector merges every cycle's stories into data/archive/<day>.json and
 // indexes the days in data/archive/index.json. The History tab navigates that
-// record — stories stay reachable after they rotate out of the live feed.
+// record — stories stay reachable after they rotate out of the live feed. The
+// tab shows FERMI stories only (priority-ticker matches: articles, filings,
+// tweets); the day files still store everything, so nothing is ever lost.
 let historyIndex = null;
 const historyDayCache = new Map();
 
@@ -470,9 +472,9 @@ async function renderHistoryDay(day) {
       return;
     }
   }
-  const items = [...(data.items ?? [])].sort((a, b) =>
-    String(b.publishedAt ?? "").localeCompare(String(a.publishedAt ?? "")),
-  );
+  const items = (data.items ?? [])
+    .filter((i) => i.tickers?.length) // Fermi stories only
+    .sort((a, b) => String(b.publishedAt ?? "").localeCompare(String(a.publishedAt ?? "")));
   list.replaceChildren(...items.map(historyRow));
   empty.hidden = items.length > 0;
 }

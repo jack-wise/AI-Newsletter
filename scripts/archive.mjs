@@ -27,6 +27,10 @@ export const KEEP_EDITIONS = 30;
 
 const DAY_FILE = /^(\d{4}-\d{2}-\d{2})\.json$/;
 
+// The History tab is Fermi-only: index counts reflect priority-ticker matches
+// (FRMI articles, filings, tweets), even though day files store every item.
+const fermiCount = (items) => items.filter((i) => i.tickers?.length).length;
+
 function readJson(path, fallback) {
   try {
     return JSON.parse(readFileSync(path, "utf8"));
@@ -45,11 +49,12 @@ export function updateDayArchive(archiveDir, day, items, keyFn) {
   for (const i of items) if (!merged.has(keyFn(i))) merged.set(keyFn(i), i);
   const out = { day, items: [...merged.values()] };
   writeFileSync(path, JSON.stringify(out, null, 2));
-  return rebuildDayIndex(archiveDir, { [day]: out.items.length });
+  return rebuildDayIndex(archiveDir, { [day]: fermiCount(out.items) });
 }
 
-// Index = every day file present, newest first, with story counts. Counts come
-// from the previous index where possible; only unknown days are re-read.
+// Index = every day file present, newest first, with Fermi story counts.
+// Counts come from the previous index where possible; only unknown days are
+// re-read.
 export function rebuildDayIndex(archiveDir, knownCounts = {}) {
   const indexPath = join(archiveDir, "index.json");
   const prev = new Map(readJson(indexPath, []).map((e) => [e.day, e.count]));
@@ -63,7 +68,7 @@ export function rebuildDayIndex(archiveDir, knownCounts = {}) {
       count:
         knownCounts[day] ??
         prev.get(day) ??
-        (readJson(join(archiveDir, `${day}.json`), { items: [] }).items.length),
+        fermiCount(readJson(join(archiveDir, `${day}.json`), { items: [] }).items),
     }));
   writeFileSync(indexPath, JSON.stringify(index, null, 2));
   return index;

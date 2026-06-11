@@ -17,11 +17,13 @@ import { archiveReports } from "./archive.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
+// banker + market were handed off to the queequeg agent, which commits
+// docs/data/reports/<key>.json directly (#2) — they're out of this list so two
+// writers never race on the same files. The index merge and archive sweep
+// below still carry and snapshot them.
 const REPORTS = [
-  { key: "news",     title: "FRMI News & Price Impact",           prompt: "news.md"     },
-  { key: "earnings", title: "FRMI Earnings Review",               prompt: "earnings.md" },
-  { key: "banker",   title: "FRMI Research Workup",               prompt: "banker.md",  agent: "queequeg" },
-  { key: "market",   title: "AI Data-Center Power — Sector Pack", prompt: "market.md",  agent: "queequeg" },
+  { key: "news",     title: "FRMI News & Price Impact", prompt: "news.md"     },
+  { key: "earnings", title: "FRMI Earnings Review",     prompt: "earnings.md" },
 ];
 
 const MODEL = process.env.REPORTS_MODEL || "claude-opus-4-8";
@@ -157,7 +159,11 @@ async function main() {
     }
     const byKey = new Map(existing.map((r) => [r.key, r]));
     for (const r of index) byKey.set(r.key, r);
-    const merged = REPORTS.map((d) => byKey.get(d.key)).filter(Boolean);
+    // Keep index entries for reports other writers own (banker/market).
+    const merged = [
+      ...REPORTS.map((d) => byKey.get(d.key)).filter(Boolean),
+      ...existing.filter((r) => !REPORTS.some((d) => d.key === r.key)),
+    ];
     writeFileSync(join(outDir, "index.json"), JSON.stringify(merged, null, 2));
   }
   // Snapshot this run's editions (and any externally committed ones) into the

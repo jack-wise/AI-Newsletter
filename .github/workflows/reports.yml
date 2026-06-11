@@ -1,7 +1,8 @@
 # Research reports via the Claude API with web search, published to the site's
-# Reports tab. The SCHEDULE runs only the daily news read; earnings, banker,
-# and market are generated on demand via Run workflow (leave the input empty
-# to run all four, or pass comma-separated keys).
+# Reports tab. The SCHEDULE runs only the daily news read; earnings is
+# generated on demand via Run workflow (leave the input empty to run all
+# Claude-owned keys, or pass comma-separated keys). banker + market are
+# published by the queequeg agent committing the JSON directly (#2).
 #
 # Requires the ANTHROPIC_API_KEY secret (console.anthropic.com). Without it the
 # script exits cleanly with a "skipped" note. Optional: REPORTS_MODEL variable
@@ -15,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       report:
-        description: "Single report key to run (news|earnings|banker|market); empty = all"
+        description: "Single report key to run (news|earnings); empty = all Claude-owned reports"
         required: false
         default: ""
 

@@ -1,8 +1,11 @@
 # Research reports via the Claude API with web search, published to the site's
-# Reports tab. The SCHEDULE runs only the daily news read; earnings is
-# generated on demand via Run workflow (leave the input empty to run all
-# Claude-owned keys, or pass comma-separated keys). banker + market are
-# published by the queequeg agent committing the JSON directly (#2).
+# Reports tab. Scheduling is owned by the fermi-watch-pinger Cloudflare Worker
+# (pinger-worker/), which dispatches report=news weekdays pre-market — GitHub's
+# own cron proved unreliable for this repo, and a single scheduler avoids
+# double-generating paid API reports. earnings runs on demand via Run workflow
+# (leave the input empty to run all Claude-owned keys, or pass comma-separated
+# keys). banker + market are published by the queequeg agent committing the
+# JSON directly (#2).
 #
 # Requires the ANTHROPIC_API_KEY secret (console.anthropic.com). Without it the
 # script exits cleanly with a "skipped" note. Optional: REPORTS_MODEL variable
@@ -11,8 +14,9 @@
 name: generate-reports
 
 on:
-  schedule:
-    - cron: "30 10 * * 1-5" # 10:30 UTC ≈ 6:30am ET, weekdays
+  # No schedule trigger: the pinger Worker dispatches report=news weekdays at
+  # 10:32 UTC (≈ 6:32am ET). Keeping one scheduler prevents the GitHub cron
+  # and the pinger from each burning API tokens on the same morning.
   workflow_dispatch:
     inputs:
       report:
@@ -45,9 +49,10 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           REPORTS_MODEL: ${{ vars.REPORTS_MODEL }}
-        # Scheduled runs generate ONLY the daily news read; manual dispatch
-        # runs the requested keys (or all four when the input is empty).
-        run: node scripts/reports.mjs ${{ github.event_name == 'schedule' && 'news' || inputs.report }}
+        # The pinger dispatches report=news for the daily read; a manual
+        # dispatch runs the requested keys (or all Claude-owned keys when the
+        # input is empty).
+        run: node scripts/reports.mjs ${{ inputs.report }}
 
       - name: Commit reports
         run: |

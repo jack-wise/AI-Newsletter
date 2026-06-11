@@ -1,0 +1,14 @@
+# Fermi Watch pinger — external scheduler for the GitHub Actions workflows.
+# Deploy: npx wrangler deploy   Secret: npx wrangler secret put GITHUB_TOKEN
+name = "fermi-watch-pinger"
+main = "worker.js"
+compatibility_date = "2026-06-11"
+
+[triggers]
+# 1,31  -> update.yml (collector, every 30 min; offset from GitHub's own 7,37
+#          backup cron so a rare double-fire stays spaced out)
+# 32 10 -> reports.yml report=news, weekdays pre-market
+crons = ["1,31 * * * *", "32 10 * * 1-5"]
+
+[observability]
+enabled = true

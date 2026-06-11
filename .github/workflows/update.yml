@@ -12,9 +12,11 @@ name: update-newsletter
 
 on:
   schedule:
-    # :07 and :37 rather than :00/:30 — GitHub's scheduler heavily delays or
-    # skips the contended on-the-hour and half-hour slots; offset minutes fire
-    # far more reliably. Still a 30-minute cadence.
+    # BACKUP ONLY: GitHub's scheduler proved unreliable for this repo (one
+    # schedule run in the first ~20h, even on off-peak minutes), so the
+    # primary cadence is the fermi-watch-pinger Cloudflare Worker cron
+    # (pinger-worker/) firing workflow_dispatch at :01/:31. This stays as a
+    # free backup; the concurrency group de-races any double-fire.
     - cron: "7,37 * * * *"
   workflow_dispatch:
 

@@ -4,8 +4,16 @@
 //   1. StockTwits' public symbol stream (free JSON) — finance chatter with real
 //      author metadata (followers, join date, official badge), so the same
 //      credibility-gate idea as the X module applies in full.
-//   2. Reddit's public search JSON — discover posts discussing the ticker and
-//      harvest any x.com/twitter.com status links people share.
+//   2. Reddit search — discover posts discussing the ticker and harvest any
+//      x.com/twitter.com status links people share. Two paths:
+//        - OAuth'd search.json when REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET are
+//          configured (a registered "script" app, client-credentials grant):
+//          carries real post scores, restoring score-weighted vetting.
+//        - search.rss fallback (keyless): the JSON endpoint 403s without OAuth
+//          from non-residential IPs; the Atom feed stays open but carries no
+//          upvote counts.
+//      Either way, corroboration is a strength signal: the same tweet shared
+//      across several distinct subreddits outranks a single drive-by post.
 //   3. X's official oEmbed endpoint (publish.twitter.com, keyless, built for
 //      embedding) — hydrate discovered tweet links into text + author. oEmbed
 //      exposes NO follower/location data, so these items are labeled
@@ -102,10 +110,127 @@ function unescapeAll(s) {
   return once(once(String(s ?? "")));
 }
 
-export async function fetchRedditXLinks(query, cfg) {
-  // Reddit's JSON search 403s without OAuth from most non-residential networks;
-  // the Atom feed of the same search stays open. No upvote counts in the feed,
-  // so the "limited" label leans on the subreddit context alone.
+// Merge one sighting of a tweet link into the per-tweet discovery context.
+// The SAME tweet shared again (another post / another subreddit) accumulates
+// rather than being dropped, because corroboration is the strength signal.
+function noteSighting(found, handle, id, subreddit, postScore) {
+  const ctx =
+    found.get(id) ??
+    found
+      .set(id, { handle, id, subreddits: new Set(), posts: 0, maxScore: null })
+      .get(id);
+  ctx.posts += 1;
+  if (subreddit && subreddit !== "?") ctx.subreddits.add(subreddit);
+  if (typeof postScore === "number") {
+    ctx.maxScore = Math.max(ctx.maxScore ?? 0, postScore);
+  }
+}
+
+// tweetId -> context, from the keyless Atom feed (no scores available).
+export function extractXLinksFromRss(xml) {
+  const found = new Map();
+  for (const entry of xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)) {
+    const block = unescapeAll(entry[1]);
+    const subreddit =
+      /<category[^>]*label="r\/([^"]+)"/.exec(entry[1])?.[1] ??
+      /reddit\.com\/r\/([^/"]+)\//.exec(entry[1])?.[1] ??
+      "?";
+    for (const m of block.matchAll(X_LINK_RE)) {
+      noteSighting(found, m[1], m[2], subreddit, null);
+    }
+  }
+  return found;
+}
+
+// tweetId -> context, from OAuth'd search.json children (real post scores).
+export function extractXLinksFromJson(children) {
+  const found = new Map();
+  for (const child of children ?? []) {
+    const d = child?.data ?? {};
+    const text = `${String(d.url ?? "")} ${String(d.selftext ?? "")}`;
+    for (const m of text.matchAll(X_LINK_RE)) {
+      noteSighting(
+        found,
+        m[1],
+        m[2],
+        d.subreddit ?? "?",
+        typeof d.score === "number" ? d.score : null,
+      );
+    }
+  }
+  return found;
+}
+
+// The discovered-tweet score: a base for "we could read it but not vet the
+// author", lifted by corroboration (distinct subreddits) and — when the OAuth
+// path supplied them — Reddit post scores. trust stays "limited" regardless:
+// oEmbed exposes no author metadata, and no amount of Reddit enthusiasm
+// substitutes for follower/age/location vetting. Capped below the vetted
+// sources so a viral-on-Reddit tweet never outranks a vetted account.
+export function discoveredTweetCredibility(ctx) {
+  let score = 25;
+  const reasons = [
+    "found via open web (no X API): follower/location vetting unavailable",
+  ];
+  const subs = [...(ctx.subreddits ?? [])];
+  if (subs.length >= 3) score += 15;
+  else if (subs.length === 2) score += 10;
+  const postsNote = ctx.posts > 1 ? ` (${String(ctx.posts)} posts)` : "";
+  reasons.push(
+    subs.length
+      ? `shared in ${subs.map((s) => `r/${s}`).join(", ")}${postsNote}`
+      : "shared on Reddit",
+  );
+  if (typeof ctx.maxScore === "number") {
+    if (ctx.maxScore >= 100) score += 15;
+    else if (ctx.maxScore >= 20) score += 10;
+    else if (ctx.maxScore >= 5) score += 5;
+    reasons.push(`top Reddit post score ${String(ctx.maxScore)}`);
+  }
+  return { score: Math.min(60, score), trust: "limited", reasons };
+}
+
+// Client-credentials token for a registered Reddit "script" app. Cached for
+// the process (one collector run); Reddit tokens last ~1h, a run lasts seconds.
+let redditTokenCache = null;
+const REDDIT_UA = "script:fermi-watch-collector:1.0 (contact jack.wise@donoco.com)";
+
+async function redditOAuthToken(clientId, clientSecret) {
+  if (redditTokenCache && Date.now() < redditTokenCache.expiresAt - 60_000) {
+    return redditTokenCache.token;
+  }
+  const res = await fetch("https://www.reddit.com/api/v1/access_token", {
+    method: "POST",
+    headers: {
+      Authorization:
+        "Basic " + Buffer.from(`${clientId}:${clientSecret}`).toString("base64"),
+      "Content-Type": "application/x-www-form-urlencoded",
+      "User-Agent": REDDIT_UA,
+    },
+    body: "grant_type=client_credentials",
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!res.ok) throw new Error(`reddit token HTTP ${res.status}`);
+  const body = await res.json();
+  if (!body.access_token) throw new Error("reddit token response missing access_token");
+  redditTokenCache = {
+    token: body.access_token,
+    expiresAt: Date.now() + (body.expires_in ?? 3600) * 1000,
+  };
+  return redditTokenCache.token;
+}
+
+async function discoverViaOAuth(query, clientId, clientSecret) {
+  const token = await redditOAuthToken(clientId, clientSecret);
+  const body = await getJson(
+    "https://oauth.reddit.com/search.json?raw_json=1&limit=50&sort=new&t=week&q=" +
+      encodeURIComponent(query),
+    { Authorization: `bearer ${token}`, "User-Agent": REDDIT_UA },
+  );
+  return extractXLinksFromJson(body?.data?.children);
+}
+
+async function discoverViaRss(query) {
   const url =
     "https://www.reddit.com/search.rss?q=" +
     encodeURIComponent(query) +
@@ -115,21 +240,26 @@ export async function fetchRedditXLinks(query, cfg) {
     signal: AbortSignal.timeout(20_000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} for reddit search.rss`);
-  const xml = await res.text();
+  return extractXLinksFromRss(await res.text());
+}
 
-  // tweetId -> the Reddit context that surfaced it
-  const found = new Map();
-  for (const entry of xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)) {
-    const block = unescapeAll(entry[1]);
-    const subreddit =
-      /<category[^>]*label="r\/([^"]+)"/.exec(entry[1])?.[1] ??
-      /reddit\.com\/r\/([^/"]+)\//.exec(entry[1])?.[1] ??
-      "?";
-    for (const m of block.matchAll(X_LINK_RE)) {
-      const [, handle, id] = m;
-      if (!found.has(id)) found.set(id, { handle, id, subreddit });
+export async function fetchRedditXLinks(query, cfg, env = process.env) {
+  // OAuth json (real post scores) when the script-app secrets are configured;
+  // an OAuth failure FALLS BACK to the keyless feed rather than losing the
+  // cycle's discovery — the secrets activating is an upgrade, never a new
+  // point of failure.
+  let found;
+  const { REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET } = env;
+  if (REDDIT_CLIENT_ID && REDDIT_CLIENT_SECRET) {
+    try {
+      found = await discoverViaOAuth(query, REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET);
+    } catch (e) {
+      console.warn(
+        `reddit oauth search failed (${e instanceof Error ? e.message : String(e)}); falling back to search.rss`,
+      );
     }
   }
+  found ??= await discoverViaRss(query);
 
   const items = [];
   const max = cfg.maxHydrations ?? 8; // politeness cap on oEmbed calls per run
@@ -156,14 +286,7 @@ export async function fetchRedditXLinks(query, cfg) {
         source: `@${link.handle} on X`,
         publishedAt: null, // oEmbed carries no timestamp; ranked by tier only
         kind: "tweet",
-        credibility: {
-          score: 25,
-          trust: "limited",
-          reasons: [
-            "found via open web (no X API): follower/location vetting unavailable",
-            `shared in r/${link.subreddit}`,
-          ],
-        },
+        credibility: discoveredTweetCredibility(link),
       });
     } catch {
       continue; // deleted/protected tweet or oEmbed hiccup — skip quietly

@@ -41,6 +41,11 @@ jobs:
       - name: Collect news
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          # Reddit script-app credentials (reddit.com/prefs/apps, type
+          # "script"): activates OAuth'd search.json with real post scores for
+          # the discovered-tweet vetting. Absent -> keyless search.rss path.
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: node scripts/collect.mjs
 
       - name: Commit refreshed data

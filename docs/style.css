@@ -1005,6 +1005,18 @@ body.modal-open { overflow: hidden; }
 .picker-select:hover { border-color: var(--amber); }
 .picker-select:focus { outline: 2px solid var(--amber); outline-offset: 1px; }
 
+/* ================= EMBED MODE (?embed=1 — Donoco Journal iframe) ================= */
+
+/* Hide the marketing chrome; the ticker and coverage tabs fill the frame.
+   The footer stays for attribution and the not-investment-advice line. */
+.embed .topbar,
+.embed .hero,
+.embed .strip,
+.embed .site,
+.embed .band { display: none; }
+.embed .coverage { padding: 28px 0 48px; }
+.embed .coverage .section-head h2 { font-size: clamp(20px, 3vw, 28px); }
+
 /* ================= FOOTER ================= */
 
 footer { border-top: 1px solid var(--line); background: var(--bg); }

@@ -5,6 +5,13 @@
 const TIER_LABELS = { 0: "Primary", 1: "Wire", 2: "Analysis", 3: "Web" };
 const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+// Embed mode (?embed=1): the Donoco Journal iframes this site, so hide the
+// marketing chrome (topbar, hero, photo strip, site plan, mission band) and
+// lead with the ticker + coverage tabs. The class gates the CSS rules.
+if (new URLSearchParams(location.search).get("embed") === "1") {
+  document.documentElement.classList.add("embed");
+}
+
 function timeAgo(iso) {
   if (!iso) return "undated";
   const mins = Math.round((Date.now() - Date.parse(iso)) / 60000);

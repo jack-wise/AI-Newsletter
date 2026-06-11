@@ -288,7 +288,7 @@ a { color: inherit; }
   height: 36%;
   transform: rotate(1.6deg);
   animation-delay: 450ms, 2.4s;
-  background-image: url("https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=70");
+  background-image: url("assets/solar-array.jpg");
 }
 .sp-c {
   top: 6%;
@@ -437,9 +437,13 @@ a { color: inherit; }
   letter-spacing: 0.22em;
   color: var(--ink);
 }
-.img-a { background-image: url("https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=70"); }
-.img-b { background-image: url("https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1400&q=70"); }
-.img-c { background-image: url("https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=70"); }
+/* Self-hosted, subject-verified (no hotlinks: an external URL's content can
+   rot under us). Assigned by caption: img-a POWER GENERATION = wind turbines,
+   img-b TRANSMISSION = pylons (the stock originals had these two swapped),
+   img-c COMPUTE AT SCALE = server racks. */
+.img-a { background-image: url("assets/wind-turbines.jpg"); }
+.img-b { background-image: url("assets/transmission-towers.jpg"); }
+.img-c { background-image: url("assets/server-racks.jpg"); }
 
 /* ================= THE SITE (Project Matador map) ================= */
 

@@ -979,6 +979,32 @@ body.modal-open { overflow: hidden; }
 }
 .md-table th, .md-table td { border-bottom: 1px solid var(--line); padding: 8px 12px 8px 0; vertical-align: top; }
 
+/* ================= ARCHIVE PICKERS (report editions + history days) ================= */
+
+.edition-bar { display: flex; align-items: center; gap: 12px; margin: 14px 0 6px; }
+.history-controls { display: flex; align-items: center; gap: 12px; margin: 0 0 24px; }
+.picker-label {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  color: var(--faint);
+}
+.picker-select {
+  color-scheme: dark; /* native dropdown list renders dark, arrow stays visible */
+  background: var(--card-2);
+  border: 1px solid var(--line-2);
+  border-radius: 6px;
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.picker-select:hover { border-color: var(--amber); }
+.picker-select:focus { outline: 2px solid var(--amber); outline-offset: 1px; }
+
 /* ================= FOOTER ================= */
 
 footer { border-top: 1px solid var(--line); background: var(--bg); }

@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=15" />
+  <link rel="stylesheet" href="style.css?v=16" />
 </head>
 <body>
 
@@ -37,6 +37,7 @@
         <a href="#coverage" data-nav="social">Social</a>
         <a href="#coverage" data-nav="brief">AI Brief</a>
         <a href="#coverage" data-nav="reports">Reports</a>
+        <a href="#coverage" data-nav="history">History</a>
       </nav>
       <div class="live-pill">
         <span class="pulse" aria-hidden="true"></span>
@@ -155,6 +156,7 @@
         <button class="tab" role="tab" aria-selected="false" data-tab="brief" id="tab-brief">AI BRIEF<span class="tab-note">THE FIELD</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="reports" id="tab-reports">REPORTS<span class="tab-note">AI RESEARCH</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="queequeg" id="tab-queequeg">QUEEQUEG<span class="tab-note">LIVE CHAT</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="history" id="tab-history">HISTORY<span class="tab-note">FULL ARCHIVE</span></button>
       </div>
 
       <section class="panel is-active" id="panel-frmi" role="tabpanel" aria-labelledby="tab-frmi">
@@ -223,6 +225,20 @@
           </form>
         </div>
       </section>
+
+      <section class="panel" id="panel-history" role="tabpanel" aria-labelledby="tab-history" hidden>
+        <p class="panel-note">
+          Every story this site has surfaced, recorded day by day since the
+          archive began on June 10, 2026. The live tabs rotate with the news
+          cycle — nothing here ever drops out.
+        </p>
+        <div class="history-controls">
+          <label class="picker-label" for="history-day">DAY</label>
+          <select id="history-day" class="picker-select" aria-label="Archive day"></select>
+        </div>
+        <ol id="history-list" class="brief"></ol>
+        <p id="history-empty" class="empty" hidden>No archive days yet — the collector writes the first one on its next run.</p>
+      </section>
     </div>
   </main>
 
@@ -290,6 +306,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=13"></script>
 </body>
 </html>

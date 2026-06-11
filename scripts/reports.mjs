@@ -13,6 +13,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { archiveReports } from "./archive.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -102,15 +103,18 @@ async function runReportPaced(client, def, today) {
 }
 
 async function main() {
+  const outDir = join(root, "docs", "data", "reports");
   if (!process.env.ANTHROPIC_API_KEY) {
     console.log("reports: skipped — no ANTHROPIC_API_KEY configured");
+    // Still snapshot current editions (including reports committed directly by
+    // other writers) so nothing is lost while generation is off.
+    archiveReports(outDir);
     return;
   }
   // Optional arg: comma-separated report keys (e.g. "earnings,banker,market").
   const only = process.argv[2] ? process.argv[2].split(",").map((s) => s.trim()) : null;
   const client = new Anthropic({ maxRetries: 3 });
   const today = new Date().toISOString().slice(0, 10);
-  const outDir = join(root, "docs", "data", "reports");
   mkdirSync(outDir, { recursive: true });
 
   const index = [];
@@ -156,6 +160,9 @@ async function main() {
     const merged = REPORTS.map((d) => byKey.get(d.key)).filter(Boolean);
     writeFileSync(join(outDir, "index.json"), JSON.stringify(merged, null, 2));
   }
+  // Snapshot this run's editions (and any externally committed ones) into the
+  // per-key archive that backs the Reports tab's edition picker.
+  archiveReports(outDir);
   if (failed && !index.length) process.exit(1); // total failure should show red
 }
 

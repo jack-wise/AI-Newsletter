@@ -17,6 +17,7 @@ import {
 import { searchX } from "./x.mjs";
 import { fetchStockTwits, fetchRedditXLinks } from "./social.mjs";
 import { enrichItems } from "./enrich.mjs";
+import { updateDayArchive } from "./archive.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(readFileSync(join(root, "config.json"), "utf8"));
@@ -255,20 +256,13 @@ async function main() {
 
   // Per-day archive: merge today's items by dedupe key so the day file grows
   // across runs without duplicates (an honest record of what the day surfaced).
+  // Also maintains archive/index.json, which the History tab navigates by.
   const day = payload.generatedAt.slice(0, 10);
-  const archiveDir = join(dataDir, "archive");
-  mkdirSync(archiveDir, { recursive: true });
-  const archivePath = join(archiveDir, `${day}.json`);
-  const existing = existsSync(archivePath)
-    ? JSON.parse(readFileSync(archivePath, "utf8"))
-    : { day, items: [] };
-  const merged = new Map(existing.items.map((i) => [dedupeKey(i), i]));
-  for (const i of [...priority, ...related, ...general]) {
-    if (!merged.has(dedupeKey(i))) merged.set(dedupeKey(i), i);
-  }
-  writeFileSync(
-    archivePath,
-    JSON.stringify({ day, items: [...merged.values()] }, null, 2),
+  updateDayArchive(
+    join(dataDir, "archive"),
+    day,
+    [...priority, ...related, ...general],
+    dedupeKey,
   );
 
   console.log(

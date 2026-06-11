@@ -339,7 +339,46 @@ function renderMarkdown(md) {
   return container;
 }
 
-function reportCard(meta, body) {
+// Edition picker: each report keeps up to 30 archived editions under
+// data/reports/archive/<key>/<date>.json (indexed in archive/index.json), so
+// readers can pull up yesterday's note or compare workups over time.
+function editionPicker(meta, body, editions, mdHost) {
+  const bar = el("div", "edition-bar");
+  bar.appendChild(el("label", "picker-label", "EDITION"));
+  const select = document.createElement("select");
+  select.className = "picker-select";
+  select.setAttribute("aria-label", `${meta.title} edition`);
+  editions.forEach((date, i) => {
+    const opt = document.createElement("option");
+    opt.value = date;
+    opt.textContent = i === 0 ? `${date} — latest` : date;
+    select.appendChild(opt);
+  });
+  bar.querySelector("label").htmlFor = select.id = `edition-${meta.key}`;
+  const cache = new Map([[String(body.generatedAt ?? "").slice(0, 10), body]]);
+  select.addEventListener("change", async () => {
+    const date = select.value;
+    let edition = cache.get(date);
+    if (!edition) {
+      try {
+        const r = await fetch(`data/reports/archive/${meta.key}/${date}.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (r.ok) {
+          edition = await r.json();
+          cache.set(date, edition);
+        }
+      } catch { /* fall through to the error note */ }
+    }
+    mdHost.replaceChildren(
+      edition
+        ? renderMarkdown(edition.markdown ?? "")
+        : el("p", "empty", `Couldn't load the ${date} edition.`),
+    );
+  });
+  bar.appendChild(select);
+  return bar;
+}
+
+function reportCard(meta, body, editions = []) {
   const card = el("article", "report");
   const head = el("button", "report-head");
   head.setAttribute("aria-expanded", "false");
@@ -351,7 +390,10 @@ function reportCard(meta, body) {
   head.appendChild(el("span", "report-toggle", "+"));
   const content = el("div", "report-body");
   content.hidden = true;
-  content.appendChild(renderMarkdown(body.markdown ?? ""));
+  const mdHost = el("div");
+  mdHost.appendChild(renderMarkdown(body.markdown ?? ""));
+  if (editions.length > 1) content.appendChild(editionPicker(meta, body, editions, mdHost));
+  content.appendChild(mdHost);
   head.addEventListener("click", () => {
     content.hidden = !content.hidden;
     head.setAttribute("aria-expanded", String(!content.hidden));
@@ -369,11 +411,16 @@ async function loadReports() {
     const res = await fetch(`data/reports/index.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error("no reports yet");
     const index = await res.json();
+    let editions = {};
+    try {
+      const a = await fetch(`data/reports/archive/index.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (a.ok) editions = await a.json();
+    } catch { /* no archive yet — cards render without a picker */ }
     const cards = [];
     for (const meta of index) {
       try {
         const r = await fetch(`data/reports/${meta.key}.json?ts=${Date.now()}`, { cache: "no-store" });
-        if (r.ok) cards.push(reportCard(meta, await r.json()));
+        if (r.ok) cards.push(reportCard(meta, await r.json(), editions[meta.key] ?? []));
       } catch { /* skip a single broken report */ }
     }
     list.replaceChildren(...cards);
@@ -383,6 +430,81 @@ async function loadReports() {
     empty.hidden = false;
   }
 }
+
+// ---- news history (permanent per-day archive) ------------------------------------
+
+// The collector merges every cycle's stories into data/archive/<day>.json and
+// indexes the days in data/archive/index.json. The History tab navigates that
+// record — stories stay reachable after they rotate out of the live feed.
+let historyIndex = null;
+const historyDayCache = new Map();
+
+function historyRow(item) {
+  const li = document.createElement("li");
+  const a = storyLink(item);
+  a.textContent = displayTitle(item);
+  const when = item.publishedAt
+    ? new Date(item.publishedAt).toLocaleString(undefined, {
+        month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+      })
+    : "undated";
+  a.appendChild(el("span", "brief-meta", `${item.source ?? ""} · ${when}`));
+  li.appendChild(a);
+  return li;
+}
+
+async function renderHistoryDay(day) {
+  const list = document.getElementById("history-list");
+  const empty = document.getElementById("history-empty");
+  let data = historyDayCache.get(day);
+  if (!data) {
+    try {
+      const r = await fetch(`data/archive/${day}.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (!r.ok) throw new Error();
+      data = await r.json();
+      historyDayCache.set(day, data);
+    } catch {
+      list.replaceChildren();
+      empty.textContent = `Couldn't load the archive for ${day}.`;
+      empty.hidden = false;
+      return;
+    }
+  }
+  const items = [...(data.items ?? [])].sort((a, b) =>
+    String(b.publishedAt ?? "").localeCompare(String(a.publishedAt ?? "")),
+  );
+  list.replaceChildren(...items.map(historyRow));
+  empty.hidden = items.length > 0;
+}
+
+async function loadHistory() {
+  if (historyIndex) return; // already populated this visit
+  const select = document.getElementById("history-day");
+  const empty = document.getElementById("history-empty");
+  try {
+    const res = await fetch(`data/archive/index.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error();
+    historyIndex = await res.json();
+  } catch {
+    historyIndex = null; // retried on the next tab visit
+    empty.hidden = false;
+    return;
+  }
+  select.replaceChildren(
+    ...historyIndex.map((e) => {
+      const opt = document.createElement("option");
+      opt.value = e.day;
+      opt.textContent = `${e.day} — ${e.count} ${e.count === 1 ? "story" : "stories"}`;
+      return opt;
+    }),
+  );
+  if (historyIndex.length) renderHistoryDay(historyIndex[0].day);
+  else empty.hidden = false;
+}
+
+document.getElementById("history-day")?.addEventListener("change", (e) =>
+  renderHistoryDay(e.target.value),
+);
 
 // ---- image lightbox (site plan) -------------------------------------------------
 
@@ -502,6 +624,7 @@ function activateTab(name) {
   for (const panel of document.querySelectorAll(".panel")) {
     panel.hidden = panel.id !== `panel-${name}`;
   }
+  if (name === "history") loadHistory(); // lazy: the archive only loads when viewed
 }
 
 for (const tab of document.querySelectorAll(".tab")) {

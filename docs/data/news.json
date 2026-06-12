@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T01:01:48.788Z",
+  "generatedAt": "2026-06-12T01:31:46.519Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,20 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: DFAN14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO 240.14A-12A)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026067892/ea0294531-dfan14a_toby.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-06-11T17:07:44.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "summary": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here)."
+    },
     {
       "title": "New Blog Post: US Stocks Watchlist There were 20 stocks highlighted from the US stocks watchlist scans today – $CRWD, $FRMI, $SNDK https://www.stageanalysis.net/blog/1390829/us-stocks-watchlist-12-june-2026",
       "url": "https://stocktwits.com/StageAnalysis/message/656213508",
@@ -35,22 +49,8 @@
         "FRMI"
       ],
       "related": [],
-      "score": 81.5,
+      "score": 71.5,
       "summary": "New Blog Post: US Stocks Watchlist There were 20 stocks highlighted from the US stocks watchlist scans today – $CRWD, $FRMI, $SNDK https://www.stageanalysis.net/blog/1390829/us-stocks-watchlist-12-june-2026"
-    },
-    {
-      "title": "SEC filing: DFAN14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO 240.14A-12A)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026067892/ea0294531-dfan14a_toby.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-06-11T17:07:44.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75,
-      "summary": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here)."
     },
     {
       "title": "Your Day Trading Watch List for Friday June 12th in About 2 Minutes: $SPY $TE $ONDS $CPNG $FRMI .",
@@ -487,6 +487,19 @@
   ],
   "related": [
     {
+      "title": "The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic - WSJ",
+      "url": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
+      "source": "WSJ",
+      "publishedAt": "2026-06-12T01:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
       "title": "China likely behind anti-data center campaign in US: OpenAI - The Hill",
       "url": "https://thehill.com/policy/technology/5920573-openai-chinese-influence-operators/",
       "source": "The Hill",
@@ -868,20 +881,6 @@
       "score": 45
     },
     {
-      "title": "BBVA's AI Strategy: Lessons from OpenAI Partnership - StartupHub.ai",
-      "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/bbva-s-ai-strategy-lessons-from-openai-partnership",
-      "source": "StartupHub.ai",
-      "publishedAt": "2026-06-11T20:03:10.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "BBVA's Global Head of AI Transformation, Antonio Bravo Acin, discusses the bank's AI strategy, its partnership with OpenAI, and key lessons learned in adopting"
-    },
-    {
       "title": "Businesses feeling the pain from AI spending, so OpenAI reportedly weighs price cuts - komonews.com",
       "url": "https://komonews.com/news/nation-world/businesses-feeling-the-pain-from-ai-spending-so-openai-reportedly-weighs-price-cuts",
       "source": "komonews.com",
@@ -906,7 +905,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "FirstEnergy wants AI data centers to foot the bill for new grid upgrades as energy demand surges - The Cool Down",
@@ -917,7 +916,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic urges US to not block state AI regulations till federal standards are set - The American Bazaar",
@@ -964,6 +963,17 @@
       "score": 50
     },
     {
+      "title": "Hyperscale Data Confirms Production of First 30 Omnipresent Robotics OPR-R2 Humanoid Robots Has Begun - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdm05OU5rMVZ0S3R3NjVGSjRtaEg3azBLQnhBT0ZrRDRDcnBBcXBRSWsxX0tpVS1JWXdCejc2anJnSkhjeWhfN1REYVRuZGJjTnQ0d0dsUERUZGZKZVdLYzlQNHpzUlZmOVVLN203TWhTWF9aeDQ0ZkEzZTd3VGhicFhvLUZHaUFVOUQ1a1dJSEprRFpTa1ZBNnpTM1NxVFN3bWRhWjA5YWI3V1ZBWkZ2SjVWVkFITXFmeUttR3Q0QXc4c1FRdUNGbGVnXzhiakp5WWxEb2FTc3JNLVpOMVRNVFo5ZGZONEpicWc5VHN3?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-06-11T20:15:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "China-based operatives used ChatGPT to shape AI data centers and tariff debates - Axios",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVlQ1QlRZUV9LR1BDcWZHZTZsOTQxZFRHMGpnVThNMi1GYVZhWkxKanlSeFdSWDJfQy1YWlhJNDdhN1E4R3FGajUtRjdNUVJnTEl4NnEwM1I0SW5kbl9pTDJ1aFVuUnZYbXRhUjZtb3pXNVNNYUxqQ2d5OEVZeldVbDNB?oc=5",
       "source": "Axios",
@@ -997,10 +1007,10 @@
       "score": 50
     },
     {
-      "title": "How new AI cuts breast cancer screening time for high-risk women - University of California",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2ZybjdhMHNlV01OLXMxQW5SZGxETEpEdk5Pb3NaV2lPN0tSOEFYWmV1cjJWTE9NMk0xeEdBN3JpLVA4cXhYMXhlenhSMk1oU19BWDV0Z3BSTDhBTkVNdjR1QXRNRUhqeEstcFh2MTE1ejV2Wm4wRXVJbFRtWHJ2OENJMGdOclJLM1VpZzY4N0xjZEFRYTkyNzFobDU5WDUxWjNVSUhYcw?oc=5",
-      "source": "University of California",
-      "publishedAt": "2026-06-12T00:15:48.000Z",
+      "title": "AI Infrastructure Boom: Why These ASX ETFs Are Gaining Attention - Kalkine Media",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYzZJU29IYzRBaDlySnFnS3g1aVVaUms5Sko4S2k2UThnWDQtV3lYOEdyVzk3b19CUHVoVXRMa1U4MTI0YVo1Y3FNTDFhanhnSTAzcVpoa1BadHowQlI4a0Qyb2lqMkN3WmgteG1sbXVSNXpTY0VxM3Bodm9uZFBmYU93MTNjRlVFRDY4anhVeU5QZk4tZHpFaVFOek5jZTdZb3FCMw?oc=5",
+      "source": "Kalkine Media",
+      "publishedAt": "2026-06-12T01:11:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1008,10 +1018,32 @@
       "score": 40
     },
     {
-      "title": "The AI Price War Is Great News for Consumers - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObm1jRUhac2xEQjN2Q1c1V0NjVTJuVHoyWmJaOGJXZHYxWFN6MDFQVG90TmNlY0tzeXpQdjZQNGNTUC1OY3RjSkl1d0YtT2hTR0RBUVhMWEZ6Ymd4LVIxNWJiZTFJWW1md0RhYWVfNUJPUkpTeWI3UW4tTG9rem0wZzJYRFo3YkpKc0RxeWJKZXE0SV9aY3Rjck1BYnZWZG1QeDZOQg?oc=5",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-06-12T00:08:14.000Z",
+      "title": "Red Bank Bans Data Centers, Calls on New Jersey to Do the Same - Insider NJ",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaVpfNDFJM0dubURoRTdBVHVkaVRGQzBQNXNGbW5LenR2LUwxbUdIbGdicnZIV2lmRUhlM3RWeG5neGtuUWFwUjhDTVhwSkZKQTFEOGhCZjhlTXNTTkowckhjUC1Vc0NIeTBBZ285Zk1oajNfY0FUUWNsNE8tT2M2cDZjYkFPUXZ4SWtFdGZobEhIN1UwMEhURHlCWm96WXVkTmhKRg?oc=5",
+      "source": "Insider NJ",
+      "publishedAt": "2026-06-12T01:10:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Is Innodata Inc. (INOD) among the Under-the-Radar AI Stocks to Buy in 2026? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQThtMHM3ZWJEMDZuX3FEMENGSkg1T3V0M2Nya0VueW03T3FkaGM1cHpzZ2JETm1sc1hvNVpWdm5XMmpjWGZIRFdpNTNNaXAtbmRLb3h3a0NuU1UwU1JfTU9OX05mdEhUR1h5ZWNEOThVRjJrZjNCV2JKTThKLTJ6b25taFNTbTJNa05Xbm1XRzNUbmZldGozcHNR?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-12T00:37:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Here is why Mitek Systems, Inc. (MITK) is among the Under-the-Radar AI Stocks to Buy in 2026 - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjN2azdxUFpqTW5Hb2pBRUxVVHdiZ0s5YWxraW1aem1JVkdHTE9SU3VTQmZvblB0eGhybE1zVlE4TVV5RVdxUkw5dFNlTjIweWJiZHZZakNrTDNBU2lKTU9FS2RmSFcxdVRETDJDSHZfUEprODJBcUJrQlBsNWZWNHpVOWJpNlJOT3RISzFyREI1LVl5RHc?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-12T00:37:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1063,17 +1095,6 @@
       "score": 40
     },
     {
-      "title": "Bezos opens up about AI startup Prometheus after $12 billion raise: 'We're not being secretive' - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTFlKUWJPVTFGMU5WQ1ZyUzE2QmlRN21FYmNqV21QVlhNSHJ0d25PV2lRZTlnMzdIanhBaE5tdl9tRmFLZzNvNGVoZXhyUjdGS3ZyUEtfLUczejZ2bkFSNE9RY1ZoQ1B3MEgzWkRtczdoOTRNWUZIQmRXclMyamp1Y08yOWNWdkHSAYwBQVVfeXFMUHBubUdKazZwa25mQ1lrS0NKa2pHdU9HTU9TaUEtZzJUbkNmNUFCRXQ3NUk0VnVIdl9mUjNGOVRFaUNXcDRHQkE4Y2o3Q0FlQlkwWHlwNEl3ZmQwYkdLc3lzVW5Qd0FydHBCY0xTWVllb3RCTkpEdXM5SVBUSWNfMXRZV2RLV0tiTVF5RDU?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-06-11T15:59:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Counting the Cost of America’s AI Future - The Washington Stand",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkFjc2N2S0syREFxZEQtbmlaYVRGemFnV1RjVkpzdWhERlBXZlpONUhMckZONmpBUGE2aW9DcHZoamJhUWtfUE1EZU43NzRDRWdWejZmOVpyUW95bUoyMFJiOUhRTk9zeTZPc0doall2NFNEYnktN1NKQk9lZEhKeA?oc=5",
       "source": "The Washington Stand",
@@ -1089,6 +1110,17 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbl9yQzBnT20xdDZ5cnZKQURiVVZZODU2WXF2R0c2clhwdTlGZUM2NUZnWmZfRWpPUmZVUzRONGFtMEhia0x3NU9PUE04Qy1mYXljemo0YXFTMngwWFczSlNDZjBoc2pSd3BjMDRlMWhVYnFjTVN0NWtRSWpnNWpDV2diUkZOSkU?oc=5",
       "source": "The Pennsylvania State University",
       "publishedAt": "2026-06-11T15:36:02.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Oregon battery maker plans public debut fueled by AI datacenter buildout - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1yM3hKendnb3d2RDM2aFhSMklZbi1ZVEJFNmdWYm1RdmZzc1ZFeTQ5c0VKY3A3d2paU29JRjJTYlVnaHJhWVBPX1hmRkxial82TkhTREEtakVQcFU1dllJRlFIR3JSSkZuVGZOMm4wUDA2S2o3THVOVkdmZFE?oc=5",
+      "source": "The Business Journals",
+      "publishedAt": "2026-06-11T15:16:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1118,31 +1150,20 @@
       "score": 40
     },
     {
-      "title": "Better Artificial Intelligence (AI) Stock: Marvell Technology vs. Broadcom - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTERydnp1c3M5X3YwX0ZzQXRVTlR4LTN1QW1SUmN1QVBTeTVMWU1LTTBKMlZFcnhwUWc2LUJoZGRZeHBUMklhUEtwZlRabHE1clBwdkJTZ1VhelFuUm94MDUxX0Vpcy1wZGhKRk1TM2FsVzZWZ2dhRUtvLUVwWkpaMG1rRGNYQzQzSW1UcG1MMGc4UTZNYk5xZg?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-11T14:23:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Jeff Bezos Wants to Build an ‘Artificial General Engineer’ - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeUpUUl9lcDUwVDctMUNOSGZWYnh4bkZtM0NDVmRvbU1DbllKY0RLTk5LYWdwM1g3dUF6cnhSNTNDZ3VoM09ja19XZk9VVzlzWEwyR1dvTnMzTWdwNmJGOFlTTnZ5QU5kOWVRMmVpZWVhR3RLLVRmS1FLa2dneFVid2xueXdpQQ?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-11T14:00:06.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "AI wealth boom sending San Francisco home prices surging: ‘It’s ridiculous’ - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUEUtQmhxYndVcHVYSm9GOGtXT1NrRlVmU3MwbWtRTWwzUk9BMWRQVHItdzVYTU1fRDlzcGlKZ1RPN1pULUU5bi1oRXRhTmQyLTc0bGFHQUtoUE5jSmx5RS1qRnVUTFdFSHF6OHhFTVMxcndoQTJzZGY2OVBKdnJmMDVUdjBMdzZjQjdPd1A5MW5NZw?oc=5",
       "source": "The Guardian",
+      "publishedAt": "2026-06-11T14:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Bezos Bats Down AI Job Loss Fears While Launching New Venture - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSnRpc3N6OVVyRnFTS1RoREhrdFkwbGRYSHk0d1IyUmY2bWtjTzV5T2NZUEhGcWZLdEFKamswXzlYUktLMmRkVV9xV2tQX0lRMFFUU3h5aTNQX1ZBY1doXzIxSHVqbDVFZmJPTmFHTW1ROFktc0Y1Qjhvamg3RVh5VmZUemR6bi02cTFBdUlnZzY2T3hadVpMYXlQdnA1Sms?oc=5",
+      "source": "WSJ",
       "publishedAt": "2026-06-11T14:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1173,6 +1194,17 @@
       "score": 40
     },
     {
+      "title": "Homebuyers Now Trust AI at Every Step of Their Biggest Financial Decision, Veterans United Survey Finds - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYlN3TFlrazJMWFBhN1FVeHNVWkh5UHlaY2JrQ3RqODlzWUYyWmUtRGI1MlpVX0EzdkozbWFNSmRBMGRmdmszR2dCTTk5MDQtRGtVWndhSTFFWWFxNDdhZjRxUENjZTdtaUc1ajRSVk9ia2N6cTFMWHM4MzdmOFVKTlZRNG1CalBkbG56dDQ3Q2lCaTE3ZjFuTGZKZFYyUEluS015UTlJb2lTRm1qMmxvc196LVNoN0NrR0ZTN0tpLXMtWEZlVEVFN1pqQmVNWnZPUGtFYk0wS21Xbm1zU2hRVklLbWZKRXNnNFRvSlBQNA?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-06-11T13:03:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "DoorDash lets customers use photos, prompts to order food and book reservations in latest AI push - CNBC",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WZ0hadmFVbHkwZ2FmZGRHcGZ2b3FPcXdjOXhtN3lGNlRpZFMxak1idFlxUk00bHRXUGVXUGsyZ0QzZjltelo1X01NTGR2MUswZnZVQU1NcVp0Zl9tM1Zwdjd3X1IyaHF2Z3I3UnRhdUxHaFJ0QlJR0gF8QVVfeXFMTUdJMTRKR3MyelB1WHR0NWI4dHhfQ3pSV21RM29oeGlvczdnLVFWTllOSUE1VG5PUlpQa25QNUs4OVI3MVZYMWxBVjk0WHowbk9Qa1dpN2szeEUxLU0xT21Hd0hJdmlyU2lWZ1FxOW9vQk1sRks1WmRwM2tCNA?oc=5",
       "source": "CNBC",
@@ -1195,10 +1227,10 @@
       "score": 40
     },
     {
-      "title": "The skills people still perform better than AI, according to workplace experts - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVXdOa29HNXR4czhJbHc2TU9IMFhsS0UxZk1vWmFQdXl6VmlZTjNjUmhjZ0padUFxdkZGN0NrdDVtYmlkUk1iZVNneUxOcEt1UU1McWhsbVdiV0JMTHFjNS1WM2VEWG15Z0ZlUUdIblotZFVVVXNoYXNXeU5HUzlpZDVSTVg5R19ETFlWc1JnY3cyTFFEQlpyeWFjemN6alpldjd4VG9MWFhPdw?oc=5",
-      "source": "AP News",
-      "publishedAt": "2026-06-11T12:48:00.000Z",
+      "title": "AmpTank Announces 200 MW AI Data Center Project in Utajärvi, Finland - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcDJBN050MkpQUHdIMDRvRzczd3FUMGpFRllUMHFXSmwtY0ZkYlVJc29RWnZqRThtRkFpVTFXWnYta3QtQTlSbzd2a1hEcDRidGFBQkcwbzNYbEYxZFQ4WnE4aS10Y1EzWmszamstaFdSTzlkYWtxZmZyTHhGWmZmcHY1aU5XWGlLMHF4NVBSNEp3ZV80Rm1sMC0zcFl5S2lMLUdMMWhhcFdScnVQSXl3M1dTenZTM2JiQVg5OHQzeC0xY0pWalYzOTJ3?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-06-11T13:00:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1206,10 +1238,10 @@
       "score": 40
     },
     {
-      "title": "Nixxy and Tachyon9 Position to Address Growing U.S. AI Infrastructure Capacity Shortfall - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ0hyTU9NUVN3RnY0NFBZblk0eDZhRmN4SndyNFdNVjI4SEp1elk4cVB1MmZJc1Njc0VBMndsaDBaVjl3VmZiU3R6Wm5OYUZOUkptMVZwdDJwUGN1SmpCSThnVWJvVW1kaVN3TF9TS1hLUGd0U05uR19Hdy1saXBId2FvNTM0MVdjYjFOM05zbndwQm9LZHRYMk5NVE8tUlU1RHZNTDRTLUM5UVU1T0plTm1Rcmw3bTRuVnFrcFU5WXc5bmtxM2U0VkxCT25mdkx6QXdLX0Zudi1yNUc1bXc?oc=5",
-      "source": "Business Wire",
-      "publishedAt": "2026-06-11T12:30:00.000Z",
+      "title": "The skills people still perform better than AI, according to workplace experts - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVXdOa29HNXR4czhJbHc2TU9IMFhsS0UxZk1vWmFQdXl6VmlZTjNjUmhjZ0padUFxdkZGN0NrdDVtYmlkUk1iZVNneUxOcEt1UU1McWhsbVdiV0JMTHFjNS1WM2VEWG15Z0ZlUUdIblotZFVVVXNoYXNXeU5HUzlpZDVSTVg5R19ETFlWc1JnY3cyTFFEQlpyeWFjemN6alpldjd4VG9MWFhPdw?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-06-11T12:48:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1316,6 +1348,28 @@
       "score": 40
     },
     {
+      "title": "How new AI cuts breast cancer screening time for high-risk women - University of California",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2ZybjdhMHNlV01OLXMxQW5SZGxETEpEdk5Pb3NaV2lPN0tSOEFYWmV1cjJWTE9NMk0xeEdBN3JpLVA4cXhYMXhlenhSMk1oU19BWDV0Z3BSTDhBTkVNdjR1QXRNRUhqeEstcFh2MTE1ejV2Wm4wRXVJbFRtWHJ2OENJMGdOclJLM1VpZzY4N0xjZEFRYTkyNzFobDU5WDUxWjNVSUhYcw?oc=5",
+      "source": "University of California",
+      "publishedAt": "2026-06-12T00:15:48.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "The AI Price War Is Great News for Consumers - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObm1jRUhac2xEQjN2Q1c1V0NjVTJuVHoyWmJaOGJXZHYxWFN6MDFQVG90TmNlY0tzeXpQdjZQNGNTUC1OY3RjSkl1d0YtT2hTR0RBUVhMWEZ6Ymd4LVIxNWJiZTFJWW1md0RhYWVfNUJPUkpTeWI3UW4tTG9rem0wZzJYRFo3YkpKc0RxeWJKZXE0SV9aY3Rjck1BYnZWZG1QeDZOQg?oc=5",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-06-12T00:08:14.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
       "title": "AI Legislative Update: June 12, 2026 - Transparency Coalition",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSkQtWlZOSFdmNHg5SjhCX2VDS3o2Q05JVG0wT18xdElkS1M3ZkstcnktS2xGcFg2Y2FXb3NoamtkQzllclFpS094SjY2bFgtbVVNWEcxVFFwTzAxcXJvT1UtcWFCMzRTbU00MzBsLVVzQURvcEw1cnkySFVObDNETg?oc=5",
       "source": "Transparency Coalition",
@@ -1386,61 +1440,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdXdxOGRoLU50RlE4VE54cnIzd1FaUnd1SEdTMmNqOFpPdEtZN0E2QUszeVNzNkkycjRodGFMRnQtdUxTazZwRWlwSHJ2aVFES2VfakViZE5ZS1lwa2VlNk5JNTE2M2Q4SUpFR1FaektwbDc4dDAzRjNzVmctc3JrdDVCOVBFdWtCZU5qM3lUTnZlQkJtcllVSmtHeVgyZw?oc=5",
       "source": "Courthouse News",
       "publishedAt": "2026-06-11T22:58:34.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "Helix launches with $10B+ in funding to build AI infrastructure - SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTVFMMURkcERKRUVXcmZ5ZXl2eXRiaXpjQTUyTDhGOE5MQndTY29PQ3Z2X1JhYXdadUZJOVZqSTBqQnp3N09vUkFfNHUxeXBYZ0JCVmhkaDhHM1ZLbEtRTjlZUGRoTDJUakNYNW5wc0xVUlBYV0otMmRrbFU5cVZGZDdHTF96ZlZlUHdmVjVtUnQ?oc=5",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-06-11T22:58:17.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "KKR-led Helix launches with $10B+ for AI infrastructure - Let's Data Science",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMDdlaWRBanlhX0dwUWpBd3IxX0RfMFhZRkExV0xxaXdzSGVNTWtYeUsyQTdrX1g0VklHZXlUNjRLcmlWdDN6cGZvbVpyR0tzc20wQ0JBYWN5S1NabGxJTFNfVndZYURNS0pQSy1jMEtmQm9IaWgzeEZRQTNqMzktZ25wV2pJblZBTlNKTlhhMnZsbUU4QmZLVUdQOA?oc=5",
-      "source": "Let's Data Science",
-      "publishedAt": "2026-06-11T22:58:17.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "USC Researcher to Lead $2.4M AI Core for Raynor Cerebellum Project Treating Cerebellar Disorders - USC Viterbi School of Engineering",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbktEbWg1NWxsV04zR3h0TWJqMjNGLTBwWGgtMnVqU0hnVVBOMm5wOWtVX1k0U1gzNXpJNXlhVVRTWVhLQ1VPZ3djY0FuOVJfWjJsNEQtYkc3dW9ON2I4ZHVUUjhrYVpHRmQ4OEhKQVBJM09lTFZZOElEMTBuZnhaN1FQdWhwekpKVENxNlF1eUpTeVV5c1ZpUkJqb0ljY0ZpeU5wYnFMSVVjVnJNT2VIb2xIVnJWTGZJQXY0OW50SnVqWkJfbHNsRk5PV1BXYVJ1QXdXNnZR?oc=5",
-      "source": "USC Viterbi School of Engineering",
-      "publishedAt": "2026-06-11T22:41:14.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "More employers seeking critical thinking skills amid AI rise - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVGdLMmRBdDYwRGlPSW0yNnFOeDB3OFVFUlc5ellvWndqWkpGQWdZQm9HUFBSc2hyZkk1aENkT1A2c2F3QnZ4LVNSa0JPOXJpTUU2ckFobUJNVXNRS05kUU9QMlg2bUZwZDJwaVlNVVBGaVV0ZjlfeDAybWxSbFJzR0ozc1BvcE91X0xpdTJ6cGJjOFNveEE?oc=5",
-      "source": "CBS News",
-      "publishedAt": "2026-06-11T22:37:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "Judge ousts lawyers over sloppy AI use - Mississippi Today",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdUpwVHotOFFhQTlYZlZPaTV4OFZTZDNYTXdETENxbVFtcjVYRU5TWEsydFBoV0ZlVWFZcVFFNUg2T0kwUWd5VUtycUdkdHJOM3FLbjFhLVlIZl9jbUhHZC1QSWhLRTBhd19Qak44SFBrWVFoRUZNWXgxOXFLTzhEag?oc=5",
-      "source": "Mississippi Today",
-      "publishedAt": "2026-06-11T22:22:18.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

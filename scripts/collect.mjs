@@ -67,6 +67,11 @@ function matchLabels(matchers, text) {
 // Dedupe key: normalized title with the Google News " - Publisher" suffix and
 // punctuation stripped, so wire reprints cluster to one item.
 function dedupeKey(item) {
+  // SEC filings dedupe by URL, never by title: EDGAR's form + description fields
+  // produce byte-identical titles for distinct filings (Toby's June 10/11/12
+  // DFAN14As all read the same), and title-clustering made each new filing
+  // silently swallow the previous one. Each accession has a unique URL.
+  if (item.kind === "filing") return item.url;
   return item.title
     .replace(/\s+-\s+[^-]+$/, "")
     .toLowerCase()

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T08:31:24.501Z",
+  "generatedAt": "2026-06-13T08:38:48.466Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -796,32 +796,6 @@
       "summary": "The Wall Street Journal reported that a coalition of state attorneys general have opened an investigation into OpenAI."
     },
     {
-      "title": "Exclusive | OpenAI Investigated by Coalition of State Attorneys General - WSJ",
-      "url": "https://www.wsj.com/tech/openai-investigated-by-coalition-of-state-attorneys-general-088a3928",
-      "source": "WSJ",
-      "publishedAt": "2026-06-12T23:32:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "What the SpaceX I.P.O. Means for OpenAI and Anthropic - The New York Times",
-      "url": "https://www.nytimes.com/2026/06/12/technology/spacex-ipo-openai-anthropic.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-12T22:40:06.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
       "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing - The Hacker News",
       "url": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
       "source": "The Hacker News",
@@ -834,6 +808,19 @@
       ],
       "score": 55,
       "summary": "Google sued Outsider operators for allegedly using Gemini AI to create phishing pages tied to 1.59M URLs and 100K+ victims."
+    },
+    {
+      "title": "What the SpaceX I.P.O. Means for OpenAI and Anthropic - The New York Times",
+      "url": "https://www.nytimes.com/2026/06/12/technology/spacex-ipo-openai-anthropic.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-06-12T18:53:33.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "AWS Graviton5 Reframes the CPU as Agentic AI Infrastructure - The Futurum Group",
@@ -1173,6 +1160,20 @@
       ],
       "score": 35,
       "summary": "New AgentPerf results from Artificial Analysis show how accelerated computing systems handle real-world agentic workloads, with NVIDIA GB300 NVL72 running up to 20x more agents per megawatt than NVIDIA Hopper."
+    },
+    {
+      "title": "Google unveils DiffusionGemma, an AI model that breaks free of left-to-right processing - InfoWorld",
+      "url": "https://www.infoworld.com/article/4184668/google-unveils-diffusiongemma-an-ai-model-that-breaks-free-of-left-to-right-processing.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-06-12T21:19:34.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 35,
+      "summary": "Rather than generating text word by word, Google's experimental open-source model drafts entire passages simultaneously using diffusion, resulting in up to 4x faster inference."
     }
   ],
   "general": [
@@ -1185,7 +1186,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic Says US Limits Foreign Access to Fable 5, Mythos 5 - Bloomberg.com",
@@ -1265,17 +1266,6 @@
       "score": 50
     },
     {
-      "title": "U.S. Bars Foreigners From Using Anthropic’s Most Advanced A.I. Models - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTHRjTk4ySzZxRVVlTnA4LXdBSzZ3RzFEX0puLW1ZTVhxNXRSTmN3ZEVhV0phNWF5YzhfMVhZWGhnR0RlMzhDeUx6RkhuWXRYR0YyTWVTdU1EX3ZZV3l5S3MtRW5LbHczR2VlWDRVSjlVcnRKVTY4Y0ZmZ1V5bWdpb1dVQXBTLTdTMUE?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-13T03:48:18.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Anthropic cuts access to AI models over U.S. ‘national security’ order - The Hindu",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNjFkOFh2enVtcEgzdVlHNlJyQlJWZzdFbllKSFFuVzFfdlV4b1VjUktqem5WU1p4eTh2WFVYaDRvWVVwVnNhQ0VzNTF5cmV3SFhxN05va2hxbnN3NVBvTkdqZThPMmYyUW9ab1dyNmZiQTdyVU1sazdlRFdPc24ta1ctTE1WUFV5eHllWVZsaEdidWc4U050bEo4RnlCUXo5N2ZRWmdBVXExbFBFZ2FDTDZjVks2Q1hTRHVaMGpDX1dpVDNZVEpWcGhGWdIB0gFBVV95cUxPS1BUOHMyU1pKSV9OQ0dEMUpZS0JRQTZjdTc5SF91Q2pEdTE3R09kU2JxaWZtdXZiVVpZVlF3VHpVU2lDUHg4Q0lpSlRUZjFxSjIxbDkwQ0NXa2EwTXZranh1bmZ0TWtEZURCMzUtQjYwcndJOFZBaUNTcFJRVU1NV29jTWNLRHBKcXIwSEJtS1RaMERUMFZKRXp2NXllLVpkLVRwTXdoY01DM3BfX1Z2QU9JVGxMVE4yeGJFazdMal9VX3NoTUFjQWhueThTWUY2N1E?oc=5",
       "source": "The Hindu",
@@ -1298,37 +1288,15 @@
       "score": 50
     },
     {
-      "title": "AI chatbots are telling Israeli voters exactly what they want to hear - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUUl1a0N1QUFtajVCUV9QUUZfdnFySDdGOTI2TlBPTmtqbllHNmpKUWlLOWFBVGVzNWt6cndpV1JPZ19nWmppYk1ldVRPc0xSWmRzRlQyRlU5SnZWcVh5SG5yVkprTWxfNjFjQk5kRlBnUURRa25PTW96bWNqVjk1YXZmVmdLbHIzMjZvMVVkb21yckEwOVBnUWpORElJSklBNVE?oc=5",
-      "source": "The Times of Israel",
-      "publishedAt": "2026-06-13T02:49:07.000Z",
+      "title": "Anthropic Suspends AI Model Access Amid US Export Controls - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWXZmeGdYWlcyOUQxaC0zVTBzZFhDNHp6dEJqTmdmX2JacG82V1ozNXJEM0N4czdlX3VzTnZFVzM0SDlrNHpnM2daT2JEMVV1Z1BsSF8tb1d0MHc4djBqQk5KOThLX1hSYUJvZ1p5Wi1sMTVQN054UDdfWUtZSTF4Nk9nYjBNUDFaSWRTWUxLREVUVlZVbWFBSDAwdFJWdw?oc=5",
+      "source": "GuruFocus",
+      "publishedAt": "2026-06-13T08:36:36.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "The AI Boom's Next Bottleneck Is Electricity. These 3 Stocks Are Positioned to Power the Build-Out. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY0p4VFVEeTVFMHZCcTNjM21acXRKUGREczJVaURRcDd0VDdXYW1HclJXYlU3QXFad21kSlJIOEpLTzhfUDZicFNkR2NIQ2lKVW0yVlBsQS1veXNLeHBOTFFvbTByTXlpeUJMLXZuMnotVmNYQ2ZQZGNHSXVtOU9tSF9zVWtPaWxieGVoUjh5R2FQWU5KLTZB?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-13T02:36:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic says it has taken its latest AI models offline to comply with new export controls - AP News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ0c5cU10TTQ0RVB4aHZRMm5BcFJQaGdDUjJLS2tMVnRLc3NLdUJKRmowZGFpMTNyYXBsQ2VfLUlIT0ZPeVc1THdxRGJqRjgzQThKX2RFLXJsRXFTbVBwMVN4dU9jcWVYVzlTMHQ3ZlBQSHFtNVRCeGdiSmRWRnRXNnZadkVvZDUwN1R4ODhvS1BZTWRpMFBPTjdxT0t3TWhTV0JBd3g4dklodkNXdjBBSEpR?oc=5",
-      "source": "AP News",
-      "publishedAt": "2026-06-13T02:36:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Anthropic suspends top AI models after US government order - Yahoo",
@@ -1364,6 +1332,17 @@
       "score": 40
     },
     {
+      "title": "Should IBM’s US$10 Billion Quantum and AI Expansion Require Action From International Business Machines (IBM) Investors? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2Mwc0NaQVEzOG9CVEl0Uld2T2hfLXVYY3FqdXRrUWhFcGdhR3dJMThkYkNXWmpEMXpsQU9SNkV3c3A5X1NfeF9LdEY3MU9aUEZocDl2cmFsU01yYnpaeWRoUURsY3NXejBDN1RXR0hhUVFHM1k1NVY4Ul9uV09FNTF4LTBvUHFQM0dOSWF0RWs2OFNB?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-13T08:06:53.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "The US government just forced Anthropic to pull its most advanced AI models - Android Authority",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUklXVzFSa19QamVWaDJJem9IVWozUUlJZkVqeHNBSHVSZnB4SWxFUXhBY093RldGXzMtNHMzVzliZkpfVlJTQ0szVVFWaEF6RTNXZ0haekUya3NJdndCeXVFUkwzOEktai1zTFBmVEZEODFULXFmejJjZlFkaVV4TjlpOGJ4aWFaUm9pZnNTelRyb2JjdXYxaA?oc=5",
       "source": "Android Authority",
@@ -1379,17 +1358,6 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNG1NdXAtd05QODE0dFRJaWFST0syNjNQZlozWlFfUVZXN21QSkdGOG1NSnk3aFl5R255aUdNNFFlTjl4RHNXdnRxX29nRTkzN25MckJYVFNyNjBhZElRcUVIYWNaa0VVY25RVkNFMUM4V3QtcEFwUnY1bGpETjNiVHQ2YUFOaVJYQ2c?oc=5",
       "source": "Yahoo Finance UK",
       "publishedAt": "2026-06-13T07:46:08.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Anthropic's latest AI model 'Fable' was so powerful the US government banned the world from it - TweakTown",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRGRQa1BmZWN3QThmMzB3Z0psNHVtaWI5MXQ0NFZMRi12ZEFxRElkcFJ3bUtjWUhDNFhNZ1FUMEJOMkdrVHc2SFM1SmRnZWNCYnd3eTl2SFlKR3J4bUlYc1FObHdRR2Myb29PUWlSRlVhV1NIWHVWdWJmUDBTR2ZmYnMtUERxeEJqelBobXpMS2ZINFRSYmk3ODRaNmdpSkxJNXN0bG5yd25iSTZ1N3ZTRUZKZjY2SFhua1Y2Uk8tMFhXS0ZxdUEyelJOS3lGSW5kalozWXVISQ?oc=5",
-      "source": "TweakTown",
-      "publishedAt": "2026-06-13T07:35:06.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1419,10 +1387,43 @@
       "score": 40
     },
     {
+      "title": "The AI Boom's Next Bottleneck Is Electricity. These 3 Stocks Are Positioned to Power the Build-Out. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY0p4VFVEeTVFMHZCcTNjM21acXRKUGREczJVaURRcDd0VDdXYW1HclJXYlU3QXFad21kSlJIOEpLTzhfUDZicFNkR2NIQ2lKVW0yVlBsQS1veXNLeHBOTFFvbTByTXlpeUJMLXZuMnotVmNYQ2ZQZGNHSXVtOU9tSF9zVWtPaWxieGVoUjh5R2FQWU5KLTZB?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-13T02:36:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Anthropic says it has taken its latest AI models offline to comply with new export controls - AP News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ0c5cU10TTQ0RVB4aHZRMm5BcFJQaGdDUjJLS2tMVnRLc3NLdUJKRmowZGFpMTNyYXBsQ2VfLUlIT0ZPeVc1THdxRGJqRjgzQThKX2RFLXJsRXFTbVBwMVN4dU9jcWVYVzlTMHQ3ZlBQSHFtNVRCeGdiSmRWRnRXNnZadkVvZDUwN1R4ODhvS1BZTWRpMFBPTjdxT0t3TWhTV0JBd3g4dklodkNXdjBBSEpR?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-06-13T02:36:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Anthropic says has taken its latest AI models offline to comply with new export controls - The Independent",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ3RWd1FlLTdvb3dFRW8tRDdIcDhtdHN6OGppbmdWWXdlcEpoLXdiZlJuQkxmU1kxamJoMDNjMzhXVXB5T3k0YTg1M2d6dlhpWnZ5UVZQZnVzYTc1eTNpNDA4ZkFKZThBeHV3elVGUUxzWDFFc0ZpNGZIcV91VW9zNWpYRXFqSVpnQ040d2dQMU9MZk5OeW9GS1cycFZFSWxvSWptZA?oc=5",
       "source": "The Independent",
       "publishedAt": "2026-06-13T02:29:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Anthropic Blocks Foreigners From Using Mythos and Fable AI - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTHRjTk4ySzZxRVVlTnA4LXdBSzZ3RzFEX0puLW1ZTVhxNXRSTmN3ZEVhV0phNWF5YzhfMVhZWGhnR0RlMzhDeUx6RkhuWXRYR0YyTWVTdU1EX3ZZV3l5S3MtRW5LbHczR2VlWDRVSjlVcnRKVTY4Y0ZmZ1V5bWdpb1dVQXBTLTdTMUE?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-06-13T02:26:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1716,10 +1717,10 @@
       "score": 40
     },
     {
-      "title": "US government orders Anthropic to block AI models for foreign users over security concerns - mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wVFVqbWxIdUdPRjU2cUNDb2tNVnRLTnY1cS1ZTFpZZkgwWGlyTG1QWFplU3JNc3RwdlpDTl9MUTA0M2x5RXBRT3llZEF4X3BHRVJ4UFZRdnI4ZDVQNC1MTmFOdEVEMnZCcDNGYVlpdDZrdkRXeFNB?oc=5",
-      "source": "mezha.net",
-      "publishedAt": "2026-06-13T07:30:20.000Z",
+      "title": "Anthropic's latest AI model 'Fable' was so powerful the US government banned the world from it - TweakTown",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRGRQa1BmZWN3QThmMzB3Z0psNHVtaWI5MXQ0NFZMRi12ZEFxRElkcFJ3bUtjWUhDNFhNZ1FUMEJOMkdrVHc2SFM1SmRnZWNCYnd3eTl2SFlKR3J4bUlYc1FObHdRR2Myb29PUWlSRlVhV1NIWHVWdWJmUDBTR2ZmYnMtUERxeEJqelBobXpMS2ZINFRSYmk3ODRaNmdpSkxJNXN0bG5yd25iSTZ1N3ZTRUZKZjY2SFhua1Y2Uk8tMFhXS0ZxdUEyelJOS3lGSW5kalozWXVISQ?oc=5",
+      "source": "TweakTown",
+      "publishedAt": "2026-06-13T07:35:06.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

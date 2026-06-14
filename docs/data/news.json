@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T16:31:17.006Z",
+  "generatedAt": "2026-06-14T16:57:20.774Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,27 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "Your Day Trading Watch List for June 15th in 2 Minutes: $SPY $CAST $FRMI $ROKU $ALOY .",
-      "url": "https://stocktwits.com/GSP/message/656392117",
-      "source": "@GSP on StockTwits",
-      "publishedAt": "2026-06-14T15:32:36.000Z",
-      "kind": "social",
-      "credibility": {
-        "score": 50,
-        "trust": "medium",
-        "reasons": [
-          "30,732 followers"
-        ]
-      },
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 80,
-      "summary": "Your Day Trading Watch List for June 15th in 2 Minutes: $SPY $CAST $FRMI $ROKU $ALOY ."
-    },
     {
       "title": "$FRMI Good pattern and accumulation on daily time-frame.",
       "url": "https://stocktwits.com/ACInvestorBlog/message/656388014",
@@ -58,6 +37,27 @@
       "related": [],
       "score": 72,
       "summary": "$FRMI Good pattern and accumulation on daily time-frame."
+    },
+    {
+      "title": "Your Day Trading Watch List for June 15th in 2 Minutes: $SPY $CAST $FRMI $ROKU $ALOY .",
+      "url": "https://stocktwits.com/GSP/message/656392117",
+      "source": "@GSP on StockTwits",
+      "publishedAt": "2026-06-14T15:32:36.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "30,730 followers"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 70,
+      "summary": "Your Day Trading Watch List for June 15th in 2 Minutes: $SPY $CAST $FRMI $ROKU $ALOY ."
     },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO 240.14A-12A)",
@@ -913,20 +913,6 @@
       "score": 45
     },
     {
-      "title": "Helix Digital Infrastructure: $10B+ AI Infrastructure Venture by KIA, NVIDIA, KKR, Vistra - News and Statistics - IndexBox",
-      "url": "https://www.indexbox.io/blog/kia-nvidia-kkr-and-vistra-launch-helix-digital-infrastructure-with-10b-in-capital/",
-      "source": "IndexBox",
-      "publishedAt": "2026-06-14T10:41:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "KIA, NVIDIA, KKR, and Vistra launch Helix Digital Infrastructure with over $10 billion in commitments, led by ex-AWS CEO Adam Selipsky, to deliver integrated AI infrastructure for hyperscalers."
-    },
-    {
       "title": "Trump Admin Unlikely To Expand Anthropic AI Export Curbs To OpenAI, Other Rivals: Report - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/06/53185210/trump-admin-unlikely-to-expand-anthropic-ai-export-curbs-to-openai-other-rivals-report",
       "source": "Benzinga",
@@ -941,18 +927,18 @@
       "summary": "The U.S. government is unlikely to extend Anthropic-related AI export controls to other companies, according to a report."
     },
     {
-      "title": "OpenAI faces investigation from state attorneys general - TechCrunch",
-      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-06-13T16:47:18.000Z",
+      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing - The Hacker News",
+      "url": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-06-12T18:59:00.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "GOOGL"
       ],
       "score": 45,
-      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data."
+      "summary": "Google sued Outsider operators for allegedly using Gemini AI to create phishing pages tied to 1.59M URLs and 100K+ victims."
     },
     {
       "title": "What the SpaceX I.P.O. Means for OpenAI and Anthropic - The New York Times",
@@ -1007,6 +993,20 @@
       ],
       "score": 45,
       "summary": "Amazon’s using a lot of water, but claims it’s using it efficiently."
+    },
+    {
+      "title": "Helix Digital Infrastructure: $10B+ AI Infrastructure Venture by KIA, NVIDIA, KKR, Vistra - News and Statistics - IndexBox",
+      "url": "https://www.indexbox.io/blog/kia-nvidia-kkr-and-vistra-launch-helix-digital-infrastructure-with-10b-in-capital/",
+      "source": "IndexBox",
+      "publishedAt": "2026-06-14T10:41:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 35,
+      "summary": "KIA, NVIDIA, KKR, and Vistra launch Helix Digital Infrastructure with over $10 billion in commitments, led by ex-AWS CEO Adam Selipsky, to deliver integrated AI infrastructure for hyperscalers."
     },
     {
       "title": "Middle East Business: Kuwait fund joins NVIDIA, KKR and Vistra to launch $10bn AI infrastructure firm - Gulf Daily News (Bahrain)",
@@ -1133,17 +1133,18 @@
       "summary": "Siemens Energy waives upfront payments for German clients to secure political support, while global"
     },
     {
-      "title": "NVIDIA Corporation (NVDA) Partners with Nebius to Support AI Robotics Startup in Europe - Yahoo Finance",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-corporation-nvda-partners-nebius-192521134.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-13T19:25:21.000Z",
+      "title": "OpenAI faces investigation from state attorneys general - TechCrunch",
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-06-13T16:47:18.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 35
+      "score": 35,
+      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data."
     },
     {
       "title": "Sharon AI signs six-year AI infrastructure deal with Nvidia By Investing.com - Investing.com Canada",
@@ -1187,10 +1188,10 @@
   ],
   "general": [
     {
-      "title": "Anthropic Halts Access to Top AI Models After U.S. Ban on Foreign Use - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVTZaMEVPXzdZczdjYm92RU9RR2Y0WmpvNXd3RGk3ZnV2bXJyaU9JRlJteFRnQjlrcVp2dDV5TkpXVXF0dWhKQ0ttVjlESWU4N0l5UXNfeVpUZWd1ZmY1REQ5emNCVGZOVFZvZG4waG1WTUhlOVVRYW4taWxVWTF1QU5QVnJnX280aDhmWC05N1Utc3g1OTZHUUJFbVdMN2tINTVDQ2oyNE8?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-06-14T15:12:56.000Z",
+      "title": "2 Best Stocks to Buy in the Market Right Now - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWZrY1Bjak5takNlYmVaS0hPelBPWjNZVVJkZHpUc01xT1JxUzBocHVRTlpRX0s3djlyQ1RuT0pKN3lxSExYMks5ZWRYWU5wa2pKdzYtWEczNEtkbmJsdTBhRXNaNHlOd2xDdFZxT2hnUnFHbVhFamo0SXVHQ3BoTlVJX3NXVkV3eEhHM0FhSWoxQm9VY1BKM2ZnRWNaNWFlLVpSYmRhU0txWmlLMTFDWUxUVW40bEtkaVBGXzBpeEI?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-06-14T15:26:04.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1220,10 +1221,32 @@
       "score": 50
     },
     {
+      "title": "Will TCS and Anthropic’s Claude Partnership Set a New Standard for Regulated AI? - The Futurum Group",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3R0ZEIxdGRKQk9DcC1rZEJEall6OG1icXpEM010NFFCYWpoS1NFb09UUl9RdHhwS3dvYlFCaXFsUWdxYlIyWkRRRm44M1J4UWEzNi1lQkZMV1hCRFM2b3hUZDczUmdPM0NQcF9NZjRMUUFyZWdTX18yN2NTcU8zZFdWaWIxYXR5cW1nVVliV3k1OUp5MkgwdWI0YkZNeUcxTzdNcDlwZ1NpZTk1LUpQbFhzQQ?oc=5",
+      "source": "The Futurum Group",
+      "publishedAt": "2026-06-14T14:01:48.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Goldman Sachs Predicts AI Infrastructure Spending Could Hit More Than $1 Trillion in 2027. 3 AI Stocks to Buy. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSFh6Nk0wNlFXZTlISGd5TTUyaXdHMjRTLVNOSXhDekM5TjBNVmo0NEtuUDI5N1M1QllBcjhHU2VBRDUtSHVTZFIyY1B2aUxkaUJhREdWdDB4T0poY24zN3ppRFkzWEZIcm1Ga2hEaXRTandaZEdiQXZDU0l4azdZR0d6ZnlBcDhoQXcwRGZmWUFfOWh1blZV?oc=5",
       "source": "The Motley Fool",
       "publishedAt": "2026-06-14T13:32:22.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Starmer seeks British carve-out from Trump’s Anthropic AI ban - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTm0yLXcwZFFOMVJLX0tpemdaMGh5VXhlZG9UT1FqekU1RUQ3TzJMeWNEbnhwSlVFMG42UFpvT1hSWFJqRk5hY0puaWIwS3ZFR2p5UFdCY2ZuYk5ZcFFyNHN4emtZQll4UjlKMmlSclUzeEJQZ3RqRWxla2NSSE9xRkVUMlZLSC03cmNPc21hT1BFUVJkdDBCYkIwWDlBNngyOHNV?oc=5",
+      "source": "The Telegraph",
+      "publishedAt": "2026-06-14T13:05:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1297,23 +1320,23 @@
       "score": 50
     },
     {
+      "title": "Alnylam Taps Generative AI And Nordic Expansion As Market Lags Targets - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaU1aQkh3UlZwcm9HM0taWFRuNklSM1pLQTMyNzhLRjdmLTl5OGdGVTYwVkszeXExblJXSmhNbVczdkNRUWxCb0dsalBfUlRpOUdTZkFxX1BFeVhJbjhjbWZYdUlwNTY4LTN6VGZLN3dNcGlzckJMUkQ0RFdzV01oMUpOMzh0Y01rUVE3MFNUc1pwRTh0NzJiVGpWSXI3em8?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-14T16:11:35.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "AI Turns Coders, Lawyers and Analysts Into Ghosts of London’s Past - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakNDUGdaR2JKSlhvVV9CUUpyaU5GMUtSeF9aVm1nMG5ZbnEzMFg1TzdNdXFuOUFZd3JERVNBa2ZTR0xDZmVZTDdpejR1d0FlSzRHN3Y2UEFrTzZWbTRjVUtBdVJvZUtGeUVGMVN0azFCZnJ3d0FJN2dEdGtoTURUNUVzNDNHQkNyUmhCbTVjYnRiOWtRTTNtdVIzREIzakwxU0xXMmZWbUNacmh0ZzlqX0h2MmI?oc=5",
       "source": "Bloomberg.com",
       "publishedAt": "2026-06-14T10:55:00.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "U.S. Data Center Delays Hit $130 Billion Amid Local Resistance - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYXJJblRiVi1MYzN5Yjk1WDJVanI1NTMyUUJwVmNFanZ2MG8yR3VtZDYwNG5STzdreUdmaERiczQ3NGc2dDFYOTdLRHVDZ25OWUFFLU1wc2xMbGVtME5sdmNqaHU1bTc1SGlocTF2V09kakhPdXB4SktnVUxQWVZLNHhPTG1CeVpr?oc=5",
-      "source": "조선일보",
-      "publishedAt": "2026-06-14T15:44:01.000Z",
-      "kind": "news",
-      "tier": 3,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1334,17 +1357,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGVrczZyYVlrd1VhQWQ5X29Td20wakZoVWRHeXZZUWY5MlBpOEtzZ0ozaHlRcnZOTzBoT2Z4WUpiTF9GZHBqcDJfY1B4b3VmU3J1WlNJbWdoSDk4emNjQ19lcUszeVhIM1Noam14a0RJeEthVzV4NjQ4TDlUa2NHRWtNaERwM1FPcjBrWVBpYzJXR3oycERUSklVWmJrb3UwZlVv?oc=5",
       "source": "AP News",
       "publishedAt": "2026-06-14T09:07:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "How to Run a News Company in the Age of Polarization and A.I. Slop - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xc1ZDcmVyVVptekwza21iODI1Um9SM2tfQTlDdUI3TXVQNEJoZWhuUkFZa3NzazUyZThnRjVGaWZLVm1ydHZvWVAtYUw3TVNwMG90QzJJM1pCQmMzYWg3bXJTQmZLTnFaQ3didlEzUF9lX1BnUWpzbw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-14T09:00:46.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1473,6 +1485,17 @@
       "score": 40
     },
     {
+      "title": "U.S. Data Center Delays Hit $130 Billion Amid Local Resistance - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYXJJblRiVi1MYzN5Yjk1WDJVanI1NTMyUUJwVmNFanZ2MG8yR3VtZDYwNG5STzdreUdmaERiczQ3NGc2dDFYOTdLRHVDZ25OWUFFLU1wc2xMbGVtME5sdmNqaHU1bTc1SGlocTF2V09kakhPdXB4SktnVUxQWVZLNHhPTG1CeVpr?oc=5",
+      "source": "조선일보",
+      "publishedAt": "2026-06-14T15:44:01.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
       "title": "5 key reasons on-premises generative AI outperforms the public cloud (and saves up to 63%) - IT Pro",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRGhaWUFwQnF1NlVwVUQzSFhCcEpuX3Bqc3BlWE40UFRNMXg5UlZnOFBsODNuVWlEdnVCQ2NmZ2JCVFlJVExyTkdkUzh4a3R5TkVHQVNIVXRHZzJGN09zTVJaU2RtRWRrOE9pMDAtQUV3TGxQZjFyc3hkT0FPQVYwUHZlQ1dLQ2VEZjcwa1lBaFhma0d2cG03WldZNThvMG1odEVrNUZPRmFaVW1Rd2xWN1VhYl9xWFg1RTBwOWpPM2JCaFRzRENEV3gzY19seU44SWdXM2dWYUJGSXF4UThoak1heVpfSm8?oc=5",
       "source": "IT Pro",
@@ -1510,17 +1533,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc21OVjEyLThlX0tfSC00a3pXU3dadjNJcEdfWUFHZ1BXdk9FLTI4emNwU3hmb2dxRkxIN29Ub2R3cmpHMGx5YWJwSTkyZmtQVndXZF9jMDZmMlBmWDFkY2VtMGlfN2s3WkFReFdhaUF5elMtN3ZHQXVfYlpGSm5sWURsR2NaM0JMSUJfam9aRVZkU0ZMM0lUYlpUQXRsQQ?oc=5",
       "source": "Fortune",
       "publishedAt": "2026-06-14T14:58:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "Source: Amazon Expresses Concerns About Anthropic AI Models - صحيفة مال",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qTWV6Z1lOZ2lVSDVIV2NaVENkdzM5cFQzYXdITzkzTFNWdHNZdGx5TURZUHRaSHRCbWFnR0E2TDBtOGRSMnY5VUdpMzFTWkdlZExfNmlwbmlvZko1WWxfUXhtMnloc29lOEE?oc=5",
-      "source": "صحيفة مال",
-      "publishedAt": "2026-06-14T14:43:21.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1649,10 +1661,10 @@
       "score": 30
     },
     {
-      "title": "How Datadog’s Dash AI and Security Expansion Will Impact Datadog (DDOG) Investors - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVDlGeGsxemItQTVITzhDVjBnLXB2RlVQelFpdW1XdERROTlwUU85Ml9WUjVFeEZ4eWN1dGN2eFQ4elc1b2lUeFlLaGxxN3dwS3FxRmN0aXJucHhud2E5TWxaTmdvS3BlMWJNZDZXREhmVWltRUJCbkJsQ3NTV0hBOHc2RUg4bk1SenZhSlAxRVdtNnFfOTNGcnh2NU5CSGJP?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-14T13:09:59.000Z",
+      "title": "Trump admin reportedly gave Anthropic 90 minutes to pull AI models | Daily Sabah - Daily Sabah",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaUlNMnRuVVU4cHhLS2VhdlZTRE1ZMXUzT3BkMFlZczI3TzZJdWE0SWhhWW1HQ3gtU2g3TG9nN0hGNDRRelFPaThCc04xVENVbjRDU200b0FBYU5YbnJWUDJKbFdfWXAyMm44OFU1SXBYdHZNNzNfNW92aGV5UmgtbTB2dzhyck94SmNuNlBTZGs1bVhoM0I4QjBPNy1mR0tZWGVFRFYzRTR2V1XSAbABQVVfeXFMTXczdWFjT2oxejlCd0FkTVM5THVVRlpER0dqWWZvOENXMW9FaHdPMzdDWFIyWU1zcHllT3JvNjJuTGV0d296bnFpbG9hVV9XcFRkdFFJTHM2c3BRSGJ3VmhrdFgtNXNhbDhQLWRwMjU5MHhrLWpNTmJlMnItd1pIX2RyOFkzYTRybWI4aXAtdXpTeTQ2a0RLX2RFUjlFOEJLWnllSFFVTWszLXU1QXg0Nzk?oc=5",
+      "source": "Daily Sabah",
+      "publishedAt": "2026-06-14T13:11:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1660,10 +1672,10 @@
       "score": 30
     },
     {
-      "title": "Starmer seeks British carve-out from Trump’s Anthropic AI ban - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY0xCQjd3TTM0ZUV4Wkl1Tmc0M3NZSE5OUG5UNmF4dEhwUEw5YWJqYXM0VDBTZ3FKdk5IM2JmbVhCdEhzdGlSWXExUThPQWRrSUpFajlCRlFOeTEyTUI4WmdjV1E1bDFaMm1jUlBWM2RMTGM2RXByNzRfMTNISnBsRm1GaHVNSnIxRTdDdU1vbVpNQ2FjcFFwTQ?oc=5",
-      "source": "Yahoo",
-      "publishedAt": "2026-06-14T13:05:52.000Z",
+      "title": "How Datadog’s Dash AI and Security Expansion Will Impact Datadog (DDOG) Investors - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVDlGeGsxemItQTVITzhDVjBnLXB2RlVQelFpdW1XdERROTlwUU85Ml9WUjVFeEZ4eWN1dGN2eFQ4elc1b2lUeFlLaGxxN3dwS3FxRmN0aXJucHhud2E5TWxaTmdvS3BlMWJNZDZXREhmVWltRUJCbkJsQ3NTV0hBOHc2RUg4bk1SenZhSlAxRVdtNnFfOTNGcnh2NU5CSGJP?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-14T13:09:59.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1719,17 +1731,6 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPOWg3NzBCNkJYeGQzNWNGQ2lmNG1YQjQzRE5qQUhlT1hidjJMNkp3dHhmNEs5cjBqZjlfS0tBT0o4LUxnSExLaHdwR29sZEUtNmhfV0pjQzhLRFBJXzFsYVp4cHZOX1BrWWRLTFUtX0drOE82cVF1LTVJLTAxT2ZaRUd2QVBKOGVIT3AycVZPa04xZTYwV01FWnF3?oc=5",
       "source": "dw.com",
       "publishedAt": "2026-06-14T11:39:01.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "This market is at 'a 10': Wall Street weighs record SpaceX IPO amid AI-driven stock market - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd3l3TzhHNXd3QUYxU2JCZ29kT216ejQxVTBQandnQ1ZXcWR0MzI1eF93UHdLWmJtdFJFYlpBbHFmbDlReWhiQ2x1RVV4dzV5ZlBJc3l5dTVmWWVKcjRZSjNkQjJabW8yb1FaRGw3dGJVaDhtcjJyZUkwRE1ENC04bDFNSTQxamdBdjJWeXF5Rk5vNldCYWt3QWRvSGpIWDNWZGRHaHhGWUtBNnN1d3pzMENtRHE5YXJvcWZVSHJSbzhyU1BFaUpJNVFaUFkteW5MUmZGWEVTOWxGVC1N?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-14T11:32:07.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

@@ -227,16 +227,27 @@ async function main() {
     .slice(0, config.limits.generalItems);
 
   // On-site reader enrichment: priority (FRMI) stories get article summaries +
-  // Fermi-mention excerpts (one cached fetch each), filings get plain-English
-  // form explanations, social posts carry their own text. Cache persists across
-  // runs so each article is fetched at most once.
+  // Fermi-mention excerpts (one cached fetch each), filings get a plain-English
+  // form explanation plus — when ANTHROPIC_API_KEY is set — an AI content
+  // summary of the actual document, social posts carry their own text. Cache
+  // persists across runs so each article is fetched and each filing summarized
+  // at most once.
   const summariesPath = join(root, "docs", "data", "summaries.json");
   const summaries = existsSync(summariesPath)
     ? JSON.parse(readFileSync(summariesPath, "utf8"))
     : {};
   const fermiPatterns = (config.priorityTickers ?? []).flatMap((t) => t.patterns);
-  await enrichItems(priority, summaries, { patterns: fermiPatterns, maxFetches: 12 });
-  await enrichItems(related, summaries, { patterns: fermiPatterns, maxFetches: 4 });
+  await enrichItems(priority, summaries, {
+    patterns: fermiPatterns,
+    maxFetches: 12,
+    maxAiSummaries: 8, // AI filing summaries — no-op unless FILINGS_WORKER_URL or ANTHROPIC_API_KEY is set
+  });
+  // Related-ticker items are news only (no SEC filings configured), so no AI budget.
+  await enrichItems(related, summaries, {
+    patterns: fermiPatterns,
+    maxFetches: 4,
+    maxAiSummaries: 0,
+  });
 
   const payload = {
     generatedAt: new Date().toISOString(),

@@ -38,6 +38,15 @@ jobs:
         with:
           node-version: 20
 
+      # The collector is dependency-free, INCLUDING the keyless Cloudflare
+      # Workers AI summary path (a plain fetch to FILINGS_WORKER_URL). Only the
+      # alternative Anthropic SDK path needs node_modules — install it only when
+      # ANTHROPIC_API_KEY is present (skipped on quiet repos and when using the
+      # Worker path, so no install cost).
+      - name: Install deps (Anthropic filing summaries)
+        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        run: npm ci || npm install
+
       - name: Collect news
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
@@ -46,6 +55,17 @@ jobs:
           # the discovered-tweet vetting. Absent -> keyless search.rss path.
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          # AI summaries of SEC filing CONTENTS (not just the form-type
+          # explanation). Preferred KEYLESS path: deploy filings-worker/ and set
+          # the FILINGS_WORKER_URL variable + FILINGS_WORKER_SECRET secret —
+          # inference runs on your Cloudflare account, no Anthropic key.
+          FILINGS_WORKER_URL: ${{ vars.FILINGS_WORKER_URL }}
+          FILINGS_WORKER_SECRET: ${{ secrets.FILINGS_WORKER_SECRET }}
+          # Alternative backend: set ANTHROPIC_API_KEY instead to summarize via
+          # the Anthropic SDK (FILINGS_MODEL var overrides the model). Both
+          # absent -> static form explanations. All paths fail open.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FILINGS_MODEL: ${{ vars.FILINGS_MODEL }}
         run: node scripts/collect.mjs
 
       - name: Commit refreshed data

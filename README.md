@@ -14,7 +14,14 @@ GitHub Actions (cron */30) ──► scripts/collect.mjs ──► docs/data/new
 
 - **Sources (no keys needed):**
   - Google News RSS — per-query searches (FRMI queries + general AI queries)
-  - SEC EDGAR Atom — every Fermi Inc. filing (8-K, DFAN14A, Form 4 …), Tier 0
+  - SEC EDGAR Atom — every Fermi Inc. filing (8-K, DFAN14A, Form 4 …), Tier 0.
+    Every filing carries a plain-English form-type explanation; substantive
+    filings (8-K, 10-K/Q, the 14A proxy forms, S-1, 13D/G …) can also get an AI
+    summary of the document's actual contents. Two optional backends, both
+    fail-open: the **keyless Cloudflare Workers AI worker** (`filings-worker/`,
+    no Anthropic key — see *Operating it*) or the Anthropic SDK. Each filing is
+    summarized once and cached, so the every-30-min cron only pays for genuinely
+    new filings; tabular forms (Form 4/144) keep the static explanation.
   - Yahoo Finance RSS — FRMI headlines
 - **Social — keyless (default):** two free channels, no X API spend:
   - **StockTwits** public symbol stream — finance chatter where the API
@@ -59,6 +66,15 @@ GitHub Actions (cron */30) ──► scripts/collect.mjs ──► docs/data/new
 - **Force a refresh:** Actions → `update-newsletter` → Run workflow.
 - **Enable X:** repo Settings → Secrets and variables → Actions → new secret
   `X_BEARER_TOKEN`.
+- **Enable AI filing summaries (keyless, recommended):** deploy
+  `filings-worker/` (Cloudflare Workers AI — see its README), then set the repo
+  *variable* `FILINGS_WORKER_URL` and *secret* `FILINGS_WORKER_SECRET`. Filing
+  contents are then summarized on your Cloudflare account with no Anthropic key,
+  and the collector stays dependency-free (it just `fetch`es the Worker).
+- **Enable AI filing summaries (Anthropic, alternative):** set the
+  `ANTHROPIC_API_KEY` secret instead. The workflow installs the SDK and
+  summarizes via Claude (`FILINGS_MODEL` variable overrides the model). With
+  neither configured, the collector uses static form explanations.
 - **Local run:** `node scripts/collect.mjs` (Node 20+), then open
   `docs/index.html` via any static server.
 - **Cron realities:** GitHub schedules are best-effort (runs may start late);

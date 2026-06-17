@@ -3,7 +3,11 @@
 //   - news:    resolve the Google News redirect to the real article URL, fetch
 //              it once, and extract the page's own description plus the
 //              sentences that mention Fermi ("what was said about Fermi").
-//   - filing:  no fetch — SEC form types map to plain-English explanations.
+//   - filing:  SEC form types map to plain-English explanations; the filing
+//              document is also summarized (cached per URL — once, ever) when a
+//              backend is configured: the keyless Cloudflare Workers AI worker
+//              (FILINGS_WORKER_URL, preferred) or the Anthropic SDK
+//              (ANTHROPIC_API_KEY). Neither set -> static explanation only.
 //   - social:  the post text IS the content; the vetting reasons ride along.
 // Fetched results are cached (docs/data/summaries.json) so each article is
 // fetched at most once, with a small per-run budget as a politeness cap.
@@ -148,6 +152,145 @@ export function filingSummary(title) {
   return "An SEC filing — primary-source disclosure straight from EDGAR.";
 }
 
+// --- AI filing summaries (Claude) ---------------------------------------------------
+// The static filingSummary() above explains what a form TYPE is; this reads the
+// actual document and summarizes what THIS filing discloses. Gated entirely on
+// ANTHROPIC_API_KEY: with no key (the default for the 30-min collect cron) this
+// path never runs and the static explanation stands. The SDK is imported
+// dynamically so a missing dependency degrades to the static path instead of
+// crashing the keyless cron.
+
+const FILINGS_MODEL = process.env.FILINGS_MODEL || "claude-opus-4-8";
+// SEC's WAF rejects parenthesized / URL-bearing agents — use the "Name email"
+// contact format (same as scripts/sources.mjs).
+const SEC_UA = "AI Newsletter jack.wise@donoco.com";
+// Cap the document text sent to the model — a 10-K can be >1M chars; ~80k chars
+// (~20k tokens) captures the substantive front matter while bounding cost.
+const FILING_TEXT_CAP = 80_000;
+
+// Form types worth a content summary. Form 4/144 (insider-transaction tables)
+// and similar are tabular boilerplate where the static explanation is enough.
+const AI_WORTHY_FORM =
+  /^(8-K|10-K|10-Q|DEF ?14A|DEFA14A|DFAN14A|PRE[RC]?14A|PRRN14A|S-1|424B|SC ?13[DG]|6-K|20-F|425)/i;
+
+export function isAiWorthyFiling(title) {
+  const form = /^SEC filing:\s*([^—]+?)\s*—/.exec(title)?.[1]?.trim() ?? "";
+  return AI_WORTHY_FORM.test(form);
+}
+
+// Strip an SEC HTML filing down to readable text.
+function filingToText(html) {
+  return decodeEntities(
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " "),
+  )
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, FILING_TEXT_CAP);
+}
+
+let _anthropic; // lazily constructed, reused across a run
+async function getAnthropic() {
+  if (_anthropic !== undefined) return _anthropic;
+  try {
+    const { default: Anthropic } = await import("@anthropic-ai/sdk");
+    _anthropic = new Anthropic({ maxRetries: 2 });
+  } catch {
+    _anthropic = null; // SDK not installed — degrade to static explanations
+  }
+  return _anthropic;
+}
+
+const FILING_SYSTEM =
+  "You summarize SEC filings for an investor-facing news site. Read the filing " +
+  "and output 2-3 plain-text sentences stating what THIS filing actually " +
+  "discloses and why it matters: the specific events, figures, parties, and " +
+  "actions. No preamble, no markdown, no 'This filing...'; lead with the " +
+  "substance. If the document is purely procedural with no material disclosure, " +
+  "say that in one sentence.";
+
+// Returns a content summary string, or null on any failure (caller falls back to
+// the static form explanation). Never throws.
+export async function aiSummarizeFiling(url, title) {
+  const client = await getAnthropic();
+  if (!client) return null;
+  let text;
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": SEC_UA, Accept: "text/html,*/*" },
+      redirect: "follow",
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (!res.ok) return null;
+    text = filingToText(await res.text());
+  } catch {
+    return null;
+  }
+  if (!text || text.length < 200) return null;
+  try {
+    const form = /^SEC filing:\s*([^—]+?)\s*—/.exec(title)?.[1]?.trim() ?? "filing";
+    // Thinking omitted for cost/latency on the cron; the system prompt pins the
+    // output to the summary only (Opus 4.8 can otherwise narrate its reasoning
+    // when thinking is off). Streamed because filing text can be large.
+    const stream = client.messages.stream({
+      model: FILINGS_MODEL,
+      max_tokens: 500,
+      system: FILING_SYSTEM,
+      messages: [
+        { role: "user", content: `Form type: ${form}\n\nFiling document:\n${text}` },
+      ],
+    });
+    const message = await stream.finalMessage();
+    const out = message.content
+      .filter((b) => b.type === "text")
+      .map((b) => b.text)
+      .join(" ")
+      .replace(/\s+/g, " ")
+      .trim();
+    return out.length > 20 ? out.slice(0, 700) : null;
+  } catch {
+    return null;
+  }
+}
+
+// Keyless backend: summarize via the Cloudflare Workers AI worker
+// (filings-worker/). The collector just POSTs the filing URL — the Worker
+// fetches EDGAR and runs inference on the Cloudflare account, so no Anthropic
+// key (and no SDK / npm install) is needed here. Env is read at call time.
+// Returns a summary string, or null on any failure. Never throws.
+export async function aiSummarizeViaWorker(url, title) {
+  const endpoint = process.env.FILINGS_WORKER_URL;
+  if (!endpoint) return null;
+  const form = /^SEC filing:\s*([^—]+?)\s*—/.exec(title)?.[1]?.trim() ?? "filing";
+  const secret = process.env.FILINGS_WORKER_SECRET;
+  try {
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        ...(secret ? { "X-Filings-Secret": secret } : {}),
+      },
+      body: JSON.stringify({ url, form }),
+      signal: AbortSignal.timeout(30_000),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    const out = String(data?.summary ?? "").replace(/\s+/g, " ").trim();
+    return out.length > 20 ? out.slice(0, 700) : null;
+  } catch {
+    return null;
+  }
+}
+
+// Pick the configured summarization backend: the keyless Workers AI worker
+// first, then the Anthropic SDK path if a key is set instead.
+async function summarizeFilingContents(url, title) {
+  if (process.env.FILINGS_WORKER_URL) return aiSummarizeViaWorker(url, title);
+  return aiSummarizeFiling(url, title);
+}
+
 // --- enrichment driver ----------------------------------------------------------------
 
 async function fetchArticle(url) {
@@ -162,11 +305,35 @@ async function fetchArticle(url) {
 
 // Mutates items in place: adds .summary (and .excerpt / resolved .url where
 // available). cache maps url -> { summary, excerpt, resolvedUrl, at, failed }.
-export async function enrichItems(items, cache, { patterns = [], maxFetches = 12 } = {}) {
+export async function enrichItems(
+  items,
+  cache,
+  { patterns = [], maxFetches = 12, maxAiSummaries = 6 } = {},
+) {
   let budget = maxFetches;
+  // AI filing summaries are enabled when EITHER backend is configured: the
+  // keyless Workers AI worker (FILINGS_WORKER_URL) or the Anthropic key.
+  const aiEnabled = !!(process.env.FILINGS_WORKER_URL || process.env.ANTHROPIC_API_KEY);
+  let aiBudget = aiEnabled ? maxAiSummaries : 0;
   for (const item of items) {
     if (item.kind === "filing") {
-      item.summary = filingSummary(item.title);
+      // Static "what this form type is" always available for the UI.
+      item.formExplanation = filingSummary(item.title);
+      const cached = cache[item.url];
+      if (cached?.summary) {
+        item.summary = cached.summary; // AI summary computed on a prior run
+      } else if (aiBudget > 0 && isAiWorthyFiling(item.title)) {
+        aiBudget--;
+        const summary = await summarizeFilingContents(item.url, item.title);
+        if (summary) {
+          cache[item.url] = { at: new Date().toISOString(), summary, kind: "filing" };
+          item.summary = summary;
+        } else {
+          item.summary = item.formExplanation; // fetch/model failed — fall back
+        }
+      } else {
+        item.summary = item.formExplanation; // no key, budget spent, or tabular form
+      }
       continue;
     }
     if (item.kind === "tweet" || item.kind === "social") {
@@ -214,9 +381,14 @@ export async function enrichItems(items, cache, { patterns = [], maxFetches = 12
     if (entry.summary) item.summary = entry.summary;
     if (entry.excerpt) item.excerpt = entry.excerpt;
   }
-  // Prune cache entries older than 7 days (matches the feed's natural horizon).
-  const cutoff = Date.now() - 7 * 86_400_000;
+  // Prune stale cache entries. Article enrichments track the feed's 7-day
+  // horizon; filing AI summaries persist 30 days so a filing lingering in the
+  // SEC feed (low-volume filers) isn't re-summarized (re-paid) every week.
+  const now = Date.now();
   for (const [url, entry] of Object.entries(cache)) {
-    if (!entry.at || Date.parse(entry.at) < cutoff) delete cache[url];
+    const horizon = entry.kind === "filing" ? 30 : 7;
+    if (!entry.at || Date.parse(entry.at) < now - horizon * 86_400_000) {
+      delete cache[url];
+    }
   }
 }

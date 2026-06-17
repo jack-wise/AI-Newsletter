@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T01:32:15.325Z",
+  "generatedAt": "2026-06-17T02:02:16.259Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,25 +17,20 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
-      "title": "$FRMI if this holds, could get interesting fast",
-      "url": "https://stocktwits.com/topstockalerts/message/656635220",
-      "source": "@topstockalerts on StockTwits",
-      "publishedAt": "2026-06-16T19:57:59.000Z",
-      "kind": "social",
-      "credibility": {
-        "score": 50,
-        "trust": "medium",
-        "reasons": [
-          "108,312 followers"
-        ]
-      },
-      "tier": 2,
+      "title": "Fermi (FRMI) Jumps 5.3% Further on OpenAI Buzz",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fermi-frmi-jumps-5-3-014354665.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-17T01:43:54.000Z",
+      "kind": "news",
+      "summary": "Fermi Inc. (NASDAQ:FRMI) is one of the 10 Stocks With Standout Gains. Fermi rallied for a fifth straight session on Tuesday, jumping 5.35 percent to finish at $7.88 apiece, as investors resumed buying positions amid ongoing buzz that OpenAI was planning to lease its Project Matador campus. Last week, JMP Citizens reported that OpenAI could […]",
+      "tier": 3,
       "tickers": [
         "FRMI"
       ],
-      "related": [],
-      "score": 70,
-      "summary": "$FRMI if this holds, could get interesting fast"
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
     },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO 240.14A-12A)",
@@ -64,6 +59,27 @@
       "related": [],
       "score": 65,
       "summary": "Additional definitive proxy material from the company — its side of an ongoing solicitation (responses, letters to shareholders, talking points)."
+    },
+    {
+      "title": "$FRMI if this holds, could get interesting fast",
+      "url": "https://stocktwits.com/topstockalerts/message/656635220",
+      "source": "@topstockalerts on StockTwits",
+      "publishedAt": "2026-06-16T19:57:59.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "108,312 followers"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 60,
+      "summary": "$FRMI if this holds, could get interesting fast"
     },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO 240.14A-12A)",
@@ -730,37 +746,35 @@
       "score": 35,
       "summary": "A founder-aligned group filed a Schedule 14A to solicit agent designations for a special meeting anticipated on June 30, 2026; Schedule 13G shows 139,016,035 shares.",
       "excerpt": "Overview Financials News SEC Filings Founder group seeks agent designations at FERMI Inc. (FRMI) for June meeting Filing Impact (Neutral) Filing Sentiment (Neutral) Form Type DFAN14A Rhea-AI Filing Summary English Italian Spanish German Korean French Arabic FERMI Inc. filed a Schedule 14A proxy statement disclosure announcing that a group of holders intend to solicit agent designations for a special meeting anticipated to be held on or around June 30, 2026. The filing identifies the Fermi Founder Parties and Participants who will file a definitive proxy statement and a green agent designations card with the SEC. The notice states the Fermi Founder Parties previously reported beneficial owner"
-    },
-    {
-      "title": "Toby Neugebauer pushes dual‑track plan for Fermi (FRMI) ahead of June meeting - Stock Titan",
-      "url": "https://www.stocktitan.net/sec-filings/FRMI/dfan14a-fermi-inc-sec-filing-aece585ebdee.html",
-      "source": "Stock Titan",
-      "publishedAt": "2026-05-28T07:00:00.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 35,
-      "summary": "Toby Neugebauer and affiliates launched UnlockFermiValue.com and filed proxy solicitation materials seeking agent designations for a special meeting around June 30, 2026.",
-      "excerpt": "Overview Financials News SEC Filings Toby Neugebauer pushes dual‑track plan for Fermi (FRMI) ahead of June meeting Filing Impact (Neutral) Filing Sentiment (Neutral) Form Type DFAN14A Rhea-AI Filing Summary English Italian Spanish German Korean French Arabic Fermi Inc. proxy participants led by Toby R. Neugebauer launched UnlockFermiValue.com and issued solicitation materials seeking agent designations to call a special meeting anticipated on or around June 30, 2026 . The participants say they favor a 75-day dual-path process for Project Matador and intend to file a definitive Schedule 14A and a green agent designations card with the SEC. The filing states Mr. Neugebauer and affiliated entit"
     }
   ],
   "related": [
     {
-      "title": "SoftBank, OpenAI Partner on AI Cybersecurity Solution for Vulnerability Management - The Fast Mode",
-      "url": "https://www.thefastmode.com/technology-solutions/49086-softbank-openai-partner-on-ai-cybersecurity-solution-for-vulnerability-management",
-      "source": "The Fast Mode",
-      "publishedAt": "2026-06-16T23:23:24.000Z",
+      "title": "HSBC, Google AI Partnership Set to Add Over $100 Million Gains - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-17/hsbc-google-ai-partnership-set-to-add-over-100-million-gains",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-06-17T00:52:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "GOOGL"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Equinix, Cisco and NVIDIA Expand Collaboration to Accelerate Enterprise AI Adoption - The Fast Mode",
+      "url": "https://www.thefastmode.com/technology-solutions/49078-equinix-cisco-and-nvidia-expand-collaboration-to-accelerate-enterprise-ai-adoption",
+      "source": "The Fast Mode",
+      "publishedAt": "2026-06-16T23:48:26.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 65,
-      "summary": "SoftBank Group Launches AI Cybersecurity Solution for Critical Infrastructure"
+      "summary": "Equinix Deploys Secure AI Factories with Global Data Center Infrastructure"
     },
     {
       "title": "Society must change in era of artificial intelligence, says Nvidia boss - The National Scot",
@@ -846,20 +860,6 @@
       "score": 65
     },
     {
-      "title": "Microsoft walked away from a $3 billion deal to lease Oracle cloud capacity over security concerns - Business Insider",
-      "url": "https://www.businessinsider.com/microsoft-was-in-talks-to-lease-oracle-compute-capacity-2026-6",
-      "source": "Business Insider",
-      "publishedAt": "2026-06-16T19:50:52.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 65,
-      "summary": "Microsoft was recently in talks with Oracle for cloud infrastructure, but sources say the deal fell through over security and compliance concerns."
-    },
-    {
       "title": "Building Brand Safety for Global Video: PYLER's Context-Aware AI Platform - NVIDIA",
       "url": "https://www.nvidia.com/en-us/case-studies/pyler/",
       "source": "NVIDIA",
@@ -872,6 +872,20 @@
       ],
       "score": 55,
       "summary": "Click here to read the success story."
+    },
+    {
+      "title": "Microsoft walked away from a $3 billion deal to lease Oracle cloud capacity over security concerns - Business Insider",
+      "url": "https://www.businessinsider.com/microsoft-was-in-talks-to-lease-oracle-compute-capacity-2026-6",
+      "source": "Business Insider",
+      "publishedAt": "2026-06-16T19:49:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "Microsoft was recently in talks with Oracle for cloud infrastructure, but sources say the deal fell through over security and compliance concerns."
     },
     {
       "title": "HPE Brings Agentic AI Into Production With NVIDIA, Delivering Security, Governance, Scale, and Sovereignty - Business Wire",
@@ -926,6 +940,20 @@
       ],
       "score": 55,
       "summary": "Kazakhstan Secures $10 Billion AI Investment With NVIDIA, Firebird"
+    },
+    {
+      "title": "HSBC partners with Google Cloud to expand AI usage - WSAU",
+      "url": "https://wsau.com/2026/06/16/hsbc-partners-with-google-cloud-to-expand-ai-usage/",
+      "source": "WSAU",
+      "publishedAt": "2026-06-17T00:37:39.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "LONDON, June 17 (Reuters) - HSBC on Wednesday announced a multi-year partnership with Alphabet Inc-owned Google Cloud focused on building the British bank's artificial intelligence ​capabilities. The tie-up marks the latest step in &zwnj;HSBC CEO Georges El..."
     },
     {
       "title": "A massive Chinese AI infrastructure push may lock Nvidia and AMD out - TechRadar",
@@ -1023,20 +1051,6 @@
       ],
       "score": 45,
       "summary": "Coherent’s expansion at its Sherman, Texas, campus scales what it calls the world’s first volume production 6-inch indium phosphide fab, a key supplier across NVIDIA’s AI stack."
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang encourages engaging with AI: 'Open up ChatGPT' - San Mateo Daily Journal",
-      "url": "https://www.smdailyjournal.com/news/national/nvidia-ceo-jensen-huang-encourages-engaging-with-ai-open-up-chatgpt/video_817bed50-3d5d-45ff-91ee-2169bde5cb85.html",
-      "source": "San Mateo Daily Journal",
-      "publishedAt": "2026-06-16T22:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "In an exclusive interview with The Associated Press, Nvidia CEO Jensen Huang says the AI age demands new social norms and encourages people to embrace the technology"
     },
     {
       "title": "Nvidia’s Jensen Huang says society needs ‘new social norms’ in the age of AI - Broomfield Enterprise",
@@ -1146,20 +1160,6 @@
       ],
       "score": 45,
       "summary": "Microsoft is adding AWS capacity to GitHub after AI-driven growth strained infrastructure and triggered a series of reliability issues."
-    },
-    {
-      "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom - CNBC",
-      "url": "https://www.cnbc.com/2026/06/15/nvidia-plans-to-raise-about-20-billion-first-debt-sale-in-ai-boom.html",
-      "source": "CNBC",
-      "publishedAt": "2026-06-15T19:42:46.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Nvidia is set raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size."
     }
   ],
   "general": [
@@ -1175,6 +1175,17 @@
       "score": 60
     },
     {
+      "title": "Elon Musk Is Unleashing SpaceX’s New War Chest to Solve His AI Problem - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaXVncTZ3TUdWcHpWLTBDVDJUOHd2bFY4c2JKUXVyR052RjlwQk9wMTR1SS0tcGlybkZSZnhzRGE3bWpvMXRyaUdBZ2hzZlZUOHhleVZQdkgxYWo5WTZONXV5Yzh5dWVuU2kyMXdJYWFWWGR3N01qSjJndU5mclU2VEpMVjA3ZjRaWS1jV0N3UUtrZEEyWXl4dUNBcWVydGVWLXd1TXBET0NGQQ?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-06-17T01:10:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "DOJ aims to block suit over Musk data center pollution, citing national security - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTXJTaDNCV0U3OUlHN0NpaUJXekNhSHpid1hWT0RzTVV5azhqa2tKVWVfU2FYeEc4R1JxOXp2WTV1UlVqUnhVMkU3aThrWS1jZi1XTnBTQkdLcHhLbHlLTV92VjJoNnVmSjJMRXQ4TlBlcVQ0Sm96elBJVjM3R0ljeXBldHVjMGFlWlE1bV85RlB0QUcxU3luNWlTdDNldThnR19hbnJxTXBGRkRSOUdZenlyVm5nWHc0ekZ6UnFFTUpDQlhW?oc=5",
       "source": "The Washington Post",
@@ -1183,7 +1194,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Nixxy Pursues Transformative AI Infrastructure Merger with Tachyon - The Globe and Mail",
@@ -1296,37 +1307,26 @@
       "score": 50
     },
     {
-      "title": "Myseum.ai and Scanon.ai Enter into Letter of Intent to Form - GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPRHhqRmo1Qjk4dHdnOGo5aVJXRWlCdVIzNWxwdEpnSnhWdldmRDU0VzV2ejdDbWVaa3BSWUpiSGNEdGxYUEdYUV9ta3ZybW5iTHktQWQ2aVl3bnBRT1dTOWpVU1dkcmpqak1UYXo3VUU3dVdSQTRPQWJlaHN4Y3g5VmxLZ1hOdnlTNklMNnppMW5yb2U3ajVTNy0zLVZ1VThZcnlybXVhdUVjYmhZcFllU3ZnNGJLTExWdFNnQmlJT0c1NWVGa2RuWS1Bd1h4U29GQ3pKSVRPclRkMzNtdjVpLTZUcUkxeThpNnJsbEhWSnZ5UkZ6OUxONkRGdzdhNm1uenlhMUdJU3k0VzJ3Ry1kTHhsWndMLW9lRkc0cnpvS1lGVzQ2ODVNRzRsaGoyOHdxakNWTHlMaFVobFVlV1BYcE5rNHVWcE5pV0NlbWUyaEd3RW8xRjdVQl8zMWtyU3ppUGloQnVGNmR2dlBD?oc=5",
-      "source": "GlobeNewswire",
-      "publishedAt": "2026-06-16T20:01:00.000Z",
+      "title": "ATxSG's CommunicAsia 2026: Redefining telecom in the age of 5G and AI - S&P Global",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWENyT2VsQ1Y1STNQWWlvODBqU0llRndXdkhCTHVLZ1Y0VnV1TjZXanhEVnZlc1lQQnRsemdzTnBFU3pnb21JRFp5SDZSdkhlWlRqQ0V1NXJ4dGlEV3AyTkpmejZ4cVJOR1gxelFRd0dpbVNWMjBhYVZFbXVBOUh4cDl5TjA4LVBFX0JnWGc5Q0Z2aklzdWZDdnN6WEdqVnpHdjJqRDdnZFRqdUNKQVdLbUhYZHZ4X011cVY0eHFzVjFraFZveF9FOTd0NXhyXzNfaElfVVJOWG42VGg4WEE?oc=5",
+      "source": "S&P Global",
+      "publishedAt": "2026-06-17T01:53:53.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "New Research Outlines the Promises and Risks of AI Use in Home Care - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3BMRDV0VjBaX29PQld2WVJIMzNlRVJrN2xjTGExcEpKMHpEajdUek4weDN3MlB2Q3hNMFZLTXlCem43T2pKZzZ3amk1VGVDY1pLdDNOT3dINFBfTlhSRVRxeVJGZ2luMGJLaFJrbi1tNEUtbVc0V0k1bnRfdkl0MWEwMk5lbFd3dGcxOEMtR2VfMG9qQ1puZy1KY3hBdGdSazhVMjVDZ0NvMW5yNENCTzZDLXRac0MtRjhHNmJHbFY?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-06-16T19:47:00.000Z",
+      "title": "ATxSG's BroadcastAsia 2026: Is AI the future of media innovation? - S&P Global",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZkNnblUtQ1pOck4ycVh3VWNFRmwwZ0RQa3RnUzNLY1ZuNGU3NVdYVjhkTEdRQ2VOcEEzMVVDR0E4cXdLZ1g2M0lBeHlfaFZLMkp0NmNyOVp6OXJNT0d6VmE5ckJzNXQ4VnRiZHZlVkgtLUdMZDUxQmdVZHI1WTFmYUktN2VvZGt0Z2t1c01BQkNYRXJCZGxpT2VCdmg2aDZiTFVQYWhkTGI3MUhKOVY1OXBjcmJDQW1qQ3JWVTFiZm84T2FXZEl0UkJGX1dESVZSLXVhMXVRcw?oc=5",
+      "source": "S&P Global",
+      "publishedAt": "2026-06-17T01:53:52.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "France to ditch Palantir’s AI data tools in favour of domestic provider - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNm5LQnNGRzNDTHBMLXBOY21Ham90ZWNWWnBUMTByeTVKNkFTTExJTnpwenJKWlRHWkptVG9XSGVILTZXamluT2RyOGpQaFRsaEFuYWQwcUhraE9ZeG1NNlNxNlp5cndtV3Boc2RsWWd3aU93akY4NTRLSTl6MFVUQTNySHZHZU1pdE5hZ3U0bmk?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-06-16T19:39:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Fast-tracked power plants drive AI boom with limited scrutiny - Crypto Briefing",
@@ -1340,10 +1340,10 @@
       "score": 40
     },
     {
-      "title": "KAIST Unveils Cooling Breakthrough That Could Slash AI Data Center Power Use - Koreabizwire",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdkxvNGFwcmYtNFVTZG9PLWFYbFduNXRuZmIxRC1MZHNTN21iMEEyalJENjZNMlo3NGRwMElJeG4zUXhfVlBBZzJCTEw1TVhJTjV6V1RrWm91Y3pBdnBieENuQlJ6dFdTNl9Gb1ZzVkNEUWNjWFN0alFVYXRjTzZXaEhpbzZlODgtQUw4enRXa0xVTlViSTI2LXBTcjNRWXRUUUUxZ0YtWW9YLW8?oc=5",
-      "source": "Koreabizwire",
-      "publishedAt": "2026-06-17T00:33:43.000Z",
+      "title": "Shopify (SHOP) Backs Management At 2026 Meeting As Shareholders Reject AI Policy - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZm9lYkUwSTZ5RERBUlBqa1ZXNmpuOW5Ca25HdXZuZHBwcXVoQTZ5M3Nqak00M2JRRlpSLXdSZkVqa0dELVF5WHl5UVdwVTAySzBvbndOb3VEdm15VVdFTl9XWUFoNXhPSzBaOTNqYXVKMzM2Q3pHdFZqMUJxR3g4RldLeGF5UHJFck56cklJYXBZLTNyNER3NFhRZExoTVVU?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-17T01:11:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1362,12 +1362,34 @@
       "score": 40
     },
     {
-      "title": "Planned AI tools to flag party photos, blur faces and sort albums privately - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUk1jemlkcDVzVnZvY3pFd3RhSXVneGdwV0VJRzFsdUNsZkkxUzBCYjc3elcwZ0FtU1NkY3R4TTd1dHlCX24yc2I1RE1tRlJwNHB5YlljRldNVElEaGxYcEtmYXpzNHBjVHF1M0xjNkozQUIzQklEOE15eGNQa003MnNXQTViU05FTWcwb2tjekxmOXpjclU0bFZLMVlWalR4VkRJYzF6aDlTYXBJakRSZUJ4NHcxRm1sYk9JZlc3Zw?oc=5",
-      "source": "Stock Titan",
+      "title": "Myseum.ai and Scanon.ai Enter into Letter of Intent to Form - GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPRHhqRmo1Qjk4dHdnOGo5aVJXRWlCdVIzNWxwdEpnSnhWdldmRDU0VzV2ejdDbWVaa3BSWUpiSGNEdGxYUEdYUV9ta3ZybW5iTHktQWQ2aVl3bnBRT1dTOWpVU1dkcmpqak1UYXo3VUU3dVdSQTRPQWJlaHN4Y3g5VmxLZ1hOdnlTNklMNnppMW5yb2U3ajVTNy0zLVZ1VThZcnlybXVhdUVjYmhZcFllU3ZnNGJLTExWdFNnQmlJT0c1NWVGa2RuWS1Bd1h4U29GQ3pKSVRPclRkMzNtdjVpLTZUcUkxeThpNnJsbEhWSnZ5UkZ6OUxONkRGdzdhNm1uenlhMUdJU3k0VzJ3Ry1kTHhsWndMLW9lRkc0cnpvS1lGVzQ2ODVNRzRsaGoyOHdxakNWTHlMaFVobFVlV1BYcE5rNHVWcE5pV0NlbWUyaEd3RW8xRjdVQl8zMWtyU3ppUGloQnVGNmR2dlBD?oc=5",
+      "source": "GlobeNewswire",
       "publishedAt": "2026-06-16T20:01:00.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "New Research Outlines the Promises and Risks of AI Use in Home Care - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3BMRDV0VjBaX29PQld2WVJIMzNlRVJrN2xjTGExcEpKMHpEajdUek4weDN3MlB2Q3hNMFZLTXlCem43T2pKZzZ3amk1VGVDY1pLdDNOT3dINFBfTlhSRVRxeVJGZ2luMGJLaFJrbi1tNEUtbVc0V0k1bnRfdkl0MWEwMk5lbFd3dGcxOEMtR2VfMG9qQ1puZy1KY3hBdGdSazhVMjVDZ0NvMW5yNENCTzZDLXRac0MtRjhHNmJHbFY?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-06-16T19:47:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "France to ditch Palantir’s AI data tools in favour of domestic provider - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNm5LQnNGRzNDTHBMLXBOY21Ham90ZWNWWnBUMTByeTVKNkFTTExJTnpwenJKWlRHWkptVG9XSGVILTZXamluT2RyOGpQaFRsaEFuYWQwcUhraE9ZeG1NNlNxNlp5cndtV3Boc2RsWWd3aU93akY4NTRLSTl6MFVUQTNySHZHZU1pdE5hZ3U0bmk?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-06-16T19:39:00.000Z",
+      "kind": "news",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1454,6 +1476,17 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5yVkNfN04xcml6VE1UZ2V1TFR6TElad1lJVFY4TzUyZlI4cmlWZXJBdS12Z25pZFIzZkV4cEVmcm03Mm8wQS0wd0VfT19LOTB2THpfcnFoMk1rckJvcktYUEx0a2p3bGNxRGx6VTc3eHBGSllRdHI1a0ItOE_SAYIBQVVfeXFMUE5JUEd4LWZiU1RLT1RLclpfa25lMEZhRUc4RFFoRnVkSGhPckFENThXdE5uT0FjRWc1Y0xwR1NZTXN6Y05ZZ3NQRUM4UFpMbjJfZERQWnk2Q3U5T2hyQ3VzUzM1em51aGxHd1RRRVo4XzZ3QW9wOEdHTGlkdldpRmF0UQ?oc=5",
       "source": "The Hill",
       "publishedAt": "2026-06-16T17:34:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Israel attempts to catch up in AI, millions will likely need to change jobs - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yU0ptSW11MUttSlhDVm1lYWt1YXdDWE1JNzllU281OFFsT2lsMFBKMk1iT192RHJjQUNDdmhhR0FmTnNuMmNtZzFET1BMLTNWbGd3ZnNYR1llZ3VM?oc=5",
+      "source": "The Jerusalem Post",
+      "publishedAt": "2026-06-16T17:30:41.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1571,17 +1604,6 @@
       "score": 40
     },
     {
-      "title": "SpaceX locks in $60 billion Cursor deal to close gap with rivals in AI coding race - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRmxuTnhpZnhfWk9xMXRkVFVNeXBjXzZSRmZRakJpR0RzZnBxOWFfMk40NW1yaXBvTlBQY2FhbG1wY0w4d0wyRFhIOUhjSlF5VW5Fc3pwZ2xRaERESmhmWGp0UE4yT1l2d0M2N2R2UTlLRGFYSkczc2wxcWxCSU1TMzhleHJMR2pKSjcydDRGMHE?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-06-16T14:52:06.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "TDK Ventures Announces Strategic Investment in Aston Power to Accelerate Reliable Power for AI Data Centers - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZXJleVVVQ1NuTjBpbVpUSlJWd01Id2pxcEVuV1B0TjhOa2VmeGFKbHVTWVMzMzZXUXRwX1c0c1dOTUdEYTMzbjF3R1J1Mlh6TU5PT003LTBUYlY3UUpxVnVKS2FjMW9MQTVhSFNIUEF6RFNYTDZYWjVaX2lKYWdIbmpETE1sUjZVOWh5UDFfZmpWX2RyOWg5SjBBRzlEM0xsVGJLdDFUcXFoalNMSGpUMkFBSWdrVF9uNlpSZ0lfQzJ1SkRMdHdYeW0zdVJaYnNYc1g4ZWdHM19JS0lpd2dfUWlwMHJVbFpXbXZ5aTQtSUVqTlF6NHdR?oc=5",
       "source": "Business Wire",
@@ -1626,6 +1648,17 @@
       "score": 40
     },
     {
+      "title": "Anthropic export ban sounds alarms for AI industry - Axios",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RaTUyZmx1X1Y1a2hRNXk0dU5yZ3dRUVdmVU5fbW82NUIwc1E1b2dsa3NzTkNkRVg3cnE1WnF4Ml9VRXJkMEtmUHFhNm4yQjBTbGJhWnNQelRsWnk5ZXZJQ3lRaU5RR0s4NGJoVHpB?oc=5",
+      "source": "Axios",
+      "publishedAt": "2026-06-16T14:03:11.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "How the fight over US datacenters is scrambling this state’s politics: ‘We don’t want it’ - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcTdkZFN1c3ltc3ZUUjNEbHFwNFMwaHdRRDZhRWJudHBWSk1ncExXeXk1Zm5TQWVHekRvWkZFajM0SEcyWlNObFpIR3ZXaU9mdDBScVpENU9IMmRWSzN2cmg3Q1BlWm1JTTZxVUJDRzJCRXZfdEFMU2E4VlBRS1dFdTh6SlBHUUlCQnJBVnJXU1JTUW1MUGN5SVpn?oc=5",
       "source": "The Guardian",
@@ -1659,17 +1692,6 @@
       "score": 40
     },
     {
-      "title": "Anthropic export ban sounds alarms for AI industry - Axios",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RaTUyZmx1X1Y1a2hRNXk0dU5yZ3dRUVdmVU5fbW82NUIwc1E1b2dsa3NzTkNkRVg3cnE1WnF4Ml9VRXJkMEtmUHFhNm4yQjBTbGJhWnNQelRsWnk5ZXZJQ3lRaU5RR0s4NGJoVHpB?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-06-16T13:03:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "How AI may be messing with home prices - CNBC",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrd3ZIWVBjVThEMUI3WnF2cUtRUnhwcFIxVDREd2ZmMEpmNXg5NkhjTVlqNFdfVTdxSjlvekFBZXZaaXNocXRiZGt6ZEtpeDJUaDNXb1oyQXlLUVpSMVBsRA?oc=5",
       "source": "CNBC",
@@ -1684,28 +1706,6 @@
       "title": "Cognex CEO to Join AI and Robotics Leaders at Automate 2026 Opening Keynote on the Future of Automation - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQaFhYZ00yMVc3eC12Y0xuVXJyd3BsalR4YXNudVEySUw1N21Dc2ZNbjdKYkZEaGVVbWVNX0d4SENfX0dtcXM5ZGp3cnBlMHlkY0VwUUkyVUUwSllhSHBkbnNlSmxaZHRvZVlONlUwZ2V4dHVibjJtelQtbktsUnhBR1BKbEFTTTA1R2lIeTZEbmc1MkdVbVptNU02UVJ0c0VrYUZDVXlHSHUxNWdzM3dfX3F5SFQwdXZtcDREaW5xTE5JTkVRZVpydnlYVWtzMUZwS0RrYzFfY1l1enlibEpfbU1YUEFGNUdidnNIemFsYUw?oc=5",
       "source": "PR Newswire",
-      "publishedAt": "2026-06-16T13:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "American Banker Bolsters Its AI Intelligence Platform with Hire of Research Veteran Larry Cao - GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOWi1fdUpHYXBIY1VyYWtYSG1oSml6MDNNRlZ0MWlJOGdQZjlvTWg4aE9US3dYY2NXR2RPVEhmSEZxbXdQUGlEdzVFaVgzbXlmVWxIYVFqb0h5SGtZUmppYmNGQWxpaTZIdTZZZkxsaFZfRHlLSTl6SU5DUVQ1OTRwM2NEeEMtbWc3eVNnXzZDLWxDaEhhR1hrMUFsZklxMUxoTFVDVi1ZUTRBR0dHUVc0ak9ac1Y3UGx6WnJjSkRoQzRxUzF1UkFXbGNZVVNmdy1JS0pjbnRfRW43MGRWNGlmNmlCTXJ5WS1walJqYXhwaDczZkk0VnBWQQ?oc=5",
-      "source": "GlobeNewswire",
-      "publishedAt": "2026-06-16T13:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Aston Power Secures Funding from TDK Ventures and JLL to Accelerate the Growth of its Data Center Power Delivery Business - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPaDZsNWZLWV8wSWxkamppVmxodVpiU0ZsVk1OelpOSldpVEpKSXNRNEdFOS1tYTdOV3BvVF85ZjNyOTdHc1ZfdDRQSW93YkxvaTI3d2lYT190R3BCWjlsMVpYLUJmV2UxX0Jvc25CbXpLOEhXMWxpb1AwYlZMalZNMUI1cFNJTGlSUGpUSjRxRENuTXJ4eVhmLTNtQ09WVlUtUnRWVlZIUFljR2N2NTl0TWVTdGxRZ1FqbndkVjNDcTBoSUV0ZHpnQTQwaTE0OWM4T1JhcEFQWWV0bkRaT3c4bGFTdUt4Y3RFdUtxUG5STFJ2ZjBrMzgzeEE4WUlGLVZoMmRYRVg3UGhIQQ?oc=5",
-      "source": "Business Wire",
       "publishedAt": "2026-06-16T13:00:00.000Z",
       "kind": "news",
       "tier": 1,

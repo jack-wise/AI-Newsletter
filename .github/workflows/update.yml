@@ -31,6 +31,10 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # The `secrets` context is not allowed in step `if:` expressions, so map it
+    # to a job-level env var that `if:` can read.
+    env:
+      HAS_ANTHROPIC: ${{ secrets.ANTHROPIC_API_KEY != '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -44,7 +48,7 @@ jobs:
       # ANTHROPIC_API_KEY is present (skipped on quiet repos and when using the
       # Worker path, so no install cost).
       - name: Install deps (Anthropic filing summaries)
-        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        if: ${{ env.HAS_ANTHROPIC == 'true' }}
         run: npm ci || npm install
 
       - name: Collect news

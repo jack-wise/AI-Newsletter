@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:02:14.049Z",
+  "generatedAt": "2026-06-21T05:32:12.371Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,19 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "Fermi Still Has A Lot To Prove (NASDAQ:FRMI) - Seeking Alpha",
-      "url": "https://seekingalpha.com/article/4916485-fermi-reit-still-has-a-lot-to-prove",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-20T23:27:59.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 65
-    },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026070121/ea0295327-dfan14a_toby.htm",
@@ -73,6 +60,19 @@
       "score": 65,
       "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
       "summary": "Toby R. Neugebauer and other participants, including Vicksburg Investments Management LLC and Melissa A. Neugebauer 2020 Trust, have filed a definitive proxy statement with the SEC in connection with the solicitation of agent designations for calling a special meeting of Fermi Inc. shareholders. Neugebauer beneficially owns 146,516,035 shares of Fermi Inc.'s common stock, while the other participants do not own any shares. The filing advises all shareholders to read the definitive proxy statement and other proxy materials because they contain important information regarding the special meeting."
+    },
+    {
+      "title": "Fermi Still Has A Lot To Prove (NASDAQ:FRMI) - Seeking Alpha",
+      "url": "https://seekingalpha.com/article/4916485-fermi-reit-still-has-a-lot-to-prove",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-20T23:27:59.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 55
     },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO 240.14A-12A)",
@@ -790,18 +790,18 @@
       "summary": "A record rush to raise cash is bankrolling the AI build-out. But the companies tapping the market aren't all in the same financial shape."
     },
     {
-      "title": "Siemens Energy’s Dual Engine: Data Center Demand and a €12.4 Billion Restructuring Play - AD HOC NEWS",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-s-dual-engine-data-center-demand-and-a-12-4-billion/69594099",
-      "source": "AD HOC NEWS",
-      "publishedAt": "2026-06-21T04:21:49.000Z",
+      "title": "Is NVIDIA’s Record US$25 Billion AI Bond Deal Altering The Investment Case For NVDA? - simplywall.st",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/is-nvidias-record-us25-billion-ai-bond-deal-altering-the-inv",
+      "source": "simplywall.st",
+      "publishedAt": "2026-06-21T05:28:53.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "SMNEY"
+        "NVDA"
       ],
       "score": 55,
-      "summary": "Siemens Energy rides AI-driven electricity demand and a potential €12.4B division spin-off, with s"
+      "summary": "NVIDIA recently completed a record US$25.00 billion multi‑tranche bond sale, its largest to date, to refinance existing notes and fund AI data center and infrastructure expansion tied to growing demand from hyperscalers, enterprises, and sovereign AI projects. The depth of investor demand for this long‑dated debt highlights strong credit‑market confidence in NVIDIA’s central role in the emerging AI factory buildout and its preference to finance growth without issuing new equi"
     },
     {
       "title": "This Company Could Become the Nvidia of AI Inference - The Motley Fool",
@@ -843,6 +843,20 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "Siemens Energy’s Dual Engine: Data Center Demand and a €12.4 Billion Restructuring Play - AD HOC NEWS",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-s-dual-engine-data-center-demand-and-a-12-4-billion/69594099",
+      "source": "AD HOC NEWS",
+      "publishedAt": "2026-06-21T04:21:49.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "SMNEY"
+      ],
+      "score": 45,
+      "summary": "Siemens Energy rides AI-driven electricity demand and a potential €12.4B division spin-off, with s"
     },
     {
       "title": "Dow Jones Futures: Iran Says Hormuz Closed But New Talks To Start; Nvidia, SpaceX Are Stocks To Watch - Investor's Business Daily",
@@ -1007,6 +1021,19 @@
       "score": 45
     },
     {
+      "title": "Exclusive | Baseten, the $13 Billion AI Startup Betting on Cheaper Alternatives to OpenAI, Anthropic - WSJ",
+      "url": "https://www.wsj.com/tech/ai/the-13-billion-ai-startup-betting-on-cheaper-alternatives-to-openai-anthropic-b9679603",
+      "source": "WSJ",
+      "publishedAt": "2026-06-18T10:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
       "title": "Two ex-OpenAI founders built a tool to measure how well AI models actually know who you are - Startup Fortune",
       "url": "https://startupfortune.com/two-ex-openai-founders-built-a-tool-to-measure-how-well-ai-models-actually-know-who-you-are/",
       "source": "Startup Fortune",
@@ -1157,35 +1184,6 @@
       ],
       "score": 35,
       "summary": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company."
-    },
-    {
-      "title": "GE Vernova: Never Chase A Stock, Even In An AI Power Boom (NYSE:GEV) - Seeking Alpha",
-      "url": "https://seekingalpha.com/article/4915920-ge-vernova-never-chase-stock-even-in-ai-power-boom",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-18T06:48:05.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "GEV"
-      ],
-      "score": 35,
-      "summary": "GE Vernova is central to the energy market boom, benefiting from AI/data-center demand, grid upgrades, and turbine scarcity. Read why GEV stock is a Hold."
-    },
-    {
-      "title": "Google Gemini co-lead Noam Shazeer leaves for OpenAI - CNBC",
-      "url": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html",
-      "source": "CNBC",
-      "publishedAt": "2026-06-18T03:21:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI",
-        "GOOGL"
-      ],
-      "score": 35,
-      "summary": "Google's vice president of engineering and a co-leader of its Gemini AI models announced Wednesday he is leaving the company to join OpenAI."
     }
   ],
   "general": [
@@ -1201,6 +1199,17 @@
       "score": 50
     },
     {
+      "title": "ON Semiconductor (ON) Launches GaNEXUS For AI Data Centers And Robotics - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVk9WUWpSUnQ4TGdFTHBId0xWU2d3Q1pPVkF6enoweXZGT2xSc1pLR1h2aF9Nczg2RDdxaVR2a0NqRnY0Tk5tWjZEMG5QVVhrNGVJNkpZVFdxb1JELVAzWjBLZ3piSnV3ZFo3M2V2YmJHamk1SVdHTHd6YU1DaDZOQjE0U0NZTTB1Z0hnRGlULTdMNGFwbmRJUTlqQTY4QVdtRnNUaA?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-21T05:07:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "AI chatbots are not doctors - The Star",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQXdXYUYxS0k3ZEZ0OGRZNk1Od1NJaFd3SW5mdkdOX25nTHlIbGxzcU4zNmpDVU15UlMyUkhKVFRDOGJrM3hNODJsclJldzFzQ1hFUm91aThYZHhkU1NheTJQU2duby1wdzZsTm9NSU96Q19LZUR4WWdXb3E0S2o3R0phYw?oc=5",
       "source": "The Star",
@@ -1209,7 +1218,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "FAA enlists Palantir for AI program to reduce close calls at nation’s airports - The Independent",
@@ -1267,10 +1276,10 @@
       "score": 40
     },
     {
-      "title": "Lloyds Banking Group to hire 300 tech experts to work on AI - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFdFVF9xanFDbE1WckVwbXN6U0tlaFdXbWRLM2F0ZHExWHlTY2hnOWU4b0Fkc2dRUHRCazhHNHR6WXJPM3BCWDV3R2ZFVzc4VTAyRHRKaDJEQk5DbnRYc1hxbWNLLUNzMzUxcEFXWC0wU0FoTjMxZEJJak1CUFFqVndGSEtteDRmU3VrQm1IQWxTZ2Q0b1h1MDQwY3FpTnNhczh4dGktZ0RoQUE?oc=5",
+      "title": "A viral doomsday scenario aims to shake Europe out of its AI complacency - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR01YUUNDaXhKRlNQUXE2eHA4bGFsMlZWT1BVT0dGUXN0dG5ON0Jmb0I1X3BmdUNPLTE5X3U3dFgxNzI0SjJsZmxlYm4zOEw0R3lOUks2N29FUzlBZmUtVGdEQS1idkZCRTJSVUowX2FadDRpcjFad3J5bkVrUV9FY1BVVS14QWJ2bUtzQWhfX0dnSXJVNGc?oc=5",
       "source": "The Guardian",
-      "publishedAt": "2026-06-20T11:01:00.000Z",
+      "publishedAt": "2026-06-20T11:17:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1278,10 +1287,10 @@
       "score": 40
     },
     {
-      "title": "A viral doomsday scenario aims to shake Europe out of its AI complacency - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR01YUUNDaXhKRlNQUXE2eHA4bGFsMlZWT1BVT0dGUXN0dG5ON0Jmb0I1X3BmdUNPLTE5X3U3dFgxNzI0SjJsZmxlYm4zOEw0R3lOUks2N29FUzlBZmUtVGdEQS1idkZCRTJSVUowX2FadDRpcjFad3J5bkVrUV9FY1BVVS14QWJ2bUtzQWhfX0dnSXJVNGc?oc=5",
+      "title": "Lloyds Banking Group to hire 300 tech experts to work on AI - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFdFVF9xanFDbE1WckVwbXN6U0tlaFdXbWRLM2F0ZHExWHlTY2hnOWU4b0Fkc2dRUHRCazhHNHR6WXJPM3BCWDV3R2ZFVzc4VTAyRHRKaDJEQk5DbnRYc1hxbWNLLUNzMzUxcEFXWC0wU0FoTjMxZEJJak1CUFFqVndGSEtteDRmU3VrQm1IQWxTZ2Q0b1h1MDQwY3FpTnNhczh4dGktZ0RoQUE?oc=5",
       "source": "The Guardian",
-      "publishedAt": "2026-06-20T09:59:00.000Z",
+      "publishedAt": "2026-06-20T11:01:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1358,7 +1367,7 @@
       "title": "Workers are emerging as the next big AI logjam - Financial Times",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KLVVSYnhNY3FEQTJxYWNnbWhlNGRUTjcwODhxMldaMlc5OXVfLWZzMlRWdkJ2ZUV4clN3UlFkX3VYajVnRHZTelhVMk5ONFJPcGhhZmdZOWd5YkFBTHdpM3MyaU1IWm11RS1DSHlOYWE?oc=5",
       "source": "Financial Times",
-      "publishedAt": "2026-06-21T04:00:52.000Z",
+      "publishedAt": "2026-06-21T04:00:17.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1414,17 +1423,6 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcUZPc0lsczVTdnk5T1BQcV9nMnBoa0xRVVEtZnBvWVpMdzM3czNPYzBKUHpJS1VTc21IM09MRmpIaF8zNFg4WVRza0ZDUGpSQVFTZXljX0oyRU5udGVrNGhENElVYkhGLVF3b01BNHhLRG9aX201dXFRZUtFR08yMVlZQkZKLTlLTndnY3lLOEkyMTNpMUpBRzFR?oc=5",
       "source": "Yahoo Finance",
       "publishedAt": "2026-06-20T23:39:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "Why an AI company cleaned my New York City apartment for free - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KYS1XT3E5aGp2NGZ2UFdsX3lsbmtZd2x4S19EbldDTU5VZV9LVlVkZTdjZnJYR3ZoMmNSZ04zV040Vk5fWUpaQjg5Y1p2NVRfMG5pS1JtbGotUQ?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-06-20T23:18:55.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1586,17 +1584,6 @@
       "score": 30
     },
     {
-      "title": "Watch Anthropic's Co-Founder and Top Economist on Doing Research at the AI Frontier | Odd Lots - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQmFmUWIyMklSbi1feF9NS0JGY0ZhbHBGOEhYdkxBZG5rMjUzd04tQWxuaV84MFplSVJzc3JpQW5rcFoxaXJkOFNtUV95LUdsMWEyamlFZ3ZGajQycjZ2TFJaNjhjRU4tbUxJQm00U0pIVjFlUFJ1VmZXWVg5d1N5YzlZdmVrN3lwc21ZRW5rZTM3WjBaNU8tQlg3aVpMUFFFRURQTDIyeXNCVlFQ?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-06-19T00:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
       "title": "Energy regulators push for faster AI data center grid connections - Axios",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGZJT05MdnVfNVN6dGhPaEVZOXA3dEIyMFUwSzZJQWF0bUNsS2k4YkNvWDN6UmhwaVBMV3ZtVWxlNE1xUTVpdUo1TG1iWEZXak0xZjRpYUE0UURKUElQS001dF9ad1lpWW1xNnk1SE8yYjRWakxXS25kYkVobHRXMnZPay1wbnV1MzQxamZxNA?oc=5",
       "source": "Axios",
@@ -1656,6 +1643,17 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWlZGLVpJb3BGTmhIV0dCWkdoTW84MEoyT3plVFhHZjBRbVFSek5QSzBselJ0eUN0MGpvY045RkhUOXpZTnpwTy1oa3FPejNwV051NUNiZFBFWUY1ZzdVYnVtQ0szcndya3NFMUhSRzUtRzdUVTlaLU9YN1gtMFRETUp1MTRRMXJmOXUxbHZYOGRkU3FLdkpRUjFqU0hIRzhVMDl6MGFIcTJhdUtHSkYtVlVtMlY1MHNleFlJcDl3?oc=5",
       "source": "Reuters",
       "publishedAt": "2026-06-18T20:18:32.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "FERC Data Center Orders Accelerate Grid Connection - The American Action Forum",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUDA4cU45Z1dhM0RIcElhTEZYR2lEa01yeGJETWJVUHBOSWdEcGRYM3BpM2E1bXlNUl9RR1QxdjYzUGFrZjFtY1ZWWGJieUMzUHpZYWd5eHJuRUdMbXBUUjEwYXRweWVhYTBrelp5RVVpZjBYakZ0VFFvSDg4bmZEa0xOdFFzYkF2RWhQOGU1RkZjUWlFcU9OOGxCVQ?oc=5",
+      "source": "The American Action Forum",
+      "publishedAt": "2026-06-18T19:33:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

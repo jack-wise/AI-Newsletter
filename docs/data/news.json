@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T20:01:30.047Z",
+  "generatedAt": "2026-06-22T20:31:27.043Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026070602/ea0295514-dfan14a_toby.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-06-22T16:00:30.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 85,
+      "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
+      "summary": "Toby R. Neugebauer, co-founder and largest shareholder of Fermi Inc., has issued a press release responding to recent media inquiries and SEC filings, calling on the Fermi Board to maximize shareholder value and find a new leader to replace the nine senior leaders who departed after his termination. Neugebauer highlights his team's accomplishments during his tenure, including securing a 99-year ground lease and over $1 billion in financing facilities, and emphasizes the need for transparency and accountability in determining Fermi's future. The press release comes after significant positive stock momentum in response to Neugebauer's recent open letter, which outlined a dual path of tenant ac"
+    },
     {
       "title": "SEC filing: DEFA14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO SECTION 240.14A-12)",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026070601/ea0295478-defa14a_fermi.htm",
@@ -366,21 +381,6 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026064969/xslF345X06/ownership.xml",
       "source": "SEC EDGAR",
       "publishedAt": "2026-06-04T00:40:57.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
-      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
-    },
-    {
-      "title": "SEC filing: 4 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026064968/xslF345X06/ownership.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-06-04T00:40:42.000Z",
       "kind": "filing",
       "tier": 0,
       "tickers": [
@@ -770,10 +770,10 @@
   ],
   "related": [
     {
-      "title": "Nvidia: AI-Driven Investment Ecosystem (NASDAQ:NVDA) - Seeking Alpha",
-      "url": "https://seekingalpha.com/article/4916797-nvidia-ai-driven-investment-ecosystem",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-22T19:57:01.000Z",
+      "title": "Nvidia wants to cut data center water use, but that's not the same as fixing AI's water problem - TechCrunch",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-06-22T20:08:15.000Z",
       "kind": "news",
       "tier": 2,
       "tickers": [],
@@ -781,7 +781,7 @@
         "NVDA"
       ],
       "score": 65,
-      "summary": "Explore Nvidia Corporation’s small AI acquisitions and neocloud bets (CoreWeave, Nebius) that strengthen its ecosystem and more. Click for this NVDA stock update."
+      "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants."
     },
     {
       "title": "Chevron is Building a Massive Power Plant to Support a Microsoft AI Data Center. Here's What it Means for the Energy Stock. - The Motley Fool",
@@ -798,35 +798,6 @@
       "summary": "Chevron is capitalizing on the AI power megatrend."
     },
     {
-      "title": "Nvidia gets all agentic about supercomputing for scientific research - The Register",
-      "url": "https://www.theregister.com/systems/2026/06/22/nvidia-gets-all-agentic-about-supercomputing-for-scientific-research/5259553",
-      "source": "The Register",
-      "publishedAt": "2026-06-22T18:15:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Tireless AI agents could help scientists do research humans alone can"
-    },
-    {
-      "title": "Google and Amazon Just Launched a Full-Frontal Assault Against Nvidia - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/06/22/google-and-amazon-just-launched-a-full-frontal-assault-against-nvidia/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-22T17:31:46.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "GOOGL"
-      ],
-      "score": 65,
-      "summary": "The competition in the AI chip space is fierce and continues to ramp up."
-    },
-    {
       "title": "Chevron signs power supply deal with Microsoft for Texas data center - Reuters",
       "url": "https://www.reuters.com/legal/litigation/chevron-signs-power-supply-deal-with-microsoft-texas-data-center-2026-06-22/",
       "source": "Reuters",
@@ -840,44 +811,18 @@
       "score": 65
     },
     {
-      "title": "Nvidia-backed Reflection lands SpaceX compute deal - Axios",
-      "url": "https://www.axios.com/2026/06/22/open-source-ai-gets-more-compute-from-spacex",
-      "source": "Axios",
-      "publishedAt": "2026-06-22T15:35:02.000Z",
+      "title": "IBM and OpenAI Bring Frontier AI to Cyber Defense—Helping Enterprises Keep Pace with Machine-Speed Threats - IBM Newsroom",
+      "url": "https://newsroom.ibm.com/2026-06-22-ibm-and-openai-bring-frontier-ai-to-cyber-defense-helping-enterprises-keep-pace-with-machine-speed-threats",
+      "source": "IBM Newsroom",
+      "publishedAt": "2026-06-22T20:30:14.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia debuts AI humanoid software to advance robotics safety - Axios",
-      "url": "https://www.axios.com/2026/06/22/nvidia-humanoid-ai-robotics",
-      "source": "Axios",
-      "publishedAt": "2026-06-22T15:09:45.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Europe Expands Quantum-GPU Computing as NVIDIA Announces 35 New AI Supercomputers - The Quantum Insider",
-      "url": "https://thequantuminsider.com/2026/06/22/europe-expands-quantum-gpu-computing-as-nvidia-announces-35-new-ai-supercomputers/",
-      "source": "The Quantum Insider",
-      "publishedAt": "2026-06-22T15:02:32.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "NVIDIA said Europe is expanding its quantum-GPU and AI supercomputing infrastructure through 35 new systems across 23 countries."
+      "score": 55,
+      "summary": "IBM announced it has joined the OpenAI Daybreak Cyber Partner Program, bringing advanced frontier AI capabilities into security operations to help enterprises counter machine-speed threats."
     },
     {
       "title": "Chevron (NYSE: CVX) To Power Microsoft Data Center With Natural Gas, Boosting GE Vernova (NYSE: GEV) And Caterpillar (NYSE: CAT) - foreignpolicyjournal.com",
@@ -936,34 +881,6 @@
       "summary": "China AI data center buildout: Beijing is drafting a $295 billion plan to build a nationwide AI computing grid run on 80% domestic chips, structurally excluding Nvidia and AMD. Huawei Ascend chips fill the void, but SMIC supply constraints, a CFR-documented performance gap, and power-grid"
     },
     {
-      "title": "AI Nearly Wiped Out This Stock – An OpenAI Deal Just Doubled It - Getty Images Holdings (NYSE:GETY) - Benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/06/60024226/ai-nearly-wiped-out-getty-images-stock-openai-deal-doubles-shares",
-      "source": "Benzinga",
-      "publishedAt": "2026-06-22T17:18:55.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Getty Images shares soared more than 100% after signing a multi-year licensing deal with OpenAI. The agreement turns the AI disruption that crushed the stock into a potential catalyst for recovery."
-    },
-    {
-      "title": "Check Point brings OpenAI cyber AI into customer defenses - Stock Titan",
-      "url": "https://www.stocktitan.net/news/CHKP/check-point-to-embed-open-ai-frontier-cyber-capabilities-into-check-dpf256i9dlly.html",
-      "source": "Stock Titan",
-      "publishedAt": "2026-06-22T17:10:00.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI Daybreak access is limited to select security vendors. Check Point says the rollout starts with controlled defensive uses and widenings."
-    },
-    {
       "title": "Amazon Says Its Data Centers Use 86% Less Water Than Industry Average - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/06/60020190/amazon-says-its-data-centers-use-86-less-water-than-industry-average",
       "source": "Benzinga",
@@ -1005,48 +922,6 @@
       "summary": "Today, Microsoft is announcing one of the largest single capacity additions in our history. In Pecos, Texas, we will build a new datacenter campus, expanding our global datacenter capacity by approximately 2 gigawatts (GW) to meet strong and sustained customer demand for AI and cloud services across industries and regions. Beyond the technology, this is..."
     },
     {
-      "title": "OpenAI Strengthens Its AI Team With a Major Gemini Hire - The National CIO Review",
-      "url": "https://nationalcioreview.com/articles-insights/extra-bytes/openai-strengthens-its-ai-team-with-a-major-gemini-hire/",
-      "source": "The National CIO Review",
-      "publishedAt": "2026-06-22T13:42:37.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Noam Shazeer announced that he is joining OpenAI after returning to Google DeepMind in 2024 through the company’s deal with Character.AI."
-    },
-    {
-      "title": "Supermicro Delivers NVIDIA Vera Rubin NVL4 End-to-End DCBBS Blueprint with Native FP64 Performance for Converged HPC and AI Infrastructure - PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/supermicro-delivers-nvidia-vera-rubin-nvl4-end-to-end-dcbbs-blueprint-with-native-fp64-performance-for-converged-hpc-and-ai-infrastructure-302806051.html",
-      "source": "PR Newswire",
-      "publishedAt": "2026-06-22T13:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Total solution includes up to 1,152 NVIDIA Rubin GPUs and 576 NVIDIA Vera CPUs in liquid-cooled racks—3.2MW Scalable Unit delivers next-generation performance..."
-    },
-    {
-      "title": "FORT Robotics extends its Trust Layer for Physical AI by adding Outside-In Safety in collaboration with NVIDIA Halos for Robotics - PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/fort-robotics-extends-its-trust-layer-for-physical-ai-by-adding-outside-in-safety-in-collaboration-with-nvidia-halos-for-robotics-302804999.html",
-      "source": "PR Newswire",
-      "publishedAt": "2026-06-22T13:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "/PRNewswire/ -- FORT Robotics, the Trust Layer for physical AI, today announced joining the NVIDIA Halos for Robotics ecosystem that"
-    },
-    {
       "title": "How OpenAI’s Web of Business Relationships Could Complicate Its IPO - The Information",
       "url": "https://www.theinformation.com/articles/openais-light-balance-sheet-face-hard-look-ipo",
       "source": "The Information",
@@ -1058,46 +933,6 @@
         "OpenAI"
       ],
       "score": 55
-    },
-    {
-      "title": "Nvidia Seeks to Make Humanoid AI Robots Safer Around Humans - Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-22/nvidia-seeks-to-make-humanoid-ai-robots-safer-around-humans",
-      "source": "Bloomberg",
-      "publishedAt": "2026-06-22T13:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "The Dell AI Factory with NVIDIA Advances Supercomputing-Class Infrastructure Powering the Next Generation of HPC and AI - Business Wire",
-      "url": "https://www.businesswire.com/news/home/20260622081099/en/The-Dell-AI-Factory-with-NVIDIA-Advances-Supercomputing-Class-Infrastructure-Powering-the-Next-Generation-of-HPC-and-AI",
-      "source": "Business Wire",
-      "publishedAt": "2026-06-22T13:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Billionaire Money Managers Have Chosen Their Favorite AI Stock (and It's Not Nvidia or Alphabet) - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/06/22/billionaires-chose-favorite-ai-stock-not-nvda-goog/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-22T12:06:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "A dual-industry leader is the most common top-four holding for six of the savviest billionaire investors."
     },
     {
       "title": "Chevron Strikes Power Deal With Microsoft for West Texas AI Data Center - WSJ",
@@ -1153,20 +988,6 @@
       "score": 55
     },
     {
-      "title": "The AI Boom Is Entering A New Phase -- And Nvidia May Not Be The Biggest Winner - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/06/22/the-ai-boom-is-entering-a-new-phaseand-nvidia-may/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-22T11:01:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Broadcom could be a better play on the AI inference market than Nvidia."
-    },
-    {
       "title": "Nvidia says AI's water challenge is largely solved - Axios",
       "url": "https://www.axios.com/2026/06/22/nvidia-data-center-water-solution",
       "source": "Axios",
@@ -1178,14 +999,191 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "NVIDIA's 45°C Liquid Cooling Redefines AI Data Center Energy - The Tech Buzz",
+      "url": "https://www.techbuzz.ai/articles/nvidia-s-45-c-liquid-cooling-redefines-ai-data-center-energy",
+      "source": "The Tech Buzz",
+      "publishedAt": "2026-06-22T05:42:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "NVIDIA pushes liquid cooling to 45°C, unlocking massive energy savings for AI servers"
+    },
+    {
+      "title": "Google Warns AI Consciousness Debate Could Become a Political Battleground - Decrypt",
+      "url": "https://decrypt.co/371800/google-ai-consciousness-debate-political",
+      "source": "Decrypt",
+      "publishedAt": "2026-06-22T19:30:44.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "A new paper from Google DeepMind argues that disagreements over whether AI is conscious could spill into politics and law."
+    },
+    {
+      "title": "Nvidia says its new data center design will fix AI’s water problem - Fortune",
+      "url": "https://fortune.com/2026/06/22/nvidia-new-data-center-design-ai-water-problem-cooling/",
+      "source": "Fortune",
+      "publishedAt": "2026-06-22T18:51:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "The company says it has eliminated “pretty much all water usage” with its new liquid cooling design."
+    },
+    {
+      "title": "Google Stock Falls As Top AI Scientists Defect To OpenAI, Anthropic - Investor's Business Daily",
+      "url": "https://www.investors.com/news/technology/google-stock-top-artificial-intelligence-scientists-leave-openai-anthropic/",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-22T18:36:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "GOOGL"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Indie Darling A24 Takes $75 million From Google for ‘AI Research’ - Gizmodo",
+      "url": "https://gizmodo.com/indie-darling-a24-takes-75-million-from-google-for-ai-research-2000775368",
+      "source": "Gizmodo",
+      "publishedAt": "2026-06-22T18:30:51.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Microsoft, Chevron Partner on Power Deal for Massive Texas AI Datacenter - Redmondmag.com",
+      "url": "https://redmondmag.com/articles/2026/06/22/microsoft-chevron-partner-on-deal-for-massive-new-texas-ai-datacente.aspx",
+      "source": "Redmondmag.com",
+      "publishedAt": "2026-06-22T18:26:47.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Microsoft on Monday unveiled plans for one of the largest datacenter expansions in its history, pairing a new 2-gigawatt AI-focused campus in Pecos, Texas, with a 20-year power agreement from Chevron designed to ensure the facility has dedicated energy capacity as demand for AI services continues to surge."
+    },
+    {
+      "title": "Chevron signs 20-year Microsoft power deal for West Texas AI project - Oil & Gas 360",
+      "url": "https://www.oilandgas360.com/chevron-signs-20-year-microsoft-power-deal-for-west-texas-ai-project/",
+      "source": "Oil & Gas 360",
+      "publishedAt": "2026-06-22T17:39:31.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "The latest oil and gas news, dedicated to all things oil and gas: people, technologies, transactions, trends, and macro-economic analysis that impact commodity prices."
+    },
+    {
+      "title": "Caterpillar’s AI power trade gets fresh proof as Microsoft-Chevron deal taps Solar Turbines - TechStock²",
+      "url": "https://ts2.tech/en/caterpillars-ai-power-trade-gets-fresh-proof-as-microsoft-chevron-deal-taps-solar-turbines/",
+      "source": "TechStock²",
+      "publishedAt": "2026-06-22T16:59:07.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Caterpillar surged 3% to about $1,015 after Chevron named its unit as a supplier for Project Kilby, a 2.67 GW Microsoft data-center power project, cementing"
+    },
+    {
+      "title": "Chevron and Microsoft Strike 20-Year Gas Deal for AI Data Centers - Barron's",
+      "url": "https://www.barrons.com/articles/chevron-microsoft-natural-gas-ai-data-centers-131f6028",
+      "source": "Barron's",
+      "publishedAt": "2026-06-22T16:51:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Nvidia Touts ‘100% Reduction in Water Use’ With New Data Center Design - Gizmodo",
+      "url": "https://gizmodo.com/nvidia-touts-100-reduction-in-water-use-with-new-data-center-design-2000775354",
+      "source": "Gizmodo",
+      "publishedAt": "2026-06-22T16:40:11.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Microsoft plans 2GW data center campus in Pecos, Texas - Data Center Dynamics",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTE5VWDFmT1lqd0lpUUhoWjRzNnZVenhYTHFXQWRPNnIyZnlsazFDMlBaUUpBM0hTX1ZucW1BN01mVUdFQ2ZpNGN4eUFQU0oxUVdrTXY3VWpfOFlXaWlkSE80QjVkSjhrZ0dpV2h3M0pGajVXMURJX2ZxREZyeE5VdTRFZ2xCZ0tLMkp3dl85QlZwaTlsNU5Pem41N0FnZw?oc=5",
+      "source": "Data Center Dynamics",
+      "publishedAt": "2026-06-22T16:37:19.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Microsoft Shares in Focus After Chevron AI Deal Raises Capex Questions - TechStock²",
+      "url": "https://ts2.tech/en/microsoft-shares-in-focus-after-chevron-ai-deal-raises-capex-questions/",
+      "source": "TechStock²",
+      "publishedAt": "2026-06-22T16:27:51.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Chevron’s 20-year deal to supply dedicated natural-gas power for Microsoft’s Pecos, Texas, data center shifts the AI investment debate from software demand to energy"
+    },
+    {
+      "title": "Microsoft Signs 20-Year Power Deal With Chevron - Let's Data Science",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUnl3azM1RDhmZGtFQWZuaFJ4dGZTMEpqc2p3UVg5bHM0VGxvWlpVOWNCNFZLN3FJMmRKdy0tLVg0NkdMU0V1RERrQUpoZk1VT3lUQVRTWDRTdmhCRUNQTUFkRmUxb0dpNDM5cldXWUgxZUtNUmFCWHpnMWY0N3ZOd1JlcVpuZUxEWXo3eG5VNktCM00?oc=5",
+      "source": "Let's Data Science",
+      "publishedAt": "2026-06-22T16:12:28.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45
     }
   ],
   "general": [
     {
-      "title": "FAA Taps Air Space Intelligence to Build AI Traffic Control Tool - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3hHTC1GWEFlSXk4SkJOZUxpak1IV29MTHRnTWxGR016cm1nYTN1d1AycWtoZmtuSENWSlpha3oyRmdaMG01cEFfSHotd1NyeHlhd2FMTllDY211MkdKWUdYbFc0ajNpM1dBb2c2NlZSYXVOc1RoVGR4TWp6ZTRQQTYtdXo0dWF1R2NOcGxRNWp6bElpNHVRRURQeFJmdG9kX0JZdVpUa3pmcko2MVBqUzl6MVJlUQ?oc=5",
-      "source": "Bloomberg",
-      "publishedAt": "2026-06-22T19:30:00.000Z",
+      "title": "Demystifying AI: The College of Engineering and Architecture’s AI Tinkery Series Advances Practical AI Fluency - The Dig at Howard University",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTUVxN3QweURSOU1tcnRmb01va0F1VXRvWXU3d1dReTJWYThITUxGbW9SUmU3LWdCT3pQa2huNTBSVFpTaFZ1THMwNWpOU2xLSjhVdjlpUGl1a0pVME1FeTNZeEhMalNrTXJIakQxSDFGRkNhWnVtdTZSRkxlMndBeTZRazlJQVRISUh2MTduMjB1dU1xYV9DX0c0dGh1b2taNl9XSnUycFBEU2FMSzV5bEFDbjNvaUFRWDVtUnIweVA5TGZ4akJ5dTBfaw?oc=5",
+      "source": "The Dig at Howard University",
+      "publishedAt": "2026-06-22T20:23:33.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1204,10 +1202,10 @@
       "score": 50
     },
     {
-      "title": "Oklahoma author who coined 'steampunk' genre sues AI company Anthropic - The Oklahoman",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZzl5MjlsdkVYOHphR3l6N3hJZWNtcG55Tko4U1RUcWZXSy1nSkNLYmtNeDJ6QVdKekdkeko5NWxTb3prM0ZhRzlZdERoQTRDSE5RbERGYW9kMW1tYUlYRGstUWtMUmRZSWtNWFVlNU15NVdUcWl6V0RnUURsZDdrcUhtbEhUX1pWUFdNZmxnZ1BZb1hNdlJRZWJ2ZnF4Y2RhZndQU0dCYnpfeFdxQTBtY1ljQ3JUS2pCTUVaM05CXzJVcTdX?oc=5",
-      "source": "The Oklahoman",
-      "publishedAt": "2026-06-22T17:56:09.000Z",
+      "title": "Launch CRM Announces Free Launch AI Summer Challenge to Help Serv - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMlJoRGlUaFVMQ3V6X2JyVHpBVjBJajU0b2hRM3NTRnRBMkEtUFg1Qlg2Z3NqMG1WeGIwNkNvSUdsam11N0dJSm9GV0RkcF90VjVDRFRIYVgzV1dxSEozWlNhcElyM3pXNnN6Qk4zQWtlNjF3SUJNRmF6NENUY3pMRlJvTjFwU2UwUHJjV0YyVE1hMDJyUmZoWHNkMWVQN18yTG9Jd0FSeWN6bU5LazUwMlE2UEluRmM?oc=5",
+      "source": "The National Law Review",
+      "publishedAt": "2026-06-22T18:30:43.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1241,17 +1239,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTklxTWJwcms1UlBCeUYyTGtNTGFtdEtGcmR3bEJJWHY2VHRpbUJqR3lUdW13RkF6MWJ4SklkWEtEYUlOLURENnRDNWNjN1dCclZVVGNOQVV0OEg5U0gyY2pGWDVDY3JUR3lKelJGSHdxUUM1UXY2UXFpa09idjN1Z0ZLNFZWX2dmR1FyaDRrM2NVY2trNFJwbjJHdWZuYUUtck1rWU9VRWZEbV9kT2hXOUNxbm1iU3FwTlp3dzkzdUhQdw?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-06-22T17:04:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Oklahoma holding back on AI regulations amid Trump’s order not to stifle the new technology - The Journal Record",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeFFsV2NNM2RxX3FaUnNZYTRlM1JWbEZNUnRfX0Z1Y3l0SmZYbWxDb1hPZHV1UTFrUWp5SFUyd2toMG83b3NzZGRjbGR6RHF1X2MxRDNOMHpMRU4yeEUyNEVZS2xXaDhKd3dyWDZtQmtvNENCUkZ5d0tRenVGQ3oxa29MbG1zZXNxeXJJM25JN09WWWFQb0VvVUpIa25qM0Nt?oc=5",
-      "source": "The Journal Record",
-      "publishedAt": "2026-06-22T16:47:17.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1296,17 +1283,6 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0bUh0Uk95MWYxNVZRc2VQdFpaWWRYZEJ0MEdQOWhFWkNNa19pdDcyazBqTGE2MHdMTzhfTHh5STk2NVB0d2dsMlFFb0JteGR4MWxsY3VPUWM4NjdHUk1PY2pJdVA4S1E1allZS0JMWjAyX0lMdUlRRHZR0gF_QVVfeXFMTzFzeWhOZXAwdk9JNDJvekdBajl4X1lBSU0yUmkxVGpoS09rZmFoMDdMRUZkckM2TEs0M3JsZ3hxcThhS0xLRDhIeVVZU3otdWMteGVzMHdNMXBYdVRfZk0xZzg1NU1RbUlrVzNnTXNuX3Y4dEN2aGlzVllRNFA1Yw?oc=5",
       "source": "CNBC",
       "publishedAt": "2026-06-22T16:16:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "3 Cheap Artificial Intelligence Stocks to Buy Right Now - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUjdZTE5YakZKQW5WYnEzZk5tUENjMUNGcWpVRGlObGFzVXp2QzRkV2dIMVBtaU5ieTRBWFRYYlJOVy1DV2pFNklLbzNacEFqalVSVVJKV2luQjlqOFF4VE1SUDQ1TjNPakJFSlBqeWRwaUh2OEVWTmVzUUp4VGF3QjlXNzRVMWlCd09GTnZhVWprRV9DWkRlNA?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-22T16:15:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1391,10 +1367,10 @@
       "score": 50
     },
     {
-      "title": "Chinese AI models raise cybersecurity concerns, new report warns - WBFF",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWHlPUHlXSm1XMU1jYV9sV0UzRVVfaHU4dmVPQ1NpaXB4VTRacEdPSzdMLU5UVFJlMC0tZzNSM1huSkN0VUZCMnVZRVpiZGZuc3pEaHNrSWc2MWN2YVFPeDg3RmNNSS10dVhJWXR5TkxBVFBFOXlYZmI0Z1BfNlVGdXRKUzJxQ2xLZ3puQ3ZJZk9hRnM2c2hrUFFiU19JWUdwcWxUZGx4Qnl4Z3owOHZJUXJjX3dERHhwMmcycFpsUEVZSGptNk5aOGxUZVB4Yzl6Q0F0WFdvaUV5aHF6eWo1bVBielF5MUk2clQ3cGthX3M?oc=5",
-      "source": "WBFF",
-      "publishedAt": "2026-06-22T19:57:58.000Z",
+      "title": "Opinion: Louis Volante discusses how universities assess learning in age of AI - Brock University",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd1J6MlhtYVFFUVVyTDJTdDlJZVdsNDI5YVlPLXlnRzRpZVF3Q3YyQTQ2TjZ1LVJJajVSR3YzQnIxb09KaWw0LTM3Tld2SXlYeUlOMkVFMkdCWTd0UHoxcFhHTGhBS19lQWlqRkxaSmx0TVZLVGFfbUxMaHVsVHRHeHIwRnY0MlVCcGNnRzBnS0hIbWxoaVVqdDBJUm9YQ3JocHJTbFgwa0NISjR4bzkyYjZKRGs2UQ?oc=5",
+      "source": "Brock University",
+      "publishedAt": "2026-06-22T20:21:20.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1402,10 +1378,54 @@
       "score": 40
     },
     {
-      "title": "Micron Invests in Anthropic's $65B Series H, Signs Multi-Year AI Memory Supply Deal - MLQ.ai",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVGx5NkQtcHRPMU91dHBTSzNLOGJuR1loNkY4VFo2eXJjX3NVRVEtNTBjeEIwVEFCNkc0a093X3NjdG0xYTlhQkR4YTZHR09Qa1FfYXplaDZXQ0NCOTNwRk9zUFRBdmdBWks5Q1BYQkVaQmpiTzZ6OF9kVnplTk0xUkR4OEtsZTNBTkxEOEJVRDBuT2p2VDRTbUJqbWh1XzhqZnUw?oc=5",
-      "source": "MLQ.ai",
-      "publishedAt": "2026-06-22T19:51:46.000Z",
+      "title": "What Bundesliga’s Captain tells us about AI-powered CX - Network World",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWTg0N2tjMU5WVDFudjVlZEtpSlhpMWJ6SnNPMXNqS3BwSE9wM2N3eU1BZFVBN0staFZ4Qms2SkJMWDZkbEFNa3R3QTdSa1h2dU1tS3dWRjVfdWNvNW5UbTlLUmtMeldkd0FsTWVfM2pLS1MyVkhUajA5MF9qTGNTcXlCWmI4MkVLSlJ2ZTV1TFF0RnRNZU9URzdfdXFPN1RHOVZnTFdR?oc=5",
+      "source": "Network World",
+      "publishedAt": "2026-06-22T20:16:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Micron stock surges to new high amid AI memory trade boom, Anthropic deal - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONHpvT3pmWk1iSHJpUXlBSlNJeHdkS0pDbzAwNlAyZEhKQ1ZNYzU0SDFxTHpzeHdkZDR2RkpGeVFsVTlMbVFhQVFaaFRTbjlpYmlxWVlGTjMyTmxwVDVjS0RQRk55cUIwNnVJQWxFOVhCVXNZb09wdHFWTlp2NnI2TU9mSlZDQmdaajN0ZlFQeVhtTW9na1h0UWR4WjBLVW8xdjk3VGRST19wd2luXzBPR0x1U2JxcjJwYVNCMVdzU2Y4VE02LWFrcGRhLVJ6dE12V1E?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-22T20:08:40.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Planner 5D unveils AI agent built specifically for interior design - Furniture Today",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOGxNZTlqTkdOMlRyd1pMZFZKU28xRnYyanR5ZUdaQ241MHEyemVkY0RfNnREajNpMzRFQ3ZPY2s0QmxjeGZ2cWpVZDJiVUVYMmxiRG9QMC05NDNXalFlOHY2VVAyZWd5Q3R6WTdpTjNRakJJMDFZelZMQUNHb2lQOTRTank3RVp0VXphQmItcF9JaFBwNklaUHRNa1BoVG9MSHROOVo3bmg1Q3RwdGRUVGJPdmZNSmp2SkJCM2lNaFZWV1E?oc=5",
+      "source": "Furniture Today",
+      "publishedAt": "2026-06-22T20:01:52.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Can robots and artificial intelligence solve the issue of a skilled generation nearing retirement? - Pittsburgh Post-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUlpwY0QtNWtIS3NWU0hHc1VsUFVNRk1aZlB3T2ZtTFB3VEs2U2F4OFQtU1RoZE1GSzA1blB5VWd2UGdoMnYteEVtd1dPUmh6QjJDZUpzSDIyTjV0LVRLaFZYN2U0XzRUbGhEZGd3cWtJM1NmbU5BcWN0TUJabmxNdlpKeTVmTUNmWWxydmVvQXMxR0NlcmFrbUtLZHRMdmFBX2NsVjdNQi1RTkZxcU5FNkJNeXdaZnotSWdSVHdRQzBaUVhDWW1B?oc=5",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-06-22T20:00:11.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Chinese AI models raise cybersecurity concerns, new report warns - KOMO",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSmNONTNQTlk2aFBaV0h0bG9yNHdpa0sybERva3BtbzB3REc5eTRDMS1DYkJYTGxQYzlpOUlHRUQwM19JRjdhanNFV2NPSV85NXpTeTlpUmJRYjJtRGZaaDZMUmZxaTlRZU1JWlNfVm1RRGRZeTZtSnF0NXBCTUdsNVlJMHdEaUt6SGRIT3Fld2JvVGxRb09uSHpmWVZhWDRGN2lCUktWYTdrS2tKWmZlS1RkekQ3YnRDS2hVT2V5Z2cyWGtGeUU4QTVRZl9YZk9DN1dyYllHQzJXZEtzdElMYVdwVVlZZVh1MURN?oc=5",
+      "source": "KOMO",
+      "publishedAt": "2026-06-22T19:53:58.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1424,111 +1444,12 @@
       "score": 40
     },
     {
-      "title": "DIA considering new AI-powered platform to streamline procurement system - DefenseScoop",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbDdjNU5WRXkyRXlMZXdNWU14VzktRm9Scm53LTE3NXphZFlzeHJBUlBrTXNFVmVnT1FIUE01N21sZnVKY2dGUmVvYU5CVU9KTW1Qc1g1NFBHYmw4U2FpTlhCbGR2dWd4dGcxTFpkY1I4dG5TcTUxUWY0R0pVcXlzT1RtcFI0RGdXUmRrQVRBc3dDaWxV?oc=5",
-      "source": "DefenseScoop",
-      "publishedAt": "2026-06-22T19:28:35.000Z",
+      "title": "These AI bills are advancing in Pennsylvania as lawmakers eye June 30 summer recess - Transparency Coalition",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMThqeWxwMnMwUHdUeWlIVTFJMXpTTnZTc0w2WWhieXpjZER5Yk1Cd1ZWTU1XLVdPOURTY1B5bEVSXzdONTlHeDlOR3VIcHFvYnhsdDk5bVB0bHdRQzl4WmVnZ1FQN2tVX1Rab2R1MEFFWXJrc1V0aElFd3NfZ2otT3gyNzRFWTRmczlOUWVLVkEyTUJYWlRwZ2JqN3I?oc=5",
+      "source": "Transparency Coalition",
+      "publishedAt": "2026-06-22T19:36:41.000Z",
       "kind": "news",
       "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Artificial intelligence firms are feasting on Manhattan office space - Gothamist",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGRPZ0g1ZjNTRE53eHNnX3Q3azI1T1RRV3puTU5YQVV0dkxTT3BIVUVaeUVVSHRNMmliMXNaeC1pU3h1ZGNUeHkyTnJBdEhpeDU3dVNGeWR0Z2NRZzg5Y2JmbkZFVDdKT3VMT3RuRnRoS0FzRUlrLXFGeEtxLUJZR1lzYlNpVTNpcGdEdW1tbF9CcjU5RTVUTkVQaw?oc=5",
-      "source": "Gothamist",
-      "publishedAt": "2026-06-22T19:26:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI-mortgage broker Ralo opens, raises $2.9M of capital - National Mortgage News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZnFZQXRsb0F6cGNOeDRuam9EMEtPVWJNMnlDVkdYLW4wMklYeG5nekMweEVzUDZ4NF8tT0l0ZHRJMDFvRU9KQ2VrM2NXUzgtN1dSRGpMRU9ocWtFYzR0b0tiSER4UzRLSXFTTEpKc3F5amtFc2ttZmwxX0FPbGVzMWFOdGZfTkd1dm9NUTlCUFBxLW1SQXZqeVc3V2l6WHc?oc=5",
-      "source": "National Mortgage News",
-      "publishedAt": "2026-06-22T19:24:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "U.S. Data Center Power Demand Set To Double By 2030 As AI Grid Strain Forces Battery Storage Into The Spotlight - foreignpolicyjournal.com",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWVVQWVgwZVVoQUtMUGFXR1JWd19TbnN5NWlTUU1sMGRYZEZXWGJYSDNoQU9xdjVBcjBpck9HTmxtVnI1eGFFdlN0N0JabHc3Ri1Ma3FGRUI4SC1PWDZfNVI5YWJ2Q095NkRmNE5YZU9fcG9GeXMzMm12bkk1SEhUUG1NWmhSRk5sSHYxeE9MMjVPTU1XOTREcTZFUjRwZElPUWFQVFBLdl9hd1hseDdFaG1tNURWQ0k4d20yZllQT3UwNWhVUUhNR0t5WUlpeGU0R2wySGFWcnNGdjRyYmZodFdhNW0zSHA4RnpwU29fR1E?oc=5",
-      "source": "foreignpolicyjournal.com",
-      "publishedAt": "2026-06-22T19:24:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Nevada congressman proposes AI-related layoffs transparency law - FOX5 Vegas",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMFdpZi1DNG1seGUwcDZqWFc0WW1ZeWhZME5kNWZveTcxYWYwVXNUeEV1cFl0NXhMSUM0Rko2WHY3SWZNTkVwUHdHZlRqMHd4a0tYdXBrd0RoMnI1bFNxZWJlNzhVVDB3X09XdGE2MFdJc1MtYWM3TnlHYlY2c3FZUWtGWld0N1FDaFQ0ek44eXRwN1lxc3BwSlpyRS12cUVTN1E4?oc=5",
-      "source": "FOX5 Vegas",
-      "publishedAt": "2026-06-22T19:17:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Too good to be true? Avoid free AI token offers — or risk vendor lock-in - Computerworld",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcERrSGVqcWxWMm5DWDRoS3JUdC1hLVZHaXlCbzR4dG5kLXphZFZ6bWd3TURfaVNGYzdLQ0Q0aWRXaUNxSVp3RnJIMmZtQlA2OFJzbUd4emtkVlU0dEw4eWFfWExuN2RCWC1sZk16OE1KY04xUGJ5Mm00U1BWN2d0VHlpVlJMQUIxWlFLWEtjOERpSXJLcjh6SlU3YnJDVUx6WHFxX1ZQRlhaYWVjcEFhWWZRWkN2RHQwWTRnZA?oc=5",
-      "source": "Computerworld",
-      "publishedAt": "2026-06-22T19:11:54.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "The U.S. Is Losing the AI Credibility War—to Itself - Council on Foreign Relations",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdnp5OVJPc2M0M2NiYkRjNGRNcElpdVJaVlUyclk1MWxVVTBYdmVoMWRMVHQyRnhqYTNMZElQOG03UVZXUzFpUGJ4a1d6YlBibU41eXVrU2g0TGdHaWUyb3ExWWhTUWpHMzQ2dzdQV0pxNW9GamJzM3lQNnduY0NwTUNST21qZw?oc=5",
-      "source": "Council on Foreign Relations",
-      "publishedAt": "2026-06-22T19:04:18.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc1U1QjlzSmgtcUNMdUo3cG9pdkFaSHlzNnVIVG1ZcUMxb2prVlJteFctSzZwYjRwZXhXSkFBcVlPc1pVNk94bC1xdlVkYzRzR01oNXdhdGdrdDRpQ1JreVVqeVJmMUYtT2hnbWtsMkMwRGs3eENwTjNUU3RycUhkMEFhNDVoQmRsLXpTSjY5aHN6ZlltcHNmTEc1YW9WejdaWUE?oc=5",
-      "source": "TechCrunch",
-      "publishedAt": "2026-06-22T16:51:29.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Forgent Power Solutions: The Data Center Power Trade Is Just Getting Started (NYSE:FPS) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXB4YjZyVnd5NGRnMVZvajRBNGtkMUZmTHp2cWFDdTdwMjRFd3A1cGtOZnltX1hJdkV0NWxmQjdKTXRQQnlpeEhEVXlhd184QTFqNVlQN1lOem4xYVc1VzJnRFZQeFRfNHhWa0c5MU1MWkZQdDhEVXFwdFBQVVg2REcyOGZxYXJfd0kxWGpKWkFLMEVJYWoyUkh0ejFJMUdtZ0E4UmZTSE9nTWFRakt6X0V4VE50LW8?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-22T14:09:46.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Israel’s AI future: the next Start-Up Nation? - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFOC1FeXdiTVRucm5Ka096VnpvdUxTM2IzV0JERlJSdDNpVXZ3Z19sbHFkNXBUbFJEUVdkSWg5R25qYy1RbkZLRlhvOHpJb2VwTnoyQ2VZUQ?oc=5",
-      "source": "The Jerusalem Post",
-      "publishedAt": "2026-06-22T14:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1688,17 +1609,6 @@
       "score": 40
     },
     {
-      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific - The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRElia19STEJHUE9aU0prY2cyY05ySktobnluZFlEWlNndnY5RVZHVFl0M2RfMW1oakNtSEZuVjdhcTVZNjFyOGlrNnNrZml6bTllWXYyZzJWWURTTjVORy1xb2F4RVp2VTlYZGNFU2RJaUZIV1ZRMVc5eFlpdmNocF9VZw?oc=5",
-      "source": "The Hacker News",
-      "publishedAt": "2026-06-22T06:06:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "The Reverse Centaur’s Guide to Life After AI by Cory Doctorow review – the real price of artificial intelligence - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa2hsOTc5ZVlXTmFRRE9hSGg4NGc3eE1MRXJqTUJ4c0RFclRFdjlmeGR2OWdjWElRdUVHeW1vLTZWMUo3Uno1c3I1a0IyYjl2U0NIeFc0MGo2Y3ZpbXpTVFVfWXcxejJoVW90Wi1pNUMzUFZCbWZVTUZjc1pkaF95d2RXQnVMYmQzWWpLOEZER1JaVkxLRDFqZ0Z1M3JaUnFSTVRoOXhOSEZJcG96ellkUW1lUDJSZkZpN19aNWtzUDduWFltVkFVeHlvTkFtUmw3RWFEeVlFbkx1ZE5aTTBSN1MxYUF2NXFmWUdj?oc=5",
       "source": "The Guardian",
@@ -1708,6 +1618,94 @@
       "tickers": [],
       "related": [],
       "score": 40
+    },
+    {
+      "title": "Transforming AI models into useful model organisms - The Transmitter",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWkRyaG5UOTc5QlFLQllyNk5lSXdmUm5zWTVDWGFVWUZSazdtSVBzQWd3VTFGdE96Q085ZzBvb0ZUQ2s1SXJPcXFkUGFWZ25NY1ZvTTlXRGo3WnBnUjR0MUdUV3VTRjVELXZzaC12alZ3R181SEtxQjlDNUMyd1BNNm5JWUtNS2xWeG9VVVh0QmFmNGs1dnRPRGlfSWJzSmltc3FNQ0NNaHlxUQ?oc=5",
+      "source": "The Transmitter",
+      "publishedAt": "2026-06-22T04:00:25.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "DIA considering new AI-powered platform to streamline procurement system - DefenseScoop",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbDdjNU5WRXkyRXlMZXdNWU14VzktRm9Scm53LTE3NXphZFlzeHJBUlBrTXNFVmVnT1FIUE01N21sZnVKY2dGUmVvYU5CVU9KTW1Qc1g1NFBHYmw4U2FpTlhCbGR2dWd4dGcxTFpkY1I4dG5TcTUxUWY0R0pVcXlzT1RtcFI0RGdXUmRrQVRBc3dDaWxV?oc=5",
+      "source": "DefenseScoop",
+      "publishedAt": "2026-06-22T19:28:35.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "Artificial intelligence firms are feasting on Manhattan office space - Gothamist",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGRPZ0g1ZjNTRE53eHNnX3Q3azI1T1RRV3puTU5YQVV0dkxTT3BIVUVaeUVVSHRNMmliMXNaeC1pU3h1ZGNUeHkyTnJBdEhpeDU3dVNGeWR0Z2NRZzg5Y2JmbkZFVDdKT3VMT3RuRnRoS0FzRUlrLXFGeEtxLUJZR1lzYlNpVTNpcGdEdW1tbF9CcjU5RTVUTkVQaw?oc=5",
+      "source": "Gothamist",
+      "publishedAt": "2026-06-22T19:26:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "AI-mortgage broker Ralo opens, raises $2.9M of capital - National Mortgage News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZnFZQXRsb0F6cGNOeDRuam9EMEtPVWJNMnlDVkdYLW4wMklYeG5nekMweEVzUDZ4NF8tT0l0ZHRJMDFvRU9KQ2VrM2NXUzgtN1dSRGpMRU9ocWtFYzR0b0tiSER4UzRLSXFTTEpKc3F5amtFc2ttZmwxX0FPbGVzMWFOdGZfTkd1dm9NUTlCUFBxLW1SQXZqeVc3V2l6WHc?oc=5",
+      "source": "National Mortgage News",
+      "publishedAt": "2026-06-22T19:24:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "U.S. Data Center Power Demand Set To Double By 2030 As AI Grid Strain Forces Battery Storage Into The Spotlight - foreignpolicyjournal.com",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWVVQWVgwZVVoQUtMUGFXR1JWd19TbnN5NWlTUU1sMGRYZEZXWGJYSDNoQU9xdjVBcjBpck9HTmxtVnI1eGFFdlN0N0JabHc3Ri1Ma3FGRUI4SC1PWDZfNVI5YWJ2Q095NkRmNE5YZU9fcG9GeXMzMm12bkk1SEhUUG1NWmhSRk5sSHYxeE9MMjVPTU1XOTREcTZFUjRwZElPUWFQVFBLdl9hd1hseDdFaG1tNURWQ0k4d20yZllQT3UwNWhVUUhNR0t5WUlpeGU0R2wySGFWcnNGdjRyYmZodFdhNW0zSHA4RnpwU29fR1E?oc=5",
+      "source": "foreignpolicyjournal.com",
+      "publishedAt": "2026-06-22T19:24:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "SpaceX to Issue $20 Billion in Corporate Bonds, Accelerating AI Infrastructure Business - 아시아경제",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MNFhUWlVkOFVwNmpray0yamktOUtqcVZSLWl3bTBuTXRWcUlQOWZxTnhBUVo5WHE5RFpQd1FMZGtMazFQSEpONDIwRVYxd0JzLUUyTGhWOFl4V1pKUTJVeGx3Qng3TFluUzlrampzU1VwQ1RpZE5WNjRtdjc?oc=5",
+      "source": "아시아경제",
+      "publishedAt": "2026-06-22T19:22:07.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "Nevada congressman proposes AI-related layoffs transparency law - FOX5 Vegas",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMFdpZi1DNG1seGUwcDZqWFc0WW1ZeWhZME5kNWZveTcxYWYwVXNUeEV1cFl0NXhMSUM0Rko2WHY3SWZNTkVwUHdHZlRqMHd4a0tYdXBrd0RoMnI1bFNxZWJlNzhVVDB3X09XdGE2MFdJc1MtYWM3TnlHYlY2c3FZUWtGWld0N1FDaFQ0ek44eXRwN1lxc3BwSlpyRS12cUVTN1E4?oc=5",
+      "source": "FOX5 Vegas",
+      "publishedAt": "2026-06-22T19:17:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "Too good to be true? Avoid free AI token offers — or risk vendor lock-in - Computerworld",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcERrSGVqcWxWMm5DWDRoS3JUdC1hLVZHaXlCbzR4dG5kLXphZFZ6bWd3TURfaVNGYzdLQ0Q0aWRXaUNxSVp3RnJIMmZtQlA2OFJzbUd4emtkVlU0dEw4eWFfWExuN2RCWC1sZk16OE1KY04xUGJ5Mm00U1BWN2d0VHlpVlJMQUIxWlFLWEtjOERpSXJLcjh6SlU3YnJDVUx6WHFxX1ZQRlhaYWVjcEFhWWZRWkN2RHQwWTRnZA?oc=5",
+      "source": "Computerworld",
+      "publishedAt": "2026-06-22T19:11:54.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
     },
     {
       "title": "New AI-powered platform helps researchers find promising cancer therapies faster - UCLA Health",

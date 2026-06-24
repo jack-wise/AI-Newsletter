@@ -35,7 +35,6 @@
         <a href="#coverage" data-nav="eco">Ecosystem</a>
         <a href="#coverage" data-nav="filings">Filings</a>
         <a href="#coverage" data-nav="social">Social</a>
-        <a href="#coverage" data-nav="brief">AI Brief</a>
         <a href="#coverage" data-nav="reports">Reports</a>
         <a href="#coverage" data-nav="history">History</a>
       </nav>
@@ -150,10 +149,9 @@
 
       <div class="tabbar" role="tablist" aria-label="Coverage sections">
         <button class="tab is-active" role="tab" aria-selected="true" data-tab="frmi" id="tab-frmi">FRMI<span class="tab-note">PRIORITY</span></button>
-        <button class="tab" role="tab" aria-selected="false" data-tab="eco" id="tab-eco">ECOSYSTEM<span class="tab-note">PARTNERS</span></button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="eco" id="tab-eco">ECOSYSTEM<span class="tab-note">AI + PARTNERS</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="filings" id="tab-filings">FILINGS<span class="tab-note">SEC EDGAR</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="social" id="tab-social">SOCIAL<span class="tab-note">VETTED</span></button>
-        <button class="tab" role="tab" aria-selected="false" data-tab="brief" id="tab-brief">AI BRIEF<span class="tab-note">THE FIELD</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="reports" id="tab-reports">REPORTS<span class="tab-note">AI RESEARCH</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="queequeg" id="tab-queequeg">QUEEQUEG<span class="tab-note">LIVE CHAT</span></button>
         <button class="tab" role="tab" aria-selected="false" data-tab="history" id="tab-history">HISTORY<span class="tab-note">FULL ARCHIVE</span></button>
@@ -167,7 +165,7 @@
 
       <section class="panel" id="panel-eco" role="tabpanel" aria-labelledby="tab-eco" hidden>
         <div id="eco-list" class="grid"></div>
-        <p id="eco-empty" class="empty" hidden>No ecosystem stories in the current window.</p>
+        <p id="eco-empty" class="empty" hidden>No ecosystem or AI-field stories in the last 24 hours.</p>
       </section>
 
       <section class="panel" id="panel-filings" role="tabpanel" aria-labelledby="tab-filings" hidden>
@@ -181,10 +179,6 @@
         <p id="social-empty" class="empty" hidden>No vetted social posts in the current window.</p>
       </section>
 
-      <section class="panel" id="panel-brief" role="tabpanel" aria-labelledby="tab-brief" hidden>
-        <ol id="brief-list" class="brief"></ol>
-        <p id="brief-empty" class="empty" hidden>No stories collected yet — first run pending.</p>
-      </section>
 
       <section class="panel" id="panel-reports" role="tabpanel" aria-labelledby="tab-reports" hidden>
         <p class="panel-note">

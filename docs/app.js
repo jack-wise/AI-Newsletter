@@ -1,6 +1,11 @@
-// FERMI WATCH front end: fills the five tab panels from data/news.json, runs
+// FERMI WATCH front end: fills the coverage tab panels from data/news.json, runs
 // the tab switcher, count-up stats, and scroll reveals. Re-polls every 5
 // minutes. All feed text is set via textContent (no HTML injection).
+//
+// Live tabs (FRMI / Ecosystem / Social) only show stories from the last 24h
+// (see isFresh); older stories live in the History archive. The Filings tab is
+// exempt and keeps the full SEC record. Ecosystem merges the old Ecosystem and
+// AI-brief feeds into one.
 
 const TIER_LABELS = { 0: "Primary", 1: "Wire", 2: "Analysis", 3: "Web" };
 const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -21,6 +26,17 @@ function timeAgo(iso) {
   const hours = Math.round(mins / 60);
   if (hours < 48) return `${hours}h ago`;
   return `${Math.round(hours / 24)}d ago`;
+}
+
+// Live-feed freshness window. A story shows in the live tabs (FRMI, Ecosystem,
+// Social) only for its first 24h; after that it rotates out of every tab and
+// lives on in the History archive. SEC filings are EXEMPT — the Filings tab is
+// a chronological record kept regardless of age (filtered separately). Undated
+// items can't be proven fresh, so they're treated as stale (still archived).
+const FRESH_WINDOW_MS = 24 * 60 * 60 * 1000;
+function isFresh(item) {
+  const t = Date.parse(item.publishedAt);
+  return Number.isFinite(t) && Date.now() - t < FRESH_WINDOW_MS;
 }
 
 function displayTitle(item) {
@@ -116,15 +132,6 @@ function filingRow(item) {
   return a;
 }
 
-function briefRow(item) {
-  const li = document.createElement("li");
-  const a = storyLink(item);
-  a.textContent = displayTitle(item);
-  a.appendChild(el("span", "brief-meta", `${item.source ?? ""} · ${timeAgo(item.publishedAt)}`));
-  li.appendChild(a);
-  return li;
-}
-
 // ---- story reader overlay ------------------------------------------------------
 
 function openReader(item) {
@@ -201,28 +208,40 @@ function render(data) {
     .toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" });
   document.getElementById("x-status").textContent = data.xStatus ?? "";
 
-  // FRMI panel
-  const priority = data.priority ?? [];
+  // FRMI panel — fresh priority stories only (<24h). Older items, INCLUDING
+  // filings, rotate out of priority into the History archive; old filings still
+  // live in the Filings tab below.
+  const priority = (data.priority ?? []).filter(isFresh);
   document.getElementById("frmi-lead")
     .replaceChildren(...(priority.length ? [leadCard(priority[0])] : []));
   fill("frmi-list", "frmi-empty", priority.slice(1, 13).map(storyCard));
   document.getElementById("frmi-empty").hidden = priority.length > 0;
 
-  // Ecosystem panel
-  fill("eco-list", "eco-empty", (data.related ?? []).slice(0, 12).map(storyCard));
+  // Ecosystem panel = the merged Ecosystem + AI-field feed: fresh stories only,
+  // newest first, de-duped across the two source buckets.
+  const ecoSeen = new Set();
+  const ecosystem = [...(data.related ?? []), ...(data.general ?? [])]
+    .filter(isFresh)
+    .filter((i) => {
+      if (ecoSeen.has(i.url)) return false;
+      ecoSeen.add(i.url);
+      return true;
+    })
+    .sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
+  fill("eco-list", "eco-empty", ecosystem.slice(0, 24).map(storyCard));
 
-  // Filings panel (chronological)
+  // Filings panel (chronological) — EXEMPT from the 24h window: the full SEC
+  // record stays here regardless of age.
   const filings = all
     .filter((i) => i.kind === "filing")
     .sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
   fill("filings-list", "filings-empty", filings.slice(0, 20).map(filingRow));
 
-  // Social panel
-  const social = all.filter((i) => i.kind === "tweet" || i.kind === "social");
+  // Social panel — fresh only.
+  const social = all.filter(
+    (i) => (i.kind === "tweet" || i.kind === "social") && isFresh(i),
+  );
   fill("social-list", "social-empty", social.slice(0, 12).map(storyCard));
-
-  // AI brief panel
-  fill("brief-list", "brief-empty", (data.general ?? []).slice(0, 16).map(briefRow));
 
   // Stat band
   countUp(document.getElementById("stat-stories"), all.length);

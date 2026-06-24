@@ -134,7 +134,32 @@ function filingRow(item) {
 
 // ---- story reader overlay ------------------------------------------------------
 
+// The element focused before the modal opened, so focus can return to it on close
+// (a11y: keyboard / screen-reader users land back on the card they came from).
+let readerLastFocused = null;
+
+// Keep Tab focus inside the open dialog (role="dialog" aria-modal="true"). Without
+// this, Tab walks out of the modal to the page behind it.
+function trapModalFocus(e) {
+  if (e.key !== "Tab") return;
+  const modal = document.getElementById("modal");
+  const focusables = modal.querySelectorAll(
+    'a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])',
+  );
+  if (focusables.length === 0) return;
+  const first = focusables[0];
+  const last = focusables[focusables.length - 1];
+  if (e.shiftKey && document.activeElement === first) {
+    e.preventDefault();
+    last.focus();
+  } else if (!e.shiftKey && document.activeElement === last) {
+    e.preventDefault();
+    first.focus();
+  }
+}
+
 function openReader(item) {
+  readerLastFocused = document.activeElement;
   const eyebrow = [item.source, timeAgo(item.publishedAt), TIER_LABELS[item.tier] ?? "Web"]
     .filter(Boolean)
     .join(" · ");
@@ -158,14 +183,23 @@ function openReader(item) {
   if (hasExcerpt) document.getElementById("modal-excerpt").textContent = `“${item.excerpt}”`;
 
   document.getElementById("modal-source").href = item.url;
-  document.getElementById("modal").hidden = false;
+  const modal = document.getElementById("modal");
+  modal.hidden = false;
   document.body.classList.add("modal-open");
+  modal.addEventListener("keydown", trapModalFocus);
   document.getElementById("modal-close").focus();
 }
 
 function closeReader() {
-  document.getElementById("modal").hidden = true;
+  const modal = document.getElementById("modal");
+  modal.removeEventListener("keydown", trapModalFocus);
+  modal.hidden = true;
   document.body.classList.remove("modal-open");
+  // Return focus to the element that opened the reader (a11y).
+  if (readerLastFocused && typeof readerLastFocused.focus === "function") {
+    readerLastFocused.focus();
+  }
+  readerLastFocused = null;
 }
 
 for (const id of ["modal-close", "modal-done", "modal-backdrop"]) {
@@ -628,9 +662,20 @@ function initChat() {
         chatHistory.push({ role: "assistant", content: reply });
         log.appendChild(chatBubble("bot", renderMarkdown(reply)));
       }
-    } catch (err) {
+    } catch {
+      // The chat endpoint is unreachable (the queequeg service/tunnel is down).
+      // Show a friendly offline notice rather than a raw network-error string.
       thinking.remove();
-      log.appendChild(chatBubble("bot", el("p", null, `Network error: ${err.message}`)));
+      log.appendChild(
+        chatBubble(
+          "bot",
+          el(
+            "p",
+            null,
+            "queequeg is offline right now — the chat service couldn't be reached. Please try again in a bit.",
+          ),
+        ),
+      );
     } finally {
       input.disabled = false;
       sendBtn.disabled = false;
@@ -653,6 +698,8 @@ function activateTab(name) {
     panel.hidden = panel.id !== `panel-${name}`;
   }
   if (name === "history") loadHistory(); // lazy: the archive only loads when viewed
+  if (name === "reports") loadReports(); // refresh on view: a publish between the
+  // 30-min polls shows as soon as the reader opens the tab, not only on reload.
 }
 
 for (const tab of document.querySelectorAll(".tab")) {

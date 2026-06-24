@@ -315,6 +315,12 @@ export async function enrichItems(
   // keyless Workers AI worker (FILINGS_WORKER_URL) or the Anthropic key.
   const aiEnabled = !!(process.env.FILINGS_WORKER_URL || process.env.ANTHROPIC_API_KEY);
   let aiBudget = aiEnabled ? maxAiSummaries : 0;
+  // Google-News redirect resolution is reverse-engineered (see resolveGoogleNewsId)
+  // and fails open. Count attempts vs. successes so a silent break on Google's side
+  // shows up in the run log instead of every Google-sourced story quietly losing its
+  // summary and keeping an opaque redirect link.
+  let gnewsTried = 0;
+  let gnewsResolved = 0;
   for (const item of items) {
     if (item.kind === "filing") {
       // Static "what this form type is" always available for the UI.
@@ -357,12 +363,15 @@ export async function enrichItems(
       // batchexecute endpoint (counts against the same per-run budget; the
       // result is cached so each article resolves at most once, ever).
       const id = /articles\/([^?/]+)/.exec(item.url)?.[1];
+      gnewsTried++;
       try {
         real = id ? await resolveGoogleNewsId(id) : null;
       } catch {
         real = null;
       }
-      if (!real) {
+      if (real) {
+        gnewsResolved++;
+      } else {
         cache[item.url] = { ...entry, failed: true };
         continue;
       }
@@ -381,6 +390,15 @@ export async function enrichItems(
     if (entry.summary) item.summary = entry.summary;
     if (entry.excerpt) item.excerpt = entry.excerpt;
   }
+  if (gnewsTried > 0) {
+    console.log(
+      `[enrich] google-news redirect resolve: ${gnewsResolved}/${gnewsTried} ok` +
+        (gnewsResolved === 0
+          ? " — decoder may be broken (check resolveGoogleNewsId)"
+          : ""),
+    );
+  }
+
   // Prune stale cache entries. Article enrichments track the feed's 7-day
   // horizon; filing AI summaries persist 30 days so a filing lingering in the
   // SEC feed (low-volume filers) isn't re-summarized (re-paid) every week.

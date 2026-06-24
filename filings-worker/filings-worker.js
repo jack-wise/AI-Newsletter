@@ -11,7 +11,7 @@
 // Binding (wrangler.toml):
 //   AI              — Workers AI binding
 // Vars (wrangler.toml [vars] or dashboard):
-//   MODEL           — optional, defaults to @cf/meta/llama-3.1-8b-instruct
+//   MODEL           — optional, defaults to @cf/meta/llama-3.3-70b-instruct-fp8-fast
 
 const SEC_UA = "AI Newsletter jack.wise@donoco.com"; // SEC requires a contact UA
 const TEXT_CAP = 10_000; // chars of filing text fed to the model (bounds neurons)

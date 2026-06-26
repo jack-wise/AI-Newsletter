@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T11:31:39.390Z",
+  "generatedAt": "2026-06-26T12:01:40.803Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -787,9 +787,22 @@
   ],
   "related": [
     {
-      "title": "OpenAI Makes Its Advertising Pitch at Cannes Festival - Bloomberg.com",
+      "title": "Apple, Micron, OpenAI and A.I.’s Rough Summer - The New York Times",
+      "url": "https://www.nytimes.com/2026/06/26/business/dealbook/ai-openai-ipo-slump.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-06-26T11:57:55.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "OpenAI Makes Its Advertising Pitch at Cannes Festival - Bloomberg",
       "url": "https://www.bloomberg.com/news/newsletters/2026-06-26/openai-pitches-ai-chatbot-ads-at-cannes-lions-festival",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-06-26T11:02:01.000Z",
       "kind": "news",
       "tier": 1,
@@ -798,6 +811,20 @@
         "OpenAI"
       ],
       "score": 75
+    },
+    {
+      "title": "AI memory, chip stocks fall as global peers slump after report OpenAI mulling IPO delay to 2027 - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4607680-ai-memory-chip-stocks-fall-as-global-peers-slump-after-report-openai-mulling-ipo-delay-to-2027",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-26T11:57:12.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65,
+      "summary": "Memory and AI stocks fell globally after a report that OpenAI is considering delaying its IPO to next year."
     },
     {
       "title": "NVIDIA AI Trained Itself on a 30B Model: Corrected Its Own Broken Metric Mid-Run - Tech Times",
@@ -814,21 +841,46 @@
       "summary": "Autonomous AI post-training reached frontier scale for the first time: NVIDIA researchers published a paper showing an AI system that completed a full 30B model post-training run with no human input, placed 8th of 4,000 on a public leaderboard, and self-corrected its own broken evaluation metric"
     },
     {
-      "title": "Agentic AI Reaches Lawyers and Recruiters: OpenAI Data Shows 137-Fold Non-Dev Growth - Tech Times",
-      "url": "https://www.techtimes.com/articles/319114/20260626/agentic-ai-reaches-lawyers-recruiters-openai-data-shows-137-fold-non-dev-growth.htm",
-      "source": "Tech Times",
-      "publishedAt": "2026-06-26T10:40:33.000Z",
+      "title": "Tired of Google AI? Green search engines to try instead, how they work - Florida Today",
+      "url": "https://www.floridatoday.com/story/news/2026/06/26/what-green-search-engines-how-they-work-ecosia-lilo-environment-google-ai-emissions/90673417007/",
+      "source": "Florida Today",
+      "publishedAt": "2026-06-26T11:44:00.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "GOOGL"
       ],
-      "score": 65,
-      "summary": "Agentic AI workplace adoption has reached legal, finance, and recruiting teams, with new OpenAI research data showing non-developer Codex users grew 137-fold since August 2025. One in four users delegated tasks requiring 8-plus hours of human work. Here is what the numbers show about how agentic AI"
+      "score": 55
     },
     {
-      "title": "Nvidia Stock Keeps Sliding as 'Hot Money' Heads Away From AI Chips - Barron's",
+      "title": "Veteran Bank Cuts Microsoft Stock Price Target on AI Spending Concerns - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/veteran-bank-cuts-microsoft-stock-113755772.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-26T11:37:55.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Microsoft Faces Italy Probe Over AI Pricing - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmhVQkEtMUFSRlhnc0dtTjZpUE1pb25LdGktSzhpc1BVUlZPLXFzdFFmUTQ5ZUdCc01NZWdaX21lM0dyZjhYbFluYjJiME1Ja1hZVDZYazZmRUlqYVY2Tzl2YTIyeWphcE5jU25PREU5SUQxQkxDVVgwcWJNc1J1a3dHMWJpRlduU0I5WlQybXQwQkp4ajdZRzZyUzA?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-26T11:23:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Nvidia Stock Keeps Sliding as ‘Hot Money’ Heads Elsewhere - Barron's",
       "url": "https://www.barrons.com/articles/nvidia-stock-price-ai-chips-0001b058",
       "source": "Barron's",
       "publishedAt": "2026-06-26T11:15:00.000Z",
@@ -855,12 +907,39 @@
       "score": 55
     },
     {
+      "title": "Agentic AI Reaches Lawyers and Recruiters: OpenAI Data Shows 137-Fold Non-Dev Growth - Tech Times",
+      "url": "https://www.techtimes.com/articles/319114/20260626/agentic-ai-reaches-lawyers-recruiters-openai-data-shows-137-fold-non-dev-growth.htm",
+      "source": "Tech Times",
+      "publishedAt": "2026-06-26T10:40:33.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Agentic AI workplace adoption has reached legal, finance, and recruiting teams, with new OpenAI research data showing non-developer Codex users grew 137-fold since August 2025. One in four users delegated tasks requiring 8-plus hours of human work. Here is what the numbers show about how agentic AI"
+    },
+    {
       "title": "U.S. stock futures fall as AI jitters resume amid OpenAI IPO delay - Investing.com",
       "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-wall-st-set-for-weekly-losses-after-tech-rout-4761945",
       "source": "Investing.com",
       "publishedAt": "2026-06-26T08:55:57.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Trump Administration Asks OpenAI to Stagger AI Model Release - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-25/trump-administration-asks-openai-to-stagger-release-of-ai-model",
+      "source": "Bloomberg",
+      "publishedAt": "2026-06-25T22:51:59.000Z",
+      "kind": "news",
+      "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
@@ -1019,19 +1098,6 @@
       "summary": "Amazon stock and Microsoft stock are both core holdings for investors who believe AI infrastructure"
     },
     {
-      "title": "The AI price shock is here: Apple, Microsoft hike prices - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-price-shock-apple-microsoft-083004845.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-06-26T08:30:04.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45
-    },
-    {
       "title": "NVIDIA (NVDA), AWS (AMZN) Partner to Boost Production-Scale AI with Blackwell-Powered Instances - Yahoo Finance",
       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-aws-amzn-partner-080430752.html",
       "source": "Yahoo Finance",
@@ -1088,19 +1154,6 @@
       "score": 45
     },
     {
-      "title": "Micron Beats Meta in Market Cap: Can It Catch Nvidia Next? - BeInCrypto",
-      "url": "https://beincrypto.com/micron-beats-meta-market-cap-catch-nvidia/",
-      "source": "BeInCrypto",
-      "publishedAt": "2026-06-26T05:59:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
       "title": "AI Data Center Water Use Is Not Solved: Nvidia’s Cooling Fix Stops at the Walls - Tech Times",
       "url": "https://www.techtimes.com/articles/319107/20260625/ai-data-center-water-use-not-solved-nvidias-cooling-fix-stops-walls.htm",
       "source": "Tech Times",
@@ -1141,60 +1194,6 @@
       ],
       "score": 45,
       "summary": "Nvidia looks undervalued at 22.3x forward P/E, with strong Blackwell-driven AI demand and resilient margins. Click here to read more on NVDA."
-    },
-    {
-      "title": "Google Poised to Lose Two More Senior AI Staffers to Anthropic - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-06-24T20:53:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45
-    },
-    {
-      "title": "OpenAI and Broadcom Unveil Custom A.I. Chip Design - The New York Times",
-      "url": "https://www.nytimes.com/2026/06/24/technology/openai-broadcom-chip-jalapeno.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-24T18:45:05.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Nvidia's Huang calls black market data centers made of smuggled parts a 'dead end' - CNBC",
-      "url": "https://www.cnbc.com/2026/06/24/nvidia-huang-data-center-smuggled-chips.html",
-      "source": "CNBC",
-      "publishedAt": "2026-06-24T18:20:46.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Washington regulators and the Trump administration are increasingly wary of China getting ahold of advanced AI software and hardware."
-    },
-    {
-      "title": "AI driving GE Vernova to ramp capacity at gas turbine factory - CNBC",
-      "url": "https://www.cnbc.com/video/2026/06/24/ai-driving-ge-vernova-to-ramp-capacity-at-gas-turbine-factory.html",
-      "source": "CNBC",
-      "publishedAt": "2026-06-24T16:19:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GEV"
-      ],
-      "score": 45,
-      "summary": "CNBC's Seema Mody got an exclusive inside look at how GE Vernova manufacturers its advanced gas turbines that are increasingly used by the hyperscalers to power their data center projects. Chief Commercial & Operations Officer Pablo Koziner shared that demand remains strong and pricing should continue to rise, and the company is taking steps to address environmental pushback."
     }
   ],
   "general": [
@@ -1207,7 +1206,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "In AI race vs. U.S., China eyes a come-from-behind victory - The Washington Post",
@@ -1218,13 +1217,24 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Washington’s Foreign Ban on Anthropic’s Top Models May Backfire - Bloomberg.com",
+      "title": "Washington’s Foreign Ban on Anthropic’s Top Models May Backfire - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWnFFeW94Sy0tY2FSdFpENjFoMDktTW5RUnF3STktdl8yMU5hWkI1MnF5WjJuVzlFbjktRzd5U0xpV2thdDN1ZDM1NEsxQ3ZyLUdXTW44QlRMenVIamNuQjVaOF9QU1I0OFVLbmtOemxVbUVua05lR2ZnWkdVSm5ibUZ4azIybHFpdVR0LUMwSmlSYmJVYXVLX3JJdU9sN3plZlliaWNBMlVvMmFYN2RrVDdfTHlXMkdadUF6YWRUUmw1ejZyS3RqemZZWQ?oc=5",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-06-26T10:30:01.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "😺 AI ate the memory chips. Apple sent you the bill. - The Neuron",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPamlKWFM2UmY4OGFPVHNSeDRsY3M3bGNfYUJNdUt6QTBNV0RDMWlzWDNOUlJaQjNTR29rb1VnUXlmQUpTOVdKUEZRYXJnMUROVXBoU2pSNDZmcXhObUpweVJPWHUwQ2xuMkNtWllKaDV4OExZem9lVlJDZ2xTclZCc2hZYkFrNlE?oc=5",
+      "source": "The Neuron",
+      "publishedAt": "2026-06-26T10:03:28.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1331,26 +1341,37 @@
       "score": 50
     },
     {
-      "title": "Gaon Cable lands 1st global EV supply chain deal with AI data center project - The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWEljbGtjWG9FSjR2TkpmVFpJSVVvZlIxZHhydzl4TUlYaFhIZG1rcWRmVEpZd25QaTFmd3VXQ3JwUkJib2Nqajd6VlVrbWt5Q0NMeEJFYlVmUng2YW5jYmN3WXdlYjhHLUFTaU9VOWZjc00yNmdTYW42Z2RGTGtSQmo2WG5nRG1zY0doV01zT0pvZERFQ3NWQnctUEtYYkExOTg2cHNqS3E3cUZwQUtTV0FUT0xwRXNucS1aZlp0Tl9KQURQd21jRjcxT0lnUdIB0wFBVV95cUxNR2lBZUV1cUhyejhFXzJvNHEyMVVLbFpSWUxWUVZZMEpFTW40OEJNd2xyUGhfUm1qbGVyUjNPR21pT0c1YUM2YnltVDJjZE1NYXdpa0NQUjFIMlRWQjhIZlprRUVmVm02RmlDU1NEOGVpbzAxUmFTdW42MFQ4RG1GYVVldzIwWVVHV1NoRmtwTDI2clFOcUJNZE4tVl93WG5vU2dBbk5kam84bUoxYUE1Zkx3Z1ZZbUtubGJhTWRUZkFud25DLS1zQm5QY0U0SnJiM053?oc=5",
-      "source": "The Korea Times",
-      "publishedAt": "2026-06-26T05:48:02.000Z",
+      "title": "NEA coding competition gives students hands-on experience for practical AI-nuclear applications - Nuclear Energy Agency (NEA)",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdUtKX1JfQWQzd0g3TWRYYUNmSXFkZXFieUlyVkNKc0VaN3V6Q3ZTVlphYjdYbTdsMHdranVRQmlXTmJlQ0xRVGVVUXRwQnlrRXdDTDVLMGxkbV9qeFMzazNUUlExdWFoYmdIRjZGTC1nVFhyb29WRnU0WHpMMjVHcmFtYVh3YS0teFNQYmZRd0NyR29nRkdkdnlURU8yQXhrdS1ERGJwMUg1STktS2N1V0RNSFZicGV5eXpzcTRlb2FHSEdGT0tmUF85YnJiOENf?oc=5",
+      "source": "Nuclear Energy Agency (NEA)",
+      "publishedAt": "2026-06-26T11:47:05.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "AI infrastructure is a 'decade-long investment cycle': Ten Cap - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUEVsWFVCcjVLNEk4M3dMTmoxQ0hJUTdjNWtONjFWYW9YdWZQWVZuZFh2Z0pBbUlST3lvaUV3d3Z1TXMzNG16cTc4LW1GZ0VKWWFPTV9pYl9paS1Jd01UUDRUS2Z5RkQ3OGVGRndiMDhhYlJOUm5vM0oydV9SeG8wVkt1QzhqOXlkXy1UWHRlZ3V0Y2xOSFktVGJRSmE3cEd4MkNPag?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-06-26T05:35:46.000Z",
+      "title": "Clariyon’s AI tool boosts sepsis care compliance in hospital study - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM2hlUkRDLW56MjRVVEVLMUV1Ulo4VWdscHBxZjBIOWI2Yl9LbldHZFhNeDJiTjcwZktaSzh2TG5meEhZMXNfaHY4ZGJ2UVlPNjBFRFdHc21iaEFHVGN5bzVZYm15NzBmT1VmUlptZVdpaUpkVWxfQk9qRFhzUzNwX2dBTjZmWFI3QWxHbGhDSU84Wkk?oc=5",
+      "source": "Yahoo",
+      "publishedAt": "2026-06-26T11:28:20.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "AI buildout reshapes global energy grids - Semafor",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVkJib2xod1oyNHBVbG5GT3VVeERmQ0hLMTB3MGxUUFNzZlJvTE9WU05na3dmejRGUEFBT1ZDb1d6M0h4ZjBYOHZYSUNnY2JhaldqX1BraDhuNEJ5Y2dlWmZQTXhDejB4YWMtZUVmR2lPbUhFeTFTM255TzZSYkFqeVU1TDRvNFdieTlV?oc=5",
+      "source": "Semafor",
+      "publishedAt": "2026-06-26T11:23:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "Anthropic doesn't need junior engineers anymore thanks to AI and warns of an economic shock when other industries follow - the-decoder.com",
@@ -1375,34 +1396,34 @@
       "score": 40
     },
     {
-      "title": "Texas lawmaker calls for stricter AI rules in schools, says students need stronger critical thinking skills - Click2Houston",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOFhoY1c3aXppcFBzOFhIMTZZT01RSTdvemN0LXJ6TWNINGxsTGFMWWNrcHAtYjBYNXBMLWlrVTBoczZqbFB3QzZmbXROT2o2Qks0cnJtN0FZZDV2Y1loWFd5eGtTRFM2V001REg2S0ZLZ0YxQXExTnQxWTRGWTYzZ2JVeGIyaTNnQ2I4ZnJRS3RyRzFyZ1hBX1lwc3NiZlVONjAxcDhscmpRN1R0ZmM3ckFzV0d6UFVodUZkeUh1dnQ1MmQ0R2QtVThtbnNISEd0VXVCYnN5ejZqbzFPS0FnczdR?oc=5",
-      "source": "Click2Houston",
-      "publishedAt": "2026-06-26T10:53:27.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "PJM Adds New Emergency Procedures To Deal With Strained Grid: A Capacity Advisory; Directive For Data Centers To Use Backup Generators - PA Environment Digest Blog",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOemlCTlMzOTNkekViejFMdG5PcksxeTVlM205SFRDa0Z3QzRUNktEdUtqTTZpdTVMODNXOUt1ZkVhWGJ6T1FiWFNwWVZVNEV3Z1NmSzZpTWpxV2wxalZKNThzVW9wZ1NiYk9YVHYxRUljX2ZCVGRIVS1YQnBualZONkZFX2hUZjV1dDhMOWtqT1JnQQ?oc=5",
-      "source": "PA Environment Digest Blog",
-      "publishedAt": "2026-06-26T10:47:37.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Open AI IPO delay; SpaceX mulls mobile networks - what’s moving markets - Investing.com",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRGxMaXFHVkJ4blJVam9nS2VWQXgtck5sVnBmTmdnSFNSUEQwNDdyMWh3b2M3b2pQT1B2T2FCU3dPbDM2aVNERlRzNTUxMFJGUWlOcVdoVmI4N1hndHphQUdyR1lNTTV0ZlM0LTIzNHNJOWUxamM4b3pnc1VfR3h1ZldNYjBuUmJheGlEZ2NETnZNQzVEa0kyMHpqQV9lUWxhY1hUVWFvUGdKbHRCTlo3cFVOQlJXVDFiVll3cQ?oc=5",
       "source": "Investing.com",
       "publishedAt": "2026-06-26T07:55:27.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Gaon Cable lands 1st global EV supply chain deal with AI data center project - The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWEljbGtjWG9FSjR2TkpmVFpJSVVvZlIxZHhydzl4TUlYaFhIZG1rcWRmVEpZd25QaTFmd3VXQ3JwUkJib2Nqajd6VlVrbWt5Q0NMeEJFYlVmUng2YW5jYmN3WXdlYjhHLUFTaU9VOWZjc00yNmdTYW42Z2RGTGtSQmo2WG5nRG1zY0doV01zT0pvZERFQ3NWQnctUEtYYkExOTg2cHNqS3E3cUZwQUtTV0FUT0xwRXNucS1aZlp0Tl9KQURQd21jRjcxT0lnUdIB0wFBVV95cUxNR2lBZUV1cUhyejhFXzJvNHEyMVVLbFpSWUxWUVZZMEpFTW40OEJNd2xyUGhfUm1qbGVyUjNPR21pT0c1YUM2YnltVDJjZE1NYXdpa0NQUjFIMlRWQjhIZlprRUVmVm02RmlDU1NEOGVpbzAxUmFTdW42MFQ4RG1GYVVldzIwWVVHV1NoRmtwTDI2clFOcUJNZE4tVl93WG5vU2dBbk5kam84bUoxYUE1Zkx3Z1ZZbUtubGJhTWRUZkFud25DLS1zQm5QY0U0SnJiM053?oc=5",
+      "source": "The Korea Times",
+      "publishedAt": "2026-06-26T05:48:02.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "AI infrastructure is a 'decade-long investment cycle': Ten Cap - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUEVsWFVCcjVLNEk4M3dMTmoxQ0hJUTdjNWtONjFWYW9YdWZQWVZuZFh2Z0pBbUlST3lvaUV3d3Z1TXMzNG16cTc4LW1GZ0VKWWFPTV9pYl9paS1Jd01UUDRUS2Z5RkQ3OGVGRndiMDhhYlJOUm5vM0oydV9SeG8wVkt1QzhqOXlkXy1UWHRlZ3V0Y2xOSFktVGJRSmE3cEd4MkNPag?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-06-26T05:35:46.000Z",
+      "kind": "news",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1562,6 +1583,17 @@
       "score": 40
     },
     {
+      "title": "AMD's Supercomputing Gains Fuel AI Data Center Growth: What's Ahead? - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOHZVNGE0a1YzRG9SOTRqRjR0azZIS0o4QVN5SXpVaGhndTJoT3hmRnlUc01mSzJXNWNxc1hsblAyTzRjSHJZdTBKdzJnSEk3WHhnZmItU0gyQUUzbGJTSTM5SUFuWW9feTF1djZ1ak1HRUtIUmduUWVqYWVNN2k2QmhCTUlmQktPLWdpYWlrNkJJWl9aeXd1LVAtNzlRQlFRdUM5WndDbk1TQ1loM21HTnVYcXo2V0NvWWdkY2NzM2QtWUxScjFVTWh0U2ZtOVpHZE1sY0Q4bG5kZHNa?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-06-25T15:30:25.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "How JBL Is Riding the AI Infrastructure Manufacturing Boom - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdmJsY3Y2czhWYk5LMXdrRllXaUdRdWw1SnFKbGl1SXc4dFZJa0pxUmFHUFRzcDBIZkxUZzJla0pqNWhRLVlzS2JMTW5CYndKMUljN3FNbXFkYnhZdGxNaW5YSXRuRi12Z1gyazNidmlTSkpnVk5weVpaWnFvU0xBRGh1M3o0RzB2ZE9uWmZkMFBJZEljOHlBOWt5VlRsa1R0bVFyZGRxVjJHX3lBdkJrdU5Rb1ZrQnZ1S0hfR05VcWVVa1ctQy1JSzVsNDc3UlVZR3JpZDhycnRwZw?oc=5",
       "source": "The Globe and Mail",
@@ -1584,9 +1616,9 @@
       "score": 40
     },
     {
-      "title": "Ford Has Been Rehiring Quality Inspectors After AI Fell Short - Bloomberg.com",
+      "title": "Ford Has Been Rehiring Quality Inspectors After AI Fell Short - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR0dHZFFYNXNHNmhMS0xCQ0kwMlJ5bHFXWGxMME9SMlZzUmNaQzJiWFp0dW0td2FsQmxKT0NTUUEzd2pONDQzSi1FcHVDNlFKeHRnOUxHdldiVXlJeG9XdkV4M1o4UTE4UDlrRDBaUGFoWlZTaTN5RF83WGZ3dUh0bDB3ZXlrNnNQUGJRalVNOGRlOU83djhKQmpnWkl5ZDlnSDE1dHdrUVlxOU5FWUlJX013?oc=5",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-06-25T14:53:12.000Z",
       "kind": "news",
       "tier": 1,
@@ -1683,17 +1715,6 @@
       "score": 40
     },
     {
-      "title": "Alphabet Shares Fall After Report on Further AI Talent Departures - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zT1FCNGF5NlVCRHN6WjliQWJ3bkhNd2trd1FBUDJoNmlNT2JWRFBBWTZzWndiZnVORXR5RUpPMlpmeTFaM192ck5nbHJxc3p6dXl1dmhlQjBXUTNiX0lfTk9iTk9lejl4a3FWb2FVWW90Zk5xTkFYU3NJWQ?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-06-25T13:35:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "AI models’ values are very different from most people’s - The Economist",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd0Jvb0Exb0JfWXd0Tkhqa3lXbFE5VzJRVUJnQjYyeV9XU1NUTjdvbW1NMHVZRGZEU3VhMHkwQWRNUHI1Z2EzZERZMl9zN0p3SnhDc2FQOEVxMVluY2RTVFVFSExyY2YwUE5KTExaUTlfZHVxc2JRTTNaRGc0R3FtWE1vTW9BcTdRLUd3ZjU0WTRzX1Jnckx3SFZmeVVFempG?oc=5",
       "source": "The Economist",
@@ -1716,32 +1737,10 @@
       "score": 40
     },
     {
-      "title": "AI Infrastructure Stocks Backed By Real Revenue Growth - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1NabHlyWHlXV1EySDFqbmJiYjE4TEExMEhBTVZhdWgwZW5aUS1vcDhUOU5iQjZPYU1mM21SSjFyQVNZYTNkNVFPNHVWTUwyWWZDcVFtR3BycWNmN0pyYW5oLWxOUXUxTExfOTJmenNsYnp3MlYwdWRZNDJiZEVuamNjaWdmbjZ6Yk5sNFFJUzcwZFlKLVRzemw5T3MtNXVJd3c2UHJJLUJRZ1hOYWVhcE1jTnVJOENnQ1ZyeG1B0gHDAUFVX3lxTFBkVTZMVUI2Z1FhNlZWQlp4RTdHdmhadmtxQVJ1MHk4RHlQQ2dXdXBHWkljOTJVMm14Mm52MTcxbVRyVmlCaVFMU19PMzNlN0h4RjV6bXZpcEx0RndsZnR0TFRCX1lGSGhyY0Q4RjVVZlkxSXI4MjJyTTREUHI4WU1IVmsxdFh2ZVJaaWp2a2JHMTluTjRXd0JTMTFHOFBtUjNmZjVsbWJFRDh3ZHY2cGw4ZjFkOVJHYTFGcmY2MDFJU1Zzbw?oc=5",
-      "source": "simplywall.st",
-      "publishedAt": "2026-06-26T10:29:11.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "Sanctioned Chinese cyber giant claims AI can rival Anthropic’s Mythos - Resilience Media",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHVjV2RFTmYyeDZUX2pUWkRNNXhvcVlMaFhvQ3UzMzZUeHktdFZEUUUwaFV2alZROXRZMGZhSE82a3hMdy05ZU5jS2FuV1RRMWZsWTRmc01VUjhOOFpmTEo0WmNVc3RxSWtlU212M1BCNHBYd1RLaEliVTUxemFMRVpFTXE0VTVUM2dicU1CNElpc0hLTjhOT3c5elQ?oc=5",
-      "source": "Resilience Media",
-      "publishedAt": "2026-06-26T10:27:07.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "PJM Interconnection Holds Next Generation Capacity Auction June 30, Results To Be Announced July 14 - PA Environment Digest Blog",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOakE1ZzR1NUwzR1ctQVBVLWtLZERZcWF5WUpCUjNheGN0X0lCWmhibkEwRVBMcjYzdEJsNmxPVFhYLXNmbWZOMVYtSk92TW1DaGw2MXlnYmxKay1XT1RHTFl6eGltOThSaGlGNkhxQUY1UnlMM0tDWjlPa1BzaGhvbWVyejRBSTExR0E?oc=5",
-      "source": "PA Environment Digest Blog",
-      "publishedAt": "2026-06-26T10:22:37.000Z",
+      "title": "Texas lawmaker calls for stricter AI rules in schools, says students need stronger critical thinking skills - Click2Houston",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOFhoY1c3aXppcFBzOFhIMTZZT01RSTdvemN0LXJ6TWNINGxsTGFMWWNrcHAtYjBYNXBMLWlrVTBoczZqbFB3QzZmbXROT2o2Qks0cnJtN0FZZDV2Y1loWFd5eGtTRFM2V001REg2S0ZLZ0YxQXExTnQxWTRGWTYzZ2JVeGIyaTNnQ2I4ZnJRS3RyRzFyZ1hBX1lwc3NiZlVONjAxcDhscmpRN1R0ZmM3ckFzV0d6UFVodUZkeUh1dnQ1MmQ0R2QtVThtbnNISEd0VXVCYnN5ejZqbzFPS0FnczdR?oc=5",
+      "source": "Click2Houston",
+      "publishedAt": "2026-06-26T10:53:27.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

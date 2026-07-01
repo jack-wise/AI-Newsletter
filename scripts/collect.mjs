@@ -81,6 +81,15 @@ function dedupeKey(item) {
     .slice(0, 120);
 }
 
+// Map an internal item.kind to the News Channel tab the journal scanner's
+// fermi-feed contract expects (filings / social / news). Unknown kinds fall
+// back to "news".
+function feedTab(kind) {
+  if (kind === "filing") return "filings";
+  if (kind === "tweet" || kind === "social") return "social";
+  return "news";
+}
+
 function freshnessScore(publishedAt) {
   if (!publishedAt) return 0;
   const hours = (Date.now() - Date.parse(publishedAt)) / 3_600_000;
@@ -267,6 +276,29 @@ async function main() {
   const dataDir = join(root, "docs", "data");
   mkdirSync(dataDir, { recursive: true });
   writeFileSync(join(dataDir, "news.json"), JSON.stringify(payload, null, 2));
+
+  // Fermi top-story feed: a stable JSON endpoint the journal scanner
+  // (scripts/editor-in-chief.js) fetch()es once per daily run and passes as
+  // structured facts to its LLM grader, so high-signal FRMI articles (proxy
+  // filings, partner announcements) compete for the top story slot instead of
+  // staying trapped in the iframe embed. Derived from the already-enriched
+  // `priority` (FRMI-tagged) set, so summaries/resolved URLs come for free.
+  //   https://jack-wise.github.io/AI-Newsletter/data/fermi-feed.json
+  const fermiFeed = {
+    generatedAt: payload.generatedAt,
+    articles: priority
+      .filter((i) => i.url && i.title)
+      .map((i) => ({
+        title: i.title,
+        url: i.url,
+        source: i.source,
+        tab: feedTab(i.kind),
+        publishedAt: i.publishedAt ?? null,
+        summary: i.summary ?? i.formExplanation ?? null,
+      })),
+  };
+  writeFileSync(join(dataDir, "fermi-feed.json"), JSON.stringify(fermiFeed, null, 2));
+
   writeFileSync(xStatePath, JSON.stringify(xState, null, 2));
   writeFileSync(summariesPath, JSON.stringify(summaries, null, 2));
 

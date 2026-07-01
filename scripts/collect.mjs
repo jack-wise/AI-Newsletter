@@ -224,13 +224,29 @@ async function main() {
   }));
   const byScore = (a, b) => b.score - a.score || String(b.publishedAt).localeCompare(String(a.publishedAt));
 
+  // Data-level staleness guard. Google News keeps re-returning months-old press
+  // releases (e.g. the April "Fermi 2.0" announcement) for the FRMI query; they
+  // score high on tier/ticker bonuses and otherwise pin into `priority`. The
+  // live tabs hide them client-side via isFresh, but that leaves the stale items
+  // in news.json — so anything reading the raw data (the archive, the scanner
+  // feed, or a browser running a cached pre-isFresh app.js) still surfaces an
+  // April article in July. Drop non-filing items older than the window HERE so
+  // they never enter the feed at all. Filings are exempt (the full SEC record is
+  // intentionally kept and shown in the age-exempt Filings tab).
+  const MAX_ITEM_AGE_MS = 14 * 24 * 60 * 60 * 1000;
+  const fresh = all.filter((i) => {
+    if (i.kind === "filing") return true;
+    const t = Date.parse(i.publishedAt);
+    return Number.isFinite(t) && Date.now() - t < MAX_ITEM_AGE_MS;
+  });
+
   // Section routing: priority beats related beats general.
-  const priority = all.filter((i) => i.tickers.length).sort(byScore).slice(0, config.limits.priorityItems);
-  const related = all
+  const priority = fresh.filter((i) => i.tickers.length).sort(byScore).slice(0, config.limits.priorityItems);
+  const related = fresh
     .filter((i) => !i.tickers.length && i.related.length)
     .sort(byScore)
     .slice(0, config.limits.relatedItems ?? 30);
-  const general = all
+  const general = fresh
     .filter((i) => !i.tickers.length && !i.related.length)
     .sort(byScore)
     .slice(0, config.limits.generalItems);

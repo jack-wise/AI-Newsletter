@@ -284,10 +284,26 @@ async function main() {
   // staying trapped in the iframe embed. Derived from the already-enriched
   // `priority` (FRMI-tagged) set, so summaries/resolved URLs come for free.
   //   https://jack-wise.github.io/AI-Newsletter/data/fermi-feed.json
+  //
+  // Freshness: Google News keeps re-surfacing months-old PR Newswire releases
+  // for the FRMI query, which land in `priority`. The site hides them via its
+  // 24h isFresh() filter, but this feed must too — otherwise a stale April
+  // press release could reach the daily scan's top-story grader. Mirror the
+  // site's convention: filings are always included (high-value; the scanner
+  // decays them itself), but news/social age out after a rolling window. The
+  // window is 7 days (wider than the site's 24h) because the scanner runs once
+  // daily and shouldn't miss a story that broke ~25h before the scan.
+  const FEED_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+  const feedFresh = (i) => {
+    if (i.kind === "filing") return true;
+    const t = Date.parse(i.publishedAt);
+    return Number.isFinite(t) && Date.now() - t < FEED_MAX_AGE_MS;
+  };
   const fermiFeed = {
     generatedAt: payload.generatedAt,
     articles: priority
       .filter((i) => i.url && i.title)
+      .filter(feedFresh)
       .map((i) => ({
         title: i.title,
         url: i.url,

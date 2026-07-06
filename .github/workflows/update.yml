@@ -71,8 +71,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FILINGS_MODEL: ${{ vars.FILINGS_MODEL }}
           # Alpha Vantage NEWS_SENTIMENT (ticker-tagged news + sentiment). Free
-          # tier is 25 req/day; the collector makes one combined call per run and
-          # fails open when unset or rate-limited. Get a key at alphavantage.co.
+          # tier is 25 req/day; the collector makes one combined call on every
+          # OTHER run (~24/day) and fails open when unset or rate-limited. Get a
+          # key at alphavantage.co.
           ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
         run: node scripts/collect.mjs
 

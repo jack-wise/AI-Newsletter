@@ -125,6 +125,11 @@ async function main() {
   const xState = existsSync(xStatePath)
     ? JSON.parse(readFileSync(xStatePath, "utf8"))
     : { sinceId: {}, tweets: [] };
+  // Monotonic run counter, persisted in x-state.json (written back at the end of
+  // the run with the rest of xState). Used to pace rate-limited sources across
+  // runs deterministically, independent of which scheduler fired the run.
+  const runSeq = (Number(xState.runSeq) || 0) + 1;
+  xState.runSeq = runSeq;
   let xSkippedMsg = null;
   async function collectX(t) {
     try {
@@ -190,16 +195,21 @@ async function main() {
   const wirePatterns = (config.priorityTickers ?? []).flatMap((t) => t.patterns ?? []);
   run(`press-wires`, fetchPressReleases(wirePatterns));
 
-  // Alpha Vantage NEWS_SENTIMENT (keyed, free tier 25 req/day): ONE combined
-  // multi-ticker call per run, only when ALPHAVANTAGE_API_KEY is set. Fails open
-  // (returns []) when the key is absent or the daily cap is hit.
+  // Alpha Vantage NEWS_SENTIMENT (keyed): ONE combined multi-ticker call, run on
+  // every OTHER run (runSeq parity). The collector fires ~48x/day but AV's free
+  // tier is 25 req/day, so every-other-run keeps it to ~24/day, under the cap.
+  // Only when ALPHAVANTAGE_API_KEY is set; fails open when the cap is still hit.
   const avKey = process.env.ALPHAVANTAGE_API_KEY;
-  if (avKey) {
+  const avThisRun = Boolean(avKey) && runSeq % 2 === 0;
+  if (avThisRun) {
     const avTickers = [
       ...(config.priorityTickers ?? []).map((t) => t.ticker),
       ...(config.relatedTickers ?? []).map((t) => t.ticker),
     ].filter(Boolean);
     run(`alphavantage`, fetchAlphaVantageNews(avTickers, avKey));
+  } else if (avKey) {
+    // Not a silent cap: record why AV didn't run this cycle.
+    console.log(`alpha vantage: skipped this run (every-other-run pacing; run #${runSeq})`);
   }
 
   const settled = await Promise.all(tasks);

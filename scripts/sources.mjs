@@ -279,9 +279,12 @@ function alphaVantageTime(s) {
 export async function fetchAlphaVantageNews(tickers, apiKey) {
   const list = (tickers ?? []).filter(Boolean);
   if (!apiKey || list.length === 0) return [];
+  // Encode each ticker but keep the commas LITERAL: Alpha Vantage does not decode
+  // a percent-encoded comma, so encodeURIComponent("NVDA,MSFT") -> "NVDA%2CMSFT"
+  // is read as one invalid ticker and returns an empty feed with no error.
   const url =
     "https://www.alphavantage.co/query?function=NEWS_SENTIMENT" +
-    "&tickers=" + encodeURIComponent(list.join(",")) +
+    "&tickers=" + list.map((t) => encodeURIComponent(t)).join(",") +
     "&sort=LATEST&limit=50&apikey=" + encodeURIComponent(apiKey);
   const res = await fetch(url, {
     headers: { "User-Agent": UA, Accept: "application/json" },

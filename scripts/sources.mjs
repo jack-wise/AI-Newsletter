@@ -292,6 +292,7 @@ export async function fetchAlphaVantageNews(tickers, apiKey) {
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} for Alpha Vantage NEWS_SENTIMENT`);
   const data = await res.json();
+  console.warn("[alphavantage] TEMP raw head: " + JSON.stringify(data).slice(0, 300)); // TEMP diagnostic
   // No `feed` -> rate-limited / bad key / no results. Fail open (keyless sources
   // still ran); the Information/Note text is not an item, so return nothing. Log
   // AV's own reason (Information/Note/Error Message) so the cause is diagnosable

@@ -282,19 +282,21 @@ export async function fetchAlphaVantageNews(tickers, apiKey) {
   // Encode each ticker but keep the commas LITERAL: Alpha Vantage does not decode
   // a percent-encoded comma, so encodeURIComponent("NVDA,MSFT") -> "NVDA%2CMSFT"
   // is read as one invalid ticker and returns an empty feed with no error.
-  const tickersParam = list.map((t) => encodeURIComponent(t)).join(",");
+  // IMPORTANT: AV zeroes the ENTIRE response if any ticker in the list is one it
+  // doesn't cover (verified: NVDA alone -> 50 items; NVDA + an uncovered symbol
+  // like FRMI -> items:0, no error). So callers must pass only AV-covered US
+  // tickers (see config.alphaVantageTickers). Encode each ticker, keep commas
+  // literal (AV does not decode a percent-encoded comma).
   const url =
     "https://www.alphavantage.co/query?function=NEWS_SENTIMENT" +
-    "&tickers=NVDA" + // TEMP: single known-good ticker to isolate the empty-feed cause
+    "&tickers=" + list.map((t) => encodeURIComponent(t)).join(",") +
     "&sort=LATEST&limit=50&apikey=" + encodeURIComponent(apiKey);
-  void tickersParam;
   const res = await fetch(url, {
     headers: { "User-Agent": UA, Accept: "application/json" },
     signal: AbortSignal.timeout(20_000),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status} for Alpha Vantage NEWS_SENTIMENT`);
   const data = await res.json();
-  console.warn("[alphavantage] TEMP single-ticker(NVDA) head: " + JSON.stringify(data).slice(0, 220)); // TEMP diagnostic
   // No `feed` -> rate-limited / bad key / no results. Fail open (keyless sources
   // still ran); the Information/Note text is not an item, so return nothing. Log
   // AV's own reason (Information/Note/Error Message) so the cause is diagnosable

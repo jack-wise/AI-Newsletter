@@ -1,4 +1,6 @@
-// Feed fetchers: Google News RSS, SEC EDGAR Atom, Yahoo Finance RSS.
+// Feed fetchers: Google News RSS, Bing News RSS, SEC EDGAR JSON, Yahoo Finance
+// RSS, CNBC section RSS, press-release wires (PR Newswire / GlobeNewswire), and
+// Alpha Vantage NEWS_SENTIMENT (keyed).
 // Dependency-free (Node 20+ global fetch); each fetcher returns normalized items:
 //   { title, url, source, publishedAt, kind }
 // Failures throw — the collector runs every source under Promise.allSettled and
@@ -185,6 +187,127 @@ export async function fetchBingNews(query) {
       ...(desc && desc.length > 30
         ? { summary: desc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 480) }
         : {}),
+    });
+  }
+  return items;
+}
+
+// Shared helper: pull normalized items out of a standard RSS 2.0 feed. Each
+// <item> is expected to carry <title>/<link>/<pubDate> and optionally
+// <description> (used as the on-site reader summary, HTML stripped + capped).
+function parseRssItems(xml, source, kind = "news") {
+  const items = [];
+  for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+    const it = m[1];
+    const title = tag(it, "title");
+    const link = tag(it, "link");
+    if (!title || !link) continue;
+    // Only absolute http(s) links reach the site's href sink (mirrors safeUrl).
+    if (!/^https?:\/\//i.test(link)) continue;
+    const desc = tag(it, "description");
+    items.push({
+      title,
+      url: link,
+      source,
+      publishedAt: toIso(tag(it, "pubDate")),
+      kind,
+      ...(desc && desc.length > 30
+        ? { summary: desc.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 480) }
+        : {}),
+    });
+  }
+  return items;
+}
+
+// --- CNBC section RSS --------------------------------------------------------
+// Keyless Tier-1 markets/tech coverage direct from CNBC (no Google redirect
+// wrapper). Section feeds are curated (not a firehose), so items flow through the
+// normal title->ticker matching: an NVDA/AI story lands in related/general, an
+// FRMI mention in priority. Feed ids: 15839135=Markets, 19854910=Technology,
+// 100003114=Top News.
+export async function fetchCnbc(feedUrl) {
+  const xml = await fetchText(feedUrl);
+  return parseRssItems(xml, "CNBC");
+}
+
+// --- Press-release wires -----------------------------------------------------
+// Primary-source releases (PR Newswire, GlobeNewswire) are keyless RSS but are
+// firehoses, so they're filtered at ingestion to titles matching `patterns`
+// (regex-source strings from config). This turns the wires into a targeted
+// watcher — the real value for a thinly-covered small-cap like FRMI, whose own
+// releases hit the wire before aggregators pick them up. Pass priority patterns
+// for precision; widen to related patterns to also catch supplier/tenant PRs.
+const WIRE_FEEDS = [
+  { url: "https://www.prnewswire.com/rss/news-releases-list.rss", source: "PR Newswire" },
+  {
+    url: "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
+    source: "GlobeNewswire",
+  },
+];
+
+export async function fetchPressReleases(patterns, feeds = WIRE_FEEDS) {
+  if (!patterns || patterns.length === 0) return []; // never dump an unfiltered firehose
+  let matcher;
+  try {
+    matcher = new RegExp(patterns.join("|"), "i");
+  } catch {
+    return [];
+  }
+  const results = await Promise.allSettled(
+    feeds.map(async (f) => {
+      const xml = await fetchText(f.url);
+      return parseRssItems(xml, f.source).filter((it) => matcher.test(it.title));
+    }),
+  );
+  // One flaky wire must not sink the others (mirrors the collector's allSettled).
+  return results.filter((r) => r.status === "fulfilled").flatMap((r) => r.value);
+}
+
+// --- Alpha Vantage NEWS_SENTIMENT -------------------------------------------
+// Ticker-tagged news WITH sentiment, keyed (free tier: 25 req/day). The
+// collector makes ONE combined multi-ticker call per run and fails open when the
+// key is absent or the daily cap is hit (the API answers with an Information/Note
+// blob and no `feed`), so coverage degrades to the keyless sources rather than
+// erroring. `tickers` is an array; null/empty entries are dropped.
+function alphaVantageTime(s) {
+  const m = /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})$/.exec(String(s ?? ""));
+  if (!m) return null;
+  const [, Y, Mo, D, H, Mi, S] = m;
+  return new Date(Date.UTC(+Y, +Mo - 1, +D, +H, +Mi, +S)).toISOString();
+}
+
+export async function fetchAlphaVantageNews(tickers, apiKey) {
+  const list = (tickers ?? []).filter(Boolean);
+  if (!apiKey || list.length === 0) return [];
+  const url =
+    "https://www.alphavantage.co/query?function=NEWS_SENTIMENT" +
+    "&tickers=" + encodeURIComponent(list.join(",")) +
+    "&sort=LATEST&limit=50&apikey=" + encodeURIComponent(apiKey);
+  const res = await fetch(url, {
+    headers: { "User-Agent": UA, Accept: "application/json" },
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for Alpha Vantage NEWS_SENTIMENT`);
+  const data = await res.json();
+  // No `feed` -> rate-limited / bad key / no results. Fail open (keyless sources
+  // still ran); the Information/Note text is not an item, so return nothing.
+  if (!Array.isArray(data?.feed)) return [];
+  const items = [];
+  for (const f of data.feed) {
+    const title = decodeEntities(f?.title);
+    const link = f?.url;
+    if (!title || typeof link !== "string" || !/^https?:\/\//i.test(link)) continue;
+    const label = f?.overall_sentiment_label;
+    const summary = f?.summary
+      ? decodeEntities(f.summary).slice(0, 480) + (label ? ` [sentiment: ${label}]` : "")
+      : undefined;
+    items.push({
+      title,
+      url: link,
+      source: f?.source || "Alpha Vantage",
+      publishedAt: alphaVantageTime(f?.time_published),
+      kind: "news",
+      ...(summary ? { summary } : {}),
     });
   }
   return items;

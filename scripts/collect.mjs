@@ -9,9 +9,12 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  fetchAlphaVantageNews,
   fetchBingNews,
+  fetchCnbc,
   fetchEdgarFilings,
   fetchGoogleNews,
+  fetchPressReleases,
   fetchYahooFinance,
 } from "./sources.mjs";
 import { searchX } from "./x.mjs";
@@ -174,6 +177,30 @@ async function main() {
   }
   // General AI coverage.
   for (const q of config.generalQueries ?? []) run(`google-news:general`, fetchGoogleNews(q));
+
+  // CNBC Tier-1 markets/tech sections (keyless): curated feeds, matched to
+  // tickers by title downstream like any other news source.
+  run(`cnbc:markets`, fetchCnbc("https://www.cnbc.com/id/15839135/device/rss/rss.html"));
+  run(`cnbc:tech`, fetchCnbc("https://www.cnbc.com/id/19854910/device/rss/rss.html"));
+
+  // Press-release wires (keyless): filtered at ingestion to the priority
+  // company's patterns, so the wires act as a fast primary-source watcher for
+  // FRMI's own releases rather than a firehose. Widen with related patterns if
+  // supplier/tenant PRs are wanted too.
+  const wirePatterns = (config.priorityTickers ?? []).flatMap((t) => t.patterns ?? []);
+  run(`press-wires`, fetchPressReleases(wirePatterns));
+
+  // Alpha Vantage NEWS_SENTIMENT (keyed, free tier 25 req/day): ONE combined
+  // multi-ticker call per run, only when ALPHAVANTAGE_API_KEY is set. Fails open
+  // (returns []) when the key is absent or the daily cap is hit.
+  const avKey = process.env.ALPHAVANTAGE_API_KEY;
+  if (avKey) {
+    const avTickers = [
+      ...(config.priorityTickers ?? []).map((t) => t.ticker),
+      ...(config.relatedTickers ?? []).map((t) => t.ticker),
+    ].filter(Boolean);
+    run(`alphavantage`, fetchAlphaVantageNews(avTickers, avKey));
+  }
 
   const settled = await Promise.all(tasks);
 

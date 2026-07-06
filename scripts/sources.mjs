@@ -162,6 +162,10 @@ export async function fetchBingNews(query) {
         /* keep the redirect link */
       }
     }
+    // The decoded redirect target is attacker-influenced; drop anything that
+    // isn't an absolute http(s) URL so a javascript:/data: link never reaches
+    // the site's href sink (the render-side safeUrl is the backstop).
+    if (!/^https?:\/\//i.test(link)) continue;
     const source =
       tag(it, "News:Source") ??
       (() => {

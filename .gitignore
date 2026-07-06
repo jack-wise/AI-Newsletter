@@ -1,1 +1,9 @@
 ﻿node_modules/
+
+# Secrets & local worker state — never commit these. No such file is tracked
+# today; this keeps a future .env / .dev.vars / wrangler cache out of the repo.
+.env
+.env.*
+.dev.vars
+.wrangler/
+*.log

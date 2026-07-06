@@ -49,10 +49,14 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           REPORTS_MODEL: ${{ vars.REPORTS_MODEL }}
-        # The pinger dispatches report=news for the daily read; a manual
-        # dispatch runs the requested keys (or all Claude-owned keys when the
-        # input is empty).
-        run: node scripts/reports.mjs ${{ inputs.report }}
+          # Pass the dispatch input through the environment, NOT interpolated into
+          # the shell command: a raw ${{ inputs.report }} in `run:` is a script-
+          # injection sink (a crafted input would execute in a runner holding
+          # ANTHROPIC_API_KEY + a contents:write token). reports.mjs treats an
+          # empty arg the same as "no arg" (runs all reports), so "$REPORT_KEY"
+          # preserves the empty=all behavior.
+          REPORT_KEY: ${{ inputs.report }}
+        run: node scripts/reports.mjs "$REPORT_KEY"
 
       - name: Commit reports
         run: |

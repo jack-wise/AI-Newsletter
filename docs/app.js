@@ -51,6 +51,20 @@ function el(tag, className, text) {
   return node;
 }
 
+// Feed-supplied URLs are placed into href attributes; a `javascript:` (or other
+// non-web) URL that survived ingestion would execute on click / open-in-new-tab.
+// Collapse anything that isn't an absolute http(s) URL to "#" so an href is never
+// a script sink.
+function safeUrl(url) {
+  if (typeof url !== "string") return "#";
+  try {
+    const u = new URL(url);
+    return u.protocol === "http:" || u.protocol === "https:" ? u.href : "#";
+  } catch {
+    return "#";
+  }
+}
+
 function favicon(item) {
   let host = null;
   try { host = new URL(item.url).hostname; } catch { return null; }
@@ -95,7 +109,7 @@ function metaRow(item) {
 // reaches the original source for readers who want it.
 function storyLink(item, className) {
   const a = document.createElement("a");
-  a.href = item.url;
+  a.href = safeUrl(item.url);
   a.target = "_blank";
   a.rel = "noopener noreferrer";
   if (className) a.className = className;
@@ -182,7 +196,7 @@ function openReader(item) {
   excerptBlock.hidden = !hasExcerpt;
   if (hasExcerpt) document.getElementById("modal-excerpt").textContent = `“${item.excerpt}”`;
 
-  document.getElementById("modal-source").href = item.url;
+  document.getElementById("modal-source").href = safeUrl(item.url);
   const modal = document.getElementById("modal");
   modal.hidden = false;
   document.body.classList.add("modal-open");

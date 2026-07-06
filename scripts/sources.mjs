@@ -264,11 +264,13 @@ export async function fetchPressReleases(patterns, feeds = WIRE_FEEDS) {
 }
 
 // --- Alpha Vantage NEWS_SENTIMENT -------------------------------------------
-// Ticker-tagged news WITH sentiment, keyed (free tier: 25 req/day). The
-// collector makes ONE combined multi-ticker call per run and fails open when the
-// key is absent or the daily cap is hit (the API answers with an Information/Note
-// blob and no `feed`), so coverage degrades to the keyless sources rather than
-// erroring. `tickers` is an array; null/empty entries are dropped.
+// Ticker-tagged news WITH sentiment, keyed (free tier: 25 req/day). Query is for
+// a SINGLE ticker: AV's multi-ticker filter is AND (it returns only articles that
+// mention ALL listed tickers simultaneously, so a list of unrelated large caps
+// yields ~0), and it zeroes the whole response if any ticker is uncovered. The
+// collector rotates one covered ticker per run. Fails open (returns []) when the
+// key is absent or the daily cap is hit (AV answers with an Information/Note blob
+// and no `feed`), so coverage degrades to the keyless sources rather than erroring.
 function alphaVantageTime(s) {
   const m = /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})$/.exec(String(s ?? ""));
   if (!m) return null;
@@ -276,20 +278,11 @@ function alphaVantageTime(s) {
   return new Date(Date.UTC(+Y, +Mo - 1, +D, +H, +Mi, +S)).toISOString();
 }
 
-export async function fetchAlphaVantageNews(tickers, apiKey) {
-  const list = (tickers ?? []).filter(Boolean);
-  if (!apiKey || list.length === 0) return [];
-  // Encode each ticker but keep the commas LITERAL: Alpha Vantage does not decode
-  // a percent-encoded comma, so encodeURIComponent("NVDA,MSFT") -> "NVDA%2CMSFT"
-  // is read as one invalid ticker and returns an empty feed with no error.
-  // IMPORTANT: AV zeroes the ENTIRE response if any ticker in the list is one it
-  // doesn't cover (verified: NVDA alone -> 50 items; NVDA + an uncovered symbol
-  // like FRMI -> items:0, no error). So callers must pass only AV-covered US
-  // tickers (see config.alphaVantageTickers). Encode each ticker, keep commas
-  // literal (AV does not decode a percent-encoded comma).
+export async function fetchAlphaVantageNews(ticker, apiKey) {
+  if (!apiKey || !ticker) return [];
   const url =
     "https://www.alphavantage.co/query?function=NEWS_SENTIMENT" +
-    "&tickers=" + list.map((t) => encodeURIComponent(t)).join(",") +
+    "&tickers=" + encodeURIComponent(ticker) +
     "&sort=LATEST&limit=50&apikey=" + encodeURIComponent(apiKey);
   const res = await fetch(url, {
     headers: { "User-Agent": UA, Accept: "application/json" },

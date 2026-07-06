@@ -199,15 +199,22 @@ async function main() {
   // every OTHER run (runSeq parity). The collector fires ~48x/day but AV's free
   // tier is 25 req/day, so every-other-run keeps it to ~24/day, under the cap.
   // Only when ALPHAVANTAGE_API_KEY is set; fails open when the cap is still hit.
-  // Tickers come from config.alphaVantageTickers (NOT priority/related): AV zeroes
-  // the whole response if ANY ticker is uncovered, and the priority ticker FRMI is
-  // too new for AV coverage — so this is an explicit AV-covered US-ticker list.
+  // Alpha Vantage NEWS_SENTIMENT. Tickers come from config.alphaVantageTickers
+  // (NOT priority/related): AV's multi-ticker filter is AND, and it zeroes the
+  // whole response if any ticker is uncovered (FRMI is too new for AV), so this
+  // is an explicit AV-covered US-ticker list queried ONE at a time. On each even
+  // run (every-other-run pacing) we rotate to the next ticker — ~24 calls/day
+  // cycles the list several times over while staying under the 25/day free cap.
   const avKey = process.env.ALPHAVANTAGE_API_KEY;
   const avThisRun = Boolean(avKey) && runSeq % 2 === 0;
   if (avThisRun) {
     const avTickers = (config.alphaVantageTickers ?? []).filter(Boolean);
-    if (avTickers.length) run(`alphavantage`, fetchAlphaVantageNews(avTickers, avKey));
-    else console.log("alpha vantage: no alphaVantageTickers configured; skipping");
+    if (avTickers.length) {
+      const ticker = avTickers[Math.floor(runSeq / 2) % avTickers.length];
+      run(`alphavantage:${ticker}`, fetchAlphaVantageNews(ticker, avKey));
+    } else {
+      console.log("alpha vantage: no alphaVantageTickers configured; skipping");
+    }
   } else if (avKey) {
     // Not a silent cap: record why AV didn't run this cycle.
     console.log(`alpha vantage: skipped this run (every-other-run pacing; run #${runSeq})`);

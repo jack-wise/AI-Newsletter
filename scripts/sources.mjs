@@ -293,6 +293,18 @@ export async function fetchAlphaVantageNews(tickers, apiKey) {
   if (!res.ok) throw new Error(`HTTP ${res.status} for Alpha Vantage NEWS_SENTIMENT`);
   const data = await res.json();
   console.warn("[alphavantage] TEMP raw head: " + JSON.stringify(data).slice(0, 300)); // TEMP diagnostic
+  // TEMP control probe: a single, definitely-covered ticker isolates "my query"
+  // from "the account/endpoint". Remove after diagnosis.
+  try {
+    const ctlUrl =
+      "https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=AAPL&limit=5&apikey=" +
+      encodeURIComponent(apiKey);
+    const ctl = await (await fetch(ctlUrl, { signal: AbortSignal.timeout(20_000) })).json();
+    console.warn("[alphavantage] TEMP control(AAPL) items=" + (ctl?.items ?? "?") +
+      " keys=" + Object.keys(ctl ?? {}).join(",") + " head=" + JSON.stringify(ctl).slice(0, 160));
+  } catch (e) {
+    console.warn("[alphavantage] TEMP control failed: " + (e?.message ?? e));
+  }
   // No `feed` -> rate-limited / bad key / no results. Fail open (keyless sources
   // still ran); the Information/Note text is not an item, so return nothing. Log
   // AV's own reason (Information/Note/Error Message) so the cause is diagnosable

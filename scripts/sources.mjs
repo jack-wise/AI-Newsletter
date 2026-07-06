@@ -290,8 +290,15 @@ export async function fetchAlphaVantageNews(tickers, apiKey) {
   if (!res.ok) throw new Error(`HTTP ${res.status} for Alpha Vantage NEWS_SENTIMENT`);
   const data = await res.json();
   // No `feed` -> rate-limited / bad key / no results. Fail open (keyless sources
-  // still ran); the Information/Note text is not an item, so return nothing.
-  if (!Array.isArray(data?.feed)) return [];
+  // still ran); the Information/Note text is not an item, so return nothing. Log
+  // AV's own reason (Information/Note/Error Message) so the cause is diagnosable
+  // rather than a silent zero — the message is generic, not secret.
+  if (!Array.isArray(data?.feed)) {
+    const reason =
+      data?.Information ?? data?.Note ?? data?.["Error Message"] ?? JSON.stringify(data).slice(0, 200);
+    console.warn(`[alphavantage] no feed returned: ${reason}`);
+    return [];
+  }
   const items = [];
   for (const f of data.feed) {
     const title = decodeEntities(f?.title);

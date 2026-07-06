@@ -386,6 +386,16 @@ async function main() {
     `collected: ${priority.length} priority + ${related.length} related + ${general.length} general ` +
       `(${sourceErrors.length} source errors)${xSkipped ? ` · ${xSkipped}` : ""}`,
   );
+  // Raw per-source item counts (pre-dedupe), aggregated by source label. Makes it
+  // observable whether a keyed/paced source (e.g. alphavantage) actually ran and
+  // what it returned — a missing label means the task was never queued (e.g. no
+  // API key), label=0 means it ran but returned nothing (rate-limited / no news).
+  const rawCounts = {};
+  for (const s of settled) rawCounts[s.label] = (rawCounts[s.label] ?? 0) + (s.items?.length ?? 0);
+  console.log(
+    "  raw per-source: " +
+      Object.entries(rawCounts).sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => `${k}=${v}`).join("  "),
+  );
   for (const e of sourceErrors) console.warn(`  source error: ${e.source}: ${e.error}`);
 }
 

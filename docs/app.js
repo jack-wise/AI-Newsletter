@@ -681,3 +681,76 @@ load();
 loadReports();
 setInterval(load, 5 * 60 * 1000);
 setInterval(loadReports, 30 * 60 * 1000);
+
+// ---- FRMI live stock section (TradingView embeds) ----
+// Widgets are injected here (not inline in index.html) so the page stays static.
+// Each embed is the standard TradingView container + loader script + JSON config.
+function tvWidget(containerId, src, config) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  el.replaceChildren();
+  el.classList.add("tradingview-widget-container");
+  const widget = document.createElement("div");
+  widget.className = "tradingview-widget-container__widget";
+  el.appendChild(widget);
+  const script = document.createElement("script");
+  script.type = "text/javascript";
+  script.async = true;
+  script.src = src;
+  script.text = JSON.stringify(config);
+  el.appendChild(script);
+}
+
+// Toggleable price chart: rebuild the Advanced Chart widget for the chosen
+// timeframe (range = visible window, interval = bar size).
+function loadStockChart(range, interval) {
+  tvWidget(
+    "stock-chart",
+    "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js",
+    {
+      autosize: true,
+      symbol: "NASDAQ:FRMI",
+      interval: interval,
+      range: range,
+      timezone: "America/New_York",
+      theme: "dark",
+      style: "3", // area
+      locale: "en",
+      hide_side_toolbar: true,
+      allow_symbol_change: false,
+      save_image: false,
+      calendar: false,
+      backgroundColor: "rgba(12, 18, 32, 1)",
+      gridColor: "rgba(27, 36, 54, 0.6)",
+      support_host: "https://www.tradingview.com",
+    },
+  );
+}
+
+function initStock() {
+  const chart = document.getElementById("stock-chart");
+  if (!chart) return; // section not present
+  // Live quote header
+  tvWidget(
+    "stock-quote",
+    "https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js",
+    { symbol: "NASDAQ:FRMI", width: "100%", locale: "en", colorTheme: "dark", isTransparent: true },
+  );
+  // Timeframe toggle
+  const btns = Array.from(document.querySelectorAll(".stock-range"));
+  for (const b of btns) {
+    b.addEventListener("click", () => {
+      for (const x of btns) {
+        x.classList.remove("is-active");
+        x.setAttribute("aria-selected", "false");
+      }
+      b.classList.add("is-active");
+      b.setAttribute("aria-selected", "true");
+      loadStockChart(b.dataset.range, b.dataset.interval);
+    });
+  }
+  const active = document.querySelector(".stock-range.is-active") || btns[0];
+  if (active) loadStockChart(active.dataset.range, active.dataset.interval);
+}
+
+initStock();

@@ -31,6 +31,7 @@
       </span>
       <nav class="topnav" aria-label="Sections">
         <a href="#site">The Site</a>
+        <a href="#stock">Stock</a>
         <a href="#coverage" data-nav="frmi">FRMI</a>
         <a href="#coverage" data-nav="eco">Ecosystem</a>
         <a href="#coverage" data-nav="filings">Filings</a>
@@ -90,6 +91,25 @@
       <div class="stat"><span class="stat-num" id="stat-filings" data-suffix="">0</span><span class="stat-label">SEC FILINGS IN FEED</span></div>
       <div class="stat"><span class="stat-num" id="stat-sources" data-suffix="">0</span><span class="stat-label">DISTINCT SOURCES</span></div>
       <div class="stat"><span class="stat-num" data-static="30">30</span><span class="stat-label">MINUTE REFRESH</span></div>
+    </div>
+  </section>
+
+  <!-- ======== FRMI STOCK ======== -->
+  <section class="stock" id="stock">
+    <div class="shell">
+      <div class="section-head reveal">
+        <h2>FRMI STOCK<span class="accent">.</span> LIVE<span class="accent">.</span></h2>
+        <p class="section-sub">Fermi Inc. (NASDAQ: FRMI) &mdash; live price and interactive charts. Data &amp; charts by TradingView.</p>
+      </div>
+      <div id="stock-quote" class="stock-quote"></div>
+      <div class="stock-ranges" role="tablist" aria-label="Chart timeframe">
+        <button class="stock-range is-active" role="tab" aria-selected="true"  data-range="1D"  data-interval="5">DAILY</button>
+        <button class="stock-range" role="tab" aria-selected="false" data-range="5D"  data-interval="30">WEEKLY</button>
+        <button class="stock-range" role="tab" aria-selected="false" data-range="1M"  data-interval="60">MONTHLY</button>
+        <button class="stock-range" role="tab" aria-selected="false" data-range="3M"  data-interval="D">3 MONTH</button>
+        <button class="stock-range" role="tab" aria-selected="false" data-range="12M" data-interval="D">1 YEAR</button>
+      </div>
+      <div id="stock-chart" class="stock-chart"></div>
     </div>
   </section>
 

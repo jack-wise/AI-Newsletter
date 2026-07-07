@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=20" />
+  <link rel="stylesheet" href="style.css?v=21" />
 </head>
 <body>
 
@@ -101,15 +101,7 @@
         <h2>FRMI STOCK<span class="accent">.</span> LIVE<span class="accent">.</span></h2>
         <p class="section-sub">Fermi Inc. (NASDAQ: FRMI) &mdash; live price and interactive charts. Data &amp; charts by TradingView.</p>
       </div>
-      <div id="stock-quote" class="stock-quote"></div>
-      <div class="stock-ranges" role="tablist" aria-label="Chart timeframe">
-        <button class="stock-range is-active" role="tab" aria-selected="true"  data-range="1D"  data-interval="5">DAILY</button>
-        <button class="stock-range" role="tab" aria-selected="false" data-range="5D"  data-interval="30">WEEKLY</button>
-        <button class="stock-range" role="tab" aria-selected="false" data-range="1M"  data-interval="60">MONTHLY</button>
-        <button class="stock-range" role="tab" aria-selected="false" data-range="3M"  data-interval="D">3 MONTH</button>
-        <button class="stock-range" role="tab" aria-selected="false" data-range="12M" data-interval="D">1 YEAR</button>
-      </div>
-      <div id="stock-chart" class="stock-chart"></div>
+      <div id="stock-widget" class="stock-widget"></div>
     </div>
   </section>
 
@@ -293,6 +285,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=19"></script>
+  <script src="app.js?v=20"></script>
 </body>
 </html>

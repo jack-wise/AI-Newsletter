@@ -1071,42 +1071,15 @@ footer { border-top: 1px solid var(--line); background: var(--bg); }
 
 /* ================= FRMI STOCK (TradingView) ================= */
 .stock { border-top: 1px solid var(--line); background: var(--bg-2); padding: 64px 0; }
-.stock-quote {
-  margin: 0 0 20px;
+.stock-widget {
+  height: 620px;
   border: 1px solid var(--line);
-  border-radius: 10px;
-  overflow: hidden;
-  background: var(--card);
-  min-height: 76px;
-}
-.stock-ranges { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
-.stock-range {
-  appearance: none;
-  background: var(--card);
-  border: 1px solid var(--line-2);
-  color: var(--dim);
-  font-family: var(--display);
-  font-weight: 800;
-  font-size: 12.5px;
-  letter-spacing: 0.12em;
-  padding: 9px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: color 140ms ease, border-color 140ms ease, background 140ms ease;
-}
-.stock-range:hover { color: var(--ink); border-color: var(--amber-deep); }
-.stock-range.is-active { color: var(--bg); background: var(--amber); border-color: var(--amber); }
-.stock-chart {
-  height: 520px;
-  border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
   background: var(--card);
 }
-.stock-quote .tradingview-widget-container__widget,
-.stock-chart .tradingview-widget-container__widget { height: 100%; }
-@media (max-width: 640px) {
-  .stock-chart { height: 420px; }
-  .stock-range { flex: 1 1 auto; text-align: center; }
-}
+.stock-widget,
+.stock-widget .tradingview-widget-container,
+.stock-widget .tradingview-widget-container__widget { height: 100%; }
+@media (max-width: 640px) { .stock-widget { height: 480px; } }
 

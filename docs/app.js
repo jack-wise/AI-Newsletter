@@ -701,56 +701,43 @@ function tvWidget(containerId, src, config) {
   el.appendChild(script);
 }
 
-// Toggleable price chart: rebuild the Advanced Chart widget for the chosen
-// timeframe (range = visible window, interval = bar size).
-function loadStockChart(range, interval) {
+// One all-in-one Symbol Overview widget: logo + price + change + a clean line
+// chart with simple 1D / 1M / 3M / 1Y range tabs (no candles, no intraday
+// intervals). Dark themed to match the site.
+function initStock() {
+  const el = document.getElementById("stock-widget");
+  if (!el) return; // section not present
   tvWidget(
-    "stock-chart",
-    "https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js",
+    "stock-widget",
+    "https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js",
     {
-      autosize: true,
-      symbol: "NASDAQ:FRMI",
-      interval: interval,
-      range: range,
-      timezone: "America/New_York",
-      theme: "dark",
-      style: "3", // area
+      symbols: [["Fermi Inc.", "NASDAQ:FRMI|1D"]],
+      chartOnly: false,
+      width: "100%",
+      height: "100%",
       locale: "en",
-      hide_side_toolbar: true,
-      allow_symbol_change: false,
-      save_image: false,
-      calendar: false,
-      backgroundColor: "rgba(12, 18, 32, 1)",
-      gridColor: "rgba(27, 36, 54, 0.6)",
+      colorTheme: "dark",
+      autosize: true,
+      showVolume: false,
+      showMA: false,
+      hideDateRanges: false,
+      hideMarketStatus: false,
+      hideSymbolLogo: false,
+      scalePosition: "right",
+      scaleMode: "Normal",
+      fontFamily: "Inter, -apple-system, sans-serif",
+      fontSize: "12",
+      noTimeScale: false,
+      valuesTracking: "1",
+      changeMode: "price-and-percent",
+      chartType: "area",
+      lineWidth: 2,
+      lineType: 0,
+      dateRanges: ["1D|1", "1M|30", "3M|60", "12M|1D"],
+      isTransparent: true,
       support_host: "https://www.tradingview.com",
     },
   );
-}
-
-function initStock() {
-  const chart = document.getElementById("stock-chart");
-  if (!chart) return; // section not present
-  // Live quote header
-  tvWidget(
-    "stock-quote",
-    "https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js",
-    { symbol: "NASDAQ:FRMI", width: "100%", locale: "en", colorTheme: "dark", isTransparent: true },
-  );
-  // Timeframe toggle
-  const btns = Array.from(document.querySelectorAll(".stock-range"));
-  for (const b of btns) {
-    b.addEventListener("click", () => {
-      for (const x of btns) {
-        x.classList.remove("is-active");
-        x.setAttribute("aria-selected", "false");
-      }
-      b.classList.add("is-active");
-      b.setAttribute("aria-selected", "true");
-      loadStockChart(b.dataset.range, b.dataset.interval);
-    });
-  }
-  const active = document.querySelector(".stock-range.is-active") || btns[0];
-  if (active) loadStockChart(active.dataset.range, active.dataset.interval);
 }
 
 initStock();

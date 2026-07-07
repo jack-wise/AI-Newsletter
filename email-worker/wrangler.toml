@@ -3,7 +3,7 @@
 # Secret:  npx wrangler secret put BREVO_API_KEY
 name = "fermi-watch-email"
 main = "worker.js"
-compatibility_date = "2026-07-07"
+compatibility_date = "2026-06-23"
 
 [triggers]
 # 0 11 * * *  -> daily ~7am ET (11:00 UTC) morning brief. The news collector and

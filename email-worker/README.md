@@ -13,7 +13,13 @@ email carries a one-click unsubscribe.
 | `/subscribe` | POST `{email}` | Store a pending record + send a confirmation email |
 | `/confirm?token=…` | GET | Promote pending → confirmed (from the email link) |
 | `/unsubscribe?email=…&token=…` | GET | Remove a subscriber (from the email footer) |
+| `/run-digest?key=…` | GET | Manually fire the digest now (guarded by the `ADMIN_KEY` secret) — for testing or an ad-hoc send |
 | _cron_ `0 11 * * *` | — | Build a digest from the site's data and email all confirmed subs |
+
+To enable the manual trigger: `npx wrangler secret put ADMIN_KEY` (any random
+string), redeploy, then open
+`https://fermi-watch-email.<subdomain>.workers.dev/run-digest?key=<that string>`.
+It sends to all **confirmed** subscribers and returns `{ ok, sent }`.
 
 The signup box on the site (`docs/index.html` → `app.js`) POSTs to `/subscribe`.
 

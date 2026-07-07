@@ -334,6 +334,21 @@ export default {
     if (url.pathname === "/unsubscribe" && request.method === "GET") {
       return handleUnsubscribe(request, env);
     }
+    // Manual/test digest trigger. Guarded by the ADMIN_KEY secret so only you can
+    // fire it (the cron path needs no key). Handy for a test send or an ad-hoc
+    // brief without waiting for 11:00 UTC.
+    if (url.pathname === "/run-digest" && request.method === "GET") {
+      const key = url.searchParams.get("key") || "";
+      if (!env.ADMIN_KEY || !safeEqual(env.ADMIN_KEY.trim(), key)) {
+        return new Response("unauthorized", { status: 401 });
+      }
+      try {
+        const r = await sendDigest(env);
+        return json({ ok: true, sent: r.sent }, 200, env);
+      } catch (e) {
+        return json({ error: String((e && e.message) || e) }, 500, env);
+      }
+    }
     return new Response("Not found", { status: 404 });
   },
 

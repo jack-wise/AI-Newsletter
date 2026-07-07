@@ -1078,8 +1078,9 @@ footer { border-top: 1px solid var(--line); background: var(--bg); }
   overflow: hidden;
   background: var(--card);
 }
-.stock-widget,
-.stock-widget .tradingview-widget-container,
-.stock-widget .tradingview-widget-container__widget { height: 100%; }
+/* Fill the fixed-height container — do NOT re-set .stock-widget itself to 100%
+   here, or it overrides the 620px above and the chart area collapses. */
+.stock-widget .tradingview-widget-container__widget,
+.stock-widget iframe { height: 100% !important; }
 @media (max-width: 640px) { .stock-widget { height: 480px; } }
 

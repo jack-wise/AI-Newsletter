@@ -686,7 +686,7 @@ setInterval(loadReports, 30 * 60 * 1000);
 // Points at the fermi-watch-email Cloudflare Worker. Set this to the deployed URL
 // after `wrangler deploy` (see email-worker/README.md):
 //   https://fermi-watch-email.<your-subdomain>.workers.dev
-const EMAIL_WORKER = "https://fermi-watch-email.REPLACE.workers.dev";
+const EMAIL_WORKER = "https://fermi-watch-email.jack-wise.workers.dev";
 
 function initSignup() {
   const form = document.getElementById("signup-form");

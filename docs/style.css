@@ -1069,57 +1069,6 @@ footer { border-top: 1px solid var(--line); background: var(--bg); }
   * { transition-duration: 1ms !important; }
 }
 
-/* ================= EMAIL SIGNUP ================= */
-.signup { background: var(--bg-2); border-top: 1px solid var(--line); padding: 56px 0; }
-.signup-inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px 40px;
-}
-.signup-copy { flex: 1 1 340px; }
-.signup-copy h2 {
-  font-family: var(--display);
-  font-weight: 900;
-  font-size: clamp(24px, 3.2vw, 34px);
-  letter-spacing: 0.01em;
-  margin: 0 0 8px;
-  color: var(--ink);
-}
-.signup-copy p { margin: 0; color: var(--dim); font-size: 14.5px; max-width: 520px; }
-.signup-form { flex: 1 1 360px; display: flex; flex-wrap: wrap; gap: 10px; align-items: stretch; }
-.signup-input {
-  flex: 1 1 220px;
-  background: var(--card);
-  border: 1px solid var(--line-2);
-  border-radius: 8px;
-  color: var(--ink);
-  font: 15px var(--body);
-  padding: 13px 16px;
-}
-.signup-input::placeholder { color: var(--faint); }
-.signup-input:focus { outline: none; border-color: var(--amber); }
-.signup-btn {
-  appearance: none;
-  background: var(--amber);
-  color: var(--bg);
-  border: none;
-  border-radius: 8px;
-  font-family: var(--display);
-  font-weight: 800;
-  font-size: 14px;
-  letter-spacing: 0.1em;
-  padding: 13px 26px;
-  cursor: pointer;
-  transition: background 140ms ease, opacity 140ms ease;
-}
-.signup-btn:hover { background: var(--amber-deep); }
-.signup-btn:disabled { opacity: 0.6; cursor: default; }
-.signup-msg { flex: 1 1 100%; margin: 4px 0 0; font-size: 13px; min-height: 18px; }
-.signup-msg.ok { color: var(--green); }
-.signup-msg.err { color: #ff6b6b; }
-
 /* ================= FRMI STOCK (TradingView) ================= */
 .stock { border-top: 1px solid var(--line); background: var(--bg-2); padding: 64px 0; }
 .stock-widget {

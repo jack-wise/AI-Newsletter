@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T18:31:23.203Z",
+  "generatedAt": "2026-07-08T19:01:19.417Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -743,6 +743,20 @@
   ],
   "related": [
     {
+      "title": "Nvidia in focus as Nemotron 3 Ultra AI model surpasses closed models in cost (NVDA:NASDAQ) - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4612399-nvidia-in-focus-as-nemotron-3-ultra-ai-model-surpasses-closed-models-in-cost",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-08T18:46:57.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Nvidia says open-source Nemotron 3 Ultra beats leading closed AI models on cost and throughput."
+    },
+    {
       "title": "Microsoft replaces OpenAI, Anthropic models with its own AI in Excel, Outlook - The American Bazaar",
       "url": "https://americanbazaaronline.com/2026/07/08/microsoft-replaces-openai-anthropic-models-with-its-own-ai-484247/",
       "source": "The American Bazaar",
@@ -754,7 +768,7 @@
         "OpenAI",
         "MSFT"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Microsoft replaces OpenAI and Anthropic AI models with its MAI technology in Excel, Outlook, and GitHub Copilot to reduce costs."
     },
     {
@@ -812,15 +826,28 @@
       "score": 65
     },
     {
-      "title": "China to Let AI Firms Buy Nvidia H200 Chips, Information Says - Bloomberg.com",
+      "title": "China to Let AI Firms Buy Nvidia H200s, Information Says - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-07-08/china-to-let-ai-firms-buy-nvidia-h200-chips-information-says",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T15:21:20.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Scoop: Trump administration lifts restrictions on OpenAI's GPT 5.6 - Axios",
+      "url": "https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted",
+      "source": "Axios",
+      "publishedAt": "2026-07-08T14:58:46.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
       ],
       "score": 65
     },
@@ -838,19 +865,6 @@
       "score": 65
     },
     {
-      "title": "Scoop: Trump administration lifts restrictions on OpenAI's GPT 5.6 - Axios",
-      "url": "https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted",
-      "source": "Axios",
-      "publishedAt": "2026-07-08T14:30:44.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
       "title": "OpenAI Researcher Says GPT-5.6 is Better at AI Research Than Most Human Interns - The Information",
       "url": "https://www.theinformation.com/newsletters/ai-agenda/openai-researcher-says-gpt-5-6-better-ai-research-human-interns",
       "source": "The Information",
@@ -864,11 +878,12 @@
       "score": 65
     },
     {
-      "title": "Nvidia’s $1 Trillion Slide Sends Valuation to Pre-AI Boom Levels - Bloomberg.com",
+      "title": "Nvidia’s $1 Trillion Slide Sends Valuation to Pre-AI Boom Levels",
       "url": "https://www.bloomberg.com/news/articles/2026-07-08/nvidia-s-1-trillion-slide-sends-valuation-to-pre-ai-boom-levels",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-07-08T13:44:07.000Z",
+      "publishedAt": "2026-07-08T13:38:27.000Z",
       "kind": "news",
+      "summary": "Nvidia's stock has lost approximately $1 trillion in market value in less than two months, making it the cheapest it has been since before the AI boom. While its GPUs still lead the AI data center market, the company's shares have fallen 16% since their peak in May, as investors shift their focus to competing semiconductor manufacturers, especially those in the memory market. [sentiment: Somewhat-Bearish]",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -877,18 +892,18 @@
       "score": 65
     },
     {
-      "title": "OpenAI to publicly release GPT-5.6 AI models, ending government-requested limits - CNBC",
-      "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-08T12:48:17.000Z",
+      "title": "OpenAI to release delayed models Thursday amidst a sea of regulatory confusion - InfoWorld",
+      "url": "https://www.infoworld.com/article/4194598/openai-to-release-delayed-models-thursday-amidst-a-sea-of-regulatory-confusion.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-07-08T18:52:45.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 65,
-      "summary": "OpenAI's chief rival, Anthropic, recently restored access to its latest models following a weeks-long clash with the government."
+      "score": 55,
+      "summary": "After the administration initially requested restriction of access to the models, a US government statement now says that no permission for their release was ever required."
     },
     {
       "title": "Microsoft hopes to cut its genAI costs by focusing on its own models - Computerworld",
@@ -903,6 +918,19 @@
       ],
       "score": 55,
       "summary": "The company has reportedly begun phasing out models from OpenAI and Anthropic for certain tasks."
+    },
+    {
+      "title": "China to let AI firms buy Nvidia H200 chips, the Information reports - Yahoo Finance",
+      "url": "https://finance.yahoo.com/video/china-let-ai-firms-buy-181959862.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-08T18:19:59.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     },
     {
       "title": "Anthropic tops OpenAI: How CIO evaluate AI models - InformationWeek",
@@ -947,19 +975,6 @@
       "summary": "Penguin Solutions Inc. stocks have been trading up by 24.21 percent after investors reacted strongly to its latest growth-focused news Key Takeaways Penguin Solutions was named an Nvidia AI Factory Specialized Partner, an invitation-only status tied to elite AI infrastructure builders. The new Nvidia partnership highlights Penguin Solutions’ strength in full-stack AI infrastructure for big&hellip;"
     },
     {
-      "title": "Nvidia Rises on China and AI Partnership Buzz - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYnpZUzJ6b3NzSmRoSHpfTzZDMWt2MDJjeUttQ3NDSGNSdlRwZXZmdDE4bnhfV1pYQVNYR0FxWjMwc2tBS2UxVEhUSjhxVEJ0dk8wZ2kyVDJiYjRMRy11UjZDcmc5V1dSOE9jbXhJVmxGVEJ1RlBnUllyVDQ1UWU0bTJpNGkxdjc4T2p2V05mT2VxQ3RlQ2lqVDFJcWdwdw?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-08T17:55:13.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "China plans to let top AI firms buy limited amount of Nvidia H200 chips, the Information reports By Reuters - Investing.com",
       "url": "https://www.investing.com/news/stock-market-news/china-plans-to-let-top-ai-firms-buy-limited-amount-of-nvidia-h200-chips-the-information-reports-4782000",
       "source": "Investing.com",
@@ -971,6 +986,20 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "OpenAI to publicly release GPT-5.6 AI models, ending government-requested limits - CNBC",
+      "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T12:48:17.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "OpenAI's chief rival, Anthropic, recently restored access to its latest models following a weeks-long clash with the government."
     },
     {
       "title": "OpenAI secures U.S. regulatory green light for GPT-5.6 rollout, Axios report says",
@@ -1013,9 +1042,9 @@
       "score": 55
     },
     {
-      "title": "OpenAI to Roll Out Top AI Model Globally After Limited Preview - Bloomberg.com",
+      "title": "OpenAI to Roll Out Top AI Model Globally After Limited Preview - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-07-08/openai-to-roll-out-top-ai-model-globally-after-limited-preview",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T07:33:32.000Z",
       "kind": "news",
       "tier": 1,
@@ -1054,9 +1083,9 @@
       "summary": "/PRNewswire/ -- Parasail, the inference cloud for AI-native startups, and d-Matrix, a pioneer in low-latency AI inference compute platforms for data centers,..."
     },
     {
-      "title": "Anthropic and OpenAI Face a New Threat from China - Bloomberg.com",
+      "title": "Anthropic and OpenAI Face a New Threat from China - Bloomberg",
       "url": "https://www.bloomberg.com/opinion/articles/2026-07-08/anthropic-and-openai-face-a-new-threat-from-cheap-chinese-ai",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1106,24 +1135,10 @@
       "score": 55
     },
     {
-      "title": "OpenAI Lands $520 Million Line of Credit From Bank of America - PYMNTS.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-lands-520-million-line-of-credit-from-bank-of-america/",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-07-08T17:25:24.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Bank of America has reportedly given OpenAI a $520 million line of credit after denying an earlier request. That’s according to a report Wednesday (July"
-    },
-    {
-      "title": "Marvell (MRVL) Is Down 22.6% After NVIDIA’s $2 Billion AI Bet And Index Exit - What's Changed - Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-down-22-6-171116041.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-08T17:11:16.000Z",
+      "title": "China Eases AI Chip Restrictions for NVIDIA (NVDA), Unlocks H200 Supply Potential - GuruFocus",
+      "url": "https://www.gurufocus.com/news/8950027/china-eases-ai-chip-restrictions-for-nvidia-nvda-unlocks-h200-supply-potential",
+      "source": "GuruFocus",
+      "publishedAt": "2026-07-08T17:58:10.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1131,20 +1146,6 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "Nvidia backs voice AI startup Gradium, bringing seed round to over $100m - Sifted",
-      "url": "https://sifted.eu/articles/gradium-nvidia-30m-extension-seed",
-      "source": "Sifted",
-      "publishedAt": "2026-07-08T17:07:55.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "The Paris-based startup spun out of non-profit AI research lab Kyutai seven months ago"
     }
   ],
   "general": [
@@ -1155,6 +1156,17 @@
       "publishedAt": "2026-07-08T18:30:49.000Z",
       "kind": "news",
       "summary": "Apple is expanding its Broadcom partnership in a $30 billion-plus chipmaking agreement, its largest American manufacturing commitment to date.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Major AI offerings at a glance - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjUDd1T0cwX3NLN0R2M1RxdWxhY1E0S2NYQWZYV183MEoyaWp5WUpWVFEtMzZIVmRNVU4tX1Y3LU1Ud0J1MDhTaXJ2NFJEZXY2TTQ4WVlMaHlsZkg3VHpZdklnRk1DUkpRbEV4OG9uenlBb0l1UHNhbzFR?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-08T18:09:15.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1188,6 +1200,17 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdUlyLUpybUpuSGp5NS1IOHd0aUdCWXFJRFpYVm5uaHE4NEtlaGluRGVLcjUzdGJmNzlsT09MWkkxd2JmaFpaVl9TaTZvSW01QmJjZGVHTjhwNFJoaXRGRmNJME8wMXZQR0hFVU5fUnBOdUE5S1FtT3JHYUhLdm5RWFdiWWRTYXdhUUc1Sl9ZV2NVY1UtOG53d1U4Ykp1eHlNQW9BdEE3R3haWGlReG5DX01CTDVXQ1RPYnNpdlkxU3F5ck1LNTNqS2NnSGN5MTg1czdHYUphZTRKVmo5TnlsYS1COA?oc=5",
       "source": "The Globe and Mail",
       "publishedAt": "2026-07-08T16:31:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "From Quill to Code- George Washington Debates the Patent Future of Artificial Intelligence on America’s 250th Birthday - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSHZnZUswMmQzWlFlSkFZdTlhZ2xLU2NiaWFNdHdxSjFRNFR5VzlDS0tfS2xGVWtNSmVzVHNQRVJleFpFOTJ0ZHJncFBVYW0xdlFtV1J1NWxHa3FiSERMT19VVGE3eHV1eTJCRFNPblJabTlOZTA5cUZhd3I0NDh0TmpRdVl2RTI3OVNpSFUwRm9fQVJJRW5JSmhTbnJyRUw5eGJ3LW9ORVA3a0JZRTBtMi1xR1JZck3SAbwBQVVfeXFMUFUxcXRGTUJrRGV0MERwZVJORGNQQmgxc1poZnF3NUJpMWtYdjl1cFVCaWFJNHBHRkg3Rm9kSzR0bVBpUlUyWXBwMFExYk50b1AwU0Z4WVJKaU1PankzNUh3R1pKMG9yUWUwaTZXUGV0a2ZLc0VzUFpLQTdyREE0YXllTmpEd2kxMkJtS0ZEeWhNanFLRmR0WUZ1a3BQMzNhMWpXbkg4WGhjdjFJdnh5eElsRUp4b2hzMXpWZEw?oc=5",
+      "source": "The National Law Review",
+      "publishedAt": "2026-07-08T16:31:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1319,21 +1342,10 @@
       "score": 50
     },
     {
-      "title": "Let’s Make a Deal: My San Francisco House for Your A.I. Stock - The New York Times",
+      "title": "‘Hysteria’ Grips San Francisco’s Housing Market as A.I. Wealth Pours In - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWVlaSTZoTXpkSzNxQVZzeGk4NTlqTS1hY2dLMlJ1SkNoQ0VqSXE0SFVOVWh3eGgwXzJpeDF4OHhoU3hpMUFkUnRQT0N6Q3Q1OEdHdmJNQ1NvQ3BLd2dhZzBuNHZmTWlsWnpSNmhqVzRZWnBsUTZHNVlXaXJSdGtWYjVlbGFSNkJiNTNrOTZjalhhSHM2ZTJKX2I5bS0?oc=5",
       "source": "The New York Times",
       "publishedAt": "2026-07-08T14:22:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Major AI models at a glance - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjUDd1T0cwX3NLN0R2M1RxdWxhY1E0S2NYQWZYV183MEoyaWp5WUpWVFEtMzZIVmRNVU4tX1Y3LU1Ud0J1MDhTaXJ2NFJEZXY2TTQ4WVlMaHlsZkg3VHpZdklnRk1DUkpRbEV4OG9uenlBb0l1UHNhbzFR?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-08T13:58:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1385,43 +1397,131 @@
       "score": 50
     },
     {
-      "title": "Can AI equalize political campaign ads – or will it remain a tool for spreading lies? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdEd4ajBKR1ZUQlpHNGxuVWlFMmNhazNkV3E1QzFNUmp0U21lUkFqWUdGV1RBRUo5dFB3UWZMV0lGRlB4YlJjUEs0MHNFOUVhemxZd2ZYVnVabUYwZl85Wml0cEcySEduR0JpVTMwV1ZwUGhpZjNZRnlNdmtVMVNWRHA1Yw?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-07-08T13:01:00.000Z",
+      "title": "Nscale secures $900 million for AI data center expansion - Indiatimes",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbjYxU3ZzTWtjUHFYaFdiTVVTaG92VUJheHNobmdCUXhvVkRUNDNyVGM0Zm5UWFZKTi1abWlFWUFKam94eExGN2liS2pVWmtkbkFtU1UyYWFfb1pjbEV1VzJwbmVwQURwMFBMcnM3bWl6MWJYRmVFV3hhUjNQd29sVHJ2b0c5S3diTjJERWdjSk9hTnc4dDNjZ1ZoZllnVXpxWVpmMUowWm9ZUFhGMFdqZDNBNVJudW8wOUJzWUx6U0ZWMURESEtmYXpLU2I1bDdmUEpN?oc=5",
+      "source": "Indiatimes",
+      "publishedAt": "2026-07-08T18:50:49.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "More Human, Not Less: New Edward Jones and Morning Consult Research Shows AI is Deepening the Role of the Financial Advisor - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPMnM2TnI4Q0J0eTl2QjREVUJIWi1MejJQNG9lYnc4bU5qQ0g4SWZ4OVZXMFAzYldNdUVvVjE2dEtrTWZJUUNjTFd1Uk9JSjRSVUtNbVp5TkstYXV4WU5iVVJpNm9iUTlnVEJRUDRrekNGYWFZVDlFbnkwNHFZeGY0OVRxTlA4eE1CZDNjNWNTa184M1pUbHVLcC1zNmloZnRXWFRRclluRWxKUk4yTkxOTTluY3lXOHRYZTZkUHRrTnVUNFBWbkZEaUhkTUd4Y05YbXhidk1UTUM1Wkd6bFV0SFFmeTJrcVFrWkdZZzg2NlRWNEVTQ3YxTzJ6RXk0OTZ4by1MRmhNaHk?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "title": "Should a chatbot manage your bank account? Probably not - UGA Today",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9waW5aN3RfcVA2YXFuemQtaXJZRHVsdHRIZHpESjgtQVQwdE1XYzN2dnJ0ZFJYYncyV1UzU3ppR1FhNGNtNjZSdTZKTUo0OUpXRzFvb19yQ1NobU43cE95NEZTdkpWbUFTbUdCUmFNT1I?oc=5",
+      "source": "UGA Today",
+      "publishedAt": "2026-07-08T18:41:48.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Playlist Launches AI Concierge, a 24/7 Front Desk Assistant for Fitness and Wellness Operators - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOblB1MEJZUGIzQ0lpV3lKYUdhVWtwb3U3TWpxb2VueTQ1dmxNY0VNOEJsaElRenpULVRVT1c0TFBGbzl0QXNpMU5laERvMXk2eV9HSjJYLXZGdDNqQXRXS2NYZkNGal9KWGx1NkdYVFlRYmJ4d1VPQ2hlcU9Ja2VHRjUtVlVHQVNjWjdlSjMwVWUtb0ZEdWZaYldTbmtPOTdid09DcndjZHpIaURrVkU2SS1SLXhxa2ZHb2EwNk8wVTBnMDBYVjltWnB0d0xnMWc1TGE0Snd5cGY3YzNQZXFrYWdn?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "title": "Your Solar Panels Could Be Used to Power AI Data Centers - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTDd1WHMtd1pQM0M2QTJBZW9fS0NHVktWcS0xR196QlRTNGZXbVVobTJHWjZuRkxGeGdXNVBxeXdISXlONmViTU0yZlltOWNyUlNMR1Vka2Z4cUxvNzlZMW1aSlpyQWM1T3dWS0xxOVFWSjBpVVdVYUt5VDVtbTh4b3FrNA?oc=5",
+      "source": "Barron's",
+      "publishedAt": "2026-07-08T18:41:00.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "AI-ECG Models Detect Structural Heart Disease, Identify At-Risk Patients - TCTMD.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHRMandJYldMTXNENlBOdHVrVHNqUEtwZzJyeHZZTlJ6YzJ0RWRmdXRtZFFwVmlaWW1GNUdEMWdmeWg3VGNNeWxrd0xCUkpJMkgxTjl6alVUM2lOd3BMYmxxeW8tQTJzbnJDeVlPWVRMQVgzOEtxVnRvMTE1eW9LOUtlMWlYSnlzWXEzeWZuVWRHSkZzN1Q2dmpTMA?oc=5",
+      "source": "TCTMD.com",
+      "publishedAt": "2026-07-08T18:39:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Why the Global AI Data Center Race Is Heading to Brazil - inc.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRzR2WXc5b0J1aUI1SzF6dVk2OEZVb01xTjJQV0lTbEgyMFJnYnozbWE1a2xfSkExZVhJNmtQdDZoTXpWc2o5YVotQk5HYU1iR0xkRzVPRmJIblYydVNnTjZuX1BWUE1MWk1hUGYxYy1RcDZxSWFSMmlWRjVCZTR4LXJUWkJ4aTMySjNuaUVyc2xFbDY2clI0RmZEcw?oc=5",
+      "source": "inc.com",
+      "publishedAt": "2026-07-08T18:37:58.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Oregon data centers face sharp electricity rate hike under new law - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQkpjTDFKU3p4b3FKZzhyU0hseTNNS2hoOXZjQnBuY2tRX0M3RGF0ZUp6ZzNIS1RYQWo1bE5aQ09COHYySVQ3enc5enhDd1BOcTJTN2pTcmhSbDA5LWF6eGtsSUlOb2FJMEpKN0xnVUltUFpFVHIxd2JiU3Bjd1cyclFkekprYXd5aW5WQXEyS3k2RHZzWjRkMjJyRVNJbTdKcEtZS9IBqgFBVV95cUxNMjd1Q0Qyb3ZpdmpHZmg0MDlnbzJnRmhUYmRoY1luelUxazVwUWtRMkZHUFpmNHIxc0tUWHhIY013ODJrOC1iUEJMSm5PellzS1V6akd2OXJObThOaWpnbTZkMnExN2tKa2l1YUdKYUw0eWg3TXVldkNtM21DS1BOR0VuT2hDeG91a0pxUmhHVndLUm5UR0NRUlcyNG9tRURidzNtWjN3RmRiUQ?oc=5",
+      "source": "Fox Business",
+      "publishedAt": "2026-07-08T18:37:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Why unified data services are key to helping agencies escape AI ‘pilot purgatory’ - FedScoop",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc3BPMUVGaExGalJQaHU2NGk2R1F0R0s4M1NaQm8yQTJqaThqZHIxTndaWG5oOVJoRWs4dk1CcmM3OHVnY29vQ0pvMmZCZXNEXzNaMGFlTXVTb2hCUTEwQkthNkRNSXBFQWhnUm5zY3dyNDUzWUczUHZRamluU1ZNVWp2M1ZiazJNTHpSUjcwWTI5MHJtWEpFeFNwSTFDWGtjS0NB?oc=5",
+      "source": "FedScoop",
+      "publishedAt": "2026-07-08T18:34:28.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Global Artificial Intelligence Eye Screening System Market Revenue to Hit US$1.17 Billion by 2032,Growing at 36.85% CAGR - EIN Presswire",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQXZNclNwY1d5QVBqa1FaQ2FpQ1AzNTlLOUowUG5WU2NjOGVBNzh0Y3MxemNqLURyd2NBMWFXWlBKdkNmS3BYSzlocjd0WWtoOFJGclpTTXI3WVZfQklxY18zeWcxLVJXS2NpaGxPQmNKQURZbUNfTXF4RnE5OFJFTlUyVkx5Uy1OeUo4QXQ4eGZHOG1NRW4yYllvUGJlQ2NUZ0F6Z0ExTWJDTTUyOTB6MnNpTnBPazAzdk42OWJGbXZ2ZXZTVmJnbGFidGdpLVYzbzU3WEpiZEFvRTNzaXg2UE81bHo5LVJMTGFkOGZuU0Y1Y2phWFM0eEdB?oc=5",
+      "source": "EIN Presswire",
+      "publishedAt": "2026-07-08T18:33:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Job Hunters Turn to AI Classes for New Skills - GovTech",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdEh2WHBfeEJPZzU3T1pzYXBPWnRqMDlqNkRtNUZvRnNOTUx3WHEyR3FQM044M3BhU0xYOWxLV3dtQXFoU2Z2UEJEcmxHX1RTUmZqb1kyNmlkRzl6T0Z1WXVDVHdwRkZLYzg3WkhlaUZxcDc2YmJtTGJrWlR6VlhBNGdEcksxQjQ0M1Y0ODRWSTE0UEk?oc=5",
+      "source": "GovTech",
+      "publishedAt": "2026-07-08T18:30:45.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Liberty Mutual adapts to Anthropic AI suspension with internal resources - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQjZKenFOZ25BV25iQUpuLWt1M3lKSExwaGNtSmJtV2FmLVdneHRFb0dFUzVfODVScDBlaC1zTnVoUy0tcHJ2aGY2dW0wZ0tUUEZwN2F0SER2bWQ3b052cGtJM09VYmdNMjJtVEt0SVg2QzRrbzZsbGJFeXhsNWxFa18wME15TGlmcDJNQW1ndVMwczlNd0pZN2o3UzFEMmFHMlE?oc=5",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-08T18:29:44.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "July AI Office Hours and workshops support practical learning, research and exploration - Clemson News",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSW1tZlNmS0pDR0FXakVLZF85TFpkemc2NkZ0MHNYTTVBTVVkSU56VXpXRmVRekJ0UUVqNkZOZDZIdDlsdU5nT0c3dm1hcWpUR3FxQTdLWGU1QzJGZHg0TmJ5TG1vWlo5WVdkWjRrc2xRNkdhbF9SSVh5aEtNY0VJdUp1V3VMcWd0Y2p0ZGhuLXZmWWgxaFRvQk8ybXJTeE1fQlV0WHZ0Y3BJanZUY1RqYzl3?oc=5",
       "source": "Clemson News",
       "publishedAt": "2026-07-08T18:22:12.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "US IPO activity set to rise, fueling AI infrastructure investments: FOMC - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa3NTODZ0aU14cTBUMTltWkFYUmVtQ3QxeGFfbjNIaEpZMjNtQnJSaEkwNEc2a1RaenNtMnl4XzdpcnAwU0FhanNrWVY4LUxYTi1jZTZfUXJsQWlqaFhsQzZET1QtQTZxXzg1OWdmVm0xQW1uOXUyQnNXdlZjSTZVWDVuVk5xcHppbkdac3p1TlU2R3lMdjZZRFlzYjZIdlE?oc=5",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-08T18:21:35.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1473,50 +1573,6 @@
       "score": 40
     },
     {
-      "title": "The Best Way to Learn about Agentic AI? Just Build - Kellogg School of Management",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcmlZN01uOXNtejJzU25ENlFQZEtTaEJwbGI3aEg2bDFaekJDT2I5M0JEUHJza0pSbmZta0JIX0RydHl1MW9aVElVZ3Z4SzRrQmlHVXFtdnV1UHVucmtudHpOd0lIS3ZDWFFUbVdIakRBTWM2Q1R5cFJsZ3J5Zl9DRXZ5RG9nZw?oc=5",
-      "source": "Kellogg School of Management",
-      "publishedAt": "2026-07-08T17:53:12.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI takes on one of physics’ biggest mysteries - UC Irvine News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUHg2UFdwRVphWWdrc3FFVFdnMmZhUE4waXpiU0Y2YnBxMUxfeVNtXzhmamJpQ3dIOWhmRkROVkU5MWF1Wnh1R0daejlCUU5SakFIOE81MExZWDMyUzVoQVBncWJKS3ZtaGI2d0YwSEtybDlwZmI2SWlzU1JFc3Q0WS1Ocw?oc=5",
-      "source": "UC Irvine News",
-      "publishedAt": "2026-07-08T17:47:42.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Nobody Licensed AI to Give Financial Advice - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaE1YOVRCM0xnMlE2VTUyYjNuRFFGbEg2eTM0QzFvOEU2NHcwWU9UTWhlQ1cwZDhRcWpWVzVCV0toUWwyVzVtcTk0RE1tdHV2VTlMaUZEUzdNLVd6X3RQSWpMQmRnMWFteGh5YUZuZHhtZC1vUGgwOEE1US1zUUUyeHVxaEQxaHNxR0pnelAzX3NKOUhHZmdDX19oWGZMOFUzWG0w?oc=5",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-07-08T17:44:41.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Meta is launching a new AI image generator for Instagram and WhatsApp - Live 5 News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc00tMDV4anpYY0cwOGFHZjFwWFBDbWt1empNMnhtNHktYjNfXzlvV29uUlJ2NUFXMGZRQ21ZbW04RlNUb2JUVThDRnVlRXo5cGNZM1BpT3cxOFdsa3V0T2N2MVRXRm14SjRZT2c0aFZLaEZtN0gzcnVrSjhfekdwSjB3Q1dDazJkaEdtc21OaE55NGN3ZjRxZXg2MUQ2d9IBsgFBVV95cUxQX0lLa2x0MlB1Y1NEQ1QzZkdubTdvdC15WXhIcU5JNzlOMG1jYUVHMkhkbks5ZnlZMVhOUmZ0X0puSWtTajRLQlFrNnBQX09jWGtoWDk1U3Y3amJFaTUwOS01TnhuVzFLa0tZUGwtaFQzeVNRV2U3NGtCc1FlaFNsanJOazZETjdKWTZmV3dBMDhtdHJGeUFjZ0ZSbmNkODk2TzU3NzRrek93a0ZWWjJyS1Fn?oc=5",
-      "source": "Live 5 News",
-      "publishedAt": "2026-07-08T17:38:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Asia Funds Dominate in 2026 Amid AI Infrastructure Boom - Morningstar",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZlpPeW41cVN3Ym5QdHhBcl95NFZ5MVRqenFMdlN0YzBUNG1lTUotakYzWjVFSFdVX1RrVVVNeVUyektOdHdWMDB3eDhMR29hTzJqa2c1VVFfdS1OeC1Sa0s5R2I5ODlwUFdaaE9hdlN5c3djSDdFTW9RQTdfS0NabUhoOGp1UUNTblNoNWpza1dkcldYcEFMS2psWQ?oc=5",
       "source": "Morningstar",
@@ -1528,22 +1584,36 @@
       "score": 40
     },
     {
-      "title": "Linkhome stock surges 20% on AI infrastructure expansion plan - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdmRILWhGaVdGMG5MYWN0b3JOSERuT2NKd0xPUks2YW5VUF9aZ3V0WWlDRUtnZzlDMWhJWGI0TWdYcVFZU2xDRkVKa3Uyd0FFRFJRblM1b01EQU5WbFlFSE5idGVWRmpJMWZJZmFrNXdsNG95eTEtbFEzdzJLR2wwa1V3alRhNHozaUJrV2hPeWFWVDNUeWxNU1dhbzVRSVZCQ1I5b3JGX1U2eFUzTmtqVXVqX01TdTU2VkVUZkl5VQ?oc=5",
+      "title": "Linkhome stock surges 20% on AI infrastructure expansion plan",
+      "url": "https://www.investing.com/news/stock-market-news/linkhome-stock-surges-20-on-ai-infrastructure-expansion-plan-93CH-4782042",
       "source": "Investing.com",
-      "publishedAt": "2026-07-08T15:42:15.000Z",
+      "publishedAt": "2026-07-08T15:40:36.000Z",
       "kind": "news",
+      "summary": "Linkhome Holdings Inc. (NASDAQ: LHAI) saw its stock jump 20% after its board approved a strategic expansion into the AI infrastructure sector, including GPU cloud services and AI data center solutions. The company also entered into a non-binding Memorandum of Understanding with an enterprise customer for AI infrastructure services, with a potential contract value of up to $10.5 million. This expansion aims to leverage Linkhome's OpenLink platform to meet the growing demand fo [sentiment: Bullish]",
       "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "These AI startups are growing revenue at faster and faster rates - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb2V3V1p5cFU4OFEtLUJIemJNMUFBMWdxSXhadGZDS0o2eC1MYjBtUUtMWGtLdk9BZ1RibEdsN0VUcFo1YzN3elR3RHNYdEQzdDQtWVJFNDhjSG9RTS1XR1AwbEFCUTBVYkI0UVRwU1lQY2pUQ1JwLVltaGNDOXZJQy14TGp2N2hwdUpIWjZzUXgyWnJXYmxNVjhkOE5oS2hI?oc=5",
-      "source": "TechCrunch",
-      "publishedAt": "2026-07-08T15:41:06.000Z",
+      "title": "Conagra Brands options signal 5.5% move on July 15 earnings",
+      "url": "https://www.investing.com/news/stock-market-news/conagra-brands-options-signal-55-move-on-july-15-earnings-93CH-4781976",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-08T14:56:13.000Z",
       "kind": "news",
+      "summary": "Options data suggests Conagra Brands Inc. (NYSE: CAG) shares could move 5.5% when the company releases its earnings report on July 15. The food manufacturer's stock has historically exceeded the movement predicted by options in four of its last eight earnings announcements. The article highlights past performance against implied moves, noting both increases and decreases in share price. [sentiment: Neutral]",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Micron Earnings: I Was Worried For Nothing (Rating Upgrade) (NASDAQ:MU)",
+      "url": "https://seekingalpha.com/article/4920619-micron-earnings-i-was-worried-for-nothing-rating-upgrade",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-08T14:38:17.000Z",
+      "kind": "news",
+      "summary": "Micron Technology delivered an extraordinary Q3, leading to a rating upgrade to \"buy\" due to AI-driven demand fueling record revenue and margin growth. The company reported a 346% year-over-year revenue increase to $41.46 billion, with strong gross and operating margins, and provided optimistic Q4 guidance. Despite recent market fluctuations, Micron's long-term outlook is bullish, supported by structural AI demand and substantial contracted revenue. [sentiment: Bullish]",
       "tier": 2,
       "tickers": [],
       "related": [],
@@ -1561,23 +1631,57 @@
       "score": 40
     },
     {
-      "title": "The U.S. strikes Iran, Samsung's Wall Street letdown, using AI for financial planning and more in Morning Squawk",
-      "url": "https://www.cnbc.com/2026/07/08/the-us-strikes-iran-samsungs-wall-street-letdown-using-ai-for-financial-planning-and-more-in-morning-squawk.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-08T12:22:22.000Z",
+      "title": "Kirby stock surges 7% on BofA price target hike to $182",
+      "url": "https://www.investing.com/news/stock-market-news/kirby-stock-surges-7-on-bofa-price-target-hike-to-182-93CH-4781945",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-08T14:09:47.000Z",
       "kind": "news",
-      "summary": "Here are five key things investors need to know to start the trading day.",
+      "summary": "Kirby Corporation's stock surged 7.2% after BofA Securities raised its price target to $182 from $169, maintaining a Buy rating. This upgrade is driven by continued revenue growth in Kirby's Marine Transportation and Power Generation segments, with Power Gen emerging as a significant growth engine due to increasing demand from data centers and industrial customers. Management expects Power Gen revenues to double its installed base within 18 months, with a backlog exceeding $1 [sentiment: Bullish]",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Can AI equalize political campaign ads – or will it remain a tool for spreading lies? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdEd4ajBKR1ZUQlpHNGxuVWlFMmNhazNkV3E1QzFNUmp0U21lUkFqWUdGV1RBRUo5dFB3UWZMV0lGRlB4YlJjUEs0MHNFOUVhemxZd2ZYVnVabUYwZl85Wml0cEcySEduR0JpVTMwV1ZwUGhpZjNZRnlNdmtVMVNWRHA1Yw?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-07-08T13:01:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Globant and Vercel Forge Strategic Alliance to Take Enterprises from Agentic AI to Full Production with AI Pods - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOS01nZVVuR3ZhaGYwUHJMMW5rcUNTYlRqbDF1S2JFWnl2NzhtS2NNZ0xUNkYzbWphVGpfNGdWV0o3cWNpQlR4dV9yNFowYVpNU1ZiSHBJUFB5UjFxY0p6SzQwOEYta1pUa1g0YlVnNjd3RkFpVEJOb1dzaEtLejNuOUk1dF9rZk03dEhQdG12bVEweUg1QnEtaDRUM01Eak1KMTFxRzBsV280T2ZMTUhtbXN6aVN0bHg2SWxKR3JGZFZTVVIyb3BjbTlHZXJ2RFJnU21xZm9vS1doVEFJU1lyS25DMlljZm4tMnhhd29qTFhIVHZiMzRHelZSOA?oc=5",
+      "title": "More Human, Not Less: New Edward Jones and Morning Consult Research Shows AI is Deepening the Role of the Financial Advisor - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPMnM2TnI4Q0J0eTl2QjREVUJIWi1MejJQNG9lYnc4bU5qQ0g4SWZ4OVZXMFAzYldNdUVvVjE2dEtrTWZJUUNjTFd1Uk9JSjRSVUtNbVp5TkstYXV4WU5iVVJpNm9iUTlnVEJRUDRrekNGYWFZVDlFbnkwNHFZeGY0OVRxTlA4eE1CZDNjNWNTa184M1pUbHVLcC1zNmloZnRXWFRRclluRWxKUk4yTkxOTTluY3lXOHRYZTZkUHRrTnVUNFBWbkZEaUhkTUd4Y05YbXhidk1UTUM1Wkd6bFV0SFFmeTJrcVFrWkdZZzg2NlRWNEVTQ3YxTzJ6RXk0OTZ4by1MRmhNaHk?oc=5",
       "source": "PR Newswire",
-      "publishedAt": "2026-07-08T12:00:00.000Z",
+      "publishedAt": "2026-07-08T13:00:00.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Playlist Launches AI Concierge, a 24/7 Front Desk Assistant for Fitness and Wellness Operators - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOblB1MEJZUGIzQ0lpV3lKYUdhVWtwb3U3TWpxb2VueTQ1dmxNY0VNOEJsaElRenpULVRVT1c0TFBGbzl0QXNpMU5laERvMXk2eV9HSjJYLXZGdDNqQXRXS2NYZkNGal9KWGx1NkdYVFlRYmJ4d1VPQ2hlcU9Ja2VHRjUtVlVHQVNjWjdlSjMwVWUtb0ZEdWZaYldTbmtPOTdid09DcndjZHpIaURrVkU2SS1SLXhxa2ZHb2EwNk8wVTBnMDBYVjltWnB0d0xnMWc1TGE0Snd5cGY3YzNQZXFrYWdn?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "The U.S. strikes Iran, Samsung's Wall Street letdown, using AI for financial planning and more in Morning Squawk",
+      "url": "https://www.cnbc.com/2026/07/08/the-us-strikes-iran-samsungs-wall-street-letdown-using-ai-for-financial-planning-and-more-in-morning-squawk.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T12:22:22.000Z",
+      "kind": "news",
+      "summary": "Here are five key things investors need to know to start the trading day.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1599,107 +1703,6 @@
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWFFrdGRHU3ZuME5nNkpEX0RGZXE1bjdUbFNCSVc1cmdSeDRDTktfUzFVLU1NNFlfWkFDT1Z2ZW9UT0o2QWd0c3JmeDBLbldmNVVEa3dwa2Z6U2Q3dTBhN2E0RjNFNGxrMThLbnVJSzlmV29PM01scjFYeVB5bk1DdWxLUkhTZXNGZGNWdXVNWWoyTmFibW5tQnZpNkl5aTNpc2JWRHhxN3RiU0pzV0RFU25NZmdGM1FkV1RDOFFnVTlfN2d1c2lVVTFqdmJYdm5XdG9xT01aS3MyZzBXdGxOZDhSWEJDNElPRkJ6TW9vWGNfZ1BI?oc=5",
       "source": "GlobeNewswire",
       "publishedAt": "2026-07-08T12:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "5 Top Artificial Intelligence (AI) Stocks for the Second Half of 2026 - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWHJkUHJKQ0pNc3FQcWxiVV9ZbEZyV3pYREtIaDZxRjJraC1LNUs3ZmI1cVEzdlFUM0E1ZllnZGJzNnV6Q1F3S09LRVlMZlRTTWNGQUV4amJnY1VWV2gwX0tkNUFaeGx1VHE1cjVWWm9SUFdGZG9UMjc3SUR1cVA3MXVqVEp4cHFfMDFPZDNVbGx5dFN1azFzQg?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-08T10:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Head of employment service: AI bringing increased unemployment in hi-tech sector - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0LUNvRGdwQnpYT0xMSG9KRDJDMlRiLWgyMENkeUJuU3d3Uk1OSlQtVGZnZXgzUXF1UWNCa2g1dlNNbVNWQVphT0JFdjNVdXZyUk5IWFkwZ09jaWN4bXNJUlQ4azQxTmphQ2tVMQ?oc=5",
-      "source": "The Jerusalem Post",
-      "publishedAt": "2026-07-08T10:16:02.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "HD Hyundai, Schneider target AI boom with data centers at sea - The Korea Economic Daily Global Edition",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xYTFLWEpGRTBpdlc1VndYeWdWc24ycWRuaHR4Q3d1UmczQ0Nia3lrNjlHYTlELWlpQVFYLVR5YWF1ZHJua242WG5ONjZsUkhQLTR0SW5NUjY0RGUwbXdqOFB0V2RGaGRaaFV4SXJnWmtzeExGcEk1RDEyaTlLNDQ?oc=5",
-      "source": "The Korea Economic Daily Global Edition",
-      "publishedAt": "2026-07-08T09:07:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "This AI shortcut could destroy the industry's profits - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY1RXNlFnVUtJOTRVUzhHUHhoa1hDWHZhMktzZk9scUxtWXpTU1NVRGdCcjdwSDc2RnMyaTFrRF9TNUktUVVieVZiYXVQM3FPMTYzWjZwX1MwQXlrS3Bkcld6Q0hRVm1BYTRhc09HSDBtX29uSnVObHc3N3ZFMF9fajJnRm1obVZJNHFpRF9fMkdNUQ?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-07-08T09:02:09.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "2 Artificial Intelligence (AI) Memory Stocks to Buy Hand Over Fist in July - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVQ4NGl6TXprOUtfX0x3TVFVcEtaMmdaTl93TUZBUnBFUlhjTU1kM3oxc1V1dzRQX0J0aWpBVnRVeXlkbHVDVnd3d2QyRzlQRzZmX3g4ekFpQkpWZ25YTHRvRmxQNnQ3enRJazQxM0dBeUNYdFNHYm1PbEcwNFRKSmt4X2JvQmtkck5IMGFZNGRlTnU0Z004?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-08T08:25:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "China warns about AI risks with Anthropic's Claude Code",
-      "url": "https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-08T08:14:28.000Z",
-      "kind": "news",
-      "summary": "China said specific versions of Claude Code posed back-door vulnerabilities that could send sensitive information to a remote server.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "China Says It Has Found Security Vulnerabilities in Anthropic’s Claude Code - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnhuNTk2eXJ6MFM2WmREY0pSNFN1REdpZXRFVU5FNElsTl9ZNFJ1YjFXQ084M19hN3FXWTFlY2ZDRnFLLWFXZGRybkhSa2hFbUtKRDJJUDR0QlNQcUZVZTVfOWRUUHRGenNleHFfcy1oS0NYVmN6QThLMjFBWF9qMDlwZ1hnNTE0cVAzNm1nNl9sOEVnM1Q0Vkg1WUNDQTlwUGVvWWsxRlVLVFNxS1ctVw?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-07-08T08:08:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Samsung-backed AI chip firm Rebellions targets IPO in South Korea next year, CEO tells CNBC",
-      "url": "https://www.cnbc.com/2026/07/08/rebellions-ipo-south-korea-ai-chips.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-08T07:34:15.000Z",
-      "kind": "news",
-      "summary": "Sunghyun Park, CEO of Rebellions, told CNBC that the company is leaning toward a listing on the KOSPI over the KOSDAQ.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Taihan Cable & Solution wins Australian order for AI data center power grid - The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcFV1WG9wOEM1U0ktbGE3VGxxdllsdE9DVDF5T2lXc0NDUWF2cDB4amVWajdMTkxMbWVQT19yZU85MG9BbVZGdDVvVnJsTEZfZndTQmx2Rk83bllfQWRXSWdSTHZsR1ZFVFJUbkp6d1dTODhoell4bFR5MVR4dVpyci05bUxaMnpvdENKNjRydXFJVTF1U2M3Y3NCLXcydlNMbVBLYS1XNDJfMXZaRS1tV0RlTExUZTVRVndtN29STHBhcjJ6dmtfVDFB0gHPAUFVX3lxTE10MU14YTBDT2Q4LUpKVGhhZklvUFpTN1JOeXlvOHMzS3hkRjNlYWp3SWMzYjdsRS1vX1RweXZnXzNFMzA3cHNYVVpwelo1ZkliNGIxWHdpSUJzWl9BZ2FYTEF0a0lNNk9XejQtUlFhRmMtTjQ5UHJsVHA5OE9fQ0hTaW1jUXF3YzM2ZGZsX1lJSERmWUNLZlhTQ2ttaTA0YW0zbW0xV1p4Rkk4d0xGazRiaGNhZWpSa0lqeXJQXzFNVWFPMHJibHl5aGFuZklqbw?oc=5",
-      "source": "The Korea Times",
-      "publishedAt": "2026-07-08T07:25:05.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

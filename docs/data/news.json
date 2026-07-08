@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T22:01:16.408Z",
+  "generatedAt": "2026-07-08T22:31:15.800Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: SCHEDULE 13D/A — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000212347026000004/xslSCHEDULE_13D_X02/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-08T18:05:07.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 85,
+      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
+      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
+    },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026076168/ea0297342-dfan14a_toby.htm",
@@ -392,21 +407,6 @@
       "summary": "Toby R. Neugebauer and affiliated entities, collectively known as the Fermi Founder Parties, have filed a definitive proxy statement to solicit agent designations for calling a special meeting of Fermi Inc. shareholders. Neugebauer beneficially owns 146,516,035 shares of the company's common stock, while the other participants do not own any shares. The proxy statement and accompanying materials contain important information regarding the special meeting and are available on the SEC's website and upon request from the participants."
     },
     {
-      "title": "SEC filing: DFAN14A — Fermi Inc. (SOLICITING MATERIAL PURSUANT TO 240.14A-12A)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026068250/ea0294673-dfan14a_toby.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-06-12T20:01:15.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
-      "summary": "Toby R. Neugebauer and other participants, including Vicksburg Investments Management LLC and Melissa A. Neugebauer 2020 Trust, have filed a definitive proxy statement with the SEC to solicit agent designations for calling a special meeting of Fermi Inc. shareholders. Neugebauer beneficially owns 146,516,035 shares of Fermi Inc.'s common stock, while the other participants do not own any shares. The filing advises all shareholders to read the definitive proxy statement and other proxy materials because they contain important information regarding the solicitation."
-    },
-    {
       "title": "Why Did FRMI Stock Tumble More Than 28% In After-Hours Trading Today? - Stocktwits",
       "url": "https://stocktwits.com/news-articles/markets/equity/why-did-frmi-stock-tumble-in-after-hours-trading-today/cZJydgRRIUp",
       "source": "Stocktwits",
@@ -671,6 +671,20 @@
       "excerpt": "Live Update At 14:02:41 EDT: On Friday, June 26, 2026 Fermi Inc. stock [NASDAQ: FRMI] is trending up by 6.87%! Discover the key drivers behind this movement as well as our expert analysis in the detailed breakdown below. FRMI has been on a strong multi‑week run. In early June, FRMI traded around the mid‑$5s. By 2026/06/26, it closed near $9.41 after touching $9.50 intraday. That is a powerful trend for any momentum trader watching the tape."
     },
     {
+      "title": "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fermi-frmi-down-7-4-001532589.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-06-26T00:15:32.000Z",
+      "kind": "news",
+      "summary": "In June 2026, Fermi Inc. and co-founder and major shareholder Toby R. Neugebauer engaged in an escalating governance dispute over his consent solicitation to call a special shareholder meeting and influence the Company’s direction and Project Matador. Amid this contest, Fermi advanced Project Matador by signing a service agreement with TSK Electronica y Electricidad USA for three Siemens SGT6-5000F gas turbines, aiming to accelerate engineering, permitting, and execution for ",
+      "tier": 3,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 25
+    },
+    {
       "title": "/C O R R E C T I O N -- Toby Neugebauer/",
       "url": "https://finance.yahoo.com/markets/stocks/articles/c-o-r-r-e-192300249.html?.tsrc=rss",
       "source": "Yahoo Finance",
@@ -691,20 +705,6 @@
       "publishedAt": "2026-06-25T17:46:00.000Z",
       "kind": "news",
       "summary": "Toby Neugebauer, co-founder and largest individual shareholder of Fermi America, Inc. (Nasdaq: FRMI), today proposed a historic town hall webinar for Tuesday, June 30th — inviting Governor Rick Perry and his son Griffin Perry to join him before shareholders vote, so that investors can hear first-hand each party's views on the past, present, and future of Fermi.",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 25
-    },
-    {
-      "title": "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
-      "url": "https://uk.finance.yahoo.com/news/fermi-frmi-down-7-4-001532589.html",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-06-25T17:15:00.000Z",
-      "kind": "news",
-      "summary": "In June 2026, Fermi Inc. and co-founder and major shareholder Toby R. Neugebauer engaged in an escalating governance dispute over his consent solicitation to call a special shareholder meeting and ...",
       "tier": 3,
       "tickers": [
         "FRMI"
@@ -754,21 +754,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "The AI tailwind isn't over yet."
-    },
-    {
-      "title": "OpenAI publishes national security principles amid government AI tensions - Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/openai-publishes-national-security-principles-amid-government-ai-tensions-93CH-4782565",
-      "source": "Investing.com",
-      "publishedAt": "2026-07-08T21:07:39.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
     },
     {
       "title": "Intel-backed AI chip startup SambaNova breathes new life into aging Nvidia GPUs in latest benchmarks - The Register",
@@ -881,40 +868,12 @@
       "score": 65
     },
     {
-      "title": "China May Finally Let Its Top Tech Giants Buy NVIDIA AI Chips Again - Android Headlines",
-      "url": "https://www.androidheadlines.com/2026/07/china-allows-nvidia-h200-ai-chip-purchases-alibaba-bytedance.html",
-      "source": "Android Headlines",
-      "publishedAt": "2026-07-08T21:29:30.000Z",
+      "title": "OpenAI publishes national security principles amid government AI tensions - Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/openai-publishes-national-security-principles-amid-government-ai-tensions-93CH-4782565",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-08T21:07:39.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Amid a computing shortage, China reportedly plans to let top AI firms like Alibaba and ByteDance buy limited supply of NVIDIA H200 chips."
-    },
-    {
-      "title": "PENG Stock Jumps As Nvidia AI Partner Status Fuels Momentum - timothysykes.com",
-      "url": "https://www.timothysykes.com/news/penguin-solutions-inc-peng-news-2026_07_08-2/",
-      "source": "timothysykes.com",
-      "publishedAt": "2026-07-08T21:04:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Penguin Solutions Inc. surged on AI infrastructure contract wins, as stocks have been trading up by 24.54 percent. Key Takeaways Penguin Solutions was named an Nvidia AI Factory Specialized Partner, an invitation-only status. The new Nvidia designation highlights Penguin Solutions’ strength in"
-    },
-    {
-      "title": "OpenAI to release its most powerful model after weekslong hold - Politico",
-      "url": "https://www.politico.com/news/2026/07/08/open-ai-models-release-sol-00989959",
-      "source": "Politico",
-      "publishedAt": "2026-07-08T21:03:00.000Z",
-      "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "OpenAI"
@@ -964,9 +923,9 @@
       "summary": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos."
     },
     {
-      "title": "China to Let AI Firms Buy Nvidia H200s, Information Says - Bloomberg.com",
+      "title": "China to Let AI Firms Buy Nvidia H200s, Information Says - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-07-08/china-to-let-ai-firms-buy-nvidia-h200-chips-information-says",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T15:21:20.000Z",
       "kind": "news",
       "tier": 1,
@@ -990,6 +949,19 @@
       "score": 55
     },
     {
+      "title": "Scoop: Trump administration lifts restrictions on OpenAI's GPT 5.6 - Axios",
+      "url": "https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted",
+      "source": "Axios",
+      "publishedAt": "2026-07-08T14:15:37.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
       "title": "OpenAI Researcher Says GPT-5.6 is Better at AI Research Than Most Human Interns - The Information",
       "url": "https://www.theinformation.com/newsletters/ai-agenda/openai-researcher-says-gpt-5-6-better-ai-research-human-interns",
       "source": "The Information",
@@ -1003,9 +975,9 @@
       "score": 55
     },
     {
-      "title": "Nvidia’s $1 Trillion Slide Sends Valuation to Pre-AI Boom Levels - Bloomberg.com",
+      "title": "Nvidia’s $1 Trillion Slide Sends Valuation to Pre-AI Boom Levels - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-07-08/nvidia-s-1-trillion-slide-sends-valuation-to-pre-ai-boom-levels",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T13:44:07.000Z",
       "kind": "news",
       "tier": 1,
@@ -1020,19 +992,6 @@
       "url": "https://www.cnbc.com/2026/07/08/openai-gets-us-regulatory-approval-for-gpt-5point6-rollout-axios-report.html",
       "source": "CNBC",
       "publishedAt": "2026-07-08T09:28:50.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Scoop: Trump administration lifts restrictions on OpenAI's GPT 5.6 - Axios",
-      "url": "https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted",
-      "source": "Axios",
-      "publishedAt": "2026-07-08T09:20:07.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1069,9 +1028,9 @@
       "score": 55
     },
     {
-      "title": "OpenAI to Roll Out Top AI Model Globally After Limited Preview - Bloomberg.com",
+      "title": "OpenAI to Roll Out Top AI Model Globally After Limited Preview - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-07-08/openai-to-roll-out-top-ai-model-globally-after-limited-preview",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T07:33:32.000Z",
       "kind": "news",
       "tier": 1,
@@ -1110,9 +1069,9 @@
       "summary": "/PRNewswire/ -- Parasail, the inference cloud for AI-native startups, and d-Matrix, a pioneer in low-latency AI inference compute platforms for data centers,..."
     },
     {
-      "title": "Anthropic and OpenAI Face a New Threat from China - Bloomberg.com",
+      "title": "Anthropic and OpenAI Face a New Threat from China - Bloomberg",
       "url": "https://www.bloomberg.com/opinion/articles/2026-07-08/anthropic-and-openai-face-a-new-threat-from-cheap-chinese-ai",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T04:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1147,9 +1106,62 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "China May Finally Let Its Top Tech Giants Buy NVIDIA AI Chips Again - Android Headlines",
+      "url": "https://www.androidheadlines.com/2026/07/china-allows-nvidia-h200-ai-chip-purchases-alibaba-bytedance.html",
+      "source": "Android Headlines",
+      "publishedAt": "2026-07-08T21:29:30.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Amid a computing shortage, China reportedly plans to let top AI firms like Alibaba and ByteDance buy limited supply of NVIDIA H200 chips."
+    },
+    {
+      "title": "PENG Stock Jumps As Nvidia AI Partner Status Fuels Momentum - timothysykes.com",
+      "url": "https://www.timothysykes.com/news/penguin-solutions-inc-peng-news-2026_07_08-2/",
+      "source": "timothysykes.com",
+      "publishedAt": "2026-07-08T21:04:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Penguin Solutions Inc. surged on AI infrastructure contract wins, as stocks have been trading up by 24.54 percent. Key Takeaways Penguin Solutions was named an Nvidia AI Factory Specialized Partner, an invitation-only status. The new Nvidia designation highlights Penguin Solutions’ strength in"
+    },
+    {
+      "title": "OpenAI to release its most powerful model after weekslong hold - Politico",
+      "url": "https://www.politico.com/news/2026/07/08/open-ai-models-release-sol-00989959",
+      "source": "Politico",
+      "publishedAt": "2026-07-08T21:03:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "Jim Cramer sees a big risk to the bull market resurfacing — and it's not the Iran war",
+      "url": "https://www.cnbc.com/2026/07/08/jim-cramer-risk-bull-market-resurfacing.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T22:14:51.000Z",
+      "kind": "news",
+      "summary": "CNBC's Jim Cramer said the growing wave of stock offerings and debt issuance is the next big threat to the bull market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Levi Strauss beats quarterly expectations, raises guidance and dividend",
       "url": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html",
@@ -1172,7 +1184,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Rambus Enables Next-Generation AI and Data Center Platforms with DDR5 9600 Server RDIMM Chipset - Business Wire",
@@ -1268,7 +1280,7 @@
       "title": "How to Prevent Meta From Using Your Instagram Images in A.I. - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3ZldLcGpqR1JOYkhkYmFKUkJObnYzTEVscFM3T1FDREZPV2ZremRhQ3JTRm9HU3pHdFY2dkRTNDh6SzQzV193OGpQeE1GNjBRc1E1UkFhUWFxUHpYUWVWMlBpYzNiYWN0ejNCQzVxNDVlSnZVX2ow?oc=5",
       "source": "The New York Times",
-      "publishedAt": "2026-07-08T19:52:50.000Z",
+      "publishedAt": "2026-07-08T19:52:51.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1287,9 +1299,9 @@
       "score": 50
     },
     {
-      "title": "Meta to Build First Data Center in Canada, Expanding Global Fleet - Bloomberg.com",
+      "title": "Meta to Build First Data Center in Canada, Expanding Global Fleet - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdS02eldqQ0FFdTlnbmJoQUpBYUZRZ1VIQnl2My1meThablRvcTVYUU85LThSOUVJSjJjdEQ4VENhbUNETkdHX0RHeEhJajAtTWFVYzBqSF9Cd0ZCNmlua1JZckI1Z1pyODVvYlRDa0k4eFNzVS0tQmhYQkJzWEdRLWpxc2tIZFBVZ0N1R1dGa0NzSGtLeC1VWncwZGRwaEs0bHd4RVE0b3Z1YlZsNzl3Q1NFQkpBZTlwUnpUdjNoVlZ2QQ?oc=5",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-07-08T19:30:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1298,10 +1310,10 @@
       "score": 50
     },
     {
-      "title": "Meta to spend $13-billion to build AI data centre in Alberta - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ2IwcU1Vb2I5QkZjZ3RnbTd4NXZyOUZRYmh0QTl3LVdQaUE5b2hUOWpQYlNIQnltZzdJTlc0c0c0RFBlTWxTaWNVcU1hRUU3elNKbTM5RUVVUVN5eDVrM1FMV3VuU1FUY3R4aDRPekNDYlFPSTUyaUxTUjZ5dm1fc21PSE1JUUZJRmFUM25BVlZJSjhwTjZJMg?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-07-08T19:30:00.000Z",
+      "title": "Is the \"Magnificent Seven's\" Plan to Spend $700 Billion on AI Capex in 2026 Going to Lead to an Overbuild? Meta's CEO Mark Zuckerberg May Have Just Revealed the Answer. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNU8xUmViSkFnWE9ON1B2Ymw4ZTNWTUhIdU12bFZIemd4TDlPdXhqc0xrcnJLc0h4SWlyTzgyUk1HdzdkWTBQaWFzV01XSFNkVTV2T3JOQW9INFlfN21pMUN1T0paVkZRQVFpdFU0LXVPUWZqS0FKVVBHVURsTUJJNGNFRTJNbmFqWDFpM3B0NUVKUFR1Z0p5cA?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-08T19:21:28.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1376,38 +1388,48 @@
       "score": 50
     },
     {
-      "title": "The Role of Artificial Intelligence in the 2026 U.S. Elections - The National Law Review",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV3ZvSjdwTXdLdThtd2ZkWEZGcFdpc3NpZlkwWWZQaTM1Yl94UzBBT3Y0Mnhia2t5d1BObC1XU3lOd2NnWl83d0hQTXpvczEwY1Q4UzV0dWVyWEQ0aXVZVUhGWXFockNyTk42YW0tSFJsT1lCbVVHZ0NJQTRoOWltbDI0RWZYVmV3b1lyaUptOA?oc=5",
-      "source": "The National Law Review",
-      "publishedAt": "2026-07-08T16:15:12.000Z",
+      "title": "Governor signs landmark AI regulation bill that aims to mitigate risks - Jacksonville Journal-Courier",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFNKNzA3a08yT0F3bVh0UGxJX21jSnZGUlVDSXR1R0d4eVBfdFJvZy1Hc0o4WVUtZkJmVDV1MFJEZEpyQmJwMjdZNkVEeG5Ia3l3RksxX1NBNjJSYVp3YUU0aWRVWl9GbWRfQUJoc0pRb1d2UU9pMEdYazlrRlQ3M2ZLeHVudlBQYXZkM2x4bkt5dDVUVUZjOXVXSlhMOXE5WlZxWENlQXNjUmItQUE?oc=5",
+      "source": "Jacksonville Journal-Courier",
+      "publishedAt": "2026-07-08T22:18:53.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "AEW 2026 to spotlight Nigeria’s AI infrastructure race, gas-to-power opportunities - The Guardian Nigeria News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnlZTm9LemZvcG4wRmZMN01WeFlZQWY2a3VvTjRTOXhuMjZGYkFwYW53WEdnT1JJV2lLYUwtT2hJMm9pcDZ1dFpUcFd3aEFfeWdabG5Pd09xMjhTTzdIUWRuN3c2d3hCYmN6bzVySnlxWk83bHpjWjQ3TWNtdzI0bEtPZFNNaXdERHVWTWhHb3FhbENLaVA4aXNOQW9YUlp3Y21saDQ3dEZiUUs5MERrTmJmNVVOXzdf?oc=5",
-      "source": "The Guardian Nigeria News",
-      "publishedAt": "2026-07-08T16:06:00.000Z",
+      "title": "Southeastern hosts Artificial Intelligence Launchpad - an17.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPM0dCZ1h6dllEVm1GRU0yeGpoa1ZzdkJjeUJNYjg1Y24xWXowLU1NMW0zZ2JrZ0VnbDFnMjZLLVQxX0JLVGNVVUQ3WUZGVFk1WXJ4enVGTGNLU3NKcVk3TGR1RkZDVjh0RDJVbjNfaVdVX3J6Z1VoV3hDeTJuMklXeXVzWnFjRzBfU0R1ei11dFJPMlRvalFoaTNvcWJseWtiZ3ZXbzlpQzdTOFNWZUZZMzJ5RTVRRUtlZjZITjdYdThVQU40MVI2VmhhYVFDSHg3REVYTg?oc=5",
+      "source": "an17.com",
+      "publishedAt": "2026-07-08T22:09:00.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Jim Cramer says this 'self-help story' is a long-term buy after a 25% pullback",
-      "url": "https://www.cnbc.com/2026/07/08/jim-cramer-says-this-self-help-story-is-a-long-term-buy-after-a-25percent-pullback.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-08T16:05:26.000Z",
+      "title": "Is Hollywood ready for an AI movie star? Tilly Norwood's creators plan to find out - WCIV",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbWxNTmVhSG96bnVGWjdpYnlqSDJkenRBajR1TG5WSFJ0dk95Y1VkYWpmVkJhT3ZValZUWFVkSWtpNU45RG1VLXlUalVFLTJfZEtGVTJZUEhTdGVaQWJaMDU2bEZBd2xGMlBIQUpCaEthTkw0aXVVOGdfeVU4ekFXcW5HOTc0YUYwY3dQNU5BOFN2N2RWQktnSWV5SEFVODI5a2lzVDM1RXdHZldvWHNMeWtqUlQ3eDQxbTJ3VUg1Z0pkNmxsVnVJVndHNmZWVEwtc2xCYnVVTXJYbGUzcXhKbTJZNlgwb1drT05zLUlJME16Vi1majRVNVVMaXZVZlB0bjlkeXNHTWE?oc=5",
+      "source": "WCIV",
+      "publishedAt": "2026-07-08T22:00:51.000Z",
       "kind": "news",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "Surging Data Center Demand Creates New Growth Market for US Gas Infrastructure - Hart Energy",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ1hZYVBGemZpX2FnRDVNM0VyUEZzNU1SQlRMXy1rSEZQWVo1SmZxU1UzbllvdUJPTk9wRE9ZMHJoelo3Q1J5dEdMRUVpWWlRTWttNVBGeVQ3eW9fcFdLX2ctM0VkYlBuUVBXakdfMTZVcVkwbEhSNU5rU0x3QnBDMmdCdS02M0NNMlFpYk05Ql85dnlsS0dIcVQzSQ?oc=5",
+      "source": "Hart Energy",
+      "publishedAt": "2026-07-08T21:55:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "Heat adds to strains on areas with data centers, raising the temperature on AI debates - Japan Today",
@@ -1432,56 +1454,35 @@
       "score": 40
     },
     {
-      "title": "Ricketts classifies AI data centers as matter of national security - Central - News Channel Nebraska",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMzY2V2NRNFlOMk1zWEMyc0hnN0ZPekxBUHJFX2RmQkVKUzNLLWN6RVRKOTZWeWdsVVJjem1rcGpMQ1M5NzNUaGlhLUxvaHhCcG1scHAxMGFrUzZhQ1E5Z1ktU2Jna2k4S2Q3Z3RBa29OcUZGMzRtMVk3X3VGQm5pR08wdUViUzRvSE1DLXhHaGZVVG4tT05hcTZWbE9pNmNZakhZXzJRVFIyaHV4YThXa3lkNmxBNmZUMWJsUTA1dw?oc=5",
-      "source": "Central - News Channel Nebraska",
-      "publishedAt": "2026-07-08T21:26:39.000Z",
+      "title": "The Role of Artificial Intelligence in the 2026 U.S. Elections - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV3ZvSjdwTXdLdThtd2ZkWEZGcFdpc3NpZlkwWWZQaTM1Yl94UzBBT3Y0Mnhia2t5d1BObC1XU3lOd2NnWl83d0hQTXpvczEwY1Q4UzV0dWVyWEQ0aXVZVUhGWXFockNyTk42YW0tSFJsT1lCbVVHZ0NJQTRoOWltbDI0RWZYVmV3b1lyaUptOA?oc=5",
+      "source": "The National Law Review",
+      "publishedAt": "2026-07-08T16:15:12.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "College of Education alums recognized nationally for responsible AI education - University of Hawaii System",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ybWRxM0M3eG5wNkxhbXJUUDJHUWU3d0lVWC1mS3F3VUx3Um5hQldBUV95dWRKMFZpdTFhMFR2cTl3T1ozbWhRVU1JdXZtY3pVYVE5U1Z2Ym5HSC00ckdjZXpRTnlrYjVzSW5vSi1DWQ?oc=5",
-      "source": "University of Hawaii System",
-      "publishedAt": "2026-07-08T21:18:05.000Z",
+      "title": "AEW 2026 to spotlight Nigeria’s AI infrastructure race, gas-to-power opportunities - The Guardian Nigeria News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnlZTm9LemZvcG4wRmZMN01WeFlZQWY2a3VvTjRTOXhuMjZGYkFwYW53WEdnT1JJV2lLYUwtT2hJMm9pcDZ1dFpUcFd3aEFfeWdabG5Pd09xMjhTTzdIUWRuN3c2d3hCYmN6bzVySnlxWk83bHpjWjQ3TWNtdzI0bEtPZFNNaXdERHVWTWhHb3FhbENLaVA4aXNOQW9YUlp3Y21saDQ3dEZiUUs5MERrTmJmNVVOXzdf?oc=5",
+      "source": "The Guardian Nigeria News",
+      "publishedAt": "2026-07-08T16:06:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Police use of artificial intelligence grows as rules lag behind - timesdaily.com",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb0VJelZwNnV6S3pFTHZ2bDR2anRYZ1lFOGR6RHZlY3NqMFlSOUsxZVI3QWtmMW4yNzdGTjBOcUxxZmtTalNlSjM5RWFvekZVOXRST0FZUkxFVlA5dFFFalA4cTFkWlJRYkZyUE9OUE5ubTk0V20xLXNjMWR0bXN2YVVUdEFHbFlfcEdWVE1xWjRIUHRyRWl1ZWJyTm1XbUxPOTJseEtOZk1nRDhfLURJQU1xd1VQOXllMF9zcUJZcEk4SHFRZm12Nl9Xc3JYWG95amx5MnNpOA?oc=5",
-      "source": "timesdaily.com",
-      "publishedAt": "2026-07-08T21:11:00.000Z",
+      "title": "Jim Cramer says this 'self-help story' is a long-term buy after a 25% pullback",
+      "url": "https://www.cnbc.com/2026/07/08/jim-cramer-says-this-self-help-story-is-a-long-term-buy-after-a-25percent-pullback.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T16:05:26.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Big Tech Heads To The Calgary Stampede For Data Centers - Finimize",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQUstRV9oeGNuamJ5eUtaZko5LXY1TXJiaXlOc0NYeldOZzcyRTZEVHZQOVVjY1E0X3ByRFFHUGh4VEdISmw3cnJWUjdsZWRBUm1Ca2d4UnNjTFJONFllTUdzX0F0RTJROThoZzk0SXJFU2ZfWE43eEVxalhtaGpzOW5FeXVWVXlyU1hELQ?oc=5",
-      "source": "Finimize",
-      "publishedAt": "2026-07-08T21:02:24.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Asia Funds Dominate in 2026 Amid AI Infrastructure Boom - Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZlpPeW41cVN3Ym5QdHhBcl95NFZ5MVRqenFMdlN0YzBUNG1lTUotakYzWjVFSFdVX1RrVVVNeVUyektOdHdWMDB3eDhMR29hTzJqa2c1VVFfdS1OeC1Sa0s5R2I5ODlwUFdaaE9hdlN5c3djSDdFTW9RQTdfS0NabUhoOGp1UUNTblNoNWpza1dkcldYcEFMS2psWQ?oc=5",
-      "source": "Morningstar",
-      "publishedAt": "2026-07-08T16:10:25.000Z",
-      "kind": "news",
-      "tier": 2,
+      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40

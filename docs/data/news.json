@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T20:01:16.142Z",
+  "generatedAt": "2026-07-08T20:31:22.550Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -402,7 +402,7 @@
         "FRMI"
       ],
       "related": [],
-      "score": 45,
+      "score": 35,
       "summary": "In a filing with the SEC, Fermi said that CEO Toby Neugebauer had left the company as of April 17, 2026, and that an Interim Office of the CEO had been set up to fill the gap.",
       "excerpt": "Use App Trending News Earnings All DIA 1.05% SPY 0.13% QQQ 1.73% Trending XRP 2.37% SUI 3.38% ZIM 1.35% ETH 5.27% BONK 4.59% DOGE 2.34% EWY 2.89% XTZ 9.63% CPNG 2.37% KTA 5.23% XRP 2.37% SUI 3.38% ZIM 1.35% ETH 5.27% BONK 4.59% DOGE 2.34% EWY 2.89% XTZ 9.63% CPNG 2.37% KTA 5.23% Home News Markets Equity Why Did FRMI Stock Tumble More Than 28% In After-Hours Trading Today? Advertisement | Remove ads. · Add us on Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... Loading... The company said that the Interim Office of the CEO would include Jacobo Ortiz, its Chief Operating Officer, "
     },
@@ -743,18 +743,18 @@
   ],
   "related": [
     {
-      "title": "BofA's $520 Million OpenAI Loan Signals Wall Street's Race For AI IPOs - Benzinga",
-      "url": "https://www.benzinga.com/markets/private-markets/26/07/60344491/bofas-520-million-openai-loan-signals-wall-streets-race-for-ai-ipos",
-      "source": "Benzinga",
-      "publishedAt": "2026-07-08T19:15:36.000Z",
+      "title": "Intel-backed AI chip startup SambaNova breathes new life into aging Nvidia GPUs in latest benchmarks - The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/08/intel-backed-ai-chip-startup-sambanova-breathes-new-life-into-aging-nvidia-gpus-in-latest-benchmarks/5268721",
+      "source": "The Register",
+      "publishedAt": "2026-07-08T20:19:03.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
-      "score": 65,
-      "summary": "Bank of America has moved deeper into the artificial intelligence financing race by providing OpenAI with a $520 million credit facility."
+      "score": 75,
+      "summary": "Third-party testing shows heterogeneous compute platform combining H200s and SN50 RDUs churning out 763 tok/s in MiniMax M2.7"
     },
     {
       "title": "Opinion | Maybe Anthropic and OpenAI Are Not the Future of Artificial Intelligence - The New York Times",
@@ -865,6 +865,33 @@
       "score": 65
     },
     {
+      "title": "LangChain and NVIDIA Launch NemoClaw Deep Agents Blueprint for Enterprise Agents - HPCwire",
+      "url": "https://www.hpcwire.com/bigdatawire/this-just-in/langchain-and-nvidia-launch-nemoclaw-deep-agents-blueprint-for-enterprise-agents/",
+      "source": "HPCwire",
+      "publishedAt": "2026-07-08T20:27:52.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "The NemoClaw for LangChain Deep Agents blueprint gives enterprises a reference architecture for building open agent systems with benchmark-leading performance and more than 10x lower inference costs SAN FRANCISCO, July [&hellip;]"
+    },
+    {
+      "title": "Broadcom stock jumps on Apple AI chip deal, while Nvidia's relative stock price drops - Yahoo Finance",
+      "url": "https://finance.yahoo.com/video/broadcom-stock-jumps-on-apple-ai-chip-deal-while-nvidias-relative-stock-price-drops-200428968.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-08T20:04:28.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Nvidia, Hugging Face Collaborate on Open Source Robot Models - AI Business",
       "url": "https://aibusiness.com/generative-ai/nvidia-hugging-face-collaborate-open-source-robot-models",
       "source": "AI Business",
@@ -891,6 +918,20 @@
       ],
       "score": 55,
       "summary": "Nvidia says open-source Nemotron 3 Ultra beats leading closed AI models on cost and throughput."
+    },
+    {
+      "title": "Amazon's accelerating cloud business to deliver strong Q2 (AMZN:NASDAQ)",
+      "url": "https://seekingalpha.com/news/4612313-amazons-accelerating-cloud-business-to-deliver-strong-q2",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-08T16:58:06.000Z",
+      "kind": "news",
+      "summary": "TD Cowen predicts that Amazon's cloud business, Amazon Web Services (AWS), will drive a strong second quarter for the company. AWS revenue growth is projected to hit 35.5% year-over-year, significantly higher than last year's 28.4% and exceeding consensus estimates by 3.4%. This acceleration suggests a robust performance for Amazon. [sentiment: Bullish]",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "AMZN"
+      ],
+      "score": 55
     },
     {
       "title": "China plans to let top AI firms buy limited amount of Nvidia H200 chips, the Information reports By Reuters - Investing.com",
@@ -1104,51 +1145,78 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "Anthropic tops OpenAI: How CIO evaluate AI models - InformationWeek",
-      "url": "https://www.informationweek.com/machine-learning-ai/anthropic-overtakes-openai-but-these-cios-aren-t-chasing-the-leaderboard",
-      "source": "InformationWeek",
-      "publishedAt": "2026-07-08T18:19:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "CIOs explain how they are evaluating AI models, prioritizing security, integration and agentic readiness over benchmark rankings."
-    },
-    {
-      "title": "Nasdaq Composite Reverses Course Intraday: Nvidia Back Above $200 - thebull.com.au",
-      "url": "https://thebull.com.au/us-news/nasdaq-stages-dramatic-reversal-as-ai-infrastructure-leads-tech-rally/",
-      "source": "thebull.com.au",
-      "publishedAt": "2026-07-08T18:12:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "The Nasdaq Composite executed an impressive intraday reversal today, climbing 1.2% from session lows to sit near flat territory, as investors piled back into artificial intelligence infrastructure plays despite escalating U.S.-Iran tensions and a fresh spike in oil prices. Nvidia shares advanced 2.86% to $202.56, reclaiming the psychologically important $200 level and providing crucial support"
-    },
-    {
-      "title": "PENG Stock Jumps As Nvidia Taps Penguin Solutions For AI Factory Push - StocksToTrade",
-      "url": "https://stockstotrade.com/news/penguin-solutions-inc-peng-news-2026_07_08-3/",
-      "source": "StocksToTrade",
-      "publishedAt": "2026-07-08T18:02:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Penguin Solutions Inc. stocks have been trading up by 24.21 percent after investors reacted strongly to its latest growth-focused news Key Takeaways Penguin Solutions was named an Nvidia AI Factory Specialized Partner, an invitation-only status tied to elite AI infrastructure builders. The new Nvidia partnership highlights Penguin Solutions’ strength in full-stack AI infrastructure for big&hellip;"
     }
   ],
   "general": [
+    {
+      "title": "Global Artificial Intelligence Eye Screening System Market Revenu - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWDJJM2RXZWh2Q0NIbUo2bjBFT294VnBUTzhWVWk0RTdGamtLS3FCS0NYUzMwNlo5a2hBenNlWlNGelBoblNvSXNlZ3o1MTdJSnRGcV9fUDgtNTJhVVRPZGk0V3RNSExnMERoenBtNkZxaEo2S19qcVJHZlVyWDVPMU1rUHk5SExZSFhIVDBfR0tCZFFLV3B3dkZ5WDFhX0toaVZCQndKT3BBZjIxdE90bHFnTzhpeG8?oc=5",
+      "source": "The National Law Review",
+      "publishedAt": "2026-07-08T20:14:59.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Artificial Intelligence Search Is Changing Online Visibility, Prompting Businesses to Rethink Digital Content - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNkxkeFVzeXBBWGI2cHhCcThHaVpOUFlod0M3WFJpbk5ZeC1QYkZjdC1zTE1KazE5Zk1sRWJ5a0l6dWtsR2dXZHlmS2hGUFJ2Mno1NDcwY0MtYXNuX0ljXzNsX0wtSHN1RFRFTjU5bnYwbzgtTUMtaFV5eXNBM2pZaUlHNmlUOUtQLXpLVzE1cm5Rb2xWV0FEX2RIYVJSZUVSVlpQMW5ndkNPZ00?oc=5",
+      "source": "The National Law Review",
+      "publishedAt": "2026-07-08T20:14:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Levi Strauss beats quarterly expectations, raises guidance and dividend",
+      "url": "https://www.cnbc.com/2026/07/08/levi-strauss-levi-q2-2026-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T20:12:47.000Z",
+      "kind": "news",
+      "summary": "Levi Strauss beat quarterly expectations on the top and bottom lines during its fiscal 2026 second quarter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "SpaceX stock closes below debut price at $148 in two-day slide after Nasdaq 100 inclusion",
+      "url": "https://www.cnbc.com/2026/07/08/spacex-stock-nasdaq-100-ipo.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T20:04:06.000Z",
+      "kind": "news",
+      "summary": "SpaceX's record IPO raised a total of $85.7 billion after underwriters exercised the \"greenshoe\" overallotment.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
+      "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T20:03:53.000Z",
+      "kind": "news",
+      "summary": "Apple is expanding its Broadcom partnership in a $30 billion-plus chipmaking agreement, its largest American manufacturing commitment to date.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "NEWSLETTER: China weighs silicon curtain around sought-after AI models - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGx1VW5GVElsZUZsbWtoM0xUX3pUeHd4bm0tSW94Y3ZFRUx6OXdzbmZHV21ELTV2RXJKTV82Wi0tMkxFS1VQY3VuQnVhd00xODBKd3l2SUJZODFucnU0djhxQXRRVERnV0VGZ2xDSk1teU9FZWU2dWxEaWZ0NW5QQWllNTZ0VVBTbEZBQVlCTHlYRDg3QzhFVDZvRmNobHJadjl4YzZhb2FEQzlrTTNSbWtxWlZPbXVoU3pnMG1ndXpQYW1Odlp0MA?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-08T20:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Meta is building its first big Canadian data center as AI expansion crosses the border",
       "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html",
@@ -1156,6 +1224,17 @@
       "publishedAt": "2026-07-08T19:47:03.000Z",
       "kind": "news",
       "summary": "Meta is building its first big Canadian data center as AI expansion crosses the border.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Meta to build C$13 billion Alberta data center, its first in Canada - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRU1kYi03WEJLMjUzY0lVVHVwekxGWTUzVVdZTDFGTFFKVlZERWZCOFVyak1KZ3VUYzlBZzdxZS11SW1Ldzc1amZqeG41TFJ4V0FQSW9pWFEycWhjeHByMG95SFp5VTk0SFQxYnI4Q3NLR0lZYTRSVXdGbFp6VlM4M1NqdlhZT3QzdC1mSU9ScFQwVU1mSFgxVzJvcDRnU3BIVGF4Nkotblhydno4SUZR?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-08T19:46:17.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1170,7 +1249,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "How to Prevent Meta From Using Your Instagram Images in A.I. - The New York Times",
@@ -1178,18 +1257,6 @@
       "source": "The New York Times",
       "publishedAt": "2026-07-08T19:21:29.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
-      "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-08T18:30:49.000Z",
-      "kind": "news",
-      "summary": "Apple is expanding its Broadcom partnership in a $30 billion-plus chipmaking agreement, its largest American manufacturing commitment to date.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1354,109 +1421,21 @@
       "score": 50
     },
     {
-      "title": "China issues 'backdoor' security alert over Anthropic's Claude Code - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTmtuYVZDY0RoM0VTUW1Sa3poM1pYOHlYbVJwRk1lOXNPM1QwX25uMnlrdVUxUnlqSEhXZzlrWUxFQkRRa21HeEJWR1ZrY2UzeVUwdHBmcFR5bDR1OHNIQjRHNTZUYjd0NzJzZjNsQzdqNXRBUDZDdW1wekdXU1ZHcjNlbVVvM1NiSnJVQmppV2I3ZDNnSXIyZDBWMTZPQzhWTTRNUHo2WnZ0TG9RMzhmdjdBQnRzbUts?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-08T14:28:25.000Z",
+      "title": "Report Forecasts US Growth Regions for Data Centers - New Jersey Business & Industry Association",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJc08zeWpURTZ3ZWhtTGRvLU1oXzFjazEyTTdmNnAzS0VzaW9pclpPVEZqN21TN0hBcWUtNFpjUjlCV1pFWDB3dWRadlQ4U0EwT0RSNEVxRG5qbFVLYlJ4ckpET2VfSXVtR1pWUThoaUphbndUOHNtX0NB?oc=5",
+      "source": "New Jersey Business & Industry Association",
+      "publishedAt": "2026-07-08T20:15:00.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "China's Zhipu AI launches $4 billion Hong Kong share sale as stock surges - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaG15R1d0NTBacG00WVFSMk9keXNFNVJ6cUhLcm5tbVJ1X2c3OWFaeHo2ZVM3b2pUZjhwTWRHS290eEwxQkZIUWlCTlBaWlhNOGotUHBxZEx5M2xoMGxsSXpxR05NYV9EUDZJN0xUQk00eC04MGpHeUZod1ZVa1dPMWh6elN3QURQUjlzbFIyYV81WUV0V29hdFU3QnY0RzZQRFpaRUxYX0JaaGt3bE00TEVLbXhqZEpySUtUcEp6SGRabFdVTGJrbDZIaFU?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-08T14:28:17.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "‘Hysteria’ Grips San Francisco’s Housing Market as A.I. Wealth Pours In - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWVlaSTZoTXpkSzNxQVZzeGk4NTlqTS1hY2dLMlJ1SkNoQ0VqSXE0SFVOVWh3eGgwXzJpeDF4OHhoU3hpMUFkUnRQT0N6Q3Q1OEdHdmJNQ1NvQ3BLd2dhZzBuNHZmTWlsWnpSNmhqVzRZWnBsUTZHNVlXaXJSdGtWYjVlbGFSNkJiNTNrOTZjalhhSHM2ZTJKX2I5bS0?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-08T14:22:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "SENS. LOONEY, DUFF, AND MARONEY PRAISE ILLINOIS PASSAGE OF TOUGH A.I. LAW; SEEK SIMILAR ACTION IN 2027 CT GENERAL ASSEMBLY - Connecticut Senate Democrats (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNWpTY0Q0YVlCazdPeWpIU1dvc1NsSjNCWEJ1NFNVRFJRY0lwT2ctNmNOakpCM21vVHVOSEgtZGVId0lPMzhjNUR1eDl6aU5raEEtUnVRZzFEMWpHVFl6ZUlvVUJoRVkzaWxvTmJ1bU9nNEZUQlRJZjZfQ1pEdlNwajdwaHdOUEY4YmRqWFVGQjZSMVVqeTBwdXc2NjA3OWh4ZEFTN0lsNGN0SUx2OEFFS2czM2sybGdmdUFfZVBKU09UVGxVVkxIcDBtaFlRV1ZmM3Nvbjdrdk5uV0FvZm9yQw?oc=5",
       "source": "Connecticut Senate Democrats (.gov)",
       "publishedAt": "2026-07-08T20:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Meta to build C$13 billion Alberta data center, its first in Canada - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS2lQeF9ZVWxUa0F3ZEpYRHl2amVUZ1p2T0tNS245VkRkQWtLdnNsTFhmdzNvRlBTSS0xaUFlNmRFVXNxeVV5UWZiT2tZZGZST0JBb09SQWtLSWNpWGYzQXFTUk9yaXlEY01BbTNhVHdrYnZqbE91TXRQT29jdE5NQ2JWSFVEa3hWYWdpS2VEOXc?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-08T19:31:30.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "If you have a public Instagram, your content could be used to train its new AI - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc0dQXzNtd1FiZl9pZWJNUkJTeTlrVXdNMm40NER3enVQa0huWHlHYXJGQkVzQm4zUW5KZ2MxSkUxLXE3dnlQUnFLSGZhLWdPSXNZZkdFN0diN0FvYTJKVkIxMlEzMXJGNFJLbVVpaS1lNHNrd1p5czI5VnRqRFNZSXh5NWNDeE9mSnB3WmlTZ243cWJHVmZMOWFfX1NXQ2RienAzcUZjRDlVTFpxOXZoTDFORVJlU29iX0lsdVVZRmZWSHFCR20zdlplc0hQZVd2Y1Zmd29vYjVHNzdEUnMw?oc=5",
-      "source": "Scripps News",
-      "publishedAt": "2026-07-08T19:28:49.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Sunrun wants to pay you to turn your home into an AI data center - Electrek",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS3U4TmlzZDFiMjkwV3UxMGVHUmFxZUs3VGpoVEYtYXJ6YzI4dHFEb2FYM0g2a2JsUUJKZlFobmdXNkNyMjJkX3pUZlpCeU1lNTBCRE9ULXd4YlFfaER4Z0ExaTVlT1JGSlF2UGk2bjlCQTVPbmRzblVVQmVQWUNxQUdhVHc2ZlZ0VGZleVBHX1lxM3dLeXFZY0hfOS0?oc=5",
-      "source": "Electrek",
-      "publishedAt": "2026-07-08T19:27:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Biohub researchers use artificial intelligence to uncover new psoriasis targets - News-Medical",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlRIMUVkX2locF9RYV9qTk5CQW1GV3RyRmpTcXlFYXhLMmtjdy1BcDk3ZlZFUF9TcGZXOWtCbmd6ZkRxSjZyNG9qS282VXowcW11N2taQ2FsdklVM1Nrc0NlN2JJd1UySFBPdWVldkhocDltNG4zSTZ3NVBqQ0h2eUZIRWt2WjVFbWJEd0htNk1uWkdKal93d1gzV012T3dMZUhFQjVyTVM4Zkl0MVR0SVVJVkdsYXhJYUdWeVhKSWVlRTBxRUE?oc=5",
-      "source": "News-Medical",
-      "publishedAt": "2026-07-08T19:24:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI data center owners are straining U.S. warehouse market - 10/12 Industry Report",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZm5yMXNMaUEwQnFPZExJUWtJeUhKbm9leGx4X3FZMTlXbURKWnlyd0lhc0w0SXNiQnpyS0xCOTdad3AtZDVrTzVROWQ5NnZWV1ItNGNwQThnd0swZFNHMjZKUmt1ajFBS2xtUXhUZ1hSSm1lYXFOR0hIMXBhWXg0YklqMUJSTy1fWlQzSXYzYXh3d3RPWlJBR2dPVWpOb0hzMjY1Mld1SFViZw?oc=5",
-      "source": "10/12 Industry Report",
-      "publishedAt": "2026-07-08T19:21:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Why adversarial AI training is the new “Don’t Copy That Floppy” - Spiceworks",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdUljLWQzTVBGSTM4VlJ5bzhpQU1qUVZLMmoteVJ1RVZkOVhEcVpZSzdnQ3BSanE3Q3h6VXVaTGJQbGVoMkJZRHU3SUNjeWRGTnhIdjM4QVk5eDZfbFlLRTVoZU55X3BhYzU5MXhhbEYzNEFWdUR5NkNZWWl2LXdrdkYta0MtMGdITW9xbTVBbzNILS1Lb0paRi1nUDhxUQ?oc=5",
-      "source": "Spiceworks",
-      "publishedAt": "2026-07-08T19:17:49.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1486,21 +1465,32 @@
       "score": 40
     },
     {
-      "title": "New Era Energy & Digital: A Speculative Buy On The AI Power Bottleneck (NASDAQ:NUAI) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbFF2Q1BZaWRnR1hieVI5V1V2aWppcnRMX0JRUU1VN3MzN0dfaC1qZVotX1ltUHF4a0dLZHFuWG5BSkZvM201Tkk4VXdKamhrU202WDNWaHlGSnNlUFhzWVF1aVdOTnNvcXRoblhpbHBWTmRna2xZUGwxY2dOcUN4SXVtTFlHR3M2SW1WYjZqVGhlNExwMkRtXzhSUUVxaVNpSnZQWHRpZXR3ckJvY2luYWNB?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-07-08T14:18:28.000Z",
+      "title": "China issues 'backdoor' security alert over Anthropic's Claude Code - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTmtuYVZDY0RoM0VTUW1Sa3poM1pYOHlYbVJwRk1lOXNPM1QwX25uMnlrdVUxUnlqSEhXZzlrWUxFQkRRa21HeEJWR1ZrY2UzeVUwdHBmcFR5bDR1OHNIQjRHNTZUYjd0NzJzZjNsQzdqNXRBUDZDdW1wekdXU1ZHcjNlbVVvM1NiSnJVQmppV2I3ZDNnSXIyZDBWMTZPQzhWTTRNUHo2WnZ0TG9RMzhmdjdBQnRzbUts?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-08T14:28:25.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Experis U.S. Launches ExcelerateWorkflow, Putting Enterprises at the Forefront of the AI-Powered Future of Work - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxORHZhRXJaX1E1UXk4TnEwSTBPb0M3YW5CaE1VcnVNMjdTYkRpRFZsSHpNckJZR05WbjdfaW14T05CeUtpSmMzTnAwWGFXQ2kyMHJfVVhUSl9kQlY2d09xX050TE1ob2xMSnRVU2kwYUwzNWN1SjJmTHF4S0JQdGVPRW9LYURXMy05Y010YkRmeWI0Z0w4Z3BQUHAyTlhkRnRreVpleDhmNEswNThwUnJUb1dnRWdneHo3YVlpZHJTTlBfV2FMTXRtaWZHb0ZvekhLTjVLYTNYNEEybU9RREhLZFJyVzByVTVpUXY5Yi1YYnZFTjVZVXYw?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-08T13:31:00.000Z",
+      "title": "China's Zhipu AI launches $4 billion Hong Kong share sale as stock surges - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaG15R1d0NTBacG00WVFSMk9keXNFNVJ6cUhLcm5tbVJ1X2c3OWFaeHo2ZVM3b2pUZjhwTWRHS290eEwxQkZIUWlCTlBaWlhNOGotUHBxZEx5M2xoMGxsSXpxR05NYV9EUDZJN0xUQk00eC04MGpHeUZod1ZVa1dPMWh6elN3QURQUjlzbFIyYV81WUV0V29hdFU3QnY0RzZQRFpaRUxYX0JaaGt3bE00TEVLbXhqZEpySUtUcEp6SGRabFdVTGJrbDZIaFU?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-08T14:28:17.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "‘Hysteria’ Grips San Francisco’s Housing Market as A.I. Wealth Pours In - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWVlaSTZoTXpkSzNxQVZzeGk4NTlqTS1hY2dLMlJ1SkNoQ0VqSXE0SFVOVWh3eGgwXzJpeDF4OHhoU3hpMUFkUnRQT0N6Q3Q1OEdHdmJNQ1NvQ3BLd2dhZzBuNHZmTWlsWnpSNmhqVzRZWnBsUTZHNVlXaXJSdGtWYjVlbGFSNkJiNTNrOTZjalhhSHM2ZTJKX2I5bS0?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-08T14:22:38.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1597,17 +1587,6 @@
       "score": 40
     },
     {
-      "title": "2 Artificial Intelligence (AI) Memory Stocks to Buy Hand Over Fist in July - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVQ4NGl6TXprOUtfX0x3TVFVcEtaMmdaTl93TUZBUnBFUlhjTU1kM3oxc1V1dzRQX0J0aWpBVnRVeXlkbHVDVnd3d2QyRzlQRzZmX3g4ekFpQkpWZ25YTHRvRmxQNnQ3enRJazQxM0dBeUNYdFNHYm1PbEcwNFRKSmt4X2JvQmtkck5IMGFZNGRlTnU0Z004?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-08T08:25:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "China warns about AI risks with Anthropic's Claude Code",
       "url": "https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
       "source": "CNBC",
@@ -1666,6 +1645,17 @@
       "score": 40
     },
     {
+      "title": "Meta CEO Mark Zuckerberg Just Delivered Fantastic News for Investors - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPLURGaFFjdVFTak1jM3pYQzRTZEJnc2t6OUhpTmVTdms5U3dBTi1TMDlwQk9FVjVjeDNTdG1SdnZ1Z2xYVXQta21vQ3RXYXRKQXJBNEdQZWJNR1ZiM0N4WmU1N19UZF9RWEI2V1BWekt4SUZKR3UyUmxzM3RxVmdTM1NZY285YVpNaWw5Ul9RWm5odENqTUd6QWZFRlpPR3pyb29nNVlRWV9COTA0aWRZeFd5dzhQWUptaGNwbklXMGNYd1ZVOGdTNmVLRExFZkdKU2Y3NDBxSGhRMzdwY2tZSU5ZTTdwdUZO?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-07-08T07:03:28.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Singapore's Temasek boosts China exposure by $7.7 billion, biggest rise in five years, in AI-driven pivot - CNBC",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX2FOYnJKaEtqZFU1WnJGd0U3TkFoZGZPSDdzTFNFRTdLcHItbFk0S2pUT2N6V1M5amc4N1JNTWJDamNSblpiTFVDUEJLemNoM3JnRVZseElVbEtwN1d6cEdJU185WHpNT0RPXzRObFlQVFFLRkVDZHlrazBEd1BRYml3YmJRRG9vOGFFUElRZ212bE4yR3RmX0EzbDlna1J6eG0xX2Z5V2IxY3NCSlFSQ3hR0gG3AUFVX3lxTFBEUnpycXY4bGlhQXZOR090MWJXdzRuM29fQzBEdXAwdmUzOEFvMjk4dGlfVkR5a1AyUXFGTFlLS085Z0Nod3dyQzEya2xlTFV4eXI4SEt0VWgxbDFvcFJ4azV4dkdObE9aV3JmTHlrUHlvc0hzWWtfeFVQeXJ6R09rTTFYaDhuRHlDZTlVWFRFTE5jUFVXZEdpRHNIbzRmWlpMLURfeEpVLS1ZeVhld19FQm5WVi1kMA?oc=5",
       "source": "CNBC",
@@ -1699,11 +1689,23 @@
       "score": 40
     },
     {
-      "title": "Meta CEO Mark Zuckerberg Just Delivered Fantastic News for Investors - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQMTF6dDRMUnVnQ3JPNXVNeGtEYjdGVE0tTmRsU0JTcklLOWhlZ3pkSWtINWc4cDBYU1JnSEZJaEhSZzAycUNEQ29OQ1RqTVdNMW9UZVhLcWs0NGw2aU8zcDNBbGw0WVI3ekR6STlTWmxCcUVsMXJPMlpRZzEzY3FzRDI5Slc0V3pDaVBYc2UwRVd0Tl95Vkt0X3V1bVZFZHdYUXdxZFZRQ3lHazNQRG9POHpQSl91cFVFSWk2REt0R0xSaHQ2UEJlWUwxZmNHZ1E5WFYwRFNvSHJybnNBRU05Rl9QLTZLUVpfdllabA?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-07-08T06:45:09.000Z",
+      "title": "Apple begins testing CXMT chips for devices sold in China, FT says",
+      "url": "https://www.cnbc.com/2026/07/08/apple-begins-testing-cxmt-chips-for-devices-sold-in-china-ft-says-.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T05:15:12.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Lawmakers probe growing use of Chinese AI models in U.S. companies",
+      "url": "https://www.cnbc.com/2026/07/08/chinese-ai-models-probe-us-lawmakers.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-08T05:01:55.000Z",
+      "kind": "news",
+      "summary": "An ongoing House Committee investigation is probing the risks involved in the rise of AI built in China.",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T18:02:02.604Z",
+  "generatedAt": "2026-07-09T18:32:01.188Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,29 +17,6 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
-      "title": "$FRMI same spot",
-      "url": "https://stocktwits.com/Thelonius_Stonk/message/658676629",
-      "source": "@Thelonius_Stonk on StockTwits",
-      "publishedAt": "2026-07-09T17:10:59.000Z",
-      "kind": "social",
-      "credibility": {
-        "score": 60,
-        "trust": "medium",
-        "reasons": [
-          "9,561 followers",
-          "official account",
-          "3 likes"
-        ]
-      },
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 81,
-      "summary": "$FRMI same spot"
-    },
-    {
       "title": "SEC filing: SCHEDULE 13D/A — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000212347026000004/xslSCHEDULE_13D_X02/primary_doc.xml",
       "source": "SEC EDGAR",
@@ -53,6 +30,29 @@
       "score": 75,
       "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
       "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
+    },
+    {
+      "title": "$FRMI same spot",
+      "url": "https://stocktwits.com/Thelonius_Stonk/message/658676629",
+      "source": "@Thelonius_Stonk on StockTwits",
+      "publishedAt": "2026-07-09T17:10:59.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 60,
+        "trust": "medium",
+        "reasons": [
+          "9,562 followers",
+          "official account",
+          "3 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 71,
+      "summary": "$FRMI same spot"
     },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
@@ -711,6 +711,20 @@
   ],
   "related": [
     {
+      "title": "News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - AP News",
+      "url": "https://apnews.com/article/openai-new-york-times-ai-copyright-lawsuit-7ce19c7a25aad60d4c94556d36e96cc9",
+      "source": "AP News",
+      "publishedAt": "2026-07-09T17:28:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65,
+      "summary": "The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a legal fight over artificial intelligence and copyright that could shape the future of a struggling news industry."
+    },
+    {
       "title": "OpenAI releases GPT-5.6 and ChatGPT Work tool - Axios",
       "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
       "source": "Axios",
@@ -778,20 +792,6 @@
       "score": 65
     },
     {
-      "title": "News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight - AP News",
-      "url": "https://apnews.com/article/openai-new-york-times-ai-copyright-lawsuit-7ce19c7a25aad60d4c94556d36e96cc9",
-      "source": "AP News",
-      "publishedAt": "2026-07-09T14:39:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a legal fight over artificial intelligence and copyright that could shape the future of a struggling news industry."
-    },
-    {
       "title": "World Cup drives Google Search to record queries per second",
       "url": "https://www.cnbc.com/2026/07/08/world-cup-drives-google-search-to-record-queries-per-second.html",
       "source": "CNBC",
@@ -846,6 +846,48 @@
       "score": 65
     },
     {
+      "title": "Meta Says Its First Pay-to-Use AI Model Outperforms Google - PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/meta-says-its-first-pay-to-use-ai-model-outperforms-google/",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-07-09T18:15:05.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "Meta has introduced a new artificial intelligence (AI) model that includes a paid tier for developers. It marks the first time the tech giant has charged"
+    },
+    {
+      "title": "Microsoft’s emissions surged 25% in 2025 during data center boom - Fortune",
+      "url": "https://fortune.com/2026/07/09/microsoft-carbon-emissions-2025-data-centers/",
+      "source": "Fortune",
+      "publishedAt": "2026-07-09T18:01:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "The software company pledged six years ago to pull more carbon from the atmosphere than it was emitting by 2030."
+    },
+    {
+      "title": "Amazon.com, Inc. (AMZN) Advances Leo Satellite Rollout as It Prepares Internet Service Launch",
+      "url": "https://sg.finance.yahoo.com/news/amazon-com-inc-amzn-advances-175349720.html",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-07-09T17:53:22.000Z",
+      "kind": "news",
+      "summary": "Amazon.com, Inc. has launched 396 satellites for its Leo broadband network, formerly Project Kuiper, reaching a milestone sufficient to begin initial internet service rollout later this year. The company recently launched 29 satellites on the Atlas V rocket, marking its 14th mission, and will now transition to using ULA's Vulcan rocket for future deployments. Amazon received a limited waiver from the US FCC regarding its original deployment deadline but must still complete it [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "AMZN"
+      ],
+      "score": 55
+    },
+    {
       "title": "GPT-5.6: Frontier intelligence that scales with your ambition - OpenAI",
       "url": "https://openai.com/index/gpt-5-6/",
       "source": "OpenAI",
@@ -870,20 +912,6 @@
         "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Wall Street's Most Watched Researcher Just Predicted NVIDIA Will Crush Earnings. Will the Stock Rally? - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/07/09/wall-streets-most-watched-researcher-just-predicted-nvidia-will-crush-earnings-will-the-stock-rally/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-07-09T17:30:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "The Number SemiAnalysis, the semiconductor research firm that AI hardware investors track obsessively, pegs NVIDIA’s (NASDAQ:NVDA | NVDA Price Prediction) Data Center compute revenue at roughly $203 billion for the back half of Fiscal 2027, about 20% above Wall Street consensus of about $169 billion. That gap is the anchor of this story. If SemiAnalysis ... Wall Street’s Most Watched Researcher Just Predicted NVIDIA Will Crush Earnings. Will the Stock Rally?"
     },
     {
       "title": "TD Cowen reiterates Nvidia stock rating on AI infrastructure strength - Investing.com",
@@ -1009,6 +1037,20 @@
       "score": 55
     },
     {
+      "title": "BofA Raises its Price Target on Amazon.com (AMZN)",
+      "url": "https://www.insidermonkey.com/blog/bofa-raises-its-price-target-on-amazon-com-amzn-1798900/",
+      "source": "Insider Monkey",
+      "publishedAt": "2026-07-09T17:07:22.000Z",
+      "kind": "news",
+      "summary": "BofA recently increased its price target on Amazon (AMZN) to $165 from $145, maintaining a Buy rating due to accelerated product sell-through and stronger Q2 sales momentum. This update comes as Amazon also seeks to raise at least $25 billion through a U.S. dollar bond sale to fund AI infrastructure investments. Despite a separate analyst (TD Cowen's John Blackledge) slightly lowering his price target while keeping a Buy rating, Amazon is still considered a potentially strong [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "AMZN"
+      ],
+      "score": 45
+    },
+    {
       "title": "Meta's Muse Spark 1.1 API pricing squeezes OpenAI and Anthropic as the AI price war heats up - the-decoder.com",
       "url": "https://the-decoder.com/metas-muse-spark-1-1-api-pricing-squeezes-openai-and-anthropic-as-the-ai-price-war-heats-up/",
       "source": "the-decoder.com",
@@ -1075,50 +1117,20 @@
         "MSFT"
       ],
       "score": 45
-    },
-    {
-      "title": "Microsoft’s carbon emissions climb 25% as tech giants grapple with AI’s energy toll - GeekWire",
-      "url": "https://www.geekwire.com/?p=937319",
-      "source": "GeekWire",
-      "publishedAt": "2026-07-09T16:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Microsoft’s annual sustainability report shows a 25% emissions jump fueled by AI energy demands, testing its 2030 climate goal to become carbon negative. But its chief sustainability officer remains optimistic that long-term investments in carbon reductions and a \"portfolio approach\" can still rescue their ambitious targets."
-    },
-    {
-      "title": "Nvidia's stock valuation fell to pre–AI boom lows, but this strategist still isn't bullish - Yahoo Finance Singapore",
-      "url": "https://sg.finance.yahoo.com/video/nvidias-stock-valuation-fell-pre-155958092.html",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-07-09T15:59:58.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Marvell Technology Climbs 7% on the AI Chip Recovery: Is It Overvalued Next to Broadcom and Nvidia? - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/07/09/marvell-technology-climbs-7-on-the-ai-chip-recovery-is-it-overvalued-next-to-broadcom-and-nvidia/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-07-09T15:57:53.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Shares of Marvell Technology (NASDAQ:MRVL | MRVL Price Prediction) are up 7% to $247 and change in midday trading Thursday, riding a broad semiconductor rebound that’s lifted the entire AI chip complex. Marvell stock came into the session bruised after a sharp multi-week pullback, setting up an oversold bounce. The move stems from broad sector ... Marvell Technology Climbs 7% on the AI Chip Recovery: Is It Overvalued Next to Broadcom and Nvidia?"
     }
   ],
   "general": [
+    {
+      "title": "He warned AI could lead to extinction. Now he says there’s a better path. - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMldYZV9TYTBlcmRRMnZhNGMyVWNMVHkyeVlxYlJub3JWakdZRTJrSzd2VUMzMVF2Y19LSEdFVGdKTjg5MGR5WURRbDdlTnJGOXF3S3QzWFVmczBCWkdzQUh4Q05FX0Judy1tYnF5eGJVQ0t5OVg0OTE5Y0cxT3ZBWGxOLUxwOUZFYlVDdFZhY1hWeGR1SHJIZVFiR2xvZk5MQXZEa3pKVG0yU3hiazhianlNekI?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-09T18:11:08.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Midjourney strikes back: sued AI giant demands Hollywood’s secrets - The Art Newspaper",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQUhsQzdPMTMzQ1pWUGZldFZPZTE1T1VJOW8tRkxfNV9VbkRESW8tUnVDanMxZ1lxLV9Hd05iXzZJazc4ZDExMl93Ry1SQWFuU0M0Qnk2amFNd2h3cDhvT2ppZnktUFVYQm1sT2RlczFOWl9obVgydTVFZFI2WXFNRXBiSGVtYkc0VlE?oc=5",
@@ -1142,28 +1154,6 @@
       "score": 60
     },
     {
-      "title": "Former Fed chair Ben Bernanke joins Anthropic's AI oversight trust - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaTBDOUZzZ2oxZVNhQlRiVWh2TVZyZ1dTQkpnemREdFJSUHJaTHRzejJEMmhzLTFPTjBjUjdELTNEUDdtRHpobHVraDNrYkpMVWM4THV4NnNUSGZHNUFvWkdwM3poWmpjRDFCZVh3cEI3RWVKTGlfdElMQVdPc2cxSkhhSWdGSmFWZDVZWFBxZ0RUR0c2bXo5YVdQbldWbkozOThVcWdIQld0WHZYTVRz?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-09T17:33:46.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "He warned AI could lead to extinction. Now he says there’s a better path. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMldYZV9TYTBlcmRRMnZhNGMyVWNMVHkyeVlxYlJub3JWakdZRTJrSzd2VUMzMVF2Y19LSEdFVGdKTjg5MGR5WURRbDdlTnJGOXF3S3QzWFVmczBCWkdzQUh4Q05FX0Judy1tYnF5eGJVQ0t5OVg0OTE5Y0cxT3ZBWGxOLUxwOUZFYlVDdFZhY1hWeGR1SHJIZVFiR2xvZk5MQXZEa3pKVG0yU3hiazhianlNekI?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-07-09T17:32:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Palo Alto CEO Arora says AI pricing needs to fall 90% as token costs skyrocket",
       "url": "https://www.cnbc.com/2026/07/09/palo-alto-ceo-arora-ai-pricing.html",
       "source": "CNBC",
@@ -1173,7 +1163,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic appoints former Fed Chair Ben Bernanke to its independent trust",
@@ -1185,7 +1175,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic rejects China’s claims of backdoor security weakness - The Times",
@@ -1196,7 +1186,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Franklin’s Dudley Sees AI Infrastructure Bull Case Through 2027 - Bloomberg.com",
@@ -1207,7 +1197,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "China, Russia and Others Seek to Inflame Debate Over A.I. Data Centers - The New York Times",
@@ -1218,7 +1208,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Egan-Jones Examines the AI Race and Its Implications for Investors - PR Newswire",
@@ -1260,17 +1250,6 @@
       "publishedAt": "2026-07-09T16:36:04.000Z",
       "kind": "news",
       "summary": "Micron announced a new round of investments aimed at boosting the U.S. semiconductor supply chain.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The SEC can and should use AI to create a fairer market - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQcTRXV254UV9VRjR5OG5xaUFwR3FnMVlOM0RPLUJFejJSbkpMaEh0Unp6eFM5SUV4SFg2NXlaUExYSUtRV2dlWmRGdVQtUGI3MFlwdVBleEJVVWo5VGFCZ2o1aC1XYjBleEJpTXdFZGMwbk5ZbGJTTdIBfkFVX3lxTFB5NmVDUmVRNWZ2azlnSUdNSURUZ3pvSFEzeDc0N3pDNExTVG5EcFZKSlZYZDRySmd1dkg4aTJsMmRtX0prUV9LZ3Y0TlpGN1dBUEtZQ0RrSE4yZ2t1c09BQ0MwQmZoNGJKa3BIQ3JFbUQwcHVKSDgxUHR1MGliZw?oc=5",
-      "source": "The Hill",
-      "publishedAt": "2026-07-09T16:30:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1522,44 +1501,67 @@
       "score": 50
     },
     {
-      "title": "WhiteFiber Announces Cross-Data-Center AI Infrastructure Innovation Delivering 111.2 Tbps Bandwidth with Sub-Millisecond Latency Across 83km - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNUkwyai1zcXNWSUdQUXdYd0owTXlpWDJDajFTMS1SMzcxVGlKcU4taUZWeFRMRVVybFdEc0huNDFKcFpHTTNDdExNZFFWVDA4RnBxMmdGOTFvdzR1cGU4YjV3S3hWSkdWUmh0ZG10ZFBNWU5CRTRsMElZZ3pMNG9VMlJneHVkMnlfZ2lpM0RrRjVOZnZhYWpvTWxxWV9ZeENLUGRhY3FsTUo4YkxObkhKSGN4MlNJM0RJZzBOdnlYYzBFVXVuQkdLdWZmT0JKWmljV1ZOSHRuT2ZnOEUyU0lHNDRPTEhiVG5PVjdnTnMyTFJJY1d6VFVqS1JKZ1c2ZE1STC1KYzZ2d1Jac19TdVBqeWdPV3FwQ2QtYm5YZWZzc0Q5UQ?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-09T12:30:00.000Z",
+      "title": "Meet Biomni – an AI-powered biomedical co-scientist - Stanford Report",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjdwOXRLVWFxYnNPa2FyQkFnajBDcDdLR1lLZzlER1Judm10b0xodnV5ajIwcWRFZUVPOFctV19ua0t5bFVLMVpTOXR1VDZNWGJJeHdxNjY5aHBXTG5ZcUpfMzYtWmhwUkxtdEN1ZUgwUzdnbkxRV2k5bXdYNk1yNG9yVVFFaFpidl9F?oc=5",
+      "source": "Stanford Report",
+      "publishedAt": "2026-07-09T18:12:08.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Rocket One Adds SpaceXAI API to Its AI Technology Stack, Advancing Next-Generation Space and Defense Computing - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQlBIN1RucVp1VUdISC1JakVjemNyNVlsem1VYUVlemt6Qnk1UlNtdWZXWGNETFpValV6YzFEVE0tSV9MdUxBRVZvMmE2S2dfVzk2YVlPeWtrVGxyTU1HekJRS0tXRFVJX0VtMURCR2Y3VzR3U0tSN2FCWlY0UEgwSklHMkMyOWNzY3Z2RnZwbkRraEFOTmFrbDZ0RHdBaXY3bk9MZkVTdVN0elJwbk1sdXExRGhrZGY4VjFjRGZTSEQ5ZFE1aTVPRjRIQ2VmUHEtVHRjVXVKajBXeVhzcVhzUHhOWng5ZkJfbThTYUIydzFpMzZQdWV2TQ?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-09T12:18:00.000Z",
+      "title": "Willis Towers Watson (WTW) Adds GPU Execution to Its Flagship Actuarial Modeling Platform",
+      "url": "https://www.insidermonkey.com/blog/willis-towers-watson-wtw-adds-gpu-execution-to-its-flagship-actuarial-modeling-platform-1798456/",
+      "source": "Insider Monkey",
+      "publishedAt": "2026-07-09T18:00:06.000Z",
       "kind": "news",
-      "tier": 1,
+      "summary": "Willis Towers Watson (WTW) has enhanced its RiskAgility Financial Modeler platform with GPU execution, providing life and health insurers with a new performance option alongside its existing Gen-2 engine. This update aims to accelerate high-volume projections and reduce costs, with early internal tests showing potential cost savings of up to 100 times. The integration of GPU acceleration, the Gen-2 engine, and AI features into a single platform is expected to enable faster an [sentiment: Somewhat-Bullish]",
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Oil prices, PepsiCo earnings, SpaceX's rough ride and more in Morning Squawk",
-      "url": "https://www.cnbc.com/2026/07/09/5-things-to-know-before-the-stock-market-opens.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-09T12:16:20.000Z",
+      "title": "Liberty Global (LBTYK): The Largest Onshore Wind Deal in UK History and Amazon Is the Buyer",
+      "url": "https://sg.finance.yahoo.com/news/liberty-global-lbtyk-largest-onshore-175828770.html",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-07-09T17:58:44.000Z",
       "kind": "news",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "tier": 1,
+      "summary": "Liberty Global's clean energy arm, egg Power, has secured the largest onshore wind Power Purchase Agreement in UK history with Amazon, supplying 90 megawatts from the Chirmorie Wind Farm. This agreement is Amazon's 50th carbon-free energy project in the UK, solidifying its position as the country's largest corporate purchaser of clean power. egg Power aims to deliver over 1,500 megawatts of clean energy capacity by 2028, supported by recent debt financing. [sentiment: Somewhat-Bullish]",
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Ben Bernanke Joins Anthropic's Long-Term Benefit Trust — Former Fed Chair Says Potential Of AI And Its Outcomes Is 'Enormous' - Stocktwits",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVmxrX2R6RUd2UVRWMlRmbzY4bXdmcGNiRjJYREhmb2VQR01wSzZPMXhOVzlXcDJzeTBocXZ2Nl9wNUtLck12V2RNOERHdzNlYkVlWWpTSm5xb3g0SXZqc0VHWXYwOXBOeDROX1NkYnFTZ0lBTzh3aUVCRW5vMjdpNGpLS2dWaFVWbU5DYmtmR3FabnpUck90SlFFNllISXNGU0JCOFdjeEl6cmJnY3AzNmdpT183OUpveVlpd3VnQTFvTUJFYnkycVlGTFpKYjZ1Vy1oVkJfOElsUQ?oc=5",
       "source": "Stocktwits",
       "publishedAt": "2026-07-09T17:58:16.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Meta’s First Canadian AI Campus Was Planned Around the Grid - Data Center Knowledge",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaU9JWGRqQmhjOEl1YTNIWnViWUJNNVpxZnVOaS1HUlRjNmRlM2hFVXR5SDlicUlQWFRNMGlpNi0yYmJxamVOUGc2TzNYbDBFMnlCb2hXNXBsVEREaXVCRndaOXhWX2tvYW4wQno4Q2FHbU1jTXZ5TmdlNjlYOGljUm91RDFSQXVKYjdBM3NSdWlZRkczUjdRYjlobXhzUDBXd0FTSnlVZTNNTzJKVS14Y2dwc1pHdnBWMC1fdg?oc=5",
+      "source": "Data Center Knowledge",
+      "publishedAt": "2026-07-09T17:55:38.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Gujarat Launches Data Centre Policy 2026–29 to Attract AI and Hyperscale Infrastructure Investment - CXO Digitalpulse",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOE9UXzZXN1J4bU05S21EVkNfS3FLQXZIUG84cUw1dm1SQ0NfQko1RHFoSjRTUW0zSGdndURlWmhFSzdjZjhzZXZ4aUFHZUVNNlZGejdkV2x5TlpZVU9vdFMyT0sxTWdOT0h0aEFOS3NaMDQ2MENlZXptanF1aWYxeHJfekhtdzI2MDVfTEhQb0Y5UWtfRjIybENjRkw2SXFOdnBYVzBIMkEzRlQ0SE41ZTNQaGN2OHRvazZpcldyN2Q1MnVQOHMzOFp2bw?oc=5",
+      "source": "CXO Digitalpulse",
+      "publishedAt": "2026-07-09T17:55:08.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1578,54 +1580,22 @@
       "score": 40
     },
     {
-      "title": "SK Hynix News Puts 3 AI Hardware Stocks In Focus - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWEZZS0ZBZ0FjUVFMUk83TkxFdmRCM09QUWhPcGx5Vm5xVkpkYlBHVEItaE80dU80d1l5eTFXM0FoUHh2S01XT1pNME1RMm1PSkp3Q0NDcHRSN3RySjRmQTRHc3dud3d0amdkQkkzOU80MFhsUmY0OFNWdFhsTHlWbFVMeVJLTXctUW96aEhpX2JFZHhsQ25HV2xCX0xxVm5lMmFNOHdSeGJ2SWR6R1o1ZmVxMWZBd1JJN0lzQzdsQ1Bmai1uQWxSeFRwY1dFcDVXT1Vr0gHYAUFVX3lxTE9VSU9KYkNTMHM0M2hJcHhzUlV6bGstbjNfSGZJcW03VFRlRm9mREV0Q1lJS2c0TG1PWTlWcnJqSy1kMjBWMXpCSmFzWDJLSTdjTzFJTHFNMm5OVWNSRjQ1U1JzZ19md2NLM2NPVlFrM2NJVjE4ci1qanRXMmhEV1BMWG1welRCV3lCazk1Y0pTS21XZzlac0djblhnRlk4ci1aSlhoM29YYkpRWUVQNjVtNmMzX3NRamhBeGFJWEdfOVE1SDNDQWkyTHRKTkdjbHZfX3BBTUY5Qg?oc=5",
-      "source": "simplywall.st",
-      "publishedAt": "2026-07-09T17:46:58.000Z",
+      "title": "Elon Musk's Stubborn Insistence on Cameras Could Get Tesla's Robotaxis Banned in New Jersey",
+      "url": "https://gizmodo.com/elon-musks-stubborn-insistence-on-cameras-could-get-teslas-robotaxis-banned-in-new-jersey-2000783613",
+      "source": "Gizmodo",
+      "publishedAt": "2026-07-09T17:35:39.000Z",
       "kind": "news",
+      "summary": "A proposed bill in New Jersey could prevent Tesla's robotaxis from operating in the state due to Elon Musk's refusal to incorporate radar and LiDAR sensors in addition to cameras. While competitors like Waymo and Zoox use multiple sensor types, Musk maintains that cameras and AI alone are sufficient and safer. Tesla is urging its customers to oppose the bill, stating it would effectively ban their autonomous vehicle technology from New Jersey. [sentiment: Neutral]",
       "tier": 3,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Congress Looks to Counter Growing Use of Chinese AI Models by US Firms - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLWg4NUotQ051VHR3TWgyRXpGcG5kQkJFQzFueU9fVEJ2dFI0aXdadFFRQkVkOElWRDN6bUFQUGs3Sk82dVRPTGRsVlBueWxsclN4X0xFeE4wdlhXM0FIMzRHZmdxTkF3cnNnZ3ZHZDA5Skp5aTZDR3JQa2pwRWcxVi1CT1hXZTdSU1IyZ3o1TTZlRUNxNHlsaHZ4bUJyZFRxLS1Fa0UzTFJjNjF5RE1BTl9mWEsxekZKU051d0o0M1ZGUQ?oc=5",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-07-09T17:28:53.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Anthropic adds Ben Bernanke to Long-Term Benefit Trust - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYU9aaHg0Sk9FRF91RTFxME9LZTczNEFMd3c4N0k5UXZtclBEeGdZVUFOMG9WQXBPbHZTdlF5dDNWLVI1ZDZPaUxkLThLYlY0WDlUaEtVRFpHLVVTTGg4VnI3Nzk0VVQ2OUhuQ21GZHVYZEd4aUVycVllMDkydGJ4R1pYUDVPMzBZcjVKcTJ3UEVMaEVFaGFsTlZQTWE?oc=5",
+      "title": "Former Fed chair Ben Bernanke joins Anthropic's AI oversight trust - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX0FtR2xKWXFGWWROTG5mSEx3azg2Z2RtMGdTWGpiTmVWWVgyd1ppR0tVUDA2aXk0azA1RlI3YnZHZUw4Y05BeEhzT2c2SU5jY1I0X0I0TWdYdTNPM1VhTk5oNHJCQTVhNDI4ZV9iaXU0TzlOY0N4aVV0LVh4bXFXdmZuY2kxM0FxWXdxSWtGaVZPOC1OTXE1aA?oc=5",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-07-09T17:13:21.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Artificial Intelligence Today and Tomorrow in Laundry Operations (Part 2) - American Laundry News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONzZ5Sy1PVWJFYTdsU1FGVnBmc3pnZGFJMkd6OG83eHd2YmhkN09HcGtDeUxWQ2Nndm9YT3lBVExienZhM1M1QmJZY0dOX2hwTng3N19SQ2RPYV9lNzQwR0FYV0J1YUtqOUJ5ZURjNXV5NVk5VVVNcGxDb1BDVWNzTTdkOWtQQi1sVVJnWjUxTjN6bFN3YUNrTjY4ZlM5V0RreGNzUXNnVldvNHpZT2c?oc=5",
-      "source": "American Laundry News",
-      "publishedAt": "2026-07-09T17:07:09.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Artificial Intelligence Stocks To Keep An Eye On - July 9th - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTkZiUFVTeFpuWmRORXVCZGRyQXRGbjlJeHY2bU9wcS1SeGgwT0tNSmRTcDZJN3o3VVFWNTJKVTlJZDZmdlpBRk1aYUFyN1NwSERpVWlOTjhhX3gwSmF4anlpWUFIQTF0MHJTTDkxWUZqYkY2WWdtNGpKZWxjN3dNNG9FYkJWVW8xRURHRnRYMEhJNjNweXRnWHk4OVdqNGtidTJiSGdTcDkwY0ctOU16MQ?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-07-09T17:06:41.000Z",
+      "publishedAt": "2026-07-09T17:33:16.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1672,6 +1642,40 @@
       "publishedAt": "2026-07-09T13:25:00.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "WhiteFiber Announces Cross-Data-Center AI Infrastructure Innovation Delivering 111.2 Tbps Bandwidth with Sub-Millisecond Latency Across 83km - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNUkwyai1zcXNWSUdQUXdYd0owTXlpWDJDajFTMS1SMzcxVGlKcU4taUZWeFRMRVVybFdEc0huNDFKcFpHTTNDdExNZFFWVDA4RnBxMmdGOTFvdzR1cGU4YjV3S3hWSkdWUmh0ZG10ZFBNWU5CRTRsMElZZ3pMNG9VMlJneHVkMnlfZ2lpM0RrRjVOZnZhYWpvTWxxWV9ZeENLUGRhY3FsTUo4YkxObkhKSGN4MlNJM0RJZzBOdnlYYzBFVXVuQkdLdWZmT0JKWmljV1ZOSHRuT2ZnOEUyU0lHNDRPTEhiVG5PVjdnTnMyTFJJY1d6VFVqS1JKZ1c2ZE1STC1KYzZ2d1Jac19TdVBqeWdPV3FwQ2QtYm5YZWZzc0Q5UQ?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-09T12:30:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Rocket One Adds SpaceXAI API to Its AI Technology Stack, Advancing Next-Generation Space and Defense Computing - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQlBIN1RucVp1VUdISC1JakVjemNyNVlsem1VYUVlemt6Qnk1UlNtdWZXWGNETFpValV6YzFEVE0tSV9MdUxBRVZvMmE2S2dfVzk2YVlPeWtrVGxyTU1HekJRS0tXRFVJX0VtMURCR2Y3VzR3U0tSN2FCWlY0UEgwSklHMkMyOWNzY3Z2RnZwbkRraEFOTmFrbDZ0RHdBaXY3bk9MZkVTdVN0elJwbk1sdXExRGhrZGY4VjFjRGZTSEQ5ZFE1aTVPRjRIQ2VmUHEtVHRjVXVKajBXeVhzcVhzUHhOWng5ZkJfbThTYUIydzFpMzZQdWV2TQ?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-09T12:18:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Oil prices, PepsiCo earnings, SpaceX's rough ride and more in Morning Squawk",
+      "url": "https://www.cnbc.com/2026/07/09/5-things-to-know-before-the-stock-market-opens.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-09T12:16:20.000Z",
+      "kind": "news",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40

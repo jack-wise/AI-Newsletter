@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T10:01:54.849Z",
+  "generatedAt": "2026-07-11T10:22:56.343Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -45,21 +45,6 @@
       "score": 65,
       "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
       "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
-    },
-    {
-      "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026076168/ea0297342-dfan14a_toby.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-07-08T10:10:00.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 65,
-      "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
-      "summary": "Toby R. Neugebauer, Vicksburg Investments Management LLC, and other parties have withdrawn their solicitation to call a special meeting of Fermi Inc. shareholders due to an untenable timeline caused by a judge's recusal in pending litigation. The special meeting was intended to address entrenching actions taken by the company's directors, but the parties will not act on any agent designations received from shareholders unless the solicitation is resumed. The withdrawal comes after the parties had filed a definitive proxy statement and accompanying agent designation card with the Securities and Exchange Commission."
     },
     {
       "title": "$FRMI Let's see a 6.50 close here Nice overnight trade so far",
@@ -224,6 +209,21 @@
       ],
       "related": [],
       "score": 55
+    },
+    {
+      "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026076168/ea0297342-dfan14a_toby.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-07-08T10:10:00.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 55,
+      "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
+      "summary": "Toby R. Neugebauer, Vicksburg Investments Management LLC, and other parties have withdrawn their solicitation to call a special meeting of Fermi Inc. shareholders due to an untenable timeline caused by a judge's recusal in pending litigation. The special meeting was intended to address entrenching actions taken by the company's directors, but the parties will not act on any agent designations received from shareholders unless the solicitation is resumed. The withdrawal comes after the parties had filed a definitive proxy statement and accompanying agent designation card with the Securities and Exchange Commission."
     },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
@@ -854,7 +854,20 @@
       "related": [
         "OpenAI"
       ],
-      "score": 65
+      "score": 55
+    },
+    {
+      "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets - The New York Times",
+      "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-10T23:23:26.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Apple Sues OpenAI for Trade Secret Theft in Pivotal Case - Bloomberg.com",
@@ -882,19 +895,6 @@
       ],
       "score": 55,
       "summary": "Suit claims OpenAI poached Apple workers, coaxing them to share confidential material in bid to create hardware"
-    },
-    {
-      "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets - The New York Times",
-      "url": "https://www.nytimes.com/2026/07/10/technology/apple-openai-lawsuit.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-10T21:08:14.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
     },
     {
       "title": "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO",
@@ -952,15 +952,17 @@
       "score": 55
     },
     {
-      "title": "OpenAI kills ChatGPT Atlas less than a year after launch - Cybernews",
-      "url": "https://cybernews.com/ai-news/openai-shutters-atlas-ai/",
-      "source": "Cybernews",
-      "publishedAt": "2026-07-11T07:15:44.000Z",
+      "title": "This Week in Healthcare: Colgate-Palmolive, AWS & Microsoft",
+      "url": "https://healthcare-digital.com/news/this-week-in-healthcare-colgate-palmolive-aws-microsoft",
+      "source": "Healthcare Digital",
+      "publishedAt": "2026-07-11T07:00:26.000Z",
       "kind": "news",
+      "summary": "This article highlights key healthcare developments, including Colgate-Palmolive's extended commitment to oral health education, a collaboration between the Fleming Initiative and AWS using generative AI to combat antimicrobial resistance, and Microsoft AI's deployment in social care by Lancashire County Council to save administrative hours. It also touches on a UK-US pharmaceutical deal and Novo Nordisk's strategy for weight management. [sentiment: Somewhat-Bullish]",
       "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "MSFT",
+        "AMZN"
       ],
       "score": 45
     },
@@ -1100,19 +1102,6 @@
       "score": 45
     },
     {
-      "title": "China to Let AI Firms Buy Nvidia H200s, Information Says - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-08/china-to-let-ai-firms-buy-nvidia-h200-chips-information-says",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-08T22:51:47.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
       "title": "Alphabet's Artificial Intelligence (AI) Spending Spree Is Great News for Nvidia - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/07/08/alphabets-artificial-intelligence-ai-spending-spre/",
       "source": "The Motley Fool",
@@ -1166,6 +1155,20 @@
       "score": 35
     },
     {
+      "title": "Sky News Australia. . Apple is suing OpenAI, alleging the artificial intelligence company stole the tech giant’s trade secrets. - facebook.com",
+      "url": "https://www.facebook.com/SkyNewsAustralia/videos/apple-sues-openai-for-allegedly-stealing-trade-secrets/2080558286167832/",
+      "source": "facebook.com",
+      "publishedAt": "2026-07-11T02:55:35.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35,
+      "summary": "Apple is suing OpenAI, alleging the artificial intelligence company stole the tech giant’s trade secrets."
+    },
+    {
       "title": "OpenAI’s Head of Safety Is Leaving the Company - WIRED",
       "url": "https://www.wired.com/story/openai-head-of-safety-leaving/",
       "source": "WIRED",
@@ -1180,6 +1183,20 @@
       "summary": "Johannes Heidecke’s departure comes as OpenAI tries to further integrate its research and safety teams."
     },
     {
+      "title": "Amazon Stock Leads 3 AI Infrastructure Picks In The Apple OpenAI Rift - simplywall.st",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-syna/synaptics/news/amazon-stock-leads-3-ai-infrastructure-picks-in-the-apple-op",
+      "source": "simplywall.st",
+      "publishedAt": "2026-07-10T23:50:14.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35,
+      "summary": "The legal clash between Apple and OpenAI over alleged hardware trade secret theft is forcing big tech to rethink who they work with and where they place their AI bets. When partnerships are questioned in court, capital often looks for companies seen as reliable alternatives. This article looks at 3 stocks exposed to the Apple and OpenAI dispute that sit on the potential opportunity side of that shift. You will see how each one is positioned within AI hardware and cloud infras"
+    },
+    {
       "title": "Apple files lawsuit against OpenAI, accusing ChatGPT maker of stealing trade secrets - PBS",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON0lidWJuVTFoRG9TUlJNYlppUGd1dGlCbHhsQkROdFJMQy1fMGplenVWbHlyZFZISUNVd01JOENiRkZHelJmLXRtbnFsS0tQZ0g1Q3hMY2g2SDdMaE13T3g2cW5lSE1xUWhybmVocWJhX0xENXQzUk5PZUZJZXRQaVhvT2tzNFpVbWZ4emxKQzZjOUh0SHZvakFtOFRXN2VJNkJRVk9pM3h1R2VDRFYxc1Q5ZFZUbmVKc1lR?oc=5",
       "source": "PBS",
@@ -1191,20 +1208,6 @@
         "OpenAI"
       ],
       "score": 35
-    },
-    {
-      "title": "U.K. agency finds 'universal jailbreaks' unlock dangerous cyber capabilities of OpenAI's GPT-5.6 - Fortune",
-      "url": "https://fortune.com/2026/07/10/openai-gpt-5-6-sol-jailbreaks-cyber-attacks-similar-to-security-flaw-that-led-u-s-government-to-force-anthropic-to-disable-fable-5/",
-      "source": "Fortune",
-      "publishedAt": "2026-07-10T23:14:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 35,
-      "summary": "The jailbreaks appear at least as severe as those that led to export controls on Anthropic's Fable model."
     }
   ],
   "general": [
@@ -1231,10 +1234,10 @@
       "score": 50
     },
     {
-      "title": "Micron CEO Sanjay Mehrotra Announces $250 Billion Investment for Expanded Artificial Intelligence (AI) Memory Chip Development - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQMnlTMm9oMkdvd2F5MzlGWklJZFFrWXI2ck8xcjZxZHNfeHJhamw3ZHZidm9wZzBrLVdJZmxIeGxsX2VzZm5qRkR2aUtodnlVYmRLMzVTTlBseEpHeHJ6Q2huNDNaT25BVHdHSjBwR3gzaDA3REp2WVIxdEhSRXkxSWhxaTBwWFdLRVBrejVJU2ZjRkM4QmR5Y3V1WHF3UUFLckF5WkduNkFBYzUzUmxaeWNiVlViVDJyRy1qZWVIb3pPYlA4QkpRMDF1bm1qdU5qOFlzaTAwdkVaUUZCLWZsVWI1cC02OE9VMDVyMFRzVFI5c25DUVU3MlM0OVhrbW03SFJ6TUlmUUFQdk12N0g2YzhSSE9HOWIxMjBvbVVhZ3hrUG1DMEVnSXBR?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-07-11T06:58:17.000Z",
+      "title": "Colorado city eyes new data center rules as AI boom raises water, power, and noise fears - The Cool Down",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRUZiN3k3dUpvV1B5bjdMOVJlbmNYbmd0UXY5RXh4UzNicndrM0FMeEx0aVY0LTZvcldQSTA1dnl5UkFFSjJyTTlrd0RpYmE2dWVmOEN6dEF0cEs0emdvZmRRdXU1WXAxQWtUelhRZDlxOHNWWWxrWDFQUVFKa1BKT2U1UHR2UQ?oc=5",
+      "source": "The Cool Down",
+      "publishedAt": "2026-07-11T07:37:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1275,6 +1278,17 @@
       "score": 50
     },
     {
+      "title": "This “Boring” ETF Could Be One of the Biggest Winners from the AI Boom - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzFUVDFmSjFWMll3LS1EQTZOYzR2LXA1UENqT0lmSDJtZEFMNXJYMzhud29BQzM2VGFaOTdkdEw4OFM4MTRGWnJZdnJQU19kdlBsM0QxUU5UZ1g4MG5CeHh0TGljUkRDRVBHV3ZZdWVkRzl4SlVsWmpucW5qTFcyWlFfcUhvU2JMa0VUVnp1UWk5ZmZjVWpBTF81cW11LWlra3luRTNFZXpuRWtFcFRzaExpSE9KRG8?oc=5",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-07-11T10:13:20.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Is Akamai (AKAM) Quietly Becoming the Security Backbone of Enterprise AI Infrastructure? - simplywall.st",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcXJjbk1sanpreURqanUxaUJ4MUZNSzd3eHJES1NyTW8teWJPbElmVGxXUDQ1Q1hWZWs0R095TWpoX3FTZkZRUEkyU2hNTDU4dlhGSXlJZk5CZHNmVk1ZY2hCQk9pZkF5RVJuak9DdERrQURYcWF6SHZOekoyd1NjTG9zd2VjS0JadnBGY1ZNb0xVd0NER1hELURQQV9XcGt0dUtEc2xja2paNW5oMXpvUXlmRE9RSHcwWFFrYThXbE1lTk1LOExnS2kxZ3lwb184dGhIZdIB2gFBVV95cUxQZzdraWd3c2hmbElINDBKSi0yN1RaZ3NROG9GeXNlamVQUjhzVU5FRENBVS1UbjNqV18tdjhPUmdXNmZfTnMtVUxORm5MV0VRU2o2alZvMFMwMF9obTM1QUpJM1BVcFM3V0hhTk85QS0wbGFjeW4yQ2pfT2E3RHpCLVh4eXRYYzhrbkZDSlZEVjhldUtScko3WUtycDA5Y01MYjNBNTlLUDRHVldfRWNrLUFpM0ItY2lfY05EX2VRNjRiUlJUSWhGVFhYclZyUlVXOEM5SkkyaVFLZw?oc=5",
       "source": "simplywall.st",
@@ -1297,10 +1311,10 @@
       "score": 40
     },
     {
-      "title": "US Eases Export Curbs on UAE, Opening Door for AI Chip Sales - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaVEzYmM2SWx3eHBwdUxjbjhCZzBWc2FITVlfOS1JTFMyeElaeDAwQzVKeG9SOG1sMGpTSVI1V0tjSUIzX3NEbGloQVhlSkdkR0EtSEdFNmhFcGwtS18xMWlEQVctelppaWxXREc4akd1ZHdsNkJhN3NkUjhXXzZXM1dtdnFkSWFuQjNZZXVMVF9PdFg1RE53RWpDRl9ESWhhRjZBN3A5ZlFaSDAweTFn?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-11T01:49:00.000Z",
+      "title": "Meta Removes A.I. Feature on Instagram After Days of Backlash - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVlVJcDR6ck5tMkg3N3MxS1AtQWxna0M4NmZDel9UczJydklkaXZfdHA0RTRiSDZvN2hmTDdKYnUta0liQ2NiNUQtbjVDbHhuSFF5VUR5OW1TUi02T0E1b0NoeXNMUGRmcG5uLXp1TUFLQVJmLVQ5anA5VHg1aUpVeHlVTUx6VHg0YzJHVGdB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-11T02:03:34.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1308,10 +1322,10 @@
       "score": 40
     },
     {
-      "title": "Meta Removes A.I. Feature on Instagram After Days of Backlash - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVlVJcDR6ck5tMkg3N3MxS1AtQWxna0M4NmZDel9UczJydklkaXZfdHA0RTRiSDZvN2hmTDdKYnUta0liQ2NiNUQtbjVDbHhuSFF5VUR5OW1TUi02T0E1b0NoeXNMUGRmcG5uLXp1TUFLQVJmLVQ5anA5VHg1aUpVeHlVTUx6VHg0YzJHVGdB?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-11T00:56:41.000Z",
+      "title": "US Eases Export Curbs on UAE, Opening Door for AI Chip Sales - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaVEzYmM2SWx3eHBwdUxjbjhCZzBWc2FITVlfOS1JTFMyeElaeDAwQzVKeG9SOG1sMGpTSVI1V0tjSUIzX3NEbGloQVhlSkdkR0EtSEdFNmhFcGwtS18xMWlEQVctelppaWxXREc4akd1ZHdsNkJhN3NkUjhXXzZXM1dtdnFkSWFuQjNZZXVMVF9PdFg1RE53RWpDRl9ESWhhRjZBN3A5ZlFaSDAweTFn?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-11T01:49:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1430,6 +1444,18 @@
       "publishedAt": "2026-07-10T19:39:24.000Z",
       "kind": "news",
       "summary": "Investors are also celebrating Meta's launch Thursday of Muse Spark 1.1.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Nano-X Imaging Ltd. (NNOX) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+      "url": "https://www.prnewswire.com/news-releases/nano-x-imaging-ltd-nnox-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302822947.html",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-10T19:10:14.000Z",
+      "kind": "news",
+      "summary": "The Law Offices of Frank R. Cruz announce a securities fraud class action lawsuit against Nano-X Imaging Ltd. (NNOX) for investors who suffered losses between March 31, 2025, and April 17, 2026. The lawsuit alleges that Nano-X overstated efficiency gains and product demand, while their production operations were poorly aligned, leading to increased operating expenses and potential restructuring. Investors have until August 11, 2026, to participate as lead plaintiffs. [sentiment: Bearish]",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1642,10 +1668,10 @@
       "score": 40
     },
     {
-      "title": "AI, data center fears could be key in closely watched Michigan Democratic Senate primary - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHJDejQ1Y251dGh2Rm5XMDNzUWlaQ2ZfeE9MdlVmTVY3NTM3UGNCdWNWWUdtWS1fTm5NQjlDVE9Sb1dJZDhYVFJGX1hhb2JZdkpCY0xLNm1hTGZfUEVHRm5lbjRIcmxqQjBvRTFqVWhVa3BSaC1HZHk2N2Rub3RaanV5X29jTzY5Rno5cTlRWnZFSjBYTWNn0gGcAUFVX3lxTE90SkxVV3p4VGhLd00tQVhfNmRMVTBRXzU5cU5QU3hNa3BaemVIVldXWTdvUFFDSUVCTW1ucVVuOTZqVWlTZGlkTUIyX2F3NjVoOWxVY3lCenc3VnplLU1FVWFfR1BwYnl4NVo2eUFPWlUxdTZTbzhCN0dsUVNUUUltd0Q1XzZEZGktLUFIWi1HWWpYQXFTUzZBQTJVbg?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-07-10T11:00:01.000Z",
+      "title": "Sovereign AI May Mean State-Backed Models and Political Tensions - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRkkxc2pFNEVyTDgwamRvUTlLSlByS0hFUE40eWdYVnhTbWM3bjhsYndYd05vYTR1ZW5EYUhqOVdzUTVMdE1Cc1BKZ3JjTkx2aFdsWWUtVVhub1cybmFJaU5iY1d3ZzhHZTJ1WVE5clFoSFdDNHhmZGUtSERWOWxqZnJNMWMtLXpudEZBSGlxaWVRNXpQMVg5STZKWW8yR0Q0OXYtNmJKRzdjV0JJTElOdXNYQUdkZTI3cEoxSHlOaGdrRThJ?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-10T10:30:01.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1653,10 +1679,10 @@
       "score": 40
     },
     {
-      "title": "Sovereign AI May Mean State-Backed Models and Political Tensions - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRkkxc2pFNEVyTDgwamRvUTlLSlByS0hFUE40eWdYVnhTbWM3bjhsYndYd05vYTR1ZW5EYUhqOVdzUTVMdE1Cc1BKZ3JjTkx2aFdsWWUtVVhub1cybmFJaU5iY1d3ZzhHZTJ1WVE5clFoSFdDNHhmZGUtSERWOWxqZnJNMWMtLXpudEZBSGlxaWVRNXpQMVg5STZKWW8yR0Q0OXYtNmJKRzdjV0JJTElOdXNYQUdkZTI3cEoxSHlOaGdrRThJ?oc=5",
+      "title": "Big Tech Doubles Debt Load to $350 Billion in AI Spending Spree - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMC1Ka1UzcHYwa05MbzdudFZGcXV6dFFsaEw3UWFZeE1iaW0waEU0QVhSandFV3E1dzB2cFotbjZjOVBjdlZ0ci1HVHVlVHljVFVBQUNpMkkyTzdxX0ZwNC1QaXFBcjJueVF6NkVBYV9LbWg1Ni1iVHJXSlByeDU2QWl0TDQtT2M4cXlRUVMzYkh1WEpoRk9tdzh0YTUzUTdmcDRUejVPem5vb3dHSkFLQVFydw?oc=5",
       "source": "Bloomberg.com",
-      "publishedAt": "2026-07-10T10:30:01.000Z",
+      "publishedAt": "2026-07-10T10:30:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1706,17 +1732,6 @@
       "score": 30
     },
     {
-      "title": "A lost AirPod, AI fakes and the secret garden: How fans experienced Taylor Swift’s private wedding - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUxZVktfbUdGQmhWVTMtRGw0YXFxOFBjNmVrVl9Va0NzTlBfLWlzaEpIVy16S1pRaVVYZ05jVzhoajZqRWxlVDJhX3N4M0VTZU5hZGthdUdpa0pSbFhhaDd0QWN4SXdQR2R2LVhyVHJKZHNoTGRZWF9OZHo0azNjRENoNGdDQjYtRnhnZGx1bFlIZTFCSTNYMHFyZURwZ09zeGpmQlBRaVDSAa4BQVVfeXFMUGVoOVAtTmxWR29Mb3VLcURlajRqVUxUVlNJTzJOZUpJMzBfalJTYjd2UWxjOUViMF9pb2hLR0dyT2NucTA3VHFBQWhyR0VwcXM4Tm9nbmNMd0Y5M1duN21zbXg4Yk80c2psWFJKcmp0QkZzUW4zUWhMV0VzTENWaEMxVkdDSG5MZXVuSTZINW0yY01hOTJmazdQcFNBSlN2d0FBSVgxSXVpNjE5dGRB?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-07-11T08:08:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
       "title": "Constellation Energy (CEG) And The AI Power Narrative As Valuation Questions Build - simplywall.st",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMEFESV81bkVrZ0syMUpZRlNNbDlicllmMHAtZkRqQXY2aXRKbXh2N2Z2cENSVjhKWEE5QTYtQ0NrelRpME1BV1h5WkFYLWZyUEZOVGMzRzJ0by01SkVRLW1mMEVEblhsSUJxOG0xZlRYaWFiTVRNX2VrWVN5amVJbW15TTJxaHJySlk3S0VPUnVYXzdTYlVZZkxMNGpnejNHYlFoWjA1TGNhNU10N2tOeV9zdEwxRUg2V0NEOU1uODFEZjNoOHl3NWxRWkVvSk9UMHRkX2Zn0gHbAUFVX3lxTE5nZXNpZ1ctYmRMcGNMdU9VSmlXLVRJVlpWNjloV2c2TzkyUmJwLXIxbXd0amlWWUhJVUs0MV9UXzJ5TUZubW1wNFczZTd3a2FHXzNmaXFyRWVwOTExc2dCRl9USGgyYVRkdk1aNE80b2hRQ3pPMGwyUlFhTFY1czJ6cUZ0QlF1RkF4cEZmaWhjQ2IzZXg2OTdEeUVucGFTREhTTHRMTVBOSkxSSTFYRVpWb3BZNUY4M25uTElrb2syWjNXQl91bDlaaXZRaTM1YUh2STEyVUZlWjJycw?oc=5",
       "source": "simplywall.st",
@@ -1728,10 +1743,10 @@
       "score": 30
     },
     {
-      "title": "Colorado city eyes new data center rules as AI boom raises water, power, and noise fears - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTS1fUWpqWjRfSmh2MjllT2xPY3RLdWh4NjBISzNVYzBEVWdNcFJlbjk1dmE5cG1CbDBia0k0OVRFNE1JVGllUEhJeFlVSGNud2kzOUxlVGF4UWJqOW9tVUZqMGRVRUstQ2xQS1NZOXVqOXJVM3JkcWJ3amo2VnRVRWJ5dGxTTHRLZ3lhTg?oc=5",
-      "source": "Yahoo",
-      "publishedAt": "2026-07-11T07:37:00.000Z",
+      "title": "Micron CEO Sanjay Mehrotra Announces $250 Billion Investment for Expanded Artificial Intelligence (AI) Memory Chip Development - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdjNGb19FOGwxUFRYUUU5MW5pX3duLWZ3MS02Q0pIUTNXVEtSZ1ZDb0xDMUFkcTRwQ1dlak1wdm1RbExYdFBMRy0yLXFTd3ZmanhVMkw4U0dCWnVTQ1drSWstNHpIcW5ZalBEUEtBSkkzbjVuX0tPamZsbkt0eVhWUFdhcE16RjNURHZwVm5qNUF6TzQweXJPX1lEQks5N01BeWc?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-11T06:55:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1761,21 +1776,10 @@
       "score": 30
     },
     {
-      "title": "Vertiv Stock And 2 AI Infrastructure Picks Retail Investors Are Watching - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEYwdXVqR29SaXB0RFdGb3BIN3JOcEo3RHlObGNReWlJN1RqTnE5YzhGWkhrQm9Oem5zd2JaQmZSYVN5WktxYzlfXzZ3c0ZhdXZmcDRNbWEybm14TFpfSXdnMkZRa2FfMnRCVFZSNE1OV1ZqZjBBbWRHNC1LX0VHdndxTkN6VHR0SHFFQWE4Yy1aUlROdzdHV2ZFV19CMGVvUmdNLThHSG1RWDdPd1YzTVNtZE41NEliSG1RbVVyNzFDR2Q10gHKAUFVX3lxTE53QUpkSVBsUXV4UWo1akR4bjloYm1JSGRlTl9BMUVlUFlaYzRnYUk1Z1RUTkdfZzFzTjNxQ0JMdUZVb0J6QXEwMzFqZUpTRWhhSGlpX1hOWHNUQ3BOWjR3YkJ5X1VzbS1IVldHdTlZaGkwRFl3YWg5SzVKN0Z5RVdXUHh4dW5DTllUSlVTQmZVTmVMd1VYeGpIaTgydTR4TkVIRGFDc2JveGxFdTQ1MFV1RnR2NFloZGNXdnB1clh0WjN5eE92Zi1CbWc?oc=5",
-      "source": "simplywall.st",
-      "publishedAt": "2026-07-11T05:40:12.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 30
-    },
-    {
-      "title": "Berkeley Talks: When we talk to AI, what are we talking to? - University of California, Berkeley",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeGJ1V0ZLTVFFNEEyX0RueDhyUEN5RngtM0RYYllYWDh4VTVJdzdqV2tOTmc1ZHdVMEczcDVzZ0F0S0ctakdvNGk0NjRrcnJTaDluUmxVVk0wM29ndUJPM3hTdGw0T0dldVRMSGJqN2lUWEZRSjRPR2l3MEFfM1g1SGtSVjRma0hMcmI5Z2ZXV3V6OE9hNTlqUXBn?oc=5",
-      "source": "University of California, Berkeley",
-      "publishedAt": "2026-07-11T04:59:25.000Z",
+      "title": "Is Palo Alto Networks' (PANW) AI Cost Push Reframing Its Cybersecurity Platform Ambitions? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWjBLNVF3Q1cwSTBzWHNWSEdYX2ItcWttMm5yeEZuQ1U1S1EzODl0c0pNcmRGTURZSFltdE53Q0JzRWgyVVdvSUkzTzJud0MyZHBSZEk1U3lCTVVsTWJmMjhoYkRmYmZqWVhWT1FYdFZ3UUNzQW1Ha09sd1ZTMGR4aUJ3emNNOEhSNkJqSWlBNnh4clFM?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-11T06:15:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

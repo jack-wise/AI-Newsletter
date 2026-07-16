@@ -513,7 +513,12 @@ async function loadReports() {
 // keeps its last content, and the live TradingView chart above is unaffected).
 function renderBrief(brief) {
   const upd = document.getElementById("brief-updated");
-  if (upd) upd.textContent = brief.generatedAt ? `Updated ${timeAgo(brief.generatedAt)}.` : "";
+  if (upd) {
+    const when = brief.generatedAt ? `Updated ${timeAgo(brief.generatedAt)}.` : "";
+    // Flag AI-written editions so readers know the prose is model-generated.
+    const ai = brief.generator === "ai" ? " AI-written summary — verify before acting." : "";
+    upd.textContent = `${when}${ai}`;
+  }
 
   // Price line
   const quote = document.getElementById("brief-quote");

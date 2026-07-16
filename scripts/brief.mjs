@@ -233,9 +233,15 @@ async function getAnthropic() {
 // and the model returns usable prose; otherwise the deterministic template.
 export async function generateBrief({ priority = [], price = null, now = Date.now() } = {}) {
   const base = buildBrief({ priority, price, now });
-  if (!process.env.ANTHROPIC_API_KEY) return base;
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.log("[brief] no ANTHROPIC_API_KEY — using deterministic template");
+    return base;
+  }
   const client = await getAnthropic();
-  if (!client) return base;
+  if (!client) {
+    console.log("[brief] @anthropic-ai/sdk not available — using template");
+    return base;
+  }
   try {
     const facts = factsForPrompt({ priority, price, now });
     // Haiku 4.5 does not support the effort parameter or adaptive thinking; a
@@ -257,10 +263,12 @@ export async function generateBrief({ priority = [], price = null, now = Date.no
       .map((s) => s.replace(/\s+/g, " ").trim())
       .filter(Boolean);
     if (paragraphs.length >= 2 && paragraphs.join(" ").length > 120) {
+      console.log(`[brief] AI narrative via ${BRIEF_MODEL} (${paragraphs.length} paras)`);
       return { ...base, generator: "ai", model: BRIEF_MODEL, paragraphs };
     }
-  } catch {
-    /* fall through to the deterministic template */
+    console.log(`[brief] ${BRIEF_MODEL} returned unusable output — using template`);
+  } catch (e) {
+    console.warn(`[brief] AI generation failed (${e?.message ?? e}) — using template`);
   }
   return base;
 }

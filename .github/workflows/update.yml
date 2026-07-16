@@ -70,6 +70,14 @@ jobs:
           # absent -> static form explanations. All paths fail open.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FILINGS_MODEL: ${{ vars.FILINGS_MODEL }}
+          # The Brief's AI narrative. Preferred KEYLESS path: deploy brief-worker/
+          # and set the BRIEF_WORKER_URL variable + BRIEF_WORKER_SECRET secret —
+          # inference runs on your Cloudflare account, no Anthropic key. If unset,
+          # brief.mjs falls back to the Anthropic key above, then to a keyless
+          # deterministic template. All paths fail open.
+          BRIEF_WORKER_URL: ${{ vars.BRIEF_WORKER_URL }}
+          BRIEF_WORKER_SECRET: ${{ secrets.BRIEF_WORKER_SECRET }}
+          BRIEF_MODEL: ${{ vars.BRIEF_MODEL }}
           # Alpha Vantage NEWS_SENTIMENT (ticker-tagged news + sentiment). Free
           # tier is 25 req/day; the collector queries ONE ticker per call, rotating
           # through config.alphaVantageTickers on every OTHER run (~24/day), and

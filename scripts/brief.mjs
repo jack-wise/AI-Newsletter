@@ -4,13 +4,16 @@
 // section.
 //
 // Two producers, chosen at runtime (mirrors enrich.mjs's fail-open pattern):
-//   - generateBrief(): when ANTHROPIC_API_KEY is set, an AI narrative written by
-//     Claude Haiku from the collected facts. Falls back to the template on any
-//     failure, so a missing key / SDK / API error never breaks the collector.
+//   - generateBrief(): an AI narrative from the collected facts, via the first
+//     configured backend — the keyless Cloudflare Workers AI worker
+//     (BRIEF_WORKER_URL, preferred: no Anthropic key, runs on the CF neuron
+//     allowance) or the Anthropic SDK (ANTHROPIC_API_KEY, Claude Haiku). Falls
+//     back to the template on any failure, so a missing backend / SDK / API
+//     error never breaks the collector.
 //   - buildBrief(): a deterministic, keyless synthesis of the same facts. Pure
 //     (price + clock passed in) so it can be unit tested; also the fallback.
-// Every claim is grounded in the data it's handed; neither producer asserts a
-// figure it wasn't given.
+// Every claim is grounded in the data it's handed; no producer asserts a figure
+// it wasn't given.
 
 const FRESH_WINDOW_MS = 24 * 60 * 60 * 1000; // mirrors the site's live-feed window
 
@@ -217,6 +220,46 @@ function factsForPrompt({ priority, price, now }) {
   };
 }
 
+// Split a model's output into clean paragraphs, or null if it's too thin to use
+// (fewer than 2 paragraphs, or under ~120 chars of prose).
+function toParagraphs(text) {
+  const paragraphs = (text ?? "")
+    .split(/\n{2,}/)
+    .map((s) => s.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+  return paragraphs.length >= 2 && paragraphs.join(" ").length > 120 ? paragraphs : null;
+}
+
+// Keyless backend: the Cloudflare Workers AI worker (brief-worker/). The
+// collector just POSTs the facts object — inference runs on the CF account, so
+// no Anthropic key (and no SDK) is needed. Returns { text, model } or null on
+// any failure. Never throws.
+async function narrateViaWorker(facts) {
+  const endpoint = process.env.BRIEF_WORKER_URL;
+  const secret = process.env.BRIEF_WORKER_SECRET;
+  try {
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        ...(secret ? { "X-Brief-Secret": secret } : {}),
+      },
+      body: JSON.stringify({ facts }),
+      signal: AbortSignal.timeout(30_000),
+    });
+    if (!res.ok) {
+      console.warn(`[brief] worker returned ${res.status} — using template`);
+      return null;
+    }
+    const data = await res.json();
+    const text = String(data?.text ?? "").trim();
+    return text ? { text, model: data?.model ?? "cf-workers-ai" } : null;
+  } catch (e) {
+    console.warn(`[brief] worker request failed (${e?.message ?? e}) — using template`);
+    return null;
+  }
+}
+
 let _anthropic; // lazily constructed, reused across a run
 async function getAnthropic() {
   if (_anthropic !== undefined) return _anthropic;
@@ -229,21 +272,15 @@ async function getAnthropic() {
   return _anthropic;
 }
 
-// Returns the brief object. Uses the AI narrative when a key + SDK are available
-// and the model returns usable prose; otherwise the deterministic template.
-export async function generateBrief({ priority = [], price = null, now = Date.now() } = {}) {
-  const base = buildBrief({ priority, price, now });
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.log("[brief] no ANTHROPIC_API_KEY — using deterministic template");
-    return base;
-  }
+// Anthropic backend: Claude Haiku via the SDK. Returns { text, model } or null.
+// Never throws.
+async function narrateViaAnthropic(facts) {
   const client = await getAnthropic();
   if (!client) {
     console.log("[brief] @anthropic-ai/sdk not available — using template");
-    return base;
+    return null;
   }
   try {
-    const facts = factsForPrompt({ priority, price, now });
     // Haiku 4.5 does not support the effort parameter or adaptive thinking; a
     // plain request is correct here. Streamed to match the repo's SDK idiom.
     const stream = client.messages.stream({
@@ -258,17 +295,37 @@ export async function generateBrief({ priority = [], price = null, now = Date.no
       .map((b) => b.text)
       .join("\n")
       .trim();
-    const paragraphs = text
-      .split(/\n{2,}/)
-      .map((s) => s.replace(/\s+/g, " ").trim())
-      .filter(Boolean);
-    if (paragraphs.length >= 2 && paragraphs.join(" ").length > 120) {
-      console.log(`[brief] AI narrative via ${BRIEF_MODEL} (${paragraphs.length} paras)`);
-      return { ...base, generator: "ai", model: BRIEF_MODEL, paragraphs };
-    }
-    console.log(`[brief] ${BRIEF_MODEL} returned unusable output — using template`);
+    return text ? { text, model: BRIEF_MODEL } : null;
   } catch (e) {
-    console.warn(`[brief] AI generation failed (${e?.message ?? e}) — using template`);
+    console.warn(`[brief] Haiku generation failed (${e?.message ?? e}) — using template`);
+    return null;
+  }
+}
+
+// Returns the brief object. Uses an AI narrative from the first configured
+// backend (keyless CF Workers AI worker, else Anthropic Haiku) when it returns
+// usable prose; otherwise the deterministic template.
+export async function generateBrief({ priority = [], price = null, now = Date.now() } = {}) {
+  const base = buildBrief({ priority, price, now });
+  const facts = factsForPrompt({ priority, price, now });
+
+  let result = null;
+  if (process.env.BRIEF_WORKER_URL) {
+    result = await narrateViaWorker(facts);
+  } else if (process.env.ANTHROPIC_API_KEY) {
+    result = await narrateViaAnthropic(facts);
+  } else {
+    console.log("[brief] no AI backend configured — using deterministic template");
+    return base;
+  }
+
+  if (result) {
+    const paragraphs = toParagraphs(result.text);
+    if (paragraphs) {
+      console.log(`[brief] AI narrative via ${result.model} (${paragraphs.length} paras)`);
+      return { ...base, generator: "ai", model: result.model, paragraphs };
+    }
+    console.log(`[brief] ${result.model} returned unusable output — using template`);
   }
   return base;
 }

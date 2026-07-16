@@ -1,0 +1,16 @@
+name = "fermi-brief-writer"
+main = "brief-worker.js"
+compatibility_date = "2026-06-01"
+
+# Workers AI binding — keyless inference on your Cloudflare account (no Anthropic key).
+[ai]
+binding = "AI"
+
+[vars]
+# Any Workers AI text model. Default balances quality/cost (~250 neurons/brief).
+# Catalog: https://developers.cloudflare.com/workers-ai/models/
+MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+
+# Set the shared secret as a SECRET (NOT here) — the collector sends it as the
+# X-Brief-Secret header:
+#   cd brief-worker && wrangler secret put BRIEF_SECRET

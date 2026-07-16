@@ -505,6 +505,68 @@ async function loadReports() {
   }
 }
 
+// ---- the brief (daily at-a-glance read) ----------------------------------------
+
+// Renders data/brief.json into the Brief section: a price line, pulse chips, and
+// the synthesized paragraphs. All text is set via textContent (no HTML injection).
+// Polled on the same 5-minute cadence as the feed; fails quietly (the section
+// keeps its last content, and the live TradingView chart above is unaffected).
+function renderBrief(brief) {
+  const upd = document.getElementById("brief-updated");
+  if (upd) upd.textContent = brief.generatedAt ? `Updated ${timeAgo(brief.generatedAt)}.` : "";
+
+  // Price line
+  const quote = document.getElementById("brief-quote");
+  const s = brief.stock;
+  if (s && Number.isFinite(s.price)) {
+    document.getElementById("brief-price").textContent = `$${s.price.toFixed(2)}`;
+    const changeEl = document.getElementById("brief-change");
+    if (s.changePct != null) {
+      const up = s.changePct >= 0;
+      changeEl.textContent = `${up ? "▲" : "▼"} ${up ? "+" : "−"}${Math.abs(s.changePct).toFixed(2)}%`;
+      changeEl.className = `dq-change ${up ? "is-up" : "is-down"}`;
+    } else {
+      changeEl.textContent = "";
+    }
+    document.getElementById("brief-asof").textContent = s.asOf ? `EOD ${s.asOf}` : "";
+    quote.hidden = false;
+  } else {
+    quote.hidden = true;
+  }
+
+  // Pulse chips
+  const pulse = brief.pulse ?? {};
+  const chips = [
+    ["News · 24h", pulse.stories24h],
+    ["Filings", pulse.filings],
+    ["Social · 24h", pulse.social24h],
+    ["Tracked now", pulse.priorityTotal],
+  ].filter(([, v]) => Number.isFinite(v));
+  document.getElementById("brief-pulse").replaceChildren(
+    ...chips.map(([label, value]) => {
+      const chip = el("span", "pulse-chip");
+      chip.appendChild(el("span", "pulse-num", String(value)));
+      chip.appendChild(el("span", "pulse-label", label));
+      return chip;
+    }),
+  );
+
+  // Paragraphs
+  const body = document.getElementById("brief-body");
+  const paras = (brief.paragraphs ?? []).map((t) => el("p", "daybrief-p", t));
+  body.replaceChildren(...(paras.length ? paras : [el("p", "daybrief-loading", "No brief available yet.")]));
+}
+
+async function loadBrief() {
+  try {
+    const res = await fetch(`data/brief.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    renderBrief(await res.json());
+  } catch {
+    /* keep whatever is already shown; the collector writes it next cycle */
+  }
+}
+
 // ---- news history (permanent per-day archive) ------------------------------------
 
 // The collector merges every cycle's stories into data/archive/<day>.json and
@@ -678,6 +740,8 @@ async function load() {
 }
 
 load();
+loadBrief();
 loadReports();
 setInterval(load, 5 * 60 * 1000);
+setInterval(loadBrief, 5 * 60 * 1000);
 setInterval(loadReports, 30 * 60 * 1000);

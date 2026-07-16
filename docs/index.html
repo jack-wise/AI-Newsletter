@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=24" />
+  <link rel="stylesheet" href="style.css?v=25" />
 </head>
 <body>
 
@@ -30,6 +30,7 @@
         </a>
       </span>
       <nav class="topnav" aria-label="Sections">
+        <a href="#brief">Brief</a>
         <a href="#stock">Stock</a>
         <a href="#coverage" data-nav="frmi">FRMI</a>
         <a href="#coverage" data-nav="eco">Ecosystem</a>
@@ -132,6 +133,38 @@
           }
           </script>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== THE BRIEF (daily at-a-glance read) ======== -->
+  <section class="daybrief" id="brief">
+    <div class="shell">
+      <div class="section-head reveal">
+        <h2>THE BRIEF<span class="accent">.</span></h2>
+        <p class="section-sub">Where Fermi stands right now &mdash; price, latest news, and filings &mdash; before you dive into the feeds. Refreshed every 30 minutes. <span id="brief-updated"></span></p>
+      </div>
+      <div class="daybrief-card reveal">
+        <div class="daybrief-top">
+          <div class="daybrief-quote" id="brief-quote" hidden>
+            <span class="dq-sym">NASDAQ: FRMI</span>
+            <span class="dq-price" id="brief-price">—</span>
+            <span class="dq-change" id="brief-change"></span>
+            <span class="dq-asof" id="brief-asof"></span>
+          </div>
+          <div class="daybrief-pulse" id="brief-pulse"></div>
+        </div>
+        <div class="daybrief-body" id="brief-body">
+          <p class="daybrief-loading">Loading today&rsquo;s brief&hellip;</p>
+        </div>
+        <div class="daybrief-jumps">
+          <span class="dj-label">JUMP TO</span>
+          <a class="dj-btn" href="#coverage" data-nav="frmi">FRMI news</a>
+          <a class="dj-btn" href="#coverage" data-nav="filings">Filings</a>
+          <a class="dj-btn" href="#coverage" data-nav="social">Social</a>
+          <a class="dj-btn" href="#coverage" data-nav="reports">Research</a>
+        </div>
+        <p class="daybrief-fine">Auto-generated from tracked sources; end-of-day price data is unofficial and may be delayed. Not investment advice.</p>
       </div>
     </div>
   </section>
@@ -270,6 +303,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=24"></script>
+  <script src="app.js?v=25"></script>
 </body>
 </html>

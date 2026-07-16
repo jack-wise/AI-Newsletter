@@ -21,6 +21,8 @@ import { searchX } from "./x.mjs";
 import { fetchStockTwits, fetchRedditXLinks } from "./social.mjs";
 import { enrichItems } from "./enrich.mjs";
 import { updateDayArchive } from "./archive.mjs";
+import { buildBrief } from "./brief.mjs";
+import { fetchFrmiPrice } from "./price.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(readFileSync(join(root, "config.json"), "utf8"));
@@ -375,6 +377,14 @@ async function main() {
       })),
   };
   writeFileSync(join(dataDir, "fermi-feed.json"), JSON.stringify(fermiFeed, null, 2));
+
+  // The Brief: an at-a-glance daily read (price, recent news, filings/insider
+  // activity) rendered at the top of the coverage area. Keyless and deterministic
+  // — synthesized from the priority set just collected plus a best-effort,
+  // fail-open Yahoo price quote — so it refreshes every cycle at no API cost.
+  const price = await fetchFrmiPrice("FRMI").catch(() => null);
+  const brief = buildBrief({ priority, price, now: Date.parse(payload.generatedAt) });
+  writeFileSync(join(dataDir, "brief.json"), JSON.stringify(brief, null, 2));
 
   writeFileSync(xStatePath, JSON.stringify(xState, null, 2));
   writeFileSync(summariesPath, JSON.stringify(summaries, null, 2));

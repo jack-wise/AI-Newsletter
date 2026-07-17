@@ -1,26 +1,25 @@
 {
-  "generatedAt": "2026-07-17T16:02:04.454Z",
-  "generator": "ai",
+  "generatedAt": "2026-07-17T16:23:25.463Z",
+  "generator": "template",
   "stock": {
     "symbol": "FRMI",
-    "price": 5.97,
+    "price": 6.18,
     "prevClose": 5.93,
-    "changePct": 0.59,
-    "windowChangePct": -31.12,
+    "changePct": 4.22,
+    "windowChangePct": -28.64,
     "windowDays": 21,
     "asOf": "2026-07-17",
     "currency": "USD"
   },
   "pulse": {
-    "stories24h": 4,
+    "stories24h": 3,
     "filings": 25,
-    "social24h": 2,
+    "social24h": 3,
     "priorityTotal": 50
   },
   "paragraphs": [
-    "The stock price of Fermi Inc. is currently 5.97, with a change of 0.59% compared to the prior close and a change of -31.12% over a window of 21 sessions. There have been 4 new news articles in the last 24 hours.",
-    "Recent news headlines include discussions of the company's governance concerns, the completion of a $375 million offering of convertible senior notes, and the resignation of director designee Miles Everson. Sources such as simplywall.st and Yahoo Finance have reported on these developments, with some articles questioning the bull case for the company and others discussing the potential undervaluation of the stock.",
-    "There have been 25 total filings, including 1 Form 4 filing and 19 proxy solicitation filings. Recent filings include an 8-K form disclosing the issuance of $431.25 million in aggregate principal amount of convertible senior notes and the resignation of director Miles Everson due to a disagreement over access to company books and records."
-  ],
-  "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+    "Fermi Inc. (NASDAQ: FRMI) last traded around $6.18, up 4.2% from the prior close (as of 2026-07-17, end-of-day data). Over the last 21 sessions it is down 28.6%. Live price and charts are in the panel above.",
+    "In the last 24 hours, this tracker surfaced 3 priority Fermi stories. The most recent: “Fermi (FRMI) Is Down 19.0% After Director Exit Over Governance And $375M Convertibles Deal - Has The Bull Case Changed?” (simplywall.st). Also new: “Fermi (FRMI) Stock May Be Above Fair Value After Note Offering” (Yahoo Finance).",
+    "On the regulatory side, 25 Fermi SEC filings are in the current feed, most recently an 8-K (2026-07-15). Insider activity: 1 Form 4 insider-transaction report in the feed — open the Filings tab for the specifics. The founder-versus-board proxy contest remains visible in the record (19 proxy-solicitation filings)."
+  ]
 }

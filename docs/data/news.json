@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T13:32:19.915Z",
+  "generatedAt": "2026-07-21T14:02:20.792Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -749,17 +749,32 @@
   ],
   "related": [
     {
-      "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal - Reuters",
+      "title": "Nebius stock surges as Nvidia discloses 9.3% stake in neocloud",
+      "url": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-21T13:35:44.000Z",
+      "kind": "news",
+      "summary": "Nvidia said it would invest $2 billion into Nebius in March.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal",
       "url": "https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/",
       "source": "Reuters",
-      "publishedAt": "2026-07-21T12:33:44.000Z",
+      "publishedAt": "2026-07-21T12:38:50.000Z",
       "kind": "news",
+      "summary": "Microsoft has agreed to invest billions in Mistral's computing infrastructure in Europe, aiming to expand the French AI startup's technology distribution through Microsoft Azure. This partnership will allow Azure customers to develop software using Mistral's data centers in France and integrate Mistral's AI models into Microsoft Foundry and Copilot Studio. The deal emphasizes \"sovereign AI\" and aims to reduce Europe's dependence on U.S. technology in the AI sector. [sentiment: Bullish]",
       "tier": 1,
       "tickers": [],
       "related": [
         "MSFT"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Microsoft Deepens Ties With Mistral, Targeting Europe and Enterprise AI - WSJ",
@@ -803,20 +818,6 @@
       "summary": "Sam Altman-led OpenAI has revealed that it paused internal access to one of its experimental AI models after it showed unexpected behaviour during testing. In an official blog post, the ChatGPT-maker said the model, designed to work on long-running tasks without human intervention, carried out actions that were not caught by its existing safety tests."
     },
     {
-      "title": "Nebius stock surges as Nvidia discloses 9.3% stake in neocloud",
-      "url": "https://www.cnbc.com/2026/07/21/nebius-stock-nvidia-stake-neocloud.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-21T10:20:13.000Z",
-      "kind": "news",
-      "summary": "Nvidia said it would invest $2 billion into Nebius in March.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "Nvidia Takes 9.3% Stake in Nebius After $2B Cloud Bet - The Tech Buzz",
       "url": "https://www.techbuzz.ai/articles/nvidia-takes-9-3-stake-in-nebius-after-2b-cloud-bet",
       "source": "The Tech Buzz",
@@ -829,6 +830,34 @@
       ],
       "score": 65,
       "summary": "Nvidia discloses major stake in AI cloud provider Nebius months after $2B investment"
+    },
+    {
+      "title": "US pharma firm ropes in Nvidia to build sector's largest supercomputer - Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/bristol-myers-squibb-nvidia-ai-supercomputer",
+      "source": "Interesting Engineering",
+      "publishedAt": "2026-07-21T13:40:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "US pharmaceutical giant Bristol Myers Squibb is teaming up with NVIDIA to build the sector's largest single-owned AI supercomputer."
+    },
+    {
+      "title": "Microsoft is deepening its Mistral partnership with a multibillion-dollar AI infrastructure deal - qz.com",
+      "url": "https://qz.com/microsoft-mistral-ai-partnership-infrastructure-europe-072126",
+      "source": "qz.com",
+      "publishedAt": "2026-07-21T13:30:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "The deal gives Microsoft more computing capacity in Europe and brings Mistral's AI models into Microsoft Foundry and Copilot Studio"
     },
     {
       "title": "Powering the next era of AI in manufacturing: Why it's time to upgrade to the NVIDIA RTX PRO 4500 Blackwell Workstation Edition - Robotics Tomorrow",
@@ -845,22 +874,8 @@
       "summary": "It delivers groundbreaking AI acceleration, neural rendering and the headroom needed for today’s most demanding professional workflows powered by 5th Gen Tensor Cores, 4th Gen RT Cores and advanced NVIDIA® CUDA® cores."
     },
     {
-      "title": "Microsoft is deepening its Mistral partnership with a multibillion-dollar AI infrastructure deal - qz.com",
-      "url": "https://qz.com/microsoft-mistral-ai-partnership-infrastructure-europe-072126",
-      "source": "qz.com",
-      "publishedAt": "2026-07-21T13:20:40.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "The deal gives Microsoft more computing capacity in Europe and brings Mistral's AI models into Microsoft Foundry and Copilot Studio"
-    },
-    {
       "title": "Chris Boerner։ Bristol Myers Squibb Expands Collaboration With NVIDIA for AI-Driven Drug Discovery - Oncodaily",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91Z3g1Q2k0clF2Q19YRWJmSjkyaEwyOFJxV0dHQTZ3bGJsNlpDaFJGQ0k1Qjc2NVdZLXdDRmRjM3U0UzdGa25tYWdnN19RUVpSRjdONWp1OWlaZGJEQUxV?oc=5",
+      "url": "https://oncodaily.com/science/chris-boerner-547647",
       "source": "Oncodaily",
       "publishedAt": "2026-07-21T13:15:45.000Z",
       "kind": "news",
@@ -869,11 +884,12 @@
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "Chris Boerner։ Bristol Myers Squibb Expands Collaboration With NVIDIA for AI-Driven Drug Discovery / AI, artificial intelligence, BMS, Bristol Myers Squibb,"
     },
     {
       "title": "OpenAI halts AI model that kept searching for ways around its testing environment - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWmpoaDRTTmk5cTVhZUF4clJXSi1yenlDdmdRZ1R0cFFwLXBZOFo5bjI1YjAwc2x5c1lqQ0FLT0dwNFBHb3JZQkZRXzN0blpYOWRBU2tZZmlfZEhQbWtlVi10N080RFBId0QzbkdwR3p5LVI1bDl5aHZHNlg1R0VmNkFsWl9oalBSRlhDNTZhdFV1ZGJGR1hEZjdTMHkxX3NsWGhUbEFXQjRBYVhQeEM5c1JGb2ZVbFJLb0YxNXA5dERfSVlj0gHKAUFVX3lxTE5GNF94dURidUVtdG9lWXNSSEg4a3Rxa2JnSzd2SG1yWnJXa1lZNVBIWDN5QVlxWmt2NXFiQ3plRlA1LVUxd0VxazlUQkxSaEhrSjJUSU9HLXAxTnVYeC1Nb1F6UHZMVmFEUXUzdHBMWnFSRjdZTUV0ZFVSTTc5OE9oOTc1Q2lKTHhEX0dGMTNiRkphNURnZXItU1B1Y2pnaEFiMW9VRGd5VzhJUFBWTWI5WkdLWjc0WDJja0hiaURXeXdsLVVJR0JRU0E?oc=5",
+      "url": "https://www.firstpost.com/tech/openai-halts-ai-model-that-kept-searching-for-ways-around-its-testing-environment-14032995.html",
       "source": "Firstpost",
       "publishedAt": "2026-07-21T13:14:09.000Z",
       "kind": "news",
@@ -886,7 +902,7 @@
     },
     {
       "title": "Nebius Advances On Nvidia Stake Disclosure Amid AI Cloud Swoon - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY0xnVkVUMmxMblUzWUVZUDJvblVxN2N1UXZRc29WUEh6QzA1M0RUUk1PUUEzTDZyUlhwaGRaUGVjVV84Z2NhMDVMWllNUDdzUFEwUm1kMGw1by1mZEc2eGhfd3ZMdE1JWTlfVjRDYjRQNzhzcWJLbDlzX18yRFhvZlpjT3dYOVUyd3laTHV6VDhjanNzMFF6S19xbGNqb3dJ?oc=5",
+      "url": "https://www.investors.com/news/technology/nebius-stock-nbis-nvidia-stake-coreweave-cloud-computing/",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-07-21T13:12:00.000Z",
       "kind": "news",
@@ -894,47 +910,6 @@
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Microsoft to fund Mistral’s European AI expansion in multibillion-dollar deal - KELO-AM",
-      "url": "https://kelo.com/2026/07/21/microsoft-to-fund-mistrals-european-ai-expansion-in-multibillion-dollar-deal/",
-      "source": "KELO-AM",
-      "publishedAt": "2026-07-21T12:56:59.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "By Jeffrey Dastin SAN FRANCISCO, July 21 (Reuters) - Microsoft has agreed to spend billions of dollars on Mistral's computing infrastructure in Europe under a deal that will also expand distribution of the French AI startup's technology through the U.S..."
-    },
-    {
-      "title": "Microsoft and Mistral expand AI infrastructure in Europe as sovereign computing race heats up - Crypto Briefing",
-      "url": "https://cryptobriefing.com/microsoft-mistral-ai-infrastructure-europe/",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-07-21T12:54:59.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "Microsoft and Mistral AI are expanding European AI infrastructure with billions in data center investments, reshaping compute markets that affect"
-    },
-    {
-      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control - Microsoft Source",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
-      "source": "Microsoft Source",
-      "publishedAt": "2026-07-21T12:38:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
       ],
       "score": 55
     },
@@ -1048,6 +1023,47 @@
       "score": 55
     },
     {
+      "title": "Microsoft to fund Mistral’s European AI expansion in multibillion-dollar deal - KELO-AM",
+      "url": "https://kelo.com/2026/07/21/microsoft-to-fund-mistrals-european-ai-expansion-in-multibillion-dollar-deal/",
+      "source": "KELO-AM",
+      "publishedAt": "2026-07-21T12:56:59.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "By Jeffrey Dastin SAN FRANCISCO, July 21 (Reuters) - Microsoft has agreed to spend billions of dollars on Mistral's computing infrastructure in Europe under a deal that will also expand distribution of the French AI startup's technology through the U.S..."
+    },
+    {
+      "title": "Microsoft and Mistral expand AI infrastructure in Europe as sovereign computing race heats up - Crypto Briefing",
+      "url": "https://cryptobriefing.com/microsoft-mistral-ai-infrastructure-europe/",
+      "source": "Crypto Briefing",
+      "publishedAt": "2026-07-21T12:54:59.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Microsoft and Mistral AI are expanding European AI infrastructure with billions in data center investments, reshaping compute markets that affect"
+    },
+    {
+      "title": "Microsoft and Mistral expand strategic partnership to give enterprises and regulated industries frontier AI they can control - Microsoft Source",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYXY2QVMzcXpqZGY5T3NmRl9BX3FQdWkybktodjNVQWxxTTFFSjhfcHFWdUVNRVlRUkNlWFNFT1hUa2pIQks0ek9DNGp5WFJ3VXROeVZDS1BMU3JGd0JNc3U3LTBJcUNIRHBELUM1UFBGcHdRWGNxdkJJbnU2bk5ZUFlLODFaY2xNaDhrMDFxUy02S3dCWFhtb2VxazZVdERlN3lDX1l6ZjdfVkwtUXM2N0JaaWQ4cGRtbkNWRXVqUEJEdS1WbVRBalZVeWZLLUVMZms2am5mdDBDYnJoNThMUTZwbWUyUUdMRUhMM0tPNUIzN3pXc2s2eTNZWWtjeDA?oc=5",
+      "source": "Microsoft Source",
+      "publishedAt": "2026-07-21T12:38:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45
+    },
+    {
       "title": "Microsoft Ties Up With Mistral To Build “Sovereign” AI - Finimize",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUG5EY2l6Y3Q2NllYdWZNNk5LOV9ReEdCb1o2RU1penVQdkQxNVJLTzNwR1J2RkQxbk4zRkxnUHQ2T051dGxHeWNSWlRkMlF1U3daN25yRlJsS0pGVzlCMVBhcUFPNGR0S2hKVkcwQkpsSm1fOVJJQzRBRnRURVFBR3RRa0hkMXhr?oc=5",
       "source": "Finimize",
@@ -1057,6 +1073,19 @@
       "tickers": [],
       "related": [
         "MSFT"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Jeff Bezos Backs $2.6 Billion AI Startup Teaming Up With Nvidia and Meta to Tackle One of the Chip Industry’s Biggest Challenges - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeXBYdFFpSFQtcU5wSi16dTlUdGFYVUpQRExtQVFBWU1aem9zc0RwZi02QkhpRmhDS0MwWS1NaTUzczR0TmZnU2p4V1ZiaFVNbV9WZHY4LUxrMkE5NkVBRjN4SjUxUi1CZFJkdEJzeGtLU2Fpc2xTZFlsNVBWT0pWQS13WGJ2OWRLdE0xRg?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-21T12:00:30.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 45
     },
@@ -1073,6 +1102,20 @@
       ],
       "score": 45,
       "summary": "Nebius stock rose 7% in premarket trading Tuesday after a filing showed Nvidia holds roughly 22.26 million shares in the neocloud firm"
+    },
+    {
+      "title": "Nvidia discloses 9.3% stake in AI cloud company Nebius",
+      "url": "https://qz.com/nvidia-nebius-stake-ai-cloud-072126",
+      "source": "Quartz",
+      "publishedAt": "2026-07-21T11:44:51.000Z",
+      "kind": "news",
+      "summary": "Nvidia has disclosed a 9.3% stake in the AI cloud company Nebius, leading to a 7% surge in Nebius stock in premarket trading. The investment of approximately 22.26 million shares includes a warrant from Nvidia's prior $2 billion investment in Nebius, a company focused on serving AI workloads. This move highlights the \"circularity of the AI ecosystem\" where major tech players finance each other's growth, though Nvidia generally states these cross-investments are small relative [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
     },
     {
       "title": "BMS: Boosting AI Drug Discovery Capacity with NVIDIA Tech - Healthcare Digital",
@@ -1114,51 +1157,33 @@
       ],
       "score": 45,
       "summary": "NVIDIA expands Agent Toolkit with Omniverse libraries, bringing AI agents to simulation-ready 3D workflows for robotics and physical AI."
-    },
-    {
-      "title": "Google Cloud experiences outage after power and cooling failure in Netherlands data center - Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/google-cloud-experiences-outage-after-power-and-cooling-failure-in-netherlands-data-center/",
-      "source": "Data Center Dynamics",
-      "publishedAt": "2026-07-21T10:26:50.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45,
-      "summary": "Issues lasted for almost 15 hours"
-    },
-    {
-      "title": "AMD Takes Aim at Nvidia’s Dominance with ‘Helios’ — Microsoft Joins as Customer - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2MkhBWklESU45S0hOc3hlUkFqR1RXRTBuSENBZ1JURUM4Z2d3Y2hrNGxHcDVQWEhJUlB3N1RTWXFmWnlhT1dVU0tTWHR3ODRmc25IYmNEZ0Z5RnpHSXFucDVMNEJiMkVid2NVTmROSWNya3BSTXc?oc=5",
-      "source": "finance.biggo.com",
-      "publishedAt": "2026-07-21T10:25:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "MSFT"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Bristol Myers, NVIDIA join forces to build life science’s ‘most powerful’ AI factory - Pharmaceutical Technology",
-      "url": "https://www.pharmaceutical-technology.com/news/bms-nvidia-build-ai-supercomputer-pharma/",
-      "source": "Pharmaceutical Technology",
-      "publishedAt": "2026-07-21T10:14:54.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "BMS enhances its AI computing power with NVIDIA's DGX SuperPOD as big pharma race to stay competitive within the shifting global landscape."
     }
   ],
   "general": [
+    {
+      "title": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
+      "url": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-21T13:58:40.000Z",
+      "kind": "news",
+      "summary": "GM raised several key earnings forecasts after beating Wall Street's second-quarter expectations as its North American operations continue to drive results.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Bessent says U.S. could sanction China over AI model 'theft'",
+      "url": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-21T13:58:36.000Z",
+      "kind": "news",
+      "summary": "Chinese open-weight models are gaining steam against leading offerings from American companies like OpenAI and Anthropic.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "SutiSoft Unveils Agentic AI to Redefine Enterprise Operations Through Conversational Intelligence - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMjRNVXpScDRyZ1Q3bUktSTQ1c0d2TDJZdkg0THZveDFwWEtOS0xDbkUwelkwdFFqVzNycVJyT1RFWXM5aWNWVExTMnVZdmRMTmw1M294Zm5La1hVcDlXeHdLdFdSU0J2MTMzOXcyZXFhaUVva0pQRGdnWEFJcXQ1cUtkMXp6Q243QUU0MVpqZ1g4b1JmZlRiU3FsMEc1R0hKdDdxVHZIcGRwTDd2MWxuWnYxLVA0TVR6T3BaZlFUZGxTT2dNa1VFdzFoSlBVRG55VFVHeUhDb2JNWXozdHdGLXVMZ2ZSUkw5?oc=5",
@@ -1171,12 +1196,11 @@
       "score": 60
     },
     {
-      "title": "Bessent says U.S. could sanction China over AI model 'theft'",
-      "url": "https://www.cnbc.com/2026/07/21/bessent-china-ai-sanctions.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-21T13:21:06.000Z",
+      "title": "Teachers 2.0 Explores How AI Is Transforming the Teaching Profession - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSk1XV0I4Y2pNVTBtYXd4OGVXVEk3Ri01VXQzZngySzFUdzNpRzZ3b3dXMDd6SXotME5LejRMNF9KZUpacGo4X1RzR3ZhVk1lZzVHMUphMW16clJlQTdGTTNBdnZFYlpfN2VtUWdNMlhSMkRGejJkZVJ2aWdYV0V1WTZ0NFp2WmF4M3NKUU1YWG14VEw3QXFhNEJnTzNIU2E4UlNJRlhVRURRUVFLemktWklRY29xb0R2dThVUnhRTm9OQQ?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-21T13:29:00.000Z",
       "kind": "news",
-      "summary": "Chinese open-weight models are gaining steam against leading offerings from American companies like OpenAI and Anthropic.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1194,18 +1218,6 @@
       "score": 60
     },
     {
-      "title": "GM beats on earnings, raises guidance amid 'resilient' consumer, pricing",
-      "url": "https://www.cnbc.com/2026/07/21/general-motors-gm-earnings-q2-2026.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-21T13:04:20.000Z",
-      "kind": "news",
-      "summary": "GM raised several key earnings forecasts after beating Wall Street's second-quarter expectations as its North American operations continue to drive results.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Intel's foundry lands first named customer under CEO Lip-Bu Tan, as Fortinet signs on for security chips",
       "url": "https://www.cnbc.com/2026/07/21/intel-foundry-lands-fortinet-as-first-customer-for-security-chips.html",
       "source": "CNBC",
@@ -1215,7 +1227,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "New Instructure Research Shows the Current State of AI in Education: Formal Training and Support for Educators - PR Newswire",
@@ -1226,7 +1238,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "SOS Technologies and Omnilert Announce Technology Partnership to Connect AI Gun Detection with Coordinated Emergency Response - PR Newswire",
@@ -1237,7 +1249,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Workday Announces Rising 2026: Where Agentic HR and Agentic Finance Take Center Stage October 12-15 in Las Vegas - PR Newswire",
@@ -1248,7 +1260,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Salesforce's AI pivot hasn't gained enough traction to save its stock price, Morgan Stanley says - CNBC",
@@ -1259,7 +1271,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Mindtrip Launches Answer Intelligence to Help Destinations Become the Source AI Recommends - PR Newswire",
@@ -1270,7 +1282,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "3 Unstoppable Artificial Intelligence (AI) Stocks That Are No-Brainer Buys for the Long Haul - The Globe and Mail",
@@ -1281,7 +1293,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Will the U.S. and China Build Walls Around A.I.? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb09vT1hPVmpzNEFTOWstTGlKOTJjeU1zZnNSRjc3Z2ZPV1N5UURYdjVpYjJHVUhGaWozNHpLbl83VGU1endCREUzYmZyZlFfVzl1NEJSbkFsYWRFdXh3SUpyNjl3WWtGYUZPRFJxMmJ6UFRZRHNBYk1DZEVnTWNWX3J3?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-21T12:55:39.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "The Third-Party AI Risk Conversation Has Changed: Here’s What I’m Seeing In The Market - The Business Continuity Institute (BCI)",
@@ -1292,18 +1315,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "China AI Companies Rush to Raise Funds and Close Gap With U.S. - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTEE1S1ZjQ2RfLUg5NElqTHJHd1p6WUxlVV9pMTEwdGw5UjBaaGthOXFZcEY0MURRd1F2djRhbHVFWlNQRWVjWVUxRG80VWFCZ0NybkczbzFFQUZVSU9tMjN0QnpIN21IcldsMVNUd1dldEtMUzJhM2VNc2Z3amlkNno5UmNWTmpzckhvaDVoMllHNnlXam1adVVoZ2Z1OUJVeEtkcA?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-07-21T12:46:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "DiMe launches Operationalizing AI Governance in Healthcare to give health systems and developers practical tools for responsible AI deployment - PR Newswire",
@@ -1314,7 +1326,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "The AI Bubble Is No Ordinary Bubble - The Atlantic",
@@ -1325,7 +1337,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "U.S. strikes continue, GM earnings, the latest on cyclosporiasis and more in Morning Squawk",
@@ -1337,7 +1349,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Opinion | The AI tax movement is built on a myth - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaFdTUVpTUmhoTjl0bXBoaXJKdXRjajByeFJiVFd1NDZ2RFVmUDhTODhYQmNTbno2LXpZcFZkUWEwUDBuRVZpbnlkNWNjazhHQXNIY1RIVUlITnAtSHhFRzVOWENDanZaWF9SS1dWNXlhRktIOEFpdHJpNFQ1UXNpTlNnYllDVklFbkE?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-21T12:32:20.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Company Selected for Ability to Help Accelerate Planning and Deployment of AI Initiatives - PR Newswire",
@@ -1384,17 +1407,6 @@
       "score": 50
     },
     {
-      "title": "Will the U.S. and China Build Walls Around A.I.? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb09vT1hPVmpzNEFTOWstTGlKOTJjeU1zZnNSRjc3Z2ZPV1N5UURYdjVpYjJHVUhGaWozNHpLbl83VGU1endCREUzYmZyZlFfVzl1NEJSbkFsYWRFdXh3SUpyNjl3WWtGYUZPRFJxMmJ6UFRZRHNBYk1DZEVnTWNWX3J3?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-21T12:06:36.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Nearly Two-Thirds of Workers Believe AI Is Reducing Entry-Level Hiring, According to Indeed Flex Survey - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWGxxbGFkOU5VOVpMcU1XQVJ3SERPQ0hHekpvUmhwdFhxUmNRMm9VUllycTNlYkQwRVVlbzV0QjcxdTZMSEd5aDlQdWI2WHJyTWVnai1tSUphSnN0c3VaTHUxVDZYY3FCMVYtZzFmZVV0NUlfSzlyOUhwcnRkMXNIek9JNERmQUhTb0lpSXdLWWUtYjJNOEpkU3dGMXVLUzVDWC1EeW1DVmVWQU9pYWFiSlRkVXplZ0VSUjlOU2cwck54dHc4ZVNReFhTREMwelpWMUQyTnFGb21OcEc4ak4yd2ZXc2MyR082dXZ1VFI0RQ?oc=5",
       "source": "PR Newswire",
@@ -1428,11 +1440,12 @@
       "score": 50
     },
     {
-      "title": "A new era for surgery with real-time AI: Medtronic to unveil Touch Surgery™ Aide, the next-generation compute platform for the operating room at Society of Robotic Surgery 2026 - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPRW1ab2pYTFNWZmlibXFodmJWZTB3Yl9vTkR1MzRSdEJrc3l1dW9xX2g5Y2EybTQ0R1N2SlpZQTRXbVo2RFlCX1JmVjd5dGNYOS15YzRRdlJRYTYtRENvcTNyVVJnMkZ0TUlFVkhVeERaZVF6WUJHTEZVLWJiS1pGdW5aOUF2LTBzSXVmaE84cWtNZG9heGJsSmM4NkpSRXY3eG5vZnhPNVB5Zm1yNGdrUF9UV0tGY2c0cUtVVWpEWDM4RHFYSTRIaE5aLXpxOUtlUDFIQUNTYTRQQ0tyZUIydlVWNFhjYmZvZk9LbV94QmlYbWNMT0stVUh5emM5SHFNcGw4WFg1TXFHRlQwbl9xcXJlZ0R5NmNRYlg1SXh6SUFTWWtaczNBTzQ2TEt5RS1zamJXYmRscG1udzlBeXd1ZzBPSGVNN29aYUpNRWZn?oc=5",
+      "title": "A new era for surgery with real-time AI: Medtronic to unveil Touch Surgery™ Aide, the next-generation compute platform for the operating room at Society of Robotic Surgery 2026",
+      "url": "https://www.prnewswire.com/news-releases/a-new-era-for-surgery-with-real-time-ai-medtronic-to-unveil-touch-surgery-aide-the-next-generation-compute-platform-for-the-operating-room-at-society-of-robotic-surgery-2026-302830108.html",
       "source": "PR Newswire",
-      "publishedAt": "2026-07-21T11:00:00.000Z",
+      "publishedAt": "2026-07-21T11:00:25.000Z",
       "kind": "news",
+      "summary": "Medtronic is introducing Touch Surgery™ Aide, an AI-native surgical computing platform built on NVIDIA infrastructure, designed to provide real-time decision support during surgical procedures. This next-generation platform will be unveiled at the Society of Robotic Surgery 2026 Annual Meeting and features the FDA-cleared Instrument Exit Point (IEP), the first real-time AI application for robotic procedures. IEP provides visual notifications when instruments move out of view, [sentiment: Bullish]",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1472,6 +1485,17 @@
       "score": 50
     },
     {
+      "title": "Anthropic says an AI security startup's logo looks too much like its own - Axios",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXNFNpaDFwbVZnTjhKcGNWQWpSd1hZV0ZNcEVXVjZlOUluRGg5cy1IZ0NSazdaLUV0c01WV1RWTkxSVHl5Z0FYYWdRTzBBbW9USFdlX3FuV0NfS3JmMGFXcGhseGttMlpRWTBYdWFIQkhURlUwZ09R?oc=5",
+      "source": "Axios",
+      "publishedAt": "2026-07-21T10:54:12.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Election voting advice from AI chatbots ‘inaccurate and unreliable’ - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUFZ1S2FPMDVBX1ROcHpWa2VoZG5mdWE0dFhSMVhlek8wRFZ1MzBGMjIzVXg1YzhzN3FqWHlzUnpVdXhBSWUxLUdub3ZhNFdqUnB2cFIzTVYtZzBmM01Ud2JLV1IwVGQ5ckEwRkNMeElPZkVRNWk0cjQ5ZHZPUGNjdjl0NXhLTmZGQkEyMGdaSnpPQjREcUJZX0o5aFBhVDU5bUViXzVfSVFZT0xQUy1nbkgzczRJdw?oc=5",
       "source": "The Guardian",
@@ -1494,32 +1518,10 @@
       "score": 50
     },
     {
-      "title": "Equifax Delivers Strong 11% Growth in Second Quarter 2026 Revenue; Signs Agreement to Acquire Círculo de Crédito; Doubling AI-Driven Cost Reduction Target To $150 Million; Returns $366 Million Cash to Shareholders - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxOV0JJWFdjaTF3X2xERDZRY1l1UGVvdVBnR0NyYlE3Q09CZzBmSS00LUFVcFR2dlNJb2U4YjhXbWxvUGxLSEh0Z3ZmU1FQMzJ0eUlmWTduX0F2d3VBbGZDODhQb2M3cDB4amZPX0czR1pkYUNzT3lKTFdoODlQUEdkVDEtdVZyMGR1NGR3TU5zdnBzZF9JZmNNaVpUVG5MakgwR3JKVUxPRGZFUVU2bl83d1NKc2t0clZGVGdmSGZxWEhwLWlLampMZWFYMmg3TGZ0bG1OaGdwWWxEaVhqdER0S1U4VHVaVUphd1oxVTJVYUI5V1NIX3FKbGZhbWFoVHU2dmFNS2NpdlByazFUakpYUC1XREpCRmxVLVAxdnVfTU5GN3k5NG03VXYwQ0FKNG82X1BWbU1CM2pxWmU2WXoxei1iMmtXdGVuTC0wOGdHUGtaaXo5Smowc2VNOWNienVEOVNMWlJjUmJINEoyVWQtak5TQ2xFR05BaW9r?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-21T10:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Who’s afraid of the big, bad GPU? - The Verge",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQk05cHdOOVZnZlIzdDVTT081eDZzb0pRTXFlS2tGVUZHZGJSSUhJOHFGclJuV00yQ2M4TDRfSk9SVUdKRi1WMXhXYW5zZF9pcU9jbW1jUFNYRlBRTkF0RGF0TmJFV0ZJdVgwQnFRMVRaUGstNEVjeU80WTB0NXNBa0YzS1QtNEhiNXVB?oc=5",
       "source": "The Verge",
       "publishedAt": "2026-07-21T10:00:01.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic says an AI security startup's logo looks too much like its own - Axios",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXNFNpaDFwbVZnTjhKcGNWQWpSd1hZV0ZNcEVXVjZlOUluRGg5cy1IZ0NSazdaLUV0c01WV1RWTkxSVHl5Z0FYYWdRTzBBbW9USFdlX3FuV0NfS3JmMGFXcGhseGttMlpRWTBYdWFIQkhURlUwZ09R?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-07-21T09:12:20.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1538,6 +1540,17 @@
       "score": 50
     },
     {
+      "title": "Crusoe and ON.energy to Deploy 5 GW of AI UPS™ at Multiple Hyperscale Campuses - The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbFA3VWZqNlNQZ3F4WW9SWTdSOTFTVjFYZGF5SjF1UXNQYUMxVWkwTEJCLUVIaW1QeG5EUi0wUHBBazU1bWFHby04d3M5aml0bjNzVGpxc2dieEZ1ZkZxbWdfcm5GNzZ0c0lqVUpqLWQ1QlBPX09qX0RWSzd4SlhsdnBUSldNbHd4TU0wdlE0UUVVM1JzOW1sUDQ4RVNid0ZLVW5CYThHWThmMDZsUDhfYV9YMmxzRDJVZHhYUTVyejB4dEZiMkllRUhfZ29wekx3bXc2NVNnYk16WHV3dEZxak0wdjHSAeoBQVVfeXFMTU11dkFiY0RHNzNweHBMcGlzdzZ2Y1pRSzFoeVV3SXByNlFNRVdBOERrTTdrRVlWbk9iQ2xETjRvNGxyc3FBX0JZZUxzeHZvSWF4R01Ta2NUR2pIUWl2dDYyeGJsN1Q1N3JNR3o1UUs1RTJNSDFkM2RiYlV2cHd2bUZkT1J6Z0djbU0wOUt5QVdmZW8zTlJYd3B2ZFBYRlBIeDJnMEhONVJWUEVXT3NkUTkyeW9UcVVTcHhoZ0I1ZXh5aTkzYTB3Uk5EcVBJYk5BVG15cVhMMVFfby1LcHRyQmVJMkJUQm0yNkxB?oc=5",
+      "source": "The Manila Times",
+      "publishedAt": "2026-07-21T09:04:38.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Savannah River Site getting 1 gigawatt data center as Feds pick developer - The State",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aS2xmN2FaWHZMVUdQUkF5eTk4UVhqRURNLTYzOEZURUhjbWxiS0paZTdlYjlocGZFVkpYZ2RDT21GbXdXUXBsWkhKUkRvN2JyZmNtRGVvVDFSbHpncXlqODl4OGliTHN3dFRMdmFiVDVKZkZpTjVtVU9ZUdIBe0FVX3lxTFBqX0cydTNJcUI0SHMtRWR5TXg0ZlJLRlNwZnowZXU5TmYyMS1qR210NTRSbmdwQW0zNkx2ZW1UNVFwSHNqTHZ3V0NPc3p0OTVHaTR2YTdBR1k4WElYUlUxUWgtMkk5OU1uRXU1SzM4WFdQdU5OVFZ0dm9Pcw?oc=5",
       "source": "The State",
@@ -1549,32 +1562,87 @@
       "score": 50
     },
     {
-      "title": "IonQ, QuantumBasel Study Suggests Hybrid AI Workloads Could Gain Energy Advantages From Quantum Hardware as Systems Scale - The Quantum Insider",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPaDNxVzRpZ0o2Z1h6QkNRdklMUTNUTlEtSTlSZE11NWVNWUR3MDdYSDVvZ0NCX1ZnTUlINUVzTmxYVjd2SlZPdkdwdnQwcFFiLVhSS0VpbkZJVlczQ1g4UzFNVXRYbDA1Y0dPTHNJVFI3SDA5UmYtUk9pSnVwODZURzNBanljTVBvRmZWVFNLeG9MQUYyZjJ2N0toa3NabkFiWHJyM3pCVnQyQ3lrc1A5eUtOeEIxR0syTFVWeGNycmQySnNUd2ZUMWdseUJ1cV9tUk9lVWRLeks1bFZFd1dFRjB2NkF3ckc1aHd6cThwUjFBaW1O?oc=5",
-      "source": "The Quantum Insider",
-      "publishedAt": "2026-07-21T08:50:09.000Z",
+      "title": "How the food industry is optimizing AI investments - Grocery Dive",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLXRqSm85aUNEd3lzclRtdlBUQWxkT3JKdkFFMWtyaVNFUW9LVkpHM1I5WFo1OENRQ09zWlZ1THFsQ1o3Rm1jVmVNTThXaFBncTc3UVJnVWJ2cDdDT25EYnBjODBrbWVDeHZTUGxzQXY4X3YzUk5STC1TZVp3elZLc2V3RGM3and3dF9PdA?oc=5",
+      "source": "Grocery Dive",
+      "publishedAt": "2026-07-21T13:48:26.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Infrastructure AI Launches Agentic Hub™ 1.0 - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOazVsNDU0QWFRWXBmSE5YcUx2V3BiTFNSWm10ek10Tkc0WHcyaWo1bFVmbjR6RVZUM2YtMmZlbzdkRG5OTkZvUnAzSkdYaEYxSDBiN1ExX05HWWlEOVNudXBlOVhGYmxFY3FXSk1fMHM0RERCUVBZYVhEQjFBM092NXZMeW15MlhYM3FwNzZHdUM2TEZPOTBaUldMelVFVU1J?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-21T08:00:00.000Z",
+      "title": "AI Power Demand Continues to Surge: 5 Highest Yielding Utility Stocks You Can Hold for Decades - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOOEVmOEdkZTFFYVY5RHdDTkFDN3NqN3dEbUZzOHNlWWhud0Jzclp2cnpKbkJEN0pacldoamFzeDFwRl8xeDVGZ0VWRWg5dzFDRmFjTWNmUHNWeS1oWk9hU2RvclZVWjNBSURsc0c5UzBOU01VRmVJVExOZ2lWR1NJR1VDT1FtcHJMd1diNGRiS2FibWJyUU1uSVpqYlhFUEtpdHMxNEVIdHRPN3ZDM2hPNFZoV1ZXNDRyRWcwb1U5dE1MQ0VndklVaGZuWjZnYkk?oc=5",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-07-21T13:40:36.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "Anthropic hit with largest-ever $1.5 billion penalty in copyright lawsuit — court says training AI on published material is fair use, but startup’s pirated library infringes on authors’ rights - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxPb0VvX3AycjEtNV91a2JndklUQmVMN2xBME5pRWU2OWMyOUJMZmNlSnFlYjJqRUpFbkRhNUUtZm05VFE0TDdOejVjUHNrNFBiLWdMaUpRVDZtX09tZGZMa2szdWhiRnZVek1pTk1JWW96TjRGOEVCa0phT0NHeVQ2QzJLdlRKbzBva045UkNFMVdHaG13V1ZhVlZaMVFSRTNUX3dGNTllYU9vcWhjLWRyb2J6M1p2SndFdHZreVR0OFNlbjdGMEJkTVM0WE0tVEZ5UXRYa0Z2Y2RjT1lDMWZCY3JZSzVoTG1DSGF3eTQ2Njd5RkM4aG4tbHFVbTU4dkFOU3RzNThvUlRtMURBWThINVBQR21oSXl4NUZPRHd6TlZ2NzdwN0xNVjVfTG85X2NURDF2Z2VVc2JYYVFiQlJqSkFKanJGXzczaEs2LWsycnRkZVQtd0F3bG9mQTU5ZWNRS3hhQ3RFZGRsYUlWZTF3TUt6VGxTOWdSZXlZaFNnaGYxd0JWdkNVTjVmRkpNUWFGR1NlZDdneHd1SVNNYjh1NEFNX3pSeEtCMFFJQUVWQThMQXQ5MkFR?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-07-21T13:37:09.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Greenidge Generation renames to Vulcan Infrastructure, raises $39.4 million PIPE for AI/HPC pivot - Blockspace Media",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93RFBDZFhKbEFGX0V1SXJsUjdocThlSFVzRU4yUFA2bmF0aHlrRmp6YTBFaWFLUUl6cGZKdDZlZ0Fib1pHbUs0cXdaX1QxLXV4QzVXckg3WTlZNTVvcUNHN2VzcklyakxaVGFoUS1ST2RWOWNhbFJaT0xDdUdjVEU?oc=5",
+      "source": "Blockspace Media",
+      "publishedAt": "2026-07-21T13:30:38.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "90% of students use AI in the classroom, Instructure poll finds - Higher Ed Dive",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZXdfZ2xwRTZROWpYenJnUWxwaldDc25mejJYV0FlZHJiNmY1eWYxSURaQldzSkhHdFlEdlpZZkdhMndmdUhiekhsNFo1ZGJ3YzRHUDRsbGlOeVVMRm9scWNaUDNUOXVzRVJtNTV3UUN6OVJsa0llRDZuTUJldUNQV29lQzlONUYyWEJ6VUlDUVVJWDc5TFo2b3NFN1p6OWhsbVJuQ09R?oc=5",
+      "source": "Higher Ed Dive",
+      "publishedAt": "2026-07-21T13:30:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Sagtec Global Limited Expands Strategic Partnership with Kinetic Seas to Launch Skilliks.AI Managed AI Memory Platform Across Southeast Asia - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXh2dGZYdkh3VzBPRk1ncmVtTE9ZcW5pd1pOakttNk96UVhHQ1dxbGV1a2xPTHdrSWU2UXFiNk1VaHhlOVpZRTNGVExTX1A4UkJpVzRqQ1h2czQxTHRrZlJMYjFmNG5VZmlCTEhqbHl6ZGJjcmY1TlNsd2ZLZGpJMG5QUnFYX1BMYzVnSEh3eGIzT050Ymx6UUNYbWVaWG13MXQ2U2ZR?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-21T13:30:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "Morgan Stanley sees $76 bull case for Cipher Digital, remains ‘Overweight’ - Blockspace Media",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZzJieFpLYTQtOFVtVG1PUVNzM0xCMTd0RmRIYjVRRkxRSGhQejhYTUlYVElSUWpnZ2VPRGMydW1HUVd0RU5Od3oxY1Z3VmFvdzI3ekszdTNrWjFqbEx1S3ZsVVU5ODdULWZzNWJfTnRSLWxLU0ZYTVd2aWx6WXV0UExIV1F4OWtmaFdES01yQTU?oc=5",
       "source": "Blockspace Media",
       "publishedAt": "2026-07-21T13:20:37.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Hedgehog USA Signs Strategic Energy Supply Agreement With Idemitsu To Advance Powered Land Data Center Platform - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ2NfMllhb1dMbGVYNDBmclhXZl9Jbms0ZFVIX3F2VEV0dWhuWmdkVmFtVWNHa0FOeXZsaC1HUWFobzdyb0RMXzNRSmJYbWtuUGEzUUliY1NFR0ZDb0p2V280YWU4VEJPc2dZaFBQcjlpVGQ1ZVZMU2JiOHBDdS16YmJ5cjg1S0tNQzdRM2JXUVR2U0xjdDJR?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-21T13:15:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1615,10 +1683,10 @@
       "score": 40
     },
     {
-      "title": "Generative AI Server Market Size to Hit USD 1,885.25 Billion by 2035 - Precedence Research",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBcEdUZ3ZGSXZXSTBkczZwYVJkZ3dFTXdFcWVnZENXU0g0QTJzRHhwYzlFWmxGLW9hOXN6WlZWc3dqSkNSczExV2tLemhDQ1ZPak9NSXRfWDlkTkpmVno5bjJwQ2E0eEtuVHU4V2ZpYw?oc=5",
-      "source": "Precedence Research",
-      "publishedAt": "2026-07-21T13:01:33.000Z",
+      "title": "92% of Healthcare Leaders Won't Trust AI at Scale Without Deep Clinical Expertise - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYnByWDZjQnBxaDV2NEhJTXd3LVd6UExldkR2TTh3N0d1cnlta1ZxQ3lkR01OSEhQbGoyeUlNbzBDS3d6UE5udXR4MGFWanRJT1g5cG04VGVmWkQyajFWbXFyRExxcGtKRzFRWmVWeVdTMUxmYzlQT2JiLWxIVV9JTVd6VWlnbm9aa3dQeEdMOVU1RnpFLTBWbQ?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-21T13:03:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1626,89 +1694,24 @@
       "score": 40
     },
     {
-      "title": "Spain’s $3.4B AI Campus Bets on On-Site Power - Data Center Knowledge",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTlRPTlNmYnFEUmtjamRIV09rY19IdGxPekNRLWZ5OGY0dkNtQVEtcVp0OHphQXRnM2psQzhoOXZaTFQyalVGNFBfNTZyN0JCdnZKSTZkOG5FS3cyUUFIUElMZGRNNURmZjVjbXhaSlp1ZGh4V0lKOWRqZ2tRRTJrUk4tWG1OZUE1RWRoNEhUYXdaam93dlFGNUVIakVNZ01YUnJXUE5WbEI?oc=5",
-      "source": "Data Center Knowledge",
-      "publishedAt": "2026-07-21T12:55:08.000Z",
+      "title": "One Home Photo Becomes Multiple Designs With Core AI's HomeGPT - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUFNvUDF2OXN4Y3pMT2dpVk5ZaWEtcnZmRXZEdUVVcmtXRXpndjh1UnhVUm9UQXdfeHptQ09fMEFJYXhCcnZCa01fUjRxTEc4azVSTEJiS2FJcW5ENnhZSEFsekUtajZlRmpwMVZtOWtsbTB2blhTZ1NuTWdQVUp4VGgwY2ZXRUJfRGxDRVhDU3NvX21oOWo0WGZyVG40Q3N1NVdtQ080allZOEVETTFqejJn?oc=5",
+      "source": "Stock Titan",
+      "publishedAt": "2026-07-21T12:15:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Power companies can now seize private land to build AI data center infrastructure - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hRjdxbnNnWlNGaENrbm1PU2l1Yk9kWVNCRFk1SjRSWnVlVUJOc2dLeGotWFlPdWhtUVdNVDQ5Q3dfS2pzLVRvOVJURTlZVUM5bU9Zc2F6Q1Q5aF9sVHREMFgtNkRfUnBrME5mYW04Rkh5b0ZxUXNoNDIwUQ?oc=5",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-07-21T12:54:59.000Z",
+      "title": "Nerdy Inc. CFO Atul Bagga sells $30,233 in shares at $0.83",
+      "url": "https://www.investing.com/news/insider-trading-news/nerdy-inc-cfo-atul-bagga-sells-30233-in-shares-at-083-93CH-4802363",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-21T10:23:22.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "The AI Slot Machine Effect: Why Generative Feeds Disrupt Deep Work And How to Reclaim Focus - AI News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTURoQ0RMS0hCQk5ZX2lWNFo2YTFINnNCMXNVWEQwc3U2d3AwUnJSVDNmSFZnRURSZkdXaHFiaFRvZ3JYM0I5eFZVWUZBaW5MaWxjaThHMExVVXF6R0huT3NvTGRYSlRBRF9NbkJGbjBNdlVvcXgydS02bXVQOHlhVG9tcDhqQ2FHNE56Q2VOd3Z4c3lMdGQ3aDJPcDVmTkNXSGw4cy1HVENiMGVpNzB3VUhjN09wemtOdi1zd24wdjh5ejR3LUVLVE1fenZ4Rl81RGRPYkx0OA?oc=5",
-      "source": "AI News",
-      "publishedAt": "2026-07-21T12:53:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "When AI becomes physical, proximity becomes key - WRAL",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd0I2RWFzQmh1N1cyZHdFY2h4RzlNdXNleFc2VFp0bTJCZ2Q0NDFrT25YeElWY3J1ajBWTzVsNFdQT3haM0Mwc1pDQkpHM2ZtS3NXMGppQWN4X053QklhQTRFcHJzQjBrQUZLYUhGV3pnMWxYQlo1NnJlX2pBRGJBbVpKV2NnenhrLXIycWtpYUNFZFBRbWNjbWltQ1Q1ZXM3V2gtR1hYaw?oc=5",
-      "source": "WRAL",
-      "publishedAt": "2026-07-21T12:49:49.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Anthropic AI copyright lawsuit: Update as judge approves massive settlement and payout for authors - Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTmxUSkt4M2pMdGROV3g4RnRTd0RwMUtGbjh1aVJoNFEyVkRUTk1qbHJkWnJVeVdqek5tZldJY1dtWWRrbEtJY2lDbl9abS1KR1RpOW93aHVQLWFmM0tCeDFTZHdfWHBpbXBVenRTUkh2UzVlSUFyUXo5bFF5Qno1UHRvM3BibUdZM1ZkeWpUWFZPQ3NhNE1KMTNB?oc=5",
-      "source": "Fast Company",
-      "publishedAt": "2026-07-21T12:49:35.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Alphabet plans to spend up to $185 billion on data centers in 2026, more than double last year - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VQVQ4U2hOc1pFd1VDcDYzV005ejVWSVJ3ZzYzbW9aNlRHUnBydUxyRkRLRTNLZ2MyRDlTNGRrSHNLUk5yT3lZc0tFOTM4MGNNMGM2azBuSEV2eFM2Sl9GTWl3QUZlcnpNWF9oZFZLa2IwTWE5RFJkZUxNRQ?oc=5",
-      "source": "Crypto Briefing",
-      "publishedAt": "2026-07-21T12:46:41.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Engineering Days 2026 unveils programme: From AI to carbon-reinforced concrete – the future of the precast concrete industry in focus | NEMETSCHEK - Nemetschek",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNmhnaUx6RC1WOXR4RFlpM0dzbWhKb0pxUENUbDg4Y2xwUTlQRW1oOUpoY1hwRS1XVExyd3cxREc2UEdqQ0xoelZmR2hKTXdkY3RZQ0dWSWxzTGM2Y2txWk9fU3Nsd2dJZUl3OFNuNnM1NHZudmE1U2FtWHNKMjlOMWVJYy1yMkY0aUlzeXNPUU1WMWtZRXhEcUw4SXhnbHEtNjNxZldHR2NjUUxFS2l6UzJsdGd3TUozdVFVUV9jRVlGM28?oc=5",
-      "source": "Nemetschek",
-      "publishedAt": "2026-07-21T12:37:36.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI could lift Sub-Saharan Africa economy 4% if power, internet improve, IMF says - KELO-AM",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkN1enVVZnRYejBwa250N3BsMlRRQkdOTXh6Z2xaa0Vydk9ValQ3NWhqcjR0UUdSR3pJRlFlWkI1YjRMVDd0NF96VUVOMkVLVEJHblBpZWt6UktDRWwta1B5R0JJc21MMktCQmhQUmd2LXFmNjJyTWZOUEdZQXlPVDBQN19jQjJEQzQ3NUFuaVd6eUhTZVQ1Q24wcWRCZ1pqcFJPQ0UzeGNtUQ?oc=5",
-      "source": "KELO-AM",
-      "publishedAt": "2026-07-21T12:36:59.000Z",
-      "kind": "news",
-      "tier": 3,
+      "summary": "Nerdy Inc. CFO Atul Bagga sold 36,426 shares of the company's Class A Common Stock, totaling $30,233, at $0.83 per share on July 16, 2026. This transaction was an open market sale to cover taxes from the vesting of restricted stock units. Following the sale, Bagga beneficially owns 1,463,574 shares, while InvestingPro analysis suggests NRDY is undervalued despite weak overall financial health, and the company recently met EPS forecasts and exceeded revenue expectations in Q1  [sentiment: Neutral]",
+      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40

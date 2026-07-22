@@ -92,6 +92,61 @@ export async function fetchStockTwits(symbol, cfg) {
   return items;
 }
 
+// --- Reddit subreddit feed ---------------------------------------------------
+// Surface a dedicated subreddit's OWN posts as social items (distinct from the
+// discovery path below, which only harvests x.com links shared on Reddit). The
+// Atom feed stays open keylessly where the JSON API 403s from non-residential
+// IPs. Posts in a ticker-specific sub (e.g. r/FRMI) are inherently on-topic, so
+// the caller passes the ticker to force-tag them into that ticker's section even
+// when the post title doesn't name the company (a shared "OpenAI data center"
+// headline is FRMI-relevant by virtue of living in r/FRMI). The RSS feed exposes
+// no upvote count, so items are labeled trust:"limited" — not score-vetted.
+function atomTag(block, name) {
+  const m = block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, "i"));
+  return m ? decodeEntities(m[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").trim()) : null;
+}
+
+export async function fetchRedditSubreddit(subreddit, ticker, cfg = {}) {
+  const limit = cfg.subredditLimit ?? 25;
+  const url = `https://www.reddit.com/r/${encodeURIComponent(subreddit)}/new.rss?limit=${limit}`;
+  const res = await fetch(url, {
+    headers: { "User-Agent": UA, Accept: "application/atom+xml, application/xml" },
+    redirect: "follow",
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for r/${subreddit} feed`);
+  const xml = await res.text();
+  const items = [];
+  for (const m of xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)) {
+    const e = m[1];
+    const title = atomTag(e, "title");
+    // Reddit's Atom <link> is the post permalink (its own domain); gate to
+    // http(s) like every other source before it reaches the render href sink.
+    const link = /<link[^>]*href="([^"]+)"/i.exec(e)?.[1];
+    if (!title || !link || !/^https?:\/\//i.test(link)) continue;
+    const author = atomTag(e, "name"); // "/u/username"
+    const when = atomTag(e, "published") ?? atomTag(e, "updated");
+    const t = when ? Date.parse(when) : NaN;
+    items.push({
+      title: title.replace(/\s+/g, " ").slice(0, 240),
+      url: link,
+      source: `r/${subreddit}`,
+      publishedAt: Number.isFinite(t) ? new Date(t).toISOString() : null,
+      kind: "social",
+      ...(ticker ? { tickers: [ticker] } : {}),
+      credibility: {
+        score: 30,
+        trust: "limited",
+        reasons: [
+          `posted in r/${subreddit}${author ? ` by ${author}` : ""}`,
+          "Reddit RSS exposes no upvote count — not score-vetted",
+        ],
+      },
+    });
+  }
+  return items;
+}
+
 // --- Reddit discovery + X oEmbed hydration -------------------------------------
 
 const X_LINK_RE =

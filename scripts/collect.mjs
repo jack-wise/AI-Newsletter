@@ -19,7 +19,7 @@ import {
   fetchYahooFinance,
 } from "./sources.mjs";
 import { searchX } from "./x.mjs";
-import { fetchStockTwits, fetchRedditXLinks } from "./social.mjs";
+import { fetchStockTwits, fetchRedditXLinks, fetchRedditSubreddit } from "./social.mjs";
 import { enrichItems } from "./enrich.mjs";
 import { updateDayArchive } from "./archive.mjs";
 import { generateBrief } from "./brief.mjs";
@@ -173,6 +173,12 @@ async function main() {
   for (const sym of config.social?.stocktwitsSymbols ?? []) {
     run(`stocktwits:${sym}`, fetchStockTwits(sym, socialCfg));
   }
+  // Dedicated subreddit feeds (keyless Atom): the sub's own posts, force-tagged
+  // to their ticker so on-topic community discussion pins to that section even
+  // when a post title doesn't name the company.
+  for (const s of config.social?.subreddits ?? []) {
+    run(`reddit:r/${s.subreddit}`, fetchRedditSubreddit(s.subreddit, s.ticker, socialCfg));
+  }
   for (const q of config.social?.redditQueries ?? []) {
     run(`reddit-x`, fetchRedditXLinks(q, socialCfg));
   }
@@ -250,10 +256,13 @@ async function main() {
   const byKey = new Map();
   for (const { items } of settled) {
     for (const raw of items ?? []) {
+      // A source may pre-declare its subject ticker (e.g. r/FRMI posts, whose
+      // titles often don't name the company); union that with title matches.
+      const declared = Array.isArray(raw.tickers) ? raw.tickers : [];
       const item = {
         ...raw,
         tier: sourceTier(raw),
-        tickers: matchLabels(priorityMatchers, raw.title),
+        tickers: [...new Set([...declared, ...matchLabels(priorityMatchers, raw.title)])],
         related: matchLabels(relatedMatchers, raw.title),
       };
       const key = dedupeKey(item);

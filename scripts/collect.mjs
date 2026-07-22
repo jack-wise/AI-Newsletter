@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import {
   fetchAlphaVantageNews,
   fetchBingNews,
+  fetchBloomberg,
   fetchCnbc,
   fetchEdgarFilings,
   fetchGoogleNews,
@@ -189,6 +190,13 @@ async function main() {
   // tickers by title downstream like any other news source.
   run(`cnbc:markets`, fetchCnbc("https://www.cnbc.com/id/15839135/device/rss/rss.html"));
   run(`cnbc:tech`, fetchCnbc("https://www.cnbc.com/id/19854910/device/rss/rss.html"));
+
+  // Bloomberg Tier-1 section feeds (keyless, via the permissive feeds.bloomberg.com
+  // host): curated markets/tech/economics coverage, matched to tickers by title
+  // downstream like CNBC. bloomberg.com is already Tier-1 in config.sourceTiers.
+  run(`bloomberg:markets`, fetchBloomberg("https://feeds.bloomberg.com/markets/news.rss"));
+  run(`bloomberg:tech`, fetchBloomberg("https://feeds.bloomberg.com/technology/news.rss"));
+  run(`bloomberg:economics`, fetchBloomberg("https://feeds.bloomberg.com/economics/news.rss"));
 
   // Press-release wires (keyless): filtered at ingestion to the priority
   // company's patterns, so the wires act as a fast primary-source watcher for

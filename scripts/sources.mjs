@@ -230,6 +230,21 @@ export async function fetchCnbc(feedUrl) {
   return parseRssItems(xml, "CNBC");
 }
 
+// --- Bloomberg section RSS ---------------------------------------------------
+// Keyless Tier-1 markets/tech/economics coverage direct from Bloomberg. The main
+// bloomberg.com site aggressively blocks bots, but feeds.bloomberg.com is a
+// separate, permissive feed host that serves standard RSS 2.0 (title/link/
+// pubDate/description, absolute bloomberg.com links). Like CNBC, section feeds
+// are curated (not a firehose), so items flow through the normal title->ticker
+// matching: an NVDA/data-center story lands in related/general, an FRMI mention
+// in priority. bloomberg.com is already Tier-1 in config.sourceTiers, so these
+// rank highly automatically. Section paths: markets, technology, economics,
+// politics (the "green" feed 404s and is intentionally omitted).
+export async function fetchBloomberg(feedUrl) {
+  const xml = await fetchText(feedUrl);
+  return parseRssItems(xml, "Bloomberg");
+}
+
 // --- Press-release wires -----------------------------------------------------
 // Primary-source releases (PR Newswire, GlobeNewswire) are keyless RSS but are
 // firehoses, so they're filtered at ingestion to titles matching `patterns`

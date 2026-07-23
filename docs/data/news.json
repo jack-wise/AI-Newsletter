@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:21:08.969Z",
+  "generatedAt": "2026-07-23T18:31:24.700Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -693,7 +693,7 @@
       },
       "tier": 2,
       "related": [],
-      "score": 48,
+      "score": 38,
       "summary": "BlackRock Leads $12 Billion Financing for New Meta Data Centers in Texas"
     },
     {
@@ -1038,6 +1038,19 @@
       "score": 65
     },
     {
+      "title": "AMD launches Helios system in direct challenge to Nvidia's AI dominance - Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/news/amd-launches-helios-system-in-direct-challenge-to-nvidias-ai-dominance-183000104.html",
+      "source": "Yahoo! Finance Canada",
+      "publishedAt": "2026-07-23T18:30:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Watch: Nvidia CEO Jensen Huang talks about AI, re-industrializing the U.S., and growth in North Texas - Dallas News",
       "url": "https://www.dallasnews.com/business/article/jensen-huang-nvidia-ceo-talks-ai-boom-north-texas-22356279.php",
       "source": "Dallas News",
@@ -1322,23 +1335,43 @@
       ],
       "score": 55,
       "summary": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark | Read more hacking news on The Hacker News cybersecurity news website and learn how to protect against cyberattacks and software vulnerabilities."
-    },
-    {
-      "title": "OpenAI cyber models broke out of training environment to hack Hugging Face",
-      "url": "https://www.cnbc.com/2026/07/22/open-ai-cyber-models-hack-hugging-face.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-22T18:37:37.000Z",
-      "kind": "news",
-      "summary": "The incident is unique because it was \"driven, end to end, by an autonomous AI agent system,\" according to Hugging Face.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
     }
   ],
   "general": [
+    {
+      "title": "Croatia's Grid Operator Approves Power Supply Blueprint for Pantheon AI's 1 GW Data Center - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSWRzOE1OV0pfenF3a3FXcUtyNHpxYnVZM2thWElMY0Z2dFFvbjROLTE1MThmTU1KTE1qdzVpdXEyZ1k5SkxLS0JTMzBRdG81bGRjZjA2TWwzZ0k2eFE1MzZNZmxhVExtTmJHVTUtYUduQ2JwZjlnTTdpVUNPYnN3ekh0ckFCak8xa2hDcEtjaGxPS2s4YUZIaTNVYXB3c1FyNjZnY05CSWJlMGJ4SlcxQXZmU3Y1U2QwbHozSGtRVF9haU5sbGNTVWJpUGdDVlYzRGdwbzhzMGNNR3BMZUE?oc=5",
+      "source": "Business Wire",
+      "publishedAt": "2026-07-23T18:27:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Warner unveils AI legislative package targeting data centers, worker displacement, and national security - The Alexandria Brief",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT2UxZ2hBVlRyZDhzMXdPT213TnJScm4yNGV2d0NSYWNEN2lmTzljUF9CcElqTnRwVU02MnZUNUhoMzNGMmlkcDRjTms1WDNldlFUY1JjQ3BOQ0JLczZZTzJzc25zN2I4WWs5Q19uTHl0T0VTRUF1VzBrTTQyYUtzb0t4dUpiMFJ4SV83dU42WjUwR05nYUV2VUhpaGtKbm8wSGhZZXZ0dkVyaWN2RkJwb2lXdU82TjRJUmF6d3ZGVjBWTXVOcnIzOEFKV0FYbW8y?oc=5",
+      "source": "The Alexandria Brief",
+      "publishedAt": "2026-07-23T18:24:09.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Miami to Sell Griffin an Historic Site Next to New Citadel HQ",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/miami-to-sell-griffin-an-historic-site-next-to-new-citadel-hq",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-23T18:21:26.000Z",
+      "kind": "news",
+      "summary": "Miami agreed to sell Ken Griffin a site across the street from the planned Citadel headquarters in the Brickell financial district that currently houses an historic cottage, completing the billionaire’s goal of owning the entire square block.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "A Group of Industry Powerbrokers Are Unveiling a New Definition of “Podcast”",
       "url": "https://www.bloomberg.com/news/newsletters/2026-07-23/a-group-of-industry-powerbrokers-are-unveiling-a-new-definition-of-podcast",
@@ -1411,51 +1444,6 @@
       "score": 60
     },
     {
-      "title": "AMD says its newest AI server is in full production, will ship in months - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb3Q1OHN6OGRxUENDanFhdDRSLUUwSWFJWFlsQS1RckM3VU1UTjE0VHlVYXJTRFJPS2NrNEpTMWxZNGFCVFVKbzhUMnpRWlo4OENqekdUTGd2Umh4dG9XaTVONVh0S0ZRSVFGUGV0RVNiWGlDYmRmc1VseTdwRUxqcEtHYmlVYnNENHgxcE9kUkdZTnVkN19NU1IwSFlPdUxVdWs2TXM4LWd4YlJSc2ZXSlJkR0pGUQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-23T17:28:55.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Amazon cuts jobs within artificial intelligence team - The Seattle Times",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU8xSEhiaHBkSk1RU2tPS3ZmQkhTVXhHNTZMTWg3aUlXa0VXZV8ySlMzNTNjMTdndUdNeVU4M0M0QS1icjRfbW1GTU5rZXJTMm1qaHkwZnliR0tkNUZhSWdNdi1aZHJZejVkRkFxOXZnZ3JXUFFubnNFZmUwemtFbmljTkZBTDJZNTBhdlBRNndmTnJJcmc?oc=5",
-      "source": "The Seattle Times",
-      "publishedAt": "2026-07-23T17:25:49.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "We're raising our Honeywell Technologies price target, reflecting post-spinoff optimism",
-      "url": "https://www.cnbc.com/2026/07/23/were-raising-our-honeywell-technologies-price-target-on-post-spinoff-optimism.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-23T17:24:59.000Z",
-      "kind": "news",
-      "summary": "Honeywell Technologies bucked a broader market selloff after the industrial automation company delivered a strong quarter and raised guidance.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Trump expands a voluntary pledge to protect consumers from high utility bills from AI data centers - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDduR1BsQThtU09vNHlGdldqMmUyZzBWOHR0OTlqa19qZkRXR201MDBPRUpFdmQtWlktazFESU9LRlItOFd4VEJKZVZnTlZPX29Kal85NmY5N1Fxcm55THhXcjVmVVVUU2lrRDh5THdBWWlQYUNoTm1lZ2NRSjl5M05UQmtHZFhmU013dXhvLUVKUnFnOV9odC1YZmVwcmZJcHVzNkFTNzNqcHNmOUszUmszckpLQWtJbEpBcnJSOXZKMWl1M1E?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-07-23T17:22:59.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "A New Coalition Takes On Data Center Moratoriums Across States - Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTC1QQUFLRWI0X25yTVRENG9JUzhiM0hsY0loS2cta1AyeXpnNmhEbjMyVnp3b3B2d3lPSFNxWEo5RVR6c1paY19jNTBCWDNUZlJZbTNlVEZYdmpHSUFJV1JZcThSUlJZY3NLUmlPTGZ6Z0F4aDA1dDJzOW94X2lrQ0VUUmRlOWRSWXFibHI2VHdDbS1qbjdpSjJiUnlrZFY1bW54R0NRcW5Jc2k1bURybXVZX2h4WjZla0RN?oc=5",
       "source": "Stock Titan",
@@ -1467,12 +1455,57 @@
       "score": 50
     },
     {
-      "title": "Morgan Stanley sees AI data center pivot unlocking upside for bitcoin miners - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTDhWWUNVM1JKQTRGLUI0eXhZRHFzNGlXaWl6Y0pSbmJWdGJ6Zk16WXZVNUg4cTgzTXdMWWFfazdxOHpleTQ4QjJzNlhFMGhRZHZzMXJKcXZ3S3B0NWNXRE1lekktRGRsR2F1MmNfV3Jyd0FaUXF6WVpiOFdGMkNreHM0OWJPa0t2STNDMjJjZ1BYbTR4cy04TWV5a0RvbGdlRndwR0NSY3VGVzRqczNpU2FzVzVlZkd2cTVQaFJHLTRIa2hVZWhtQ0l3Zjl4UQ?oc=5",
-      "source": "Investing.com",
-      "publishedAt": "2026-07-23T17:25:13.000Z",
+      "title": "AMD says its newest AI server is in full production, will ship in months - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb3Q1OHN6OGRxUENDanFhdDRSLUUwSWFJWFlsQS1RckM3VU1UTjE0VHlVYXJTRFJPS2NrNEpTMWxZNGFCVFVKbzhUMnpRWlo4OENqekdUTGd2Umh4dG9XaTVONVh0S0ZRSVFGUGV0RVNiWGlDYmRmc1VseTdwRUxqcEtHYmlVYnNENHgxcE9kUkdZTnVkN19NU1IwSFlPdUxVdWs2TXM4LWd4YlJSc2ZXSlJkR0pGUQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-23T17:28:55.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Amazon cuts jobs within artificial intelligence team - The Seattle Times",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSU8xSEhiaHBkSk1RU2tPS3ZmQkhTVXhHNTZMTWg3aUlXa0VXZV8ySlMzNTNjMTdndUdNeVU4M0M0QS1icjRfbW1GTU5rZXJTMm1qaHkwZnliR0tkNUZhSWdNdi1aZHJZejVkRkFxOXZnZ3JXUFFubnNFZmUwemtFbmljTkZBTDJZNTBhdlBRNndmTnJJcmc?oc=5",
+      "source": "The Seattle Times",
+      "publishedAt": "2026-07-23T17:25:49.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "We're raising our Honeywell Technologies price target, reflecting post-spinoff optimism",
+      "url": "https://www.cnbc.com/2026/07/23/were-raising-our-honeywell-technologies-price-target-on-post-spinoff-optimism.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-23T17:24:59.000Z",
+      "kind": "news",
+      "summary": "Honeywell Technologies bucked a broader market selloff after the industrial automation company delivered a strong quarter and raised guidance.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Trump expands a voluntary pledge to protect consumers from high utility bills from AI data centers - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZDduR1BsQThtU09vNHlGdldqMmUyZzBWOHR0OTlqa19qZkRXR201MDBPRUpFdmQtWlktazFESU9LRlItOFd4VEJKZVZnTlZPX29Kal85NmY5N1Fxcm55THhXcjVmVVVUU2lrRDh5THdBWWlQYUNoTm1lZ2NRSjl5M05UQmtHZFhmU013dXhvLUVKUnFnOV9odC1YZmVwcmZJcHVzNkFTNzNqcHNmOUszUmszckpLQWtJbEpBcnJSOXZKMWl1M1E?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-23T17:22:59.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "‘Customers prefer AI chatbots,’ says British Gas owner as 1,300 call centre jobs axed - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeTg3VlVGdUVySzhYLUFfdHZYdVZPMkZXSmNpbU12WjlpeElrNnBsSjM5T2h2SThFbHV3aGZVVlVLS1RrSUo3OWZjd3JSQW9wd05nZi1BTHN5Qnk0Z1p0TnpXY3FfNmxrdjFlSWhVQ1g4c3FvUmgtRm1fMVNLNVBnWFg0My1LX1BhYnQ3MmNCYWRaUkdORUg1UnVLOXdxdC16TzcybnZJRy1ybS1WZUJjb3QtbGdCcThuRHk4YQ?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-07-23T17:20:00.000Z",
+      "kind": "news",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1871,46 +1904,12 @@
       "score": 50
     },
     {
-      "title": "AI Infrastructure Will Mint More Millionaires Over the Next Decade: 3 Stocks to Buy Right Now - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR01KaEtBT2ZuSjQ0Tm8tZmJybzN3Y1dpaDhoY2hTNjNldFkta2FkUV8wNTlDTWZIX24xY2swLTJ3d0xyWEdCMDlyV2pOQ2NqNERSMmxLbmZiZnFieEdCb3g0MlExdkEweWsxREhoX1VGdVM0SXYzT0I3Z1hOc05ISFNPcVlsTkFYcFZ2WDZvZnpYMVhlVUJscw?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-23T14:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Russia’s Black Sea Waters Not Safe for Ships Amid Attacks",
       "url": "https://www.bloomberg.com/news/articles/2026-07-23/russia-says-its-black-sea-waters-not-safe-for-ships-amid-attacks",
       "source": "Bloomberg",
       "publishedAt": "2026-07-23T14:26:36.000Z",
       "kind": "news",
       "summary": "Moscow warned that it is unsafe to navigate in its Black Sea waters after Ukraine has been ramping up attacks on Russia-linked ships in the area.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "ECB Officials Are Ready to Raise Interest Rates in September",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/ecb-officials-are-ready-to-raise-interest-rates-in-september",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-23T14:18:05.000Z",
-      "kind": "news",
-      "summary": "European Central Bank officials are prepared to raise borrowing costs in September unless the euro-zone inflation outlook improves markedly, people familiar with the situation said.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "E-Filing Portal adds AI certification reminder for court filings - The Florida Bar",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRDBjMEhIYWV0cVIxWHVEcENhZmtLZzlSTXVjM1QxNzk1dEg5ZXc5SFJuQlhCMUhUSjV2SENuaEJzWnUteFN2TXdObVB0bXdHaWRob3NXY0VkdEFka3RHbmJaczZCejVjVmpaTUszbEpBbHhrUnJ2cy1BbFFGb1UtQmVtcjhTbWtQUVVXM2UtWG5jZU9Td0NTNkp2ZUNObzVDcnBPYjNfY25TTTdrWGJKLTBVZw?oc=5",
-      "source": "The Florida Bar",
-      "publishedAt": "2026-07-23T14:13:38.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

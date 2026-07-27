@@ -1,21 +1,6 @@
 {
-  "generatedAt": "2026-07-27T00:01:28.218Z",
-  "siteTitle": "AI Newsletter",
-  "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
-  "priorityTickers": [
-    "FRMI"
-  ],
-  "relatedTickers": [
-    "NVDA",
-    "OpenAI",
-    "MSFT",
-    "AMZN",
-    "GOOGL",
-    "GEV",
-    "SMNEY"
-  ],
-  "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
-  "priority": [
+  "day": "2026-07-27",
+  "items": [
     {
       "title": "Your Day Trading Watch List for July 27th in About 3 Minutes: $LVWR $DFNS $WLDS $VIVK $FRMI .",
       "url": "https://stocktwits.com/GSP/message/660042700",
@@ -944,9 +929,7 @@
       "related": [],
       "score": 38,
       "summary": "Fermi Announces Second Quarter 2026 Earnings Release and Call Date"
-    }
-  ],
-  "related": [
+    },
     {
       "title": "Nvidia in Talks on $250 Billion Backing for OpenAI Hub, WSJ Says",
       "url": "https://www.bloomberg.com/news/articles/2026-07-26/nvidia-in-talks-on-250-billion-backing-for-openai-hub-wsj-says",
@@ -1158,9 +1141,7 @@
         "GOOGL"
       ],
       "score": 25
-    }
-  ],
-  "general": [
+    },
     {
       "title": "EQT Lifts Takeover Offer for Perpetual to $1.8 Billion",
       "url": "https://www.bloomberg.com/news/articles/2026-07-26/eqt-raises-takeover-offer-for-australia-wealth-manager-perpetual",
@@ -1760,64 +1741,6 @@
       "tickers": [],
       "related": [],
       "score": 20
-    }
-  ],
-  "sourceErrors": [
-    {
-      "source": "reddit-x",
-      "error": "HTTP 429 for reddit search.rss"
-    },
-    {
-      "source": "google-news:MSFT",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=Microsoft%20AI%20data%20center%20OR%20Azure%20capacity&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:AMZN",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=AWS%20Amazon%20AI%20data%20center%20power&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:FRMI",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=%22Fermi%20America%22%20OR%20%22Project%20Matador%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:GOOGL",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=Google%20AI%20data%20center%20power&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:general",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=AI%20data%20center%20power&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:GEV",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=GE%20Vernova%20gas%20turbine%20AI%20data%20center&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:SMNEY",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=Siemens%20Energy%20turbines%20AI%20data%20center&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:FRMI",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=%22FRMI%22%20OR%20%22Fermi%20Inc%22%20stock&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:OpenAI",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=OpenAI%20data%20center%20OR%20compute%20OR%20Stargate&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:general",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=OpenAI%20OR%20Anthropic%20OR%20Nvidia%20AI&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:general",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=artificial%20intelligence%20news&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:NVDA",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=NVIDIA%20AI%20data%20center%20OR%20GPU%20supply&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:general",
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=AI%20infrastructure%20investment&hl=en-US&gl=US&ceid=US:en"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T10:01:24.557Z",
+  "generatedAt": "2026-07-27T10:31:21.964Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,28 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "[July 27, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1v7plmi/july_27_2026_fermi_america_frmi_discussion_thread/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-07-27T04:03:58.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 68,
-      "summary": "[July 27, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
     {
       "title": "Your Day Trading Watch List for July 27th in About 3 Minutes: $LVWR $DFNS $WLDS $VIVK $FRMI .",
       "url": "https://stocktwits.com/GSP/message/660042700",
@@ -59,6 +37,28 @@
       "related": [],
       "score": 60.5,
       "summary": "Your Day Trading Watch List for July 27th in About 3 Minutes: $LVWR $DFNS $WLDS $VIVK $FRMI ."
+    },
+    {
+      "title": "[July 27, 2026] Fermi America - $FRMI - Discussion Thread",
+      "url": "https://www.reddit.com/r/FRMI/comments/1v7plmi/july_27_2026_fermi_america_frmi_discussion_thread/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-07-27T04:03:58.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/AutoModerator",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 58,
+      "summary": "[July 27, 2026] Fermi America - $FRMI - Discussion Thread"
     },
     {
       "title": "SEC filing: 8-K — Fermi Inc. (CURRENT REPORT)",
@@ -941,6 +941,19 @@
   ],
   "related": [
     {
+      "title": "Exclusive: Workers are crossing job boundaries with AI, OpenAI research shows - Axios",
+      "url": "https://www.axios.com/2026/07/27/openai-chatgpt-work-specialists",
+      "source": "Axios",
+      "publishedAt": "2026-07-27T10:00:32.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
       "title": "Samsung Galaxy Z Fold 8 Review: Foldable Model to Compete With Google, Apple",
       "url": "https://www.bloomberg.com/news/features/2026-07-27/samsung-galaxy-z-fold-8-review-foldable-model-to-compete-with-google-apple",
       "source": "Bloomberg",
@@ -955,6 +968,19 @@
       "score": 75
     },
     {
+      "title": "Nvidia and over 30 firms form Open Secure AI Alliance for AI safety - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4618582-nvidia-and-over-30-firms-form-open-secure-ai-alliance-for-ai-safety",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-27T10:04:02.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
       "title": "Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says",
       "url": "https://www.cnbc.com/2026/07/23/moonshot-kimi-nvidia-ai-chips-export-ban.html",
       "source": "CNBC",
@@ -966,7 +992,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "White House official says Moonshot AI accessed Nvidia’s chips despite Chinese export ban - CNBC",
@@ -979,7 +1005,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "CNBC's Kai Nicol-Schwarz discusses a White House official accusing Chinese AI company Moonshot of accessing advanced Nvidia chips despite an export ban."
     },
     {
@@ -993,48 +1019,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
-    },
-    {
-      "title": "OpenAI's Rogue AI Breached Hugging Face: CEO Now Demands $100 Million and Full Trace Release - Tech Times",
-      "url": "https://www.techtimes.com/articles/321664/20260727/openais-rogue-ai-breached-hugging-face-ceo-now-demands-100-million-full-trace-release.htm",
-      "source": "Tech Times",
-      "publishedAt": "2026-07-27T09:20:44.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "Autonomous AI cyberattack: OpenAI&rsquo;s GPT-5.6 Sol escaped its sandbox during an ExploitGym evaluation, breached Hugging Face&rsquo;s production database, and then blocked the victim&rsquo;s own security team from using commercial AI APIs to analyze the attack &mdash; forcing defenders onto a Chinese open-weight model"
-    },
-    {
-      "title": "Nvidia’s Earnings Reveal the Next AI Winners - Most Investors Missed It - Investing.com",
-      "url": "https://www.investing.com/analysis/nvidias-earnings-reveal-the-next-ai-winners--most-investors-missed-it-200684612",
-      "source": "Investing.com",
-      "publishedAt": "2026-07-27T09:16:24.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
       "score": 65
-    },
-    {
-      "title": "Nvidia, SK Group ink over $500B partnership amid South Korea's $950B ​AI initiatives - Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4618579-nvidia-sk-group-ink-over-500b-partnership-amid-south-koreas-950b-ai-initiatives",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-07-27T09:13:58.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "SK Group and Nvidia (NVDA) have expanded their collaboration with an over $500B initiative spanning AI data centers and next-generation memory."
     },
     {
       "title": "Nvidia to Invest $1 Billion in South Korea’s Naver for AI Data Center Expansion - The Information",
@@ -1122,32 +1107,30 @@
       "summary": "Three of the biggest AI budgets on Earth seem to just keep growing. The company selling the hardware fell anyway."
     },
     {
-      "title": "SoftBank’s $40 Billion Loan for OpenAI Stake Gets 21 New Lenders",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/softbank-s-40-billion-loan-for-openai-stake-gets-21-new-lenders",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-27T04:30:37.000Z",
+      "title": "Nvidia Certifies LG Electronics' AI Data Center Cooling Unit - Moomoo",
+      "url": "https://www.moomoo.com/news/post/73572555/nvidia-certifies-lg-electronics-ai-data-center-cooling-unit",
+      "source": "Moomoo",
+      "publishedAt": "2026-07-27T10:27:31.000Z",
       "kind": "news",
-      "summary": "SoftBank Group Corp.’s $40 billion bridge loan for its investment in US tech giant OpenAI has attracted a new group of 21 lenders in a broader syndication phase, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Naver secures Nvidia’s $1b backing for AI factory push - The Korea Herald",
-      "url": "https://www.koreaherald.com/article/10821497",
-      "source": "The Korea Herald",
-      "publishedAt": "2026-07-27T04:23:12.000Z",
-      "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
-      "summary": "Naver disclosed Monday that Nvidia will buy a 4.5 percent stake through a 1.48 trillion won ($1 billion) share sale, attaching binding terms to one part of the"
+      "score": 55
+    },
+    {
+      "title": "NVIDIA Expands AI Infrastructure in South Korea with Brookfield and NAVER (NVDA) - GuruFocus",
+      "url": "https://www.gurufocus.com/news/8979975/nvidia-expands-ai-infrastructure-in-south-korea-with-brookfield-and-naver-nvda",
+      "source": "GuruFocus",
+      "publishedAt": "2026-07-27T10:10:42.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     },
     {
       "title": "NVIDIA & Others Form The Open Secure AI Alliance - Phoronix",
@@ -1164,27 +1147,26 @@
       "summary": "NVIDIA and more than two dozen other companies have started the Open Secure AI Alliance for helping to keep open-source AI models secure"
     },
     {
-      "title": "Nvidia in talks with OpenAI for $250 billion data center financing - varindia.com",
-      "url": "https://www.varindia.com/news/nvidia-in-talks-with-openai-for-250-billion-data-center-financing",
-      "source": "varindia.com",
-      "publishedAt": "2026-07-27T09:31:15.000Z",
+      "title": "OpenAI's Rogue AI Breached Hugging Face: CEO Now Demands $100 Million and Full Trace Release - Tech Times",
+      "url": "https://www.techtimes.com/articles/321664/20260727/openais-rogue-ai-breached-hugging-face-ceo-now-demands-100-million-full-trace-release.htm",
+      "source": "Tech Times",
+      "publishedAt": "2026-07-27T09:20:44.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
-        "NVDA",
         "OpenAI"
       ],
       "score": 55,
-      "summary": "Nvidia is in talks to provide roughly $250 billion in financing guarantees for OpenAI as part of a massive data center project."
+      "summary": "Autonomous AI cyberattack: OpenAI&rsquo;s GPT-5.6 Sol escaped its sandbox during an ExploitGym evaluation, breached Hugging Face&rsquo;s production database, and then blocked the victim&rsquo;s own security team from using commercial AI APIs to analyze the attack &mdash; forcing defenders onto a Chinese open-weight model"
     },
     {
-      "title": "NVIDIA And Partners Form Open Secure AI Alliance For AI Safety & Security - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZ2pjNGdCT3ZhSkNQYTlyckZNWnlpbExod2MxcHRIOEZpTXZnVWZ1dEdHdi02b1ctWVVjTUsxdTBiWWpRN2Jmb29TZlk1Nml4b1RhTzFwM1NYS1BHaW5Qb2V6ZUZ0d3hITEhWOTVnTVBodGY3akEzTXh1Y3NrTWw0bUZCQVN5cDZTWVNyNF9pRFF6UTRIcTFZclpTaXNUeUZnVzBUZDNwMDNZYzY5cmdHeDhQdlVMQ2wyMXpZeHVFTHdxMFBZbUYtYXc1MllEZUZtdXZPT0dkS28?oc=5",
-      "source": "TradingView",
-      "publishedAt": "2026-07-27T09:23:05.000Z",
+      "title": "Nvidia’s Earnings Reveal the Next AI Winners - Most Investors Missed It - Investing.com",
+      "url": "https://www.investing.com/analysis/nvidias-earnings-reveal-the-next-ai-winners--most-investors-missed-it-200684612",
+      "source": "Investing.com",
+      "publishedAt": "2026-07-27T09:16:24.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
@@ -1192,43 +1174,18 @@
       "score": 55
     },
     {
-      "title": "Nvidia launches new security initiative for open-source AI - Semafor",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVjZ1NFRlUHV5djRNb0NLcDJRYjhfYUNPZ2RHVVI1a2ZBZm5ZMzVSTFl5Z2VNbDBGdXRoUGp4c0R6Vmg4NmFFYTNiZFRaTXN3QnJnX1NkT1ZfVVBXNWw2WlBKb1pwM054ZUJJLVZSSjE2aTJfSzdjVGtybXVHbTFKR1pzaG9LSjFkaFJ2bGw3NDdNWnppTXMwRW9YQ2FFT2tLX3M0?oc=5",
-      "source": "Semafor",
-      "publishedAt": "2026-07-27T09:07:00.000Z",
+      "title": "Nvidia, SK Group ink over $500B partnership amid South Korea's $950B ​AI initiatives - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4618579-nvidia-sk-group-ink-over-500b-partnership-amid-south-koreas-950b-ai-initiatives",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-27T09:13:58.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
-    },
-    {
-      "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security - NVIDIA Blog",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jbERSYTYzMDlvaExvNHBYWTZrU2Zfd210S2U0NHAyMDBqWG5DS0hkenZPaUgxVDcxcEtPUUhrbVhObUpvQzV2b0VKSzRjOF9sMW9WdW03ZVhyUC1TaG5XVGdHS3Q?oc=5",
-      "source": "NVIDIA Blog",
-      "publishedAt": "2026-07-27T09:06:58.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "NVIDIA (NVDA) Forms $500 Billion AI Partnership with SK Group - GuruFocus",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVVlOa01xYk5LMVp6Z2NHTDkyQ3pQV3pVTlUxMllzeldCTm9OQ0E5dGlhMXA4ZUdySFZrMHZ3VGdyeTZoejlOa052WllTWTVTTFVsRTZESms1dVhHR0hzX3NHb0h1YXJ5bzZhRElYcV9adThMLTlZRXdneXV0MzNwT01ySUk0SUxJblR3aFZYRjg0cUtzcVRRTXBWaDNOUQ?oc=5",
-      "source": "GuruFocus",
-      "publishedAt": "2026-07-27T09:02:18.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
+      "score": 55,
+      "summary": "SK Group and Nvidia (NVDA) have expanded their collaboration with an over $500B initiative spanning AI data centers and next-generation memory."
     },
     {
       "title": "Why Nvidia, Microsoft, and Meta are fighting for open-weight AI (OPENAI:Private) - Seeking Alpha",
@@ -1245,6 +1202,34 @@
       ],
       "score": 55,
       "summary": "Tech giants urge US support for open-weight AI models, citing lower costs, wider access and security benefits amid China-ban talks."
+    },
+    {
+      "title": "SoftBank’s $40 Billion Loan for OpenAI Stake Gets 21 New Lenders",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/softbank-s-40-billion-loan-for-openai-stake-gets-21-new-lenders",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-27T04:30:37.000Z",
+      "kind": "news",
+      "summary": "SoftBank Group Corp.’s $40 billion bridge loan for its investment in US tech giant OpenAI has attracted a new group of 21 lenders in a broader syndication phase, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Naver secures Nvidia’s $1b backing for AI factory push - The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10821497",
+      "source": "The Korea Herald",
+      "publishedAt": "2026-07-27T04:23:12.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Naver disclosed Monday that Nvidia will buy a 4.5 percent stake through a 1.48 trillion won ($1 billion) share sale, attaching binding terms to one part of the"
     },
     {
       "title": "Meta, Microsoft and Amazon Test Limits of Investor Appetite for AI Spending - The Daily Upside",
@@ -1355,9 +1340,47 @@
       ],
       "score": 55,
       "summary": "New long-running, fully agentic workflows spanning EDA to CAE multiply engineering productivity Key Highlights Synopsys unveils a fully autonomous long-running..."
+    },
+    {
+      "title": "Nvidia in talks with OpenAI to guarantee $250 bil. financing for data center, WSJ reports - The Korea Times",
+      "url": "https://www.koreatimes.co.kr/world/20260727/nvidia-in-talks-with-openai-to-guarantee-250-bil-financing-for-data-center-wsj-reports",
+      "source": "The Korea Times",
+      "publishedAt": "2026-07-27T00:15:03.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Nvidia is in talks to provide a roughly $250 billion backstop for OpenAI as part of a massive data center project, The Wall Street Journal reported..."
     }
   ],
   "general": [
+    {
+      "title": "HSBC to Hire 100 AI Specialists as Bank Sets Up Singapore Center",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/hsbc-to-hire-100-ai-specialists-as-bank-sets-up-singapore-center",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-27T10:04:12.000Z",
+      "kind": "news",
+      "summary": "HSBC Holdings Plc is set to hire more than 100 artificial intelligence specialists in Singapore with plans to launch a global AI center in the city-state later this year as the British lender steps up investments in the technology that’s reshaping Wall Street workforces.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI can fuel biological weapons. We must harness its power for defense | Annie Jacobsen - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ1dQRno5WGZHeURhN0RFRU0wTXFxUHd4V0dmWTdVbzBGZmNkNTBkNklZbmFEMDMtd3ZvNFg0MG5lWm1YdGNaN1dnMDFuNi1Xa3psd3kwalFXQUgzeEhXNjlmZlptbV96WDlEQk9oUjlBUjBPdlZmQTRIQkp4ZGJxOGx5dlp1YXRna3k4?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-07-27T10:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "CXMT Founder Zhu Yiming Pledges $5.6 Billion in Worker Bonuses After China IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/cxmt-founder-zhu-yiming-pledges-5-6-billion-in-worker-bonuses-after-china-ipo",
@@ -1391,7 +1414,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Off-grid data centers aren't the panacea that some AI firms hoped - Axios",
@@ -1402,7 +1425,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "How AI palletising technology is reshaping warehouse automation - Business Standard",
@@ -1413,7 +1436,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "How agentic AI is changing who influences online shopping decisions - Business Standard",
@@ -1424,7 +1447,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Japan’s GPIF Says to Act Only in Interest of Beneficiaries",
@@ -1603,6 +1626,18 @@
       "score": 50
     },
     {
+      "title": "CPC Terminal to Resume Kazakh Oil Exports After Drone Pause",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/kazakh-oil-port-cpc-set-to-load-tankers-again-after-drone-pause",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-27T07:44:50.000Z",
+      "kind": "news",
+      "summary": "The main terminal for exporting Kazakhstan’s oil is set to resume loadings after drone attacks on vessels caused an output cut last week, a step that may help to ease one of the market’s major supply worries.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Audi Turns Gloomier on Sales Outlook Due to Downturn in China",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/audi-turns-gloomier-on-sales-outlook-due-to-downturn-in-china",
       "source": "Bloomberg",
@@ -1720,17 +1755,6 @@
       "score": 50
     },
     {
-      "title": "When the AI bubble bursts, what will Australia do with the tools it built? One man thinks he has the answer - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbzhDNzQ5YUE5TmpWTWluY09YYS1SMEtmSnlyZEl5X2hVc1lNYVZJWWxLRFp2Rk9UZDE5NDBkc3h6TFQzc1pCMXNJbVRfcjVkaFRzZFEzNFhFbEpIOTYyN1RFamZKbmJ5anFoRmRXTVZ6OF9ObWFqVmlnWkdPMTFYV2F2em9sQi01LUIwbzd6MExZdGhhVDExS3hkd3hxUVBTYzQ3R1lzTGdtdmJKR2xHbWFSY1EtSldBV2VTM1JuQ0VPVDYxSFY0cnMwOS1BUGJISy1RcU5sc2ktWnp0Uk1acmVnV0xDWGRCc2pCV0R3N3ZMdw?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-07-27T04:57:27.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Innolight Is Said to Price $6.8 Billion HK Listing Below Top",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/innolight-is-said-set-to-price-hong-kong-listing-below-maximum",
       "source": "Bloomberg",
@@ -1767,22 +1791,65 @@
       "score": 50
     },
     {
-      "title": "CXMT Can Rally More Than 1,200% on Market Share Win, Nomura Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/cxmt-can-rally-more-than-1-200-on-market-share-win-nomura-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-27T04:14:50.000Z",
+      "title": "Cybersecurity experts warn AI Agents outpacing current defences - Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUENHbER1M3FrUTBlSDUxY2NXc0tJUVJtWjdzcTl0SGtybGxZRnZwZGpodlFhcVRQYWFWVk1INGs0bjlDT2xTc2J2eFp3Z210azVYamY4OGRyalFUSlZISDVlZ3pWYk1EbG8yQXdEMmhrdGlkSHQtUmY4NGpmc3FpbU11eHdDWmlUVW9qWDVpcDY1VnpobkVYcXhMNVc3SVAzdlh2SFVTQUx4MmdnVzltTnlmeDVQb0hfWGE3MlhLYWM3NkNVZXdQeWd6a1BVc01x?oc=5",
+      "source": "Deccan Herald",
+      "publishedAt": "2026-07-27T10:20:18.000Z",
       "kind": "news",
-      "summary": "China’s memory-chip bellwether CXMT Corp. can extend its blockbuster stock market debut to rally 1,239% from its initial public offering price as it wins market share over time, according to Nomura Holdings Inc.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "Elon Musk Believes Humans Will Lose Control In A Decade - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQVdkcllZLWpEMzFibi1JV0FZV0JLNi1zUWRLcXFNQmNONXl2VmQxRGVqS29sWjEwTVE1QVlDRVo1RzNNWm9oNmItWE93Y0hBUGVka2JKdlFsYzM5eEt1Ujdlay0wWGFVTndEYWlpeC1PZTZ3a0RqQU83WEl1TWVNdkc3VWFuY3VMQjkwX1dlVFc5VGdielR5Q2VkWURMb2E0b2dEZWkzeWJNOHdBSGNFenlDSnBTUdIBvgFBVV95cUxPV0dUc0lKaWJJbDFrbDk3VExHTXdWUzRqY0hzX1NST3ZlcHdwd18zdjRLYzhHQnlyWFZqd1NHOVRkTmhDT3Y0cWg5eE5ZMWdFWFlqSFVxaVNleEtubnFoOFdGOUpVV3ZkVHJ0V0hwRmdBaXowcDV3Y2RTUzB5OXhRcF91cHFrTW1NVjBhXzFjdnRCNjJDekNEZ1ZYTXZURXRJRWpyaklsU3hOc3l5TzZjZ2s5YVhibG5ialA0YllR?oc=5",
+      "source": "NDTV",
+      "publishedAt": "2026-07-27T10:03:56.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Mental health remains a struggle for AI chatbots, researchers find - Northeastern Global News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPV1U1RXg1QmVlUW5jaXczUVVqXzgwSkg4ajNKajV3dE1fTGVpZktJWlNjbm1FQkVJRVE0S25xYjB0ZTZacTdhWWpVbWNQbVNXNFFrVHhnZnIyNzlsRl8zcHdOS3BCOGlXTTlWRm5DQ0lNNXhpSVpnX0tTVWlLSXM?oc=5",
+      "source": "Northeastern Global News",
+      "publishedAt": "2026-07-27T10:01:25.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "How AI is shortening drug discovery timelines in China - AI News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41eFl4dkUtbUlNeWVmYVJtVTM3M2s4dFdOMk9pS1duWFRRekxoSm1pUEdwem54d1dtdVVSWE50dHJ0czIySEJodFdibkRQRDlXN1Y5S1I2VFA0bzgwVUtyTEs0UUluZDhTa1BWZlhZNE5JTGx2b0llOG1kYUNCdw?oc=5",
       "source": "AI News",
       "publishedAt": "2026-07-27T10:00:48.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "AI in orbit is a double-edged sword. Here’s how to keep it from cutting space cooperation apart - SpaceNews",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX3k0em4zRXdjTWJxTko3VkVkMEJRTWc2TFI2QkY5V1A2SzAyeEpLSWZVTEpoeFp5a3F6YjEwbW1ENkpkTUhEODktNmFxMWdBcHNnZGNBSGZHbjJHcmJLYjNRaGx6dVY0TmN5LS1seVRSY2JMTUJlRklNVjFGMnhrSjB6bUxGTV8yMGxuNFBsMHZrYlhaNVBaYWdqSDVrOWVacmh0RU0yc2t2S01DQmwzWExEMW9CUHc?oc=5",
+      "source": "SpaceNews",
+      "publishedAt": "2026-07-27T10:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "California's largest AI data center project suing for access to 287 million gallons of Colorado River water, 0.03% of Imperial Valley’s supply — plaintiffs claim project equivalent to 160-acre farm amidst concern about jobs and reallocation of farmland - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQRFlQOTBrVVg3YUFUUGt6WTVXcV8xRUZiRVRrNlgzMl81Z2FqSmlydWFFTVk5bjlVSjBqWHNHNkd2aThtc3ktdUZDQnhqY1RzcG9fZi0zQ0Fjbl82RGdUVUdTZVNQSXN5TmhNaW5FbG1vWFlJNnZGUnVwaEp5eHNraEJ5N0tpYm5udUtOaFBvVVVGQlZCNlBnb09TSl82d0dLTFhSSVpIUXZHSWQ5aVpBSFh0TmROR0E2WW9jTVRrWk1PMkZ6VVdvZTljUVdwb09vUGRCQ285dlFXU3RSYmpNTWtOZ0RYQlVOTWF0U09WeUdBd3JBZVRpNm4zSkNxQjBpOTlnSm9fOTRtN1dtUnFlZWlRQUFPVXc1VXVOeVBaT3RtZ19EZllqc2Z6OEpaQWk3WEtEZnVyM2d3NjFqTWd3dnVaMFE3d3A5ajB5ZnBWeWZsejdWRHotM2tmSVlCT28tb19RV3k1V2dHVmxkNmpZWVU0MEQyZ2stbUdDQTFYM0hSRzEtR2FCVDVtS3h4d2dRSzY2N1VRaGZmeDdLVS1aWlU2QzZEekZfbWdTbHY0NTh5Tl9LZ1g0dktQRFludw?oc=5",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-07-27T09:56:17.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1801,10 +1868,10 @@
       "score": 40
     },
     {
-      "title": "California's largest AI data center project suing for access to 287 million gallons of Colorado River water, 0.03% of Imperial Valley’s supply — plaintiffs claim project equivalent to 160-acre farm amidst about jobs and reallocation of farmland - Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQRFlQOTBrVVg3YUFUUGt6WTVXcV8xRUZiRVRrNlgzMl81Z2FqSmlydWFFTVk5bjlVSjBqWHNHNkd2aThtc3ktdUZDQnhqY1RzcG9fZi0zQ0Fjbl82RGdUVUdTZVNQSXN5TmhNaW5FbG1vWFlJNnZGUnVwaEp5eHNraEJ5N0tpYm5udUtOaFBvVVVGQlZCNlBnb09TSl82d0dLTFhSSVpIUXZHSWQ5aVpBSFh0TmROR0E2WW9jTVRrWk1PMkZ6VVdvZTljUVdwb09vUGRCQ285dlFXU3RSYmpNTWtOZ0RYQlVOTWF0U09WeUdBd3JBZVRpNm4zSkNxQjBpOTlnSm9fOTRtN1dtUnFlZWlRQUFPVXc1VXVOeVBaT3RtZ19EZllqc2Z6OEpaQWk3WEtEZnVyM2d3NjFqTWd3dnVaMFE3d3A5ajB5ZnBWeWZsejdWRHotM2tmSVlCT28tb19RV3k1V2dHVmxkNmpZWVU0MEQyZ2stbUdDQTFYM0hSRzEtR2FCVDVtS3h4d2dRSzY2N1VRaGZmeDdLVS1aWlU2QzZEekZfbWdTbHY0NTh5Tl9LZ1g0dktQRFludw?oc=5",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-07-27T09:50:20.000Z",
+      "title": "Learn All Crypto Topics | Phemex Academy - Phemex",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BV3lCREVrNnlzcVJqMXJ2SEhuSWpXOEM5T2pZWDNJQl8wUWppT1B5RDdJTlF6WHhKbmhFNy1idWJmVTlWanhNOUFSODRTcDVaMXhlc21UMXNobkY4dzU5SUYxTFdkU2FXVkpvSWxfaG14SS1OaEE?oc=5",
+      "source": "Phemex",
+      "publishedAt": "2026-07-27T09:49:20.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1812,10 +1879,10 @@
       "score": 40
     },
     {
-      "title": "Learn All Crypto Topics | Phemex Academy - Phemex",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BV3lCREVrNnlzcVJqMXJ2SEhuSWpXOEM5T2pZWDNJQl8wUWppT1B5RDdJTlF6WHhKbmhFNy1idWJmVTlWanhNOUFSODRTcDVaMXhlc21UMXNobkY4dzU5SUYxTFdkU2FXVkpvSWxfaG14SS1OaEE?oc=5",
-      "source": "Phemex",
-      "publishedAt": "2026-07-27T09:49:20.000Z",
+      "title": "AI Memory Demand Lifts CXMT to China’s Most Valuable Company - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPclE5V3JZQThxZnFhbDM1ei02eUxjaS0zMk5Zcy02SWUzMUVsV2dURGgtU3pEdVBOaElOc2E1OTdtVjdOMHpMR0FiMzlDVnFMQXQ2OVBRQmNWQ21DMnM2eDFXY25HWVczTkkxYmhWaG9qalRONVRqaGg2TUlUOTU4TEk4NlpMSkZCN01JVDRKc3hBNFlRUXc?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-07-27T09:43:56.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1834,50 +1901,6 @@
       "score": 40
     },
     {
-      "title": "Nuclear Energy Stocks For AI Data Center Power Investors Should Watch - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd21QLTlDRW1IX05DY1VwYUliYUFLT3NtNWRGMDN1cVdxZVpmQTdNQzdWSlc4MHN5OHR6bTltY19XendLYmhUQjU4QmlVVmYwN2diNmhUOG1Ya0c0RFpxYlVGb24tbzR5U3BfMkFnRUNKTlNrVXpaSThETXV4Mk9pWUFfOTNZSUZPTkZZYVpCaHM3Q3k4dnFSdW9zM1FuRVloeFBqUGkycFVpRHQycU1UeUxhWGJQQW1BX3VoNnJlY3Y3NVFXR0xndmlhdUJSYjjSAdQBQVVfeXFMTnhQMGF6al9qUEhEREJxakY5eGtjM3psUk0yU3JiQk5oTGFwczZzOS1nRmVFOWZqSzVZMlFYM09tNFh2MEd0MWRSaGJPM19nZnBzYzhqRkFBb3gtdGtLUHljeFloVl9RNnA4WTFtT0pHUTN1cDVvY0NyX21od3I2VDZwZ2l3dGNMQnQ3amhjUEF1S1poZ3FmUUhqa3FlRTZoSGdBeWVJMVhDblpwWGFCMmFjWjJJUHJpQWpxTDZmczE2OURiNVVRU043YnJHbVcxVkZCQng?oc=5",
-      "source": "simplywall.st",
-      "publishedAt": "2026-07-27T09:27:09.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Morgan Stanley’s Wilson Says AI Adoption Key to Profit Outlook - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSGwzTzVnRDhvRXNvNTh0dFdPUHU2ZG5IOUItTGg1b1lZRVFHQVd4VVE5enNmVWcxSlVuZmpMZjBDd3EyRndDNzd2Z2JLc2R0WTQ0NmpIUDQtRHZjQ3cyZDRfcjZxcTJDSGdSQ2dPNF9vc3JMOEZ3NDhhdVlkMGM3WnppNXNVdzg0NWFDcGhIWHdLLUtSZVpHUg?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-27T09:24:45.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "America’s AI Investment Boom Is Reshaping the Economy - AI News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa3dQVGlGcno0S1BsSUwxTVE2YjFsLWgtbGlUU1ZqTTRaSGNXVnZROExITk90U2tPbGtsTUptNDk2TEdMZmIyc29MVHNaLVVKVktjeVR2S18yYkhteFB3eUVqS0JULVkwdGxPeF9XT2EzNjJkOFplSGhna0xhQUVXYVdvVi1GSjZteHpSTFd6YkJ6OGdoU3Y5YXQxTnJYX3pvdmhNbg?oc=5",
-      "source": "AI News",
-      "publishedAt": "2026-07-27T09:19:46.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "How ABB Bank is integrating AI across banking operations in Central Asia and the Caucasus - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVDdtTmhaOUM1RU5KdVZJcnFjbnpMYlpvUlp0M0xwd3JHQkpiR2RYeTM4Q0Jyb3ZLdkRiUE1GQVVWZE44NlNVczA2azB5S0ZwWXNiMlBYcnFvREdqeUFvQUJiVk5VSVJfVEM2SHYzcHNWX1pIQTdsOV94NmlMYzBOd3ZXcVRMUVlRekFfLTB3VU80eWtMempiTEVSdlNta1ozZW1VX2tGN0xlZlhzTko2R2p3ZjJSamRlSjAyX1ZuTmpZU2ZjZXhxcHZQbmlpVFk?oc=5",
-      "source": "Euronews.com",
-      "publishedAt": "2026-07-27T09:05:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Synopsys Demonstrates AI Agents That Compress Chip Verification to Hours - Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZU9RUnhyYWtyMTYybGgxOUU5ZHlpQXpmbE1xRVFiM3ZzaTRuWDhHRlFtUTFPeUVpU3hoMjhPSFJwMVlER0o3VkIyOEdrZVJzM0kwRW1BTlRGZmtwZk5MRVZJS1p1UWRMVlJfQW8wSUlQa0dHYmEtRl9XVDZwazdZeTJqMlFGdXJlc1JSaEVzM2QzMF9kREsxUndYc0pQSjhVNmthTERLMzdkdUw0c2FVR1p5UHpRdkhRNE40eA?oc=5",
       "source": "Stock Titan",
@@ -1889,10 +1912,10 @@
       "score": 40
     },
     {
-      "title": "Knowledge Report | How AI Is Reshaping the Battle for Fashion and Beauty Talent - The Business of Fashion",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVzJTZXdrbEctUngtNHdfWE1nWjBpUGc3V3dVMDE4dGYzbWtwM2g5aTBnYUlkc21iZ2RKMTUtcVZDakx5eXFHU3VGQ2laLUhKYnBZdk5IUmxKdTE0VVBLUTYwMUJkQXllZ29BSGV2d2cxZjJENURjWWEteklGSl83eERZUHYzelRsZHRHcDJtMFJmV2s5bHdYT2pTbllvaTY2b0xQY29kMTdGQQ?oc=5",
-      "source": "The Business of Fashion",
-      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "title": "When the AI bubble bursts, what will Australia do with the tools it built? One man thinks he has the answer - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbzhDNzQ5YUE5TmpWTWluY09YYS1SMEtmSnlyZEl5X2hVc1lNYVZJWWxLRFp2Rk9UZDE5NDBkc3h6TFQzc1pCMXNJbVRfcjVkaFRzZFEzNFhFbEpIOTYyN1RFamZKbmJ5anFoRmRXTVZ6OF9ObWFqVmlnWkdPMTFYV2F2em9sQi01LUIwbzd6MExZdGhhVDExS3hkd3hxUVBTYzQ3R1lzTGdtdmJKR2xHbWFSY1EtSldBV2VTM1JuQ0VPVDYxSFY0cnMwOS1BUGJISy1RcU5sc2ktWnp0Uk1acmVnV0xDWGRCc2pCV0R3N3ZMdw?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-07-27T04:25:28.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1900,35 +1923,11 @@
       "score": 40
     },
     {
-      "title": "Australian Fuel Prices Jump Most Since March as Iran Truce Wilts",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/australian-fuel-prices-jump-most-since-march-as-iran-truce-wilts",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-27T03:36:39.000Z",
+      "title": "Goldman Sachs lists Asian currencies riding powered by the AI boom - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMXI2QjZ2ckpWYlF3bFdZYk01Sms3Qm55azVPOEpWQXBxQUpyYjF0X1pOR1FpTUEwNlBENXRtcTd4Nk5ybE9IaVFyU0EtMGFVR2RGcGJtekxRaVd1Xy0xM0FHZl9Qck1RcDBTMjE2SWJBdWhQSVkteXVtaHRoY2NvVzJ3?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-07-27T04:18:35.000Z",
       "kind": "news",
-      "summary": "Australian gasoline prices jumped last week by the most since the height of the US-Iran war following the collapse of a ceasefire between Washington and Tehran, suggesting persistent inflationary pressures ahead.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Highstar Launches Full-Chain Battery Cell Portfolio for AI Data Centers - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSHA3djRadGh1MUFzN3BHU3c5NWVEUVBqV0duQ2xkd3JvYVh3LW9CemFJRmhfemVpTEFjdTVBNS10WUU5dFh2Q1U4Z0stekgxaHJsSjFUNE1ZQ2ZxWHJfd3BSTlo1VmFuQjZGM2YwM0N5d2J4b1dTUUhKNnBIemd2VXI5R2dhWVBCUExYWEJhZnZubDM0Q2tRTFFFbUdFaE9ubVRkWFU3N000M2Z4RUs0R0NMZjQ5c0l4V3Y2MWhPVkhWanpaSkE?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-27T03:32:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Indonesia’s Acting Central Bank Chief Damayanti Seen as Reassuring for Investors",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/indonesia-s-acting-central-bank-chief-damayanti-seen-as-reassuring-for-investors",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-27T03:24:31.000Z",
-      "kind": "news",
-      "summary": "Destry Damayanti, announced as acting chief of Bank Indonesia Monday, is a trained economist whose monetary policy experience may comfort investors rattled by the sudden resignation of Governor Perry Warjiyo.",
       "tier": 1,
       "tickers": [],
       "related": [],

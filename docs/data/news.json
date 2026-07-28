@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T12:01:24.455Z",
+  "generatedAt": "2026-07-28T12:23:48.024Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,6 +17,28 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
+      "title": "Pt downgrade",
+      "url": "https://www.reddit.com/r/FRMI/comments/1v8wtrz/pt_downgrade/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-07-28T12:18:13.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Beautiful-Break543",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Pt downgrade"
+    },
+    {
       "title": "$SPY $DFNS $FRMI $AMC $QBTS",
       "url": "https://stocktwits.com/GSP/message/660169411",
       "source": "@GSP on StockTwits",
@@ -26,7 +48,7 @@
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "30,986 followers"
+          "30,990 followers"
         ]
       },
       "tier": 2,
@@ -91,7 +113,7 @@
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "30,986 followers",
+          "30,990 followers",
           "1 likes"
         ]
       },
@@ -899,31 +921,50 @@
       "related": [],
       "score": 38,
       "summary": "Fermi Announces First Siemens Turbines Arrive at Port of Houston"
-    },
-    {
-      "title": "[July 22, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1v352jw/july_22_2026_fermi_america_frmi_discussion_thread/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-07-22T04:02:00.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "[July 22, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
+    {
+      "title": "Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off",
+      "url": "https://www.cnbc.com/2026/07/28/hyperscalers-face-higher-capex-scrutiny-after-alphabet-report-panned.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-28T12:00:01.000Z",
+      "kind": "news",
+      "summary": "Alphabet's free cash flow has turned negative, and the company lifted its capital spending forecast. Slower-growing cloud rivals report this week.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia to Invest $1 Billion in Naver’s AI Project - WSJ",
+      "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-1-billion-in-navers-ai-project-167e25de",
+      "source": "WSJ",
+      "publishedAt": "2026-07-28T11:48:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "EPAM and OpenAI Partner to Help Enterprises Unlock Higher Value Through Applied AI - Morningstar",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260728ph13140/epam-and-openai-partner-to-help-enterprises-unlock-higher-value-through-applied-ai",
+      "source": "Morningstar",
+      "publishedAt": "2026-07-28T12:18:59.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
     {
       "title": "AI’s Circular Financing Is Back With Nvidia’s Latest Deals",
       "url": "https://www.bloomberg.com/news/newsletters/2026-07-28/ai-s-circular-financing-is-back-with-nvidia-s-latest-deals",
@@ -980,6 +1021,32 @@
       "score": 65
     },
     {
+      "title": "Nvidia Backs Massive Texas AI Data Center - Yahoo Finance UK",
+      "url": "https://uk.finance.yahoo.com/news/nvidia-backs-massive-texas-ai-122006916.html",
+      "source": "Yahoo Finance UK",
+      "publishedAt": "2026-07-28T12:20:06.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Nvidia Stock Sinks After Report Raises Fresh AI Bubble Fears - Yahoo Finance UK",
+      "url": "https://uk.finance.yahoo.com/news/nvidia-stock-sinks-report-raises-121123537.html",
+      "source": "Yahoo Finance UK",
+      "publishedAt": "2026-07-28T12:11:23.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Forbes Daily: Nvidia And OpenAI’s Potential $500 Billion Data Center - Forbes",
       "url": "https://www.forbes.com/sites/daniellechemtob/2026/07/28/forbes-daily-nvidia-and-openais-potential-500-billion-data-center/",
       "source": "Forbes",
@@ -1009,6 +1076,20 @@
       "summary": "OpenAI announced initial commitments guiding Project Camellia, a long-term data center project it is designing and developing in Effingham County, Georgia. To support the facility, OpenAI is contracting with Georgia Power Company for 3.2 gigawatts of power, to be delivered in phases between 2028 and 2032."
     },
     {
+      "title": "Taiwan Detains Nvidia Staffer In China AI Chip Smuggling Probe - Forbes",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/07/28/taiwan-prosecutors-reportedly-detain-nvidia-staffer-in-china-ai-chip-smuggling-probe/",
+      "source": "Forbes",
+      "publishedAt": "2026-07-28T11:30:16.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Earlier this year, the U.S. Justice Department arrested the co-founder of AI server maker Super Micro for allegedly smuggling Nvidia’s advanced AI chips to China."
+    },
+    {
       "title": "NVIDIA: Deploying AI Engineers to Transform Chip Design - AI Magazine",
       "url": "https://aimagazine.com/news/nvidia-deploying-ai-engineers-to-transform-chip-design",
       "source": "AI Magazine",
@@ -1021,49 +1102,6 @@
       ],
       "score": 55,
       "summary": "Autonomous AI engineers speed up complex system design as NVIDIA’s Timothy Costa highlights a major inflection point in simulation technology & engineering"
-    },
-    {
-      "title": "Behind NVIDIA & OpenAI's US$500bn AI Infrastructure Project - AI Magazine",
-      "url": "https://aimagazine.com/articles/behind-nvidia-openais-us-500bn-ai-infrastructure-project",
-      "source": "AI Magazine",
-      "publishedAt": "2026-07-28T11:23:34.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "NVIDIA is in talks with OpenAI to provide a backstop for a projected US$500bn AI data centre project in Ohio, as concerns about an AI bubble grow"
-    },
-    {
-      "title": "Amazon Stock And 2 AI Data Center Names Facing Higher Energy Costs - simplywall.st",
-      "url": "https://simplywall.st/stocks/us/real-estate/nasdaq-eqix/equinix/news/amazon-stock-and-2-ai-data-center-names-facing-higher-energy",
-      "source": "simplywall.st",
-      "publishedAt": "2026-07-28T11:10:44.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "AMZN"
-      ],
-      "score": 55,
-      "summary": "Oil prices are surging again as conflict in the Middle East disrupts supply, and that is colliding with record spending on AI data centers and cloud infrastructure. Higher energy bills can quietly erode margins, stretch payback periods on US$725b of AI investment and pressure stocks that rely on power hungry server farms. This article looks at three stocks that appear more exposed to this energy shock. All three are covered as potential downside cases, helping you spot where "
-    },
-    {
-      "title": "NVIDIA And Industry Leaders Launch Open Secure AI Alliance For AI Safety And Cybersecurity - Pulse 2.0",
-      "url": "https://pulse2.com/nvidia-and-industry-leaders-launch-open-secure-ai-alliance-for-ai-safety-and-cybersecurity/",
-      "source": "Pulse 2.0",
-      "publishedAt": "2026-07-28T11:10:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "NVIDIA and more than 35 technology, cybersecurity, cloud computing and artificial intelligence organizations have formed the Open Secure AI Alliance to develop open technologies for protecting software, AI agents and critical digital infrastructure."
     },
     {
       "title": "Nvidia Employee Detained in Taiwan as Prosecutors Allege AI Chip Smuggling to China: Report - Benzinga",
@@ -1122,20 +1160,6 @@
       "score": 55
     },
     {
-      "title": "Nvidia Employee Detained by Taiwan in China Chip Smuggling Probe",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/taiwan-detains-nvidia-employee-in-china-chip-smuggling-probe",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-28T04:48:00.000Z",
-      "kind": "news",
-      "summary": "Taiwanese prosecutors have detained an Nvidia Corp. employee and searched the company's offices as part of a probe into the alleged smuggling of AI accelerators into China. This marks a significant development as it is potentially the first legal action taken against an Nvidia employee in connection with violations of US trade restrictions. The detention follows earlier actions in Taiwan against employees of other companies involved in the unauthorized export of Nvidia AI chi [sentiment: Bearish]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Nvidia In Talks With OpenAI For A Massive $250 Billion Data Center - The Mac Observer",
       "url": "https://www.macobserver.com/news/nvidia-in-talks-with-openai-for-a-massive-250-billion-data-center/",
       "source": "The Mac Observer",
@@ -1151,24 +1175,10 @@
       "summary": "Nvidia is in talks to finance a $250 billion data center for OpenAI in Ohio. The massive project would require enough energy to power millions of homes."
     },
     {
-      "title": "OpenAI Close to Landing $500 Billion Data Center With Nvidia’s Backing - The New York Times",
+      "title": "OpenAI Close to Landing $500 Billion Data Center With Backing From Nvidia - The New York Times",
       "url": "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
       "source": "The New York Times",
       "publishedAt": "2026-07-28T03:08:44.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia reignites \"circular\" AI concerns as it weighs OpenAI financing guarantee - Axios",
-      "url": "https://www.axios.com/2026/07/27/nvidia-openai-financing-ai-jensen-huang-ssi",
-      "source": "Axios",
-      "publishedAt": "2026-07-28T02:06:07.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1189,6 +1199,19 @@
       "related": [
         "NVDA",
         "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Watch Nvidia, AI Stocks Tumble as China Chip Progress Sparks Selloff | The Pulse 7/28/2026 - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-28/the-pulse-7-28-2026-video",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-28T00:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 55
     },
@@ -1305,20 +1328,6 @@
       "summary": "CNBC's Kristina Partsinevelos joins 'Closing Bell Overtime' to talk Nvidia's spending around its OpenAI partnership and GPU purchases."
     },
     {
-      "title": "Nvidia Stock Slumps After Data-Center Report",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026/card/nvidia-stock-slumps-after-data-center-report-i8YSwB1phOr8Gs1EtmNU",
-      "source": "WSJ",
-      "publishedAt": "2026-07-27T20:44:33.000Z",
-      "kind": "news",
-      "summary": "Nvidia's stock dropped 5% after a Wall Street Journal report indicated the company is discussing a $250 billion financial backstop for a massive OpenAI data-center project. This news raised investor concerns about circular financing within the AI economy and the extent of Nvidia's investment in its own customers. The data center in Ohio is linked to a U.S. government initiative and would be developed by SB Energy. [sentiment: Neutral]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Alphabet's Massive AI Investment Push Signals More Gains Ahead for Nvidia - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/07/27/alphabets-massive-ai-investment-push-signals-more/",
       "source": "The Motley Fool",
@@ -1331,24 +1340,113 @@
       ],
       "score": 55,
       "summary": "Alphabet has raised its 2026 capex outlook, which is good news for Nvidia investors."
-    },
-    {
-      "title": "Nvidia's potential $250B backstop for OpenAI is another strike against the AI trade - CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/nvidias-potential-250b-backstop-for-openai-is-another-strike-against-the-ai-trade.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-27T19:46:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "This is yet another sign that investors need to look beyond AI stocks."
     }
   ],
   "general": [
+    {
+      "title": "Boeing posts wider loss than expected as Air Force One costs weigh on results",
+      "url": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-28T12:23:28.000Z",
+      "kind": "news",
+      "summary": "Boeing took a $280 million charge on its long-delayed Air Force One program.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Apple plans to lease iPhones for $17.99 a month through partnership with Klarna",
+      "url": "https://www.cnbc.com/2026/07/28/apple-plans-to-lease-iphones-for-17point99-a-month-through-klarna-deal.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-28T12:18:55.000Z",
+      "kind": "news",
+      "summary": "Apple is announcing an iPhone lease option weeks after raising iPad and Mac prices due to the global memory shortage.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Crypto stocks rally thanks to rotation from AI infrastructure; bitcoin miners lag",
+      "url": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-28T12:11:21.000Z",
+      "kind": "news",
+      "summary": "Crypto stocks proved some of the top gainers Monday even as the broader market sold off and capital rotated away from chip and AI infrastructure names.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opinion | The scams of the future will be written just for you - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZGcwODc5dDhNSklSYW1uMFdZT3BsSEFzVWFGR0JLam9ncGVoTGVKenI0eHktR29IRVdyZkFNbHFpSUxNTHRYUmc5VjJjZTdoTk10cFdvRkxTYWxGRzBjQ1BzUVdacXBmX3UySzgwZzM3REZwSUVoWU5JOWRPTzdFRVZRWGJQdHpqSHhPU0tTeTl2NmJlYkdoaTNZX1ZuN2NmODQwanVLbGRScUZEQ0ZNaGg2ZFFmWnNpeG91bVN5OA?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-28T12:03:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "As AI Reshapes Cybersecurity, EWF 2026 Brings Together Industry Leaders to Deliver Practical Solutions - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONkc1QkdvM1F0czdfeWF1aEFieFpiRm5ucldNVEdXRHczeXpFN0lhTlR2LVhjR0JQVldqdlhuRkJRNkZ3UUpfczNLdy1HUDRQaGlRZ0JDajVXMzM3d1p1TzlzcUMwZTllUFIwUWVEOW9jYjdaSlU0SXQ1UXVHelNaY3lIczJtVmYxV0xUcENWakxuT0hyZUhfQzFzdzczWFRlbWJDN2lFZU5qTUM0dXFJZGE0elNMb1FSdTVVTlVzbnptVC13Z2dkQmliOC1VdkQzY01wWkxQRWJrYWhhZVZtRENlWVdNVEVKT012RW9sWQ?oc=5",
+      "source": "Business Wire",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Nozomi Networks Appoints Co-Founder Andrea Carcano as CEO to Accelerate AI-Driven Innovation in Its Next Phase of Growth - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNbDdobEpjOVN1NFM3VHFheFEwUFNmRGdvWkdPQ0V0T01fWlAwODZpdnpIWHJaQmROUjRvSVBCT2tyU2dMLWxXRHdSaFA5eGxjS1Y3U1l5WlA1Zi1LbkF0WEdia2RXWUFtZG5KaXg1dHlHNjdTR2RlX0N5UW5QcXJmeDhramlISnFEOGZZcGZTRGJELTROMl9INXByR1pkRHVtRzRlUEozZENvMzZkWjBRcW9meU9tRHNjeEdtNUhITVA2NVpTRjBnQW9qWmlJbENnZVFjT3FKTEEybHZMV3dJS2RPNkRnTklEaUdQekZubEJNa1ZQQlZDR25sNi1HVHQ5aW9kVGRrbw?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Colombia Bonds: Auditor Probes Swap Over Constitutional Concerns",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/colombia-bonds-auditor-probes-swap-over-constitutional-concerns",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "kind": "news",
+      "summary": "A Colombian government bond swap last October may have violated constitutional principles by shifting financing costs to future administrations in exchange for short-term liquidity relief, an audit by the comptroller general’s office found.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Royal Caribbean (RCL) Lowers Yield Forecast as Middle East Turmoil Hits Bookings",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/royal-caribbean-rcl-lowers-yield-forecast-as-middle-east-turmoil-hits-bookings",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-28T11:58:34.000Z",
+      "kind": "news",
+      "summary": "Royal Caribbean Cruises Ltd. trimmed its yield forecast and said it sees a “modest” impact on bookings from geopolitical turmoil.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AMD signs AI data center deal with Core Scientific - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWnFiRjVManVtR3hxSVQ2N1Z0eF94RHl3aEVmQVY2emcwTVBDRHphZVBEUzlFSkRhaWI5X3hsa2Z3VGlNa2FyNF9ERjAwemFfWURDTFowUkV6MGhydVdNVFFNMUl3TUk4NGZ4UnRXdll6ZEVEOWpXNUpQZF9XNUQwWkxvemlqZHh2S3RhRE9EZFRPUm5IeUo0b0wySV9Falk?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-28T11:55:57.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Coca-Cola tops earnings estimates, hikes full-year outlook as demand for drinks climbs",
       "url": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
@@ -1356,18 +1454,6 @@
       "publishedAt": "2026-07-28T11:54:11.000Z",
       "kind": "news",
       "summary": "Coca-Cola stock has risen 19% this year, outstripping the gains of the S&P 500.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Boeing posts bigger loss than expected as Air Force One costs weigh on results",
-      "url": "https://www.cnbc.com/2026/07/28/boeing-ba-2q-2026-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-28T11:52:02.000Z",
-      "kind": "news",
-      "summary": "Boeing took a $280 million charge on its long-delayed Air Force One program.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1386,23 +1472,23 @@
       "score": 60
     },
     {
-      "title": "Brookfield sees 6.5 GW of AI data-centre capacity coming online in India - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMUlzazUtLVpLY3J2YnBhTm51WFlHN19MVUxzd010dHlDR3BtODhRbHVBcTBEeFNXYzZYRmdrbzh4Wk1mdHZIdGlwem5tX2hCclBuNWZBUEoxbEtvN0xMdi1pV0ZNRjJfeC13UXFXNXppNVd0ZU9GZDI3enU4ZjhyNjBQMHBYZEVnS09Ea0doTGdkN2hEQ2F2R2swWnBVcmM2MTJnbmhic3BEVTQyTm9WYXVCdU01ZjhlOENrMw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-28T11:39:44.000Z",
+      "title": "OPEC+ Plans Quota-Hikes Pause After September, Delegates Say",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/opec-plans-to-pause-quota-hikes-after-september-delegates-say",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-28T11:33:00.000Z",
       "kind": "news",
+      "summary": "OPEC+ expects to pause oil-production quota hikes after a final increase in September as the group continues to evaluate the fast-changing supply impact of the Iran war, two delegates said.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "OPEC+ Plans to Pause Quota Hikes After September, Delegates Say",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/opec-plans-to-pause-quota-hikes-after-september-delegates-say",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-28T11:33:00.000Z",
+      "title": "Hyperscale, hypersensitive: US teacher cuffed for applauding datacenter critics - The Register",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcFZwa3JmazlCZnZPOXk1MXF0c29mRGxHR3UwU1B0THdrWjZwV1hjY3FObnRhNjNDR0QyMjhOQ0Zqd3phVjlfSlZoSDVtRlBnbGk1N3FZQU1YOXJQTmtBTExmQ195bXZFVnRBY01kM0ZGVVBObGRBbzF5eDJsOVgyLU9nZ0M1REc1bWNsdFUxanNpNE1OUzFOUnhQZmwzdG8way1CX09yemwzb2tDX2piZ1lOMVFMZ0h1WDNiS0xpclA1NlMwWDJQeVVHQm4?oc=5",
+      "source": "The Register",
+      "publishedAt": "2026-07-28T11:32:59.000Z",
       "kind": "news",
-      "summary": "OPEC+ expects to pause oil-production quota hikes after a final increase in September as the group continues to evaluate the fast-changing supply impact of the Iran war, two delegates said.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1433,6 +1519,17 @@
       "score": 60
     },
     {
+      "title": "The Chips Rout Goes Global - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNDNwZ2hCd0I2RWgtMkRTelhJeDNmR2cwRFZBRnd5Si1CdmFiQmdTQmFPWXYxc0xVZXpLb3kxOUk4cE1pZGk0aXdjaUlnRTNXRjVXbkdER1htRVF6ZFZyRVlNUkNyYzFPR01RLVVJVnh5c1hna0JfS0pSb0M2RkxoYVRTV2g?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-28T11:25:33.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "S&P 500 Futures Muted as Semiconductors Drop, Earnings Roll In",
       "url": "https://www.bloomberg.com/news/articles/2026-07-28/s-p-500-futures-muted-as-semiconductors-drop-earnings-roll-in",
       "source": "Bloomberg",
@@ -1442,7 +1539,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Samsung, SK Hynix Leveraged ETFs Bring Boom-And-Bust to South Korean Investors",
@@ -1454,7 +1551,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Germany-China Trade Relations: Berlin Is Preparing for a Showdown",
@@ -1552,6 +1649,28 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMXFEX0VpUjQ2N2o1eDlRLXlGQmp0UVJBdlBjdURhcUdldXFWUTJaYldfdnMtT0djYXdNaFhWSzN5NXQ2YlpIZ2xURHY2WHlraGs2TU1HR243VlBBRlE1SmhJVmQxdjRBTFFRQThwQjRNcEVUZ0pXbk45bFJWNHN4WWZkSHIydW4zZVE5TFVEdlV0LWpaMlBiNXV6Y2FlV1M0T2x6empJVEZYSFE?oc=5",
       "source": "The Economist",
       "publishedAt": "2026-07-28T10:45:17.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI sell-off intensifies as investors ditch chip stocks - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmVZT1owblRILUJnajMzUHdYa3Y3SmJwc0NrcFpJZXNTWkFSQlpjR191U1dkcHVha0lTUEpFa0stREtycWg5bmFMVTZERGN4R1ZSYkxKdzVWODBVcXFHX25TS3FpaVpZNlplaW9YTVh2Zm5jLVVrNy10RUNHcDJad05LU1FwNnV6WVNweTJVUi1WWEU?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-07-28T10:34:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Could Iceland’s become Europe's AI powerhouse? - The Parliament Magazine",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZW1Fa0I4M3JTeEcyc3NCNEg3UFU3MWh4LUNibVdzd19VVlo3cFJKaXZKUVlvM2dyekp1R1d4VDJFVzZ4NU1GZUIyQk96MjFXMlFxaDB2Tk5rNi12QTNyUkVNcDF6WFJHZFY0RlluU0w4OFdKS05IMk9uUGZ3Rmhob3pRcGNnNmlCQ3FJbHpweFl6bzM0bTQ2Ug?oc=5",
+      "source": "The Parliament Magazine",
+      "publishedAt": "2026-07-28T10:33:50.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1779,17 +1898,6 @@
       "score": 50
     },
     {
-      "title": "AI sell-off intensifies as investors ditch chip stocks - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmVZT1owblRILUJnajMzUHdYa3Y3SmJwc0NrcFpJZXNTWkFSQlpjR191U1dkcHVha0lTUEpFa0stREtycWg5bmFMVTZERGN4R1ZSYkxKdzVWODBVcXFHX25TS3FpaVpZNlplaW9YTVh2Zm5jLVVrNy10RUNHcDJad05LU1FwNnV6WVNweTJVUi1WWEU?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-07-28T09:24:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "UK's Burnham outlines youth training overhaul as AI reshapes jobs market - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU1NVVnp2amYxR05CeFVvaUhQcnhYcF9NYi0yYkY0SVJtTnN5RVQ4TlRFbW8ta3k2emF4WEZTNk1FVGMwblFQcENoSmxPUUwyVEhzUmppMFRDdDdNVGJ3Y0FUa1V6cnY0S0dDZkUwUV9iM1EyX1FyUmRwZzBGR0gtd0l2RjhFUURlSTFmdm84YllEd3BfRGVBeE5mZHpJbGFfaVNxTE9QRjFObVdWdkN6aEZJYw?oc=5",
       "source": "Reuters",
@@ -1801,123 +1909,10 @@
       "score": 50
     },
     {
-      "title": "Treasuries Set for Third Day of Gains as Oil Drops on Iran Talks",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/treasuries-set-for-third-day-of-gains-as-oil-drops-on-iran-talks",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-28T09:21:11.000Z",
-      "kind": "news",
-      "summary": "Treasuries head for their best win streak in a month, buoyed by a sharp retreat in oil prices on optimism that talks between the US and Iran will lead to the resumption of tanker traffic around the Arabian Peninsula.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "GAM’s Markham Says Chip Selloff Not Yet a Buy-the-Dip Moment",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/gam-s-markham-says-chip-selloff-not-yet-a-buy-the-dip-moment",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-28T09:17:53.000Z",
-      "kind": "news",
-      "summary": "The global selloff in chip stocks is not yet a buying opportunity as investor positioning remains crowded, according to GAM’s Paul Markham.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "UN's renewable-powered AI goal meets physical reality - Axios",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcXBNV3JGcS1xd1lTYXBsdjUzNUc2WjBXc3ljbGJuVlFOXzNEWTd1MGluY2FsWmd5RldFYXJ6akVNRnZYZjU2RDZ1YWJMME5iWmUybDQ0NC1JODVfX0k4TzNmeDVPWVROS3NJWnJFMnkxQVpVS1BWU1VqTEQtR3c2WG1Fdzg?oc=5",
       "source": "Axios",
       "publishedAt": "2026-07-28T09:15:10.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China Gears Up to Fight Overcapacity Claims as Trade Clash Looms",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/china-gears-up-to-fight-overcapacity-claims-as-trade-clash-looms",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-28T09:14:47.000Z",
-      "kind": "news",
-      "summary": "China mounted a forceful defense of its booming exports, rejecting Western claims of overcapacity as it braces for escalating trade friction with the US and European Union.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic blows past Starbucks, McDonald's amid AI boom - Axios",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLWsxRVptU010cTRHWS15WERCRFcyaHkyX3ZTRmhsUlZIUmczcjBPRzBjQXdEVkI1MG5Ub1JOR2Qxemxja1NHMXBQWFB4S1lCUUx4V3VUeHN0ZXlKWnpyQmh6bEZiaXJyaElQZnFKQ3F1ZjVPYUFBVzZvRE1wNlV3VzNUOGs2Vzcy?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-07-28T09:10:41.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Cognizant launches EMEA AI Unit to help enterprises scale agentic AI adoption - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTjNmYUFleFJzamFlTWpleDR6eTBNS0YtMXNHMHlWQlpHbVd2X3V4QWNLblJkeEZvN0xjd2ltanlIVWUyWnp6ZHZBUlRmMDJqZkxFTGFUeHlvck5GR2RnOFlIODlYMUs1TG9fZHlVc0dUOGYxc0hfRjJjNVBQbGNrNnhHcDJZaHdBem4wcXA0T3FwQ3pKVUZfR0xycDRIYXBPQXdIZUhYamJJRURibWtrRXBiYXpkNFJHNEU3UlY4SHlBNFBQOGtuM0dZeFh5QQ?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-28T09:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta exits RE100 after backing gas plants for its AI data centers - The Cool Down",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUWpHWVlLa1hGVkRySm1raHRGMl91amRsZ1paUjg0dUY3Y2h0OFZ0TlM2cnZWUng0UUN0LXlYVWdVZVd6dFluUE9uZXoydGQ3bzVsR01hN3AyaHNuNFpzUzBveXNxZS1LaG9qaW5laG1Bckk5dGNlZFJJR2ZMSEFETVlDTFZNUQ?oc=5",
-      "source": "The Cool Down",
-      "publishedAt": "2026-07-28T08:47:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Korean Stocks Tumble on Doubts Over AI, Leading Asian Equities Lower - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTFM0bFk1NjM3X1QwZzlvTkxFa3lQRFZHQWt2VWpKR2pndV9HdHQyQnUxY0RsbVJmUERwVFAzNngyWVlUUTY4X1M4R0VraklGZ2prR2F1aGt0bTNVbjJKcW1tR081dWFLaGRMSTlQbURoc1ByNmV5Nkt0UTVEN1ZUQ2tNQkJ3dW00?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-07-28T08:09:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit - The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQVo1WmxlN2pxNTFtamh6N3VLYWxnOWhSdmE4aWdWWE00SWF5Q0JQMHh6NlpjYndJVGxfZ0ViQ2J4T09OU2pHbF9mdHlJZHlZcnNhVmlaZFd4OU1DOGQ0bTZtSmk2T1FJTldWWTVWYUEzRFRuZ19aRjNWcE1KZ3J3X3Aya1U?oc=5",
-      "source": "The Hacker News",
-      "publishedAt": "2026-07-28T08:04:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Revizto expands connected project intelligence platform with enterprise AI integrations - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQb3VtdkxRU0xNWVRGb0t3X2Z0ZnN4SHlCWGE0UTgybF84d1FuanV0ZmlwRWlhVXVsRUhnQUt2RDN3MkRWVHhaOUxtS1pNZjl3YTNYejk4aUhBMDFqSXY4Q3NzVUJIa01IRFdoVFpfZGJrM0xITjM1Z01oMm8wbTRFaTFNYUpFLU5uYi1Uamw0bjgydUZyNGpxQktPN1UwOFpRYl9LSV9ENnlrNjJrNEdQaXVaOEpYSHhsWlI2bEQ3WFFld1d6VTF1dlFkM0x0Ulk3QTcxSDBrcWdaWUU?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-28T08:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Legal intelligence start-up Theo Ai appoints former Bristol Myers Squibb GC to board of directors - The Global Legal Post",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWXhEaDZJUVEtOFJBU0tIUm9VQk9QQjNVQmhuR0dkZnBVcnpoaGlrY0llaE94VGlUWnJhZ0l2eTY1c3FzcExsemVIY1FPc0ZzN25uWDVFX1d4cWpwc3dJRjBuSDE3WEpRRm1JWG8xcnZwMjZDZXhRSlRoRGRUcnppQ0ZlME54RmJpSzltcUt1cHlSaFFxLVhRZF9BN1ZLOTBONlBwZXFlcDBWVUlNX1lmUDJUUnhRdWp4TUZ6VXBsWTRpV0dhcG9vcUxwVEJCRHhBejNiMndreFRsSThCbWc?oc=5",
-      "source": "The Global Legal Post",
-      "publishedAt": "2026-07-28T07:38:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

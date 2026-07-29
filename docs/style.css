@@ -632,6 +632,78 @@ a { color: inherit; }
    compact so the feed stays above the fold. */
 .embed .daybrief { padding-top: 32px; }
 
+/* ================= FRMI OPTIONS ================= */
+
+.options { border-top: 1px solid var(--line); background: var(--bg-2); padding: 64px 0 8px; }
+.options-card { display: block; }
+
+/* Sentiment pill next to the quote. Green = call-heavy, red = put-heavy, amber
+   = balanced/thin. */
+.opt-badge {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line-2);
+  white-space: nowrap;
+}
+.opt-badge:empty { display: none; }
+.opt-badge.tone-up { color: var(--green); border-color: rgba(47, 212, 131, 0.4); background: rgba(47, 212, 131, 0.08); }
+.opt-badge.tone-down { color: #ff5f6d; border-color: rgba(255, 95, 109, 0.4); background: rgba(255, 95, 109, 0.08); }
+.opt-badge.tone-flat { color: var(--amber); border-color: rgba(56, 182, 227, 0.4); background: rgba(56, 182, 227, 0.08); }
+
+.opt-note { margin: 0 0 20px; color: var(--dim); font-size: 14px; line-height: 1.65; max-width: 860px; }
+
+.opt-tables { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+@media (max-width: 760px) { .opt-tables { grid-template-columns: 1fr; } }
+
+.opt-h {
+  margin: 0 0 10px;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  color: var(--faint);
+  text-transform: uppercase;
+}
+.opt-scroll { overflow-x: auto; }
+.opt-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.opt-table th {
+  text-align: right;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--faint);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--line-2);
+  padding: 0 0 8px 14px;
+}
+.opt-table td {
+  text-align: right;
+  border-bottom: 1px solid var(--line);
+  padding: 8px 0 8px 14px;
+  color: var(--ink);
+}
+.opt-table tr td:first-child, .opt-table tr th:first-child { text-align: left; padding-left: 0; }
+.opt-table tr:last-child td { border-bottom: none; }
+.opt-c0 { font-weight: 600; }
+.opt-num { font-variant-numeric: tabular-nums; }
+.opt-dim { color: var(--dim); }
+.opt-call { color: var(--green); font-weight: 600; }
+.opt-put { color: #ff8a93; font-weight: 600; }
+
+.embed .options { padding-top: 32px; }
+
 .tabbar {
   display: flex;
   gap: 8px;

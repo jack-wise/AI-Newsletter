@@ -23,6 +23,12 @@ GitHub Actions (cron */30) ──► scripts/collect.mjs ──► docs/data/new
     summarized once and cached, so the every-30-min cron only pays for genuinely
     new filings; tabular forms (Form 4/144) keep the static explanation.
   - Yahoo Finance RSS — FRMI headlines
+  - Cboe delayed options quotes (keyless CDN) — the FRMI options chain, distilled
+    into an **Options positioning snapshot** (`scripts/options.mjs` →
+    `docs/data/options.json`): underlying quote, put/call ratios by open interest
+    and volume, 30-day implied vol, a per-expiration open-interest / ATM-IV
+    breakdown, and the most-active contracts. Rendered in the site's **Options**
+    section. Data is exchange-delayed (~15 min); fail-open like every other source.
 - **Social — keyless (default):** two free channels, no X API spend:
   - **StockTwits** public symbol stream — finance chatter where the API
     exposes author followers, join date, and official badges, so the **full

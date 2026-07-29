@@ -24,6 +24,7 @@ import { enrichItems } from "./enrich.mjs";
 import { updateDayArchive } from "./archive.mjs";
 import { generateBrief } from "./brief.mjs";
 import { fetchFrmiPrice } from "./price.mjs";
+import { fetchFrmiOptions } from "./options.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const config = JSON.parse(readFileSync(join(root, "config.json"), "utf8"));
@@ -403,6 +404,18 @@ async function main() {
   const price = await fetchFrmiPrice("FRMI").catch(() => null);
   const brief = await generateBrief({ priority, price, now: Date.parse(payload.generatedAt) });
   writeFileSync(join(dataDir, "brief.json"), JSON.stringify(brief, null, 2));
+
+  // FRMI options snapshot (keyless, Cboe delayed quotes): put/call positioning,
+  // 30-day implied vol, per-expiration open interest, and the most active /
+  // highest-OI contracts, rendered in the site's Options section. Fail-open —
+  // options.json is only rewritten when a usable snapshot is produced, so a bad
+  // options cycle leaves the last good snapshot in place.
+  const options = await fetchFrmiOptions("FRMI").catch(() => null);
+  if (options) {
+    writeFileSync(join(dataDir, "options.json"), JSON.stringify(options, null, 2));
+  } else {
+    console.warn("options: no snapshot this cycle (kept previous options.json if any)");
+  }
 
   writeFileSync(xStatePath, JSON.stringify(xState, null, 2));
   writeFileSync(summariesPath, JSON.stringify(summaries, null, 2));

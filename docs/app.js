@@ -505,6 +505,149 @@ async function loadReports() {
   }
 }
 
+// ---- FRMI options positioning ---------------------------------------------------
+
+// Renders data/options.json into the Options section: the underlying quote, a
+// row of positioning chips (put/call ratios, implied vol, open interest), a
+// plain-English sentiment read, and two compact tables (by expiration + most
+// active contracts). All text is set via textContent (no HTML injection).
+// Polled on the same 5-minute cadence as the feed; fails quietly (the section
+// keeps its last content). options.json is written keyless from Cboe delayed
+// quotes by scripts/options.mjs.
+
+const fmtInt = (n) => (Number.isFinite(n) ? Math.round(n).toLocaleString("en-US") : "—");
+const fmtRatio = (n) => (Number.isFinite(n) ? n.toFixed(2) : "—");
+const fmtPct = (n) => (Number.isFinite(n) ? `${Math.round(n)}%` : "—");
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+// "2026-08-07" -> "Aug 7 '26" (date-only string; no Date() to avoid TZ drift).
+function shortExpiry(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso ?? ""));
+  if (!m) return iso ?? "—";
+  return `${MONTHS[Number(m[2]) - 1]} ${Number(m[3])} '${m[1].slice(2)}`;
+}
+
+// "$9 Call" — the human label for a contract's strike + type.
+function contractLabel(c) {
+  const type = c.type === "put" ? "Put" : "Call";
+  return `$${Number(c.strike).toLocaleString("en-US")} ${type}`;
+}
+
+function tableRow(cells, opts = {}) {
+  const tr = el("tr");
+  cells.forEach((c, i) => {
+    const td = el(opts.head ? "th" : "td", i === 0 ? "opt-c0" : null, c.text);
+    if (c.cls) td.classList.add(c.cls);
+    tr.appendChild(td);
+  });
+  return tr;
+}
+
+function renderOptions(data) {
+  const card = document.getElementById("options-card");
+  const empty = document.getElementById("options-empty");
+  const u = data.underlying ?? {};
+  if (!Number.isFinite(u.price)) {
+    card.hidden = true;
+    empty.hidden = false;
+    return;
+  }
+  card.hidden = false;
+  empty.hidden = true;
+
+  const upd = document.getElementById("options-updated");
+  if (upd) upd.textContent = data.generatedAt ? `Updated ${timeAgo(data.generatedAt)}.` : "";
+
+  // Underlying quote line
+  document.getElementById("opt-price").textContent = `$${u.price.toFixed(2)}`;
+  const changeEl = document.getElementById("opt-change");
+  if (Number.isFinite(u.changePct)) {
+    const up = u.changePct >= 0;
+    changeEl.textContent = `${up ? "▲" : "▼"} ${up ? "+" : "−"}${Math.abs(u.changePct).toFixed(2)}%`;
+    changeEl.className = `dq-change ${up ? "is-up" : "is-down"}`;
+  } else {
+    changeEl.textContent = "";
+  }
+
+  // Sentiment badge (color-coded by positioning) + note
+  const badge = document.getElementById("opt-badge");
+  const label = data.sentiment?.label ?? "";
+  badge.textContent = label;
+  const tone = /call-heavy/i.test(label) ? "up" : /put-heavy/i.test(label) ? "down" : "flat";
+  badge.className = `opt-badge tone-${tone}`;
+  document.getElementById("opt-note").textContent = data.sentiment?.note ?? "";
+
+  // Positioning chips
+  const t = data.totals ?? {};
+  const chips = [
+    ["P/C · OI", fmtRatio(t.pcOI)],
+    ["P/C · Vol", fmtRatio(t.pcVol)],
+    ["IV 30d", fmtPct(data.iv30)],
+    ["Call OI", fmtInt(t.callOI)],
+    ["Put OI", fmtInt(t.putOI)],
+  ];
+  document.getElementById("opt-pulse").replaceChildren(
+    ...chips.map(([lbl, val]) => {
+      const chip = el("span", "pulse-chip");
+      chip.appendChild(el("span", "pulse-num", val));
+      chip.appendChild(el("span", "pulse-label", lbl));
+      return chip;
+    }),
+  );
+
+  // By-expiration table
+  const expTable = document.getElementById("opt-exp-table");
+  const expRows = [
+    tableRow(
+      [{ text: "Expiry" }, { text: "DTE" }, { text: "Call OI" }, { text: "Put OI" }, { text: "P/C" }, { text: "ATM IV" }],
+      { head: true },
+    ),
+    ...(data.expirations ?? []).map((e) =>
+      tableRow([
+        { text: shortExpiry(e.date) },
+        { text: Number.isFinite(e.days) ? String(e.days) : "—", cls: "opt-dim" },
+        { text: fmtInt(e.callOI), cls: "opt-num" },
+        { text: fmtInt(e.putOI), cls: "opt-num" },
+        { text: fmtRatio(e.pcOI), cls: "opt-num" },
+        { text: fmtPct(e.atmIV), cls: "opt-num" },
+      ]),
+    ),
+  ];
+  expTable.replaceChildren(...expRows);
+
+  // Most-active table
+  const actTable = document.getElementById("opt-active-table");
+  const actRows = [
+    tableRow(
+      [{ text: "Contract" }, { text: "Expiry" }, { text: "Vol" }, { text: "OI" }, { text: "Last" }, { text: "IV" }],
+      { head: true },
+    ),
+    ...(data.mostActive ?? []).map((c) =>
+      tableRow([
+        { text: contractLabel(c), cls: c.type === "put" ? "opt-put" : "opt-call" },
+        { text: shortExpiry(c.expiry), cls: "opt-dim" },
+        { text: fmtInt(c.volume), cls: "opt-num" },
+        { text: fmtInt(c.openInterest), cls: "opt-num" },
+        { text: Number.isFinite(c.last) ? `$${c.last.toFixed(2)}` : "—", cls: "opt-num" },
+        { text: fmtPct(c.iv), cls: "opt-num" },
+      ]),
+    ),
+  ];
+  actTable.replaceChildren(...actRows);
+}
+
+async function loadOptions() {
+  try {
+    const res = await fetch(`data/options.json?ts=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    renderOptions(await res.json());
+  } catch {
+    // Keep whatever is already shown; if nothing has rendered yet, show the note.
+    const card = document.getElementById("options-card");
+    if (card && card.hidden) document.getElementById("options-empty").hidden = false;
+  }
+}
+
 // ---- the brief (daily at-a-glance read) ----------------------------------------
 
 // Renders data/brief.json into the Brief section: a price line, pulse chips, and
@@ -746,7 +889,9 @@ async function load() {
 
 load();
 loadBrief();
+loadOptions();
 loadReports();
 setInterval(load, 5 * 60 * 1000);
 setInterval(loadBrief, 5 * 60 * 1000);
+setInterval(loadOptions, 5 * 60 * 1000);
 setInterval(loadReports, 30 * 60 * 1000);

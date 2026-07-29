@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=25" />
+  <link rel="stylesheet" href="style.css?v=26" />
 </head>
 <body>
 
@@ -32,6 +32,7 @@
       <nav class="topnav" aria-label="Sections">
         <a href="#brief">Brief</a>
         <a href="#stock">Stock</a>
+        <a href="#options">Options</a>
         <a href="#coverage" data-nav="frmi">FRMI</a>
         <a href="#coverage" data-nav="eco">Ecosystem</a>
         <a href="#coverage" data-nav="filings">Filings</a>
@@ -134,6 +135,40 @@
           </script>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ======== FRMI OPTIONS (keyless Cboe positioning snapshot) ======== -->
+  <section class="options" id="options">
+    <div class="shell">
+      <div class="section-head reveal">
+        <h2>FRMI OPTIONS<span class="accent">.</span> POSITIONING<span class="accent">.</span></h2>
+        <p class="section-sub">Put/call positioning, 30-day implied volatility, and the most active contracts for Fermi Inc. (NASDAQ: FRMI). Delayed quotes by Cboe. <span id="options-updated"></span></p>
+      </div>
+      <div class="daybrief-card options-card reveal" id="options-card" hidden>
+        <div class="daybrief-top">
+          <div class="daybrief-quote">
+            <span class="dq-sym">NASDAQ: FRMI</span>
+            <span class="dq-price" id="opt-price">&mdash;</span>
+            <span class="dq-change" id="opt-change"></span>
+            <span class="opt-badge" id="opt-badge"></span>
+          </div>
+          <div class="daybrief-pulse" id="opt-pulse"></div>
+        </div>
+        <p class="opt-note" id="opt-note"></p>
+        <div class="opt-tables">
+          <div class="opt-block">
+            <h4 class="opt-h">BY EXPIRATION</h4>
+            <div class="opt-scroll"><table class="opt-table" id="opt-exp-table"></table></div>
+          </div>
+          <div class="opt-block">
+            <h4 class="opt-h">MOST ACTIVE TODAY</h4>
+            <div class="opt-scroll"><table class="opt-table" id="opt-active-table"></table></div>
+          </div>
+        </div>
+        <p class="daybrief-fine">Exchange-delayed options data by Cboe (~15 min). Open interest and implied volatility reflect the prior session where a contract hasn&rsquo;t traded today. Informational only &mdash; not investment advice.</p>
+      </div>
+      <p class="empty" id="options-empty" hidden>Options data is unavailable right now &mdash; it refreshes on the next collector cycle.</p>
     </div>
   </section>
 
@@ -262,7 +297,7 @@
         <p class="foot-fine">Independent coverage tracker. Not affiliated with <a href="https://fermiamerica.com" target="_blank" rel="noopener noreferrer">Fermi Inc. / Fermi America</a>; the Fermi logo and site plan belong to Fermi America and identify the company we cover. Not investment advice.</p>
       </div>
       <div class="foot-meta">
-        <span>Sources: Google News · Bing News · SEC EDGAR · CNBC · Yahoo Finance · Alpha Vantage · PR Newswire · GlobeNewswire · StockTwits · Reddit · X (oEmbed)</span>
+        <span>Sources: Google News · Bing News · SEC EDGAR · CNBC · Yahoo Finance · Cboe (options) · Alpha Vantage · PR Newswire · GlobeNewswire · StockTwits · Reddit · X (oEmbed)</span>
         <span>Imagery: Wikimedia Commons · Unsplash · Fermi America site plan</span>
         <span>Auto-generated every 30 minutes · <a href="https://github.com/jack-wise/AI-Newsletter">Source on GitHub</a></span>
       </div>
@@ -303,6 +338,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=25"></script>
+  <script src="app.js?v=26"></script>
 </body>
 </html>

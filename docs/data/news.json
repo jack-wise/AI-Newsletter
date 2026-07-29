@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:01:26.593Z",
+  "generatedAt": "2026-07-29T10:15:07.380Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,20 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Analysts Conflicted on These NA Names: SpaceX (SPCX), Fermi Inc. (FRMI) and Cerebras Systems, Inc. Class A (CBRS) - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SPCX-Q/pressreleases/3502101/analysts-conflicted-on-these-na-names-spacex-spcx-fermi-inc-frmi-and-cerebras-systems-inc-class-a-cbrs/",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-07-28T14:08:32.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 65,
+      "summary": "Detailed price information for SpaceX Corp (SPCX-Q) from The Globe and Mail including charting and trades."
+    },
     {
       "title": "[July 29, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1v9l2rb/july_29_2026_fermi_america_frmi_discussion_thread/",
@@ -35,22 +49,8 @@
       },
       "tier": 2,
       "related": [],
-      "score": 68,
+      "score": 58,
       "summary": "[July 29, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "Analysts Conflicted on These NA Names: SpaceX (SPCX), Fermi Inc. (FRMI) and Cerebras Systems, Inc. Class A (CBRS) - The Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SPCX-Q/pressreleases/3502101/analysts-conflicted-on-these-na-names-spacex-spcx-fermi-inc-frmi-and-cerebras-systems-inc-class-a-cbrs/",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-07-28T14:08:32.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 65,
-      "summary": "Detailed price information for SpaceX Corp (SPCX-Q) from The Globe and Mail including charting and trades."
     },
     {
       "title": "Five jobs posted, TODAY.",
@@ -935,6 +935,20 @@
   ],
   "related": [
     {
+      "title": "Nvidia Partner Quanta Seeks Up to $2.2 Billion From Offering",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/nvidia-partner-quanta-seeks-up-to-2-2-billion-from-offering",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T10:00:50.000Z",
+      "kind": "news",
+      "summary": "Artificial-intelligence server maker Quanta Computer Inc. is seeking to raise as much as $2.19 billion from a sale of global depositary shares, in an offering that may be the biggest Taiwanese stock sale in 19 years.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
       "title": "OpenAI, Anthropic ask U.S. government to consider slowing down AI - The Washington Post",
       "url": "https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/",
       "source": "The Washington Post",
@@ -1015,6 +1029,20 @@
       "score": 65
     },
     {
+      "title": "OpenAI’s rogue AI agent shows why we need federal rules for autonomous systems - CyberScoop",
+      "url": "https://cyberscoop.com/openai-rogue-agent-federal-rules-autonomous-ai/",
+      "source": "CyberScoop",
+      "publishedAt": "2026-07-29T10:02:15.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "The Hugging Face breach shows there is a gap in federal policy. The frameworks to govern autonomous AI already exist—there just needs to be the desire to apply them."
+    },
+    {
       "title": "OpenAI bot’s rogue attack rattles industry leaders, policymakers and consumers - Los Angeles Times",
       "url": "https://www.latimes.com/business/story/2026-07-29/openai-said-its-ai-went-rogue-what-can-you-do-to-protect-yourself-from-rogue-ais",
       "source": "Los Angeles Times",
@@ -1029,6 +1057,19 @@
       "summary": "What will happen to the world if artificial intelligence bots break free from our control and act independently?"
     },
     {
+      "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute - Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "OpenAI’s Rogue AI Agent Breached Second Company, Report Says - Security Affairs",
       "url": "https://securityaffairs.com/196209/ai/openais-rogue-ai-agent-breached-second-company-report-says.html",
       "source": "Security Affairs",
@@ -1041,20 +1082,6 @@
       ],
       "score": 55,
       "summary": "OpenAI's rogue AI agent also breached a Modal customer, exposing a wider attack and raising fresh concerns over autonomous AI safety."
-    },
-    {
-      "title": "OpenAI pledges $71 million for Georgia college students to use AI platform - AJC.com",
-      "url": "https://www.ajc.com/education/2026/07/openai-pledges-71-million-for-georgia-college-students-to-use-ai-platform/",
-      "source": "AJC.com",
-      "publishedAt": "2026-07-29T09:01:43.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI is offering each Georgia college student a $100 credit to use the Codex program."
     },
     {
       "title": "Mark Cuban Says Nvidia Is the IPO 'Funding Everyone and Anyone,' but AI Financing Isn't Bulletproof: 'One - Benzinga",
@@ -1083,19 +1110,6 @@
       ],
       "score": 55,
       "summary": "The new details suggest the OpenAI agent continued pursuing its assigned objective even after escaping its testing sandbox."
-    },
-    {
-      "title": "OpenAI, Anthropic Endorse Letter Asking US to Help Pace AI Development - The Information",
-      "url": "https://www.theinformation.com/briefings/openai-anthropic-endorse-letter-asking-help-pace-ai-development",
-      "source": "The Information",
-      "publishedAt": "2026-07-28T23:12:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
     },
     {
       "title": "OpenAI Models Accessed Cloud Platform Before Hugging Face Hack",
@@ -1274,6 +1288,20 @@
       "summary": "Detailed price information for Brookfield Asset Management Ltd (BAM-N) from The Globe and Mail including charting and trades."
     },
     {
+      "title": "OpenAI pledges $71 million for Georgia college students to use AI platform - AJC.com",
+      "url": "https://www.ajc.com/education/2026/07/openai-pledges-71-million-for-georgia-college-students-to-use-ai-platform/",
+      "source": "AJC.com",
+      "publishedAt": "2026-07-29T09:01:43.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "OpenAI is offering each Georgia college student a $100 credit to use the Codex program."
+    },
+    {
       "title": "Anthropic’s New AI Model Can Identify More Software Bugs Than Ever. Microsoft Is Struggling to Fix Them Fast Enough. - ProPublica",
       "url": "https://www.propublica.org/article/anthropic-mythos-microsoft-software-vulnerabilities",
       "source": "ProPublica",
@@ -1286,20 +1314,6 @@
       ],
       "score": 45,
       "summary": "Anthropic’s Mythos has flagged bugs faster than Microsoft can fix them. Documents reviewed by ProPublica reveal the tech giant's “mad dash” behind the scenes to patch holes before hackers can find and exploit them."
-    },
-    {
-      "title": "OpenAI's 3.2 GW AI Campus: Utility Planning Began Months Ago - Indiatimes",
-      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/openais-3-2-gw-ai-campus-utility-planning-began-months-ago/132698093",
-      "source": "Indiatimes",
-      "publishedAt": "2026-07-29T08:33:29.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Utility filings reveal Georgia Power initiated planning for a 3,200 MW customer commitment months before OpenAI publicly announced its 3.2 GW Project Camellia AI campus. This offers a rare glimpse into the extensive, long-term infrastructure planning required for hyperscale AI data centers, influencing grid stability and resource decisions well in advance of public debuts."
     },
     {
       "title": "Dell Technologies (NYSE:DELL) Joins Nvidia Led Open Source AI Cybersecurity Alliance - simplywall.st",
@@ -1328,23 +1342,66 @@
       ],
       "score": 45,
       "summary": "The iPhone maker reclaimed its position as the world’s most valuable public company as strong hardware and services revenue, combined with limited spending on AI infrastructure, drew investors fleeing a wider technology selloff"
-    },
-    {
-      "title": "SSI and NVIDIA form long-term AI compute partnership - Engineering.com",
-      "url": "https://www.engineering.com/ssi-and-nvidia-form-long-term-ai-compute-partnership/",
-      "source": "Engineering.com",
-      "publishedAt": "2026-07-29T08:03:45.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "The agreement gives SSI access to the Vera Rubin platform and includes collaboration on current and future compute systems."
     }
   ],
   "general": [
+    {
+      "title": "Brandi AI Wins a Gold Stevie Award for New Product of the Year for AI Visibility and Generative Engine Optimization - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPV3FKZENsTHNJbDI5VXU2WDVXYWZsNWsteHdNdlRUT2hFVlczN1gtcDQwRXBTTWxZanJOaEFyWE0zcDBWd0pJTVJ4bHZ4WEl4d3ctRmMycTBBTmtGMHB3ekxTRzRldWZSSUsyU203Y3dHZmNzWFAweUhMQjBnWnJUNldDYTZMNjY4STM5NUlLRXVxMEZyRUhfRGd4b1ZFdXNWbk5aYVNGamxHcjhJSlF1ejVCeDVsVEttQWNXaDJHc3pHc093NndqMk02RmxPbXJxSnZqVVhoNE5HWm8xNUZ5WlJoTTVoT283M1RsOXU2NE5FSUIxSUkxTlFMekZzVnRM?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-29T10:05:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Burning Cash: AI Factories Are Losing Over 30% of Compute Power Due to Heat - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb2xfMG81ZV9sbHlJaGdQbk96OGtTV0o5Wk44My0xbDF6T092TTY2RFFTTGJndm9uVG4yRjBjS0w3OFNQUk9RNHo3U3R6dkpxblpaRVk4MHlTcUxhWG5EaGpLS1NXajk2c0k5cjk4RnNhVkJhZm1QakI3ZXgwcFVtWVJadTQ3MmpJZjhvT3BPLWlQTGhqLTQ2WXpfRGdhazRRSkpJMUhYV0c1MmhKellmU1RjbWc1c0hxcnBSNTJ2T3lXUlZ5RTBHeg?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-29T10:05:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Ares $29 Billion Private Credit Fund Sees Uptick in Non-Accruals",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/ares-29-billion-private-credit-fund-sees-uptick-in-non-accruals",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T10:00:44.000Z",
+      "kind": "news",
+      "summary": "Ares Management Corp.’s $29 billion flagship private credit fund reported an increase in troubled investments in the second quarter, as the industry continues to grapple with exposure to businesses vulnerable to advances in artificial intelligence.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "DJI Debuts Long-Awaited Osmo 4P Camera, But US Creators Can’t Buy It",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/dji-debuts-long-awaited-osmo-4p-camera-but-us-creators-can-t-buy-it",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T10:00:05.000Z",
+      "kind": "news",
+      "summary": "Chinese drone maker DJI is rolling out its latest product, a $700 mechanically stabilized camera, pressing ahead with global launches while its products remain locked out of the US market following a federal ban last year.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Knack RCM Spotlights Anesthesia Platform Built on Decades‑deep Operating Intelligence and AI-Native Design - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNc3BtMmVHSFdKNWZsUlVHWmpacTdZV1NRdmZkN1l3U0VKX1BMSW5qdS1zZ2tPeHhvZVdPcngxdlFDOVFyczVySThrR1ZBUGhXSE5DR2pONFNoc0VLT2JzZjdiQTlNMVVmMVAyTG1YeFZxOWNIN3hVTFQtTkhWbjhRb2hyMmZJSEFUVGZZWTJYV2FmTVdQRXQ4QXZOM1UxVm1JOXpDMEF3bzR6RDh1ZHBkMmZVamN4Q3pPR29reVgxZVlVU0ctR3BEcmNwZFBNZVo5ZUVwMzJkTzgtMXRpdE9ZMnd2b3F3cW5XdmdSV0dLTjd5SlFT?oc=5",
+      "source": "Business Wire",
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Bureau Veritas CEO: Resilient Amid Complex Environment",
       "url": "https://www.bloomberg.com/news/videos/2026-07-29/bureau-veritas-ceo-resilient-amid-complex-environment-video",
@@ -1358,24 +1415,24 @@
       "score": 60
     },
     {
-      "title": "EU Will Support Cities That Want to Curb Short-Term Rentals",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/eu-will-support-cities-that-want-to-curb-short-term-rentals",
+      "title": "Aramco Mulls New Oil Pricing for Asia as Houthis Threaten Flows",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/aramco-mulls-new-oil-pricing-for-asia-as-houthis-threaten-flows",
       "source": "Bloomberg",
-      "publishedAt": "2026-07-29T09:46:15.000Z",
+      "publishedAt": "2026-07-29T09:51:36.000Z",
       "kind": "news",
-      "summary": "The European Union is preparing measures that will help cities clamp down on short-term rental operators like Airbnb, as Brussels aims to tackle the problem of housing affordability and supply.",
+      "summary": "Saudi Aramco is preparing a new selling price for oil loaded at Egypt’s Mediterranean port of Sidi Kerir for delivery to Asia after attacks by Iran-backed Houthi militants elevated risks in the Red Sea.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "VP Duterte Aides Made ‘Unusual’ Cash Widthrawal, Banks Managers Tell Senate",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/vp-duterte-aides-made-unusual-cash-widthrawal-banks-managers-tell-senate",
+      "title": "EU Will Support Cities That Want to Curb Short-Term Rentals",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/eu-will-support-cities-that-want-to-curb-short-term-rentals",
       "source": "Bloomberg",
-      "publishedAt": "2026-07-29T09:46:07.000Z",
+      "publishedAt": "2026-07-29T09:46:15.000Z",
       "kind": "news",
-      "summary": "Philippine Vice President Sara Duterte’s aides made unusually large cash withdrawals in 2022 and 2023, former bank officers told the Senate impeachment court, which started tackling her alleged fund misuse on Wednesday.",
+      "summary": "The European Union is preparing measures that will help cities clamp down on short-term rental operators like Airbnb, as Brussels aims to tackle the problem of housing affordability and supply.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1438,7 +1495,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Netanyahu Meets Trump at White House",
@@ -1450,7 +1507,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Sam Altman says he gets why people don't want AI data centers in their backyard - Business Insider",
@@ -1461,7 +1518,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Zambia's Kwacha Nears Parity With Rand",
@@ -1473,7 +1530,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "A.I. Companies Are Recruiting Electricians and Carpenters by the Thousands - The New York Times",
@@ -1484,7 +1541,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "NTT DATA and ENGIE Announce Strategic Partnership to Power Sustainable AI and Data Center Growth - Business Wire",
@@ -1712,30 +1769,6 @@
       "score": 50
     },
     {
-      "title": "Multiple Dead After 7.1-Magnitude Quake Hits Japan",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/multiple-dead-after-7-1-magnitude-quake-hits-japan-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T07:34:26.000Z",
-      "kind": "news",
-      "summary": "Rescuers continued the hunt for survivors in the ruins of a shopping mall on the southwestern island of Kyushu on Wednesday, after a major earthquake in which multiple people have been confirmed dead. The quake hit a region that is a hub for Japan's semiconductor industry, housing names like TSMC and Tokyo Electron. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "France’s Meridiam Said to Eye Istanbul’s Bosporus Bridges",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/france-s-meridiam-said-to-eye-istanbul-s-bosporus-bridges",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T07:31:27.000Z",
-      "kind": "news",
-      "summary": "France’s infrastructure investor Meridiam SAS is among those weighing a bid for Istanbul’s two iconic Bosporus bridges, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "SK Hynix Drops as Profit Disappoints",
       "url": "https://www.bloomberg.com/news/videos/2026-07-29/sk-hynix-drops-as-profit-disappoints-video",
       "source": "Bloomberg",
@@ -1818,16 +1851,37 @@
       "score": 50
     },
     {
-      "title": "US Risks Broadening China Clash With Robot, Inverter Curbs",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/us-risks-broadening-china-tech-clash-with-robot-inverter-curbs",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T04:11:42.000Z",
+      "title": "How the booming backlash to AI data centers is shaping the midterm election - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaXN5YlRROG5qV2lzREJsT3A3elU4MGQ5N1JMSXRmb0xtS0N5b3dLRWV2UmgzSUlid181RXBfdzE0Z2Yta0Zac1V6SWdjanNXRnZhWDdJV0o0c0RFVDZuLXhnM0tHaTF6TVBjc1RGT1BIempvVU9IRk56cVFMczg2UFd6REdKMjlidGd5VFZDZkYtWFpoSEdQY2IyMU02NmdTNS00Y25NNW9JSTVELVZHa2szR0Jjdw?oc=5",
+      "source": "NBC News",
+      "publishedAt": "2026-07-29T10:10:11.000Z",
       "kind": "news",
-      "summary": "Washington tightened curbs on some foreign-made robots and inverters, vital components of solar-powered electricity, in a sweeping move that risks widening its tech confrontation with Beijing less than two months before a meeting between the countries’ leaders.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "US bans foreign-made humanoid robots. Here’s why - KLTV.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSy1xNlBOTGlCbjJsaWtUTzhzZEt4dVB5dFpNcmJhQ2k2ZnFhM1JOMU9nVTRJc0NTRDUyVHI0cFMyWWNvV2QwQ25XZzVOa3I4MTVLOFRGT1UxMUpJOGZUQkZ0YUs3ZUViMWdNa0ZLcG1vMW1jd2VzaDNTMnMzX05xS2tMclVlZ9IBmgFBVV95cUxPV3dTY0pyODI1ZTgycjQtV1VPeW96VlJ0QWhucmJBdkpOdDlreTdsZnNHRmphUzVPTUxOVW9TOG5ET1VCTzBhZmw1N3A1Ml8yVkdGTWxpaDB5dGM4YTRKZGdGclNVSGVjY0hxTEI4eVk0YkNDVmkzNVh4bzFlNm1WVmRsdmNSMDVVWXZxYWt6dFNZWGtWU2xBZW53?oc=5",
+      "source": "KLTV.com",
+      "publishedAt": "2026-07-29T10:05:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "T964 Named as Uptime Institute Business Partner to Power Iraq’s Digital Infrastructure - 01net",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWU4SGJYWmZkeVc5elItTGgxUkR5WlZOVVNLanlMUWN2aDN5RWZBYmJoUndPaER5bHNueWVtZU5tZGxXcmNMMllCRDFBRnpFTDlhZHlfRWJoczZrV1FwVHFZTEhUdHFFREtsUERZYmxieWpUXzJST19weGsxYVdCajhRNXFrMXdhZWJheG5ORGpHc2pHMlNhWGVRLW91ZGxVcVl3UzZwR2FybG8?oc=5",
+      "source": "01net",
+      "publishedAt": "2026-07-29T10:02:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "SLB and Liberty Energy to Form Strategic Alliance for Data Center Infrastructure and Power - Energy Industry Review",
@@ -1869,64 +1923,6 @@
       "publishedAt": "2026-07-29T09:28:29.000Z",
       "kind": "news",
       "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Robo.ai and Abu Dhabi Enterprise Jointly Establish AI Industrial Group Alif Holding to Serve Infrastructure, Government and Industrial Sectors - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWFQxWTN3UnFHdFhMZzRMZmpzV3pOQTVseWdEdjk1UzdDS1d1TVdXWmtNZXZfUnVtR3JvT2lGM29HUm1wazVhYmFNVlV1NkpEdEFwdzhXTS11N0JPQlpJRVRDZEhrcGFoMmZ6QmRORUJyWnJJS2tYTmU3dGNjTHA0WjZfV1lNdjBnQWVKN2E2Y0ltVUpoNWhZ?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-29T09:14:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Nebraska Reins in Data Center Perks Amid Resource Scrutiny - Data Center Knowledge",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYXZPZDhzOUFWZEJHUG05T3pxRFFWNDhPTWJsdHRJNzhJVUV1SjM2aHhLSHAyeVdvZVdLVm9KbElJaXZjWTREU0lMMER1SWt4ZXZIRXdGcEtNd2xhOFB4SW1CRjIwQTUwUTc0c1RFc1VNTXNISHZBTFkzaGJPQzZTbkZXdW5pZUxuSGxZV09nZkp3eDRfTFcxbTkxb1drblpzTkNfOF9qamQ5UQ?oc=5",
-      "source": "Data Center Knowledge",
-      "publishedAt": "2026-07-29T09:01:28.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AirTrunk Gets $2.3 Billion Green Loan for Malaysia Data Center",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/airtrunk-gets-2-3-billion-green-loan-for-malaysia-data-center",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "kind": "news",
-      "summary": "Blackstone Inc.-owned data center firm AirTrunk has secured a $2.3 billion green loan from 30 lenders for a new facility in Malaysia, its largest financing so far for a single asset.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Vantage Is Said to Mull $2 Billion Data Center Sale in Malaysia",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/vantage-is-said-to-mull-2-billion-data-center-sale-in-malaysia",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T03:58:49.000Z",
-      "kind": "news",
-      "summary": "Vantage Data Centers, backed by US alternative asset manager DigitalBridge Group Inc., is considering selling its assets in Malaysia, according to people with knowledge of the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Debt Watchers Warn of Risks From Marcos’ Tax Relief Plan",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/debt-watchers-warn-of-risks-from-marcos-tax-relief-plan",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T03:49:02.000Z",
-      "kind": "news",
-      "summary": "The Philippines risks delaying planned reductions to its budget deficit if President Ferdinand Marcos Jr.’s tax relief proposals don’t come with revenue-generating measures, debt watchers said.",
-      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40

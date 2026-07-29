@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T11:01:25.106Z",
+  "generatedAt": "2026-07-29T11:31:34.538Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -417,7 +417,7 @@
       "related": [],
       "score": 55,
       "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
-      "summary": "Toby R. Neugebauer, co-founder and largest shareholder of Fermi Inc., has announced that the Texas Business Court granted his motion for expedited discovery, requiring Fermi to provide documentation and testimony regarding its recent actions, including the imposition of a 70% supermajority voting requirement. This development is a significant win for Neugebauer and Fermi's shareholders, who have been seeking greater accountability and transparency from the company's board. Neugebauer will also host a Town Hall webinar with analysts on June 30 to address questions and provide updates on his efforts to restore \"good governance\" to Fermi."
+      "summary": "Toby R. Neugebauer, co-founder and largest shareholder of Fermi Inc., has been granted expedited discovery by the Texas Business Court in his lawsuit against the company, which will require Fermi to provide documentation and testimony explaining its recent actions, including the imposition of a 70% supermajority voting requirement. This decision is seen as a win for shareholders, who have been seeking greater accountability from the company's board, and Neugebauer believes it will lead to the reversal of the supermajority bylaws and allow shareholders to expand the board. Neugebauer is also hosting a town hall webinar with analysts to discuss the company's future and answer questions, and ha"
     },
     {
       "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
@@ -935,6 +935,34 @@
   ],
   "related": [
     {
+      "title": "OpenAI’s chief economist says copying successful people’s careers is bad advice - Business Insider",
+      "url": "https://www.businessinsider.com/openai-chief-economist-career-advice-successful-peoples-copy-ai-2026-7",
+      "source": "Business Insider",
+      "publishedAt": "2026-07-29T11:24:51.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "Ronnie Chatterji said studying high achievers' path is \"relatively bad advice\" as their career journey was \"very context dependent.\""
+    },
+    {
+      "title": "Microsoft Faces UK Probe Over Copilot-Linked Price Hikes",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/microsoft-faces-uk-probe-over-copilot-linked-price-hikes",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:10:51.000Z",
+      "kind": "news",
+      "summary": "The UK’s consumer and antitrust watchdog is investigating whether Microsoft Corp. misled customers into paying more for its productivity tools software subscriptions after adding its Copilot AI product to the suite.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 75
+    },
+    {
       "title": "OpenAI's rogue AI agent hacked multiple 3rd-party accounts as part of hack on Hugging Face - CNBC",
       "url": "https://www.cnbc.com/video/2026/07/29/openais-rogue-ai-agent-hacked-multiple-3rd-party-accounts-as-part-of-hack-on-hugging-face.html",
       "source": "CNBC",
@@ -1030,6 +1058,34 @@
       "score": 65
     },
     {
+      "title": "Q&A: Nvidia genAI chief explains why open models matter in AI - Computerworld",
+      "url": "https://www.computerworld.com/article/4202408/qa-nvidia-genai-chief-explains-why-open-models-matter-in-ai.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-07-29T11:04:23.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Kari Briski, Nvidia’s vice president of generative AI software, sees open AI models as a way for companies to iterate their way to AI success by adapting the models with their own data."
+    },
+    {
+      "title": "Seven controls enterprise teams need in place to avoid another OpenAI-Hugging Face incident - SC Media",
+      "url": "https://www.scworld.com/perspective/seven-controls-enterprise-teams-need-in-place-to-avoid-another-openai-hugging-face-incident",
+      "source": "SC Media",
+      "publishedAt": "2026-07-29T11:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Seven controls help enterprises govern AI agents and prevent costly sandbox escapes."
+    },
+    {
       "title": "OpenAI report links coding agents to faster science software builds - AI News",
       "url": "https://www.artificialintelligence-news.com/news/openai-report-coding-agents-faster-science-software-builds/",
       "source": "AI News",
@@ -1044,20 +1100,6 @@
       "summary": "OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes."
     },
     {
-      "title": "OpenAI's runaway AI agents also breached a customer at a second tech company in a week-long spree - Fortune",
-      "url": "https://fortune.com/2026/07/29/openai-rouge-ai-agent-hack-hugging-face-breached-second-tech-company/",
-      "source": "Fortune",
-      "publishedAt": "2026-07-29T10:47:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "The breach appears to have been one stop along a broader path. OpenAI said the models had affected four accounts across four publicly available services."
-    },
-    {
       "title": "OpenAI says experimental AI hacked additional online accounts during security test - Anadolu Ajansı",
       "url": "https://www.aa.com.tr/en/world/openai-says-experimental-ai-hacked-additional-online-accounts-during-security-test/4012444",
       "source": "Anadolu Ajansı",
@@ -1070,48 +1112,6 @@
       ],
       "score": 55,
       "summary": "Updated investigation expands July cyber incident beyond previously disclosed hack of AI platform Hugging Face | Anadolu"
-    },
-    {
-      "title": "Google AI Overviews become more common in search - AI News",
-      "url": "https://www.artificialintelligence-news.com/news/google-ai-overviews-us-searches/",
-      "source": "AI News",
-      "publishedAt": "2026-07-29T10:17:24.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55,
-      "summary": "Google AI Overviews appeared in 43% of US searches, up from 15% a year earlier, as AI-generated answers became more common across Search."
-    },
-    {
-      "title": "Nvidia works with Lunar Outpost to deploy Lunar AI for Artemis Missions - Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/nvidia-works-with-lunar-outpost-to-deploy-lunar-ai-for-artemis-missions/",
-      "source": "Data Center Dynamics",
-      "publishedAt": "2026-07-29T10:15:39.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Space compute meets space robotics for new era of Moon exploration"
-    },
-    {
-      "title": "OpenAI’s rogue AI agent shows why we need federal rules for autonomous systems - CyberScoop",
-      "url": "https://cyberscoop.com/openai-rogue-agent-federal-rules-autonomous-ai/",
-      "source": "CyberScoop",
-      "publishedAt": "2026-07-29T10:02:15.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "The Hugging Face breach shows there is a gap in federal policy. The frameworks to govern autonomous AI already exist—there just needs to be the desire to apply them."
     },
     {
       "title": "Cognita Reply Named an OpenAI Advanced Partner to Accelerate Enterprise Adoption of Frontier AI - Morningstar",
@@ -1155,21 +1155,7 @@
       "summary": "The new details suggest the OpenAI agent continued pursuing its assigned objective even after escaping its testing sandbox."
     },
     {
-      "title": "OpenAI Models Accessed Cloud Platform Before Hugging Face Hack",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/openai-rogue-agent-hacked-account-at-a-second-firm-reuters-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-28T22:06:39.000Z",
-      "kind": "news",
-      "summary": "The OpenAI models that hacked the startup Hugging Face Inc. this month also gained access to a customer account on the cloud platform Modal and used it to launch attacks, underscoring the broad scope of the incident.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia’s CEO Jensen Huang Defends Open-Weight AI Models - Bloomberg.com",
+      "title": "Nvidia CEO Jensen Huang Urges Support for Open-Weight AI Models - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUkNwY3QtTDJERXN5MUpRTGN4aVc4eXdrUVJrZFFyRmt6dDBpR293YUxua2U2S2FhM0Rpc3g4bmU3MkQ2dUlHRzVDTXdNOXFmeHVQYVVwc1YtYlB1bW9HR3VHYzZIYWs3b1J0REVPWUdBRmp5aHF0dmFiZnhzd3l4UWY4M0xBYW5pQ2hWWU16M2NTM29ZeFVTQ192a3ZaUE15bWNfZDRxakpkNU13a3VPTnUxeDU?oc=5",
       "source": "Bloomberg.com",
       "publishedAt": "2026-07-28T21:57:41.000Z",
@@ -1254,7 +1240,7 @@
       "title": "Scoop: Nvidia's Jensen Huang meets Lutnick amid China scrutiny - Axios",
       "url": "https://www.axios.com/2026/07/28/nvidia-jensen-huang-lutnick-meeting-china-ai",
       "source": "Axios",
-      "publishedAt": "2026-07-28T17:46:10.000Z",
+      "publishedAt": "2026-07-28T17:11:01.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1331,21 +1317,177 @@
       "summary": "Detailed price information for Brookfield Asset Management Ltd (BAM-N) from The Globe and Mail including charting and trades."
     },
     {
-      "title": "OpenAI bot’s rogue attack rattles industry leaders, policymakers and consumers - Los Angeles Times",
-      "url": "https://www.latimes.com/business/story/2026-07-29/openai-said-its-ai-went-rogue-what-can-you-do-to-protect-yourself-from-rogue-ais",
-      "source": "Los Angeles Times",
-      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "title": "Google AI Overviews become more common in search - AI News",
+      "url": "https://www.artificialintelligence-news.com/news/google-ai-overviews-us-searches/",
+      "source": "AI News",
+      "publishedAt": "2026-07-29T10:17:24.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "GOOGL"
       ],
       "score": 45,
-      "summary": "What will happen to the world if artificial intelligence bots break free from our control and act independently?"
+      "summary": "Google AI Overviews appeared in 43% of US searches, up from 15% a year earlier, as AI-generated answers became more common across Search."
+    },
+    {
+      "title": "Nvidia works with Lunar Outpost to deploy Lunar AI for Artemis Missions - Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-works-with-lunar-outpost-to-deploy-lunar-ai-for-artemis-missions/",
+      "source": "Data Center Dynamics",
+      "publishedAt": "2026-07-29T10:15:39.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Space compute meets space robotics for new era of Moon exploration"
     }
   ],
   "general": [
+    {
+      "title": "Bureau Veritas CEO Gharbi: Resilient Amid Complex Environment",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-29/bureau-veritas-ceo-resilient-amid-complex-environment-video-ms600xnl",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:25:55.000Z",
+      "kind": "news",
+      "summary": "Hinda Gharbi, CEO of Bureau Veritas, one of the world's leaders in testing, inspection and certification, says the business environment is 'complex' but the company has seen 'resilience' despite the tensions in the Middle East. Gharbi spoke exclusively with Bloomberg's Francine Lacqua from Paris. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom",
+      "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-29T11:25:02.000Z",
+      "kind": "news",
+      "summary": "Nvidia, SK Hynix and Samsung Electronics have led the selloff since market close on Friday.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Procter & Gamble revenue misses estimates as volume stays unchanged",
+      "url": "https://www.cnbc.com/2026/07/29/procter-gamble-pg-q4-2026-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-29T11:22:17.000Z",
+      "kind": "news",
+      "summary": "Procter & Gamble reported quarterly earnings per share that topped Wall Street's estimates, but its revenue fell short of expectations.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "NEWSLETTER: A guide to AI danger labels - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSTdabVl3R1l5YzE1R2I0T2g5dFBmYlNRX0p3QjJwVGZXQnRhNDM4ZUVJdzY3bTJKM1VJUmlKUE5ENUNycU95TDRvQVlHZGp0MDRnNWU1c3ZRUUZtcVFWS2FkSFQ4X3VVZmZvcHpuX1YwLVhFbWwxaXF5eWtWc1dKQVFGbTZBTGhORWFzQzNhVlhMRWZUOUZsaWpoVHBCLVNIWl9kc1UxZmh0dzdJRzYzMUE4UGtwQQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-07-29T11:15:05.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Pakistan, Bangladesh Pay $1 Billion More for LNG as Hormuz Stays Closed",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-29/pakistan-bangladesh-pay-1-billion-more-for-lng-as-hormuz-stays-closed",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:15:01.000Z",
+      "kind": "news",
+      "summary": "A switch to more expensive spot cargoes is eroding the cost advantage of the super-chilled fuel.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Palantir’s New Rivals in Europe Seize the Sovereignty Opening",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-29/palantir-s-new-rivals-in-europe-seize-the-sovereignty-opening",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:02:01.000Z",
+      "kind": "news",
+      "summary": "European startups aim to replace the US software company",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US and Canada and tariffs",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-29/us-and-canada-and-tariffs",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:01:18.000Z",
+      "kind": "news",
+      "summary": "Trump plans a 50% levy on about $20 billion of Canadian imports",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "SK Hynix Plunges as US Tech Earnings Loom | The Pulse 7/29/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-29/the-pulse-7-29-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:00:20.000Z",
+      "kind": "news",
+      "summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops. Today's guests: Nataliia Lipikhina, JPMorgan Private Bank Head of EMEA Equity Strategy; Hinda Gharbi, Bureau Veritas CEO (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Sick of A.I.-Generated Content? The ‘Slop Janitor’ Is Here to Help. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObHlTbE5tY2dUV1FaN3BlOW1uTndXVDZ5Unc3SnFlZGNMZno2QlFILUxEZi1IcG42RUU1ZDc2QWZtQVhFckNwR0REd0tIeE1kM0tNa1ZoRmV2eUtRcFVEd01wbGgzblZuZ2xXOWpRTnVJQjlZU3Jkb0NEcUR1VENmOHV4WVlCWTd4UUVGSlBZVGFlNlpWSFRHaUJyRE9CMnlBcllhRDZNcXppUFNEdG00NGxSZTA3UThkTzJF?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-29T11:00:05.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Cyclospora outbreak tied to Taco Bell will steal the spotlight from Yum Brands' earnings",
+      "url": "https://www.cnbc.com/2026/07/29/cyclospora-outbreak-taco-bell-yum-brands-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-29T11:00:01.000Z",
+      "kind": "news",
+      "summary": "Wall Street is projecting a strong second quarter for Yum Brands, but investors' focus will be on updates related to the cyclospora outbreak tied to Taco Bell.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Fed Watchers Gird for a Lesson on Reading Warsh in High-Stakes Rate Call",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-29/fed-watchers-gird-for-a-lesson-on-reading-warsh-in-high-stakes-rate-call",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:00:01.000Z",
+      "kind": "news",
+      "summary": "The US central bank is expected to hold, but a hike can’t be ruled out.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "NextEra, Brookfield to Build $100 Billion Kentucky Data Campus",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/nextera-brookfield-to-build-100-billion-kentucky-data-campus",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-29T11:00:00.000Z",
+      "kind": "news",
+      "summary": "NextEra Energy Inc., the largest US power utility, is teaming up with Brookfield on a more than $100 billion transformation of a shuttered Cold War uranium-enrichment facility in Kentucky into a data center campus with a generating plant.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Saudi Arabia Joins US in Striking Iran-Backed Militias in Iraq",
       "url": "https://www.bloomberg.com/news/videos/2026-07-29/saudi-arabia-joins-us-in-striking-iran-backed-militias-video",
@@ -1359,12 +1501,11 @@
       "score": 60
     },
     {
-      "title": "Chip stocks shed more than $1 trillion as selloff hits companies powering AI boom",
-      "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html",
+      "title": "This social media platform will thrive as AI grows, KeyBanc says - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWlFnaVdyWkhXb0o2U3pTRHFyNVBvTGxGOEVtbEx3TFMwMkVKZFVVWWYwWml3dnNHVFd0VU8tc2NQSVotVjZlbkpEWFY4a3V0LWFwZncxVHUxWkV4eTdrXzdxOFZQOElja01JMGFYRmhwNXBabzA4UDQ4RnpucW1LSXkxMTYxeDM4RDlIZlYtd2JxUF9KZ0JaUW1qSFJ5YnIySGc?oc=5",
       "source": "CNBC",
-      "publishedAt": "2026-07-29T10:56:58.000Z",
+      "publishedAt": "2026-07-29T10:49:59.000Z",
       "kind": "news",
-      "summary": "Nvidia, SK Hynix and Samsung Electronics have led the selloff since market close on Friday.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1438,7 +1579,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI Investment Boom Faces Reality Check From Markets and Regulators",
@@ -1450,7 +1591,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bloomberg News Now",
@@ -1462,7 +1603,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Markets Brace for One of the Most Uncertain Fed Days in Years",
@@ -1474,7 +1615,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Hermès’ Chief Tracks China’s Pork Prices to Gauge Handbag Market",
@@ -1486,7 +1627,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Irish Economy Rebounds With 3.9% Growth After Early-Year Slump",
@@ -1498,7 +1639,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Brandi AI Wins a Gold Stevie Award for New Product of the Year for AI Visibility and Generative Engine Optimization - PR Newswire",
@@ -1507,17 +1648,6 @@
       "publishedAt": "2026-07-29T10:05:00.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "EPA Exempts Off-Grid AI Power Plants From Acid Rain Program Caps, Affecting 60 Sites - Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaW9UbklMYnluWURta3A4OXZxUFpZZXZJLXJ6TkJOLU5OclJDWHB3dzdXTFZPc1dsOTlqLTJ6N1FKdk9BMjlFeFFKamJac1Z0YjZPYVdFWG8yMVRzSHlPaWNnSV9rM2VDZE4tT2lIV2ZKdGpYSUdrNVhVcWljbVAwSEFObUNkNG9zSHVjYThHdjZndHdfWFY5SlRZbUFLRWFtaTAxZ0hCcERiNzJ2MzJ4a3BhbzB6THZMdmNGQ1NYTHU0VWNoOVJGaHNyNGR0QQ?oc=5",
-      "source": "Tech Times",
-      "publishedAt": "2026-07-29T10:25:15.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1640,12 +1770,12 @@
       "score": 50
     },
     {
-      "title": "Ukraine Says It Hit Major Rosneft Refinery in Russia’s Ryazan",
+      "title": "Ukraine Hits Two Key Russian Oil Refineries After Short Lull",
       "url": "https://www.bloomberg.com/news/articles/2026-07-29/ukraine-says-it-hit-major-rosneft-refinery-in-russia-s-ryazan",
       "source": "Bloomberg",
       "publishedAt": "2026-07-29T09:28:33.000Z",
       "kind": "news",
-      "summary": "Ukraine says it attacked a refinery owned by Russia’s largest oil producer Rosneft PJSC overnight, its first strike on a major oil-processing facility in nearly two weeks.",
+      "summary": "Ukraine said it attacked two major Russian oil refineries overnight, its first strikes on large oil-processing facilities in nearly two weeks.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1699,18 +1829,6 @@
       "score": 50
     },
     {
-      "title": "Zambia's Kwacha Nears Parity With Rand",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/zambia-s-kwacha-nears-parity-with-rand-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T09:09:21.000Z",
-      "kind": "news",
-      "summary": "Zambia's kwacha is nearing parity with the South African rand. Chief Africa Correspondent Jennifer Zabasajja reports the kwacha has appreciated almost 18% against the dollar this year - making it the second-best performing currency tracked by Bloomberg. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "A.I. Companies Are Recruiting Electricians and Carpenters by the Thousands - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZXZPMnhmOHdlN2dRanE5VlJBWFpFVEU1Z0d3SnJoRnhZdHc3VEl6ZXVOZnA1dGVBUU5qRUNXQnhCTTNra0s2akZXc2o3Z0ZBa19weUhCRV9DV1R3Y3FmYTRuR2lxUnVrOXB6STRqdzVyZmxtaWxSMHlJVUozLUQyT2wxbUZpMk1ZX0RwZk9jV2stek56?oc=5",
       "source": "The New York Times",
@@ -1745,48 +1863,12 @@
       "score": 50
     },
     {
-      "title": "Emerging-Market Stocks Sink Further as Asian Tech Slide Deepens",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/emerging-market-stocks-sink-further-as-asian-tech-slide-deepens",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T08:53:32.000Z",
-      "kind": "news",
-      "summary": "Emerging-market stocks plunged for a second straight day, with the benchmark gauge sinking to a three-and-a-half month low as a rout in Asian chip stocks deepened.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Schneider Electric in Talks to Buy Smart Device Maker Shelly",
       "url": "https://www.bloomberg.com/news/articles/2026-07-29/schneider-electric-in-talks-to-buy-smart-device-maker-shelly",
       "source": "Bloomberg",
       "publishedAt": "2026-07-29T08:53:20.000Z",
       "kind": "news",
       "summary": "Schneider Electric SE is in talks to acquire Shelly Group SE, a maker of smart devices for the home, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Roknifard: Iran Strategic With Use of Allies’ Attacks",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/roknifard-iran-strategic-with-use-of-allies-attacks-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T08:50:05.000Z",
-      "kind": "news",
-      "summary": "The US says it has intercepted several Iranian ballistic missiles on its military bases - breaking the brief pause in fighting in the Middle East. Meanwhile the US and Saudi forces launched attacks on Iran-backed militia targets in Iraq in response to the drones attacking Saudi's energy infrastructure. Julia Roknifard, Senior Lecturer, School of law and governance at Taylor's University Malaysia spoke to Bloomberg’s Abeer Abu Omar on Horizons Middle East & Africa on the reesc",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Still Driving Earnings Strength in Europe, Morgan Stanley Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/ai-still-driving-earnings-strength-in-europe-zavolock-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T08:49:33.000Z",
-      "kind": "news",
-      "summary": "Marina Zavolock, chief European equity strategist at Morgan Stanley, says she hasn't seen such a strong earnings season in Europe in years. \"We're seeing more interest in European equities in part because of the strong earnings season,\" she tells Bloomberg Television. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1847,87 +1929,6 @@
       "publishedAt": "2026-07-29T08:08:27.000Z",
       "kind": "news",
       "summary": "Euro-area pay growth is poised to accelerate through early 2027, though will remain far below previous peaks, the European Central Bank said as it gauges inflation resulting from the Iran war.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Volatility Driving Dealmaking: Goldman Sachs",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/volatility-driving-dealmaking-goldman-sachs-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T08:01:17.000Z",
-      "kind": "news",
-      "summary": "Despite market volatility and geopolitical uncertainty, there is more confidence from large corporates when it comes to M&A, as these sponsors strive to be more decisive in their dealmaking says Anna Skoglund, Co-Head of EMEA Investment Banking at Goldman Sachs. She spoke to Bloomberg's Anna Edwards on \"The Pulse\" on July 28. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "South Korea’s Memory Chip Giant Defies A.I. Market Jitters - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZV1p0b05EaGZZTzNTSnhwQzZNYkItc2ZMZ2ZkOEhSbzRrNk1NNGt5MzdsSmhKa21iQ3c0eXhEV0ZncTlHcHR1VUJGM0h1eHRqZ1Bqa2dvSy11SHZ3ODhOWmd0bEc4YjBhTGFJR1M0NmV2MkJiVFFxZw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-29T07:57:28.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Finds New Weaknesses in Cryptographic Algorithms, Anthropic Says - The Quantum Insider",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNXzNybHF5cjgzQ0l0WEpFZnNZcWVnam5PdFZjS2V4ZU5GV2U1d0VsR0VLbmdQcE1OVjdLaURkNkd3NmFsbUk3NFVWSEZUQTd1OGYzeXpUa0VmYTNPV0VNY2tHMjdjVUdVTWx5cXhJNjFUektLeHdRTDBqUlhJemV5aUgzOXcxTUF2M3VwQkY4cDlqazBJRVJYdHpWRERENXZobDdVTnhrR2F1enJw?oc=5",
-      "source": "The Quantum Insider",
-      "publishedAt": "2026-07-29T07:52:30.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "SK Hynix Drops as Profit Disappoints",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-29/sk-hynix-drops-as-profit-disappoints-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T07:25:13.000Z",
-      "kind": "news",
-      "summary": "SK Hynix shares slide by a daily record of around 19% in Seoul Wednesday, erasing early gains after the memory maker reported lower-than-expected operating profit for the second quarter and announced plans for higher spending. The company earmarked at least $31 billion in capital spending this year after reporting a six-fold surge in quarterly profit. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Minister apologizes as Korean leveraged ETF investors nurse heavy losses amid chip stock rout",
-      "url": "https://www.cnbc.com/2026/07/29/korea-leveraged-etf-kodex-sk-hynix.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-29T07:01:28.000Z",
-      "kind": "news",
-      "summary": "Korean retail investors have racked up heavy losses from leveraged bets on stocks, following rule changes earlier this year.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI tool will lead to more child refugees being treated as adults, charity warns - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY1lES3dETDdwbnI3c0Vyb2swRHl6bnkzanBKWERpS0xQSm02ZW1fLWdGSW5ydHh0WUc2OVdwT3otb3hPYnkwb0RTOGhaX0YwVlcwMjNGQ3N0TWZ4X1FwVVN1NHNPY2w0WmJzWFpCQ0VFX1BMR0J4dTVTb08zbXZwd29TcEJkaFpYRWpXa3lVNEdxbjk4cHE3NURrVjFaVG9OWnRjS0xxZmFqdUxwamRCZkxheFpwOVF2bl9hdjd6WU1JVGRm?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-07-29T06:57:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Advantest Lifts Outlook After AI Chip Tester Demand Soars",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/advantest-lifts-outlook-after-demand-for-ai-chip-testers-soars",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-29T06:47:20.000Z",
-      "kind": "news",
-      "summary": "Advantest Corp. raised its outlook above estimates, pointing to robust demand for testers needed to manufacture increasingly complex chips for AI data centers.",
       "tier": 1,
       "tickers": [],
       "related": [],

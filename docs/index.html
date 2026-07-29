@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Versioned asset URLs: a redesign renames classes/ids, so stale cached
        CSS/JS against fresh HTML renders an unstyled page. Bump v on rewrites. -->
-  <link rel="stylesheet" href="style.css?v=26" />
+  <link rel="stylesheet" href="style.css?v=27" />
 </head>
 <body>
 
@@ -138,40 +138,6 @@
     </div>
   </section>
 
-  <!-- ======== FRMI OPTIONS (keyless Cboe positioning snapshot) ======== -->
-  <section class="options" id="options">
-    <div class="shell">
-      <div class="section-head reveal">
-        <h2>FRMI OPTIONS<span class="accent">.</span> POSITIONING<span class="accent">.</span></h2>
-        <p class="section-sub">Put/call positioning, 30-day implied volatility, and the most active contracts for Fermi Inc. (NASDAQ: FRMI). Delayed quotes by Cboe. <span id="options-updated"></span></p>
-      </div>
-      <div class="daybrief-card options-card reveal" id="options-card" hidden>
-        <div class="daybrief-top">
-          <div class="daybrief-quote">
-            <span class="dq-sym">NASDAQ: FRMI</span>
-            <span class="dq-price" id="opt-price">&mdash;</span>
-            <span class="dq-change" id="opt-change"></span>
-            <span class="opt-badge" id="opt-badge"></span>
-          </div>
-          <div class="daybrief-pulse" id="opt-pulse"></div>
-        </div>
-        <p class="opt-note" id="opt-note"></p>
-        <div class="opt-tables">
-          <div class="opt-block">
-            <h4 class="opt-h">BY EXPIRATION</h4>
-            <div class="opt-scroll"><table class="opt-table" id="opt-exp-table"></table></div>
-          </div>
-          <div class="opt-block">
-            <h4 class="opt-h">MOST ACTIVE TODAY</h4>
-            <div class="opt-scroll"><table class="opt-table" id="opt-active-table"></table></div>
-          </div>
-        </div>
-        <p class="daybrief-fine">Exchange-delayed options data by Cboe (~15 min). Open interest and implied volatility reflect the prior session where a contract hasn&rsquo;t traded today. Informational only &mdash; not investment advice.</p>
-      </div>
-      <p class="empty" id="options-empty" hidden>Options data is unavailable right now &mdash; it refreshes on the next collector cycle.</p>
-    </div>
-  </section>
-
   <!-- ======== THE BRIEF (daily at-a-glance read) ======== -->
   <section class="daybrief" id="brief">
     <div class="shell">
@@ -200,6 +166,38 @@
           <a class="dj-btn" href="#coverage" data-nav="reports">Research</a>
         </div>
         <p class="daybrief-fine">Auto-generated from tracked sources; end-of-day price data is unofficial and may be delayed. Not investment advice.</p>
+      </div>
+
+      <!-- FRMI options positioning (keyless Cboe snapshot), shown with the Brief -->
+      <div class="daybrief-optiontop" id="options">
+        <div class="section-head reveal">
+          <h3 class="daybrief-subhead">FRMI OPTIONS<span class="accent">.</span> POSITIONING<span class="accent">.</span></h3>
+          <p class="section-sub">Put/call positioning, 30-day implied volatility, and the most active contracts. Delayed quotes by Cboe. <span id="options-updated"></span></p>
+        </div>
+        <div class="daybrief-card options-card reveal" id="options-card" hidden>
+          <div class="daybrief-top">
+            <div class="daybrief-quote">
+              <span class="dq-sym">NASDAQ: FRMI</span>
+              <span class="dq-price" id="opt-price">&mdash;</span>
+              <span class="dq-change" id="opt-change"></span>
+              <span class="opt-badge" id="opt-badge"></span>
+            </div>
+            <div class="daybrief-pulse" id="opt-pulse"></div>
+          </div>
+          <p class="opt-note" id="opt-note"></p>
+          <div class="opt-tables">
+            <div class="opt-block">
+              <h4 class="opt-h">BY EXPIRATION</h4>
+              <div class="opt-scroll"><table class="opt-table" id="opt-exp-table"></table></div>
+            </div>
+            <div class="opt-block">
+              <h4 class="opt-h">MOST ACTIVE TODAY</h4>
+              <div class="opt-scroll"><table class="opt-table" id="opt-active-table"></table></div>
+            </div>
+          </div>
+          <p class="daybrief-fine">Exchange-delayed options data by Cboe (~15 min). Open interest and implied volatility reflect the prior session where a contract hasn&rsquo;t traded today. Informational only &mdash; not investment advice.</p>
+        </div>
+        <p class="empty" id="options-empty" hidden>Options data is unavailable right now &mdash; it refreshes on the next collector cycle.</p>
       </div>
     </div>
   </section>
@@ -338,6 +336,6 @@
   </div>
 
   <noscript><p class="shell empty">This page needs JavaScript to render <code>data/news.json</code>.</p></noscript>
-  <script src="app.js?v=26"></script>
+  <script src="app.js?v=27"></script>
 </body>
 </html>

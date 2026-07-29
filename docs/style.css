@@ -632,9 +632,19 @@ a { color: inherit; }
    compact so the feed stays above the fold. */
 .embed .daybrief { padding-top: 32px; }
 
-/* ================= FRMI OPTIONS ================= */
+/* ================= FRMI OPTIONS (shown with the Brief) ================= */
 
-.options { border-top: 1px solid var(--line); background: var(--bg-2); padding: 64px 0 8px; }
+/* The options block lives inside the Brief section, below the brief card. A
+   dashed rule + subhead separates the two without starting a new page section. */
+.daybrief-optiontop { margin-top: 26px; padding-top: 26px; border-top: 1px dashed var(--line-2); }
+.daybrief-subhead {
+  margin: 0 0 6px;
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: clamp(18px, 2.4vw, 24px);
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
 .options-card { display: block; }
 
 /* Sentiment pill next to the quote. Green = call-heavy, red = put-heavy, amber
@@ -701,8 +711,6 @@ a { color: inherit; }
 .opt-dim { color: var(--dim); }
 .opt-call { color: var(--green); font-weight: 600; }
 .opt-put { color: #ff8a93; font-weight: 600; }
-
-.embed .options { padding-top: 32px; }
 
 .tabbar {
   display: flex;

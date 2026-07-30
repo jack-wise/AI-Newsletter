@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T13:11:37.323Z",
+  "generatedAt": "2026-07-30T13:32:04.676Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -933,18 +933,31 @@
   ],
   "related": [
     {
-      "title": "ScaleFlux Introduces AI-Optimized SSD Platform Designed for NVIDIA CMX and KV Cache Offload - PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/scaleflux-introduces-ai-optimized-ssd-platform-designed-for-nvidia-cmx-and-kv-cache-offload-302838473.html",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "title": "New details in the OpenAI Hugging Face hack show how far agents will go: 'It's now remarkably easy'",
+      "url": "https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-30T13:26:18.000Z",
       "kind": "news",
+      "summary": "OpenAI's rogue models used publicly exposed credentials across \"four accounts on four services\" to help facilitate the Hugging Face breach.",
       "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "ScaleFlux Introduces AI-Optimized SSD Platform Designed for NVIDIA CMX and KV Cache Offload - Morningstar",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260730ny15607/scaleflux-introduces-ai-optimized-ssd-platform-designed-for-nvidia-cmx-and-kv-cache-offload",
+      "source": "Morningstar",
+      "publishedAt": "2026-07-30T13:25:25.000Z",
+      "kind": "news",
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 75,
-      "summary": "/PRNewswire/ -- ScaleFlux, a leader in advanced Memory controller and storage optimization technology, today announced an AI-optimized SSD platform designed to..."
+      "score": 65
     },
     {
       "title": "Certara Teams Up with NVIDIA to Power AI Drug Discovery Platform - The Healthcare Technology Report.",
@@ -1031,23 +1044,9 @@
       "score": 65
     },
     {
-      "title": "Morgan Stanley Says Amazon, Microsoft, and Google's AI Spending Will Pay Off Big - finance.yahoo.com",
-      "url": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-says-amazon-microsoft-124616618.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-07-30T12:46:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT",
-        "GOOGL"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Microsoft ponders open-weight AI as China models gain ground - Nikkei Asia",
+      "title": "Microsoft ponders open-weight AI as China models gain ground - asia.nikkei.com",
       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/microsoft-ponders-open-weight-ai-as-china-models-gain-ground",
-      "source": "Nikkei Asia",
+      "source": "asia.nikkei.com",
       "publishedAt": "2026-07-30T12:34:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1073,20 +1072,6 @@
       "summary": "Gartner says unstructured data makes up 70%-90% of organizational data. Elastic plans GPT-5.5 Cyber model integration for security workflows."
     },
     {
-      "title": "Microsoft surges after 'strong' Q4 as analysts praise Azure, Copilot",
-      "url": "https://seekingalpha.com/news/4621466-microsoft-surges-after-strong-q4-as-analysts-praise-azure-copilot",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-07-30T11:58:24.000Z",
-      "kind": "news",
-      "summary": "Microsoft shares surged approximately 10% in premarket trading following strong fiscal fourth-quarter results. Analysts lauded the growth of its Azure cloud business and the AI tool Copilot, leading to bullish reactions and optimistic outlooks. The company's ability to accelerate revenue, expand margins, and maintain CapEx investments while remaining free cash flow positive was highlighted as outpacing peers. [sentiment: Bullish]",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55
-    },
-    {
       "title": "Trump Considers AI Controls After OpenAI Breach but Warns Against Falling Behind China: 'We're Also Makin - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/07/60791454/trump-considers-ai-controls-after-openai-breach-but-warns-against-falling-behind-china-were-also-making-sure-that-we-lead",
       "source": "Benzinga",
@@ -1099,20 +1084,6 @@
       ],
       "score": 55,
       "summary": "Trump says the U.S. is reviewing AI controls after the OpenAI incident while seeking to stay ahead of China in the AI race."
-    },
-    {
-      "title": "Investec Selects Infosys Finacle SaaS Platform on Microsoft Azure for Digital Banking Transformation",
-      "url": "https://www.stocktitan.net/news/INFY/investec-selects-infosys-finacle-saa-s-platform-on-microsoft-azure-lgdw1xjjxszv.html",
-      "source": "Stock Titan",
-      "publishedAt": "2026-07-30T10:39:51.000Z",
-      "kind": "news",
-      "summary": "Investec has selected Infosys Finacle's Digital Banking Solution Suite on Microsoft Azure to modernize its banking operations across four regions: South Africa, the UK, Mauritius, and the Channel Islands. This transformation involves migrating from legacy platforms to a multi-region Finacle SaaS platform, incorporating solutions for deposits, lending, virtual accounts, and liquidity management. The goal is to enhance agility, operational efficiency, regulatory compliance, and [sentiment: Bullish]",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55
     },
     {
       "title": "Jensen Huang's Bullish Call on the AI Market Can Make Nvidia a $5 Trillion Company Again - The Motley Fool",
@@ -1171,6 +1142,20 @@
       "score": 55
     },
     {
+      "title": "Microsoft keeps capex forecast unchanged, becoming one of the first data center giants to hold the line on AI spending - Business Insider",
+      "url": "https://www.businessinsider.com/microsoft-ai-capex-unchanged-data-centers-spending-tech-giants-2026-7",
+      "source": "Business Insider",
+      "publishedAt": "2026-07-29T22:04:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "Most tech giants have been raising their AI capex forecasts. Microsoft is an outlier."
+    },
+    {
       "title": "OpenAI, Anthropic ask U.S. government to consider slowing down AI - The Washington Post",
       "url": "https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/",
       "source": "The Washington Post",
@@ -1184,26 +1169,26 @@
       "score": 55
     },
     {
+      "title": "Microsoft CFO tells employees the company's biggest AI bets are paying off - Business Insider",
+      "url": "https://www.businessinsider.com/microsoft-internal-memo-tells-employees-azure-and-copilot-made-progress-2026-7",
+      "source": "Business Insider",
+      "publishedAt": "2026-07-29T20:46:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "The memo cited \"important progress in key areas\" like Azure and Microsoft 365 Copilot. These businesses have faced pressure amid generative AI boom."
+    },
+    {
       "title": "Microsoft’s Cloud Accelerates to Fastest Growth Since 2022",
       "url": "https://www.bloomberg.com/news/articles/2026-07-29/microsoft-reports-quarterly-cloud-revenue-that-beat-estimates",
       "source": "Bloomberg",
       "publishedAt": "2026-07-29T20:10:43.000Z",
       "kind": "news",
       "summary": "Microsoft Corp.’s cloud unit grew at the fastest clip in four years and the pace is accelerating, suggesting the company’s AI and computing services are making inroads with customers.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Microsoft earnings press release available on Investor Relations website",
-      "url": "https://www.prnewswire.com/news-releases/microsoft-earnings-press-release-available-on-investor-relations-website-302838247.html",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-29T19:38:43.000Z",
-      "kind": "news",
-      "summary": "Microsoft Corp. announced on Wednesday, July 29, 2026, that its fiscal year 2026 fourth-quarter financial results are now available on its Investor Relations website. The company will also host a conference call at 2:30 p.m. Pacific Time, with a live webcast accessible through the same investor relations portal. [sentiment: Neutral]",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1266,6 +1251,20 @@
       "score": 55
     },
     {
+      "title": "Mark Cuban, Michael Burry sound alarm on Nvidia deals, AI boom's reliance on them - Business Insider",
+      "url": "https://www.businessinsider.com/mark-cuban-michael-burry-nvidia-ai-deals-boom-microchips-infrastructure-2026-7",
+      "source": "Business Insider",
+      "publishedAt": "2026-07-29T15:53:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Mark Cuban said Nvidia is \"funding everyone and anyone,\" like IPOs during the dot-com bubble. Michael Burry said it's \"overreaching\" with its deals."
+    },
+    {
       "title": "FMS 2026: ScaleFlux CEO to Deliver Keynote with Nvidia on Memory Solutions to Scale AI Data Pipeline - StorageNewsletter",
       "url": "https://www.storagenewsletter.com/2026/07/30/fms-2026-scaleflux-ceo-to-deliver-keynote-with-nvidia-on-memory-solutions-to-scale-ai-data-pipeline/",
       "source": "StorageNewsletter",
@@ -1308,9 +1307,9 @@
       "summary": "OpenAI CEO Sam Altman told reporters he discussed the breach \"a little bit\" with lawmakers, though he said it was not the focus of his Washington meetings"
     },
     {
-      "title": "Microsoft Shares Jump After Strong Outlook and Solid AI-Driven Growth - finance.yahoo.com",
+      "title": "Microsoft Shares Jump After Strong Outlook and Solid AI-Driven Growth - Yahoo Finance",
       "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-shares-jump-strong-outlook-103935170.html",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "publishedAt": "2026-07-30T10:39:35.000Z",
       "kind": "news",
       "tier": 3,
@@ -1350,12 +1349,81 @@
   ],
   "general": [
     {
+      "title": "Starbucks raises full-year outlook as CEO tells CNBC the chain is winning back customer loyalty",
+      "url": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-30T13:29:38.000Z",
+      "kind": "news",
+      "summary": "Starbucks posted its fourth straight quarter of same-store sales growth, as it continues a turnaround under CEO Brian Niccol.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "EU lays out $11.4 billion for 7 AI gigafactories as it aims to catch up with US and China - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc2ZQV2lWczBieUFmWDhOeS1VRC1lVW44MXMwb0tacF93NFZycGJZbGM4U3R1WE5RWGRYMnIwNVo1dDF2cjVUM2JwdnIwc0h2UVd1bG5sV1phbUg1XzdPMHlSWWlWZEtHakNrVkpCallsaWRvRlVCSU5EcllTUUZsbFRNSE5jY204YjlDeDJ2bGo4RTcxU2tGN3JTanNOWUlnUnpvbWlrbEM2OXU1cXQ5VF9sdkh3eFhmUmViU25UeDhEU19CMEIwMm8tandkakZPR0wxSGxn?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-30T13:21:21.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Zone & Co Expands Zoe's Portfolio of AI Agents With AP Operations Across Procure-to-Pay - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV1ZZZEVpNmh4QjNIZ3drbHdtTHpMWnUtbEY5N2xCRWxOY2hsNms3Z0tYMlFwR3JYdFV3ZXB3VVpoX2l4MWNBTEpDM2FvQ0RfMEFwWVJUZzNyOXM2cFVGUUJZd0JUSEdtQWE0ZlVuUnRjWmRjdGctYVY1UFdnckhCRGZIaDF6NFhjcWxCeXZ4dFY3Q2VRSzRNNThBRVVqUDJQZjR4NV9qb09VRVZoSVAweVJpN2ZleC1OUHdhVEVjU2liNVppVUNCRDB3ejEzMExpT1d1bW9ndHM?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-07-30T13:15:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Bailey Says Nothing Suggests BOE Edging Toward a Hike",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-30/nothing-suggests-boe-edging-toward-a-hike-bailey-says-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-30T13:12:54.000Z",
+      "kind": "news",
+      "summary": "“Please do not leave this room thinking that the Bank of England is edging toward a hike because there is nothing in what I said or any of us have said along those lines,” Bank of England Governor Andrew Bailey tells reporters after the central bank decided to leave interest rates unchanged on Thursday. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Cyclospora outbreak has hurt Taco Bell but sales are already improving, Yum Brands CEO says",
       "url": "https://www.cnbc.com/2026/07/30/yum-brands-yum-q2-2026-earnings.html",
       "source": "CNBC",
       "publishedAt": "2026-07-30T13:06:54.000Z",
       "kind": "news",
       "summary": "The restaurant company provided no update on the cyclospora outbreak tied to Taco Bell restaurants is affecting its business.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Warsh Presser ‘A Little Bit Rocky,’ Says James Bullard",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-30/warsh-presser-a-little-bit-rocky-says-james-bullard-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-30T13:06:45.000Z",
+      "kind": "news",
+      "summary": "Former St. Louis Fed President James Bullard calls the reaction in the 30-Year US Treasury to Federal Reserve Chairman Kevin Warsh’s press conference on Wednesday “nerve wracking” for a central banker. Bullard says Warsh needed to create more optionality in September and that “markets obviously didn’t like this.” (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Star AI investor Leopold Aschenbrenner is unwinding trades after steep losses, sources say - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNFNCTUFNNVR3VnVVQjJtbXh3dU5kQVBRS2l3TktkMl8xVWJJaGtMc0t2VVVTWnVjX3Vqb2F5ZEVTa0JlU0RyMDRqN29ZX2tBaThxVnNBNUJpUm9yQjk0eUdkbXprdVcwRXBET3FyMV9OeGlFcVNqekZIeHFxdF9ZbEFrT2dtdEhzV25wYzFwdVBrdzZvRnotd013SGXSAaIBQVVfeXFMTzZOcFU1VzM1dGQ1U0JFOU44UlZKMG9VS0xoVEN0RlI0OWFyb0ZHUFhJb2ZNRFdSNUp3WWJiRk1adGI5VFhXUlJYSk03VU9YR1hRbm5NTGFCVzFlbTR3N3pZenZWdGMxNWFnRVFJZXBLbkdTX3d1cXp0TTNCc1ZiM2FhVXd3QmduajRTWW1TV2tXQndNTl9ISmRyTzZOYno0WC1B?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-07-30T13:05:23.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1432,6 +1500,18 @@
       "score": 60
     },
     {
+      "title": "Indian Air Force Seeks Local Makers as Wars Disrupt Supplies",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/indian-air-force-seeks-local-makers-as-wars-disrupt-supplies",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-30T12:34:37.000Z",
+      "kind": "news",
+      "summary": "Indian Air Force identified dozens of critical components it wants domestic manufacturers to produce after wars in Ukraine and the Middle East disrupted defense supply chains, as part of a broader effort to boost self-reliance in military production.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "US GDP Grows Less-Than-Expected 1.5% Despite Strong Consumer",
       "url": "https://www.bloomberg.com/news/articles/2026-07-30/us-economic-growth-misses-estimates-despite-robust-consumers",
       "source": "Bloomberg",
@@ -1444,6 +1524,17 @@
       "score": 60
     },
     {
+      "title": "AI agents, expert routing and alerts: 8x8 moves beyond the contact center - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZW5NZGIzRWtROUZUSzg4M0toX1pTWUZ6UEtTNXVxWWwya3NaUGRUcTR4eEl0VnJvX2NidEk2Sm5QX1VlUVhUMVF3dDRYTzV2ZkpldTA2cGU4b0hYZzF1ZzlVM3hzY1IzY1ZPNDhsNWgxaDZEY0Q5RUhiT2d6Um9lNG1wTWRFY0p6cXNnb3FUM09KalMwLTd6dkRJaEc4QldLcktLV3l2c1pqaFo0MWFqM1dRVzkya28waHZQcQ?oc=5",
+      "source": "Stock Titan",
+      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Nixxy Announces Strategic AI Infrastructure Platform Initiative - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSDl2Y0prcXlvMjROeFZDUTlwT0thQkJYQWgwOXlEb2hGczZ6TEpoRlVjLXRFbkJUa2hJTEVScjJxdmVQNWZ1MWgxQnBBdG1SdUVIRGtxeU1WWTdxbnU3Z3pnT3Jnd2QteHdTTkF2SldxTU5Ba3NNZ2JBeTRJNGxjUElOSkpITmRXSVVIMnJSUVVRelgtSEpnb0hFWVdEQldKVTROdld6cWxlbHBsd1E2bmRoOVNYWDU5UUtKaQ?oc=5",
       "source": "Business Wire",
@@ -1452,7 +1543,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bailey Says BOE Decided to Keep Rates at 3.75% in July",
@@ -1464,7 +1555,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Ferrari raises 2026 guidance after Q2 earnings beat",
@@ -1476,7 +1567,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Mexico Economy Rebounds More Than Expected in Second Quarter",
@@ -1488,7 +1579,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Strategy Shores Up Liquidity as Bitcoin Faithful Wait on Rebound",
@@ -1500,7 +1591,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "LSEG CEO Wants UK Stamp Duty on Shares to 'Go Away'",
@@ -1512,7 +1603,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Goldman Traders Say Stocks Lack ‘Juice’ for Meaningful Breakout",
@@ -1522,17 +1613,6 @@
       "kind": "news",
       "summary": "For almost two months, investors have tried — and largely failed — to deduce a signal that would break US equities’ newfangled habit of lurching around and going nowhere.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "AI agents, expert routing and alerts: 8x8 moves beyond the contact center - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZW5NZGIzRWtROUZUSzg4M0toX1pTWUZ6UEtTNXVxWWwya3NaUGRUcTR4eEl0VnJvX2NidEk2Sm5QX1VlUVhUMVF3dDRYTzV2ZkpldTA2cGU4b0hYZzF1ZzlVM3hzY1IzY1ZPNDhsNWgxaDZEY0Q5RUhiT2d6Um9lNG1wTWRFY0p6cXNnb3FUM09KalMwLTd6dkRJaEc4QldLcktLV3l2c1pqaFo0MWFqM1dRVzkya28waHZQcQ?oc=5",
-      "source": "Stock Titan",
-      "publishedAt": "2026-07-30T13:00:00.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1633,17 +1713,6 @@
       "score": 50
     },
     {
-      "title": "EU lays out $11.4 billion for 7 AI gigafactories as it aims to catch up with US and China - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc2ZQV2lWczBieUFmWDhOeS1VRC1lVW44MXMwb0tacF93NFZycGJZbGM4U3R1WE5RWGRYMnIwNVo1dDF2cjVUM2JwdnIwc0h2UVd1bG5sV1phbUg1XzdPMHlSWWlWZEtHakNrVkpCallsaWRvRlVCSU5EcllTUUZsbFRNSE5jY204YjlDeDJ2bGo4RTcxU2tGN3JTanNOWUlnUnpvbWlrbEM2OXU1cXQ5VF9sdkh3eFhmUmViU25UeDhEU19CMEIwMm8tandkakZPR0wxSGxn?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-07-30T11:51:21.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Zuckerberg's Messaging Cloudy: Zino",
       "url": "https://www.bloomberg.com/news/videos/2026-07-30/zuckerberg-s-messaging-cloudy-zino-video",
       "source": "Bloomberg",
@@ -1736,42 +1805,6 @@
       "score": 50
     },
     {
-      "title": "Conflict Widens in Middle East, Bonds Send Warsh Credibility Warning | The Opening Trade 7/30/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-30/the-opening-trade-7-30-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-30T11:23:25.000Z",
-      "kind": "news",
-      "summary": "The US launched a fresh wave of strikes on Iran in response to an attack on American forces in Jordan, escalating a conflict that’s now spreading across the Middle East. After the Fed kept interest rates unchanged for a seventh consecutive month, investors dumped 30-year Treasury bonds, sending the yield shooting up as much as 14 basis points to nearly 5.23%, a 19-year high. Market measures of inflation expectations rose, the dollar slid, and even stocks tumbled as investors ",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Uganda Opposition Chief Critically Ill After Collapsing in Court",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/uganda-opposition-chief-critically-ill-after-collapsing-in-court",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-30T11:16:39.000Z",
-      "kind": "news",
-      "summary": "Uganda opposition leader Kizza Besigye was in intensive care after collapsing in court during his treason trial hearing.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Launches Fresh Wave of Iran Strikes as Conflict Widens Across Middle East",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-30/us-renews-strikes-on-iran-as-conflict-widens-in-region-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-30T11:14:01.000Z",
-      "kind": "news",
-      "summary": "The US hit dozens of military targets in a fresh wave of strikes on Iran in response to an attack on American forces in Jordan. Iran targeted a building in northern Kuwait while Jordan said it intercepted five missiles from the Islamic Republic as the conflict escalates and spreads across the Middle East. Tyler Kendall reports on Bloomberg Television. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "EU Pledges €10 Billion in Public Funding for New AI Data Centers",
       "url": "https://www.bloomberg.com/news/articles/2026-07-30/eu-pledges-10-billion-in-public-funding-for-new-ai-data-centers",
       "source": "Bloomberg",
@@ -1820,12 +1853,12 @@
       "score": 50
     },
     {
-      "title": "BOE Holds Rates in 6-3 Vote as War Clouds Inflation Outlook",
+      "title": "Bailey Plays Down Rate Hikes After Bank of England Holds Again",
       "url": "https://www.bloomberg.com/news/articles/2026-07-30/boe-holds-rates-in-split-vote-as-war-clouds-inflation-outlook",
       "source": "Bloomberg",
       "publishedAt": "2026-07-30T11:00:05.000Z",
       "kind": "news",
-      "summary": "The Bank of England kept interest rates steady at 3.75%, as UK officials sought to balance the threat from resurgent US-Iran tensions against signs that domestic price pressures are easing more quickly than predicted.",
+      "summary": "The Bank of England kept interest rates steady at 3.75% on Thursday, with Governor Andrew Bailey insisting his committee is not getting closer to a hike despite three members voting for tighter policy.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1850,17 +1883,6 @@
       "publishedAt": "2026-07-30T11:00:00.000Z",
       "kind": "news",
       "summary": "Cloud provider Nscale agreed to acquire software startup Anyscale to help customers use AI computing power more efficiently.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Got $1,000? 2 Magnificent Artificial Intelligence (AI) Stocks Down 15% or More From Their Highs to Buy Hand Over Fist - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNR2Y3UGV5MGVubEMwdUhIT2JoZUFzZUc2UXJWRE8yQ2U0Sk04REVuQ2Y0RUtDd2twajJMYUxmZFQzS0szTlpGQnUzUDRCckRqSE1vNllEaERYcmRZUzZyVHpfWmVKd2Q4cllKQUx6V0Y0R2YyS0g1c0tGTERwX3o5ZUs2WlVTcjBLQXpOTndfOHR3dGMxcEwtYzJFNU10SHhCNWhEZGNQUnpldlRqbGFMNnhKUFpLTWJzd25QWUJsMktDem9zWUpMNXppQkk2MzRhZTFWYmdXeEJoeWxJN1pTU2FUVGZpdlBZVjZPQTJ1ZG83d2JoS2dYNGdVc1M3eVRBSzZiTHBOT0d6ZXBhQXFNTDNGZVBHcml0MmtR?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-07-30T10:56:25.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1908,29 +1930,6 @@
       "publishedAt": "2026-07-30T10:30:01.000Z",
       "kind": "news",
       "summary": "Airlines can now price seats with dynamic precision, closing pricing gaps that travelers loved.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Starbucks stock jumps as coffee giant raises full-year outlook",
-      "url": "https://www.cnbc.com/2026/07/29/starbucks-sbux-q3-2026-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-30T10:25:34.000Z",
-      "kind": "news",
-      "summary": "Starbucks posted its fourth straight quarter of same-store sales growth, as it continues a turnaround under CEO Brian Niccol.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "illumend, from myCOI, Wins Stevie Award for New AI-Native Product Redefining Insurance Compliance and Risk Intelligence - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWEJwNy1TaUdBMWtkaWZPSHF6dENITWxrWnRrQWczMTBmaFpWRWRkeHJEcVlpYVVNbzJpRFRNbkUwSk9YME13SW4zU0M4dUxLNVNZdk5LSVl4elhfVno4X0FVMVgtZEhkejZIOXVlTFMwdFdJWnRZcDFiS05lWXhxMmJCSzlmS2tvaGJNdDBqbjNlR25JR0N1LUV2T2N3SVI3M3UyWVAxSC1SNTNHNEVjNUVVd2tUUURVYWJmUnVHY2QydHlrS0EwcS1FYTVnSTYzSVZZOG9UMHh4aTBYdUJzZmszWWcteXByM3k2WVZNcW5NMXJac2F0eTFUQXpmaTVVNDVz?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-30T10:10:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

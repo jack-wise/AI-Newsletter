@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T07:02:04.535Z",
+  "generatedAt": "2026-07-31T07:32:04.945Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -931,6 +931,20 @@
   ],
   "related": [
     {
+      "title": "Nexus Data Centers nears $15B financing for Google-backed Anthropic AI campus - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4622419-nexus-data-centers-nears-15b-financing-for-google-backed-anthropic-ai-campus",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-07-31T07:22:22.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 65,
+      "summary": "Nexus Data Centers seeks ~$15B to build a Texas AI data center for Google-backed Anthropic, using on-site power."
+    },
+    {
       "title": "Archbishop Martin urges ethical AI in talks with OpenAI Ireland - The Catholic Herald",
       "url": "https://thecatholicherald.com/article/archbishop-martin-urges-ethical-ai-in-talks-with-openai-ireland",
       "source": "The Catholic Herald",
@@ -971,34 +985,6 @@
       ],
       "score": 65,
       "summary": "Meeting follows Pope Leo’s decision to focus on AI and its impact on humanity in first encyclical"
-    },
-    {
-      "title": "After OpenAI, Anthropic reveals AI hacking incidents linked to Israeli startup Irregular - calcalistech.com",
-      "url": "https://www.calcalistech.com/ctechnews/article/s1fxa3thzx",
-      "source": "calcalistech.com",
-      "publishedAt": "2026-07-31T06:19:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Claude models gained unauthorized access to three organizations after a testing environment was inadvertently connected to the public internet, prompting Anthropic to tighten security across its AI evaluation pipeline."
-    },
-    {
-      "title": "After OpenAI's 'scary' agent, Anthropic's Claude goes rogue; AI gains unauthorised 'real-world' access during testing - WION",
-      "url": "https://www.wionews.com/technology/after-openai-s-scary-agent-anthropic-s-claude-goes-rogue-ai-gains-unauthorised-real-world-access-during-testing-1785475339558",
-      "source": "WION",
-      "publishedAt": "2026-07-31T06:06:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Anthropic has revealed that three versions of its Claude AI model gained unauthorised access to external computer systems during security testing after unexpectedly obtaining internet access. The disclosure comes days after OpenAI reported a similar containment failure."
     },
     {
       "title": "Amazon, Microsoft Results Show AI Spending Spree Remains Solid",
@@ -1179,20 +1165,6 @@
       "score": 55
     },
     {
-      "title": "Oracle Gains After Expanding Google Gemini AI Partnership",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/oracle-gains-after-expanding-google-gemini-ai-partnership",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-30T14:17:26.000Z",
-      "kind": "news",
-      "summary": "Oracle Corporation's stock rose significantly after the company announced an expanded partnership with Google Cloud. This collaboration will integrate Google's Gemini AI tools into Oracle's business applications, offering Gemini models through its AI Agent Studio for Fusion Applications and using them for embedded AI in Fusion Applications and Oracle NetSuite. [sentiment: Bullish]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55
-    },
-    {
       "title": "New details in the OpenAI Hugging Face hack show how far agents will go: 'It's now remarkably easy'",
       "url": "https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html",
       "source": "CNBC",
@@ -1203,20 +1175,6 @@
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Alphabet Inc. - GOOG",
-      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-alphabet-inc---goog-302838763.html",
-      "source": "PR Newswire",
-      "publishedAt": "2026-07-30T13:59:48.000Z",
-      "kind": "news",
-      "summary": "Pomerantz LLP is investigating potential securities fraud claims against Alphabet Inc. (NASDAQ: GOOG) following two significant stock drops in July 2026. The investigation stems from reports that Google is behind schedule on its AI model, Gemini 3.5 Pro, and a subsequent announcement of expanded capital expenditures and negative free cash flow for Q2 2026. Pomerantz LLP encourages affected investors to contact them regarding a potential class action lawsuit. [sentiment: Neutral]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
       ],
       "score": 55
     },
@@ -1235,6 +1193,48 @@
       "summary": "As the tech giants' AI splurge starts to hurt the balance sheet, selling compute is an easy fix — but they also need it to get ahead."
     },
     {
+      "title": "After OpenAI, Anthropic reveals AI hacking incidents linked to Israeli startup Irregular - calcalistech.com",
+      "url": "https://www.calcalistech.com/ctechnews/article/s1fxa3thzx",
+      "source": "calcalistech.com",
+      "publishedAt": "2026-07-31T06:19:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Claude models gained unauthorized access to three organizations after a testing environment was inadvertently connected to the public internet, prompting Anthropic to tighten security across its AI evaluation pipeline."
+    },
+    {
+      "title": "After OpenAI's 'scary' agent, Anthropic's Claude goes rogue; AI gains unauthorised 'real-world' access during testing - WION",
+      "url": "https://www.wionews.com/technology/after-openai-s-scary-agent-anthropic-s-claude-goes-rogue-ai-gains-unauthorised-real-world-access-during-testing-1785475339558",
+      "source": "WION",
+      "publishedAt": "2026-07-31T06:06:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Anthropic has revealed that three versions of its Claude AI model gained unauthorised access to external computer systems during security testing after unexpectedly obtaining internet access. The disclosure comes days after OpenAI reported a similar containment failure."
+    },
+    {
+      "title": "Microsoft Adds $450 Billion In A Day, Beats Nvidia. What's Behind The Surge - ndtv.com",
+      "url": "https://www.ndtv.com/business-news/microsoft-stock-market-rally-overtakes-nvidia-wall-street-ai-spending-azure-11846667",
+      "source": "ndtv.com",
+      "publishedAt": "2026-07-31T04:55:59.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "MSFT"
+      ],
+      "score": 45
+    },
+    {
       "title": "After OpenAI disclosure, Anthropic says Claude also hacked outside systems - Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/31/after-openai-disclosure-anthropic-claude-hacked-outside-systems",
       "source": "Al Jazeera",
@@ -1247,20 +1247,6 @@
       ],
       "score": 45,
       "summary": "The incidents have heightened concerns about AI agents, software products designed to perform tasks autonomously."
-    },
-    {
-      "title": "Google-Backed $15B Texas AI Hub for Anthropic with Morgan Stanley Lead - Briefs Finance",
-      "url": "https://www.briefs.co/news/google-backed-15b-texas-ai-hub-for-anthropic-with-morgan-sta/",
-      "source": "Briefs Finance",
-      "publishedAt": "2026-07-31T02:34:40.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45,
-      "summary": "Morgan Stanley leads $15B debt for Anthropic's Texas AI hub. Google backstops, gets 20% equity. On-site power plant, Google-Broadcom chips."
     },
     {
       "title": "Microsoft doubles down on multi-model AI as it builds a Copilot super app - cio.com",
@@ -1277,44 +1263,15 @@
       "summary": "The company plans to combine chat, agents and business workflows into a single AI workspace while separating memory, context and orchestration from any one foundation model."
     },
     {
-      "title": "OpenAI Cuts Prices on Select Models to Make High-Volume Work Economical - PYMNTS.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-cuts-prices-on-select-models-to-make-high-volume-work-economical/",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-07-31T01:08:49.000Z",
+      "title": "News | Amazon boosts data center spending in push to become 'trillion-dollar' AI business - CoStar",
+      "url": "https://www.costar.com/article/788544745/amazon-boosts-data-center-spending-in-push-to-become-trillion-dollar-ai-business",
+      "source": "CoStar",
+      "publishedAt": "2026-07-31T01:43:28.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "OpenAI has cut the price of GPT-5.6 Luna by 80%, cut the price of GPT-5.6 Terra by 20% and provided faster performance of GPT-5.6 Sol in the API while"
-    },
-    {
-      "title": "Amazon profit surges as AWS sales rise 37%",
-      "url": "https://www.ttnews.com/articles/amazon-earnings-q2-2026",
-      "source": "Transport Topics",
-      "publishedAt": "2026-07-31T01:07:05.000Z",
-      "kind": "news",
-      "summary": "Amazon reported a significant surge in profit and net sales for its fiscal second quarter, largely driven by a 37% increase in AWS sales. The e-commerce giant also set record delivery speeds for Prime members and is making substantial investments in AI, robotics, semiconductors, and satellites, though it issued a cautious sales outlook for the current quarter amidst these expenditures. [sentiment: Somewhat-Bullish]",
       "tier": 3,
       "tickers": [],
       "related": [
         "AMZN"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Alphabet Inc. (GOOG) insider Frances Arnold files notice to sell Class C stock",
-      "url": "https://www.stocktitan.net/sec-filings/GOOG/144-alphabet-inc-sec-filing-40aaafb8ab62.html",
-      "source": "Stock Titan",
-      "publishedAt": "2026-07-30T20:15:47.000Z",
-      "kind": "news",
-      "summary": "Alphabet Inc. insider Frances Arnold has filed a Rule 144 notice to sell 27,338.00 shares of Class C Capital Stock. This filing also reports previous sales totaling 316 shares over the last three months, occurring on April 30, May 29, and June 30, 2026. The prospective date for the current planned sale is July 30, 2026. [sentiment: Neutral]",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "GOOGL"
       ],
       "score": 45
     },
@@ -1345,11 +1302,77 @@
         "MSFT"
       ],
       "score": 45
+    },
+    {
+      "title": "OpenAI CFO Sarah Friar tells employees that annualized revenue in July topped all of Q2",
+      "url": "https://www.cnbc.com/2026/07/29/openai-cfo-sarah-friar-tells-employees-arr-in-july-topped-all-of-q2.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-29T23:09:42.000Z",
+      "kind": "news",
+      "summary": "OpenAI is trying to reassure employees that the business is healthy as competition emerges from Anthropic as well as a host of open-source players.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Microsoft keeps capex forecast unchanged, becoming one of the first data center giants to hold the line on AI spending - Business Insider",
+      "url": "https://www.businessinsider.com/microsoft-ai-capex-unchanged-data-centers-spending-tech-giants-2026-7",
+      "source": "Business Insider",
+      "publishedAt": "2026-07-29T22:04:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Most tech giants have been raising their AI capex forecasts. Microsoft is an outlier."
+    },
+    {
+      "title": "Microsoft CFO tells employees the company's biggest AI bets are paying off - Business Insider",
+      "url": "https://www.businessinsider.com/microsoft-internal-memo-tells-employees-azure-and-copilot-made-progress-2026-7",
+      "source": "Business Insider",
+      "publishedAt": "2026-07-29T20:46:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "The memo cited \"important progress in key areas\" like Azure and Microsoft 365 Copilot. These businesses have faced pressure amid generative AI boom."
     }
   ],
   "general": [
     {
-      "title": "French Inflation Unexpectedly Accelerates on Services, Energy",
+      "title": "BOJ Holds Rates, Keeps Door Open to Further Hikes| Insight with Haslinda Amin 7/31/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/insight-with-haslinda-amin-7-31-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T07:06:34.000Z",
+      "kind": "news",
+      "summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "DeepSeek Unveils Public Beta API for Flagship AI Model",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/deepseek-unveils-public-beta-api-for-flagship-ai-model",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T06:50:42.000Z",
+      "kind": "news",
+      "summary": "China’s DeepSeek rolled out a public beta application programming interface, or API, for its flagship artificial intelligence model, V4 Flash, touting advancements in agentic abilities.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "French Inflation Unexpectedly Accelerates on Services, Power",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/french-inflation-unexpectedly-accelerates-on-services-energy",
       "source": "Bloomberg",
       "publishedAt": "2026-07-31T06:45:00.000Z",
@@ -1372,12 +1395,23 @@
       "score": 60
     },
     {
-      "title": "Kioxia Sets 3-For-1 Stock Split After Profit Misses Estimates",
+      "title": "Anthropic says Claude AI hacked three organizations during safety tests: Here’s what happened - The News International",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLUI2dVAtNno1UkNRdFA1T2R0N0o5RlhrVVI5aUg0LTZNdGJDVUxOeHgyeTJUN0hZSGVJOURWTFZqelhDNUVTNjhDT3ZZMHI1eGVLRUJSVE15aHFKRnMzMC1vR3FSQ1dzbWNYMFkzRWR2OUQ0clRmeFlZTGFCaTV1NXlGdnA1S1g3R2NoMTNjVTBqbWFkSXRlYVNHOWtqbGhqVTJocHFMRTZUOF9Pam91a3dpNHRQSTRiY1Zhc3hKc0FLRmo3QTFScFBPYzdhQQ?oc=5",
+      "source": "The News International",
+      "publishedAt": "2026-07-31T06:40:03.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Kioxia’s Outlook Misses in Sign Memory Chip Boom May Be Slowing",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/kioxia-sets-3-for-1-stock-split-after-profit-misses-estimates",
       "source": "Bloomberg",
       "publishedAt": "2026-07-31T06:37:40.000Z",
       "kind": "news",
-      "summary": "Kioxia Holdings Corp.’s results fell short of expectations, a sign that an AI-driven surge in flash memory prices may be moderating.",
+      "summary": "Kioxia Holdings Corp. issued a disappointing earnings outlook after results missed expectations, a sign that an unprecedented AI-driven surge in flash memory prices may be moderating.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1405,7 +1439,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Tech Stocks Rally in AI Trade Euphoria | The China Show | 7/31/2026",
@@ -1417,7 +1451,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Lopez Research's Maribel Lopez on US Tech Earnings",
@@ -1429,7 +1463,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "BP Starts Process for Potential Sale of North Sea Business",
@@ -1441,7 +1475,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Anthropic says its AI models hacked 3 organizations during testing | Business | dailygazette.com - The Daily Gazette",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZ2lRd1dQYnJOMUtTcm5ETGFFZzlfTW15eUI0bnRINWQ5M3lNX284ci11aVZfR0pXM0F5YVFoRjlncXhGMThmcHVpYU5OWkhfUWdVMzBFbEg4dEhsa3g3VDF6eXhnMEI0ZTlNbTZnak9ESjh4Q2drX181QnB5TlNwaFNPaldlT1pBMlZuWWFldm1tdm81dU1HYzFGN1pFRXNyVjJnZ1pRTnJvTFMyTGFqWTVjODNGZi10eElPNnMwaGF1bV9CWnpJbzlRNEx2N3JaSlB1bUVMVUFtRFVMVkNrRHJOdGswLU9sYmJoeA?oc=5",
+      "source": "The Daily Gazette",
+      "publishedAt": "2026-07-31T06:11:54.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Situational Awareness Hit by AI Selloff",
@@ -1453,7 +1498,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic says its AI models hacked 3 organizations during testing - AP News",
@@ -1464,7 +1509,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Parmeter: President Trump is Looking For Wins",
@@ -1476,7 +1521,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Ishihara: All Eyes On Indication for Next BOJ Hike",
@@ -1488,7 +1533,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "UK House Prices Edge Higher in July, Nationwide Says",
@@ -1500,29 +1545,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "What is AI model distillation and why is it becoming a US-China flashpoint? - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3E5WURUSGY0XzgwWkpzN1BZcElmbnQ0anhTSTRETHU5bHJRQ0Q2VTJpLUlBcXljWGlSX0U0QUhaVVJMTXZGN1hfbVFBU3RZckxBQW40bG52b0NKYkM5SEpobExSRDVIaENMYUpJZzUtaDFwNWZndk1jY2h1TE9Pc2VDZzdCaUJGcUJ3M2Jjcml4Nm54MDFnaVg3c2tlQ3lQX1dQSXhTeHFWR1l4Y3o2c3h1UjJONnc?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-31T06:08:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "EXCLUSIVE: Chinese military researchers tap US AI models to train defence systems - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRlZKM1E4OTlVQnVjUUs0ZEVFY2hxZHNvd2VHb0dabWZnbFZKTjJzemRrUkJsNS14blJPcDlmREZMbzdXekNqcWdSVnpQSG82YndnMUJ5TElaNlRBYkRWMlVfU2dWTWdDY1kxa2ZjNnhtQko1Nnd3QkZ1eUhIMVI1MU1wVjFTZ1N4WHE2UnBzVHp0QzBjMzI4RWlnVkVWMmVvTkxWeExNZUlFeE52WHhsdFZJSXlfNld4RFdjMVNNQQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-31T06:04:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Tokyo Court Says Shidax Tender Undervalued the Firm in Rare Case",
@@ -1596,12 +1619,12 @@
       "score": 50
     },
     {
-      "title": "Kenya’s July Inflation Ticks Up to 6.5% as Fuels Weigh on Index",
+      "title": "Kenya Inflation Tops Target Midpoint a Third Month on Energy",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/kenya-s-july-inflation-ticks-up-to-6-5-as-fuels-weigh-on-index",
       "source": "Bloomberg",
       "publishedAt": "2026-07-31T05:29:27.000Z",
       "kind": "news",
-      "summary": "Kenya’s annual inflation rate climbed slightly up in July, exceeding the midpoint of the central bank’s target range for a third month, as energy costs fueled price growth.",
+      "summary": "Kenya’s annual inflation rate exceeded the midpoint of the central bank’s target range for a third month, as energy costs fueled price growth.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1637,18 +1660,6 @@
       "publishedAt": "2026-07-31T05:15:48.000Z",
       "kind": "news",
       "summary": "Singapore’s retrenchments last quarter climbed to the highest since the pandemic, as some overseas-facing industries restructured.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Yen Intervention on Watch; Korean Stocks Jump by Record | The Asia Trade 7/31/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/the-asia-trade-7-31-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T05:15:20.000Z",
-      "kind": "news",
-      "summary": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1730,6 +1741,28 @@
       "publishedAt": "2026-07-31T04:09:24.000Z",
       "kind": "news",
       "summary": "Jason Tsai, CFO at Silicon Motion, says the Taiwanese NAND controller supplier has been gaining market share as it diversifies its consumer-focused business. He speaks exclusively on \"Bloomberg: The China Show\" after company posted third quarter revenue forecast that beat consensus. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "How Dun & Bradstreet is realigning its 185-year-old data empire - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSUNPZEtmeGd1ZWFTUWhtSEs5WExJM0pxUkFfSllNUlEwOXA1dFEycnRhdFFkOFJldDNzakdvZ0I3UVhETE5vZGlMVnZyOE1KcFR1YXhBMEFyMzRETUpCUXhka3M2bjVvRk9fSU5fUUVjRkU4ZWxWTDJMQlcyWkxabEVfOE1EMW10R29FbTdwMlVRZnhBWmZ6alhTWGpRNF9UcGlWYXBjQQ?oc=5",
+      "source": "The Business Journals",
+      "publishedAt": "2026-07-31T04:05:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Table of Experts: Data centers and AI - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTGlEbkRfRnlHUGRrX3ZXM3NNU2VjWkQxUnBRQnhMNzVvblY1WDduWjZwS3RLX0UyVVByOVp5ZzU4eUJiWEVUb05QWFdjRG5Yem5aUlhBLWphdU1tNjdqUUZVeHhMV3hWN0tpR2hjQVFITzZOcHdHTUpSY1lQMmFXd0loX2V1V296bVBzXzk4NV9JWWc?oc=5",
+      "source": "The Business Journals",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1853,6 +1886,17 @@
       "score": 50
     },
     {
+      "title": "Big Tech’s A.I. Spending Keeps Rising. So Do the Jitters. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUEUyN2JaVHBMYlNIM2Nralk0ckxOdmtKZURqVlZudzNnVjltd0FqUUFheWo5QkNfaDM5T3ZqV204MlY3NVZtdUlpLVRXMUp6Qzk2YV9GWVVDeUZyaDFGZ1NCYmwxNkFnWElQSS1PUDFZcmhLclk5WDVSZUdVV0sxY1Z0ZVNwQ0xrSm1mVkx4M2QwZw?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-31T02:20:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "JPY/USD: BOJ Leaves Benchmark Rate Unchanged After Yen Intervention",
       "url": "https://www.bloomberg.com/news/live-blog/2026-07-31/bank-of-japan-monetary-policy-decision",
       "source": "Bloomberg",
@@ -1876,58 +1920,12 @@
       "score": 50
     },
     {
-      "title": "China’s Factories, Construction Slump in Sign Slowdown Spreading",
+      "title": "China’s Factories, Builders Slump in Sign Slowdown Spreading",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/china-factory-activity-surprises-with-first-slump-in-five-months",
       "source": "Bloomberg",
       "publishedAt": "2026-07-31T01:36:58.000Z",
       "kind": "news",
       "summary": "China’s factory activity unexpectedly contracted for the first time in five months and construction slumped to the lowest since the start of the pandemic, pointing to a further loss of momentum in the economy after a slowdown last quarter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "German chancellor chooses pope’s AI encyclical over pacy potboiler as holiday read - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWXFMLURQaUJ2SHRxamJfcmpHbDRROEtnWE1UckFzbE8wd2Y5eXJza1FEb3Bpb2lkQ3pMQzhPYkhmTGxDRW5iNDRHZVo3WVdMSEc1c2s2Y3NjMEk0d18xSlZqa3VBMGwxcWNxRVZFNV9FeGo3OFBHSmM1bGhWc3hzRjdLblMybU5ONGZVZHJkSFVyTXRZYVBTdEc3V2gzeFZLbDRXOHRHTFFpc1pRMU83UnlsRG1xLXdaSXFsc01n?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-07-31T01:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "IDC's Ma on Apple, Consumer Electronics Market",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/idc-s-ma-on-apple-consumer-electronics-market-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T01:15:30.000Z",
-      "kind": "news",
-      "summary": "Bryan Ma, Vice President of Devices Research at IDC, discusses Apple's latest earnings and the outlook for the broader consumer electronics market. He speaks with Shery Ahn on Bloomberg: The Asia Trade. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic’s AI models hacked three organizations during tests - The Japan Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZUlXUnllUEZzcWtWcU1rcUNLbGtBcVhVRHRYLVctMEZTYmpHTlE0bURZT240Wkh4dllnRGQ4WG9ERkJqZ2d6ZXFNTFRFWU1XNU9RZmxRR3pNb2NyMnB3bEtRYndmS1lrUGxrV1VrYXhVWjdacTZRVThWQWg5cDBzQWxGSzBodnFV?oc=5",
-      "source": "The Japan Times",
-      "publishedAt": "2026-07-31T01:14:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic says its Claude models 'gained unauthorized access' to other organizations' systems",
-      "url": "https://www.cnbc.com/2026/07/30/anthropic-says-claude-gained-unauthorized-access-to-others-systems.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-31T01:11:49.000Z",
-      "kind": "news",
-      "summary": "Anthropic said it discovered three instances where its Claude AI models accessed the internet during an evaluation and accessed outside systems.",
       "tier": 1,
       "tickers": [],
       "related": [],

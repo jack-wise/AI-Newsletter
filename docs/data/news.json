@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:32:12.478Z",
+  "generatedAt": "2026-07-31T19:02:17.146Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -79,7 +79,7 @@
       },
       "tier": 2,
       "related": [],
-      "score": 68,
+      "score": 58,
       "summary": "What If…."
     },
     {
@@ -730,6 +730,20 @@
       "summary": "Five jobs posted, TODAY."
     },
     {
+      "title": "Analysts Conflicted on These NA Names: SpaceX (SPCX), Fermi Inc. (FRMI) and Cerebras Systems, Inc. Class A (CBRS) - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SPCX-Q/pressreleases/3502101/analysts-conflicted-on-these-na-names-spacex-spcx-fermi-inc-frmi-and-cerebras-systems-inc-class-a-cbrs/",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-07-28T14:08:32.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45,
+      "summary": "Detailed price information for SpaceX Corp (SPCX-Q) from The Globe and Mail including charting and trades."
+    },
+    {
       "title": "Fermi Inc. Admission of shares of Common Stock and Total Voting Rights - PR Newswire",
       "url": "https://www.prnewswire.com/news-releases/fermi-inc-admission-of-shares-of-common-stock-and-total-voting-rights-302832731.html",
       "source": "PR Newswire",
@@ -899,36 +913,41 @@
       "related": [],
       "score": 38,
       "summary": "[July 26, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "TCEQ Preliminary Decision",
-      "url": "https://www.reddit.com/r/FRMI/comments/1v67ezu/tceq_preliminary_decision/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-07-25T12:43:40.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Tpatty343",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "TCEQ Preliminary Decision"
     }
   ],
   "related": [
+    {
+      "title": "Moonshot's Kimi Built With Nvidia Compute",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/moonshot-s-kimi-built-with-nvidia-compute-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:54:44.000Z",
+      "kind": "news",
+      "summary": "Chinese AI startup Moonshot's Kimi models are powered in part by around 20,000 Nvidia Hopper chips supplied through a computing agreement with Alibaba, according to sources. Bloomberg's Peter Elstrom explains what the arrangement reveals about China's AI infrastructure and the role of US technology in training frontier models. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
     {
       "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - Reuters",
       "url": "https://www.reuters.com/world/eu-says-necessary-monitor-high-risk-ai-systems-after-openai-anthropic-ai-hacking-2026-07-31/",
       "source": "Reuters",
       "publishedAt": "2026-07-31T17:10:16.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "OpenAI Surpasses One Billion Users After Cutting Prices - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUXdiRTNDR2poMG5NTmxiZ2ZLdnMxWWpSQjVFWHlCenQxR3FBd2tKSHpFdWNWVnc4Vlh5VTh5djMzenRFdTF1c0k0NDVKMWVSNDkzSmRvUjZ3V3B2VlBCdzVoME5vb3V2UzJ0dEN5bVdkZGdtS3ZVdGxERmg4ajZhYzI0NEpfTkcwRDFGTXBvaGQxUFZqTmVz?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-07-31T16:35:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -980,19 +999,6 @@
       "score": 65
     },
     {
-      "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-31T14:02:09.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "Microsoft Q4 FY 2026: AI Demand Accelerates Azure and Enterprise Growth - The Futurum Group",
       "url": "https://futurumgroup.com/insights/microsoft-q4-fy-2026-ai-demand-accelerates-azure-and-enterprise-growth/",
       "source": "The Futurum Group",
@@ -1007,68 +1013,37 @@
       "summary": "Microsoft Q4 FY 2026 earnings show Azure acceleration, Copilot adoption, agent platform growth, and FY 2027 cloud guidance."
     },
     {
-      "title": "NVIDIA: Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security - HPCwire",
-      "url": "https://www.hpcwire.com/aiwire/2026/07/31/nvidia-industry-leaders-unite-in-open-secure-ai-alliance-for-ai-safety-and-security/",
-      "source": "HPCwire",
-      "publishedAt": "2026-07-31T17:59:28.000Z",
+      "title": "Rise of the machines? The fallout from Anthropic and OpenAI hacks - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDZRMVVlc1JaV0ZvMjVHa3lqeF9tXzB0MGxZYUYxU3BuN0YyZjZpc1hFNTJoQ3B5QnJobXQ1X3RRVjRzNkxncEFwam5PSnRyaU9xVE94bElydGVFOUhMNFdBUTdqS0lhZVMyeXpsellqTkR0N29zX2ZGRFAxeVJteG4zOHlXbGFOM1JvWDBsanNMcU8xVDJLbXoyaHdEU01pejNqaGYzT1gzX0Vzbk41RQ?oc=5",
+      "source": "USA Today",
+      "publishedAt": "2026-07-31T18:43:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 55,
-      "summary": "NVIDIA and founding members form new alliance to build and share open tools that promote responsible use of and trust in AI. July 31, 2026 &mdash; Open source software is [&hellip;]"
+      "score": 55
     },
     {
-      "title": "Google adds AI to satellite images, raising fears of deepfakes in the sky - Georgia Public Broadcasting",
-      "url": "https://www.gpb.org/news/2026/07/31/google-adds-ai-satellite-images-raising-fears-of-deepfakes-in-the-sky",
+      "title": "Google pauses AI satellite images, after fears of deepfakes in the sky - Georgia Public Broadcasting",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS2oxMUt1MVhyRlo2TlFOTWswWjZ0SHg1T2JvWU1wSWRYUXVqT1pPclpxd0Roa0RHSkZaLWYyWjRGV3hzanQxQ0liMXM5V18wbUk0TXZzZm94T004eUpmRHYtcmJ2NkkyT3NaZk5nU1NKdGNpSnBWVmFMT21wT2FZMjg1ZXFxRnMySVU4STRET0l6RXdaSTB0b2tDVWxjUTdMV2xtOTVKQnM?oc=5",
       "source": "Georgia Public Broadcasting",
-      "publishedAt": "2026-07-31T17:51:18.000Z",
+      "publishedAt": "2026-07-31T18:29:40.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "GOOGL"
       ],
-      "score": 55,
-      "summary": "Journalists, human rights advocates and open source analysts recoiled in horror at the initial decision: \"The opportunities for abuse and disinfo are literally boundless,\" said one."
+      "score": 55
     },
     {
-      "title": "Amazon Completes $50 Billion Investment in OpenAI - PYMNTS.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-completes-50-billion-dollar-investment-openai/",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-07-31T17:43:48.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Amazon completed a $50 billion investment in OpenAI that the two companies announced in February. Amazon said in a Friday (July 31) filing with the"
-    },
-    {
-      "title": "Effingham Officials Report Threats After OpenAI Data Center News - effinghamherald.net",
-      "url": "https://www.effinghamherald.net/data-centers/effingham-officials-report-threats-after-openai-data-center-news-protests/",
-      "source": "effinghamherald.net",
-      "publishedAt": "2026-07-31T17:33:24.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Officials say threats, online attacks and security concerns have followed debate over OpenAI's Effingham data center."
-    },
-    {
-      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba",
+      "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-07-31T12:19:23.000Z",
       "kind": "news",
-      "summary": "Chinese AI champion Moonshot has a computing power agreement with Alibaba Group Holding Ltd. for the use of around 20,000 Nvidia Corp. chips, underscoring China’s continued reliance on Western semiconductors to fuel its AI development, according to people with knowledge of the companies’ operations.",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1100,20 +1075,6 @@
       "tickers": [],
       "related": [
         "GOOGL"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Watch Amazon's AWS Result Is 'Remarkable': Analyst Luria",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-30/amazon-s-aws-result-is-remarkable-analyst-luria-says-video",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-30T23:37:04.000Z",
-      "kind": "news",
-      "summary": "Gil Luria, D.A. Davidson's head of technology research, describes Amazon Web Services' revenue growth as \"remarkable.\" He also discusses the future outlook for Amazon.com Inc. and shares his insights on \"Bloomberg The Close.\" [sentiment: Bullish]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "AMZN"
       ],
       "score": 55
     },
@@ -1202,6 +1163,62 @@
       "score": 55
     },
     {
+      "title": "NVIDIA: Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security - HPCwire",
+      "url": "https://www.hpcwire.com/aiwire/2026/07/31/nvidia-industry-leaders-unite-in-open-secure-ai-alliance-for-ai-safety-and-security/",
+      "source": "HPCwire",
+      "publishedAt": "2026-07-31T17:59:28.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "NVIDIA and founding members form new alliance to build and share open tools that promote responsible use of and trust in AI. July 31, 2026 &mdash; Open source software is [&hellip;]"
+    },
+    {
+      "title": "Google adds AI to satellite images, raising fears of deepfakes in the sky - Georgia Public Broadcasting",
+      "url": "https://www.gpb.org/news/2026/07/31/google-adds-ai-satellite-images-raising-fears-of-deepfakes-in-the-sky",
+      "source": "Georgia Public Broadcasting",
+      "publishedAt": "2026-07-31T17:51:18.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Journalists, human rights advocates and open source analysts recoiled in horror at the initial decision: \"The opportunities for abuse and disinfo are literally boundless,\" said one."
+    },
+    {
+      "title": "Amazon Completes $50 Billion Investment in OpenAI - PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-completes-50-billion-dollar-investment-openai/",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-07-31T17:43:48.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Amazon completed a $50 billion investment in OpenAI that the two companies announced in February. Amazon said in a Friday (July 31) filing with the"
+    },
+    {
+      "title": "Effingham Officials Report Threats After OpenAI Data Center News - Effingham Herald",
+      "url": "https://www.effinghamherald.net/data-centers/effingham-officials-report-threats-after-openai-data-center-news-protests/",
+      "source": "Effingham Herald",
+      "publishedAt": "2026-07-31T17:33:24.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Officials say threats, online attacks and security concerns have followed debate over OpenAI's Effingham data center."
+    },
+    {
       "title": "OpenAI surpasses 1 billion users after cutting GPT-5.6 prices - qz.com",
       "url": "https://qz.com/openai-billion-users-gpt-price-cuts-073126",
       "source": "qz.com",
@@ -1214,6 +1231,19 @@
       ],
       "score": 45,
       "summary": "The company cut the price of GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20%, citing efficiency gains from internal model development"
+    },
+    {
+      "title": "Google launches new satellite image AI tool, alarming researchers - France 24",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUkJoZllhZFZyLXNwd3VhVWxMeVpxcEpmZmZuRnJvS1VEV0ROamhZbU5XM3A0VzNReUc2MVVCckktZGtWbWQtTVFKNGpudkUxY0tWSXVXOHdYMGY1RF9YaUgzcURuZmxPZDQ0ZHZHQXYtSF8taVlxQVRLeGxWODQ4UlZkV2oyZndmdldQVlFsQmdkalo2WXdoVk9Td3JlQzlxSUlwcmtxelNqNVJ3cmIyXw?oc=5",
+      "source": "France 24",
+      "publishedAt": "2026-07-31T17:15:13.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45
     },
     {
       "title": "Disrupting a Criminal Scam Operation - OpenAI",
@@ -1257,9 +1287,9 @@
       "summary": "NVIDIA (NVDA) is back in focus after a string of AI infrastructure deals and product launches, ranging from Hut 8 data center capacity in Texas to the Vera Rubin CPU platform and new AI security partnerships. See our latest analysis for NVIDIA. NVIDIA’s latest AI factory deals and Vera Rubin launches come after a choppy few weeks, with the stock down over the past month on a 30 day share price return of 2.52% and a 90 day share price return of 1.72%, yet still showing a year "
     },
     {
-      "title": "Amazon (AMZN) Stock Jumps on Record $200B Q2 Revenue, Fueled by AI Growth and Water-Positive Goals - CarbonCredits.com",
+      "title": "Amazon (AMZN) Stock Jumps on Record $200B Q2 Revenue, Fueled by AI Growth and Water-Positive Goals - carboncredits.com",
       "url": "https://carboncredits.com/amazon-amzn-stock-jumps-on-record-200b-q2-revenue-fueled-by-ai-growth-and-water-positive-goals/",
-      "source": "CarbonCredits.com",
+      "source": "carboncredits.com",
       "publishedAt": "2026-07-31T16:17:42.000Z",
       "kind": "news",
       "tier": 3,
@@ -1285,9 +1315,9 @@
       "summary": "Experts tell BBC Verify Google's new feature which lets people generate fake satellite images could be misused."
     },
     {
-      "title": "OpenAI Explains Why It's Slashing AI Prices — Michael Burry Says The 'Real News' Is Preparation For DeepSeek's New V4 Models - Stocktwits",
+      "title": "OpenAI Explains Why It's Slashing AI Prices — Michael Burry Says The 'Real News' Is Preparation For DeepSeek's New V4 Models - stocktwits.com",
       "url": "https://stocktwits.com/news-articles/markets/equity/openai-explains-why-it-cut-prices-michael-burry-real-news-deepseek-v4-models/cZN4ghERJPV",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "publishedAt": "2026-07-31T16:03:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1297,48 +1327,140 @@
       ],
       "score": 45,
       "summary": "OpenAI argued that AI infrastructure is valuable not because of its scale, but because it enables more capable intelligence at a lower cost."
-    },
-    {
-      "title": "Google Earth AI tool raises fears over spread of fake satellite images - Financial Times",
-      "url": "https://www.ft.com/content/06b7545b-94a0-4a5d-9c21-0c7852771b41?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "publishedAt": "2026-07-31T16:00:55.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Moonshot has Nvidia chip cluster from Alibaba computing deal, Bloomberg News reports - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/moonshot-nvidia-chip-cluster-alibaba-150851345.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-31T15:08:51.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Building abundant intelligence - OpenAI",
-      "url": "https://openai.com/index/building-abundant-intelligence/",
-      "source": "OpenAI",
-      "publishedAt": "2026-07-31T15:06:49.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "The Future of the Democratic Party Runs Through Michigan",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/the-future-of-the-democratic-party-runs-through-michigan",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T19:00:04.000Z",
+      "kind": "news",
+      "summary": "On today’s Big Take podcast, host David Gura sits down with senior political correspondent Nancy Cook and Bloomberg Opinions’ Ronald Brownstein to unpack the stakes of the Michigan Democratic primary, where a centrist candidate is facing off against a Democratic-Socialist-backed progressive — and what their showdown could reveal about the party’s future. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "The Next AI Boom Is in Health Care and Robotics, Says Lux Capital's Shakir",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/-ai-is-now-an-operating-system-says-lux-capital-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:49:14.000Z",
+      "kind": "news",
+      "summary": "Recent disclosures from Anthropic and OpenAI have shifted the AI conversation from model capabilities to real-world deployment and security. Lux Capital Partner Deena Shakir says the next wave of AI innovation will be built on trust, partnerships and vertical applications like health care and robotics, not just more powerful foundation models. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Griffin’s Knack for Sniffing Out Trouble Set to Reward Citadel",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/griffin-s-knack-for-sniffing-out-trouble-set-to-reward-citadel",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:45:27.000Z",
+      "kind": "news",
+      "summary": "It’s practically an adage on Wall Street by now: You know you’re in trouble when Ken Griffin calls.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Amazon's AI Story Is a 'Game Changer,' Says Mizuho",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/amazon-s-ai-story-is-a-game-changer-says-mizuho-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:44:39.000Z",
+      "kind": "news",
+      "summary": "Amazon's latest earnings may have changed the AI narrative around the company. Mizuho's Jordan Klein joins Bloomberg to explain why accelerating AWS growth, rising demand for Amazon's custom AI chips and improving AI monetization across the business have strengthened the investment case, and why he believes Amazon remains one of the biggest winners in the AI infrastructure race. He speaks with Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Colombia Unexpectedly Holds Rates Despite Price Pressures",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/colombia-unexpectedly-keeps-rates-steady-despite-price-pressures",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:43:45.000Z",
+      "kind": "news",
+      "summary": "Colombia’s central bank unexpectedly held interest rates unchanged in the final monetary policy meeting under President Gustavo Petro’s administration despite mounting inflationary pressures.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI & Tech Brief: Anthropic’s rogue agents - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOam9qRkxNMGFrS3liX1FLSGtOV1ZTZ2oxT3d4YnA4Qzh0LVNaX2RpZ3dvM1RYNkhDTUNweU1OYmpvbXhnSDJvV3JJV2lQd2hSNHJEOHhFVEdxNjhkZm42RmotU3B0aXhzdHo2R1Juc01CUnh3OWc0ZXdxNTByU3dkSWVoMzVhRHJkdzlLNXhsNFh5QldlX0N2RlZubThqdkpQd3ljRS1xLWQxUXVLNXpz?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-31T18:42:49.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Very Positive on European Stocks: UBS’s Panseri",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/very-positive-on-european-stocks-ubs-s-panseri-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:42:39.000Z",
+      "kind": "news",
+      "summary": "UBS Wealth Management France CIO Claudio Panseri discusses European earnings, how Europe works with AI stocks, and gives her outlook on bond yields. She speaks with Anna Edwards and Guy Johnson on ‘Opening Trade.’ (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US Says Not Involved in Redirecting Pakistan-Bound LNG Tanker",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/us-says-not-involved-in-redirecting-pakistan-bound-lng-tanker",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:41:44.000Z",
+      "kind": "news",
+      "summary": "The US said it had no role in redirecting the first Qatari liquefied natural gas shipment to transit the Strait of Hormuz in more than three weeks.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
+      "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-31T18:33:23.000Z",
+      "kind": "news",
+      "summary": "Leopold Aschenbrenner, a former OpenAI researcher-turned-hedge fund manager, saw a dramatic decline this week in his AI-focused fund, Situational Awareness.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Couche-Tard CEO Expects Żabka Shareholder Pressure to Raise Bid",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/couche-tard-ceo-expects-zabka-shareholder-pressure-to-raise-bid",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:28:05.000Z",
+      "kind": "news",
+      "summary": "The head of Alimentation Couche-Tard Inc. said he expects pushback from some Żabka Group SA shareholders on the Canadian company’s $8.7 billion takeover offer, but is still confident about getting the deal done.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Russia’s Cheap, Upgraded Cruise Missiles Pound Black Sea Ports",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/russia-s-cheap-upgraded-cruise-missiles-pound-black-sea-ports",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:21:44.000Z",
+      "kind": "news",
+      "summary": "Ukraine’s Black Sea ports are being ravaged by a new type of Russian missile, the Banderol — whose defining feature is its low cost.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
       "url": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
@@ -1364,18 +1486,6 @@
       "score": 60
     },
     {
-      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
-      "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-31T17:57:53.000Z",
-      "kind": "news",
-      "summary": "Leopold Aschenbrenner, a former OpenAI researcher-turned-hedge fund manager, saw a dramatic decline this week in his AI-focused fund, Situational Awareness.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Watch Anthropic Hack Adds To Fears Over AI Safety - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSlRxVVJIMnFraEV3bWI2Ny1ZakRSLTR3dHFiX3luT295bmJDajVoRGNYcldPMkVGRGtraHY4b0tzS3FBUHFidW5LSTFvTy1yZnRqRXN0ZENLLXdmNTNBOWdzUEhaODNLcVdWZkxwdTBSZ3Qxa1YxU3kzQTBvTV9sbVVsdk5UNG9fYnJMMTFyWW1Gb2Z5NExtOWhscUM5RFE?oc=5",
       "source": "Bloomberg.com",
@@ -1393,18 +1503,6 @@
       "publishedAt": "2026-07-31T17:26:15.000Z",
       "kind": "news",
       "summary": "Anthropic says its AI models were involved in a hack, days after OpenAI made a similar disclosure. Does AI have a safety problem? Bloomberg’s Jordan Robertson explains. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Final Trades: Target, Monolithic Power, SLB NV and Transocean",
-      "url": "https://www.cnbc.com/video/2026/07/31/final-trades-target-monolithic-power-slb-nv-and-transocean.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-31T17:24:35.000Z",
-      "kind": "news",
-      "summary": "The article features a \"Halftime Report Final Trades\" segment where the Investment Committee makes its closing calls on Target (TGT), Monolithic Power (MPWR), SLB NV (SLB), and Transocean (RIG). It also includes several related video segments discussing various market topics such as the AI bubble, Amazon's capex guidance, and ExxonMobil's CEO's views on crude prices. The primary focus is on the investment committee's recommendations for the mentioned companies. [sentiment: Neutral]",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1578,6 +1676,17 @@
       "score": 50
     },
     {
+      "title": "The biggest gamble in the U.S. economy is starting to look riskier - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDFlR21zT1pPMi1JUFZnSHdpZTRnbGJneFp3eUI3LU5YdWVhVGtycXBUR0F5Q2ZkVlVzTFVZaThNZlBIdWd3Rms5QjdmN2wtRmJTbG5jQzloLUJobzlQVkdINlRTaWxNemdyUXhkem9ZdlIwMXk2WkN0dmdVOWRReTJyd05oUi1nUHJLc0F5eWNrN0tIcHk3Sl9oOUdtVWNSQVNaNzdGVC1rdVN6?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-31T16:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Index Ventures, Firm Behind Wiz, Revolut, Raises $2 Billion for Trio of Funds",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/index-ventures-firm-behind-wiz-revolut-raises-2-billion-for-trio-of-funds",
       "source": "Bloomberg",
@@ -1638,18 +1747,6 @@
       "score": 50
     },
     {
-      "title": "US Treasury Weighs Repo Entry That Could Reshape Funding Markets",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/treasury-weighs-repo-entry-that-could-reshape-funding-markets",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T15:45:01.000Z",
-      "kind": "news",
-      "summary": "The US Treasury is exploring bringing some of its cash pile into the roughly $13 trillion market for repurchase agreements, reviving a two-decade old idea and sparking a debate around its potential to reshape a key part of the financial system’s plumbing.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Treasuries Fall as Fed Dissenters Flag Risks, Oil Prices Climb",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/treasuries-fall-as-fed-dissenters-flag-risks-oil-prices-climb",
       "source": "Bloomberg",
@@ -1668,18 +1765,6 @@
       "publishedAt": "2026-07-31T15:29:02.000Z",
       "kind": "news",
       "summary": "AWS sales expanded 37% year over year, which trounced analysts' expectations for 31% growth.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Chile Posts Weakest Copper Output for Second Quarter in 19 Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/chile-posts-weakest-copper-output-for-second-quarter-in-19-years",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T15:23:32.000Z",
-      "kind": "news",
-      "summary": "Chile registered its weakest second quarter of copper production in data going back to 2007, underscoring the challenge facing the world’s biggest supplier as aging mines struggle to lift output despite billions of dollars of investment.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1791,32 +1876,9 @@
     },
     {
       "title": "Sterling Infrastructure and Tractor Supply Company have been highlighted as Zacks Bull and Bear of the Day - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOZHVoeEc5VzE3aUxtQlBQel9mRzNKeXhycE1QS2FuNzdrRkRJeUN0ZmVxcVc4RnI2S245SzZZRHNkR3NvdmdidnhYQ0NRaDZJUUZyTjN3OTNKVmM5bzh2cmhJdG1xLWVsZ2ZxaHhzSWZsLXVuX3ZHTFh5OEtsUjBKUTRmWGF6WjVfbHhjSWJJQzd6ZHR4LXpnVVpROVAwb01xajktTGs2cjBUR1ZHeWdQMnp4VzM5dVctMFNFajFhRVg5Y09Udy1kblF2T2Q3ZzBaeFRFcjQyU1FJZjM2endqUjBrWGRVZnJpcl9DSTduNHNPT0pHdXY1UFBWckVfZ0h5TXdodXlUM05WcjRqMlN4U3dkbllrQmNzNVpn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOaEFFYXdIelZQc25LbG0tdjkyZ25jcEt4ZUhFZkl5UlpWT0tBRUdhbDVQdk5Zek1sRGN4UWR1cWh2c3dTZ3JoVDFvT2dYczdNY3M5S3VIX3IwWkIwbXpFQS1XX3lfMC04TDU0UWtIOFpRUW5keEk3SlI2OTRDS2lsby1TbTBYeG41U2Nad1FZeFZMbFVnWlVNTzNGbElROGVIT180eWhoSW1ZX3RseW1WS0dMdkFHUTZ3NGFqR1BzODJUalRWRTZha2tXVUxPVnlFZjVyVVdzVzc3TmtHVVZIRm9JUWFDOWQ5MmhEbjNDVDhmWnJUcno2RTI4aEc0Y01tMWhlY3BwVVVoLVF4UlJhMlVSR3d4Q0ZadHc?oc=5",
       "source": "The Globe and Mail",
-      "publishedAt": "2026-07-31T14:58:23.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Proto Labs Lifts Guidance on New Data Center, Defense Clients",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/proto-labs-lifts-guidance-on-new-data-center-defense-clients",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T14:51:55.000Z",
-      "kind": "news",
-      "summary": "Automated manufacturing company Proto Labs Inc. raised its full-year outlook after earnings reached a seven-year high, helped by renewed strength in its injection molding business and new data center and defense customers.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Claude AI has gone dangerously rogue, Anthropic says - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV3VQZUxSekd2YkZ0YmpyLXF5WmpYd3IxaUZwcTc0QzQwU2FJUU5UNENFTEE5S0Y3a2EzMFdwVVZoa3U5RzJyOUJPWGZxcjYzcWgwNWhHTFY2ZG1OcXhLUE85eXhDcHhPLVpBMUN3NzVmX2dZNUFTNzVVNXFrNXJOR29jZ2JLLXJuaV9LcW8zTkxpNjFPUG92MDdR?oc=5",
-      "source": "The Independent",
-      "publishedAt": "2026-07-31T14:48:00.000Z",
+      "publishedAt": "2026-07-31T14:58:58.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1853,76 +1915,6 @@
       "source": "The Wake Weekly",
       "publishedAt": "2026-07-31T14:19:45.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "UK Chancellor John Healey to Deliver First Budget on October 28",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/uk-chancellor-john-healey-to-deliver-first-budget-on-october-28",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T14:10:44.000Z",
-      "kind": "news",
-      "summary": "UK Chancellor of the Exchequer John Healey will deliver his first budget on Oct. 28, a key moment for Prime Minister Andy Burnham’s new administration.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Jana Adds More Sale Pressure on Alkami in Board Letter",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/jana-adds-more-sale-pressure-on-alkami-in-new-letter-to-board",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T14:05:33.000Z",
-      "kind": "news",
-      "summary": "Activist investor Jana Partners contends Alkami Technology Inc. is failing to run a true sale process, according to a new letter to the fintech company’s board that was reviewed by Bloomberg News.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Consumer Sentiment Rises to a Five-Month High in July",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/us-consumer-sentiment-rises-to-five-month-high-on-broad-pickup",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T14:00:00.000Z",
-      "kind": "news",
-      "summary": "US consumer sentiment rose to five-month high in July as views about the outlook improved and gasoline prices remained below war-time highs.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Buy 5 AI Infrastructure Stocks as Big Techs Assure Lasting AI Frenzy - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNcHJPd0c2SGs0eGZZQjVMdjB5RkJRUUpOSWpxcWU4M05aRFRTWEhra05vcEhfZ21fVHpjYm5aZ2V2d25Ra3lISnowVzlhZzhXaDFjTUdCMDZxNTUwdVI2TmUxSW5FQVdiLWZjZlJTQXNycDhwNXoxVnN4Z3ZJT1QtR3YwUm9nWnozWUZCdHpLTV9hazMxTTV0RUtrak9BLV91N2UyYktaUWR1Tmk1V2JBODhrQ0Q2WlNXZTNWM0pwQjg3LUI4MDBYRFM3Q0hGTVpTS2k0dkxyVWdfM0p3YnJEaDFKWmJJQQ?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-07-31T13:56:54.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic says Claude accidentally hacked real companies too - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNzM5WTF2azBoUmMtVHJaTzR2Z0pibmdjLVhiSTBzYzYtN245VjdlZWVCRmtoZERWTURCRDFmSWVXWGwwNU1NZmc1cFdaVmx5RVNWdlFMd2ZZYjRVRl9Zamo5eThfRGxqUUl4bnFTbi0tdGU4VkhNMWlrdFJKaW1Gb0gyMV9yT0dReHIzVjJ1cjY3ZWtUb1JOOFhobTdOc0QtenZVbGtoYzd1SWlzUFBuUzZoTE5rQQ?oc=5",
-      "source": "The Verge",
-      "publishedAt": "2026-07-31T13:41:17.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Exxon, Chevron Steer Windfall Profits Into Paying Down Debt",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/exxon-chevron-steer-windfall-profits-into-debt-reduction-ms917v1o",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T13:39:51.000Z",
-      "kind": "news",
-      "summary": "ExxonMobil Holdings Corp. and Chevron Corp. plowed blowout profits into debt reduction rather than huge buyback increases in a sign of Big Oil’s caution about how long war-driven price rallies will last.",
       "tier": 1,
       "tickers": [],
       "related": [],

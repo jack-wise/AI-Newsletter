@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T19:02:17.146Z",
+  "generatedAt": "2026-07-31T19:32:12.584Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -730,20 +730,6 @@
       "summary": "Five jobs posted, TODAY."
     },
     {
-      "title": "Analysts Conflicted on These NA Names: SpaceX (SPCX), Fermi Inc. (FRMI) and Cerebras Systems, Inc. Class A (CBRS) - The Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SPCX-Q/pressreleases/3502101/analysts-conflicted-on-these-na-names-spacex-spcx-fermi-inc-frmi-and-cerebras-systems-inc-class-a-cbrs/",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-07-28T14:08:32.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45,
-      "summary": "Detailed price information for SpaceX Corp (SPCX-Q) from The Globe and Mail including charting and trades."
-    },
-    {
       "title": "Fermi Inc. Admission of shares of Common Stock and Total Voting Rights - PR Newswire",
       "url": "https://www.prnewswire.com/news-releases/fermi-inc-admission-of-shares-of-common-stock-and-total-voting-rights-302832731.html",
       "source": "PR Newswire",
@@ -913,6 +899,28 @@
       "related": [],
       "score": 38,
       "summary": "[July 26, 2026] Fermi America - $FRMI - Discussion Thread"
+    },
+    {
+      "title": "TCEQ Preliminary Decision",
+      "url": "https://www.reddit.com/r/FRMI/comments/1v67ezu/tceq_preliminary_decision/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-07-25T12:43:40.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Tpatty343",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "TCEQ Preliminary Decision"
     }
   ],
   "related": [
@@ -929,6 +937,20 @@
         "NVDA"
       ],
       "score": 75
+    },
+    {
+      "title": "AI Safety Groups Demand Federal Probe; OpenAI and Anthropic Breached Real Systems - Tech Times",
+      "url": "https://www.techtimes.com/articles/322523/20260731/ai-safety-groups-demand-federal-probe-openai-anthropic-breached-real-systems.htm",
+      "source": "Tech Times",
+      "publishedAt": "2026-07-31T19:03:22.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65,
+      "summary": "AI safety federal investigation call from 15 organizations reaches President Trump on July 30, as Anthropic disclosed that Claude models &mdash; including Mythos 5 &mdash; breached three real organizations during misconfigured cybersecurity evaluations, hours before the voluntary EO 14409 framework takes"
     },
     {
       "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - Reuters",
@@ -971,20 +993,6 @@
       "score": 65
     },
     {
-      "title": "Amazon’s Trillion-Dollar AWS AI Bet",
-      "url": "https://www.bloomberg.com/news/videos/2026-07-31/amazon-s-trillion-dollar-aws-ai-bet-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T15:07:08.000Z",
-      "kind": "news",
-      "summary": "Amazon’s AI spending is beginning to deliver measurable results. TD Cowen Analyst John Blackledge joined Bloomberg Open Interest to explain why soaring AWS demand could keep Amazon capacity-constrained through 2027, how the cloud division could eventually reach $1 trillion in revenue, and why Andy Jassy’s AI message is resonating more strongly with investors than Meta’s. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "AMZN"
-      ],
-      "score": 65
-    },
-    {
       "title": "New details in the OpenAI Hugging Face hack show how far agents will go: 'It's now remarkably easy'",
       "url": "https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html",
       "source": "CNBC",
@@ -999,18 +1007,32 @@
       "score": 65
     },
     {
-      "title": "Microsoft Q4 FY 2026: AI Demand Accelerates Azure and Enterprise Growth - The Futurum Group",
-      "url": "https://futurumgroup.com/insights/microsoft-q4-fy-2026-ai-demand-accelerates-azure-and-enterprise-growth/",
-      "source": "The Futurum Group",
-      "publishedAt": "2026-07-31T13:31:12.000Z",
+      "title": "AI Policy Groups Urge White House Investigation Into OpenAI Security Incident - MeriTalk",
+      "url": "https://www.meritalk.com/articles/ai-policy-groups-urge-white-house-investigation-into-openai-security-incident/",
+      "source": "MeriTalk",
+      "publishedAt": "2026-07-31T19:19:29.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "MSFT"
+        "OpenAI"
       ],
-      "score": 65,
-      "summary": "Microsoft Q4 FY 2026 earnings show Azure acceleration, Copilot adoption, agent platform growth, and FY 2027 cloud guidance."
+      "score": 55,
+      "summary": "Technology policy and AI safety leaders want the government to implement a rules-based process for assessing risks posed by advanced AI systems. Their push comes after OpenAI and Anthropic separately disclosed recent AI security incidents."
+    },
+    {
+      "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient - BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-07-31T18:52:44.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more efficient."
     },
     {
       "title": "Rise of the machines? The fallout from Anthropic and OpenAI hacks - USA Today",
@@ -1026,17 +1048,18 @@
       "score": 55
     },
     {
-      "title": "Google pauses AI satellite images, after fears of deepfakes in the sky - Georgia Public Broadcasting",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS2oxMUt1MVhyRlo2TlFOTWswWjZ0SHg1T2JvWU1wSWRYUXVqT1pPclpxd0Roa0RHSkZaLWYyWjRGV3hzanQxQ0liMXM5V18wbUk0TXZzZm94T004eUpmRHYtcmJ2NkkyT3NaZk5nU1NKdGNpSnBWVmFMT21wT2FZMjg1ZXFxRnMySVU4STRET0l6RXdaSTB0b2tDVWxjUTdMV2xtOTVKQnM?oc=5",
-      "source": "Georgia Public Broadcasting",
-      "publishedAt": "2026-07-31T18:29:40.000Z",
+      "title": "Microsoft Q4 FY 2026: AI Demand Accelerates Azure and Enterprise Growth - The Futurum Group",
+      "url": "https://futurumgroup.com/insights/microsoft-q4-fy-2026-ai-demand-accelerates-azure-and-enterprise-growth/",
+      "source": "The Futurum Group",
+      "publishedAt": "2026-07-31T13:31:12.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [
-        "GOOGL"
+        "MSFT"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "Microsoft Q4 FY 2026 earnings show Azure acceleration, Copilot adoption, agent platform growth, and FY 2027 cloud guidance."
     },
     {
       "title": "Moonshot’s Kimi Built on 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
@@ -1163,6 +1186,19 @@
       "score": 55
     },
     {
+      "title": "Google pauses AI satellite images, after fears of deepfakes in the sky - Georgia Public Broadcasting",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS2oxMUt1MVhyRlo2TlFOTWswWjZ0SHg1T2JvWU1wSWRYUXVqT1pPclpxd0Roa0RHSkZaLWYyWjRGV3hzanQxQ0liMXM5V18wbUk0TXZzZm94T004eUpmRHYtcmJ2NkkyT3NaZk5nU1NKdGNpSnBWVmFMT21wT2FZMjg1ZXFxRnMySVU4STRET0l6RXdaSTB0b2tDVWxjUTdMV2xtOTVKQnM?oc=5",
+      "source": "Georgia Public Broadcasting",
+      "publishedAt": "2026-07-31T18:29:40.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45
+    },
+    {
       "title": "NVIDIA: Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security - HPCwire",
       "url": "https://www.hpcwire.com/aiwire/2026/07/31/nvidia-industry-leaders-unite-in-open-secure-ai-alliance-for-ai-safety-and-security/",
       "source": "HPCwire",
@@ -1287,9 +1323,9 @@
       "summary": "NVIDIA (NVDA) is back in focus after a string of AI infrastructure deals and product launches, ranging from Hut 8 data center capacity in Texas to the Vera Rubin CPU platform and new AI security partnerships. See our latest analysis for NVIDIA. NVIDIA’s latest AI factory deals and Vera Rubin launches come after a choppy few weeks, with the stock down over the past month on a 30 day share price return of 2.52% and a 90 day share price return of 1.72%, yet still showing a year "
     },
     {
-      "title": "Amazon (AMZN) Stock Jumps on Record $200B Q2 Revenue, Fueled by AI Growth and Water-Positive Goals - carboncredits.com",
+      "title": "Amazon (AMZN) Stock Jumps on Record $200B Q2 Revenue, Fueled by AI Growth and Water-Positive Goals - CarbonCredits.com",
       "url": "https://carboncredits.com/amazon-amzn-stock-jumps-on-record-200b-q2-revenue-fueled-by-ai-growth-and-water-positive-goals/",
-      "source": "carboncredits.com",
+      "source": "CarbonCredits.com",
       "publishedAt": "2026-07-31T16:17:42.000Z",
       "kind": "news",
       "tier": 3,
@@ -1299,37 +1335,68 @@
       ],
       "score": 45,
       "summary": "Amazon (NASDAQ: AMZN) reported record Q2 2026 revenue of $200.6 billion, driven by AWS and AI growth. Learn how AI investments, negative free cash flow, AMZN stock performance, and sustainability progress are shaping Amazon's future."
-    },
-    {
-      "title": "New Google Earth AI tool could fuel misinformation, experts say - BBC",
-      "url": "https://www.bbc.com/news/articles/c9349yx2ydvo",
-      "source": "BBC",
-      "publishedAt": "2026-07-31T16:09:15.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45,
-      "summary": "Experts tell BBC Verify Google's new feature which lets people generate fake satellite images could be misused."
-    },
-    {
-      "title": "OpenAI Explains Why It's Slashing AI Prices — Michael Burry Says The 'Real News' Is Preparation For DeepSeek's New V4 Models - stocktwits.com",
-      "url": "https://stocktwits.com/news-articles/markets/equity/openai-explains-why-it-cut-prices-michael-burry-real-news-deepseek-v4-models/cZN4ghERJPV",
-      "source": "stocktwits.com",
-      "publishedAt": "2026-07-31T16:03:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "OpenAI argued that AI infrastructure is valuable not because of its scale, but because it enables more capable intelligence at a lower cost."
     }
   ],
   "general": [
+    {
+      "title": "AI & Tech Brief: Anthropic’s rogue agents - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOam9qRkxNMGFrS3liX1FLSGtOV1ZTZ2oxT3d4YnA4Qzh0LVNaX2RpZ3dvM1RYNkhDTUNweU1OYmpvbXhnSDJvV3JJV2lQd2hSNHJEOHhFVEdxNjhkZm42RmotU3B0aXhzdHo2R1Juc01CUnh3OWc0ZXdxNTByU3dkSWVoMzVhRHJkdzlLNXhsNFh5QldlX0N2RlZubThqdkpQd3ljRS1xLWQxUXVLNXpz?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-31T19:24:52.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Big Tech Holds $2 Trillion of Spending Commitments for AI Boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/big-tech-holds-2-trillion-of-spending-commitments-for-ai-boom",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T19:13:19.000Z",
+      "kind": "news",
+      "summary": "The four largest players in the data center race have committed nearly $2.4 trillion in spending over the coming years, pointing to massive ongoing investment in AI infrastructure.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Apple's Stumble, Amazon's Surge and Anthropic's Hacks | Bloomberg Tech 7/31/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/bloomberg-tech-7-31-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T19:11:09.000Z",
+      "kind": "news",
+      "summary": "Bloomberg’s Ed Ludlow breaks down Tim Cook's final Apple earnings call as CEO - a story of supply crunches, demand misreads and a tough outlook. Plus, Amazon's shares roar on AI progress, big spending and accelerating cloud growth. And, after OpenAI's breaches, Anthropic is now saying its own AI models breached three organizations during cybersecurity tests. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
+      "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+      "source": "CNBC",
+      "publishedAt": "2026-07-31T19:07:44.000Z",
+      "kind": "news",
+      "summary": "Leopold Aschenbrenner, a former OpenAI researcher-turned-hedge fund manager, saw a dramatic decline this week in his AI-focused fund, Situational Awareness.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Trump Casts Doubt on New Iran Negotiations as War Drags On",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/trump-casts-doubt-on-iran-negotiations-as-war-drags-on-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T19:05:48.000Z",
+      "kind": "news",
+      "summary": "Retired Army General Wesley Clark, who served as Supreme Allied Commander Europe, said the more the US wants negotiations, the stronger the hand Iran thinks it has at the table. Clark said that the Iranian government sees the fight against the US as existential and that it will take more than taking out a few oil refineries to get the IRGC to surrender, particularly as they receive more backing from Russia and China. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "The Future of the Democratic Party Runs Through Michigan",
       "url": "https://www.bloomberg.com/news/videos/2026-07-31/the-future-of-the-democratic-party-runs-through-michigan",
@@ -1337,6 +1404,18 @@
       "publishedAt": "2026-07-31T19:00:04.000Z",
       "kind": "news",
       "summary": "On today’s Big Take podcast, host David Gura sits down with senior political correspondent Nancy Cook and Bloomberg Opinions’ Ronald Brownstein to unpack the stakes of the Michigan Democratic primary, where a centrist candidate is facing off against a Democratic-Socialist-backed progressive — and what their showdown could reveal about the party’s future. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Fed Needs Clear Inflation Target and Messaging, Clarida Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-07-31/fed-needs-clear-inflation-target-and-messaging-clarida-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-31T18:57:56.000Z",
+      "kind": "news",
+      "summary": "Former Federal Reserve Vice Chairman Richard Clarida joins Scarlet Fu and Tom Keene on \"Bloomberg Money\" to discuss this week's Fed decision, Chairman Kevin Warsh's communication decisions and the increased divergence in the K-shaped economy. Clarida is currently a global economic adviser for Pimco. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1391,17 +1470,6 @@
       "score": 60
     },
     {
-      "title": "AI & Tech Brief: Anthropic’s rogue agents - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOam9qRkxNMGFrS3liX1FLSGtOV1ZTZ2oxT3d4YnA4Qzh0LVNaX2RpZ3dvM1RYNkhDTUNweU1OYmpvbXhnSDJvV3JJV2lQd2hSNHJEOHhFVEdxNjhkZm42RmotU3B0aXhzdHo2R1Juc01CUnh3OWc0ZXdxNTByU3dkSWVoMzVhRHJkdzlLNXhsNFh5QldlX0N2RlZubThqdkpQd3ljRS1xLWQxUXVLNXpz?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-07-31T18:42:49.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Very Positive on European Stocks: UBS’s Panseri",
       "url": "https://www.bloomberg.com/news/videos/2026-07-31/very-positive-on-european-stocks-ubs-s-panseri-video",
       "source": "Bloomberg",
@@ -1426,18 +1494,6 @@
       "score": 60
     },
     {
-      "title": "How Leopold Aschenbrenner built a $45 billion AI hedge fund — and lost most of it in days",
-      "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-31T18:33:23.000Z",
-      "kind": "news",
-      "summary": "Leopold Aschenbrenner, a former OpenAI researcher-turned-hedge fund manager, saw a dramatic decline this week in his AI-focused fund, Situational Awareness.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Couche-Tard CEO Expects Żabka Shareholder Pressure to Raise Bid",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/couche-tard-ceo-expects-zabka-shareholder-pressure-to-raise-bid",
       "source": "Bloomberg",
@@ -1447,7 +1503,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Russia’s Cheap, Upgraded Cruise Missiles Pound Black Sea Ports",
@@ -1459,7 +1515,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks",
@@ -1471,7 +1527,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "CreditSights’ Winnie Cisar Gives Outlook on Tech Bonds",
@@ -1483,7 +1539,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Ohio State Fair plans to change rules after AI poster wins contest - The Columbus Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZG1VZHVnWWVVeEY5dzc1TERNVHJxcF8xU2RpNlpLX1hUZjlOMnlvZUh0WkpzN0RHSzhXdkxjWW04VlI5QVFQbEpsWXBYbnpfWjNZOFUxbHBSaEVBQVA2UmZCVjB4U0ZRMHhQMmIzLWUwS3V3MnFYZ0IzdXp6WFNiZ2J0U3dxdjBWRWl6RkNWUWxaa0ZfVGVqVVV2Rm9peGZzTDVCRVhoRTFIMjMxTEp3ZURkeThjYVc3TjdiRF81VnJOUQ?oc=5",
+      "source": "The Columbus Dispatch",
+      "publishedAt": "2026-07-31T17:35:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Watch Anthropic Hack Adds To Fears Over AI Safety - Bloomberg.com",
@@ -1629,17 +1696,6 @@
       "score": 50
     },
     {
-      "title": "What we know about the rogue AI-agent security breaches - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUnRGd0w4WEhBT3ZTQ1lnOVRQYVpGTTAzMFVmMmE2Zi1vaFlCWWZNS0pXcDFOVWdwYjd2RktjMlV5ZjRGdzdVTWxQRHN4UXJJRThqYU9ZUmFua054eEowWHEzNV92SDhNQkdRQ2pwdl9YcWlId3NweWFRN0M3cEdwNGtyZ0JMNzJ5NWpuU0M4ZkVLZXJLYUNwbktZSTVBYnltRDkwMW12cw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-07-31T16:10:09.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "AI Has Reached an Inflection Point",
       "url": "https://www.bloomberg.com/news/videos/2026-07-31/ai-has-reached-an-inflection-point-video",
       "source": "Bloomberg",
@@ -1729,18 +1785,6 @@
       "publishedAt": "2026-07-31T15:52:20.000Z",
       "kind": "news",
       "summary": "ExxonMobil and Chevron on Friday reported second-quarter profits that surged on rising oil prices due to the Iran war.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Cable One Creditors Organize, Pressuring Plans for New Capital",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/cable-one-creditors-organize-pressuring-plans-for-new-capital",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T15:52:10.000Z",
-      "kind": "news",
-      "summary": "Cable One Inc. creditors have begun mobilizing in different groups as a steep selloff in the broadband company’s debt complicates its plans for fresh capital.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1879,41 +1923,6 @@
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOaEFFYXdIelZQc25LbG0tdjkyZ25jcEt4ZUhFZkl5UlpWT0tBRUdhbDVQdk5Zek1sRGN4UWR1cWh2c3dTZ3JoVDFvT2dYczdNY3M5S3VIX3IwWkIwbXpFQS1XX3lfMC04TDU0UWtIOFpRUW5keEk3SlI2OTRDS2lsby1TbTBYeG41U2Nad1FZeFZMbFVnWlVNTzNGbElROGVIT180eWhoSW1ZX3RseW1WS0dMdkFHUTZ3NGFqR1BzODJUalRWRTZha2tXVUxPVnlFZjVyVVdzVzc3TmtHVVZIRm9JUWFDOWQ5MmhEbjNDVDhmWnJUcno2RTI4aEc0Y01tMWhlY3BwVVVoLVF4UlJhMlVSR3d4Q0ZadHc?oc=5",
       "source": "The Globe and Mail",
       "publishedAt": "2026-07-31T14:58:58.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Federal Reserve Unveils Plan Aiming to Boost Mutual Bank Growth",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/federal-reserve-unveils-plan-aiming-to-boost-mutual-bank-growth",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T14:43:44.000Z",
-      "kind": "news",
-      "summary": "Mutual banks would see more “flexibility” for raising capital under a plan unveiled by the Federal Reserve on Friday.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bank of England Hawks Appear Isolated as Deputies Shift Ground",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/bank-of-england-hawks-appear-isolated-as-deputies-shift-ground",
-      "source": "Bloomberg",
-      "publishedAt": "2026-07-31T14:39:02.000Z",
-      "kind": "news",
-      "summary": "Clear blue water is emerging on the Bank of England’s rate-setting committee with its three hawks now looking increasingly stranded in their push for higher interest rates.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Opinion: Data centers are good, actually - The Wake Weekly",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVUhtNmdvYmx2c2NEMFhST2JiN05sNGdoODI2NHB6RDg4R0VOV0FSS3k3a1BJbXlwWmZiQ1JEalk2dWdNVlpXQ29JZ0Ntdk9vakZKZkt4YkFvWlo5WW9VSFItYVk5QkxUTlJEVDVIRkUwZUtOdkt0MWI1UGtxUG9VZE9xT29tckliaHc?oc=5",
-      "source": "The Wake Weekly",
-      "publishedAt": "2026-07-31T14:19:45.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

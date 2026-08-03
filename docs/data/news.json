@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:02:09.753Z",
+  "generatedAt": "2026-08-03T12:32:07.820Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -939,6 +939,20 @@
   ],
   "related": [
     {
+      "title": "OpenAI’s models are going even more rogue, report claims - The Independent",
+      "url": "https://www.independent.co.uk/tech/security/openai-chatgpt-rogue-ai-hack-anthropic-claude-b3026421.html",
+      "source": "The Independent",
+      "publishedAt": "2026-08-03T12:01:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "More systems seem to breaking out of containment, across the AI industry"
+    },
+    {
       "title": "Alibaba's Qwen3.8-Max Claims to Rival OpenAI, Anthropic - The Tech Buzz",
       "url": "https://www.techbuzz.ai/articles/alibaba-s-qwen3-8-max-claims-to-rival-openai-anthropic",
       "source": "The Tech Buzz",
@@ -967,9 +981,9 @@
       "summary": "The European Commission can demand to inspect AI models, restrict market access and fine providers up to 15 million euros or 3% of turnover."
     },
     {
-      "title": "Apple vs. OpenAI: How Siri AI Stacks Up Against the New ChatGPT - Bloomberg.com",
+      "title": "Apple vs. OpenAI: How Siri AI Stacks Up Against the New ChatGPT - bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-08-03/apple-siri-ai-vs-chatgpt-which-ai-assistant-is-better",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "publishedAt": "2026-08-03T09:30:04.000Z",
       "kind": "news",
       "tier": 1,
@@ -983,7 +997,7 @@
       "title": "AI is starting to rewrite the software that made Nvidia untouchable - Business Insider",
       "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
       "source": "Business Insider",
-      "publishedAt": "2026-08-03T09:00:14.000Z",
+      "publishedAt": "2026-08-03T09:00:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1007,6 +1021,49 @@
       "score": 65
     },
     {
+      "title": "Alibaba takes aim at OpenAI and Anthropic with Qwen3.8-Max launch - InfoWorld",
+      "url": "https://www.infoworld.com/article/4204415/alibaba-takes-aim-at-openai-and-anthropic-with-qwen3-8-max-launch.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-08-03T12:25:18.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "The new open-weight model targets enterprise software engineering and multimodal workloads as enterprises weigh deployment efficiency alongside AI model performance."
+    },
+    {
+      "title": "NVIDIA’s Reported $50B Lease and the Nuclear-Powered AI Factory - Data Center Frontier",
+      "url": "https://www.datacenterfrontier.com/hyperscale/article/55394688/nvidias-reported-50b-lease-and-the-nuclear-powered-ai-factory",
+      "source": "Data Center Frontier",
+      "publishedAt": "2026-08-03T12:13:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Hut 8’s reported NVIDIA lease and the Aalo–Crusoe nuclear partnership illustrate two emerging models for integrating compute, power, financing and data center development at scale..."
+    },
+    {
+      "title": "E.U. AI Act enforcement powers target OpenAI, Anthropic, Google - qz.com",
+      "url": "https://qz.com/eu-ai-act-enforcement-fines-openai-anthropic-google-080326",
+      "source": "qz.com",
+      "publishedAt": "2026-08-03T12:09:42.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "The European Commission can now demand model evaluations, restrict E.U. market access, and levy fines on general-purpose AI providers"
+    },
+    {
       "title": "Hugging Face CEO Calls for Mandatory Disclosure of AI Cyberattacks After OpenAI Security Incident - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/08/60866270/hugging-face-ceo-calls-for-mandatory-disclosure-of-ai-cyberattacks-after-openai-security-incident",
       "source": "Benzinga",
@@ -1019,20 +1076,6 @@
       ],
       "score": 55,
       "summary": "Delangue urges mandatory AI cyberattack disclosures after OpenAI and Anthropic incidents raise concerns over rogue AI agents and security risks."
-    },
-    {
-      "title": "Jeff Bezos Backed a $2.6 Billion AI Startup That's Partnering With Nvidia and Meta on New Chip Materials - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/02/jeff-bezos-backed-a-26-billion-ai-startup-thats-pa/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-03T00:13:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "As the AI industry continues to grow, seemingly minor things are becoming serious stumbling blocks. CuspAI is addressing at least one of these industrywide impediments."
     },
     {
       "title": "F5 Integrates AI Guardrails with NVIDIA NeMo Guardrails to Strengthen Enterprise AI Security - The Fast Mode",
@@ -1075,18 +1118,18 @@
       "score": 55
     },
     {
-      "title": "OpenAI says AI system advances 10 major math problems - The American Bazaar",
-      "url": "https://americanbazaaronline.com/2026/08/02/openai-ai-model-advances-mathematics-theoretical-computer-science-485636/",
-      "source": "The American Bazaar",
-      "publishedAt": "2026-08-02T16:38:33.000Z",
+      "title": "China's Alibaba Unveils New AI Model To Challenge OpenAI, Anthropic - bernama",
+      "url": "https://www.bernama.com/en/news.php/?id=2589798",
+      "source": "bernama",
+      "publishedAt": "2026-08-03T10:47:31.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 55,
-      "summary": "OpenAI says its internal Astra model produced new results on 10 longstanding problems in mathematics and theoretical computer science."
+      "score": 45,
+      "summary": "China, artificial intelligence, Alibaba, new AI mo"
     },
     {
       "title": "OpenAI Finds More AI Agents Escaped Containment - Technology Org",
@@ -1143,6 +1186,20 @@
       "summary": "OpenAI announced its latest model Astra, explaining that it has solved or made significant progress to 10 longstanding mathematics and computing problems"
     },
     {
+      "title": "Rathbones Group PLC Cuts Holdings in Alphabet Inc. $GOOG",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-rathbones-group-plc-cuts-holdings-in-alphabet-inc-goog-2026-08-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-03T09:49:07.000Z",
+      "kind": "news",
+      "summary": "Rathbones Group PLC reduced its stake in Alphabet Inc. (NASDAQ:GOOG) by 8.1% in the first quarter, selling 138,063 shares and holding 1,574,452 shares valued at $451.65 million. Other institutional investors also adjusted their positions, while company insiders sold a significant number of shares. Analysts maintain a \"Buy\" rating for Alphabet, with an average price target of $410.09, despite concerns about increased capital spending on AI infrastructure impacting cash flow. [sentiment: Neutral]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45
+    },
+    {
       "title": "OpenAI, Effingham IDA talk revenue, jobs for data center | Exclusive - Savannah Morning News",
       "url": "https://www.savannahnow.com/story/news/2026/08/03/local-officials-explain-abatement-agreement-for-new-data-center/91087706007/",
       "source": "Savannah Morning News",
@@ -1152,6 +1209,48 @@
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Militia Capital Management LLC Invests $6.38 Million in Alphabet Inc. $GOOG",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-militia-capital-management-llc-invests-638-million-in-alphabet-inc-goog-2026-08-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-03T08:47:09.000Z",
+      "kind": "news",
+      "summary": "Militia Capital Management LLC recently acquired a new position in Alphabet Inc. (NASDAQ:GOOG) during the first quarter, purchasing 22,229 shares valued at approximately $6.38 million, making it their 10th largest holding. Other institutional investors have also adjusted their positions in Alphabet, with the company reporting strong quarterly earnings, a dividend announcement, and continued analyst optimism despite concerns over high capital expenditures on AI. [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45
+    },
+    {
+      "title": "NVIDIA Corporation $NVDA Shares Purchased by PNC Financial Services Group Inc.",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-nvidia-corporation-nvda-shares-purchased-by-pnc-financial-services-group-inc-2026-08-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-03T08:46:55.000Z",
+      "kind": "news",
+      "summary": "PNC Financial Services Group Inc. increased its stake in NVIDIA Corporation by 3.4% during the first quarter, now owning over 11 million shares valued at approximately $1.93 billion. This makes NVIDIA the 8th largest holding for PNC. Other institutional investors also adjusted their positions, and analysts generally maintain a \"Buy\" rating for NVDA with a consensus target price of $304.26, despite some recent insider selling and financing concerns. [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Chelsea Counsel Co. Has $11.40 Million Stake in Alphabet Inc. $GOOG",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-chelsea-counsel-co-has-1140-million-stake-in-alphabet-inc-goog-2026-08-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-03T08:29:03.000Z",
+      "kind": "news",
+      "summary": "Chelsea Counsel Co. reduced its stake in Alphabet Inc. (NASDAQ:GOOG) by 10.8% in Q1, selling 4,807 shares, but still held 39,753 shares worth $11.4 million, representing 5% of its portfolio. Alphabet reported strong quarterly revenue growth of 24.2% year-over-year to $119.8 billion and EPS of $9.11, exceeding consensus estimates. Investor optimism is driven by AI and Google Cloud growth, though concerns about increased capital spending ($195-$205 billion) and pressure on free [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
       ],
       "score": 45
     },
@@ -1197,18 +1296,46 @@
       "summary": "That dream RTX upgrade may be slipping further out of reach as AI keeps driving GPU prices higher."
     },
     {
-      "title": "Anthropic, OpenAI AI Sandbox Failures Expose Testing Risks - BankInfoSecurity",
-      "url": "https://www.bankinfosecurity.com/anthropic-openai-ai-sandbox-failures-expose-testing-risks-a-32394",
-      "source": "BankInfoSecurity",
-      "publishedAt": "2026-08-03T07:37:21.000Z",
+      "title": "Alesco Advisors LLC An ESL Co Buys 16,054 Shares of NVIDIA Corporation $NVDA",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-alesco-advisors-llc-an-esl-co-buys-16054-shares-of-nvidia-corporation-nvda-2026-08-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-03T07:06:48.000Z",
       "kind": "news",
+      "summary": "Alesco Advisors LLC An ESL Co significantly increased its stake in NVIDIA Corporation (NASDAQ:NVDA) by 224.4% in the first quarter, purchasing an additional 16,054 shares to bring its total holdings to 23,208 shares worth $4.048 million. This move is part of a broader trend of institutional investors modifying their positions in NVIDIA, with several other major firms also increasing their holdings. The article highlights NVIDIA's strong financial performance, recent dividend  [sentiment: Bullish]",
       "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
-      "score": 45,
-      "summary": "Anthropic disclosed that three Claude models breached intended testing boundaries after human configuration mistakes while OpenAI previously revealed its models"
+      "score": 45
+    },
+    {
+      "title": "Acumen Wealth Advisors LLC Grows Position in NVIDIA Corporation $NVDA",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-acumen-wealth-advisors-llc-grows-position-in-nvidia-corporation-nvda-2026-08-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-03T07:06:41.000Z",
+      "kind": "news",
+      "summary": "Acumen Wealth Advisors LLC significantly increased its stake in NVIDIA Corporation by 482.6% in the first quarter, now holding 39,323 shares valued at $6.86 million, making it 1.8% of their portfolio. Other institutional investors also adjusted their positions, mostly showing increased holdings in NVIDIA. The article highlights both positive factors for NVIDIA, such as strong demand from Amazon and Chinese AI companies and overall market bullishness, alongside neutral and neg [sentiment: Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Alphabet Inc. (NASDAQ:GOOGL) Receives Consensus Recommendation of \"Buy\" from Brokerages",
+      "url": "https://www.marketbeat.com/instant-alerts/alphabet-inc-nasdaqgoogl-receives-consensus-recommendation-of-buy-from-brokerages-2026-08-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-03T06:35:05.000Z",
+      "kind": "news",
+      "summary": "Alphabet Inc. (NASDAQ:GOOGL) has received a consensus \"Buy\" recommendation from brokerages, with 44 out of 54 analysts rating the stock \"Buy\" and six rating it \"Strong Buy,\" alongside an average 12-month price target of $419.86. The company recently reported strong quarterly earnings and revenue that surpassed estimates, driven by its AI and cloud momentum. Despite positive sentiment regarding its custom AI chips and cloud growth, investors are cautious about rising infrastru [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45
     },
     {
       "title": "OpenAI AI agent escapes raise security concerns - Tech Wire Asia",
@@ -1223,131 +1350,79 @@
       ],
       "score": 45,
       "summary": "OpenAI is investigating additional AI agent containment failures uncovered after the Hugging Face incident."
-    },
-    {
-      "title": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open' - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcmdXeDhvOWhnMk1CdEVPQ1l3SExjSl9Yd1dNWlpVS3U0WU9ta2EwM1U4REJyanh0QXVOZUdiXzVNYWJfazdzOG91VEFYS0o2eXBXNnQ4WVNjWEZ2T0xCaXpDaUkwX1VXamh2by1seFhGSE1McW1INDl5MnVBakdia3czNNIBiAFBVV95cUxPckY3OG1rcGJyWTBzdC16bGloeExwRmVVcmI3b19YQXZnSE44T0k1bzRuc0x0cXZ6SDRxQUZHQmdGeHZ3a0h0SS1pWl9NSlFZcHZubzY0eU50cldpT1QwOHNHaTlSNm1MV2d6N0tSQ2VjZWY1eWVXck93dUF3Z0VYRXBnbHI5dkdn?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-08-01T12:00:01.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Exclusive: OpenAI Previews ‘Astra’ AI Model in DC - The Information",
-      "url": "https://www.theinformation.com/briefings/exclusive-openai-previews-astra-ai-model-dc",
-      "source": "The Information",
-      "publishedAt": "2026-07-31T22:09:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week",
-      "url": "https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-31T20:17:54.000Z",
-      "kind": "news",
-      "summary": "Amazon, Microsoft and Google added hundreds of billions of dollars to their market caps, while Apple and Meta saw their market valuations fall.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45
-    },
-    {
-      "title": "EXCLUSIVE: OpenAI finds evidence other AI agents escaped containment as it widens hacking probe - reuters.com",
-      "url": "https://www.reuters.com/business/openai-finds-evidence-other-ai-agents-escaped-containment-it-widens-hacking-2026-07-31/",
-      "source": "reuters.com",
-      "publishedAt": "2026-07-31T20:16:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "EU in talks with OpenAI, Anthropic after rogue AI agent hacks - reuters.com",
-      "url": "https://www.reuters.com/world/eu-says-necessary-monitor-high-risk-ai-systems-after-openai-anthropic-ai-hacking-2026-07-31/",
-      "source": "reuters.com",
-      "publishedAt": "2026-07-31T17:10:16.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "New details in the OpenAI Hugging Face hack show how far agents will go: 'It's now remarkably easy'",
-      "url": "https://www.cnbc.com/2026/07/30/open-ai-hugging-face-hack-latest.html",
-      "source": "CNBC",
-      "publishedAt": "2026-07-31T14:53:24.000Z",
-      "kind": "news",
-      "summary": "OpenAI's rogue models used publicly exposed credentials across \"four accounts on four services\" to help facilitate the Hugging Face breach.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Microsoft Q4 FY 2026: AI Demand Accelerates Azure and Enterprise Growth - The Futurum Group",
-      "url": "https://futurumgroup.com/insights/microsoft-q4-fy-2026-ai-demand-accelerates-azure-and-enterprise-growth/",
-      "source": "The Futurum Group",
-      "publishedAt": "2026-07-31T13:31:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Microsoft Q4 FY 2026 earnings show Azure acceleration, Copilot adoption, agent platform growth, and FY 2027 cloud guidance."
-    },
-    {
-      "title": "SkillSpector: NVIDIA’s open-source security scanner for AI agent skills - Help Net Security",
-      "url": "https://www.helpnetsecurity.com/2026/08/03/skillspector-open-source-agent-skill-security-scanner/",
-      "source": "Help Net Security",
-      "publishedAt": "2026-08-03T05:30:57.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 35,
-      "summary": "NVIDIA's SkillSpector is an open-source agent skill security scanner: 64 patterns, a 0-100 risk score, and a verdict before you install."
-    },
-    {
-      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI - AI News",
-      "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
-      "source": "AI News",
-      "publishedAt": "2026-08-03T04:24:28.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "MSFT"
-      ],
-      "score": 35
     }
   ],
   "general": [
+    {
+      "title": "China's Next AI Race Goes Beyond Chatbots",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-03/opinion-china-s-next-ai-race-goes-beyond-chatbots-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T12:27:44.000Z",
+      "kind": "news",
+      "summary": "Bloomberg Opinion columnist Catherine Thorbecke says Washington's fixation on Kimi K3 misses China's push to move AI beyond chatbots and into the physical world. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US, Japan Warn of More Yen Action If Needed; Oil Falls on US-Iran Optimism |Bloomberg Brief 08/03/26",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-03/bloomberg-brief-08-03-26-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T12:09:39.000Z",
+      "kind": "news",
+      "summary": "The yen swings after US and Japanese officials signal they are committed to defending the currency following their first joint intervention in 15 years. Oil falls after President Trump called off military strikes in the Middle East and said US-Iran talks are set to resume. Rebecca Walser of Walser Wealth Management discusses the implications of Fed Chair Warsh mulling changes to the frequency and timing of Fed meetings. Massimo Battaini, CEO of Prysmian, discusses the company",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "The Quantum Dividend Is an Energy Dividend—If Washington Sequences It Right - The National Interest",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT2E0cWJ3OHhlMFpHRXkyQTRpSmxuUVBMRDY3RnQyNG9TeFpjbUdORWxlQUxiaFc4QkFDaHYwM3Foc21ueTNQYlVYV043UldVOFBsdEtiMFRMS2dlbUs1eFhmTHVqdEJHUWIyQVBzMC00ZFRSNXBRUkFFY0o1QjVHb2NuN2kybG5yQlpncVk4UC1VOVJMSHp3c1J0T1pBUEpyaXpLbzdHWUN2WFAyNVRpSmVaVWI2NFgzZFE?oc=5",
+      "source": "The National Interest",
+      "publishedAt": "2026-08-03T12:01:51.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
+      "url": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-03T12:00:01.000Z",
+      "kind": "news",
+      "summary": "Two weeks after Tesla's earnings report was panned by Wall Street, Elon Musk faces investors again, but this time to discuss SpaceX's results.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Citrin Cooperman Advisors LLC Accelerates AI Transformation with Ode with Anthropic - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSUJlR2REaldhYmR1dTU3YzZrSG03bWNBOXFYTkJvQzlaM3BMMzMwRk8zSGF2WEdSSW9YdzRMMVRjTG40eUdNUVctZ29HLXVhSjhWb0tyMk1BeGVySzExZDNJVTNZUTNVMzZiRm5iMVEtemhYOG5tbTAxbDhVQXhrUlBIeE12Ri1xRWJJT1NvZGxhT1dPcHdXYlJfV0tsNlk4MkJodUNNeVdidG0yR2I2UE9GS2ljTUF5em1yMGc1NTJOakpUeFhoM0VjWElEMUlCR0tpWGJB?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Brazil Analysts Cut 2026 Selic Forecast on Eve of Rate Decision",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/brazil-analysts-cut-2026-selic-forecast-on-eve-of-rate-decision",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T11:57:46.000Z",
+      "kind": "news",
+      "summary": "Brazilian economists cut their 2026 year-end benchmark interest rate forecast as Latin America’s largest economy shows mounting signs of cooling down.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "‘You Can’t Fool the Bond,’ Says BofA’s Cabana on the Fed",
       "url": "https://www.bloomberg.com/news/videos/2026-08-03/-you-can-t-fool-the-bond-says-bofa-s-cabana-on-the-fed-video",
@@ -1406,7 +1481,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "China Signals New Era for Mining M&A After Zijin Gold Rethink",
@@ -1418,7 +1493,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Family-Linked Bitcoin Miner Posts Second-Quarter Loss",
@@ -1428,17 +1503,6 @@
       "kind": "news",
       "summary": "American Bitcoin Corp., the Trump family-backed miner launched last year just before the cryptocurrency tumbled from record highs, posted a third consecutive quarterly loss after a decline in the value of its holdings.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "KIDZ AI Ties Proposed Dallas Data Center MOU to $44.6M Deal - stocktitan.net",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTm9oNy00cnd5NVlxaHZzUXhfWkRrRUNQdWgxdzlNTktYWHBQSzJYNHpCNUFtemlsbkNRNEFmM3dOU3BmdkRmLXVPckZZbUdDMmlRcVpMcDZ6MEFLV01GdUhUd2pqNVo5TE9rUGdIS1J3Y1otOTBienM3MEx0dkhmMnoyOGpQUDBLWEVvSTZDaExmRDM1RTdYQm5ILUVsS0JsMl9KcThHb0lwSTZxMEdxNXJJemlBakhwUVE?oc=5",
-      "source": "stocktitan.net",
-      "publishedAt": "2026-08-03T11:20:00.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1474,6 +1538,17 @@
       "publishedAt": "2026-08-03T11:01:57.000Z",
       "kind": "news",
       "summary": "The food delivery company is the latest to be asked to share details of AI use by two House committees conducting a joint investigation.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "China’s Alibaba takes another swipe at America’s AI supremacy - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS2FVdlpnY0tibklnaF9BTjExcEQ5Z0tmQThOd3ZBTmZpSXFoVGpjMUk2dXhuMS10eTBLTTh0SWJlaS1mbW1iSDNiQ2RrVG8tSThYcXhJY3J2SlY1cFRTVVBValR2YWhRb2xYaEV3VzkzU2J5NDFHSnZpcHZCa1preXRkZWdGY2VLRTRfbjI0MExGSHNH?oc=5",
+      "source": "The Verge",
+      "publishedAt": "2026-08-03T11:01:11.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1639,18 +1714,6 @@
       "publishedAt": "2026-08-03T10:45:22.000Z",
       "kind": "news",
       "summary": "India’s largest stock exchange was severely hit by the central bank’s tighter funding rules implemented last month, with spending on derivatives slumping to a 17-month low.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "UK Shipbroker Clarkson Sees Result Boost from Hormuz Disruption",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/uk-shipbroker-clarkson-sees-result-boost-from-hormuz-disruption",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T10:40:54.000Z",
-      "kind": "news",
-      "summary": "Clarkson Plc expects its full year performance to be “materially ahead of market expectations” after the shipbroker delivered a record first-half performance boosted by “exceptional volatility” caused by the disruption in the Strait of Hormuz.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1854,9 +1917,9 @@
       "score": 50
     },
     {
-      "title": "BOJ says global AI demand could have sticky inflationary effect - reuters.com",
+      "title": "BOJ says global AI demand could have sticky inflationary effect - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRW51MWl2UjJKTHpxU04zdUM2amxLN1d6aUVLSVRGSVdYVHRWQll3YlZTUHQzQVRkSEViYjNlalQwdUg2LTc0TEM5SDVZb281c0k3VlpVSFlJeENhc3FVNHBIVlJkdG1IN0x3eFVSRUdYdkNKWm9WR1kwQ1kzWHNiN05UampoZlY2V3g5bGxkeFdKdVRiaFVuT1dqQThyZ1B5X3BIZzN0YmdPWE1WdXN3Z0J2alhRVUJUNmc?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "publishedAt": "2026-08-03T08:29:44.000Z",
       "kind": "news",
       "tier": 1,
@@ -1871,64 +1934,6 @@
       "publishedAt": "2026-08-03T08:25:02.000Z",
       "kind": "news",
       "summary": "One of the critical suppliers in the semiconductor industry, Germany’s Zeiss Group, pushed back on investor concerns about bottlenecks in the AI supply chain and said it’s confident it has the capacity to handle booming demand.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Generative AI: Perfect Angel, or Problem Child? - The University of Sydney",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWHd5QW5mR29kVVRkQmVQaVpEWGxrMEk5U3QwemJQQkt0WlVEMzlES1c4OGE0Zl81c0pvVUVNcG1oYWtzOU1BdlJzYVFRMjB3Z1lwYWFsR0ZXZTN1R2gxeGsydm42Rm9fMThwMXVjd0FYeFZhS0ZPWUZmX0hNeGZWRG9mY3o4cXltVDE1SmNQaFJtdGtubU41aHZIZzNyYjhGUG9ZbWNYUFlmTVZUTGJxUERPMUZvT2M?oc=5",
-      "source": "The University of Sydney",
-      "publishedAt": "2026-08-03T07:16:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Turkish Inflation Slows But Central Bank Wary of Oil Risks",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/turkish-inflation-eases-but-energy-costs-test-cenbank-outlook",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T07:02:56.000Z",
-      "kind": "news",
-      "summary": "Turkey’s annual inflation slowed slightly more than expected in July, but volatile energy prices stemming from the Iran war will compel the central bank toward a cautious outlook.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code - The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNd1hUa0NhVnZuSFlyYkdQdlJBUWQ2VmUxRF9neWZwSm1OeUZ1eHdIWTVScmh6S3VHS243LW1nd0lRSEs0X2FYSVg1TnRNc3hsMWd1MDFSQUoxa0U1bUJ5Smk2U2k2MVRMeHhfTTcwcEU4eTFOdFdUY0VrVlc0MEEzLW9LZw?oc=5",
-      "source": "The Hacker News",
-      "publishedAt": "2026-08-03T06:40:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Swiss Inflation Slows to Four-Month Low as SNB Seen on Hold",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/swiss-inflation-slows-to-four-month-low-as-snb-seen-on-hold",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T06:30:00.000Z",
-      "kind": "news",
-      "summary": "Swiss inflation slowed to a four-month low, resisting the impact of energy prices that have fanned surging costs across Europe.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Dip Buyers of Stocks Need to Heed the Market’s Warning Signs",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/dip-buyers-need-to-heed-the-market-s-warning-signs-taking-stock",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T06:19:23.000Z",
-      "kind": "news",
-      "summary": "The momentum trade just gave investors a taste of the pronounced profit-and-loss swings they can expect if they fail to hedge or diversify, a warning that’s reinforced by growing inflation risks.",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:32:06.474Z",
+  "generatedAt": "2026-08-03T04:02:09.068Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Rationale for missed deadline?",
+      "url": "https://www.reddit.com/r/FRMI/comments/1ve2fsd/rationale_for_missed_deadline/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-03T03:47:19.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/popeyesboy",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Rationale for missed deadline?"
+    },
     {
       "title": "What percentage of your portfolio is in FRMI?",
       "url": "https://www.reddit.com/r/FRMI/comments/1vdre6z/what_percentage_of_your_portfolio_is_in_frmi/",
@@ -906,45 +928,9 @@
       "related": [],
       "score": 38,
       "summary": "Mizuho Maintains Outperform on Fermi, Lowers Price Target to $11"
-    },
-    {
-      "title": "Pt downgrade",
-      "url": "https://www.reddit.com/r/FRMI/comments/1v8wtrz/pt_downgrade/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-07-28T12:18:13.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Beautiful-Break543",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Pt downgrade"
     }
   ],
   "related": [
-    {
-      "title": "Jeff Bezos Backed a $2.6 Billion AI Startup That's Partnering With Nvidia and Meta on New Chip Materials - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/02/jeff-bezos-backed-a-26-billion-ai-startup-thats-pa/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-03T00:13:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "As the AI industry continues to grow, seemingly minor things are becoming serious stumbling blocks. CuspAI is addressing at least one of these industrywide impediments."
-    },
     {
       "title": "F5 Integrates AI Guardrails with NVIDIA NeMo Guardrails to Strengthen Enterprise AI Security - The Fast Mode",
       "url": "https://www.thefastmode.com/technology-solutions/49973-f5-integrates-ai-guardrails-with-nvidia-nemo-guardrails-to-strengthen-enterprise-ai-security",
@@ -958,6 +944,19 @@
       ],
       "score": 65,
       "summary": "F5 Integrates AI Guardrails with NVIDIA NeMo Guardrails to Strengthen Enterprise AI Security"
+    },
+    {
+      "title": "EPAM joins OpenAI partner network for enterprise AI - SecurityBrief Australia",
+      "url": "https://securitybrief.com.au/story/epam-joins-openai-partner-network-for-enterprise-ai",
+      "source": "SecurityBrief Australia",
+      "publishedAt": "2026-08-03T03:30:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "OpenAI Stops Generating Revenue Through Its Most Expensive AI Models - 36 Kr",
@@ -974,32 +973,31 @@
       "summary": "Anthropic: We are fully aligned with this position and share the exact same stance, echoing the core viewpoint with consistent recognition and corresponding attitude."
     },
     {
-      "title": "OpenAI reportedly expands probe after finding additional AI agent containment escapes - digitimes",
-      "url": "https://www.digitimes.com/news/a20260803VL208/openai-ai-agent-testing-infrastructure-investigation-anthropic.html",
-      "source": "digitimes",
-      "publishedAt": "2026-08-03T02:55:00.000Z",
+      "title": "Jeff Bezos Backed a $2.6 Billion AI Startup That's Partnering With Nvidia and Meta on New Chip Materials - fool.com",
+      "url": "https://www.fool.com/investing/2026/08/02/jeff-bezos-backed-a-26-billion-ai-startup-thats-pa/",
+      "source": "fool.com",
+      "publishedAt": "2026-08-03T00:13:00.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI has uncovered additional instances of autonomous AI agents escaping their intended testing environments as it broadens an investigation sparked by the high-profile Hugging Face security incident, according to The newly discovered cases were reportedly limited in scope and, based on current findings, none of the agents are believed to have left OpenAI"
-    },
-    {
-      "title": "Oracle and Nvidia Shares Have Plunged Over the Past 3 Months. Is It Time to Cut These Tech Stocks Loose? - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/02/oracle-and-nvidia-shares-have-plunged-over-past-3/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-02T19:15:00.000Z",
-      "kind": "news",
-      "tier": 1,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
       ],
       "score": 55,
-      "summary": "Nvidia and Oracle shareholders are losing patience, but now is not the time to ditch these tech giants."
+      "summary": "As the AI industry continues to grow, seemingly minor things are becoming serious stumbling blocks. CuspAI is addressing at least one of these industrywide impediments."
+    },
+    {
+      "title": "For a Day, Google Made It Easy to Spoof Satellite Imagery - The New York Times",
+      "url": "https://www.nytimes.com/2026/08/02/technology/google-earth-ai-satellite-images.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-02T19:25:56.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
     },
     {
       "title": "OpenAI says AI system advances 10 major math problems - The American Bazaar",
@@ -1029,20 +1027,6 @@
       "score": 55
     },
     {
-      "title": "Nvidia Has $500 Billion in AI Chip Bookings Covering 2025 and 2026, a Backlog Investors Can Track for Future Revenue - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/02/nvidia-has-500-billion-in-ai-chip-bookings-coverin/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-02T11:50:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "CEO Jensen Huang claims investors can buy Nvidia stock \"at a discount\" amid the backlog."
-    },
-    {
       "title": "NVIDIA Rallies Industry Giants to Establish AI Alliance - Business Chief",
       "url": "https://businesschief.com/news/nvidia-rallies-industry-giants-to-establish-ai-alliance",
       "source": "Business Chief",
@@ -1055,6 +1039,20 @@
       ],
       "score": 55,
       "summary": "In collaboration with tech giants like Microsoft and Cisco, NVIDIA has created the Open Secure AI Alliance to build open source models to develop secure AI"
+    },
+    {
+      "title": "OpenAI reportedly expands probe after finding additional AI agent containment escapes - digitimes",
+      "url": "https://www.digitimes.com/news/a20260803VL208/openai-ai-agent-testing-infrastructure-investigation-anthropic.html",
+      "source": "digitimes",
+      "publishedAt": "2026-08-03T02:55:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "OpenAI has uncovered additional instances of autonomous AI agents escaping their intended testing environments as it broadens an investigation sparked by the high-profile Hugging Face security incident, according to The newly discovered cases were reportedly limited in scope and, based on current findings, none of the agents are believed to have left OpenAI"
     },
     {
       "title": "Nobel Prize winner from Little Rock leaves Google for AI developer Anthropic - The Arkansas Democrat-Gazette",
@@ -1085,9 +1083,9 @@
       "summary": "Forbes' 2026 AI 50 shows $305.6B raised across top private AI startups. OpenAI and Anthropic hold 80% of that total, while vertical specialists scale revenue."
     },
     {
-      "title": "OpenAI agrees to independent review of agents’ Hugging Face hacking incident - EdTech Innovation Hub",
+      "title": "OpenAI agrees to independent review of agents’ Hugging Face hacking incident - edtechinnovationhub.com",
       "url": "https://www.edtechinnovationhub.com/news/openai-agrees-to-independent-review-of-agents-hugging-face-hacking-incident",
-      "source": "EdTech Innovation Hub",
+      "source": "edtechinnovationhub.com",
       "publishedAt": "2026-08-03T00:00:49.000Z",
       "kind": "news",
       "tier": 3,
@@ -1113,9 +1111,9 @@
       "summary": "OpenAI has unearthed other examples of its autonomous artificial intelligence agents breaking containment. That’s according to a report Friday (July 31)"
     },
     {
-      "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems - bleepingcomputer.com",
+      "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems - BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
-      "source": "bleepingcomputer.com",
+      "source": "BleepingComputer",
       "publishedAt": "2026-08-02T22:31:41.000Z",
       "kind": "news",
       "tier": 3,
@@ -1127,18 +1125,32 @@
       "summary": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant advances in mathematics and theoretical computer science."
     },
     {
-      "title": "Nvidia vs. Alphabet: What Do Revenue Trends Tell Investors About These Artificial Intelligence Companies? - The Motley Fool",
-      "url": "https://www.fool.com/coverage/charts/2026/08/01/nvidia-vs-alphabet-what-do-revenue-trends-tell-investors-about-these-artificial-intelligence-companies/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-02T02:05:00.000Z",
+      "title": "Oracle and Nvidia Shares Have Plunged Over the Past 3 Months. Is It Time to Cut These Tech Stocks Loose? - fool.com",
+      "url": "https://www.fool.com/investing/2026/08/02/oracle-and-nvidia-shares-have-plunged-over-past-3/",
+      "source": "fool.com",
+      "publishedAt": "2026-08-02T19:15:00.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
       ],
       "score": 45,
-      "summary": "Nvidia's revenue has nearly tripled in two years while Alphabet's has grown steadily; the gap between them is narrowing faster than many expect."
+      "summary": "Nvidia and Oracle shareholders are losing patience, but now is not the time to ditch these tech giants."
+    },
+    {
+      "title": "Nvidia Has $500 Billion in AI Chip Bookings Covering 2025 and 2026, a Backlog Investors Can Track for Future Revenue - fool.com",
+      "url": "https://www.fool.com/investing/2026/08/02/nvidia-has-500-billion-in-ai-chip-bookings-coverin/",
+      "source": "fool.com",
+      "publishedAt": "2026-08-02T11:50:00.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "CEO Jensen Huang claims investors can buy Nvidia stock \"at a discount\" amid the backlog."
     },
     {
       "title": "Nvidia in talks with OpenAI to guarantee $250B for US' biggest data center project that also has Japan's - The Times of India",
@@ -1163,20 +1175,6 @@
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "How Chinese AI Models Could Upend Anthropic, OpenAI, and Nvidia - barrons.com",
-      "url": "https://www.barrons.com/articles/ai-china-nvidia-alibaba-huawei-533e2d8a",
-      "source": "barrons.com",
-      "publishedAt": "2026-08-01T07:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
         "OpenAI"
       ],
       "score": 45
@@ -1275,9 +1273,9 @@
       "score": 45
     },
     {
-      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba - bloomberg.com",
+      "title": "Moonshot’s Kimi Uses 20,000 Nvidia Chip Cluster From Alibaba - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-07-31T14:02:09.000Z",
       "kind": "news",
       "tier": 1,
@@ -1286,20 +1284,6 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "Microsoft Q4 FY 2026: AI Demand Accelerates Azure and Enterprise Growth - The Futurum Group",
-      "url": "https://futurumgroup.com/insights/microsoft-q4-fy-2026-ai-demand-accelerates-azure-and-enterprise-growth/",
-      "source": "The Futurum Group",
-      "publishedAt": "2026-07-31T13:31:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Microsoft Q4 FY 2026 earnings show Azure acceleration, Copilot adoption, agent platform growth, and FY 2027 cloud guidance."
     },
     {
       "title": "OpenAI’s amazing — but vastly oversold — new model Astra - Marcus on AI | Substack",
@@ -1341,9 +1325,106 @@
       ],
       "score": 35,
       "summary": "Nvidia and Kawasaki Heavy Industries announced a new partnership to build a next generation digital shipyard using AI powered robotics for shipbuilding. The collaboration combines Nvidia's AI and simulation platforms with Kawasaki's industrial expertise to redesign shipbuilding workflows. The deal expands Nvidia's reach into maritime and industrial robotics beyond its existing focus on chips and data centers. NVIDIA, traded as NasdaqGS:NVDA, is moving further into real world "
+    },
+    {
+      "title": "CEO of AI firm Hugging Face calls last month's hack by OpenAI model \"very weird and unprecedented\" - CBS News",
+      "url": "https://www.cbsnews.com/news/hugging-face-hack-openai-rogue-model/",
+      "source": "CBS News",
+      "publishedAt": "2026-08-02T19:08:12.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35,
+      "summary": "An artificial intelligence model that was being tested by OpenAI went rogue and hacked the firm Hugging Face on its own, in what Hugging Face CEO Cl&eacute;ment Delangue called a"
     }
   ],
   "general": [
+    {
+      "title": "US-China AI Rivalry Grows With Alibaba's Anthropic Rival",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-03/us-china-ai-rivalry-grows-with-alibaba-s-anthropic-rival-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T03:51:44.000Z",
+      "kind": "news",
+      "summary": "New Chinese AI models including Alibaba's flagship system that claims performance similar to Anthropic’s Fable is intensifying the rivalry between China and the US over AI. Bloomberg's Minmin Low has the latest. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Malaysia’s Top Bank Is Said to Near Buying Ageas Stake in Etiqa",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/malaysia-s-top-bank-is-said-to-near-buying-ageas-stake-in-etiqa",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T03:49:45.000Z",
+      "kind": "news",
+      "summary": "Malayan Banking Bhd. is nearing a deal to buy out Belgian insurer Ageas SA’s minority stake in Etiqa, people familiar with the matter said, a move that would help Malaysia’s biggest lender take full ownership of the Southeast Asian insurer.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Benchmark Firm: China AI Models Still Lag US Rivals",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-03/benchmark-firm-china-ai-models-still-lag-us-rivals-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T03:49:08.000Z",
+      "kind": "news",
+      "summary": "Micah Hill-Smith, CEO of AI model benchmarking platform Artificial Analysis, says his firm's analysis shows that leading Chinese AI models continue to lag their US counterparts by three to nine months, even after the release of breakthrough models. He discusses the findings on \"Bloomberg: The China Show.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Exclusive | Situational Awareness Down 67% in July in AI Stock Rout - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQU5JNHQzN3pOclhOS3Q4eV9CYW9mbW51eHJGNERTeHZDcVVld3FpM0h5UTVHZGJGVXdFMzlTVERxa0RCSnl2OHhfTktmeDNXNW04Q2hOeHpYaW9udlpra3kzQnFqZnhyVmY2UThfNE9OVW5vaHBfRlM1eEJ5NUdOSW1pLWhMazF2Zk93b2YzdmRkTjI0ZlVJdUJZQXQyTnhYeG9j?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-08-03T03:48:57.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Hang Lung's Chan on Hong Kong's Property Recovery",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-03/hang-lung-s-chan-on-hong-kong-s-property-recovery-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T03:43:04.000Z",
+      "kind": "news",
+      "summary": "Adriel Chan, Chairman of Hang Lung Properties, says the recovery in Hong Kong's commercial real estate sector feels \"very real.\" He discusses the industry and the company's outlook exclusively on \"Bloomberg: The China Show.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US Uses Euros to Buy Yen to Avoid Weaker Dollar, Strategists Say",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/us-uses-euros-to-buy-yen-to-avoid-weaker-dollar-strategists-say",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T03:26:58.000Z",
+      "kind": "news",
+      "summary": "The US Treasury may be using euros rather than dollars to fund its yen purchases to avoid weakening its own currency and casting doubt on its strong greenback policy, according to strategists.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Shein Is Said to Weigh Cost Reset for Late Backers Before HK IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/shein-is-said-to-weigh-cost-reset-for-late-backers-before-hk-ipo",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-03T03:21:03.000Z",
+      "kind": "news",
+      "summary": "Shein Global Holdings Ltd. is considering lowering the cost of investment for late backers that came in at an up to $64 billion valuation, people familiar with the matter said, as the fast-fashion retailer prepares for a Hong Kong listing at a much lower value.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Why Bonds Are at Center of US-Japan Intervention on Yen",
       "url": "https://www.bloomberg.com/news/videos/2026-08-03/why-bonds-are-at-center-of-us-japan-intervention-on-yen-video",
@@ -1366,7 +1447,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Zepto Delays IPO in Latest Sign India’s Listing Boom Is Losing Momentum",
@@ -1378,7 +1459,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Alibaba’s Qwen3.8-Max AI Model Claims Benchmark Scores Rivaling Anthropic",
@@ -1387,6 +1468,17 @@
       "publishedAt": "2026-08-03T02:21:50.000Z",
       "kind": "news",
       "summary": "Alibaba Group Holding Ltd. released its latest flagship AI model, with performance claims putting it alongside global leaders like Anthropic’s Fable.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Alibaba Drops Another China AI Model With Breakthrough Performance - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjlHM1ZsVFZ2VWZiRG4xcTd3aWdrU2U2SEwySXh3RWxPYWhBSlM0MTU2M2M3dlVDTnN5TDVUUkJvUGw5WXczVlB0ZzBPMk5NTjhOWkwwcGRHYWk4MGVUdjhRNUc5NXFkN1BFSHdrVnJtM0ZXSDNwM3phcnA5WE1LWjMwbUVhRHV2YUl2SmFBUVZUbXNTQ0EtZVBXRHhoSjlobzJuOWk4SnJvalVfZTdaWkVtRHdjN21v?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-03T02:21:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1500,60 +1592,12 @@
       "score": 50
     },
     {
-      "title": "Stock-Loving Korean President Under Fire Over Wild Market Swings",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/stock-loving-korean-president-under-fire-over-wild-market-swings",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T01:30:50.000Z",
-      "kind": "news",
-      "summary": "As South Korea’s world-beating stock market surged in January, authorities saw a chance to attract more capital and bolster the won by offering high-risk products for notoriously adrenaline-loving retail investors. Now that gamble is backfiring on President Lee Jae Myung.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "India’s IPO Boom Cools as Weak Markets Force Issuers to Cut Back",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/india-s-ipo-boom-cools-as-weak-markets-force-issuers-to-cut-back",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T01:30:00.000Z",
-      "kind": "news",
-      "summary": "India’s initial public offering boom is fading, with proceeds down by a fifth from a year earlier as companies cut deal sizes, accept lower valuations and delay listings, raising doubts about sustaining momentum after two record years.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Japan’s Use of Fed Repo May Ease Pressure on Treasury Market",
       "url": "https://www.bloomberg.com/news/articles/2026-08-03/japan-s-use-of-fed-facility-may-ease-pressure-on-treasury-market",
       "source": "Bloomberg",
       "publishedAt": "2026-08-03T01:26:04.000Z",
       "kind": "news",
       "summary": "Treasury Secretary Scott Bessent’s championing of a Federal Reserve facility Japan can use to boost the yen comes with the benefit of protecting the US bond market from excess sales.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Yen Traders Brace for Intervention as Trump Backs Japan",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-03/yen-traders-brace-for-intervention-as-trump-backs-japan-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T01:14:17.000Z",
-      "kind": "news",
-      "summary": "The yen advanced sharply on Monday amid high alert in markets for more intervention after Japan and the US confirmed that they had conducted coordinated operations last week. Oxford Economics Head of Asia Economics Louise Loo shares what we know about the developments. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "India Exchanges Launch Closing Auction, Challenging Arbitrage Fund Returns",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/lucrative-arb-trade-challenged-in-india-s-closing-price-overhaul",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T01:00:00.000Z",
-      "kind": "news",
-      "summary": "India’s equity-market close is about to align with major global peers. For arbitrage funds, that could come at a cost.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1630,18 +1674,6 @@
       "score": 50
     },
     {
-      "title": "Japan Stocks Slide as Exporters Fall on Yen Intervention Worries",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/japanese-stocks-set-to-fall-on-yen-worries-kioxia-guidance-miss",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-02T22:39:33.000Z",
-      "kind": "news",
-      "summary": "Japanese equities declined as automakers and other exporters dropped amid concerns about a stronger yen following joint currency intervention with the US. Traders remain on high alert for further moves by the authorities.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Oil Falls on Iran Deal Optimism, Yen Strengthens: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-08-02/oil-slumps-us-futures-rise-on-iran-talks-optimism-markets-wrap",
       "source": "Bloomberg",
@@ -1666,16 +1698,15 @@
       "score": 50
     },
     {
-      "title": "Warsh Raises Rethink on Fed’s Policy Meeting Frequency, Timing",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/warsh-raises-rethink-on-fed-s-policy-meeting-frequency-timing",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-02T21:36:17.000Z",
+      "title": "DeepSeek Plans 1GW AI Data Center in Inner Mongolia - Indiatimes",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYkhhYUh4WGU2aVVYSExxWVlLOE1URHQ0S2FZSUxjd19PUTAzUEV1MmNfSVRsdGFFcnM5cXBvRUY4RVFETUliSXF6ZVp4MVc3dEZiUXY2eG5Eck1rTEtob1JZZnpqbTgyLThxZnRRUmJfY05Qck9WS1lzUUFWSEM3TkVzbjhPUXF3bXBVMmxTN1diN0VjY3U5NTFsdTRzMVRwaS1KSzVaX2I1OXUyYTdaSmcwa3huSklYZ1V0alBpbGZ0Q1k0bGJkbmV2bVVkN3p0Y2tna1dnOEJ0WUJiY0E?oc=5",
+      "source": "Indiatimes",
+      "publishedAt": "2026-08-03T03:46:14.000Z",
       "kind": "news",
-      "summary": "Federal Reserve Chairman Kevin Warsh has raised the possibility of changing the frequency of the US central bank’s regular policy meetings, according to people familiar with the matter.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Anthropic’s AI escapes, hacks three companies - ia.acs.org.au",
@@ -1722,9 +1753,9 @@
       "score": 40
     },
     {
-      "title": "Elon Musk's AI Data Centers Need So Much Power He's Buying Gas Turbine Companies -- Who Else Benefits? - aol.com",
+      "title": "Elon Musk's AI Data Centers Need So Much Power He's Buying Gas Turbine Companies -- Who Else Benefits? - AOL.com",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MVmpxNGtadWdFQ1BDekJlV0VITldONEp5dEowOVNZR29vMGpfMGpvOUhlbHF3MGxKc2tCQ0FUX0txSVJTMEFvb0F3eGNrMC1SRTIzdlNkMmN4ZkNzM3BwNnJYeG1PUmkxWGE3dV9xU2x4RlNFTGtzMXNR?oc=5",
-      "source": "aol.com",
+      "source": "AOL.com",
       "publishedAt": "2026-08-03T03:20:26.000Z",
       "kind": "news",
       "tier": 3,
@@ -1755,10 +1786,10 @@
       "score": 40
     },
     {
-      "title": "AI-driven data center demand sparks community discussion in Central New York - WSTM",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWVJkQWZCTGdIdWxiZkZFRS1CamRrejRmRV85ZHhLVEpMYnBSSVFSMmdGcnZXTmE0c3FMU3JGSWJzRVlXTVM0c3lUYWRYbnZnSUN4MVRpbkxiNGQxdUFUeFFSbnl6UmV2dHNHY3IwLW1zRUl0ZjJwNG4xV1NhOEFaZHJGSWI5c1llY0ZXWnFxNVN0TnVrUDZiRU5YZERCTWVlSjdMX21ScXRQbS0yMmFB?oc=5",
-      "source": "WSTM",
-      "publishedAt": "2026-08-03T02:32:52.000Z",
+      "title": "Supermarkets turn to AI to power sales, efficiency - nhk.or.jp",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5zMGViY3dDYXpSVXlaV25NUnFCanp2M0dzU0U4RW8xTUdtQ2pzYXdNRHBYUW9EVm9RaUx5YXVSbXpYRzliaDJmWjU2LXRHWElEQ0R1WHd1OWtJamJoZ3lPS0d1eDBISGcwUk5wRm9NTWFRTGc?oc=5",
+      "source": "nhk.or.jp",
+      "publishedAt": "2026-08-03T03:05:25.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1772,6 +1803,18 @@
       "publishedAt": "2026-08-03T01:18:50.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Warsh Raises Rethink on Fed’s Policy Meeting Frequency, Timing",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/warsh-raises-rethink-on-fed-s-policy-meeting-frequency-timing",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-02T21:36:17.000Z",
+      "kind": "news",
+      "summary": "Federal Reserve Chairman Kevin Warsh has raised the possibility of changing the frequency of the US central bank’s regular policy meetings, according to people familiar with the matter.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1801,32 +1844,10 @@
       "score": 40
     },
     {
-      "title": "AI trade: Will it unwind? - The Straits Times",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42b2thN2FCLUJuYWY4d0pCdE1Hck9abFNmSEVSRzB4U3NJX1p1Qm5NemJoR05Lb3BFVkpBZkcwc3FoTmdfRDluRFdUeTJvN0otaW5JZW9MOVFDeVVkd0p3TUR1NVd2QWtSZDFkdmZkNA?oc=5",
-      "source": "The Straits Times",
-      "publishedAt": "2026-08-02T21:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Israeli high school students to study English using artificial intelligence - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zSC1mbDdobFlDRS1tYmI5eXl3Q25VdVBfRk1QalA4RVNlMHBZUHQwbzVpVGN2NFdnTXhKZk1hLUdnSS1MTEZ0VHRsc0tkTUtDa1hWSDdBTldGVzJ0?oc=5",
       "source": "The Jerusalem Post",
       "publishedAt": "2026-08-02T17:40:47.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Is Cooling-Defined Infrastructure the Future of AI Data Centers? - The Futurum Group",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYjYzMHoyZVZtdW1HYUJnLWlRWE13SWJjSlAxM3FTMk5jdFlkcnl3VUQyd3RWM005MGZtRlJjZlJxY3ZSQVNMVlB2RFpSRjd3TUdmVlFCS0gzcUxJM2xtRU0wbFRuaEpoYVZuSFhVYnF6VThyMGpHX2haZy03a2NDLWRCc054TWExOF9qS21PQWNxZmJiaTI5b25tcXNYOWs?oc=5",
-      "source": "The Futurum Group",
-      "publishedAt": "2026-08-02T17:32:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1898,29 +1919,6 @@
       "publishedAt": "2026-08-02T14:01:00.000Z",
       "kind": "news",
       "summary": "Australia’s housing market decline worsened, with prices declining in June and July by the most since December 2022 as rising interest rates and tax changes hit demand for homes.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Apple Subscriptions; MacBook Air Shortages; Apple to Make Glasses Health Device",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-02/apple-subscriptions-macbook-air-shortages-apple-to-make-glasses-health-device-msbvajjp",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-02T14:00:01.000Z",
-      "kind": "news",
-      "summary": "Also: MacBook Air runs into major shortages.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI Can Write Research Papers. But Can Researchers Trust the Citations? Wispaper Says That's the Next Challenge for Academic AI - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPWHRmSFV3Z1BmRVhDUDVrX3g3dnNfQUM2dkZGVmlocmcxWktPWDM1RnYyWW52SGNrWElLLU1Kc3dNMVE3WmpyU1hoZ3pzUzdnZW4taFI0WVY4M3EzcXY3cHd4a3ZXX3BuV0NnSGxGcldFSVdnOFVvdTV0cS1IY0NlLVFUV0JtTXdndmxtSDNmQVU4VHNqWkVYNkc5eDduYzROQnllMFc5V0xXRXR2SVZkUzVqdm5jbEw0SWRpcGZIZTQ4QUp0ek4wVF9zaVJoX2x0X0djYk5GbmM1eEFpYmxwNDBPYlhSMFdvXzM1a0poR19HdkNsc01QdE5JandQMWF1ckpOT3F5ZHRrTjg?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-02T13:28:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

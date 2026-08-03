@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T19:02:07.298Z",
+  "generatedAt": "2026-08-03T19:08:59.019Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Approved Sub-Tenant List",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vemm77/approved_subtenant_list/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-03T19:02:05.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/FoolTomery",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Approved Sub-Tenant List"
+    },
     {
       "title": "White House hosting AI leaders Tuesday to review the U.S. AI framework. Bullish if the tone stays pro-innovation. 🧴🧴🧴🧴🧴 $NVDA 🧴🧴🧴🧴 $MSFT 🧴🧴🧴🧴 $GOOGL 🧴🧴🧴🧴 $AMZN 🧴🧴🧴 $FRMI (AI data center/nuclear infrastructure watch",
       "url": "https://stocktwits.com/YouVSYou/message/660746046",
@@ -916,28 +938,6 @@
       "related": [],
       "score": 38,
       "summary": "[July 29, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "Five jobs posted, TODAY.",
-      "url": "https://www.reddit.com/r/FRMI/comments/1v9dp4c/five_jobs_posted_today/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-07-28T22:40:31.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Tpatty343",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Five jobs posted, TODAY."
     }
   ],
   "related": [
@@ -968,6 +968,20 @@
         "AMZN"
       ],
       "score": 65
+    },
+    {
+      "title": "Nvidia’s Board Is Latest Sued by Shareholders Over AI Scraping - Bloomberg Law News",
+      "url": "https://news.bloomberglaw.com/securities-law/nvidias-board-is-latest-sued-by-shareholders-over-ai-scraping",
+      "source": "Bloomberg Law News",
+      "publishedAt": "2026-08-03T16:50:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Nvidia Corp.'s board, CEO Jensen Huang, and other executives made the technology company vulnerable to copyright and privacy lawsuits tied to its artificial intelligence models’ training, an investor alleges."
     },
     {
       "title": "AWS CEO Says AI Business Is 'Just Massive'",
@@ -1057,7 +1071,7 @@
     },
     {
       "title": "Google's AI Governance Plan Draws the Boundaries of What Counts as Harm - Tech Policy Press",
-      "url": "https://www.techpolicy.press/googles-ai-governance-plan-draws-the-boundaries-of-what-counts-as-harm/",
+      "url": "https://techpolicy.press/googles-ai-governance-plan-draws-the-boundaries-of-what-counts-as-harm",
       "source": "Tech Policy Press",
       "publishedAt": "2026-08-03T14:14:04.000Z",
       "kind": "news",
@@ -1195,23 +1209,9 @@
       "summary": "OpenAI and Anthropic incidents show how autonomous AI agents can reach real systems, exposing CX teams to risks around customer data."
     },
     {
-      "title": "Nvidia’s Board Is Latest Sued by Shareholders Over AI Scraping - news.bloomberglaw.com",
-      "url": "https://news.bloomberglaw.com/securities-law/nvidias-board-is-latest-sued-by-shareholders-over-ai-scraping",
-      "source": "news.bloomberglaw.com",
-      "publishedAt": "2026-08-03T16:50:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Nvidia Corp.'s board, CEO Jensen Huang, and other executives made the technology company vulnerable to copyright and privacy lawsuits tied to its artificial intelligence models’ training, an investor alleges."
-    },
-    {
-      "title": "Nvidia’s Next Move? Financing AI - networkworld.com",
+      "title": "Nvidia’s Next Move? Financing AI - Network World",
       "url": "https://www.networkworld.com/article/4204543/nvidias-next-move-financing-ai.html",
-      "source": "networkworld.com",
+      "source": "Network World",
       "publishedAt": "2026-08-03T16:44:05.000Z",
       "kind": "news",
       "tier": 3,
@@ -1249,9 +1249,9 @@
       "score": 45
     },
     {
-      "title": "AMD unveils AI GPU to challenge Nvidia’s Rubin - networkworld.com",
+      "title": "AMD unveils AI GPU to challenge Nvidia’s Rubin - Network World",
       "url": "https://www.networkworld.com/article/4204533/amd-unveils-ai-gpu-to-challenge-nvidias-rubin.html",
-      "source": "networkworld.com",
+      "source": "Network World",
       "publishedAt": "2026-08-03T16:16:14.000Z",
       "kind": "news",
       "tier": 3,
@@ -1290,9 +1290,9 @@
       "summary": "The rapid construction of data centers, semiconductor facilities, and AI factories is already reshaping labor demand, with companies competing for workers capable of building and maintaining these highly specialized facilities."
     },
     {
-      "title": "Why Investors See More Payoff in Microsoft’s AI Spending Than Meta’s - TechRepublic",
+      "title": "Why Investors See More Payoff in Microsoft’s AI Spending Than Meta’s - techrepublic.com",
       "url": "https://www.techrepublic.com/article/news-microsoft-meta-ai-spending/",
-      "source": "TechRepublic",
+      "source": "techrepublic.com",
       "publishedAt": "2026-08-03T15:21:28.000Z",
       "kind": "news",
       "tier": 3,
@@ -1360,6 +1360,17 @@
     }
   ],
   "general": [
+    {
+      "title": "Meta, Anthropic invited to meet with Trump officials about AI safety testing - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObWVNalU0cV9OY2Q0RHFkdFJtakZJRTdzV1BiUDVvamY3RlVRX3ZydGl5YnAzU2dxQldBTVVMMW1wMWl0ekI1eXZJdm84bjBtUFBZc2JBeVJfblJEMVhDZGs4UWpaZXZTTUQtYy1QVFVsYmxsUG1jVHZTd2VFWEJXV2FlNXg4ZVZmRUI5SWpxMWo2cGFTT0hWRUJmNUpyaXZFRnRISnhvNy1YUQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-03T19:03:19.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Corgi On Pace to Launch 500 ETFs In First Year",
       "url": "https://www.bloomberg.com/news/videos/2026-08-03/corgi-on-pace-to-launch-500-etfs-in-first-year-video",
@@ -1504,6 +1515,17 @@
       "score": 60
     },
     {
+      "title": "Why An AI Infrastructure Founder Still Thinks Like An Economist - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeG12MElmN3JONk5RZ3F2TmoxWWVvaWFRZ3I0LURJOTZFekVONlJEbllqSmtlZnhkZUI4U3dCaXlrNHpWWkpSaDlRa1JzS2tHSmlnRE9yUVV6LWNveFdMc2JDNktZMHh3Z3BxZXFxVi10N284NkplZUVMdkZiU2RrZXo1eHpVTlhRbEljVEJaaXVHYnhpNDFPZWdfQWZoTXlud21heXg2azNNV2d6?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-08-03T18:49:14.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Breakingviews - Big Tech’s circular AI trade grows too big to veil - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTGlMYXdPSkJjMzdsYmVMLVUxdHFkRDh5TWhnQnJvTXhqc0Y2UjE4TllHRlAwSHNyekhIT1pvZ1lRM016aDUwNXRUM0dDUnd6eWd4cE9VYzlaTWNBWnR5NWlkQ0xQTWlnR01vREFmWmV6SmtwRUJEcmhzQ1EyYnlmRjllQmZTdExodGVGQ1NJM0ZydzdBU3NGamZVUGtCQjJlVjVlRnMwbzRVY00?oc=5",
       "source": "Reuters",
@@ -1512,7 +1534,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Fresenius Medical Posts Higher Profit on Dialysis Performance",
@@ -1522,17 +1544,6 @@
       "kind": "news",
       "summary": "Fresenius Medical Care AG’s profit rose more than expected in the second quarter, helped by a strong performance in its dialysis service unit.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Why An AI Infrastructure Founder Still Thinks Like An Economist - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeG12MElmN3JONk5RZ3F2TmoxWWVvaWFRZ3I0LURJOTZFekVONlJEbllqSmtlZnhkZUI4U3dCaXlrNHpWWkpSaDlRa1JzS2tHSmlnRE9yUVV6LWNveFdMc2JDNktZMHh3Z3BxZXFxVi10N284NkplZUVMdkZiU2RrZXo1eHpVTlhRbEljVEJaaXVHYnhpNDFPZWdfQWZoTXlud21heXg2azNNV2d6?oc=5",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-03T18:49:14.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1870,24 +1881,23 @@
       "score": 50
     },
     {
-      "title": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
-      "url": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-03T13:45:02.000Z",
+      "title": "In Kansas, Coffeyville's AI data center push meets calls for a legal moratorium - The Cool Down",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV3RpTnBvYmRBNWhXMzA4OXluZ2lBRlE1SHZpck1FTWNVU1JvMURRSHRNY2VWQktMaEY3QktNX1ZsZWxVeU03d25zb1h5U1hXQ0xwZDNna2JGbm5YcHYyb2liNEE0dHBuaUw0NUJMOVJBSHR1RFJqV1JnVkY5czg5Y1ZZSUdwM2hlSlRENy1iQlRSdw?oc=5",
+      "source": "The Cool Down",
+      "publishedAt": "2026-08-03T13:56:00.000Z",
       "kind": "news",
-      "summary": "Two weeks after Tesla's earnings report was panned by Wall Street, Elon Musk faces investors again, but this time to discuss SpaceX's results.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "Amazon Joins Elite List of Stocks to Top $3 Trillion in Value",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/amazon-joins-elite-list-of-stocks-to-top-3-trillion-in-value",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-03T13:39:11.000Z",
+      "title": "SpaceX's post-IPO plunge sets tense backdrop for first earnings report",
+      "url": "https://www.cnbc.com/2026/08/03/spacexs-post-ipo-plunge-sets-tense-backdrop-for-first-earnings-report.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-03T13:45:02.000Z",
       "kind": "news",
-      "summary": "Amazon.com Inc. has surpassed a $3 trillion market value for the first time, making it the fifth company to achieve this milestone. The company's shares climbed after strong second-quarter earnings, driven by accelerating cloud-computing revenue. Amazon now joins Nvidia, Alphabet, Microsoft, and Apple in this elite group. [sentiment: Bullish]",
+      "summary": "Two weeks after Tesla's earnings report was panned by Wall Street, Elon Musk faces investors again, but this time to discuss SpaceX's results.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1906,6 +1916,17 @@
       "score": 50
     },
     {
+      "title": "Ring Cycle review – AI staging dispenses with drama to create banal bric-a-brac - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWVZDUFZmNnNvSWZYcG9DVlljczlyRnplZDlQNzdLQUZ5cWoxLUdPRC1mT3A3LURNNFUyNlNyTW9lZk1rMXFZVWlTV3Y2WEw2emp6NE5xQzRJWmxEN3VmS2oxS3Vrdzh1Q2kzVzA1eGRMWEJaeUp5SFBwcURUREFEZ1NocHl2bnRrcVRCTFZ0d2sxWHNUUWxtWndWT0xCRnZZd1l0cEt2Z2ZEd2cyRk5WZUg2TkFGaXg4TGVRdUwwbjF1V2FlMWU0a2JQRTYzNklUVmlwOC1B?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-08-03T13:29:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "BofA’s Cabana Sees Risk in Silent Fed: ‘You Can’t Fool the Bond’",
       "url": "https://www.bloomberg.com/news/articles/2026-08-03/treasuries-to-resume-fall-without-clear-fed-plan-bofa-s-cabana",
       "source": "Bloomberg",
@@ -1918,32 +1939,10 @@
       "score": 50
     },
     {
-      "title": "Understanding AI's resource needs and sustainability challenges - TechTarget",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRVJmU2N6WWJJZENxTFIzckZJOHRORDBxMmxWR29DWlpyZWNuMkQwSi1uWUY3VHJVY3pIZ2o2TlRNWkRnZG4zM0RqNVdiNVNmT3p1S0RCZUtOWWFtSkI4amJTS3V0dkFPbC0yYUNBeE4tQ1RjLUxuZW00Yk9TS3ZGb183RGRDaUhaQndRV2hRc3FqWEhIbXllNF9OTHN6MC1aT1RjSlgwekpGb1dUTTI0?oc=5",
-      "source": "TechTarget",
-      "publishedAt": "2026-08-03T18:56:38.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Deadline approaching for workforce AI adoption funding application - SDPB",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ1VTNmVWYTVIQ0N1ZXBZaExBVEk4MGRoZDRPWklzdjdQQkxiajV5ZGtPZjVlNmJmVkhOVlh6Q25KeEMxNW5vRjZfLWdEdjJVbURMT2VFamJ4WHNlcWgyaFd1QWZ4aWJHbjVyQ2gydEM4ZTJkQjFSeHlucTNBVklvUV8wX2F3aklaTC1JTmN1cDF1eWdLdGh4NE9MQ3M3REN1Mks0R2xsSk91ZTVVVWxzOFhERkpLZl9n?oc=5",
-      "source": "SDPB",
-      "publishedAt": "2026-08-03T18:50:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Will AI Replace Loan Originators? Yes And No - National Mortgage Professional",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYmpkVXluTDhlMjJURWliZDdOcG1xeUVUbGlqSGNDWEhReVpsQi1KblNWZ3ZWSFdBSGpmeXE2NWJfSlkyaHFpenVUNkVuSmxQUzRlaDA5VXlYVHJ5SE1MOWlUdnYtNmtZa0dUM3o1NFNPWEJaaWd4bWhnR1lHcDMweDVCNHg4T2xfVmJKcTg3alp5bjA?oc=5",
-      "source": "National Mortgage Professional",
-      "publishedAt": "2026-08-03T18:43:36.000Z",
+      "title": "Anthropic reveals Claude AI model hacked three companies during tests — so how worried should we be? - TechRadar",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYkNiVjEwUi1aUUZXdFRPMXB4WE1RRFFCUTdpaTlRaGhyWEZlTzNiUTlEQlhqNVFOUDc4c0RJXzdlXzNucVR4bGJzVjdwRVJESDVweDZWQjE2REhaVDJjX1g5eXdwbFlwZ1JTZ0ZXMzF6NXJFY184bUpWRlI4V3B3N2tkNnRoSjc2UFJQT0Myb2NOTE9raEg2REh2NmFEM2ZzVHJfTTE1dFR5WGRnbzhEVGpBakdmWlJPejFBdC1GajFZREtfdnBiSXNfOUp6eU0yTVE?oc=5",
+      "source": "TechRadar",
+      "publishedAt": "2026-08-03T19:05:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

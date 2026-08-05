@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T07:32:13.512Z",
+  "generatedAt": "2026-08-05T08:02:07.531Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -937,18 +937,18 @@
   ],
   "related": [
     {
-      "title": "OpenAI has reported 2 more incidents of rogue AI agents, this time during third-party testing - Business Insider",
-      "url": "https://www.businessinsider.com/openai-rogue-ai-agents-testing-environment-misconfiguration-2026-8",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-05T06:13:20.000Z",
+      "title": "Nvidia Partner Hon Hai’s Sales Rise 54% on Strong AI Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/nvidia-partner-hon-hai-s-sales-rise-54-on-strong-ai-demand",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-05T07:37:43.000Z",
       "kind": "news",
+      "summary": "Hon Hai Precision Industry Co. reported a 54.2% increase in monthly sales, signaling sustained demand in global AI infrastructure buildout by customers such as Nvidia Corp.",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
-      "score": 65,
-      "summary": "External parties reported that OpenAI's AI agents had gone rogue during their evaluations."
+      "score": 75
     },
     {
       "title": "Siemens Energy posts record results on AI data centre boom, Middle East demand - Reuters",
@@ -964,31 +964,45 @@
       "score": 65
     },
     {
-      "title": "After OpenAI-Hugging Face, how do IT leaders need to change the way they think about AI? - IT Pro",
-      "url": "https://www.itpro.com/technology/neural-network/after-openai-hugging-face-how-do-it-leaders-need-to-change-the-way-they-think-about-ai",
-      "source": "IT Pro",
-      "publishedAt": "2026-08-05T07:00:00.000Z",
+      "title": "Siemens Energy Eyes Top of Outlook Range on Record Orders",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/siemens-energy-targets-top-end-of-outlook-range-on-record-orders",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-05T05:00:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "summary": "Siemens Energy AG sees strong demand for gas turbines and grid equipment pushing the profit margin in the current fiscal year to the upper end of its guidance corridor.",
+      "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "SMNEY"
       ],
-      "score": 55,
-      "summary": "The OpenAI-Hugging Face incident and Anthropic admission soon after have opened up new conversations about controls around AI. How should IT leaders change their thinking about the technology?"
+      "score": 65
     },
     {
-      "title": "OpenAI, Anthropic AI agents face scrutiny over new security breaches - Latest news from Azerbaijan",
-      "url": "https://news.az/news/openai-anthropic-ai-agents-face-scrutiny-over-new-security-breaches",
-      "source": "Latest news from Azerbaijan",
-      "publishedAt": "2026-08-05T06:56:32.000Z",
+      "title": "OpenAI, Anthropic AI agents created fake identities during UK cyber tests: Report - The Indian Express",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/uk-ai-watchdog-openai-anthropic-ai-agent-security-10818326/",
+      "source": "The Indian Express",
+      "publishedAt": "2026-08-05T03:08:22.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 55
+      "score": 65
+    },
+    {
+      "title": "Middle East gas turbine demand trumped AI data centres in Q3, Siemens Energy CEO says - marketscreener.com",
+      "url": "https://www.marketscreener.com/news/middle-east-gas-turbine-demand-trumped-ai-data-centres-in-q3-siemens-energy-ceo-says-ce7f50dfdd8ff321",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-08-05T07:33:06.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "SMNEY"
+      ],
+      "score": 55,
+      "summary": "Middle East customers accounted for nearly a third of Siemens Energy"
     },
     {
       "title": "Trump Administration Won’t Safety-Test Open-Weight AI Models as OpenAI and Anthropic Raise Cybersecurity - Benzinga",
@@ -1016,6 +1030,33 @@
         "OpenAI"
       ],
       "score": 55
+    },
+    {
+      "title": "OpenAI and Anthropic Model Tests Reveal More Hacking - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/openai-says-models-breached-boundaries-during-outside-testing",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-05T00:24:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "OpenAI, Anthropic Model Tests Reveal More ‘Unsanctioned’ Actions - Bloomberg Law News",
+      "url": "https://news.bloomberglaw.com/tech-and-telecom-law/openai-says-models-breached-boundaries-during-outside-testing",
+      "source": "Bloomberg Law News",
+      "publishedAt": "2026-08-05T00:24:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Artificial intelligence models developed by OpenAI and Anthropic PBC carried out “unsanctioned” actions — including hacking a website and attempting to inject harmful code into software during safety testing — reinforcing fears that neither the creators nor seasoned researchers of these systems can predict their actions in testing."
     },
     {
       "title": "Microsoft vs. Aehr Test Systems: Comparing Revenue Trends Between These Artificial Intelligence Companies - The Motley Fool",
@@ -1051,19 +1092,6 @@
       "url": "https://www.axios.com/2026/08/04/anthropic-openai-uk-ai-security-institute",
       "source": "Axios",
       "publishedAt": "2026-08-04T21:48:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI and Anthropic Model Tests Reveal More Hacking - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-04/openai-says-models-breached-boundaries-during-outside-testing",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-04T21:31:27.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1144,19 +1172,6 @@
       "summary": "Four leading AI companies have been invited to Washington to discuss implementing voluntary government safety testing for the US' most advanced AI models"
     },
     {
-      "title": "OpenAI and Anthropic's models hacked into real-world systems. Human error was behind it. - Axios",
-      "url": "https://www.axios.com/2026/08/04/openai-anthropic-models-hacking-human-error",
-      "source": "Axios",
-      "publishedAt": "2026-08-04T18:59:48.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
       "title": "Amazon Q2 2026: AWS Momentum Accelerates as AI Investment Climbs - The Futurum Group",
       "url": "https://futurumgroup.com/insights/amazon-q2-2026-aws-momentum-accelerates-as-ai-investment-climbs/",
       "source": "The Futurum Group",
@@ -1198,6 +1213,20 @@
       "score": 55
     },
     {
+      "title": "OpenAI’s Codex Micro Puts AI Agent Controls on Your Desk, But Who Actually Needs It? - The Gadgeteer",
+      "url": "https://the-gadgeteer.com/2026/08/04/codex-micro/",
+      "source": "The Gadgeteer",
+      "publishedAt": "2026-08-04T16:51:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Pipeline 2 Decision Engine about the ownership case for a dedicated Codex control surface. Vendor claims are attributed and no hands-on performance claims are made."
+    },
+    {
       "title": "Nvidia’s open-source alliance seeks industry input on AI safety controls - The Hill",
       "url": "https://thehill.com/policy/technology/6007254-nvidia-open-source-ai-safety-controls/",
       "source": "The Hill",
@@ -1223,6 +1252,47 @@
         "OpenAI"
       ],
       "score": 55
+    },
+    {
+      "title": "After OpenAI-Hugging Face, how do IT leaders need to change the way they think about AI? - IT Pro",
+      "url": "https://www.itpro.com/technology/neural-network/after-openai-hugging-face-how-do-it-leaders-need-to-change-the-way-they-think-about-ai",
+      "source": "IT Pro",
+      "publishedAt": "2026-08-05T07:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "The OpenAI-Hugging Face incident and Anthropic admission soon after have opened up new conversations about controls around AI. How should IT leaders change their thinking about the technology?"
+    },
+    {
+      "title": "OpenAI, Anthropic AI agents face scrutiny over new security breaches - Latest news from Azerbaijan",
+      "url": "https://news.az/news/openai-anthropic-ai-agents-face-scrutiny-over-new-security-breaches",
+      "source": "Latest news from Azerbaijan",
+      "publishedAt": "2026-08-05T06:56:32.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
+      "title": "OpenAI has reported 2 more incidents of rogue AI agents, this time during third-party testing - Yahoo Tech",
+      "url": "https://tech.yahoo.com/ai/chatgpt/articles/openai-reported-2-more-incidents-061308939.html",
+      "source": "Yahoo Tech",
+      "publishedAt": "2026-08-05T06:13:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "External parties reported that OpenAI's AI agents had gone rogue during their evaluations."
     },
     {
       "title": "New security breaches implicate OpenAI and Anthropic AI agents - Ynetnews",
@@ -1278,78 +1348,20 @@
         "SMNEY"
       ],
       "score": 45
-    },
-    {
-      "title": "OpenAI, Anthropic rogue AI agents implicated in new security breaches - TRT World",
-      "url": "https://www.trtworld.com/article/1073b9960a40",
-      "source": "TRT World",
-      "publishedAt": "2026-08-05T04:20:09.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Britain's AI Security Institute (AISI) says an AI agent was caught creating fake online identities and writing malicious code to get a human to approve it."
-    },
-    {
-      "title": "I'm Buying Broadcom Because It Sucks Up The Hyperscaler AI Capex That Doesn't Go To Nvidia - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/08/05/im-buying-broadcom-because-it-sucks-up-the-hyperscaler-ai-capex-that-doesnt-go-to-nvidia/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-08-05T04:19:26.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Every dollar hyperscalers spend building alternatives to Nvidia has to go somewhere, and one company keeps collecting it across custom silicon, switch fabric, and AI networking without most investors noticing."
-    },
-    {
-      "title": "Microsoft Boosts AI Infrastructure Spending Amid Cloud Demand Surge - Indiatimes",
-      "url": "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/microsoft-boosts-ai-infrastructure-spending-amid-cloud-demand-surge/132887036",
-      "source": "Indiatimes",
-      "publishedAt": "2026-08-05T03:27:50.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Microsoft is significantly increasing its AI infrastructure investments as Azure cloud services and Microsoft 365 Copilot adoption drive demand beyond current capacity. This capital expenditure aims to quickly expand data centre and compute resources to support sustained enterprise AI workloads."
-    },
-    {
-      "title": "Anthropic and OpenAI models tried to trick humans into poisoning code during safety testing - Politico",
-      "url": "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042",
-      "source": "Politico",
-      "publishedAt": "2026-08-05T03:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Nvidia: Playing A Dangerous Game With AI (NASDAQ:NVDA) - Seeking Alpha",
-      "url": "https://seekingalpha.com/article/4930348-nvidia-playing-a-dangerous-game-with-ai",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-04T23:49:51.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Nvidia Corporation rides the AI capex boom but faces peak-cycle risks, circular financing credit exposure, and rich valuation. Click for more on NVDA stock."
     }
   ],
   "general": [
+    {
+      "title": "Pittsburgh cautiously weighs AI data center boom as power and water concerns mount - The Cool Down",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLTVJclltUXVMMVhxZEY5M3l1MExuTVZMSHJ4YnVMSVBxTnlIZDc1b0EtcnNqNjhadE5KV2plZHNzaWJpTDBkSTRjcWJLcV9DU3lHQUFxY0l1RktINnlCcUszNE9yYXFDWGdoQ2s5c3R5aE9OdWpSaUc2T0hfTEFkMnQtNVdnZ1ZwNmR5RjFpMmNhaEptTFVfMnBETQ?oc=5",
+      "source": "The Cool Down",
+      "publishedAt": "2026-08-05T07:37:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Optimism Leans on US-Iran Deal Hopes: 3-Minutes MLIV",
       "url": "https://www.bloomberg.com/news/videos/2026-08-05/optimism-leans-on-us-iran-deal-hopes-3-minutes-mliv-video",
@@ -1357,6 +1369,18 @@
       "publishedAt": "2026-08-05T07:26:56.000Z",
       "kind": "news",
       "summary": "Anna Edwards, Lizzy Burden and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Czech Inflation Quickens With Central Bank Set to Hold Rates",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/czech-inflation-quickens-with-central-bank-set-to-hold-rates",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-05T07:24:04.000Z",
+      "kind": "news",
+      "summary": "Inflation in the Czech Republic accelerated in July but remained below the central bank’s target, bolstering expectations that interest rates will stay on hold this week.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1395,18 +1419,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "Democracy is at stake when foolish humans bet on machines being intelligent - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLWFIZl80ZjBxUkNWYWhJMHhvSktudFJ1Nk5HT1ZUcFA3VlY2ckxMSkwySWhlMWc5X2I5WWEwWGY0clBuZ3Rsa3NOdlJqQ29odnhwdDRsQmVyQUgxR3BEZjlDSzZVTUdSRmhVaWl6ZkM4RnVHa1VoWWdVMVdQNWZIV1FOR3dTUVVSRFBVRlhRMnM2YnpTMlRKdFVVeVA3ZGd2RmdsSlBnZw?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-05T07:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Multiverse Computing and Qualcomm Collaborate to Bring Efficient AI Models to Data Centers - GlobeNewswire",
@@ -1417,7 +1430,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Moove Hits $2.1 Billion Valuation in Mubadala-Led Fundraising",
@@ -1429,7 +1442,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Push to Reopen Strait of Hormuz Gains Momentum | Insight with Haslinda Amin 8/5/2026",
@@ -1441,19 +1454,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Glencore Has Taken a Provision on Radiant World Exposure",
+      "title": "Glencore Takes Provision on Exposure to Trader Radiant World",
       "url": "https://www.bloomberg.com/news/articles/2026-08-05/glencore-says-it-has-taken-provision-on-radiant-world-exposure",
       "source": "Bloomberg",
       "publishedAt": "2026-08-05T06:49:31.000Z",
       "kind": "news",
-      "summary": "Glencore Plc said it has taken a provision on its exposure to iron ore trader Radiant World but that the exposure was not material to the company.",
+      "summary": "Glencore Plc said it has taken a provision on its exposure to iron ore trader Radiant World and confirmed it has stopped doing any new business with the firm.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "The Stoxx 600 just hit a record high – here's what's driving the pan-European index",
@@ -1465,7 +1478,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Moonshot Backer Monolith Seeks to Raise $500 Million in New Fund",
@@ -1477,7 +1490,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Honda Raises Outlook 30% as Weak Yen, US Demand Lift Profits",
@@ -1489,7 +1502,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Horizons Middle East & Africa 8/5/2026",
@@ -1498,17 +1511,6 @@
       "publishedAt": "2026-08-05T06:38:25.000Z",
       "kind": "news",
       "summary": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or start your day in London or Johannesburg. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Anthropic AI and ChatGPT went on hacking spree during UK tests - The Telegraph",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2JfeUFweW9oQmk1TVNiU2xwdzVXZUN2ZUpxN0V2N1U3UHZlZ21yTkZGcTJwT0xidVE3ZDBPWTN1TjNhcmh6ZC15bGZOZThmZ0gzVVg4d3JkejY1UE1DVlFXQjk1TnJTRHVJdkFWUUFpNUY3UTFOaWVoQ2J1UTdkNHhsd2VJX0ltNkdwLUxCMG5OX2NJMzRaWGNONXQ?oc=5",
-      "source": "The Telegraph",
-      "publishedAt": "2026-08-05T06:29:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1597,12 +1599,12 @@
       "score": 50
     },
     {
-      "title": "Infineon Revenue Forecast Beats as AI Power Chip Demand Rises",
+      "title": "Infineon Falls as AI Boom Concerns Trump Strong Sales Forecast",
       "url": "https://www.bloomberg.com/news/articles/2026-08-05/infineon-revenue-forecast-beats-as-ai-power-chip-demand-rises",
       "source": "Bloomberg",
       "publishedAt": "2026-08-05T05:30:38.000Z",
       "kind": "news",
-      "summary": "Infineon Technologies AG forecast revenue in the current quarter that beat analysts’ estimates as the German chipmaker profits from rising demand for its data-center chips and price increases.",
+      "summary": "Infineon Technologies AG shares fell after a strong revenue forecast in the current quarter failed to convince investors, who are increasingly worried about high valuations in the chip sector.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1625,18 +1627,6 @@
       "source": "The Business Journals",
       "publishedAt": "2026-08-05T05:26:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Pakistan’s Fintech Abhi Eyes Microfinance Bank IPO",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-05/pakistan-s-fintech-abhi-eyes-microfinance-bank-ipo-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-05T05:19:13.000Z",
-      "kind": "news",
-      "summary": "Abhi Co-Founder & CEO Omair Ansari says the Pakistani fintech group expects to launch an initial public offering of its microlender in early September this year. He speaks with Paul Allen on \"Insight with Haslinda Amin.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1684,18 +1674,6 @@
       "publishedAt": "2026-08-05T05:00:00.000Z",
       "kind": "news",
       "summary": "Europe’s new €5 billion ($5.8 billion) technology fund has disclosed that its first investment is in Finnish satellite company Iceye Oy, part of the bloc’s push to cultivate startups working on strategic technologies.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "SoftBank-Backed OfBusiness Is Said to Explore Reviving India IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/softbank-backed-ofbusiness-is-said-to-explore-reviving-india-ipo",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-05T04:56:02.000Z",
-      "kind": "news",
-      "summary": "OFB Tech Pvt, the operator of technology supply chain and financing platform OfBusiness, is considering reviving plans for an initial public offering that could raise as much as $800 million, according to people familiar with the matter.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1845,50 +1823,48 @@
       "score": 50
     },
     {
-      "title": "AI Just Went Rogue Again. This Time It Turned to Deception. - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZDhDVFlZeWgwUnNUSUxPSlhYaTZCRFQ0ZFBuelJ4OTNBWjFrWkZDUDM4bklOdlFPLXFYTVJya0h2WmQ4UFN1NVljMTFoWUNUVHdjeGp3ZXBGMnhkVk01NEgzMjNJWmVQdlZJZUFpelpjYlU4bFEtZ0tFMjhwRTNYdENXQmExMUtlZ0xOalZVbDdkLVQyOW9PVGl3?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-08-05T01:51:00.000Z",
+      "title": "Economic Development Collaborative to host convening on university, industry AI partnerships - UKNow",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZTVrdml2ZGxJZ2dGQmxiNXU1dFk5b1RKZzVwTG1OZ2QtNXJBS3p0RkpvaHFWckdPckp1WVp2Zi1FOUtCc0p2SThtMjJ1aWJRc2U4Rk9xdkp6Q1NvUDB3UWtSSkpfeXN5ZHRKdTMxdHVEM05BbmxvRTNRSmVYM2ZHalRSSlMyU2V6bFNhWk8tSDNYUUJlUDgwcDRpWVlsQzlZRlAtTlZrOWppdmhmbnFOUksyNEhaNTRFN0JWYg?oc=5",
+      "source": "UKNow",
+      "publishedAt": "2026-08-05T08:00:18.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "SpaceX's AI spending unnerves Wall Street despite promises of quick payoff",
-      "url": "https://www.cnbc.com/2026/08/04/spacex-ai-spending-unnerves-wall-street-despite-promising-quick-payoff.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-05T01:43:06.000Z",
+      "title": "Onsemi Says AI Data Center Revenue to More Than Double This Year - thelec.net",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04TTdOdUlBbzA3WV92VHB5LU1wM29XNzZVUnB5SkhqNzE4U0FSVVRvSHI5a1AxMnFpUXBnOHVTUk12TnByVGdGZkhYMWQzUzVnYWFNSUloZTBRcU5nM2o3UmNFU0lSV0U?oc=5",
+      "source": "thelec.net",
+      "publishedAt": "2026-08-05T07:46:49.000Z",
       "kind": "news",
-      "summary": "In addressing Wall Street for the first time since SpaceX's IPO, executives tried to make the case that hefty AI investments are paying off within a year.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Chinese optical module makers slump after report on planned US import ban - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU1dRTlJ3dWthcTVkQnd1NFVJTFZSeHV4TXNiZlZOaVlNa1lSNFVnQWZxZkxEQkV2NGZ3YV8wZ21mbjhRYUg3Z05nci1Ua3o1M0FyTGxIT0VLXzhYUlFpajhQVEEwYmFuZnhZNjZPdjdPcFh2elVnNlFvdVZjYlVTNWU5M21VempmYUVMSzNNMURjeEtwcFFUa2NvY2MwYVE1M0k2RDVpTFR1V0VGUVBBNHNaRkQ3UzlhX2FMUDJFNXpOX1RVU2ZZRQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-08-05T01:42:00.000Z",
+      "title": "AI Data Centers Look Beyond Just GPUs - semiengineering.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wMkxmMGhub1lucGJEa3pnQUxYc0x2RHFBZXRNUC1GZnBzSjUyZEpuSDE2OHU5V0s5S18xM2xuS3hET056Z3I5RWVEcmVUQThvZWllb0Q0RTNZakVDNUpCZlRtS08yclV5WUFDTFVIXzBrdWM0?oc=5",
+      "source": "semiengineering.com",
+      "publishedAt": "2026-08-05T07:34:26.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Chinese Optical Stocks Slide on Report of Proposed US Import Ban",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/chinese-optical-stocks-slide-on-report-of-proposed-us-import-ban",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-05T01:37:28.000Z",
+      "title": "AI threat report: Rogue agents, workflow attacks - csoonline.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTUpxWXZMbWY4VUZFbEJCRlhiOEtNMkZ0Uk51NzVEVVhiVVpOcVNCU1hybTlIckJDaWI5T19ySmpqbTJzbi1COEtRN045WVNWYWlfanBrdlVrY0hwVGtpSFIzZWwyVDRXZUZlUi00SnhtY2UxUXRjMHdaNUpzajBLTDhyb0lmWG9IYWJydV9tdkhsUm8ybnJIQg?oc=5",
+      "source": "csoonline.com",
+      "publishedAt": "2026-08-05T07:33:56.000Z",
       "kind": "news",
-      "summary": "Zhongji Innolight Co. led losses in Chinese optical stocks after Reuters reported that the US is drafting a ban on imports of some Chinese data center components to protect AI infrastructure.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "SpaceX posts solid market debut, powered by Starlink and artificial intelligence - marketscreener.com",
@@ -1902,9 +1878,9 @@
       "score": 40
     },
     {
-      "title": "AI Detectors Are Out, New Assessments Are In - insidehighered.com",
+      "title": "AI Detectors Are Out, New Assessments Are In - Inside Higher Ed",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTREY3R4OC1hYUpnMzJuaVVJRk5ybnBmeEhjN3REZ04zUDRIVU5fRnF4QmJ3TUl5OHJfSGVzWTFOWU9tZzY4ek9uVjMxcllUX0JKdXRXWGJKY0FsdDRjclB2Rnc0Sm1ER2pxZVRQZFhoRWJlZ0hLbHh6aFdyeU9nSVl3a193YnpLamp4dHZDVDVDd09QUS0zWXdUdFpwa2dqUUJNamo3Q0c3d3Q0UURKeDM4bExiOFZkU1ZleTRSdXhZRWN4?oc=5",
-      "source": "insidehighered.com",
+      "source": "Inside Higher Ed",
       "publishedAt": "2026-08-05T07:03:08.000Z",
       "kind": "news",
       "tier": 3,
@@ -1913,23 +1889,47 @@
       "score": 40
     },
     {
-      "title": "London AI cloud startup Volta exits stealth at $2.4 billion valuation, lands €8.6 billion compute deal reportedly with Anthropic - eu-startups.com",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRjZPYjdDckxlLTNOMW1jZ1BBeDQ0S0I3TFRmUC1DcVVXMWtJcEhBbmEzWWltWWdLQlhpX1U4MnVYNnVoRVlDQWlZVmtlLVFTLVdCc1JFQW9INkQyT1JmbV9jc19XNFFXNUJ6alQzZ3A4c0tWRGx2QTZLQ2lXLUZNNVBOYUlaUEhYcURwc2YtVF9hNmxLNUdsb1VVZE1WWGtUNjVnMFFXaEF6cFptelAtd3VYNDBMMzFyNkQ2Y2Npa2ROSEVZZ2lQQ3NnNmt5dy1yU2JzSHVIeVQzMWdCTkZ4ckIzYnRFMVZ4TFMyVGRCeXJrMkczT0E?oc=5",
-      "source": "eu-startups.com",
-      "publishedAt": "2026-08-05T07:00:31.000Z",
+      "title": "AI Just Went Rogue Again. This Time It Turned to Deception. - wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZDhDVFlZeWgwUnNUSUxPSlhYaTZCRFQ0ZFBuelJ4OTNBWjFrWkZDUDM4bklOdlFPLXFYTVJya0h2WmQ4UFN1NVljMTFoWUNUVHdjeGp3ZXBGMnhkVk01NEgzMjNJWmVQdlZJZUFpelpjYlU4bFEtZ0tFMjhwRTNYdENXQmExMUtlZ0xOalZVbDdkLVQyOW9PVGl3?oc=5",
+      "source": "wsj.com",
+      "publishedAt": "2026-08-05T01:51:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Europe’s AI sovereignty is under threat. Could Mistral be the answer? - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY2ZkQnJscmh3eW1VNzlFMk83VC1zM2laazZ3SVhRUkVfazA4cUczclhpdk1WVmhBMVNiMFQ4d0l6a2pjOWNMblhYS0g2bDlpRTRUT2J3V2Rnd25yM0ppRDNPaWg1d255MFh4Vk5NLUd4aXRBSHV5TVlSNlg5eURfaWVaekhocjA2WGpGbTZ2OHgxRjh2YjFnVjN2Mzh1UQ?oc=5",
-      "source": "Fortune",
-      "publishedAt": "2026-08-05T07:00:00.000Z",
+      "title": "SpaceX's AI spending unnerves Wall Street despite promises of quick payoff",
+      "url": "https://www.cnbc.com/2026/08/04/spacex-ai-spending-unnerves-wall-street-despite-promising-quick-payoff.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-05T01:43:06.000Z",
       "kind": "news",
-      "tier": 3,
+      "summary": "In addressing Wall Street for the first time since SpaceX's IPO, executives tried to make the case that hefty AI investments are paying off within a year.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Chinese optical module makers slump after report on planned US import ban - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU1dRTlJ3dWthcTVkQnd1NFVJTFZSeHV4TXNiZlZOaVlNa1lSNFVnQWZxZkxEQkV2NGZ3YV8wZ21mbjhRYUg3Z05nci1Ua3o1M0FyTGxIT0VLXzhYUlFpajhQVEEwYmFuZnhZNjZPdjdPcFh2elVnNlFvdVZjYlVTNWU5M21VempmYUVMSzNNMURjeEtwcFFUa2NvY2MwYVE1M0k2RDVpTFR1V0VGUVBBNHNaRkQ3UzlhX2FMUDJFNXpOX1RVU2ZZRQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-05T01:42:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Chinese Optical Stocks Slide on Report of Proposed US Import Ban",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/chinese-optical-stocks-slide-on-report-of-proposed-us-import-ban",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-05T01:37:28.000Z",
+      "kind": "news",
+      "summary": "Zhongji Innolight Co. led losses in Chinese optical stocks after Reuters reported that the US is drafting a ban on imports of some Chinese data center components to protect AI infrastructure.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40

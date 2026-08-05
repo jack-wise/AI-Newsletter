@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:02:03.364Z",
+  "generatedAt": "2026-08-05T06:32:08.121Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -937,6 +937,20 @@
   ],
   "related": [
     {
+      "title": "OpenAI has reported 2 more incidents of rogue AI agents, this time during third-party testing - Business Insider",
+      "url": "https://www.businessinsider.com/openai-rogue-ai-agents-testing-environment-misconfiguration-2026-8",
+      "source": "Business Insider",
+      "publishedAt": "2026-08-05T06:13:20.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "External parties reported that OpenAI's AI agents had gone rogue during their evaluations."
+    },
+    {
       "title": "Siemens Energy posts record results on AI data centre boom, Middle East demand - Reuters",
       "url": "https://www.reuters.com/business/energy/siemens-energy-posts-forecast-beating-results-ai-data-centre-boom-middle-east-2026-08-05/",
       "source": "Reuters",
@@ -950,9 +964,22 @@
       "score": 65
     },
     {
-      "title": "U.K. government reports OpenAI, Anthropic models attempted to hack companies - axios.com",
+      "title": "OpenAI, Anthropic AI agents created fake identities during UK cyber tests: Report - The Indian Express",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/uk-ai-watchdog-openai-anthropic-ai-agent-security-10818326/",
+      "source": "The Indian Express",
+      "publishedAt": "2026-08-05T03:08:22.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "U.K. government reports OpenAI, Anthropic models attempted to hack companies - Axios",
       "url": "https://www.axios.com/2026/08/04/anthropic-openai-uk-ai-security-institute",
-      "source": "axios.com",
+      "source": "Axios",
       "publishedAt": "2026-08-05T00:49:05.000Z",
       "kind": "news",
       "tier": 1,
@@ -976,34 +1003,6 @@
       "score": 65
     },
     {
-      "title": "OpenAI, Anthropic Model Tests Reveal More ‘Unsanctioned’ Actions - Bloomberg Law News",
-      "url": "https://news.bloomberglaw.com/tech-and-telecom-law/openai-says-models-breached-boundaries-during-outside-testing",
-      "source": "Bloomberg Law News",
-      "publishedAt": "2026-08-05T00:24:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "Artificial intelligence models developed by OpenAI and Anthropic PBC carried out “unsanctioned” actions — including hacking a website and attempting to inject harmful code into software during safety testing — reinforcing fears that neither the creators nor seasoned researchers of these systems can predict their actions in testing."
-    },
-    {
-      "title": "Microsoft vs. Aehr Test Systems: Comparing Revenue Trends Between These Artificial Intelligence Companies - The Motley Fool",
-      "url": "https://www.fool.com/coverage/charts/2026/08/04/microsoft-vs-aehr-test-systems-comparing-revenue-trends-between-these-artificial-intelligence-companies/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-05T00:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 65,
-      "summary": "Microsoft has posted eight straight quarters of revenue growth, while its smaller peer swung between sharp gains and declines."
-    },
-    {
       "title": "New security breaches implicate OpenAI and Anthropic AI agents - Ynetnews",
       "url": "https://www.ynetnews.com/tech-and-digital/article/s1wiibx8fg",
       "source": "Ynetnews",
@@ -1018,23 +1017,9 @@
       "summary": "Britain’s AI Security Institute found 19 unauthorized actions by OpenAI and Anthropic agents, including malicious code, fake identities and prohibited internet access, raising fresh concerns over safeguards for increasingly capable AI systems"
     },
     {
-      "title": "Siemens Energy posts forecast-beating results on AI data centre b - Global Banking & Finance Review",
-      "url": "https://www.globalbankingandfinance.com/siemens-energy-posts-forecast-beating-results-ai-data-centre/",
-      "source": "Global Banking & Finance Review",
-      "publishedAt": "2026-08-05T05:07:04.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "SMNEY"
-      ],
-      "score": 55,
-      "summary": "Siemens Energy hits record Q3 sales, margins, and orders, driven by AI data centre expansion and Middle East gas turbine demand."
-    },
-    {
-      "title": "Trump Administration Won’t Safety-Test Open-Weight AI Models as OpenAI and Anthropic Raise Cybersecurity - benzinga.com",
+      "title": "Trump Administration Won’t Safety-Test Open-Weight AI Models as OpenAI and Anthropic Raise Cybersecurity - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/08/60937215/trump-open-weight-ai-models-safety-testing-openai-anthropic",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "publishedAt": "2026-08-05T03:18:42.000Z",
       "kind": "news",
       "tier": 2,
@@ -1044,6 +1029,33 @@
       ],
       "score": 55,
       "summary": "Trump reportedly plans to exclude open-weight AI models from safety testing despite growing cybersecurity concerns."
+    },
+    {
+      "title": "OpenAI, Anthropic Model Tests Reveal More ‘Unsanctioned’ Actions - Bloomberg Law News",
+      "url": "https://news.bloomberglaw.com/tech-and-telecom-law/openai-says-models-breached-boundaries-during-outside-testing",
+      "source": "Bloomberg Law News",
+      "publishedAt": "2026-08-05T00:24:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Artificial intelligence models developed by OpenAI and Anthropic PBC carried out “unsanctioned” actions — including hacking a website and attempting to inject harmful code into software during safety testing — reinforcing fears that neither the creators nor seasoned researchers of these systems can predict their actions in testing."
+    },
+    {
+      "title": "OpenAI and Anthropic's models hacked into real-world systems. Human error was behind it. - Axios",
+      "url": "https://www.axios.com/2026/08/04/openai-anthropic-models-hacking-human-error",
+      "source": "Axios",
+      "publishedAt": "2026-08-04T23:59:48.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Biggest Questions From White House Meet With OpenAI, Google, Anthropic - Business Insider",
@@ -1059,20 +1071,6 @@
       ],
       "score": 55,
       "summary": "OpenAI, Anthropic, and Google met in D.C. to review Trump's AI oversight framework amid cybersecurity concerns and regulatory questions."
-    },
-    {
-      "title": "AMD Shares Fall 8% as Elon Musk Commits to Nvidia Chips for SpaceX",
-      "url": "https://www.wsj.com/business/earnings/amd-earnings-q2-2026-stock-03fe0b09",
-      "source": "WSJ",
-      "publishedAt": "2026-08-04T22:08:43.000Z",
-      "kind": "news",
-      "summary": "AMD's shares dropped over 8% after Elon Musk announced that SpaceX would stop purchasing AMD chips, opting instead for Nvidia's. This occurred despite AMD reporting record quarterly sales, primarily driven by a doubling of data center chip sales, though revenue only slightly exceeded analyst estimates. The news highlighted a competitive shift in the chip market. [sentiment: Neutral]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
     },
     {
       "title": "OpenAI and Anthropic Model Tests Reveal More Hacking - Bloomberg.com",
@@ -1159,19 +1157,6 @@
       "summary": "Four leading AI companies have been invited to Washington to discuss implementing voluntary government safety testing for the US' most advanced AI models"
     },
     {
-      "title": "OpenAI and Anthropic's models hacked into real-world systems. Human error was behind it. - axios.com",
-      "url": "https://www.axios.com/2026/08/04/openai-anthropic-models-hacking-human-error",
-      "source": "axios.com",
-      "publishedAt": "2026-08-04T18:59:48.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
       "title": "Amazon Q2 2026: AWS Momentum Accelerates as AI Investment Climbs - The Futurum Group",
       "url": "https://futurumgroup.com/insights/amazon-q2-2026-aws-momentum-accelerates-as-ai-investment-climbs/",
       "source": "The Futurum Group",
@@ -1227,6 +1212,19 @@
       "summary": "Pipeline 2 Decision Engine about the ownership case for a dedicated Codex control surface. Vendor claims are attributed and no hands-on performance claims are made."
     },
     {
+      "title": "Nvidia’s open-source alliance seeks industry input on AI safety controls - The Hill",
+      "url": "https://thehill.com/policy/technology/6007254-nvidia-open-source-ai-safety-controls/",
+      "source": "The Hill",
+      "publishedAt": "2026-08-04T14:59:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Anthropic, OpenAI among firms facing new scrutiny under EU AI Act enforcement powers",
       "url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html",
       "source": "CNBC",
@@ -1239,6 +1237,20 @@
         "OpenAI"
       ],
       "score": 55
+    },
+    {
+      "title": "Siemens Energy posts forecast-beating results on AI data centre b - Global Banking & Finance Review",
+      "url": "https://www.globalbankingandfinance.com/siemens-energy-posts-forecast-beating-results-ai-data-centre/",
+      "source": "Global Banking & Finance Review",
+      "publishedAt": "2026-08-05T05:07:04.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "SMNEY"
+      ],
+      "score": 45,
+      "summary": "Siemens Energy hits record Q3 sales, margins, and orders, driven by AI data centre expansion and Middle East gas turbine demand."
     },
     {
       "title": "Siemens Energy's AI-Fueled Grid Bet Faces Its Quarterly Moment of Truth - AD HOC NEWS",
@@ -1295,9 +1307,9 @@
       "score": 45
     },
     {
-      "title": "Project Camellia: Effingham Plans OpenAI Data Center Forum - effinghamherald.net",
+      "title": "Project Camellia: Effingham Plans OpenAI Data Center Forum - Effingham Herald",
       "url": "https://www.effinghamherald.net/data-centers/project-camellia-effingham-plans-openai-data-center-forum-public-meeting/",
-      "source": "effinghamherald.net",
+      "source": "Effingham Herald",
       "publishedAt": "2026-08-05T00:50:05.000Z",
       "kind": "news",
       "tier": 3,
@@ -1309,18 +1321,18 @@
       "summary": "Effingham commissioners are considering an August Project Camellia forum, public input and a possible data center moratorium."
     },
     {
-      "title": "Amazon Becomes The Newest Member Of Nvidia-Led Open Secure AI Amid Push For Agentic Cybersecurity Guidelines - Stocktwits",
-      "url": "https://stocktwits.com/news-articles/markets/equity/amazon-newest-member-nvidia-open-secure-ai-alliance/cZo5nnbRJEx",
-      "source": "Stocktwits",
-      "publishedAt": "2026-08-05T00:12:42.000Z",
+      "title": "Microsoft vs. Aehr Test Systems: Comparing Revenue Trends Between These Artificial Intelligence Companies - fool.com",
+      "url": "https://www.fool.com/coverage/charts/2026/08/04/microsoft-vs-aehr-test-systems-comparing-revenue-trends-between-these-artificial-intelligence-companies/",
+      "source": "fool.com",
+      "publishedAt": "2026-08-05T00:05:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
-        "NVDA"
+        "MSFT"
       ],
       "score": 45,
-      "summary": "With Amazon joining the cohort, Nvidia’s AI security alliance has now expanded to more than 120 members after launching with just 40 names initially."
+      "summary": "Microsoft has posted eight straight quarters of revenue growth, while its smaller peer swung between sharp gains and declines."
     },
     {
       "title": "Nvidia: Playing A Dangerous Game With AI (NASDAQ:NVDA) - Seeking Alpha",
@@ -1335,23 +1347,79 @@
       ],
       "score": 45,
       "summary": "Nvidia Corporation rides the AI capex boom but faces peak-cycle risks, circular financing credit exposure, and rich valuation. Click for more on NVDA stock."
-    },
-    {
-      "title": "Nvidia doesn't mess around: A week after open AI industry group formed, it's already showing progress - TechCrunch",
-      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-08-04T19:28:49.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents."
     }
   ],
   "general": [
+    {
+      "title": "Next Lifts Outlook as Demand Bucks Downbeat Consumer Outlook",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/next-lifts-outlook-as-demand-bucks-downbeat-consumer-outlook",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-05T06:15:39.000Z",
+      "kind": "news",
+      "summary": "Next Plc raised its outlook for the third time this fiscal year, after sales surged more than the company expected in the second quarter due to warm UK weather and pent-up demand in the Middle East.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "China Sells Long-Dated Offshore Yuan Bonds at Record Low Yields",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/china-sells-long-dated-offshore-yuan-bonds-at-record-low-yields",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-05T06:12:44.000Z",
+      "kind": "news",
+      "summary": "China sold long-dated yuan-denominated sovereign bonds in Hong Kong at record-low yields, underscoring strong demand from global investors for the offshore issuance.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Novo Nordisk's raised forecast fails to change the debate over its obesity business",
+      "url": "https://www.cnbc.com/2026/08/05/novo-nordisk-stock-guidance-earnings-wegovy-ozempic-eli-lilly.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-05T06:11:31.000Z",
+      "kind": "news",
+      "summary": "Wall Street isn't convinced the Ozempic maker has a promising path back to sustainable growth as competition from Eli Lilly intensifies.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Glencore Profit Jumps on Trading Boom and Record Copper",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/glencore-profit-jumps-on-trading-boom-and-record-copper",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-05T06:07:36.000Z",
+      "kind": "news",
+      "summary": "Glencore Plc reported a steep jump in profits after a surge in the price of its most important commodities and its trading unit had one of its best ever periods as the Iran war sent energy prices soaring.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Europe's established tech firms emerge as unexpected AI winners - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOWRDdmdzOFBqRzVVSGppcGNESFF1WGZlQVVaQnRfaEd6NS1xLVRXUHFGSGt2dzNVR1FkRUgySTBfV0FUSHZ6RzcyYjFzdXB1aTRVTFdBbkU1c3ZyX1luWkZsTFdIOGtiTUNzVFpVZVVkRzBUQVZVZlBQbEQ1X3ZQZ0h0Y3ljVDlFRHRFeUt4S0dERW5RLVhVR0tSX2lNSkNJVXRCaktnQ0oxQmZJbmhVZWpGQTNCLUNEYmc?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-05T06:03:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opinion | The E.U.’s new AI law keeps the best technology out of European hands - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMGNPVldRVVB0NFhETE5lSk4zSXZ6WDhicnJiYUV6NVZ5b3hreW1nOXljWmpjdjEtMndOV2VKQjlDdC11YVRmRnpJdUFHVFJMRTVSVHJiYTVlM3BEamxITGVFYVY2dnZ4WUFjN1FnQWZ3Wkh4RmI2N2c2cmhKTG5hWU1KTW8td2FlWldoSkxIZHd1MDE3cTRKV21JRkRrdkQ1ckxJUW1Sa1NkRGp0SUZUSEZQR2YzZktubHc?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-08-05T05:55:20.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "FTSE 100 Live: UK Stocks Set to Rise as Oil Dips on Iran",
       "url": "https://www.bloomberg.com/news/live-blog/2026-08-05/ftse-100-live-pound-gilts-gbp-pmi-data-iran-war-trump-oil-prices-hormuz-news-what-s-moving-uk-markets-right-now-markets-today-msfo884h",
@@ -1385,7 +1453,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "White House will exempt ‘open’ AI systems from security review - The Washington Post",
@@ -1396,7 +1464,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Daniel Coleman named AI firm CEO - The Business Journals",
@@ -1407,7 +1475,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Pakistan’s Fintech Abhi Eyes Microfinance Bank IPO",
@@ -1419,7 +1487,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AllianzGI to Buy UOB Asset Management to Grow in Southeast Asia",
@@ -1431,7 +1499,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Japan’s Cabinet to Approve Sales Tax Cut With Funding Unclear",
@@ -1443,7 +1511,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Kansas resident ties $8 monthly power bill hike to utility giant's plans for 20 data center projects - The Cool Down",
@@ -1454,7 +1522,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "EQT-Run Scaleup Europe Fund Invests in Satellite Startup Iceye",
@@ -1673,30 +1741,6 @@
       "score": 50
     },
     {
-      "title": "SK Hynix Climbs as Investors Bet on Shareholder Return Plan",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/sk-hynix-climbs-as-investors-bet-on-shareholder-return-plan",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-05T02:37:33.000Z",
-      "kind": "news",
-      "summary": "Shares of SK Hynix Inc. advanced, lifted by an overnight rally in US chipmakers and speculation that the Korean firm may soon unveil buybacks and other details of a broader shareholder return plan.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "LIC’s Big Share Sale Draws Investors Even as India’s IPO Market Stalls",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-05/lic-s-big-share-sale-draws-investors-even-as-india-s-ipo-market-stalls",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-05T02:36:36.000Z",
-      "kind": "news",
-      "summary": "India expands the size of the offering to raise $3.3 billion amid strong demand.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Temasek, Morgan Stanley Are Said to Eye Adtek Pre-IPO Investment",
       "url": "https://www.bloomberg.com/news/articles/2026-08-05/temasek-morgan-stanley-are-said-to-eye-adtek-pre-ipo-investment",
       "source": "Bloomberg",
@@ -1721,17 +1765,6 @@
       "score": 50
     },
     {
-      "title": "SpaceX's AI Bet Rattles Investors in First Post-IPO Call - The Tech Buzz",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeWl1RnV0WVY2NU5qWm1yeTdxNzgtOGwwVTdiLUw1V1RIMnJ6NzZTY1ZTUnkxY0tmcGw4SmprWnltdFFlLWUtLTNyY0dESkU1RHVsdmhFQVAzdXVVUW5KY1llRlRXV0plQVF3UFp5clQxU1QxMXdocU9KaklpT2wzdHl4emlGejd4bU9kakJXZWYtcXM?oc=5",
-      "source": "The Tech Buzz",
-      "publishedAt": "2026-08-05T02:10:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Manipal Health Rises 11% in Trading Debut After $960 Million IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-08-05/manipal-health-set-for-flat-mumbai-debut-after-960-million-ipo",
       "source": "Bloomberg",
@@ -1744,9 +1777,9 @@
       "score": 50
     },
     {
-      "title": "AI Just Went Rogue Again. This Time It Turned to Deception. - wsj.com",
+      "title": "AI Just Went Rogue Again. This Time It Turned to Deception. - WSJ",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZDhDVFlZeWgwUnNUSUxPSlhYaTZCRFQ0ZFBuelJ4OTNBWjFrWkZDUDM4bklOdlFPLXFYTVJya0h2WmQ4UFN1NVljMTFoWUNUVHdjeGp3ZXBGMnhkVk01NEgzMjNJWmVQdlZJZUFpelpjYlU4bFEtZ0tFMjhwRTNYdENXQmExMUtlZ0xOalZVbDdkLVQyOW9PVGl3?oc=5",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-08-05T01:51:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1814,9 +1847,9 @@
       "score": 50
     },
     {
-      "title": "SpaceX Says Spending Spree Is Supercharging AI Revenues - wsj.com",
+      "title": "SpaceX Says Spending Spree Is Supercharging AI Revenues - WSJ",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZqUklPaEpkdWhsOEtmQzV2SEEyaFM5bF8wSEsxX2xkemUxZ3BHeDZfczhpNVhVOEVsdTZWVW9CMXV4VXY4c241Mm5vU1JyRVd0TUdfbW5sZlVuSGZKc2pSanhyM25YWWtZMlMxSnp5VTJ1bVNLdnFqYVhwX1phOUlOdWo0SG4tdUZZZkxRNUh0UmJkeEtZ?oc=5",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-08-05T01:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1825,16 +1858,26 @@
       "score": 50
     },
     {
-      "title": "Australian Stocks Hit Record High on Iran Hopes, Economic Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/australian-stocks-rise-to-record-on-iran-hopes-economic-bets",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-05T00:15:13.000Z",
+      "title": "Anthropic Volta $10 Billion Deal Secures Key Cloud Win - Techgenyz",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1jeVZGSXZVak13TkJwX3gzalNTajFpMklsekdYVVZxYS1ZaUlETzgta040WC1ZYWtwS0hzclFSaUhmM3ZvRUtJbFBJUUtDVk8yUkhNcGpxQU5mNzdGV3RNQWVZWDQ?oc=5",
+      "source": "Techgenyz",
+      "publishedAt": "2026-08-05T06:23:59.000Z",
       "kind": "news",
-      "summary": "Australia’s stock benchmark briefly climbed to an intraday record on easing concerns over the US-Iran conflict and supportive signals in the domestic economy.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "Analysis-Europe's established tech firms emerge as unexpected AI winners - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeVgtdE5VZmRkZ3puQlJsWGpUR1d2SWtfUko1bU5DTTBvX1NkQ3IwYVhvTnIySDJiZGNnS2FZbDZZQzdhaWVWYVU0Q1ZmQkU1R2J3VEFyV1pVWExVem5jd3ZEaTUxcU9kbWlsenUyZlRid2ZQOTRUeDhSTDRZdHB5OG0tN0p5eWRreEJkWmx4bVMxdw?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "publishedAt": "2026-08-05T06:03:11.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "Fed’s Schmid Says Tighter Policy Needed to Reduce Inflation",
@@ -1846,7 +1889,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "China’s Open-Weight Models Will Be Spared US Safety Tests - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRVcxV0tmQ0xNb3ZuUmtYX1FKQVhVczBFcHc2UEYteXRjN3k2a3FVQkNkZ0JHT1ROU0tvZVN4THBGZUZJRUpfb3ZXXzltanNJVHpUZVF2UG9Bb010N2d5ZXdGT3cxZHNDX1BPX3ZuMURUQ1BXVkZScWZuLXZLNjl6U0lhNlIxTURRZnN5T19YblVyYjNUSFJBWXR3U2swUEFBb0xWZ1B2R2Z1OEIzbURrMFlPbw?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-05T00:11:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "China’s Open-Weight Models to Be Spared US Tests, US Firms Told - Bloomberg Government News",
@@ -1855,40 +1909,6 @@
       "publishedAt": "2026-08-05T00:11:00.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI-generated tales preferred to human-written ones, study finds - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OajBPWDR5VFYzY1h4Z2VNN0pJOUVZUjJBY0MtTXZTQldHOFpsS2lKVWZST0JwQ0hsc1drNTdqWHA0c1d4V2FuRnNYOGxuMWZENS1lSzVUdUUxUQ?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-08-05T05:25:50.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI stories preferred to human-written ones - study - Yahoo News Canada",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWWZyRFItV1ZPcG5DaUdpTTNUR1ZLLVJBV3RmcFptWGVWeTJwYTM4X2c2d3ktYnJVc0tYVUN2ZmxkdzE4RnBta3JKdXpuZFBXRV9RdXpfMzN4dzZId3NrVDBSVEhMbXlGNG9wR29NMUF1TmlTcVFoc1FmRENCWElvUQ?oc=5",
-      "source": "Yahoo News Canada",
-      "publishedAt": "2026-08-05T05:25:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "SpaceX Earnings: Stock Significantly Overvalued as Massive AI Investments Outweigh Hefty Neocloud Rent",
-      "url": "https://www.morningstar.com/stocks/spacex-earnings-stock-significantly-overvalued-massive-ai-investments-outweigh-hefty-neocloud-rent",
-      "source": "Morningstar",
-      "publishedAt": "2026-08-05T02:29:31.000Z",
-      "kind": "news",
-      "summary": "Morningstar maintains its $62 fair value estimate for SpaceX, despite a 92% revenue increase in Q2 driven by AI solutions. The company's stock is considered overvalued, trading at twice its fair value, as investors are seen to be factoring in overly optimistic scenarios for Starship reusability and orbital datacenters. SpaceX's decision to exclusively use Nvidia chips for upcoming AI satellites and terrestrial datacenters, potentially signaling a shift from its own chip devel [sentiment: Neutral]",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1911,30 +1931,6 @@
       "source": "Reuters",
       "publishedAt": "2026-08-04T23:45:13.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Australia to Cut Price of Rooftop Solar for Businesses",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-04/australia-to-cut-price-of-rooftop-solar-for-factories-afr-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-04T23:40:35.000Z",
-      "kind": "news",
-      "summary": "Australia will cut the price of installing solar panels on warehouse and factory rooftops, in the latest move by the government to accelerate the rollout of green energy.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Japan’s Nominal Wages Rise Again, Backing BOJ Rate Hike Case",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-04/japan-s-nominal-wages-rise-again-backing-boj-rate-hike-case",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-04T23:31:22.000Z",
-      "kind": "news",
-      "summary": "Japanese wage growth remained firm on the back of solid corporate earnings and a tight labor market, bolstering the case for another Bank of Japan interest rate hike in coming months.",
       "tier": 1,
       "tickers": [],
       "related": [],

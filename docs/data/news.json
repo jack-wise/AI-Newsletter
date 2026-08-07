@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T17:05:19.135Z",
+  "generatedAt": "2026-08-07T17:31:49.303Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,29 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "$FRMI 13s",
-      "url": "https://stocktwits.com/Thelonius_Stonk/message/661232871",
-      "source": "@Thelonius_Stonk on StockTwits",
-      "publishedAt": "2026-08-07T11:28:54.000Z",
-      "kind": "social",
-      "credibility": {
-        "score": 65,
-        "trust": "medium",
-        "reasons": [
-          "9,634 followers",
-          "official account",
-          "7 likes"
-        ]
-      },
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 71.5,
-      "summary": "$FRMI 13s"
-    },
     {
       "title": "Convince me…",
       "url": "https://www.reddit.com/r/FRMI/comments/1vi44zf/convince_me/",
@@ -82,6 +59,29 @@
       "related": [],
       "score": 68,
       "summary": "Fermi LLC - Commercial Deal Structuring Lead"
+    },
+    {
+      "title": "$FRMI 13s",
+      "url": "https://stocktwits.com/Thelonius_Stonk/message/661232871",
+      "source": "@Thelonius_Stonk on StockTwits",
+      "publishedAt": "2026-08-07T11:28:54.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 65,
+        "trust": "medium",
+        "reasons": [
+          "9,636 followers",
+          "official account",
+          "7 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 61.5,
+      "summary": "$FRMI 13s"
     },
     {
       "title": "Some research and some questions",
@@ -940,6 +940,20 @@
   ],
   "related": [
     {
+      "title": "OpenAI Pauses Some Work on New Astra Model Over Cyber Concerns",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T17:15:04.000Z",
+      "kind": "news",
+      "summary": "OpenAI is pausing some internal work around one of its upcoming artificial intelligence models to implement stricter safeguards after the system was found to be significantly more adept at cybersecurity tasks.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
       "title": "Exclusive: OpenAI slows release of Astra model citing cyber capabilities - Axios",
       "url": "https://www.axios.com/2026/08/07/openai-astra-model-delay-cybersecurity-risks",
       "source": "Axios",
@@ -951,20 +965,6 @@
         "OpenAI"
       ],
       "score": 75
-    },
-    {
-      "title": "Satya Nadella Said Microsoft's Own AI Chips Are Driving Up to 40% Efficiency Gains. Here's Why That Matters for Investors",
-      "url": "https://www.fool.com/investing/2026/08/07/satya-nadella-said-microsofts-own-ai-chips-are-dri/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-07T16:09:39.000Z",
-      "kind": "news",
-      "summary": "Microsoft's CEO, Satya Nadella, revealed that running its MAI models on custom AI chips leads to 40% better performance per watt, resulting in lower operating costs and potentially higher margins for its cloud segment. This efficiency gain, coupled with a growing cloud backlog and expanding AI infrastructure spending, positions Microsoft for continued revenue and earnings growth. While the stock has lagged broader equities this year, there is ample upside remaining for invest [sentiment: Somewhat-Bullish]",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 65
     },
     {
       "title": "OpenAI expands into consumer hardware with AI-powered smart speaker plans - The American Bazaar",
@@ -1009,6 +1009,20 @@
       "summary": "Alphabet's recurring revenue businesses will boost its stock over the next decade."
     },
     {
+      "title": "The next chapter of our AI momentum - blog.google",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "blog.google",
+      "publishedAt": "2026-08-07T17:21:53.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "Today, Google and Alphabet CEO Sundar Pichai shared some changes with Google DeepMind teams."
+    },
+    {
       "title": "'It's a smart donut': OpenAI's first gadget will reportedly be an Echo Dot with a few twists — so I asked Gemini and ChatGPT to build it - TechRadar",
       "url": "https://www.techradar.com/ai-platforms-assistants/i-asked-gemini-and-chatgpt-to-build-openais-mythical-ai-hardware-the-results-are-shockingly-good-but-still-dont-make-me-want-this-usd300-plus-device",
       "source": "TechRadar",
@@ -1036,20 +1050,6 @@
       "score": 55
     },
     {
-      "title": "The next chapter of our AI momentum - blog.google",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "blog.google",
-      "publishedAt": "2026-08-07T16:51:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55,
-      "summary": "Today, Google and Alphabet CEO Sundar Pichai shared some changes with Google DeepMind teams."
-    },
-    {
       "title": "Nvidia Stock Jumps After AMD Acquires AI Startup Taalas - Yahoo! Finance Canada",
       "url": "https://ca.finance.yahoo.com/news/nvidia-stock-jumps-amd-acquires-164513864.html",
       "source": "Yahoo! Finance Canada",
@@ -1072,48 +1072,6 @@
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Big Tech's AI Borrowing Binge Hits Record Levels As Alphabet (NASDAQ: GOOGL) Prepares $25 Billion Bond Sale - foreignpolicyjournal.com",
-      "url": "https://www.foreignpolicyjournal.com/2026/08/07/big-techs-ai-borrowing-binge-hits-record-levels-as-alphabet-nasdaq-googl-prepares-25-billion-bond-sale/",
-      "source": "foreignpolicyjournal.com",
-      "publishedAt": "2026-08-07T16:30:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55,
-      "summary": "Alphabet (NASDAQ: GOOGL), Amazon (NASDAQ: AMZN), Meta (NASDAQ: META), and Oracle (NYSE: ORCL) have issued roughly $194 billion in bonds this year, nearly"
-    },
-    {
-      "title": "Microsoft, Amazon, Meta, Google Are 'Collectively Overinvesting' In AI: 'That's Betting, Not Investing,'",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61044964/microsoft-amazon-meta-google-ai-spending",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-07T15:22:02.000Z",
-      "kind": "news",
-      "summary": "Aswath Damodaran, known as the \"Dean of Valuation,\" argues that major tech companies like Microsoft, Amazon, Meta, and Google are \"collectively overinvesting\" in AI. He characterizes their significant capital expenditures, projected to reach $745 billion this year, as \"betting\" rather than \"investing\" due to a lack of clear business models for profitability. Damodaran notes that these companies are transforming from software giants with high returns on capital to manufacturin [sentiment: Somewhat-Bearish]",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "MSFT",
-        "GOOGL"
-      ],
-      "score": 55
-    },
-    {
-      "title": "US investigates Chinese AI firms’ offshore access to Nvidia chips: report - Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4629042-us-investigates-chinese-ai-firms-offshore-access-to-nvidia-chips-report",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-07T11:30:14.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
       ],
       "score": 55
     },
@@ -1159,20 +1117,6 @@
       "summary": "Nebius has crushed it so far in 2026, but this is just the beginning."
     },
     {
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Microsoft Corporation of Class Action Lawsuit and Upcoming Deadlines - MSFT",
-      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-reminds-investors-with-losses-on-their-investment-in-microsoft-corporation-of-class-action-lawsuit-and-upcoming-deadlines--msft-302845524.html",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-07T00:08:43.000Z",
-      "kind": "news",
-      "summary": "Pomerantz LLP has filed a class action lawsuit against Microsoft Corporation (NASDAQ: MSFT), advising investors with losses to contact them regarding upcoming deadlines. The lawsuit alleges securities fraud or unlawful business practices, stemming from disappointing Q2 fiscal 2026 results including slowed Azure growth, increased capital expenditures, and significantly lower-than-expected Copilot seat adoption, which caused Microsoft's stock price to fall. Further revelations  [sentiment: Bearish]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55
-    },
-    {
       "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker - The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
       "source": "The Verge",
@@ -1200,18 +1144,18 @@
       "score": 55
     },
     {
-      "title": "Google is expanding its AI empire — and losing the people who built it",
-      "url": "https://www.cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-06T17:11:01.000Z",
+      "title": "Big Tech's AI Borrowing Binge Hits Record Levels As Alphabet (NASDAQ: GOOGL) Prepares $25 Billion Bond Sale - foreignpolicyjournal.com",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/07/big-techs-ai-borrowing-binge-hits-record-levels-as-alphabet-nasdaq-googl-prepares-25-billion-bond-sale/",
+      "source": "foreignpolicyjournal.com",
+      "publishedAt": "2026-08-07T16:30:00.000Z",
       "kind": "news",
-      "summary": "Google’s cloud boom is testing the company's commitment to frontier AI as commercial returns take priority.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "GOOGL"
       ],
-      "score": 55
+      "score": 45,
+      "summary": "Alphabet (NASDAQ: GOOGL), Amazon (NASDAQ: AMZN), Meta (NASDAQ: META), and Oracle (NYSE: ORCL) have issued roughly $194 billion in bonds this year, nearly"
     },
     {
       "title": "Time to Buy Nvidia or SpaceX Stock After Their AI Partnership? - Zacks Investment Research",
@@ -1351,9 +1295,122 @@
       ],
       "score": 45,
       "summary": "Through lease guarantees, equity warrants, and off-balance-sheet structured credit, Google has assembled the largest AI financing ecosystem in history — and the cost-of-capital gap is the real competitive weapon."
+    },
+    {
+      "title": "Nautilus Data Technologies' NVIDIA Marketplace Debut - Data Centre Magazine",
+      "url": "https://datacentremagazine.com/news/nautilus-data-technologies-cooling-nvidia-marketplace-debut",
+      "source": "Data Centre Magazine",
+      "publishedAt": "2026-08-07T13:04:44.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Nautilus’ EcoCore FCD has been validated for NVIDIA AI factories, supporting more than 4MW of liquid cooling capacity for high-density GPU deployments"
+    },
+    {
+      "title": "OpenAI’s Doughnut-Shaped ChatGPT Speaker Leaks With Moving Parts, $300-$400 Price, 2027 Release - NewsCord",
+      "url": "https://newscord.org/article/openais-doughnut-shaped-chatgpt-speaker-leaks-with-moving-parts-300-400-price-20--Story_20260807_OpenAIsnewAIsmartspef9914213",
+      "source": "NewsCord",
+      "publishedAt": "2026-08-07T13:02:03.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "18 sources compared: Asian (4), Western Alternative (3), Local Western (2). OpenAI’s first consumer hardware device is reportedly a screenless, doughnut-shaped smart speaker roughly the size of a ..."
+    },
+    {
+      "title": "Zayo enlists Nvidia to help build dedicated ‘AI corridors’ across the US - sdxcentral.com",
+      "url": "https://www.sdxcentral.com/news/zayo-enlists-nvidia-to-help-build-dedicated-ai-corridors-across-the-us/",
+      "source": "sdxcentral.com",
+      "publishedAt": "2026-08-07T12:39:34.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Fiber expansion project to connect high-demand markets and emerging data center hubs"
+    },
+    {
+      "title": "DeepMind founder ascends to singular AI role at Google - Computerworld",
+      "url": "https://www.computerworld.com/article/4206724/deepmind-founder-ascends-to-singular-ai-role-at-google.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-08-07T12:37:19.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Demis Hassabis will focus more deeply on trying to create artificial general intelligence."
     }
   ],
   "general": [
+    {
+      "title": "This Power Stock Could Be a Big Winner From the Data Center Boom - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSGNUSjVSX3o2RnRfS1JRWHJPR29yUW5pdUw5cUpBNmhMQ256ZmhkeHhpaUx2SmQyeXE0R3VRRkM4Y2FpQzdmZjhlUnRxSUo5RVdwUUdjT2EySU5aTHBteFFXdGlpRWdwZ2xNOTBtd3EtY04yN25FSHRrTExLX2kwUmNWLUhDNkRwYko2OUVoV2w?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-07T17:29:05.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Connectivity inside the data center: from infrastructure to strategy - The AI Journal",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMGo5SnBrUEduQWVuWjNQMUxlRmoxd0oyNXlnRmZkWW1fak9maGlWZV9iM2xnSWZJQU50S2szN3EycVliLTk0ZnU5eklaX2E0RTVJcERjOXQxVVdraU90VmNUMmc0Vjk0cGRZa2d6YkZ5STNROGItcEZrR2ROTC1PMWdPbERrdmllbVljN0xzN2pTUQ?oc=5",
+      "source": "The AI Journal",
+      "publishedAt": "2026-08-07T17:11:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Eastport residents fill hearings to oppose DeepGreen’s underwater AI data‑center plan - The Maine Monitor",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTG9KX2VQV2I1RHlGTE9kNHFoVURXUnNlRGRsRWJaUFRWUXdjV1RnQmF0eG1URklrTHJjeUVKLU1xV0FWNl9WbVpRM2lGQl8yZnpRQ2Zza2ZoaFRsX1lsWk1Ia3UwTnctekpsNDVPX0ZQa01FcUtXNTN2ZEtPa0xQVElR?oc=5",
+      "source": "The Maine Monitor",
+      "publishedAt": "2026-08-07T17:07:04.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Jobs, AI, and Tech Earnings | Bloomberg Tech 8/07/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-07/bloomberg-tech-8-07-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T17:05:02.000Z",
+      "kind": "news",
+      "summary": "Bloomberg’s Ed Ludlow breaks down the latest jobs data, as US employers unexpectedly cut jobs in July and questions grow over AI’s role in the labor market. Plus, the CEOs of Twilio, Lyft, and DraftKings join to discuss their latest earnings. And, OpenAI’s first consumer device is taking shape, an AI smart speaker designed to look like a doughnut. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Why Twilio Sees More AI Upside Ahead",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-07/why-twilio-sees-more-ai-upside-ahead-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T17:04:00.000Z",
+      "kind": "news",
+      "summary": "Twilio shares surged after the cloud communications company beat expectations and delivered record profitability and free cash flow. CEO Khozema Shipchandler joins Bloomberg to explain why AI is still only a modest contributor to revenue today, how Twilio’s global communications infrastructure creates a competitive moat, and why he sees agentic AI as a long-term tailwind for the business. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "World Cup Gives DraftKings a New Growth Engine",
       "url": "https://www.bloomberg.com/news/videos/2026-08-07/world-cup-gives-draftkings-a-new-growth-engine-video",
@@ -1385,17 +1442,6 @@
       "publishedAt": "2026-08-07T17:00:00.000Z",
       "kind": "news",
       "summary": "Take-Two shares climbed after quarterly bookings beat estimates, but investors remain focused on the biggest event in the company’s pipeline, the launch of Grand Theft Auto VI. Bloomberg’s Jason Schreier discusses what Take-Two is calling “unprecedented” preorder demand, why expectations for the game are so high, and what to watch for when Rockstar unveils an extended look at GTA VI gameplay ahead of its November release. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloom",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "China’s AI ecosystem is not as open as it claims. Nor is any other country’s - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT0VpQS1BTWhGbHJGbVJYbERUS0Nmc3gxdFBKNXNFaUtONjBjeEdpNDhMWTU2UGtJTHZUamw3VVF1SmV0OHVYYU1LWG8tM3Y2LVBHQ0FHOG9nenlmU0J3ZlpUdzVrQnJybW95dGtZbzJDMDZkZDA3aWowQm1SZU8yVFlMY0FlX3BhYjhLWHgyajhzbkVvY3VlcFNUNVQ1a0h0VGU4VlNsc0poTVNoT1R2cEVaRHZYdlZjUFpWWTgwNA?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-07T16:56:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1496,100 +1542,6 @@
       "score": 60
     },
     {
-      "title": "Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%",
-      "url": "https://www.cnbc.com/2026/08/07/chesky-airbnb-ai-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-07T16:28:54.000Z",
-      "kind": "news",
-      "summary": "Airbnb CEO Brian Chesky wasn’t sure AI would help the company, but a year later, he says it’s the reason growth is back.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "BlackRock’s Rieder Sees AI Helping Buoy GDP Even as Hiring Slows",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/blackrock-s-rieder-sees-ai-helping-buoy-gdp-even-as-hiring-slows",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-07T16:25:38.000Z",
-      "kind": "news",
-      "summary": "BlackRock Inc.’s Rick Rieder said last month’s surprise contraction in payrolls reflects a “productivity revolution” rather than economic weakness, arguing that the US economy remains on track for 6% nominal growth in gross domestic product even as hiring stalls.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Energy Vault Announces Strategic Agreement to Deploy 1.25 GW of Integrated Power Infrastructure for Hyperscaler AI Data Center with Leading Power Generation EPC Deploying Caterpillar Gensets - The AI Journal",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPVUVuQ0hLVnRnbGpmLXNUSExRTDU4VTRJcTl3MUxQY0dLZXg0TG1CT1ZYcjgxdlJuMlI0eXJXU09qRkRZQXBnSmpQbFhZSmszLUhHUE8xNEh4NzBORDRoVnR2WXM0X3VtanNfUXA3anNaazBHdFNCdGJBM0J3VVFEeUk3c2YxQklFTF95YXozLWZPWmhaek9GRkthejdNcjk2YkFPM2I3V3VKZEM0dlZ5cEF3VVFCNW53Vm53Ym1HbnpaenNRWWR1YmlUZllxR0NjOGRFcXFtTUdFMmpvckdHYl9xWUNmX0J0MW5GLTVsOUlQRHJtUGpLcWNQMGtNRDh4b3FmRTY1VURtbTlwaGVrU25LQVJTWFVKT2VvN3NRZkNUcm9uVkZsUlBUbFJDTndjYVJKcTln?oc=5",
-      "source": "The AI Journal",
-      "publishedAt": "2026-08-07T16:24:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "EU Accelerates Sovereign Satellite Plans Citing Defense Needs",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/eu-accelerates-sovereign-satellite-plans-citing-defense-needs",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-07T16:21:54.000Z",
-      "kind": "news",
-      "summary": "The European Union said it’s bulking up plans for a sovereign satellite constellation and will accelerate its service launch by a year to 2029, citing a changing security environment that will require greater communication capacity.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
-      "url": "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-07T16:21:50.000Z",
-      "kind": "news",
-      "summary": "A judge in New Mexico ordered Meta to pay $567 million into an abatement fund after a jury ruled the company violated the state’s unfair practices act.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Fitch Sees Chile Budget as Key to Halting Rising Debt Burden",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/fitch-sees-chile-budget-as-key-to-halting-rising-debt-burden",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-07T16:20:07.000Z",
-      "kind": "news",
-      "summary": "Fitch Ratings is skeptical that tax cuts approved by Chile’s Congress last month will boost growth by enough to offset the immediate drop in revenue, leaving the emphasis on fiscal spending reductions if the government wants to balance the books anytime soon.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Education’s AI ‘gold rush’ comes with risks for students - The Christian Science Monitor",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaTl5aFNaMHd5TFpRbmFnYXFnQ1lCVF93NW5JTzFkWTlvODVTNmh2a2tGdjNXUldMS3NldWdHYkpibXB1enhFOG1wbmpkTFZGcFViQW42RW5JSkREUUlTNE4xa1Jhck90LS0waGxMNVpiWDdqdjhVVEpYb3R1UmF4VtIBmgFBVV95cUxNQ3JIV2NJazNCVzJzd1Y2SjBqeEREa1VqRjdINC1vSWlQODhpc1V4N2F2VXprV2N4VVJxaVlRNEJyUjh2VEg3SmVtQm5TTkVDUjV0M1F2QlFBMHgtTXJZeXBmczZLWUtYcFprdk1JSU9iN1c0R25ua0FGbzV4UExab3NXYVlESDl3RUxhUDZFdEVLVXJxazViNlhB?oc=5",
-      "source": "The Christian Science Monitor",
-      "publishedAt": "2026-08-07T16:15:21.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Worst-Ever Brazil Market Outage Puts B3’s Near-Monopoly in Focus",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/worst-ever-brazil-market-outage-puts-b3-s-near-monopoly-in-focus",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-07T16:13:48.000Z",
-      "kind": "news",
-      "summary": "The worst trading outage ever in Brazilian financial markets was just the latest disruption over the past year to bedevil investors in Latin America’s biggest economy.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Energy Vault secures 1.25 GW AI data center power contract in Texas - Investing.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT041Rl81VUhfNTFSVHh1UlZaX1JrWmlDelhMRUtkQmJxTk9mU3Vxdm9aMmRhMEhiZllac1JOdEdjOTlCNEE1NkZNV0tIVjc1TEpRUXh5T0hOaUptRm5QT3d6OThlbE1yTDZmOUhtZURkcnFfcGlMYTRnbjJ1Z28yNXU1ZWhWcm45WXp3UThfdlltOHhFM3M3Yjk1WFFnSVh4RHhENW9YTllTa3RYSVh0c3NqZ3JobTViRUdXak8wVWw?oc=5",
       "source": "Investing.com",
@@ -1601,12 +1553,95 @@
       "score": 50
     },
     {
-      "title": "Texas AI Data Centers Set for 1.25 GW of Off-Grid Power - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEgxRWFJekU4MmtadDlGTDBMdWxBOGFHc1hnWGhWRlRuX3lhVHZWa0x1RVJzS3FKenFpQUR3Z25KYVVxbE1JTXdnNDljM2x1cU9yZzRYeFVBU1JCMG00bHhsaGMtbFI1N0xSenZGcFJYeEJfWmtodWJKYkVjeTRWVENybm5iS20ybUNVUG9GQ0pBTG5CZDVNbUl6UnoyMklSMDhYY3ZNSTMxalVZZFhPZlZDME5DMEpaLUE?oc=5",
-      "source": "Stock Titan",
-      "publishedAt": "2026-08-07T16:16:00.000Z",
+      "title": "Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%",
+      "url": "https://www.cnbc.com/2026/08/07/chesky-airbnb-ai-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-07T16:28:54.000Z",
       "kind": "news",
-      "tier": 2,
+      "summary": "Airbnb CEO Brian Chesky wasn’t sure AI would help the company, but a year later, he says it’s the reason growth is back.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "BlackRock’s Rieder Sees AI Helping Buoy GDP Even as Hiring Slows",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/blackrock-s-rieder-sees-ai-helping-buoy-gdp-even-as-hiring-slows",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T16:25:38.000Z",
+      "kind": "news",
+      "summary": "BlackRock Inc.’s Rick Rieder said last month’s surprise contraction in payrolls reflects a “productivity revolution” rather than economic weakness, arguing that the US economy remains on track for 6% nominal growth in gross domestic product even as hiring stalls.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Energy Vault Announces Strategic Agreement to Deploy 1.25 GW of Integrated Power Infrastructure for Hyperscaler AI Data Center with Leading Power Generation EPC Deploying Caterpillar Gensets - The AI Journal",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPVUVuQ0hLVnRnbGpmLXNUSExRTDU4VTRJcTl3MUxQY0dLZXg0TG1CT1ZYcjgxdlJuMlI0eXJXU09qRkRZQXBnSmpQbFhZSmszLUhHUE8xNEh4NzBORDRoVnR2WXM0X3VtanNfUXA3anNaazBHdFNCdGJBM0J3VVFEeUk3c2YxQklFTF95YXozLWZPWmhaek9GRkthejdNcjk2YkFPM2I3V3VKZEM0dlZ5cEF3VVFCNW53Vm53Ym1HbnpaenNRWWR1YmlUZllxR0NjOGRFcXFtTUdFMmpvckdHYl9xWUNmX0J0MW5GLTVsOUlQRHJtUGpLcWNQMGtNRDh4b3FmRTY1VURtbTlwaGVrU25LQVJTWFVKT2VvN3NRZkNUcm9uVkZsUlBUbFJDTndjYVJKcTln?oc=5",
+      "source": "The AI Journal",
+      "publishedAt": "2026-08-07T16:24:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "EU Accelerates Sovereign Satellite Plans Citing Defense Needs",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/eu-accelerates-sovereign-satellite-plans-citing-defense-needs",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T16:21:54.000Z",
+      "kind": "news",
+      "summary": "The European Union said it’s bulking up plans for a sovereign satellite constellation and will accelerate its service launch by a year to 2029, citing a changing security environment that will require greater communication capacity.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Meta ordered to pay $567 million into abatement fund as remedy to child harms case in New Mexico",
+      "url": "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-07T16:21:50.000Z",
+      "kind": "news",
+      "summary": "A judge in New Mexico ordered Meta to pay $567 million into an abatement fund after a jury ruled the company violated the state’s unfair practices act.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Fitch Sees Chile Budget as Key to Halting Rising Debt Burden",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/fitch-sees-chile-budget-as-key-to-halting-rising-debt-burden",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T16:20:07.000Z",
+      "kind": "news",
+      "summary": "Fitch Ratings is skeptical that tax cuts approved by Chile’s Congress last month will boost growth by enough to offset the immediate drop in revenue, leaving the emphasis on fiscal spending reductions if the government wants to balance the books anytime soon.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Education’s AI ‘gold rush’ comes with risks for students - The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaTl5aFNaMHd5TFpRbmFnYXFnQ1lCVF93NW5JTzFkWTlvODVTNmh2a2tGdjNXUldMS3NldWdHYkpibXB1enhFOG1wbmpkTFZGcFViQW42RW5JSkREUUlTNE4xa1Jhck90LS0waGxMNVpiWDdqdjhVVEpYb3R1UmF4VtIBmgFBVV95cUxNQ3JIV2NJazNCVzJzd1Y2SjBqeEREa1VqRjdINC1vSWlQODhpc1V4N2F2VXprV2N4VVJxaVlRNEJyUjh2VEg3SmVtQm5TTkVDUjV0M1F2QlFBMHgtTXJZeXBmczZLWUtYcFprdk1JSU9iN1c0R25ua0FGbzV4UExab3NXYVlESDl3RUxhUDZFdEVLVXJxazViNlhB?oc=5",
+      "source": "The Christian Science Monitor",
+      "publishedAt": "2026-08-07T16:15:21.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Worst-Ever Brazil Market Outage Puts B3’s Near-Monopoly in Focus",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/worst-ever-brazil-market-outage-puts-b3-s-near-monopoly-in-focus",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T16:13:48.000Z",
+      "kind": "news",
+      "summary": "The worst trading outage ever in Brazilian financial markets was just the latest disruption over the past year to bedevil investors in Latin America’s biggest economy.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1718,17 +1753,6 @@
       "score": 50
     },
     {
-      "title": "One of science fiction’s greatest writers warned us about a AI. Does he also hold the remedy? | Alan Finkel - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRzdOWkVuYXNtWUZHS3plQzZ5Yk1tUzdDdzQ4eVZrSGtwTXZtUmg5em5HaFNIU0NFZkhUeDVNVUE4YkxWd0pGTm5JWEtrSVk3VUtES1p5WWk1WkJtbmhnc2w5YlBSeHBsalJTdkpZaHduLU05endSLWRsTHl6SEdldkdIM0E5aGVaQ251cTRhNmpPeVJ6cDg2ZmhTbGtSWE5KNjRfd1NLRHFDVXNKMFdoanFJdVBLVGZRNkpiYkVkb1RlR0Jsbk14Nm0yZTB3YlFXNGM2cmVFQU85b29iM2gyUGZRX1pOOFN6NjViZw?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-07T15:29:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Port of LA Partners with California for Vincent Thomas Bridge Project",
       "url": "https://www.bloomberg.com/news/videos/2026-08-07/port-of-la-partners-with-california-for-bridge-project-video",
       "source": "Bloomberg",
@@ -1759,17 +1783,6 @@
       "publishedAt": "2026-08-07T15:20:18.000Z",
       "kind": "news",
       "summary": "Nonfarm payrolls decreased 23,000 last month following a combined 103,000 downward revision to the May and June figures, Bureau of Labor Statistics data showed Friday. The unemployment rate fell to 4.1% as labor force participation continued to slide, and wage growth slowed. Claudia Sahm, Chief Economist at New Century Advisors and Constance Hunter, Chief Economist at EIU, react to July jobs data. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UlBMaGtXenRldEhCZ1RTc0xIYlloVFdSQWlnV3IxWmI5UTlpT0hiTnR2cElIbGlTbzR1WGxZTmEtMGxkM2RicjRDN3BaVjJpZzBXdGNiVkVUWmtyRENVSFFpdTFlSzNGVmZyQnZ5WWctS28?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-07T15:20:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1916,20 +1929,8 @@
       "title": "The Summer of Rogue AI Sends a Signal to the Enterprise - WSJ",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUTc4OHZJa1NHLWpLU3Y2WVRzSTI5VkZ3eEo4bEdjeEJMWFNpcUwwTVByTjA3SGRhb3VuSXVzcVB0cnA1TWNTOWhRYTVyOE00RjF4dm1HTmJEZVFBX3FhcksyUDkweW9BamRiT0l6cENhR2tJYi1yaXpiMjItLUZmbFJSaVpUdE15UWRUOHpZVnRxdlVPNDRNaTlYRzc?oc=5",
       "source": "WSJ",
-      "publishedAt": "2026-08-07T12:53:47.000Z",
+      "publishedAt": "2026-08-07T13:03:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Treasuries Rally as Soft Jobs Data Trims Fed Rate-Hike Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/us-treasuries-rally-as-soft-jobs-data-trims-fed-rate-hike-bets",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-07T12:46:13.000Z",
-      "kind": "news",
-      "summary": "US Treasuries rallied after data showed employers unexpectedly cut jobs in July, suggesting labor market challenges that could impact the Federal Reserve’s willingness to raise interest rates.",
       "tier": 1,
       "tickers": [],
       "related": [],

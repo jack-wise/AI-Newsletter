@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T12:31:24.823Z",
+  "generatedAt": "2026-08-08T13:01:19.593Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -940,38 +940,24 @@
   ],
   "related": [
     {
-      "title": "Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-08T12:00:00.000Z",
+      "title": "After Hugging Face hack, OpenAI pauses work on Astra AI model over cybersecurity risks - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-hugging-face-hack-openai-pauses-work-on-astra-ai-model-over-cybersecurity-risks/articleshow/133050943.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-08-08T10:50:00.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 75,
-      "summary": "Observers express concern that the division has lost its independence and commercial reality has taken over"
-    },
-    {
-      "title": "OpenAI Pauses Astra After Tests Reveal Autonomous Zero-Day Exploit of Hardened Systems - Tech Times",
-      "url": "https://www.techtimes.com/articles/323628/20260808/openai-pauses-astra-after-tests-reveal-autonomous-zero-day-exploit-hardened-systems.htm",
-      "source": "Tech Times",
-      "publishedAt": "2026-08-08T11:48:47.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
       "score": 65,
-      "summary": "OpenAI Astra model cybersecurity tests led the company to halt development after preliminary evaluations showed it may autonomously discover and exploit zero-day vulnerabilities in hardened systems -- the first time OpenAI&rsquo;s Preparedness Framework triggered its highest development brake, prompting"
+      "summary": "ChatGPT-maker OpenAI has announced that it is pausing some activities involving its upcoming artificial intelligence model Astra, after internal evaluations concluded the company ‘cannot rule out critical cyber capabilities.’ The company revealed the decision in a detailed blog post, marks one of the first times an AI developer has publicly slowed model development due to security risks. “We believe advanced cyber-capable models should help defenders identify and address vuln"
     },
     {
       "title": "Dan Ives Says We're in the \"3rd Inning\" of the AI Revolution. Is Nvidia Stock Still a Buy After the Pullback? - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/08/08/dan-ives-says-were-in-the-3rd-inning-of-the-ai-rev/",
       "source": "The Motley Fool",
-      "publishedAt": "2026-08-08T09:12:07.000Z",
+      "publishedAt": "2026-08-08T09:44:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -998,7 +984,7 @@
       "title": "The next chapter of our AI momentum - blog.google",
       "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
       "source": "blog.google",
-      "publishedAt": "2026-08-08T12:19:14.000Z",
+      "publishedAt": "2026-08-08T12:52:49.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1037,17 +1023,45 @@
       "summary": "NVIDIA AI Storage went open source at FMS 2026. Open APIs and Storage-Next coalition reshaped AI infrastructure competition., leaving value capture open."
     },
     {
-      "title": "Nvidia to Invest Up to $3 Billion in Blackstone-Backed Power Firm Behind Stargate - The Information",
-      "url": "https://www.theinformation.com/articles/nvidia-invest-3-billion-blackstone-backed-power-firm-behind-stargate",
-      "source": "The Information",
-      "publishedAt": "2026-08-08T01:23:00.000Z",
+      "title": "OpenAI flags possible critical cybersecurity risk in upcoming model, tightens controls - Reuters",
+      "url": "https://www.reuters.com/legal/litigation/openai-flags-possible-critical-cybersecurity-risk-upcoming-model-tightens-2026-08-07/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-07T23:12:19.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
       "score": 55
+    },
+    {
+      "title": "The AI model OpenAI won’t release yet — and what it found in testing - The New Stack",
+      "url": "https://thenewstack.io/openai-astra-cybersecurity-delay/",
+      "source": "The New Stack",
+      "publishedAt": "2026-08-07T21:00:16.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "OpenAI slows work on Astra after tests hint the model may have crossed a cybersecurity line no AI has reached, raising questions about when it ships."
+    },
+    {
+      "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "source": "The Verge",
+      "publishedAt": "2026-08-07T18:40:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "The new model wasn’t involved in the Hugging Face breach, OpenAI says."
     },
     {
       "title": "Exclusive: OpenAI slows release of Astra model citing cyber capabilities - Axios",
@@ -1061,21 +1075,6 @@
         "OpenAI"
       ],
       "score": 55
-    },
-    {
-      "title": "Microsoft, Nvidia Push Enterprise AI into Active Cyber Defense - THE Journal: Technological Horizons in Education",
-      "url": "https://thejournal.com/articles/2026/08/07/microsoft-nvidia-push-enterprise-ai-into-active-cyber-defense.aspx",
-      "source": "THE Journal: Technological Horizons in Education",
-      "publishedAt": "2026-08-07T17:44:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "AI security is entering a new stage as enterprise organizations look beyond protecting models from prompt injection, unauthorized access, and data exposure."
     },
     {
       "title": "OpenAI Pauses Some Work on New Astra Model on Cyber Concerns",
@@ -1106,6 +1105,20 @@
       "summary": "Alphabet's recurring revenue businesses will boost its stock over the next decade."
     },
     {
+      "title": "Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role - theguardian.com",
+      "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role",
+      "source": "theguardian.com",
+      "publishedAt": "2026-08-08T12:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Observers express concern that the division has lost its independence and commercial reality has taken over"
+    },
+    {
       "title": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI - the-decoder.com",
       "url": "https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/",
       "source": "the-decoder.com",
@@ -1120,24 +1133,10 @@
       "summary": "Newly awarded Fields Medalist Jacob Tsimerman is leaving the University of Toronto to join OpenAI and work on AI safety. In a recent paper, he analyzes scenarios where AI could contribute to human extinction and calls for far more investment in safety research."
     },
     {
-      "title": "How Long Do Owners Say The Nvidia Shield Lasts? - bgr.com",
-      "url": "https://www.bgr.com/2228641/how-long-owners-say-nvidia-shield-lasts/",
-      "source": "bgr.com",
-      "publishedAt": "2026-08-08T10:47:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "The Nvidia Shield is often considered the best media streaming device on the market, but how long can buyers expect theirs to last, according to owners?"
-    },
-    {
       "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia - NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
       "source": "NVIDIA Blog",
-      "publishedAt": "2026-08-08T10:29:36.000Z",
+      "publishedAt": "2026-08-08T10:33:57.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1146,32 +1145,6 @@
       ],
       "score": 45,
       "summary": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime minister of the Republic of Armenia; Zhaslan Madiyev, deputy [&hellip;]"
-    },
-    {
-      "title": "Nvidia Stock Pullback but Outlook Remains Positive - Intellectia AI",
-      "url": "https://intellectia.ai/news/stock/nvidia-stock-pullback-but-outlook-remains-positive",
-      "source": "Intellectia AI",
-      "publishedAt": "2026-08-08T10:08:29.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Hidden code in ChatGPT's Android app suggests OpenAI is building a direct WhatsApp sticker export - thenextweb.com",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6VHRlQkpreFRGVTVQVFMxUG1UbGtBU3YxTlpMdVl6V0pObHQ1MWxJRFRfUjFKd3VjYzRhZWxReWJmc0piR05md2F1M05OTzBKSDMxZHJoczNrRW9IUTZYZkF3WE4zZlVNWUxzSUZlUE1ZTkdqS3hMRGRwdnE?oc=5",
-      "source": "thenextweb.com",
-      "publishedAt": "2026-08-08T09:40:50.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
     },
     {
       "title": "Pa. attorney general joins states seeking answers from OpenAI after AI security breach - fox56.com",
@@ -1201,30 +1174,18 @@
       "score": 45
     },
     {
-      "title": "OpenAI says Astra may have reached Critical cyber threshold - TestingCatalog AI News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdTVNckFGZzRGWTIzQ1phSmtvd2FwQTdTNjRJQnBWOVo4QmFqRFByNGtqS3R6ak9GSXFwb1h6RG1qWTNlZ2dfZHFlTnVoem1UOGRVdXVfRHhHTzBMVFA1c2plNHhmNWV5d3oxVXBPSGpiTXRzUktPdXFCNGhBa0o2SWdVeGNUXzFHYk9OeXcyaGRqdS1OVHc?oc=5",
-      "source": "TestingCatalog AI News",
-      "publishedAt": "2026-08-08T07:20:13.000Z",
+      "title": "OpenAI says it slowed Astra model development over security concerns - TechCrunch",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-08-07T22:48:24.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 45
-    },
-    {
-      "title": "Apple and OpenAI Escalate Legal Battle over Devices - ASHARQ AL-AWSAT English",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbXVwd1dUTjlRVDA1YlprcDRtWXJvMWthSWhxTjBWMFVfTWNCNV9JVS0tUHlHQ2VQaFkteDZhWjh6c0NaODhBMkdCeVBWdG9FTm51eTFzOERMeHB4MkR4UTFFN1B6M0EwSmRia2w4ak1RMDVKTVZUS3V3R2tLSzNFUVZjUlRqZEFKME5veUpvdnAzNXpoR2xzYkh1dDNXQQ?oc=5",
-      "source": "ASHARQ AL-AWSAT English",
-      "publishedAt": "2026-08-08T06:46:21.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
+      "score": 45,
+      "summary": "OpenAI said it has suspended work on some aspects of its upcoming model Astra over concerns about its cybersecurity prowess."
     },
     {
       "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive” - Ars Technica",
@@ -1241,9 +1202,9 @@
       "summary": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff."
     },
     {
-      "title": "US Reviews China’s Offshore Nvidia Chip Access After AI Gains - Bloomberg.com",
+      "title": "US Reviews China’s Offshore Nvidia Chip Access After AI Gains - bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "publishedAt": "2026-08-07T09:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1268,9 +1229,9 @@
       "summary": "Nebius has crushed it so far in 2026, but this is just the beginning."
     },
     {
-      "title": "OpenAI’s New Device Will Be Hockey Puck-Sized and Cost Over $300 - Bloomberg.com",
+      "title": "OpenAI’s New Device Will Be Hockey Puck-Sized and Cost Over $300 - bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "publishedAt": "2026-08-06T19:59:38.000Z",
       "kind": "news",
       "tier": 1,
@@ -1348,9 +1309,73 @@
         "GOOGL"
       ],
       "score": 45
+    },
+    {
+      "title": "Microsoft opens its largest India data center hub as AI race heats up - Reuters",
+      "url": "https://www.reuters.com/world/india/microsoft-opens-its-largest-india-data-center-hub-ai-race-heats-up-2026-08-06/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-06T12:43:19.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Just Announced: SpaceX and Nvidia Teaming Up on New Orbital AI Data Center - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/08/06/just-announced-spacex-and-nvidia-teaming-up-on-new-orbital-ai-data-center/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-06T11:40:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Elon Musk says SpaceX is now \"exclusive\" to Nvidia's superior hardware."
+    },
+    {
+      "title": "Why Nvidia bankrolls its rivals - Axios",
+      "url": "https://www.axios.com/2026/08/05/nvidias-ai-chips-financing",
+      "source": "Axios",
+      "publishedAt": "2026-08-06T01:55:07.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "AI Buildout Keeps Quinlan Bullish on US Stocks",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-08/ai-buildout-keeps-quinlan-bullish-on-us-stocks-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-08T12:47:53.000Z",
+      "kind": "news",
+      "summary": "Merrill & Bank of America Head of Market Strategy Joe Quinlan is on Bloomberg This Weekend to give his reaction to the July jobs report. Quinlan explains to hosts David Gura and Christina Ruffini that the US economy remains resilient despite the weak July jobs data, pointing to continued hiring in construction and health care and investment tied to AI. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "By The Way: Headline You May Have Missed the Week of 8/2",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-08/by-the-way-headline-you-may-have-missed-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-08T12:28:15.000Z",
+      "kind": "news",
+      "summary": "Sports game streaming, RFK Jr.'s cooking show, $100 hot dogs, and getting into college without applying. Bloomberg News' Lisa Mateo joins David Gura and Christina Ruffini on Bloomberg This Weekend to share headlines you may have missed from over the week. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Ceuta Migrant Surge Exposes Morocco’s Economic Strain",
       "url": "https://www.bloomberg.com/news/videos/2026-08-08/ceuta-migrant-surge-exposes-morocco-s-economic-strain-video",
@@ -1385,7 +1410,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "The AI boom is creating data center jobs that pay more - Business Insider Africa",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc05lV2h4MVdlSmNDWDFsNVRBMkhjdjJiR1p1Q1o3Q3BPVldfQ2h3WUJpZTltX1lXS3lZc0l3cG1KNktUajM4R0N3bWQtTDkzT0xIdW1jQ2FxcEV3T0QxTG81VHkzMWtiSjdZLTMwcENTYnp4N1lFZ0RrZmU3YmpnSHpVdjNMaGlHczUtMU5hZ2locjgxaG1Ea29SbG5DVUVFc3o3WA?oc=5",
+      "source": "Business Insider Africa",
+      "publishedAt": "2026-08-08T12:00:01.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Singapore to Ensure AI Helps Workers Worried About Jobs, PM Says",
@@ -1394,17 +1430,6 @@
       "publishedAt": "2026-08-08T11:13:30.000Z",
       "kind": "news",
       "summary": "Singapore is benefitting from the rapid growth of artificial intelligence and the government is making use of the technology to ensure higher productivity and better jobs for workers who are worried about their livelihoods, Prime Minister Lawrence Wong said.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Parenting is hard. Should we let AI do it for us? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMnlUc3RobVh2MUMzMUNENWF5UURQeGF4M0RjbWlIaUt1TDQzaTloNGR2LTRIVndDRTVtZnN5RnJGWVU3LWI0cXBxVkFGZlZzQkNvdFNDaUpzd2FrTEZ5V0ozckpWdG9JcWhFTU1wcUNmV0c4Q3FGM3hrTllZdjRBcVRn?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-08T11:00:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1447,21 +1472,21 @@
       "score": 50
     },
     {
-      "title": "‘I hate what AI is doing to the minds and happiness of the young’: Katherine Rundell on the view from the classroom - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNOTYwampsdGFVaXF5R1VYZHdMM3FyMnZ0amJhN2RHRENYeWg1VTRuLWxJMlVobF84WVRRMXVpTHQtZDRuUmV1VFlDbzk0YVNQS2FGYjdieDNUMjBMaVNhaXFlM2ZjNnFFbmVXVmowTVdiRlBJTU5ocFNwRjJkVW5lRk92dmNObFVTM3lzS0JKaURrNWZQQ25kSlpoRlFDTlI2TFJ2OVJnekNuaGY3dUtNY1pOSF9iNTcyN3ljbGlnTklvc1RHbTdWR3NfYllCZFlvb0hreUFHRFdqTVZDNzBRclhPRUxHcjZlelZEOC0yMVZZOHFOTXM3dFB2cHFhWThCZXRV?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-08T08:02:00.000Z",
+      "title": "A pillar of environmental enforcement is targeted by Trump and Musk's AI company - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWk1LWS12Ml8tYTNNaDhJQk1IT0JTbkVHa1ZiS3UwU3hXMDFpeFlPcWZjeHlxN1YtVXRFV1l2eGFyNUg5QUJaLXpEcTl0aGVsTGY0S1J0S1hCeDJpb3l6aXBSRGVHSVVMdTZvTWtRV2tLOXEtTVlPdVlSWjV3UHIwTS1tTGlqM09ZeW53UFJMOGJiblpPb3VnRnliRVV6ck5WTWt5RnZkVTlqaG1sRThxVzNrVWpPUQ?oc=5",
+      "source": "WRAL",
+      "publishedAt": "2026-08-08T12:57:23.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Can AI in the permitting process help solve Syracuse’s housing crisis? - Central Current",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVkZTbk8tS3RDd2lnSnFfUHJha2h4QXk2RmZBUEt1OXdDWnVrSVlKVXZiVHRiUkxtT0dOUVhIaENlN3FNS0JEel9sOFB4dGloeEhNTlFzRGxzMjZ6OW95dTY0ZnNySEJNVWdTMXptcnpMR2lIRnhxV3JpWTd2dU9uRC0zNHB2ZjBBVjlDNWlLZ2c1dEJGSlRQclFzUm8?oc=5",
-      "source": "Central Current",
-      "publishedAt": "2026-08-08T12:10:19.000Z",
+      "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ21FLWpYTmNNQ2pUUmNNMk45VThyUDZmY19TWS1SX3hDZ3JnVndVVTBiVGZwUDNJejJla182SG5lemJWdnFvejBpa2hfaXdUc3ppY2R3QnMwNVUxRklXY2dCQzJMeHRoeHFJYzhRblhPYXZXd1ZZZE94NDhnYjVUelRqQVVLY2xhQ1VReTFnU3JSbEtB?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-08T12:34:58.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1480,23 +1505,12 @@
       "score": 40
     },
     {
-      "title": "ai& Collaborates with Voltaiq to Ensure Quality, Reliability, and Safety of Battery Energy Storage for AI Data Centers - Batteries News",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTENZbm1RZUZzVnVDSy1pamZjQTBlNWNScVphci1fTW8yNnMxa3M3U3RKRXZfd3o1SUl6VThReURfajlyUVlFd1JmT1FWMU1iU1NRM0RTU3BEMEdnZGlMbDBlV0JuVm94azBJSXYyVFRiaG9ReTNPN0h2Tmh2cnE3WXNUSEp0N212YTNwdVNnUnhLc2Q5a2tyeTFtMVpUVnU3bFZqcmdJbWROdXgzSGNfWGxEQk9xNmJmcm9KaF9DbExRX0l4NXRidDZLUEpRSUxJM3JvSUFmczhLZw?oc=5",
-      "source": "Batteries News",
-      "publishedAt": "2026-08-08T11:57:57.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Zelenskyy Makes Debut Trip to Serbia as Russian Influence Wanes",
+      "title": "Zelenskyy Wins Serbian Pledges as Russian Influence Wanes",
       "url": "https://www.bloomberg.com/news/articles/2026-08-08/zelenskyy-makes-debut-trip-to-serbia-as-russian-influence-wanes",
       "source": "Bloomberg",
       "publishedAt": "2026-08-08T06:00:00.000Z",
       "kind": "news",
-      "summary": "Ukrainian President Volodymyr Zelenskyy is making a landmark first visit on Saturday to Serbia, the Balkan country whose leader has been scaling back once-close ties with Russia.",
+      "summary": "Ukrainian President Volodymyr Zelenskyy made a landmark first visit on Saturday to Serbia to expand cooperation with the Balkan country whose leader has been scaling back once-close ties with Russia.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1682,23 +1696,11 @@
       "score": 40
     },
     {
-      "title": "Investors Clamor to Bet on AI Whiz Kid's Fund After Situational Awareness Turmoil - Bloomberg.com",
+      "title": "Investors Clamor to Bet on AI Whiz Kid's Fund After Situational Awareness Turmoil - bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb2VqelJlaHRqX1MxOVlBd3Y2UGpNVHBpdVEzV2F0OVJ2VmlNRmVpb2oxemsxa1Q3OTVFOEQwaXVvWjRWR1ZGcm12VkpkZDdoc2Vka29TZFBhb3FCdHdEaXUtbVZ3QWQxeklGaUVyUjl0TVB6TGNIaW5hMTBPMnZlNXJpdmlyQXlKZkxvNWpuMzFBclNObk1TaVlvaWxZYmJTblE3TldUakNpam9UQ0tZTFVnRWg4OGpoc0dNVkFaLXdsU00wTVY0?oc=5",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "publishedAt": "2026-08-07T20:50:28.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Once Upon a Farm CEO on Outlook Boost, Consumer Demand",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-07/once-upon-a-farm-ceo-on-outlook-boost-consumer-demand-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-07T20:43:25.000Z",
-      "kind": "news",
-      "summary": "John Foraker, Co-Founder and CEO of Once Upon a Farm, discussed the company's strong 42% sales growth in the recent quarter and expressed confidence in sustaining this momentum due to resilient consumer demand across baby and kid food categories. The company has raised its guidance for the full year and anticipates continued growth. He speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1753,18 +1755,6 @@
       "score": 40
     },
     {
-      "title": "Credit Card Balances at Pace with Inflation: Whitney",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-07/credit-card-balances-at-pace-with-inflation-whitney-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-07T20:01:49.000Z",
-      "kind": "news",
-      "summary": "Meredith Whitney, CEO of Meredith Whitney Advisory Group, joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss how many Americans are living payday to payday as well as how consumers are utilizing their credit cards. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "How the PGA Is Growing the Game and Winnings for Players",
       "url": "https://www.bloomberg.com/news/videos/2026-08-07/innovation-doesn-t-happen-without-crisis-rolapp-video",
       "source": "Bloomberg",
@@ -1806,17 +1796,6 @@
       "publishedAt": "2026-08-07T19:03:40.000Z",
       "kind": "news",
       "summary": "JPMorgan Chase & Co. sees bond sales from technology-related firms exceeding half a trillion dollars this year, as hyperscalers’ appetite to deploy capital for the artificial intelligence buildout shows no sign of abating despite growing investor fatigue.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "D.C. startup Emerald AI scores $90M in fresh funding three months after $25M raise - The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa2VIU0hSNjUzRmVuREs4cTk0UEFKR3FIQ1RQajVETll0Y3Q3RWZKY1pEa0czUEFyWFAtcy0ycnVtMmpKcDJoenlFVUxMd25DTTEteDVFT2lZNE5aZWQwTmlpWEtmUmZMamtEdVVwMEFiTHA4R1lGMEtGV1FaU1huNnBpWGM3TzdVc2k3MjJLck5mdFBIWHJhMzgtUlhOZw?oc=5",
-      "source": "The Business Journals",
-      "publishedAt": "2026-08-07T19:01:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1933,6 +1912,30 @@
       "publishedAt": "2026-08-07T17:05:02.000Z",
       "kind": "news",
       "summary": "Bloomberg’s Ed Ludlow breaks down the latest jobs data, as US employers unexpectedly cut jobs in July and questions grow over AI’s role in the labor market. Plus, the CEOs of Twilio, Lyft, and DraftKings join to discuss their latest earnings. And, OpenAI’s first consumer device is taking shape, an AI smart speaker designed to look like a doughnut. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Why Twilio Sees More AI Upside Ahead",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-07/why-twilio-sees-more-ai-upside-ahead-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T17:04:00.000Z",
+      "kind": "news",
+      "summary": "Twilio shares surged after the cloud communications company beat expectations and delivered record profitability and free cash flow. CEO Khozema Shipchandler joins Bloomberg to explain why AI is still only a modest contributor to revenue today, how Twilio’s global communications infrastructure creates a competitive moat, and why he sees agentic AI as a long-term tailwind for the business. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "World Cup Gives DraftKings a New Growth Engine",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-07/world-cup-gives-draftkings-a-new-growth-engine-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-07T17:02:05.000Z",
+      "kind": "news",
+      "summary": "DraftKings shares rallied as investors looked beyond a disappointing quarter to stronger momentum heading into the second half of the year. CEO Jason Robins joins Bloomberg to discuss how the World Cup brought in new and returning customers, why engagement remained strong after the tournament ended, and how DraftKings is approaching the increasingly competitive prediction-markets business. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

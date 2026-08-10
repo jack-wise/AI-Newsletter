@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T13:01:45.013Z",
+  "generatedAt": "2026-08-10T13:31:37.436Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -539,7 +539,7 @@
       "title": "Billionaire Mark Cuban Just Warned Nvidia's AI Financing Could \"Crumble\" the Market. Should Investors Be Worried? - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/08/10/billionaire-mark-cuban-just-warned-nvidias-ai-fina/",
       "source": "The Motley Fool",
-      "publishedAt": "2026-08-10T12:53:32.000Z",
+      "publishedAt": "2026-08-10T13:24:01.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -548,6 +548,20 @@
       ],
       "score": 75,
       "summary": "AI's biggest opportunity could also be its biggest hidden risk. Here's what investors need to know before the next shakeout."
+    },
+    {
+      "title": "Microsoft Plans Production Boost for AI Chips, Information Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/microsoft-plans-production-boost-for-ai-chips-information-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-10T13:19:25.000Z",
+      "kind": "news",
+      "summary": "Microsoft Corp. is planning to “significantly” increase production of its next-generation AI chips, The Information reported.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 75
     },
     {
       "title": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
@@ -562,20 +576,6 @@
         "OpenAI"
       ],
       "score": 75
-    },
-    {
-      "title": "Rogue AI models of Anthropic, OpenAI and Meta that went on hacking other companies had a common 'Israel l - The Times of India",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/rogue-ai-models-of-anthropic-openai-and-meta-that-went-on-hacking-other-companies-had-a-common-israel-link/articleshow/133099557.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-10T11:10:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "AI models from Anthropic, OpenAI and Meta recently made headlines after they accessed websites and systems they were not supposed to during security testing. While the incidents involved different companies, they all shared one common link — an Israeli cybersecurity startup called Irregular, which hosted the testing environment where the models were being evaluated."
     },
     {
       "title": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies",
@@ -606,36 +606,38 @@
       "score": 65
     },
     {
-      "title": "What TSMC Sales Growth Means for Apple and Nvidia Stocks - Barron's",
-      "url": "https://www.barrons.com/articles/tsmc-stock-sales-apple-ai-3491573c",
-      "source": "Barron's",
-      "publishedAt": "2026-08-10T12:19:00.000Z",
+      "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA - NVIDIA Developer",
+      "url": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
+      "source": "NVIDIA Developer",
+      "publishedAt": "2026-08-10T13:29:50.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI agentic work. Optimized to run across a range…"
     },
     {
-      "title": "TSMC Sales Jumps 45% as Nvidia-Driven AI Boom Powers Chip Demand - ca.finance.yahoo.com",
-      "url": "https://ca.finance.yahoo.com/news/tsmc-sales-jumps-45-nvidia-121836175.html",
-      "source": "ca.finance.yahoo.com",
-      "publishedAt": "2026-08-10T12:18:36.000Z",
+      "title": "Nvidia investing up to $3 billion in Lancium for Stargate - qz.com",
+      "url": "https://qz.com/nvidia-lancium-investment-stargate-power-081026",
+      "source": "qz.com",
+      "publishedAt": "2026-08-10T13:09:31.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "The deal values Lancium, which owns the first operational Stargate site in Abilene, Texas, at around $10 billion"
     },
     {
-      "title": "OpenAI says Astra could reach ‘critical’ cyber capability, tightens safeguards - csoonline.com",
-      "url": "https://www.csoonline.com/article/4207311/openai-says-astra-could-reach-critical-cyber-capability-tightens-safeguards.html",
-      "source": "csoonline.com",
-      "publishedAt": "2026-08-10T12:07:10.000Z",
+      "title": "OpenAI Pauses Work on AI Model Over Serious Cybersecurity Risks - PCMag UK",
+      "url": "https://uk.pcmag.com/ai/166630/openai-pauses-work-on-ai-model-over-serious-cybersecurity-risks",
+      "source": "PCMag UK",
+      "publishedAt": "2026-08-10T13:06:19.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -643,7 +645,7 @@
         "OpenAI"
       ],
       "score": 55,
-      "summary": "Tests show the upcoming model may be able to find and exploit vulnerabilities or carry out attacks on its own, prompting stricter controls and external testing."
+      "summary": "The unreleased model, called Astra, showed signs that it could carry out cyberattacks autonomously, says OpenAI."
     },
     {
       "title": "Nvidia Is Turning AI Complexity Into A Compounding Moat (NASDAQ:NVDA) - Seeking Alpha",
@@ -729,6 +731,46 @@
       "summary": "Zayo and NVIDIA Expand Network Capacity to Support AI Factories Across North America"
     },
     {
+      "title": "What TSMC Sales Growth Means for Apple and Nvidia Stocks - Barron's",
+      "url": "https://www.barrons.com/articles/tsmc-stock-sales-apple-ai-3491573c",
+      "source": "Barron's",
+      "publishedAt": "2026-08-10T12:19:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "TSMC Sales Jumps 45% as Nvidia-Driven AI Boom Powers Chip Demand - ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/news/tsmc-sales-jumps-45-nvidia-121836175.html",
+      "source": "ca.finance.yahoo.com",
+      "publishedAt": "2026-08-10T12:18:36.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "OpenAI says Astra could reach ‘critical’ cyber capability, tightens safeguards - csoonline.com",
+      "url": "https://www.csoonline.com/article/4207311/openai-says-astra-could-reach-critical-cyber-capability-tightens-safeguards.html",
+      "source": "csoonline.com",
+      "publishedAt": "2026-08-10T12:07:10.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Tests show the upcoming model may be able to find and exploit vulnerabilities or carry out attacks on its own, prompting stricter controls and external testing."
+    },
+    {
       "title": "House Democrats are pushing for OpenAI and Anthropic CEOs to testify after AI hacking spree - qz.com",
       "url": "https://qz.com/house-democrats-openai-anthropic-ceo-testimony-ai-hacking-081026",
       "source": "qz.com",
@@ -757,9 +799,23 @@
       "summary": "Rogue AI model disclosures at OpenAI, Anthropic and Meta all lead back to Irregular, and Ted Lieu is pushing a kill switch bill."
     },
     {
-      "title": "OpenAI Pauses Astra Model Over Critical Cybersecurity Risk Concerns - Security Affairs",
+      "title": "Taylor Farms Issues Voluntary Recall Of Jalapeño Products Over Salmonella Risk Hitting Walmart (NYSE: WMT) and Amazon (NASDAQ: AMZN)",
+      "url": "https://www.foreignpolicyjournal.com/2026/08/10/taylor-farms-issues-voluntary-recall-of-jalapeno-products-over-salmonella-risk-hitting-walmart-nyse-wmt-and-amazon-nasdaq-amzn/",
+      "source": "Foreign Policy Journal",
+      "publishedAt": "2026-08-10T11:39:08.000Z",
+      "kind": "news",
+      "summary": "Taylor Farms has issued a voluntary recall of over a dozen jalapeño-containing products, including salsas and guacamole, across the United States due to salmonella concerns. This action follows an earlier recall by Coast Citrus Distributors and affects major retailers like Walmart, Amazon's Whole Foods Market, Kroger, Target, and Trader Joe's. The recall comes amidst an ongoing investigation into a salmonella outbreak and a separate cyclospora parasite outbreak tied to Taylor [sentiment: Somewhat-Bearish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "AMZN"
+      ],
+      "score": 45
+    },
+    {
+      "title": "OpenAI Pauses Astra Model Over Critical Cybersecurity Risk Concerns - securityaffairs.com",
       "url": "https://securityaffairs.com/196931/ai/openai-pauses-astra-model-over-critical-cybersecurity-risk-concerns.html",
-      "source": "Security Affairs",
+      "source": "securityaffairs.com",
       "publishedAt": "2026-08-10T11:37:30.000Z",
       "kind": "news",
       "tier": 3,
@@ -797,6 +853,20 @@
       ],
       "score": 45,
       "summary": "Armenia site plans to scale past 70,000 NVIDIA GPUs by 2027, with Kazakhstan added as Firebird’s second market."
+    },
+    {
+      "title": "Rogue AI models of Anthropic, OpenAI and Meta that went on hacking other companies had a common 'Israel l - timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/rogue-ai-models-of-anthropic-openai-and-meta-that-went-on-hacking-other-companies-had-a-common-israel-link/articleshow/133099557.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-08-10T11:10:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "AI models from Anthropic, OpenAI and Meta recently made headlines after they accessed websites and systems they were not supposed to during security testing. While the incidents involved different companies, they all shared one common link — an Israeli cybersecurity startup called Irregular, which hosted the testing environment where the models were being evaluated."
     },
     {
       "title": "Fidji Simo on her life after OpenAI and new startup, ChronicleBio - Fortune",
@@ -879,84 +949,74 @@
       ],
       "score": 45,
       "summary": "Ball infuriated Trump AI officials last month after claiming that the White House should create “regulatory risk” — or new rules imposing consequences on US firms — to discourage use of…"
-    },
-    {
-      "title": "Microsoft expands its India AI infrastructure footprint - Manufacturing Today India",
-      "url": "https://www.manufacturingtodayindia.com/microsoft-expands-its-india-ai-infrastructure-footprint",
-      "source": "Manufacturing Today India",
-      "publishedAt": "2026-08-10T09:54:38.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Microsoft has joined the growing list of companies cracking down on ‘tokenmaxxing’ - IT Pro",
-      "url": "https://www.itpro.com/technology/artificial-intelligence/microsoft-has-joined-the-growing-list-of-companies-cracking-down-on-tokenmaxxing",
-      "source": "IT Pro",
-      "publishedAt": "2026-08-10T09:46:09.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "The company is updating internal guidance to reduce rising costs"
-    },
-    {
-      "title": "Insurers thought the threat to cyber was bad from AI. Now even OpenAI is scared - Insurance Business",
-      "url": "https://www.insurancebusinessmag.com/au/news/breaking-news/insurers-thought-the-threat-to-cyber-was-bad-from-ai--now-even-openai-is-scared-585509.aspx",
-      "source": "Insurance Business",
-      "publishedAt": "2026-08-10T09:41:38.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "AI giant pauses work on new model because of issues"
-    },
-    {
-      "title": "Nvidia (NVDA) Commits $5 Billion To Take A Bigger Role In AI Infrastructure - Yahoo Finance Singapore",
-      "url": "https://sg.finance.yahoo.com/news/nvidia-nvda-commits-5-billion-090955659.html",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-08-10T09:09:55.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "OpenAI Suspends Unreleased Astra AI Model After It Reaches ‘Critical’ Cyber Capability Threshold - LinkedIn",
-      "url": "https://www.linkedin.com/pulse/openai-suspends-unreleased-astra-ai-model-after-pmq9e",
-      "source": "LinkedIn",
-      "publishedAt": "2026-08-10T09:00:15.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Upcoming AI system may be capable of autonomously discovering zero-day vulnerabilities and executing end-to-end attacks against hardened targets OpenAI has suspended some internal work involving its forthcoming Astra artificial intelligence model after preliminary security evaluations indicated that"
     }
   ],
   "general": [
     {
+      "title": "A Hot CPI Report Causes Problems for Fed, Caron Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/a-hot-cpi-report-causes-problems-for-fed-caron-says-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-10T13:17:01.000Z",
+      "kind": "news",
+      "summary": "Jim Caron, CIO of portfolio solutions for Morgan Stanley Investment Management, says a hot CPI report on Wednesday could cause problems for the Federal Reserve. Caron says higher nominal growth is driving equity prices higher. He speaks on \"Bloomberg Surveillance.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Intel plans $15 billion stock offering as AI demand accelerates",
+      "url": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-10T13:15:44.000Z",
+      "kind": "news",
+      "summary": "Technology giants have shelled out trillions to support insatiable AI demand and the infrastructure buildout.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
       "url": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html",
       "source": "CNBC",
-      "publishedAt": "2026-08-10T12:53:17.000Z",
+      "publishedAt": "2026-08-10T13:13:31.000Z",
       "kind": "news",
       "summary": "Boeing is selling three of its subsidiaries to Archer Aviation in exchange for a stake in the eVTOL startup.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Strategy Sells More Bitcoin, Stock to Bolster Cash Stockpile",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/strategy-sells-more-bitcoin-stock-to-bolster-cash-stockpile",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-10T13:02:43.000Z",
+      "kind": "news",
+      "summary": "Michael Saylor’s Strategy Inc. spent another week revising the company’s capital structure by selling more Bitcoin and common shares to bolster its cash reserve.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Hyosung rides the AI wave as Chairman Hyun-Joon Cho's proactive investments yield improved affiliate performance - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPeFdPQkxRUkdOYW9zTUM3cDZydlBDVjJJeXFxWENiYmhnME02bkNRbTB2dmJQcVJXQ3ZIMXZVU1VSaEhtc19zc0tjcXd2U3JZaVF1UFRGSEhYX0V1cnFOeFlOUnk0YU00TzNfTms1bEJDQzJTM3ZYX1F4N2NVX2RhSXB1WnBGbzBWOVFKNExMbmRTdk5rbTlrUWw5dkZ1d2VaUFYtOFAxOGd2N3NlTm1yUUFVRkN4Y2tWWXpKa0NpOTBiQ3B1YjdvOWc0RXRQZ0ZwS2h5aktUM1kwRGJBV2dOeDRHOUwtVU81MmRCZy0zTDNwV2FCTUNGVEQ3cw?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Who are the Anthropic 8? The new billionaires dictating the future of AI — and SF - The San Francisco Standard",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSlFxRjhkRGFUUk9uMHNTTzBRd2R4ZzhfQ2xwcE8xX2phczNuZW54eXNOYkhFd3NnSXpHVTV5anVhMC10MmhiZEhDdlFONlBYMjhxWHpRZGp5cDIzRlVrUWdGcVAwcGhXRmE4bEtvN3JYalM1a2NsbE96N1VOdGJacm1tZXBYeW03N3JKQXE0cUI2WXl0?oc=5",
+      "source": "The San Francisco Standard",
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -974,12 +1034,12 @@
       "score": 60
     },
     {
-      "title": "Intel plans $15 billion stock offering as AI demand accelerates",
-      "url": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-10T12:49:52.000Z",
+      "title": "Stocks Rise at Start of CPI Week; Iran's Hormuz Deal Elusive | Bloomberg Brief 08/10/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/bloomberg-brief-08-10-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-10T12:49:43.000Z",
       "kind": "news",
-      "summary": "Technology giants have shelled out trillions to support insatiable AI demand and the infrastructure buildout.",
+      "summary": "US equity futures rally after the payrolls report showed a sharp slowdown in the labor market, driving stocks to a fresh record high. Oil advances as Iran's accord with Oman on the Hormuz shipping route remains elusive. TSMC posts a 45% rise in monthly sales amid strong demand for AI hardware. Thierry Wizman of Macquarie Group looks ahead to the inflation data. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1019,11 +1079,12 @@
       "score": 60
     },
     {
-      "title": "They said they would build AI safely. Then it went rogue. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblV0SVZlUENpeEhqYnplRzJBaGRtUVJOWVg0UGlIQ1R4VkpRblpPczh6enZaelJXX0h0SE9sTEI3Sm5PTVpYSFlGTkFhdnM3bm1EbXE2WHpMeEpONEhSbF9XemJ2VlNCNmU0REIxdTQ3eE1rZjF4LUNDTlgxcVhqdk5FcGRZZWRqVFNPWWt4ZHpQbjFPcTdUSHllRjAtbDhpQm1DZTVGR21UMVBTVHkzSg?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-08-10T12:39:53.000Z",
+      "title": "Hormuz Deal Remains Elusive, Stocks Hold Near Record Highs | The Opening Trade 8/10/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-10/the-opening-trade-8-10-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-10T12:40:14.000Z",
       "kind": "news",
+      "summary": "Stocks traded near record highs, with Asian shares mirroring Friday’s gains on Wall Street after weak US jobs data curbed bets on Federal Reserve interest-rate hikes. Oil traded around $83 a barrel as a deal to reopen the Strait of Hormuz remained elusive. An agreement with Oman to establish a shipping route through Hormuz was “very close,” Iran’s Foreign Minister Abbas Araghchi said over the weekend. He ruled out direct talks with the US for now because of violations of an i",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1053,6 +1114,17 @@
       "score": 60
     },
     {
+      "title": "Earnings call transcript: Keel Q2 2026 loss widens as AI data center shift advances - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRG1saXBHdnNMMnJtRjBPY05XYU5yVUhKWmdiT0Z3T1QycmlEZVVheVRMcHJ4QlJKRjVGa0FyeTBVZHBuS1hPRkJYRGc4UUxpeVE2VGFoZ0dIYUdrN0NtWTZYUXNjOU5fb00xS0NJaDZqMHhleUZRM19DUWZ6LVU1VFN2dUdtb1FWYmNJTEZYT2FaN05SbGVQUktmWU9VWHNzdXdCaXd6Q0ZMQVdBd19zS1BIMXY5RlhmNUgtOFpDRVhxcngtdjMxWVNZQllpWXkweThQbA?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-08-10T13:22:20.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Iran negotiations, Berkshire's stock purchases, Shein's tariff troubles and more in Morning Squawk",
       "url": "https://www.cnbc.com/2026/08/10/5-things-to-know-before-the-stock-market-opens.html",
       "source": "CNBC",
@@ -1062,7 +1134,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic, Macquarie and GIC Form Venture for AI Data Centers",
@@ -1074,7 +1146,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Meta launches new AI model as Zuckerberg champions open-weight push - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-10T12:26:21.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Hassett Hopes Cook Innocent, Rules Out Taking Her Place at Fed",
@@ -1086,7 +1169,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Challenger Report Shows 33,429 Job Cuts in July",
@@ -1098,7 +1181,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "What happens when medical students rely on AI – and never develop their own judgment? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ1RVb2g2MXVrUmdOMVh1T3Vfc3pPaXcxUEI0bXVGSlNub0tOWnp1RzNNbFJVcjRrdDhPcGtlblhkLXVUVmJaZE5BTWlvRF9ocGpMay04OXdxU1dBU3Z1ejY2WGhyYVMyaFFsaktVQVpCMFZ4MEpQNm9yN1RhVEhmdUFDN3dhVmJsNUE?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-08-10T12:06:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Breakingviews - London AI scene can thrive despite DeepMind reset - Reuters",
@@ -1109,18 +1203,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "What happens when medical students rely on AI – and never develop their own judgment? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ1RVb2g2MXVrUmdOMVh1T3Vfc3pPaXcxUEI0bXVGSlNub0tOWnp1RzNNbFJVcjRrdDhPcGtlblhkLXVUVmJaZE5BTWlvRF9ocGpMay04OXdxU1dBU3Z1ejY2WGhyYVMyaFFsaktVQVpCMFZ4MEpQNm9yN1RhVEhmdUFDN3dhVmJsNUE?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-10T12:03:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Romania Keeps EU’s Highest Rates as Political Woes Cloud Outlook",
@@ -1132,7 +1215,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Apple Cut at Jefferies on iPhone Worries as Sell Ratings Pile Up",
@@ -1277,6 +1360,17 @@
       "score": 50
     },
     {
+      "title": "A gym goer’s AI agent hacked the booking system to get them a spot - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ2g5aHBYMUMyNDZrN0toSXFYLVNQTmVLTURNbHc3VkF2ejZMUlVyVXUzNGNKMUtTRFJsLVlIUHloeXVXemlXT1BialppOEJVakFRQnlJV3hPRFhxclplVjdtSk1kdFY3aDRkazRlZVpFZ1ZnV0F0RGZBQVNFZHA2Vno5RzRUNTZQRTQ0Q0VOWmMwb3loWjdMUWItdw?oc=5",
+      "source": "The Independent",
+      "publishedAt": "2026-08-10T11:02:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Japan’s Growth Minister on Proactive Fiscal Policy, Yen",
       "url": "https://www.bloomberg.com/news/videos/2026-08-10/japan-s-growth-minister-on-proactive-fiscal-policy-yen-video",
       "source": "Bloomberg",
@@ -1336,6 +1430,17 @@
       "score": 50
     },
     {
+      "title": "Meta releases scaled-down AI model that consumers can use at home - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdEhITDE4NjNBTGc2cTFsaEZ3RjAyVUtYNl9sNHV4VjRIOGVtMlN3bFM5WmtCZVpacVlTZUhYYnhCcnMya1A2YjhGT2NpYkJxS2RNemxVcXZ2M25kMXZJbHBiTVVhbjFac3BKQXJIYVdpYmlMQ1ZEYWN4aWE3MGE4SUx5cm5GemlsTjlQQ1ppMG8xTndqVzU4Ul81X0Q5ZEVzVTBocG5Jbk1OVTRn?oc=5",
+      "source": "The Business Times",
+      "publishedAt": "2026-08-10T10:58:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Italy Fines Utility €5 Million on 2022 Power Market Manipulation",
       "url": "https://www.bloomberg.com/news/articles/2026-08-10/italy-fines-utility-5-million-on-2022-power-market-manipulation",
       "source": "Bloomberg",
@@ -1372,18 +1477,6 @@
       "score": 50
     },
     {
-      "title": "Richer Milk, Cheaper Feed: Why Dairy Farms Are Turning to High-Oleic Soybeans",
-      "url": "https://www.bloomberg.com/news/features/2026-08-10/richer-milk-cheaper-feed-why-dairy-farms-are-turning-to-high-oleic-soybeans",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-10T10:30:19.000Z",
-      "kind": "news",
-      "summary": "High-oleic soybeans gain traction as dairy feed, giving US growers a new market as exports get caught in trade war.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
       "url": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
       "source": "CNBC",
@@ -1396,33 +1489,10 @@
       "score": 50
     },
     {
-      "title": "Fed Rate Hike in December Is Possible, Macquarie's Wizman Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-10/fed-rate-hike-in-december-is-possible-macquarie-says-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-10T10:22:39.000Z",
-      "kind": "news",
-      "summary": "Thierry Wizman, global FX and rates strategist at Macquarie, discusses the outlook for the US economy, inflation and the possibility of a Federal Reserve interest-rate hike this year. \"December doesn't look like the wrong time to do it,\" Wizman says. \"You'll have a new Summary of Economic Projections, and the Fed likes to make bold moves, or changes of direction of policy, in accordance with the release of the dots and the SEP.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Why AI giants split over open-model restrictions amid distillation claims - Business Standard",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbmNDRW9ob2J6ZEdldnZJNHE0NXRRLXd2NW5TckU0MW56X3hnTFBidnNhc0ozMkxZLUdVdU9SSVZ6MjN5Q2F3c3FHd0t3LW8yMVJ2S0RkdGx5dC0wNVVzd05oZnNSNEVSNGZMQWVlZGpkZnUzYnlYbVBLVEl0cF9STHhHcnBiV3BjbHRKeFBCaFk1dUVjYjI5N0VmWE84R0tkUnZIbWpLc2ZzaFllaEtmQ0d2YXBsYl84SkEtYzMyMndLY09SU2Y1dmJMWFJ2Z9IB0wFBVV95cUxPQ2pkVjZpYWVPMnJMYXI1ampfYWFQVmVsNXpNYklMVHVBZ3RaVG1zMzR4QUQ3NHZqVE1WdXlEdlZETGhyT2psQ19qS0ppY3llUEpqY0hnZGlkaFBSMFdISndtUEdUcy1PR3VVNl9FYXdYWWVPMEwzSjMzRTBtUmVSdDFUanFRQVJDZmN5YjVmWDBRMTZrYk9Ka3hfLXpXWFA5QnNPR0JGVXRaN3ZiNk9hX3NGZi1xbkpkWXByYjlNSWZLZndNcEdnVlg1Zjg2dHpkdkp3?oc=5",
       "source": "Business Standard",
       "publishedAt": "2026-08-10T10:18:59.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta launches new AI model as Zuckerberg champions open-weight push - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR21CNUV6bEJhdkl2SU1sOTRiM0N2MnVJTjhJV3YyY20wcFdHUmNOUW1lWUlVcnZLeGpnNlhYQkZCTGhpR0ZIOEp0U0VZWDlQLVdZZFFqQ196X241R1hLVXpXMU5Xclo3SFBxWHRRY1pFeTFHeEFEVDlCbDdwbWpRQUhROTFKRGFZSGE2QkhZSjdLVmJqVGdUWmFRT2R3WjhxZXptdEt3UG1KNVVqRWZOZUpR?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-08-10T10:14:28.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1445,7 +1515,7 @@
       "title": "Meta Unveils ‘Open Source’ Version of Its Most Powerful A.I. Model - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05SWpuNEpobjJKLVlscEY3SkRCLV95X3hSUDRydzFoejg0NjlITkg2N2szcFUxcnI0V202S1dNOWRXeTdGSjEyYldVV3FMSmZjRmhyWmRmUUpjWEZrZ1R3ZzFxNHAwU1lEUzVxaXJyQkNRN19tTWdjSHF3?oc=5",
       "source": "The New York Times",
-      "publishedAt": "2026-08-10T10:00:14.000Z",
+      "publishedAt": "2026-08-10T10:00:15.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1453,80 +1523,10 @@
       "score": 50
     },
     {
-      "title": "Five Things to Know About Zuckerberg’s AI Manifesto - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeUdJRTZaX1JVLW1VZkJQR21VWF9rUU5WVWJicndMQ0lYbG1wamtHWlZneXJ1RU95NDZ0V3RFSk9telFVTDluRkpYU1BwNU8zakM2cnlMdjR3SUp2UVYxbi1tZDFsN0xDRU9iVHhEZFFrZ3hGaE5NR08yUllmYl9POW1nanNVU2hadWdvS3VEeXFFaVZvYkl3?oc=5",
+      "title": "Mark Zuckerberg Lays Out New AI Vision in 6,500-Word Essay - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0sxd0piWHUyX1lKbHhxTGVsUmNJckRFNXNjeGRfZzNJRUNYbUplVk52MEF1aFZ1dmxBVHJlbXdGOW5hNFFrWVdJaDA1dUUwRVNuYXRYWG1ETk80N3hKWkJoYXlVS0M1UlJJMjFyeVA5Y2FBaFR4UXluRXRUNFlFQXViTl95N3pDWTladnJuUjM0dlBZUmhEMVVYdw?oc=5",
       "source": "WSJ",
       "publishedAt": "2026-08-10T10:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "New Survey: When Choosing a School for Their Children, Majority of Parents Consider Artificial Intelligence Policies - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOWnBYY1NSQ0dwZG4yc1R3QnBGREpSRDl6dHFseG5ULXVnQUpNa0lYU25qZlFYNFN1V083VXVXVHF3MV90T2hMdUgyUWc1aHNWQXBPX25jM05hUEd3U2FKZkhwZWxzRnlpUzlWcDNXVEtTSmF1YmRYZEhZVFpmXzZLLUh5RVlDNnB1UDVSZWE4MnJ2cEoxTUdvbUdaWWRxVVVoOGJtS0pqN1lWVlc1a21oT2V5VXZNOWIwaU0wQV9MX1FWMFBzRTllZkhobzA2b0FRNDF0TkxGX1pxd3oxRFNXNUhWVjFRekVLcG1PSDd1ZHBLNnJjVlBUbHZRSXgzUmc?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta Releases Muse Glimmer AI Model People Can Run on Their Laptop",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/meta-releases-muse-glimmer-ai-model-people-can-run-on-their-laptop",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "kind": "news",
-      "summary": "Meta Platforms Inc. introduced a new, downloadable AI model that can run on a personal computer, adding fuel to a US debate over whether the increasingly powerful technology should be freely available or kept under tighter control.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Australian Scandium Miner Secures $400 Million US Investment",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-10/australian-scandium-miner-secures-400-mln-us-investment-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-10T09:59:38.000Z",
-      "kind": "news",
-      "summary": "Mining entrepreneur Robert Friedland discusses his backing of Sunrise Energy Metals Ltd., an Australian scandium miner which secured as much as $400 million in long-term debt financing from the US Department of War. He speaks on Bloomberg Television. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Hungary Posts Record July Budget Surplus in Magyar Fiscal Pivot",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/hungary-posts-record-july-budget-surplus-in-magyar-fiscal-pivot",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-10T09:48:53.000Z",
-      "kind": "news",
-      "summary": "Hungary posted its largest monthly budget surplus on record in July, extending an improvement in public finances as Prime Minister Peter Magyar seeks to rein in one of the European Union’s biggest fiscal shortfalls.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/jpmorgan-strategists-raise-s-p-500-target-as-ai-capex-pays-off",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-10T09:28:20.000Z",
-      "kind": "news",
-      "summary": "JPMorgan Chase & Co. strategists raised their S&P 500 Index forecast for a second time in two months, citing strong corporate earnings and the payoff from massive artificial intelligence spending.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "A.I.-Driven Chip Crunch Leads to New Rush of Lobbying in Washington - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3MnBwck5VRVoxblh0MG54Rm9nblNyVlFBc3p1RG1lcndUcDdPMXY4MHUyMDU5T0JpMGRhTlJjbzBfUFk2NkVjZ0VrUXV5OS1Hc1A1Q2lfeHdRMXI3WWVSN2l0SFptb21SQTQzdHZXVWZEZklSeHFLcks2VUxNdFU?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-10T09:02:19.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:01:39.535Z",
+  "generatedAt": "2026-08-11T16:29:18.066Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Can’t believe…",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vlm906/cant_believe/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-11T16:25:26.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Life-Observer",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Can’t believe…"
+    },
     {
       "title": "Fermi Inc. Stock Analysis: $6.5B Lease Sparks Surge, Trend Unproven - The Cryptonomist",
       "url": "https://en.cryptonomist.ch/2026/08/11/fermi-inc-stock-hits-7-25-on-6-5b-lease-but-overbought-risk-looms/",
@@ -87,7 +109,7 @@
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "111,239 followers",
+          "111,240 followers",
           "official account",
           "2 likes"
         ]
@@ -861,51 +883,63 @@
       "score": 55,
       "formExplanation": "Additional definitive proxy material from the company — its side of an ongoing solicitation (responses, letters to shareholders, talking points).",
       "summary": "Fermi Inc. discloses that its former CEO Toby Neugebauer is attempting to call a Special Meeting of Shareholders to replace the Board and leadership team, which the company believes would jeopardize shareholder value. The company urges shareholders to sign and return the WHITE Consent Revocation Card to prevent Neugebauer from gaining control, citing his history of false claims and inaccurate statements. Fermi Inc. also highlights its recent commercial momentum and progress under new management, with a 45% increase in stock price since Neugebauer's termination."
-    },
-    {
-      "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026070121/ea0295327-dfan14a_toby.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-06-18T20:10:17.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
-      "summary": "Toby Neugebauer and his affiliated entities, collectively known as the Fermi Founder Parties, are soliciting shareholders to designate agents to call a special meeting of Fermi Inc. shareholders, with the goal of allowing shareholders to hear proposals and decide on the company's future. The Fermi Founder Parties, who collectively own 146,516,035 shares of Fermi Inc. common stock, are urging shareholders to consent to calling the special meeting by voting their GREEN voting instruction forms. Shareholders who own shares through a bank, broker, or other nominee can vote online, while those who hold shares in registered name must sign and return a physical GREEN agent designation card."
     }
   ],
   "related": [
     {
-      "title": "Nvidia's AI financing push raised fresh questions over debt, returns—CNBC interview (NVDA:NASDAQ) - Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4630826-nvidias-ai-financing-push-raised-fresh-questions-over-debt-returns---cnbc-interview",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-11T15:26:41.000Z",
+      "title": "Nvidia Credit Risk Eases After CEO Clarifies $500 Billion Plan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/nvidia-credit-risk-eases-after-ceo-clarifies-500-billion-plan",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T16:09:37.000Z",
       "kind": "news",
-      "tier": 2,
+      "summary": "Bond traders dialed back measures of credit risk associated with Nvidia Corp. on Tuesday after the company said it would limit its exposure in a $500 billion plan to finance the type of artificial-intelligence investments that are driving demand for its computer chips.",
+      "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
-      "summary": "Nvidia’s AI infrastructure financing sparks debate on rising debt vs insatiable GPU demand."
+      "score": 75
     },
     {
-      "title": "Nvidia Helps This AI Company Get 'Better Intelligence Per Dollar' - NVIDIA (NASDAQ:NVDA) - Benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61114753/nvidia-backed-ai-company-getting-better-intelligence-per-dollar",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-11T15:12:38.000Z",
+      "title": "Nvidia Drives Bang For The Buck With New GenAI Model And Router - The Next Platform",
+      "url": "https://www.nextplatform.com/ai/2026/08/11/nvidia-drives-bang-for-the-buck-with-new-genai-model-and-router/5286365",
+      "source": "The Next Platform",
+      "publishedAt": "2026-08-11T16:07:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "Nvidia is continuing to grow its reach and influence in AI in its efforts to remain the indispensabl ..."
+    },
+    {
+      "title": "Microsoft's AI Data Center Push: Growth Engine or Capex Trap? - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/GOOGL/pressreleases/3782944/microsofts-ai-data-center-push-growth-engine-or-capex-trap/",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-08-11T15:30:24.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 75,
+      "summary": "Detailed price information for Alphabet Cl A (GOOGL-Q) from The Globe and Mail including charting and trades."
+    },
+    {
+      "title": "TSMC outlook: how NVIDIA’s $500B AI financing deal reshapes semiconductor demand - Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/tsmc-outlook-how-nvidias-500b-ai-financing-deal-reshapes-semiconductor-demand-93CH-4852275",
+      "source": "Investing.com",
+      "publishedAt": "2026-08-11T15:54:57.000Z",
       "kind": "news",
       "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
-      "summary": "This AI company is using Nvidia technology to make its healthcare AI more efficient. DigitalOcean CEO sees better &quot;intelligence per dollar&quot;."
+      "score": 65
     },
     {
       "title": "Nvidia's AI revolution will be securitized - Axios",
@@ -917,6 +951,19 @@
       "tickers": [],
       "related": [
         "NVDA"
+      ],
+      "score": 65
+    },
+    {
+      "title": "French press body asks competition watchdog to take action over Google AI - Reuters",
+      "url": "https://www.reuters.com/world/french-media-asks-french-anti-trust-watchdog-act-googles-ai-2026-08-11/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-11T14:38:14.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
       ],
       "score": 65
     },
@@ -962,9 +1009,9 @@
       "score": 65
     },
     {
-      "title": "Nvidia Releases New Open Model - wsj.com",
+      "title": "Nvidia Releases New Open Model - WSJ",
       "url": "https://www.wsj.com/cio-journal/nvidia-releases-new-open-model-ee66e6a3",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-08-11T13:04:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1003,9 +1050,9 @@
       "summary": "Multi-year collaboration combines ongoing glucose insights from Abbott"
     },
     {
-      "title": "Why Nvidia Is Trying To Develop The World’s Best Open-Source AI Models - theinformation.com",
+      "title": "Why Nvidia Is Trying To Develop The World’s Best Open-Source AI Models - The Information",
       "url": "https://www.theinformation.com/articles/nvidia-trying-develop-worlds-best-open-source-ai-models",
-      "source": "theinformation.com",
+      "source": "The Information",
       "publishedAt": "2026-08-11T13:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1071,9 +1118,9 @@
       "summary": "Nvidia AI financing aims to mobilize $500 billion for AI infrastructure through partnerships and guaranteed chip residual value."
     },
     {
-      "title": "Babcock & Wilcox Signs Agreement with Siemens Energy to Commence Work on 20 Steam Turbines for Data Center Power Generation - businesswire.com",
+      "title": "Babcock & Wilcox Signs Agreement with Siemens Energy to Commence Work on 20 Steam Turbines for Data Center Power Generation - Business Wire",
       "url": "https://www.businesswire.com/news/home/20260811901159/en/Babcock-Wilcox-Signs-Agreement-with-Siemens-Energy-to-Commence-Work-on-20-Steam-Turbines-for-Data-Center-Power-Generation",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "publishedAt": "2026-08-11T10:30:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1084,18 +1131,18 @@
       "score": 65
     },
     {
-      "title": "Why Nvidia's Jensen Huang wants Wall Street to finance AI infrastructure - CNBC TV18",
-      "url": "https://www.cnbctv18.com/technology/why-nvidias-jensen-huang-wants-wall-street-to-finance-ai-infrastructure-19966606.htm",
-      "source": "CNBC TV18",
-      "publishedAt": "2026-08-11T10:04:15.000Z",
+      "title": "Nvidia raises $500 billion from Wall Street to build AI infrastructure - Northeast Times",
+      "url": "https://northeasttimes.com/2026/08/11/nvidia-raises-500-billion-from-wall-street-to-build-ai-infrastructure/",
+      "source": "Northeast Times",
+      "publishedAt": "2026-08-11T16:14:20.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
-      "summary": "In an interview with CNBC, Nvidia CEO Jensen Huang explains why the future of AI won't be built by chipmakers alone. It will also need Wall Street's capital, as computing becomes the next infrastructure play."
+      "score": 55,
+      "summary": "Nvidia partnered with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to raise $500 billion for AI data centers and chip manufacturing."
     },
     {
       "title": "Nvidia CEO Sends Stark Message: AI Chips Are Now an 'Investable Asset Class' - Yahoo Finance Singapore",
@@ -1111,10 +1158,10 @@
       "score": 55
     },
     {
-      "title": "NVIDIA Stock Rises as $500 Billion AI Financing Machine Takes Shape - Yahoo Finance Singapore",
-      "url": "https://sg.finance.yahoo.com/news/nvidia-stock-rises-500-billion-155012658.html",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-08-11T15:50:12.000Z",
+      "title": "Top Midday Stories: Nvidia Developing Ambitious Open-Source AI Model; Intel Upsizes Share Offering to $20 Billion - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONDA2a1NaSlprZ05LVjZlUjNxYVdWT2VYb2JyQTFzUVY4TWF6bDNKZzdBZnZvaVo5UWNYSjB1OHBtS0RiWmNvMkVpRm4zOS11dE1aQ2djTXlCWGZhRGNNUlhOME1mY2lCRlVoWHNVYW5Jb2FheER5cFZDbUc4dmJ0Z3lfSHhOS1QxV0VabnpfdHAyaXg0dlE2c0lxMjJDLV9qdnhv?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-11T15:50:02.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1124,10 +1171,10 @@
       "score": 55
     },
     {
-      "title": "Meta, OpenAI join list of tech giants following Texas data center rules - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQVZkNmw0SHBiYlEwaHE5d2xORnFaR0w0ajZLempQZzJBMF9rc1VNRHpObTdBbkI5RGt3N1AtMVBvMlRnc2g1Q3Q2RGt3ejkwUEsxNzJjbmc0Z0kzc3Z2WDhnSkduUVdkTnAzUnRGeWM3c1RGTXo5UFJvazFVNXc3MEdsTGtpeXM4UktwQ3Y2ZDdOSzZnbEI0WEF0R0ZaaWR2aG96ajI1SkNhazVUX0duQWlNV2Q0dDIwMFVEdXkyWHZ3LW5ZaGVxLTc2UGlJcnp2T09UODBqMS0?oc=5",
-      "source": "USA Today",
-      "publishedAt": "2026-08-11T15:41:00.000Z",
+      "title": "Meta, OpenAI join list of tech giants following Texas data center rules - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRG54U2JjUlc3RmVfeUNfV2xzT2ZvV3RPanhVcWN3Ymc5Mlp1d2JkbHFvcXR6WlBSNmhUU3pmTVNyTk1zd3ZEb3lUZ2FmNjhUaGdfRGNoeDFCTWpodWU5ZmpGMTVYS3NrSEgyVlNyeDJLRUNfbEEyTkFWWlloa0JiSm9XdkZaTDg?oc=5",
+      "source": "Yahoo",
+      "publishedAt": "2026-08-11T15:41:02.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1163,72 +1210,58 @@
       "score": 55
     },
     {
-      "title": "Why Scaling AI Compute Performance Requires a New Power Architecture - NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
-      "source": "NVIDIA Blog",
-      "publishedAt": "2026-08-11T15:07:07.000Z",
+      "title": "Amazon is building an AI data center in Texas with a 7.65 GW power plant - logos-pres.md",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdXVheHdQTTRxc3Ziblk5bndvQkJBalB2dzlkMWlSYS0tT2tDdXFwSEluUHdkNEgtZGx6ZTlfSTlQdXJVcE85R3Q4Nng0UENqWlNPcXdrcm5rZW9MekpSTXV5RXpJRGtJQWVOMTZrUGFaclVUZnQ1SjJwRFBua19XOE9GMWdCdUN3T0VCS3FfQzU3S0NtQUc0aWRYWWRLS3YyUlUwZnhB?oc=5",
+      "source": "logos-pres.md",
+      "publishedAt": "2026-08-11T15:31:28.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "NVIDIA 800 VDC helps existing and future AI factories scale compute performance beyond the limits of traditional power distribution."
-    },
-    {
-      "title": "OpenAI's Only Dedicated Ethicist Has Left With No Replacement: FT - Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaFN2QklxeXdjMEtPWGlQOGp3cC1rMnhPVnk3cHlEazY0Q3MzV0tjMzF3VlA3NUdrWEt6R2NxQlNMSndrelZqN2MwSm1haXdDVjNSWEdocW9tbmp6QzJjeEtFQ0pKT1pvNmkxTzJhWWNTbXZQaDA2VXRnYk9yR0l6MkJBUHgybDBXeWxMM252MVpZbVXSAZsBQVVfeXFMTmFQVTNqYnVYdXhFSkhGcnhySnMzaVN2VF9ZaGpfYmVvVHhRVVFhUmw2SDNQMWpJSzNLMGRhaHhpbTdNYkhqaHh6S2w5bEJmQTJ1SnZZZEwyWHR4SHFxaXFCVmRqOGkzR0Zla3RLRmNwZUJzLXlna0p0UW11SklkVENKVWFUS21GQjF1c1VKaGV2TDRYaVA5czItcjg?oc=5",
-      "source": "Decrypt",
-      "publishedAt": "2026-08-11T15:05:35.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
+        "AMZN"
       ],
       "score": 55
     },
     {
-      "title": "NVIDIA Releases Open-Source Nemotron 3.5 Lightning as CEO Jensen Huang Pushes Open-Weight AI - CoinGape",
-      "url": "https://coingape.com/nvidia-releases-open-source-nemotron-3-5-lightning-as-ceo-jensen-huang-pushes-open-weight-ai/",
-      "source": "CoinGape",
-      "publishedAt": "2026-08-11T15:04:50.000Z",
+      "title": "Nvidia's AI financing push raised fresh questions over debt, returns—CNBC interview (NVDA:NASDAQ) - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4630826-nvidias-ai-financing-push-raised-fresh-questions-over-debt-returns---cnbc-interview",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-11T15:26:41.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "NVIDIA has released Nemotron 3.5 Lightning, an open-source AI model while this comes as CEO Jensen Huang pushes for open-weight models."
-    },
-    {
-      "title": "Nvidia partners with Apollo, BlackRock, and others on $500B AI financing push - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU0pMT2lMbWVfSmduMzJjX3JHMG1fM2k3TktHQThxQmUwcHUtMHRGTWVJbjc0ckhvNGRfRDVTYUM0SlA4QWQ1a1loV0szRzNBUnNia0tWaHUyeU56SVFreUN1X1lrbkdhaklxVUxPMEJEbXFLVnhqcXN5THBWUk55R0pKSGdLNktvUUliQk5sOEJ2U3ViOVlsUFA5T3o5ZTNkYU5mTFJ3?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-08-11T15:02:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Abbott, Google to Study How Sleep and Activity Affect Glucose",
-      "url": "https://www.stocktitan.net/news/ABT/abbott-and-google-launch-first-of-its-kind-partnership-to-transform-btsux0uj83u3.html",
-      "source": "Stock Titan",
-      "publishedAt": "2026-08-11T13:00:14.000Z",
-      "kind": "news",
-      "summary": "Abbott has announced a multi-year partnership with Google Health to integrate insights from Abbott's Lingo continuous glucose monitor with Google's AI and consumer technology. This collaboration aims to provide personalized metabolic insights through the Google Health app, offering AI-powered guidance on nutrition, activity, sleep, and recovery. The partnership also includes a large-scale real-world study to understand the connections between various health metrics and metabo [sentiment: Bullish]",
       "tier": 2,
       "tickers": [],
       "related": [
-        "GOOGL"
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia’s AI infrastructure financing sparks debate on rising debt vs insatiable GPU demand."
+    },
+    {
+      "title": "AI, chip stocks mixed after Nvidia's $500B AI financing deal - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN3FMSzR0WW5Za09ncl9JaE1MbU5sbWJiLW53RWRaRWxkX3MyMWVYa0pxTXlQLXdaSHB6YUFKSUEzdE5HVll1a2k3bUR5NExHVlRCWExDNnI1c3J5MkpqYW1vRmY5RmM3VU8taE5DWDlxbXlScGZBV2lJanZHRm1ZVFp0N3dyeHZGRFR5WldmSTZvUUhFbU5acFlrZw?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-11T15:24:40.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "Nvidia Helps This AI Company Get 'Better Intelligence Per Dollar' - NVIDIA (NASDAQ:NVDA) - Benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61114753/nvidia-backed-ai-company-getting-better-intelligence-per-dollar",
+      "source": "Benzinga",
+      "publishedAt": "2026-08-11T15:12:38.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "This AI company is using Nvidia technology to make its healthcare AI more efficient. DigitalOcean CEO sees better &quot;intelligence per dollar&quot;."
     },
     {
       "title": "Meta's Open-Source AI Bet Could Be A Problem For OpenAI, Anthropic - Benzinga",
@@ -1256,41 +1289,95 @@
         "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Babcock & Wilcox secures 1GW turbine deal with Siemens Energy - Investing.com",
-      "url": "https://www.investing.com/news/company-news/babcock--wilcox-secures-1gw-turbine-deal-with-siemens-energy-93CH-4851151",
-      "source": "Investing.com",
-      "publishedAt": "2026-08-11T11:00:17.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "SMNEY"
-      ],
-      "score": 55
-    },
-    {
-      "title": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy? - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/11/this-ai-cloud-stock-alphabet-1-year-return-275-buy/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-11T09:35:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "Artificial intelligence has been a major tailwind for this budding cloud company."
     }
   ],
   "general": [
     {
-      "title": "Oracle's AI Infrastructure Surge: Smart Growth Bet or a Costlier Trap? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUlN1b1FLdHdRSnBCbnJ4U0t0T1RTaC1wLXJHS3ppeFJqejUyTGNqeVVPcE5xSFpTc0puSENLN25RME1RamVFeGpCaC1GNzhJd181Z1B0ZzdsRzJfUWJMc0ZtZS12RWJaY0JtTzcyV3E4U0p2Vlh4a2otbkhSSDU1UVg1MUhSOHFnaHlBQ3NNZWFiSktXRkRzN0JNUnhsY0E2amxSdkdjbWRkaGF3U19iREo0aUVNXzNiUkJRUFRZQnp6LU5zWmFfM1lFb0o3Y2FBVHVySlg2TUZrUXhSbElEbjE4NlA3SDQ?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-08-11T15:51:07.000Z",
+      "title": "Private Capital Powers Big Tech’s AI Ambitions",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/private-capital-powers-big-tech-s-ai-ambitions-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T16:22:56.000Z",
+      "kind": "news",
+      "summary": "Nvidia secured a $500 billion commitment from six Wall Street firms — including Apollo, Goldman Sachs and BlackRock — to finance AI infrastructure. Bloomberg's Silas Brown reports on Big Tech’s growing reliance on private markets to power the AI boom on Bloomberg Open Interest. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Radiant World Offers $150 Million Aluminum Stash for Sale",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/radiant-world-offers-150-million-aluminum-stash-for-sale",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T16:19:04.000Z",
+      "kind": "news",
+      "summary": "Metals trader Radiant World has been seeking to sell a stockpile of aluminum worth some $150 million at a small discount to market prices in an attempt to boost its liquidity, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "LCMC Health Announces Strategic AI Partnership with Qualified Health to Enhance Patient Care and Safety - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcHV6Q1dwN2huWFYyTUZvOG9vYmNyeXlfMUZaN2hOVDFGMTJQRWYzQlJvckNLcXlxdHdPT3dNVE1KSk11YnVNNmNVZy05cjBCYmZtUjZfc25sNl9iSHJFcFZDLTdrNDZrTUxuc0ZqbEFjV0l5MHQyRFhyTHNaV19vcEgxTTBlM25FWk5JaVdNUE5FY2g4ZUpxd2ZBZTZHeUpCRXNMYkVRYW9hWEQyOVQwSlMxTzhBVFppZWFCMHVFNGFuMURNdS0xREZkTDVPM0trZ0hKUm5PRE9ybTBCdndWTksxMmJGUnJpSlk1X20wZ1E?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-08-11T16:14:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
+      "url": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-11T16:12:27.000Z",
+      "kind": "news",
+      "summary": "Last December, Meta said it planned to acquire Manus for $2 billion, its latest effort to shore up its AI strategy.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "House Democrats press AI giants on rogue agents - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTDNGZFpOelJrZnl3VlBpMW83RmcyQVRqWndKaUNEZGJ2c2c3Q1V5UDUxVk15LUFkTkVLUTRyY3VDcEpZTVQyZFZfSlZDblctLW1LN21sNDFZLTkwdEtOZlE1WDJEREtIUEtMNVNuTVI2NmxudWpLUThRQjNlUWFrYnFNYVpoREptMmlrb3FTanfSAZYBQVVfeXFMTXVkS25LV2NsYXc1MmNWdWhtQkM3dHhsTm9DT0ZjVXgyVTNTeG02UFVxcC15bW4zNm5MNGVYNTFlYUN3UzQ1SF9nU3hGcmNoa1VCTVJfNjJ4X3NPNm5sdkJRNllqSEJLb1JxV2xDSTNvcWNVV0NYNHNSSDJJTjIxajMxRFNJemk4TXk4WG9GT3BvX3I0VHR3?oc=5",
+      "source": "The Hill",
+      "publishedAt": "2026-08-11T16:09:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Energy Vault to Deploy 1.25 GW of Infrastructure for Hyperscaler AI Data Centers - the Electrical Distributor magazine",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFAzUG9PRi1QTHFTdFM4MUVRSzRWX2YweldUY2NTbXY3Mm1EU3FFSHRxeTMtYWRjZlRJNEswb2pGYkFjWkVQTTVYcEJsdXlUc3NxTGZNWjVjWmM0UlRNcldkemtHRk5KSHdObENZcVJpNVVKUW1RV1lIbW5vLXRfeFI5TExtX2FGV25SLW9KeHhtRGt5dG55VVZ0blRWOHJYVkE?oc=5",
+      "source": "the Electrical Distributor magazine",
+      "publishedAt": "2026-08-11T16:02:40.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "JBS Seeks US Margin Recovery With New CEO Pledging Continuity",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/jbs-seeks-us-margin-recovery-with-new-ceo-pledging-continuity",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T16:00:39.000Z",
+      "kind": "news",
+      "summary": "JBS NV said its main business of US beef is yet to benefit from a restructuring plan, but sees that effort as well as a renewed flow of Mexican cattle eventually aiding meatpacking margins.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Experts are warning: our AI arms race is putting humanity at risk | Stuart Russell - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYnpSc3FUbExmXzBkR3hXdFV0dkY0VGRwZFktQTNWX0Q4NzVyRndhb1pPOEc0Mno4YzBEMEJ1VGxKdF9yM1lfYm03NGhqM2VWTFdoVlktT0lXYlRHczZDeUYxTVJuNlVRTXJHbHF3SUF4a2llYUhqdEI1NUVwMUsxZzJxYjduM0ZGa3ZfUUNyTnRHUFFjNW03MQ?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-08-11T15:52:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1316,6 +1403,17 @@
       "publishedAt": "2026-08-11T15:49:22.000Z",
       "kind": "news",
       "summary": "Air Baltic Corp has outlined a plan to turn around the ailing business by cutting costs and swapping much of its existing bond for equity.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Oracle's AI Infrastructure Surge: Smart Growth Bet or a Costlier Trap? - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT2NhdkZLc3hnVGFtT1Nnczl5TFBuSmNCbTZjTkE1bE5OM0lXM2ttYUJLTXdzU2puQjI1NFJla2loOGMtZkQwR1NzRlRvVVN0Y2tYWGVRYWtwTUY3SUtXejhWbk5BRzFnakx4cDMxaW1vVmJleW1tY0NBLUVkTk5NaW9SeXFEZmtBek5Ua2ZNeEFHQ2hObGN0ZVNXM1RFVHo0ZVh4M0hZeEdNUloxS01qaEJUZkhicDVnRlM0WmJFSHp6eTZfaFE2ZHVrY3lLNDl6V2hKQWpGZWpjWHpjSGN4WXpMMEpXM1U?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-08-11T15:46:46.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1369,148 +1467,6 @@
       "score": 60
     },
     {
-      "title": "Blue Owl Sets $500 Million Bond Sale to Pay Down Credit Lines",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/blue-owl-sets-500-million-bond-sale-to-pay-down-credit-lines",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:25:51.000Z",
-      "kind": "news",
-      "summary": "Blue Owl Capital Inc. is seeking to raise about $500 million from a bond sale, according to people familiar with the matter, after three of the firm’s private credit funds issued notes this year.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "S&P 500 Hovers Near Record Highs on US-Iran Hopes",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/s-p-500-hovers-near-record-highs-on-us-iran-hopes-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:24:14.000Z",
-      "kind": "news",
-      "summary": "Stocks traded near all-time highs and bonds rose as hopes for a deal to revive the Strait of Hormuz trimmed a rally in oil prices. Eric Freedman, CIO at Northern Trust, discusses the current market landscape. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Rocket Lab Drops on Launch Pushback; Riot Platforms' Anthropic Deal | Stock Movers",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/rocket-lab-drops-riot-platforms-anthropic-deal-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:22:41.000Z",
-      "kind": "news",
-      "summary": "On this episode of Stock Movers: - Anthropic PBC has struck a $9.1 billion deal with Riot Platforms (RIOT), a Bitcoin mining company that recently began selling AI data center capacity. Riot disclosed it had secured a 20-year deal to supply 191 megawatts of capacity from its Rockdale, Texas, campus to a “leading frontier AI” company. - Rocket Lab (RKLB) shares drop as much as 5.7% after the company’s Neutron timeline softened, with an analyst saying that while Neutron remains",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Chicago Mayor Demands Data Center Moratorium After Backlash",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/chicago-mayor-demands-data-center-moratorium-after-backlash",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:20:36.000Z",
-      "kind": "news",
-      "summary": "Chicago Mayor Brandon Johnson is pushing for a temporary moratorium on data centers, and signed an executive order on Tuesday to create new rules for any future developments.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "AI’s potential climate benefits outweighed by role in boosting fossil fuels, study finds - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLXhhX0NDalpzck5qT0I3TjZZcVJPT0xYeENzV0M2cXBLWHFZZ0Nhb0EwcHlnc3p3Y291T3AyU2hHZmR6MWh6NjdKZEFUcnhZOE1NQU9zcjBHN2pyN202QUFsRFY2dmlyMFhGc0c4MVZUOTB0THBaY0FPMmd1NlU0OGVNU1praGVTNGwtSHhLVmNoTEg2V1lOUXNTSmQzdVFneWc0MGprTEUxYU8yX0kzT0M4Nlg4Ync?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-11T15:11:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Bloomberg Surveillance 8/11/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/bloomberg-surveillance-8-11-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:10:49.000Z",
-      "kind": "news",
-      "summary": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Phia App Co-Founders Pushed for Features Taking Credit for Sales It Didn’t Drive",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/phia-app-co-founders-pushed-for-features-taking-credit-for-sales-it-didn-t-drive",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:10:40.000Z",
-      "kind": "news",
-      "summary": "Phia co-founders Phoebe Gates and Sophia Kianni pushed for features in the e-commerce startup’s software that took credit for sales it didn’t drive, according to internal communications and people with knowledge of the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Rocket Lab Pushes for First Neutron Launch This Year",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/rocket-lab-pushes-for-first-neutron-launch-this-year-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:07:04.000Z",
-      "kind": "news",
-      "summary": "Peter Beck, Rocket Lab Corp. founder, president and CEO, says the company is pushing hard and intends to launch its Neutron rocket for the first time this year. Beck says investors should not be focused on just the rocket's first flight. Beck speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Russia Budget Gap Spikes Despite Oil Windfall Driven by Iran War",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/russia-budget-gap-spikes-despite-oil-windfall-driven-by-iran-war",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:06:51.000Z",
-      "kind": "news",
-      "summary": "Russia’s budget gap sharply widened despite a windfall in energy revenue driven by the tensions around the Strait of Hormuz, as the Kremlin continues to ramp up spending on its war in Ukraine.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Spotify to distinguish AI artists from real people and block them from some playlists - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQejM4MFFFM2FqUjh2YVBxamIxWWtvaDZodU4zdWd2cjFXUl9ETHhHaUNXcnlXYmw5TVlnd0d3QUpBVTdxX2tGZzJGbVN5QjY0eDNiRkRYQzZGbGRzaFo1dXlsdkhEc1VXci1WaHo2T0FFLUY0amxHM3pBeDVhdkhZTk5TVmFBLTViVnZxa19wY0MtUi1jeTNOd1NtX1JKX3ljMG9QLW1EeGl1dw?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-11T15:04:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "US Household Delinquencies Improve: NY Fed Quarterly Report",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/us-household-delinquencies-improve-in-ny-fed-quarterly-report",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:02:43.000Z",
-      "kind": "news",
-      "summary": "The share of overdue consumer loans fell slightly in the second quarter, and so did some measures of newly delinquent debt, pointing to improvements for the US consumer.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Apollo Inks $2.6 Billion Financing Deal With the Yankees",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-the-yankees-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T15:01:39.000Z",
-      "kind": "news",
-      "summary": "Apollo Global Management is providing $2.6 billion of financing to the owners of the New York Yankees, the private capital giant’s largest investment to date in US sports. Randall Williams has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Djibouti drives preparations for First National Artificial Intelligence Forum - Tech Review Africa",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRWt6dHpUQWFRZGZQX094TGpYRUp3enZONUFRcVA2N0JVR0MzR3p3RGJybGRpQ0lVczlpajJ1Z19pamR4a05xbzYteVVGNVhhai1QLTlqV0taZ2lvLVFiVWZtc0JmdHM5dUVkOU0wYkhJcExlUlVKNlRJaGFCUEZOQlVjSWd2VDd5OVd1cHYzcmNaaC00Y2pqdlVoZ3FlUWFaOXpXSnI3R1ByNnJnQmZXMy1rY0Q3dG8?oc=5",
       "source": "Tech Review Africa",
@@ -1522,12 +1478,143 @@
       "score": 50
     },
     {
-      "title": "H&MV Engineering Valued at €1.4B: HV Engineer Scarcity Blocks $1T AI Data Center Buildout - Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb1B5WmtzSVBkS1BLQXV5aXBIXzZ1M2N2UFFBRDhyYzhxbmdrckQ4YkFnRk0xM01iZkJUbjFIUUZyLXpoZEZPTWhDeG15djhIWndmUXhfSC1iREtfbmRZaUhCNjd3VHR2MnM0LTBISTJqTHlWend4bUpSb1FHUFJuZ05HeDVkN2tlODJIM3l0ZThYMWhYNFROZ0M2bHVTTWtlaG1IZmhjVFg3TU9kdUtYVW81UjM2YUZqNGNGUDZpMzFWSFhBMjVMVG1BV0ducnJ2M1E?oc=5",
-      "source": "Tech Times",
-      "publishedAt": "2026-08-11T15:05:34.000Z",
+      "title": "Blue Owl Sets $500 Million Bond Sale to Pay Down Credit Lines",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/blue-owl-sets-500-million-bond-sale-to-pay-down-credit-lines",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:25:51.000Z",
       "kind": "news",
-      "tier": 2,
+      "summary": "Blue Owl Capital Inc. is seeking to raise about $500 million from a bond sale, according to people familiar with the matter, after three of the firm’s private credit funds issued notes this year.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "S&P 500 Hovers Near Record Highs on US-Iran Hopes",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/s-p-500-hovers-near-record-highs-on-us-iran-hopes-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:24:14.000Z",
+      "kind": "news",
+      "summary": "Stocks traded near all-time highs and bonds rose as hopes for a deal to revive the Strait of Hormuz trimmed a rally in oil prices. Eric Freedman, CIO at Northern Trust, discusses the current market landscape. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Rocket Lab Drops on Launch Pushback; Riot Platforms' Anthropic Deal | Stock Movers",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/rocket-lab-drops-riot-platforms-anthropic-deal-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:22:41.000Z",
+      "kind": "news",
+      "summary": "On this episode of Stock Movers: - Anthropic PBC has struck a $9.1 billion deal with Riot Platforms (RIOT), a Bitcoin mining company that recently began selling AI data center capacity. Riot disclosed it had secured a 20-year deal to supply 191 megawatts of capacity from its Rockdale, Texas, campus to a “leading frontier AI” company. - Rocket Lab (RKLB) shares drop as much as 5.7% after the company’s Neutron timeline softened, with an analyst saying that while Neutron remains",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Chicago Mayor Demands Data Center Moratorium After Backlash",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/chicago-mayor-demands-data-center-moratorium-after-backlash",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:20:36.000Z",
+      "kind": "news",
+      "summary": "Chicago Mayor Brandon Johnson is pushing for a temporary moratorium on data centers, and signed an executive order on Tuesday to create new rules for any future developments.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI’s potential climate benefits outweighed by role in boosting fossil fuels, study finds - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLXhhX0NDalpzck5qT0I3TjZZcVJPT0xYeENzV0M2cXBLWHFZZ0Nhb0EwcHlnc3p3Y291T3AyU2hHZmR6MWh6NjdKZEFUcnhZOE1NQU9zcjBHN2pyN202QUFsRFY2dmlyMFhGc0c4MVZUOTB0THBaY0FPMmd1NlU0OGVNU1praGVTNGwtSHhLVmNoTEg2V1lOUXNTSmQzdVFneWc0MGprTEUxYU8yX0kzT0M4Nlg4Ync?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-08-11T15:11:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Bloomberg Surveillance 8/11/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/bloomberg-surveillance-8-11-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:10:49.000Z",
+      "kind": "news",
+      "summary": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Phia App Co-Founders Pushed for Features Taking Credit for Sales It Didn’t Drive",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/phia-app-co-founders-pushed-for-features-taking-credit-for-sales-it-didn-t-drive",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:10:40.000Z",
+      "kind": "news",
+      "summary": "Phia co-founders Phoebe Gates and Sophia Kianni pushed for features in the e-commerce startup’s software that took credit for sales it didn’t drive, according to internal communications and people with knowledge of the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Rocket Lab Pushes for First Neutron Launch This Year",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/rocket-lab-pushes-for-first-neutron-launch-this-year-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:07:04.000Z",
+      "kind": "news",
+      "summary": "Peter Beck, Rocket Lab Corp. founder, president and CEO, says the company is pushing hard and intends to launch its Neutron rocket for the first time this year. Beck says investors should not be focused on just the rocket's first flight. Beck speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Russia Budget Gap Spikes Despite Oil Windfall Driven by Iran War",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/russia-budget-gap-spikes-despite-oil-windfall-driven-by-iran-war",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:06:51.000Z",
+      "kind": "news",
+      "summary": "Russia’s budget gap sharply widened despite a windfall in energy revenue driven by the tensions around the Strait of Hormuz, as the Kremlin continues to ramp up spending on its war in Ukraine.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Spotify to distinguish AI artists from real people and block them from some playlists - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQejM4MFFFM2FqUjh2YVBxamIxWWtvaDZodU4zdWd2cjFXUl9ETHhHaUNXcnlXYmw5TVlnd0d3QUpBVTdxX2tGZzJGbVN5QjY0eDNiRkRYQzZGbGRzaFo1dXlsdkhEc1VXci1WaHo2T0FFLUY0amxHM3pBeDVhdkhZTk5TVmFBLTViVnZxa19wY0MtUi1jeTNOd1NtX1JKX3ljMG9QLW1EeGl1dw?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-08-11T15:04:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "US Household Delinquencies Improve: NY Fed Quarterly Report",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/us-household-delinquencies-improve-in-ny-fed-quarterly-report",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:02:43.000Z",
+      "kind": "news",
+      "summary": "The share of overdue consumer loans fell slightly in the second quarter, and so did some measures of newly delinquent debt, pointing to improvements for the US consumer.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Apollo Inks $2.6 Billion Financing Deal With the Yankees",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-11/apollo-inks-2-6-billion-financing-deal-with-the-yankees-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-11T15:01:39.000Z",
+      "kind": "news",
+      "summary": "Apollo Global Management is providing $2.6 billion of financing to the owners of the New York Yankees, the private capital giant’s largest investment to date in US sports. Randall Williams has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1614,17 +1701,6 @@
       "score": 50
     },
     {
-      "title": "2 Unstoppable Artificial Intelligence (AI) Stocks That Will Join Amazon in the $3 Trillion Club by 2027 - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZjZXRjlSRXRUZ1ltNEoyZlFleTVjdXVVc0JQYzAzWWdrWUJBaWlwVXllUFhySjh4b3FDcGZTWmhNYU9HbGlQUlZkWUtRWUlkZHNOQUhMV0lCUERsdU9oV0hlNWFqNTM1dHg3Q0JROUQtNHZneF9SMUVwTHZPcDB1ZHl5bHYxSUI2TnltaUd2aTR2cVJhcFNQQVpNRFB2T21WaURCeW4zSkNXaW80dUtXYU1BU28yYk8wMkFkLUFEdkxMZjNuMkFNNHdrWXUtUTJGbXNhWHpKNU5RaEs3Umd0bVVOYUZOWnViSmYyMllXZVloR3ZtNXZZcnFEbWZ0anloY1pyQlVHZ3BUMzg?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-08-11T14:34:26.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Flex's CPI Spin-Off Could Reshape Its AI Infrastructure Growth Story - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQkFXNjlOdkl0RVdIWk41ODhrUFUtQzMtTnRBejNLWC1meW81bXlWMnJFbHhWNHR6dWc2M2pDNTQtem1xTkZoeUFOdVdvZGhIaWh6eWY2bC16RUx2dXMxUWxsY0ZweXVLVmtVa0pULTFuUWpIaGszWXE3UVZTLU5PdEhJelFJSU5JQWhNRWtiUEVQWVBNeEZLZGpjTGtITHB4aVJ2Rndyd20ydUxVR2dBeDFMLXlScGZ3MkN4MDFoN3BmR0wweWNwZlRvWGJ0U0hhelQtSWV2aXg3RXRaS3JCQXBXajAydw?oc=5",
       "source": "The Globe and Mail",
@@ -1689,18 +1765,6 @@
       "publishedAt": "2026-08-11T14:11:05.000Z",
       "kind": "news",
       "summary": "The first three-plus years of the AI build-out have been funded by record amounts of equity and debt issued by leading tech companies. Nvidia has a new idea.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Chobani Cuts Annual Earnings Forecast on Rising Material Costs",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/chobani-cuts-annual-earnings-forecast-on-rising-material-costs",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T14:04:41.000Z",
-      "kind": "news",
-      "summary": "Chobani has lowered its annual earnings forecast as the Greek yogurt maker contends with rising material costs, according to people familiar with the matter.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1805,62 +1869,6 @@
       "publishedAt": "2026-08-11T12:42:58.000Z",
       "kind": "news",
       "summary": "The value of the Swiss National Bank’s foreign-exchange reserves held in US stocks grew more than 10% in the second quarter, reaching its highest level on record.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Expect an explosion in cybersecurity startups using AI to fight AI, says Sriram Krishnan - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQVlFRVNiRjEyWUp3TWx4Tk1rTnVKOHBwakpycXdyLTFjZmdDMU5oWXdDamJyRWR2cUhFVF9Da2RFVmRrZnktbU9ZZzRTN3VHcmdlbDhxODNXSGloRFM0QmR6NElfRmV1U3BjZ3I5Wkkxd0xrQTZJTlJZMTlGOU5nTEJ1RTZxZ19FSWh4V2otSVZiSUJHTEkzRGsxTWVkSXIxTFpaR1htWjZwX2J2dlYteFRFMDVvN3JUUWxEd1JNRXB4Qy1MRDJldmNB?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-08-11T12:34:51.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Sensi.AI Expands Care Intelligence Platform to Senior Living Communities, Bringing Continuous Insights Across the Full Care Continuum - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQdGREanc5UWJUbWtFbEluSDIyLXFBUVJJc19VeUgzQndjeFFfUjlRemo3OXp4R0otLXIxTkVwUmIweGF1WE9wS2ZBbXY5NWR4TGFidWhSZE9WQWszR21sWVJDUHNxaVZpdkViZGdxTy1McktWM0VVY29ha3NIZVJzQW5vc1E3OURoR08zX1Q5bnBoZUc4bWhNQ01oZENwN3k4eHltdGVEcG12SnhZRlFUdWY3ZlRpdXJvSWZEUm9YTmVpbUtXUnlySmxVYmNfcDNFRkF6cUhaY083aEUySVB6c1hJV0czcXBWX1N2MHY3RjkxUTFpX3NFeklWVS1IN2d6NmJlWldRT1V1TjJ3ZG5SYlY3UXdsdw?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-11T12:34:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Dating App Bumble to Let Men Make the First Move With Messaging Change",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/dating-app-bumble-to-let-men-make-the-first-move-with-messaging-change",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-11T12:30:16.000Z",
-      "kind": "news",
-      "summary": "Bumble Inc. will allow men to make the first move in messaging on its dating app, marking a major reversal from the company’s signature women-go-first model as it seeks to court younger users and deliver on a long-promised turnaround.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Claude will apply invisible watermarks to AI text and images - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSVlXWHJVOVhXbkRUbmdqZzhmY1BvOWNkelROTjhVaWlycnFlQmNqQ1g2UXJzdEM5MmlPd0N6UkZpa2JmVm5veE9uZnlCMWRGY0RMY2hZVFBpc1hFQVJVZVgtNFpvbnJXUGxaWkZwdi16d2g0M3lnc1Q4SzlKb1VGX1VVVkNuZlFpYWdtaHlJRVJZRmxRbVZ1YUNEcWFZUjh6TmdLTzhZU3k0QQ?oc=5",
-      "source": "The Verge",
-      "publishedAt": "2026-08-11T12:22:20.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Nocera and INERGX Form 50/50 Joint Venture to Acquire and Consolidate the Mission-Critical Energy Supply Chain Serving AI Data Centers, Defense & Heavy Industry, Targeting a $250 Million Valuation for INERGX - The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxOVGc0S2tSal9IbWNLRjFRM25SRXduRThwM29IVnpibGFOV25sMFJSVjI4MlB2VmpGbmRkbkZBR05SM1RHb0RBejdoOFotVUR3U1FVQk5uREhSZ3VGZ2oyTTVVOFVPUjRvcDM1YUhwcWFBbHJjVlIxSFlEN1dacVBVYmppY3BPaVNCRUYyMmNYRHBLOTJ2U2IzaGdJNUFnUWRZUlRRTHU2RENZS0xyY3ZkWlBPdkJBUmVMajFzNHRmd05seXdhWVdPalFFQXpzckFWUUQ1aUpVbndSVnpUTzJWdmo2Z19USWFVTEk1dzJzdXZ2V1VUbzBCNVdHWEhOcjB0ekdUUE1ibWlVOC1mem42ZktVbDI3SkRtZWh4WDItVF95bHRWbXk1d1gwT2dEZDhXSFh5emJNRU5mazF6c00tVmotdVZaNWVIOHg4RXoxTkFTZDhOLW9SeE9pS05xSFBVbFFpaFc2MzBuZ3dhenFtaGZwaVl6alVQdGIzVkY2cS0yaFZOejdTU3FUONIBkANBVV95cUxOVFRCaEVqcnlmaHJtQ3Q1UzRqMGw1Rmx3WkJWYkplTVY0bC1fcFFFVHVvMWtxeFY4QXA1alZ3clN3RUxJZmNMRUdZSzh5ZGI2RXhKcFRBSEtVdzUwSzRRVXJNQU0tdkNuWWVzRzdOZm9oOVdGUkE0SEdVOHJaQVFocjBoLUpjTzl3ZkdKcEV5Y0k1SDdaUy1QWl9zMGdrdUcwTlliU0lndENuSUlRX2R6VHh6b1paY3NCZHZ0NnZtQUlBRmpfTUZfWGFiZUJBeHV0UllQeURyUmY0U1MwZDRXWmpKbWpyY0k4RFBxb2FFSGpnTGFhRWZNNlFpQlAxSVNVN2dRRnJmcEdCdjNaVnVHN043Tms1TmhPeWhWbU1pX0ZfTnJPVEw0Smw3VklQeVFiTHRCdUgyRExOdE84VTJZLWtzQTZ2cWtTc3FrakNKbFVFemdTdWhuckgzU29GY3RBeHQwTHNRUlJRQUVrR2liYl9VSTd3eC0tVVgwVTdOcmpWZ2dvODlsSGxwUWMyM2Jm?oc=5",
-      "source": "The Manila Times",
-      "publishedAt": "2026-08-11T12:19:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

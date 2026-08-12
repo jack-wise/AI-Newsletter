@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:02:05.015Z",
+  "generatedAt": "2026-08-12T13:32:01.781Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Gapper watch list: $VELO $WYFI $HYLN $FRMI $NRGV",
+      "url": "https://stocktwits.com/GSP/message/661638824",
+      "source": "@GSP on StockTwits",
+      "publishedAt": "2026-08-12T13:05:17.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "31,062 followers",
+          "2 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 80,
+      "summary": "Gapper watch list: $VELO $WYFI $HYLN $FRMI $NRGV"
+    },
     {
       "title": "$FRMI (+5.3% pre) Fermi strikes 2.6 GW power deal with Hillcore for Texas AI campus https://ooc.bz/l/110924",
       "url": "https://stocktwits.com/OpenOutcrier/message/661632241",
@@ -36,7 +58,7 @@
         "FRMI"
       ],
       "related": [],
-      "score": 82,
+      "score": 72,
       "summary": "$FRMI (+5.3% pre) Fermi strikes 2.6 GW power deal with Hillcore for Texas AI campus https://ooc.bz/l/110924"
     },
     {
@@ -880,31 +902,37 @@
       "related": [],
       "score": 48,
       "summary": "Fermi America announces $6.5 billion contract with TensorWave"
-    },
-    {
-      "title": "Fermi Announces Binding Lease Agreement with TensorWave",
-      "url": "https://www.reddit.com/r/FRMI/comments/1vkxk5s/fermi_announces_binding_lease_agreement_with/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-10T21:13:24.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/ic3kreem",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 48,
-      "summary": "Fermi Announces Binding Lease Agreement with TensorWave"
     }
   ],
   "related": [
+    {
+      "title": "Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/lightspeed-seeks-600-million-for-anthropic-openai-wagers",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:25:16.000Z",
+      "kind": "news",
+      "summary": "Lightspeed Venture Partners is seeking about $600 million in a secondary process to extend its ownership of OpenAI and four other assets, as well as a new commitment to Anthropic PBC, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia-Backed Startup CodeRabbit Valued at $1.5 Billion in Round",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/nvidia-backed-startup-coderabbit-valued-at-1-5-billion-in-round",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "kind": "news",
+      "summary": "CodeRabbit Inc., an artificial intelligence-powered code review service, has raised $143 million in a new funding round, tapping into demand for tools to spot flaws in AI-generated software programming.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
     {
       "title": "Nvidia’s AI push has echoes of Enron, says Big Short investor - The Telegraph",
       "url": "https://www.telegraph.co.uk/business/2026/08/12/nvidia-ai-push-has-echoes-of-enron-says-big-short-investor/",
@@ -930,22 +958,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
-      "summary": "Ed Zitron, EZ Primary Research CEO and ‘Better Offline’ podcast host, joins 'Squawk Box' to discuss Nvidia's latest AI financing initiative, financing the AI boom, and more."
-    },
-    {
-      "title": "Nvidia's $500 Billion Deal Changes AI Story (NASDAQ:NVDA) - Seeking Alpha",
-      "url": "https://seekingalpha.com/article/4935289-nvidia-500-billion-deal-changes-ai-story",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-12T12:47:01.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
       "score": 65,
-      "summary": "Nvidia secures a $500B financing deal with top financial firms, offloading credit risk and enabling AI infrastructure expansion. Read more on NVDA stock here."
+      "summary": "Ed Zitron, EZ Primary Research CEO and ‘Better Offline’ podcast host, joins 'Squawk Box' to discuss Nvidia's latest AI financing initiative, financing the AI boom, and more."
     },
     {
       "title": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
@@ -977,7 +991,7 @@
       "summary": "Replayable AI reasoning blocks let researchers recover API keys and passwords from public logs; they say the main extraction attack is now mitigated."
     },
     {
-      "title": "Nvidia Stock Rises as CEO Eases AI Debt Fears - barrons.com",
+      "title": "Nvidia Stock Rises as CEO Jensen Huang Eases Debt Fears - barrons.com",
       "url": "https://www.barrons.com/articles/nvidia-stock-price-ai-debt-fears-98f92cc8",
       "source": "barrons.com",
       "publishedAt": "2026-08-12T11:44:00.000Z",
@@ -993,7 +1007,7 @@
       "title": "Nvidia's plan for Wall Street could add fresh fuel — and risk — to the AI boom - Axios",
       "url": "https://www.axios.com/2026/08/12/nvidia-ai-financing-blackrock-goldman",
       "source": "Axios",
-      "publishedAt": "2026-08-12T11:21:28.000Z",
+      "publishedAt": "2026-08-12T11:08:30.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1016,16 +1030,29 @@
       "score": 65
     },
     {
-      "title": "Lockheed Martin, Verizon, Keysight, ODC and Astris AI Demonstrate Technology for Public Airspace Protection with NVIDIA Technology",
+      "title": "Lockheed Martin, Verizon, Keysight, ODC and Astris AI Demonstrate Technology for Public Airspace Protection with NVIDIA Technology - PR Newswire",
       "url": "https://www.prnewswire.com/news-releases/lockheed-martin-verizon-keysight-odc-and-astris-ai-demonstrate-technology-for-public-airspace-protection-with-nvidia-technology-302849010.html",
       "source": "PR Newswire",
-      "publishedAt": "2026-08-12T10:41:56.000Z",
+      "publishedAt": "2026-08-12T10:30:00.000Z",
       "kind": "news",
-      "summary": "Lockheed Martin, in collaboration with Verizon, NVIDIA, Keysight Technologies, ODC, and Astris AI, has demonstrated a new system called NetSense™ Airspace Awareness-as-a-Service™ for detecting and tracking unmanned aircraft systems (UAS). This AI-enabled solution leverages existing 5G networks and commercial off-the-shelf technologies to provide cost-effective, scalable airspace awareness for critical infrastructure, public events, and government applications. Pilot deploymen [sentiment: Somewhat-Bullish]",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
+      ],
+      "score": 65,
+      "summary": "/PRNewswire/ -- Lockheed Martin (NYSE: LMT), in collaboration with Verizon, NVIDIA, Keysight Technologies, ODC and Astris AI, recently showcased how commercial..."
+    },
+    {
+      "title": "How I use AI: BNY CEO and OpenAI board member Robin Vince - Axios",
+      "url": "https://www.axios.com/2026/08/12/bny-ceo-robin-vince-openai-board-how-he-uses-ai",
+      "source": "Axios",
+      "publishedAt": "2026-08-12T10:26:42.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
       ],
       "score": 65
     },
@@ -1044,17 +1071,44 @@
       "summary": "From space to telecommunications, the US has a long history of fostering technology for the public good. These AI models could be aligned to democratic values, not corporate profits"
     },
     {
-      "title": "How I use AI: BNY CEO and OpenAI board member Robin Vince - Axios",
-      "url": "https://www.axios.com/2026/08/12/bny-ceo-robin-vince-openai-board-how-he-uses-ai",
-      "source": "Axios",
-      "publishedAt": "2026-08-12T09:34:36.000Z",
+      "title": "Nvidia Partner Hon Hai’s Profit Beats on Sustained AI Spending - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/nvidia-partner-hon-hai-s-profit-beats-on-sustained-ai-spending",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-12T08:56:04.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
       "score": 65
+    },
+    {
+      "title": "IBM and Together AI sign $240m Nvidia HGX B300 cloud deployment deal - Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/ibm-and-together-ai-sign-240m-nvidia-hgx-b300-cloud-deployment-deal/",
+      "source": "Data Center Dynamics",
+      "publishedAt": "2026-08-12T13:20:37.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Cluster expected to go live in Q1 2027"
+    },
+    {
+      "title": "From assistance to execution: How enterprises put AI to work - OpenAI",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work/",
+      "source": "OpenAI",
+      "publishedAt": "2026-08-12T13:06:54.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Siemens Energy's Record Quarter Meets a Wall of Skepticism - AD HOC NEWS",
@@ -1083,60 +1137,6 @@
       ],
       "score": 55,
       "summary": "SK hynix Inc. stocks have been trading up by 4.48 percent amid strong AI memory chip demand and bullish investor sentiment. Key Takeaways For SKHY Traders Nvidia and SK Group, including SK Hynix, struck a $500B‑plus AI infrastructure partnership, yet SKHY slid roughly 9% intraday amid tech profit‑taking. SK Hynix deepened its Nvidia tie‑up with&hellip;"
-    },
-    {
-      "title": "Siemens Energy to supply B&W with 1GW of steam turbine-generators for data center power program - Data Center Dynamics",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTl9zTVBERUREaFFMUnBRRGs4anhsQ1Zoai1EaDduaFVlM2VmQmx5Mk5WOWlfa3V0UGdYYWN2MlVOaFhJVm1xdTNYd3puaGI4T2c5NnlHd3RYbzhXOXJwcS1YWUxjV3FDeGU5QXRJczZYdU1xMFRSdFRTaFZaQlNPNW1DcWdveC1jT1A3YU1abVpUWGVHOV8wSzQ1SUVRa3VCSWVzT1hoSGZnZzI5eWlyVGJMNFdGNS15cC14OGJwMWRfeVBZaDJudlVqdTg5RFZYUmNORg?oc=5",
-      "source": "Data Center Dynamics",
-      "publishedAt": "2026-08-12T12:31:51.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "SMNEY"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Dow Jones Futures Rise With CPI Inflation Due; AI Stocks Rally As 3 Nvidia Partners Lead Earnings Movers - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORmxQdFlwUnZVcjNfSktSblNtci1ZZVprMHFlOW1vTW5aaFg2U3A5bmhaRDdCaUl5SUtnNHNqMk1DeHZRTUhma1dfZDFFYWQyVzBveEhIc0hia0tnTzlMOUxFdG9CMTNiRl9EbkFQSmdrYXBSR0NUVDVIV2hmQUQ4ZDNDQ1RuaERQSlFKejhRNW03Vm5lWlFSYXctUjNxa2lLY09IM0ZfcmlpX1loT19VZ1ZnZTRUUFN3QXc0bl9jWTFsYlhnRVE?oc=5",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-12T12:09:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Why Nvidia’s $500 billion AI financing plan faces a major risk from China (with video) - Plataforma Media",
-      "url": "https://www.plataformamedia.com/en/2026/08/12/nvidia-ai-financing-plan-china-risk/",
-      "source": "Plataforma Media",
-      "publishedAt": "2026-08-12T12:05:26.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Nvidia's $500 billion push for AI infrastructure depends on chips holding value over time, a bet analysts say could be undermined by China"
-    },
-    {
-      "title": "Nvidia AI Factory Compute Is Becoming an Investable Asset Class - StorageNewsletter",
-      "url": "https://www.storagenewsletter.com/2026/08/12/nvidia-ai-factory-compute-is-becoming-an-investable-asset-class/",
-      "source": "StorageNewsletter",
-      "publishedAt": "2026-08-12T12:03:04.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Blog written by Jensen Huang, founder and CEO, Nvidia, published August 11, 2026 We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the buildout of AI infrastructure over time. This is a major milestone for Nvidia and the [&hellip;]"
     },
     {
       "title": "NVIDIA’s 800 VDC architecture and the AI power infrastructure stocks set to benefit - Investing.com",
@@ -1290,9 +1290,9 @@
       "summary": "NVIDIA partners with BlackRock, Apollo, KKR to create AI infrastructure investment platform"
     },
     {
-      "title": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations - Reuters",
+      "title": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations - reuters.com",
       "url": "https://www.reuters.com/business/ryanair-signs-five-year-google-cloud-deal-expands-use-ai-airline-operations-2026-08-11/",
-      "source": "Reuters",
+      "source": "reuters.com",
       "publishedAt": "2026-08-11T23:08:42.000Z",
       "kind": "news",
       "tier": 1,
@@ -1319,23 +1319,36 @@
   ],
   "general": [
     {
-      "title": "Yardeni Has a Case of 'FEMO' (Video)",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-has-a-case-of-femo-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "title": "Chinese tech giant Tencent sees spending surge as it defends potential 'superior' AI returns",
+      "url": "https://www.cnbc.com/2026/08/12/china-tencent-earnings-q2-2026-gaming-ai-advertising.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-12T13:31:31.000Z",
       "kind": "news",
+      "summary": "Tencent stock was down 26% so far in 2026 as the company faces intense competition in China in AI and investors grow jittery about its rising spending.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "Chinese tech giant Tencent posts revenue beat on accelerating games sales, AI-driven ads",
-      "url": "https://www.cnbc.com/2026/08/12/china-tencent-earnings-q2-2026-gaming-ai-advertising.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-12T12:59:17.000Z",
+      "title": "'Teflon' Inflation Won't Stick, JPMorgan's Kelly Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/-teflon-inflation-won-t-stick-jpmorgan-s-kelly-says-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:22:16.000Z",
       "kind": "news",
-      "summary": "Tencent stock was down 26% so far in 2026 as the company faces intense competition in China in AI and investors grow jittery about its rising spending.",
+      "summary": "David Kelly, JPMorgan Asset Management's chief global strategist, sees a disinflation trend in the US stemming from lower tariff costs and oil eventually flowing out of the Strait of Hormuz. Speaking on \"Bloomberg Surveillance,\" Kelly also says the Federal Reserve is on the wrong track signaling that they are going to communicate less. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US CPI Report July 2026: Key Takeaways on Inflation, Consumer Price Index",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/us-cpi-report-july-2026-key-takeaways-on-inflation-consumer-price-index",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:21:47.000Z",
+      "kind": "news",
+      "summary": "Here are the key takeaways from the US consumer price index report for July, released Wednesday:",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1345,7 +1358,7 @@
       "title": "CoreWeave surges 20% in premarket after a 'cleaner quarter.' Here's what's happening",
       "url": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html",
       "source": "CNBC",
-      "publishedAt": "2026-08-12T12:54:52.000Z",
+      "publishedAt": "2026-08-12T13:19:43.000Z",
       "kind": "news",
       "summary": "AI cloud giant CoreWeave jumped in premarket trading after reporting that its second-quarter revenue doubled on surging AI demand from hyperscalers.",
       "tier": 1,
@@ -1354,11 +1367,126 @@
       "score": 60
     },
     {
-      "title": "The AI Revolution Is Winning the Software Race but Losing the Infrastructure Battle - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaDE5T050MnNta05jalpJQnVBOHNId2F1Qi1nMnl3TXVXU0RaN2JzUk13SHlNQV9teWF0ODV3S1BwVDA3QWJ3Yy1uT0MzS19scFRBY05HbVlEUk1QeGI0OUhCS2ZvZWw2cDBoTmlPWFVJQjltYnZmNGY2MXoyanhSTS0xaEZfYjJrV191MUxGT1R3blA5enZUZ1pPcHZfMUJmMzN2WUtQb2l0V2UxekFSYlh1ajlORDBpd0xGUUdPd0hDSU9oLVd3YVF1Uk5CMmR4MzZwMExuVTZWQTB2TW5GdDktVjBmNkVxNHRBLW8yT2w4cjdoSHVUOHREckFmZnM?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-08-12T12:47:29.000Z",
+      "title": "CobbleStone® Announces Collaborative Webinar With The Success Partner On Alignment of Legal, Security, & AI - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd2gyb1dHazZCLWhZWjBpT1FMT2NzQkdGcklod3RRSWgzVXlPbXZHZXZ2VVdfTjdyc3pRUmprV0w0Ym1lbFdtOVJFWFducDhSVTVOZUZBRkpOT3Y0Tk82SjBxOUJVNE9oelpxdHhJSnRpS1BXcTlJWWJxb2hnaTR5aW5lOXFBOHdsSDQ4cTExMFVXd2VzYjg1bnJtdlpZYjM1QlpvM2xoODhCN0lHZmxOUnJFNDNWc2l6LVNXRDdacnpNNWQ2LVAwcnMzOWl6dTROT2JCei1tdGZ6OHZ5VldVZmN1dGRmNG9COG1UN1BVN3c?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-08-12T13:15:00.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US July Core CPI Rises 0.2%, Easing Pressure on Fed",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/us-july-core-cpi-rises-0-2-easing-pressure-on-fed-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:12:32.000Z",
+      "kind": "news",
+      "summary": "The US consumer price index rose by 0.2% which was bang in line with forecasts. Prices rose by 2.5% from a year earlier, matching the slowest pace since March 2021. Energy, gas and grocery prices all fell on the month. This likely eases pressure on the Federal Reserve to raise interest rates. Michael McKee reports. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "The AI Revolution Is Winning the Software Race but Losing the Infrastructure Battle - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNZzdhRUplTG1lUnpaS0gyTWNOcmlZTXAxbFE0N01tS1VGSFZHbUdEcEpkdDJPNUhDZDROTVg4YkRaZU92WHV2VnNPc2tsUTJYSS13UnRqbDd2TGhRQXNiem9hb0NDa0NKZlhWa19Eb085TmU1RVVMbjVCdElaSGQ5eDUyTFN1V3hYbmVyZ1pVWlVJTl8zY1dDNGJpc2tqVmNQY2pYbjdodjQ4N1lVekxucXpkc1NNNmFOeFd6amVaR3IyT2FrRDBBZk9OdVJMdjk0RkcwdFZaY2NXSDRMOGNDMjZkNzVGY3BJeVJlS2xONS1EWE0yVXhZcXNXekE?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-08-12T13:11:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Mark Bezos’ Fund Faces Fight to Recoup Losses From Fence Startup",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/mark-bezos-fund-faces-fight-to-recoup-losses-from-fence-startup",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:05:47.000Z",
+      "kind": "news",
+      "summary": "A venture capital firm co-founded by Jeff Bezos’ younger brother Mark sank $11.7 million into a startup that fashioned itself as an Uber of fence installation. Now it’s suing the startup’s founder after the company’s collapse amid allegations of fraud and mismanagement.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Soaring AI hyperscaler default hedges aren't what they seem - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMFFnWUNMaWpDeWFxYlNzUndyNi16SWZKVmEyZ3hDckhWTlJNMGROV2VfMngxbzljVDhkRE9YTFluaVJQbVBJb1FvREFmREZlVGl1TjAtZzNmMjFnNm1HdW5lM3ZOellSMHA2M1lXYklvSVRKdWJ5Tk1abnZyZ2V4WWlZZGtrOW9GelhCZlV6dGpIamZzWFZ0djNfY0lIcXRsYTdtSExzZ2ZMWHN2NHRkMC1OajNEOW1qeFZpNzZndmpXUnZHblE?oc=5",
+      "source": "reuters.com",
+      "publishedAt": "2026-08-12T13:02:25.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Nebius beats estimates as customers race to secure AI computing power - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVUJZTnBKRUxhdFR1VGRmaGQxOUlHTHEwcjdaekRVbjh1LXpZd0NIS1haVElfejU4a19QWjB4SlZxRDlNdVNzSDUweVRfc292M052MHNJdTNNT1ZoRHpOTXNUWVJLb3R5cVdfLUhjb0FsOHR3NFY1b2ZyVUxUZEl6VjhDVFI2ZG9PT1c0SGhmQ0hvMjRXS2doRTF3aG9BdjhraGVqMGExcUxqN3R1Zzlj?oc=5",
+      "source": "reuters.com",
+      "publishedAt": "2026-08-12T13:00:09.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "OneDigital Deepens Impact Studio with AI-Powered Intelligence as Cost Containment Remains Employers' Top Priority - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOaHpOV19nYlZ2clpUbkQwejctLTRuRURyUUFMU0huYnVySVQ1aWM3X0FYV3dyVGNIQVZDaFdFTExzaUt2UW5kWDE2YktmanJXYjNickt5NEFXVnM3d3ItRTQ4RU5MYTNmck9mY0M3SUF1QUJDNkJqdDZLNF9CRTJFN0NKQjNrT25CckxyYi1pUmpYWTVLYklxSnFUXzRiRTZhcGgzZnZyclNHZlozUVVVdURuajRXdmMyOG01bzFSMzlMaU1QNjE4SzY3WmJuV2psYnNXbktGN3ZxME5CZ3p5SE5YN0xWRFg4eDdRbC1VczlWanMyUkxYcmhyUFc?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Oracle Health's AI-Powered Patient Portal Now Generally Available - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWEw5bUtZVHdtd1dSUWVhbXNhY3NKRU9kWkpsTEhrVDZTcG9rQUllSEMyN19yTVE5eThsY2FqR2NfbDRpTkwzSmEwN2NjUmxEZUdkZFJjWHlRSGdjelV3enNqaE5qZUZMWlZiT2YxWThzZ0I4YlpqNjItOTVnTlhSNm11emp5ZmQzWjg2MGRGWVNmcExtei1LNHZMOFdTNVcxV1VXR0RrVnZ2SVhpcHM2MjNaY2JnamhwV05jZg?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "New York City’s Five Pensions Gain 13% on Surging US Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/new-york-city-s-five-pensions-gain-13-on-surging-us-stocks",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "kind": "news",
+      "summary": "New York City’s five pensions beat their investment target over the past fiscal year, propelled by a record-breaking US stock market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Yardeni Has a Case of 'FEMO'",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-has-a-case-of-femo-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T13:00:00.000Z",
+      "kind": "news",
+      "summary": "Ed Yardeni, president of Yardeni Research, says he has a case of \"FEMO,\" or fabulous earnings momentum. He raised his year-end forecast for the S&P 500 to 8,400, that is the most bullish estimate on Wall Street. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Bond Traders Keep Cointoss Wager on September Fed Hike Post-CPI",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/bond-traders-keep-cointoss-wager-on-september-fed-hike-post-cpi",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T12:58:03.000Z",
+      "kind": "news",
+      "summary": "Traders held on to their hedges that Federal Reserve officials could raise interest rates at their next meeting in September, pricing in a roughly 50% chance of a move after a tame reading of US inflation.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1413,23 +1541,23 @@
       "score": 60
     },
     {
-      "title": "Yardeni Says He Hasn't Been Bullish Enough on Earnings",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-says-he-hasn-t-been-bullish-enough-on-earnings-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T12:32:41.000Z",
+      "title": "AI was supposed to destroy jobs. Where’s the carnage? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RVJfLU9XbWFoYlEzQ0hqdWxJVlJBZUxIcnk1VnZkR0JiVHNvSDVEelVmbDU4Ung2M3FJQUtncTNDUDR2NDJ0RkgxUWJEZEd4VzY5WUlJTGhGenVqOTZRcEYzcFNPc29xT2pYRUdFcF9kZFpEa2VXZQ?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-08-12T12:33:00.000Z",
       "kind": "news",
-      "summary": "Ed Yardeni, president of Yardeni Research, says earnings are driving the markets higher. He talks about raising his year-end forecast for the S&P 500 from 8,250 to 8,400. He also talks about the artificial intelligence trade \"Bloomberg Surveillance.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "Nebius beats quarterly revenue estimates as AI demand fuels growth - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVUJZTnBKRUxhdFR1VGRmaGQxOUlHTHEwcjdaekRVbjh1LXpZd0NIS1haVElfejU4a19QWjB4SlZxRDlNdVNzSDUweVRfc292M052MHNJdTNNT1ZoRHpOTXNUWVJLb3R5cVdfLUhjb0FsOHR3NFY1b2ZyVUxUZEl6VjhDVFI2ZG9PT1c0SGhmQ0hvMjRXS2doRTF3aG9BdjhraGVqMGExcUxqN3R1Zzlj?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-08-12T12:32:27.000Z",
+      "title": "Yardeni Says He Hasn't Been Bullish Enough on Earnings",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-says-he-hasn-t-been-bullish-enough-on-earnings-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-12T12:32:41.000Z",
       "kind": "news",
+      "summary": "Ed Yardeni, president of Yardeni Research, says earnings are driving the markets higher. He talks about raising his year-end forecast for the S&P 500 from 8,250 to 8,400. He also talks about the artificial intelligence trade \"Bloomberg Surveillance.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1445,7 +1573,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Potential ‘Peak Earnings’ Set the Stage for Disappointing Stocks",
@@ -1457,7 +1585,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Vestas CEO Says EU Prevents Mergers Needed to Compete Globally",
@@ -1469,7 +1597,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "WeRide Tops Estimates on Surging Domestic Ride-Hailing Demand",
@@ -1481,7 +1609,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "An A.I.-Focused Buyer of Service Firms Raises $2 Billion - The New York Times",
@@ -1492,7 +1620,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "'Tougher times ahead': Don't expect blowout returns to continue, CEO of $2.3 trillion fund warns after record first half",
@@ -1504,19 +1632,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "US Stock Futures Rise as Tech Rally Resumes Before Key CPI Data",
+      "title": "US Stock Futures Rise After ‘Bang-In-Line’ Inflation Data",
       "url": "https://www.bloomberg.com/news/articles/2026-08-12/us-stock-futures-rise-as-tech-rally-resumes-before-key-cpi-data",
       "source": "Bloomberg",
       "publishedAt": "2026-08-12T12:15:30.000Z",
       "kind": "news",
-      "summary": "US stock futures are up before the bell as traders await key inflation data that will provide insight into the next leg of the rally, after recent earnings revived optimism over the artificial intelligence buildout.",
+      "summary": "US stock futures extended gains after inflation data came in line with expectations, easing pressure on the Federal Reserve to raise interest rates and clearing the way for an earnings-led tech rally to continue.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Claims Hormuz Control as US-Iran Deadlock Continues | The Pulse 8/12/2026",
@@ -1528,7 +1656,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Stock Futures Today: Borr, Cava, CoreWeave, ERock, Super Micro",
@@ -1540,7 +1668,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Deloitte Expands End-to-End AI Controls and Assurance Capabilities to Enable Organizations to Scale AI With Confidence - PR Newswire",
@@ -1551,7 +1679,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI Agents are Only the Beginning: Deloitte Survey Examines the AI Readiness Gap and Reveals How Enterprises Can Prepare for Agentic Success - PR Newswire",
@@ -1599,7 +1727,7 @@
       "score": 50
     },
     {
-      "title": "Swiss Bankers Face Mandatory Bonus Deferral Under Reform Plan",
+      "title": "Swiss Bankers Face Mandatory Bonus Deferral Under Reform",
       "url": "https://www.bloomberg.com/news/articles/2026-08-12/swiss-bankers-face-mandatory-bonus-deferral-under-reform-plan",
       "source": "Bloomberg",
       "publishedAt": "2026-08-12T12:00:00.000Z",
@@ -1617,6 +1745,17 @@
       "publishedAt": "2026-08-12T11:58:06.000Z",
       "kind": "news",
       "summary": "Nebius Group NV reported a 514% jump in second-quarter sales for its cloud business following strong demand for AI computing power.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Africa's digital future in focus as leaders debate infrastructure investment - CNBC Africa",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSXJTS0FnbFVsNlR2ZzdLbUIzVGdlSHZPT29kRmxlaGhLMWJKUGN3Z2tsenIzQXVacDV1dVhZa1dNWTZoR2JyUnNNLUlVYzQ0dFAyM3M4UDhNbG1NMVVTQzBNNHd5M0RteHY4cnVuaVl2bjdlUUFMNEJhQWE2OVh5ZW95a0h5eUIzeDVPTXltVVV2ZktGRDNlVjJHOFFweXY4c2M5Tmt6VVpIbzZTcWRySi04Q01ET18tTVZyUkNXaw?oc=5",
+      "source": "CNBC Africa",
+      "publishedAt": "2026-08-12T11:56:33.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1641,30 +1780,6 @@
       "publishedAt": "2026-08-12T11:45:08.000Z",
       "kind": "news",
       "summary": "Shares of India’s Tata Group companies wiped out 433 billion rupees ($4.5 billion) in market value Wednesday after Chairman Natarajan Chandrasekaran said he will step down when his term ends in February, deepening a leadership crisis.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Norway's Sovereign Wealth Fund CEO Eyes Future Risks",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/norway-s-wealth-fund-ceo-nervous-despite-record-returns-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T11:38:59.000Z",
-      "kind": "news",
-      "summary": "Nicolai Tangen, CEO of Norway's $2.3 trillion sovereign wealth fund, tells Bloomberg he is cautious on future risks including AI valuations, inflation and geopolitical conflict, despite record results. Norges Bank Investment Management reported its best quarterly earnings for six years, with half-year returns exceeding 9%, gaining approximately $185 billion. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Tata Sons Chairman Unexpectedly Steps Down",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-12/tata-sons-chairman-unexpectedly-steps-down-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T11:35:02.000Z",
-      "kind": "news",
-      "summary": "Uncertainty is mounting at Tata Sons as Chairman Natarajan Chandrasekaran prepares to step down after a boardroom deadlock. The leadership shake-up comes as India's $180 billion conglomerate faces mounting financial and regulatory pressures. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1728,18 +1843,6 @@
       "score": 50
     },
     {
-      "title": "World-Beating Rand Carry Lures Traders to South African Bonds",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/world-beating-rand-carry-lures-traders-to-south-african-bonds",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T11:14:18.000Z",
-      "kind": "news",
-      "summary": "This month’s most lucrative emerging-market carry trade is attracting foreign investors to South African rand bonds at the fastest pace since January.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "FIFA Selects Globant to Create a Continuous Fan Experience Ecosystem for Football Fans Using AI Pods Powered by Glob.AI - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQNUJ1MlVLM3ctU3hZRmZLZm44MklqQmZnNFY2NzdfMVlSQnVyQTVzSFBrN3VBQmlzYnE2TG9YUTRJblRYUC1STHpkOXB2dGVhVkQ4cTc2cm0zelhfd2tBS3dkM1BxdTd0RHpmdFc2aEhiTHY1Z3hoOGgycWVDSkwtVzc3NjY4M3dOQnN0VERYZ3JoTFN5QTRoSktnMW9TX1VfNHMxNl9ia19HS1NBM2Jya3BGSTZISExVaHFTRDVRcmVQeDFwUHJScEtSX00xMHY2dWFyUFZtZEsybFlrSVJ3MEp5YkVtbHlDX1N1d3FOeGhEVlRrZ3Q1Rkp2aWFfdnBVWDVfeg?oc=5",
       "source": "PR Newswire",
@@ -1793,110 +1896,6 @@
       "publishedAt": "2026-08-12T11:00:02.000Z",
       "kind": "news",
       "summary": "Beijing has stepped up efforts on offshore trusts, clamping down on a structure the country’s mega-rich used to invest billions abroad.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Why AT&T Is Betting Big on Open-Weight AI - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPenBmRkkwdFV1TUFqTExHZjh1bUFDOGtwTFRjZmxpSGFfLTVsYWZzT0J0YnNNQmhqLThCUEJhT1N3RkdSZXl1azE5cEY5Mkp3SXVrWlhYcUMtZnRCQ25DZTlybFFVV2haMU9veFBST2lLRkRfVWhZRWd2OTVpNlBpN25VbUxtUmdRVXc?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-08-12T11:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "America can’t afford to stop building our AI future - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGJUZlJqWDhYaF9VQ2RNOEZKaGNSNTJ4T0lPakh0b21MaWZ6RERLR3VHa2dnRWR0S3NkNDQ5SlFMcnZ3d0dORTFJM1RyTkw1ZjZxaElEcGlOdUU1eUhlbm5QZWNWRVBrQUoxX2pTUllEUjByN2V4Sm0xVE01TWlvRFpEb9IBiAFBVV95cUxPTU9GMk1jeHhnanRCdVMwcDU0VVZSWU9CWk95bmVUYUhnUFVNaE5vRGhYaU5jNzY5WEpJeUFPUkRxczJteGViUXpnRGl2cFFSQVJEWFJMM1g1d2lrdnNvck5scmRNWDBaT002eXlQdEhIMDN3UTM1dV9mZWZmbEJKUm5lSHR5V2ZG?oc=5",
-      "source": "The Hill",
-      "publishedAt": "2026-08-12T11:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Foxconn Ramping Up Global AI Server Production to Ride Booming Cloud Investment - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzdlOS1yN1ZOR3FVeGFJdHJobEZVUEwwamZ0RUNHQjNxNlo2Rm5iVEtvSi1YbXBTckRsdVFldjAyNzRzLU1LNXZnLUhMS3ZqcmhISVVxUWlBMzhabGR4LVpRTzV0aENkMDgwbjZhRFJSdHVkaHNlZnZkS1hBUjBfdzVmclI?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-08-12T10:53:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Strong Results from CoreWeave, Super Micro Computer Boost Stock Futures",
-      "url": "https://www.wsj.com/livecoverage/stock-market-cpi-inflation-08-12-2026/card/strong-results-from-coreweave-super-micro-computer-boost-stock-futures-LNlyXNyr4t6DrebmZZvX",
-      "source": "WSJ",
-      "publishedAt": "2026-08-12T10:41:20.000Z",
-      "kind": "news",
-      "summary": "Stock futures are rising due to strong results from CoreWeave and Super Micro Computer, both companies tied to the AI sector. CoreWeave reported record revenue and a significant sales backlog, while Super Micro Computer saw its sales nearly double. These positive reports are also benefiting other AI-related companies. [sentiment: Bullish]",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "India Inflation Stays Within Target Band, Backs RBI Pause",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/india-inflation-stays-within-target-band-supporting-rbi-pause",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T10:32:29.000Z",
-      "kind": "news",
-      "summary": "India’s inflation was broadly steady in July, holding within the Reserve Bank’s 2%-6% target range and cementing expectations policymakers will keep interest rates unchanged for some time.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Is Creating a New Path for Musical Stardom, With Uncertain Staying Power",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-12/ai-is-creating-a-new-path-for-musical-stardom-with-uncertain-staying-power",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T10:30:32.000Z",
-      "kind": "news",
-      "summary": "Are AI-aided music creators like “Saxboy Billy” one-hit wonders?",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Internal UK Forecasts Raise Risk of Growth Downgrade Due to War",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/internal-uk-forecasts-raise-risk-of-growth-downgrade-due-to-war",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T10:23:31.000Z",
-      "kind": "news",
-      "summary": "The UK economy will barely grow next year if the Strait of Hormuz stays badly disrupted until the end of 2026, according to internal Treasury modeling that complicates Andy Burnham’s premiership and the coming budget.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Spending Snuffs Out Tencent’s Profit-Growth Run - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWM2bi1yMnlFeHVhV3N5bndvSl9aQzBwdHpWM3ZYczc2OGktdEFaSVpkN2FuNS02UlNMc2M0N2RNSl82QnpmcWVHTjlwY3NmVi1yMmJEWTdOR1BNRkhKd3lFb3NXbzFZMHN0MEVfNWtOQ3EwWUlRUldfRm1SWUIwTEZPTjRUMmhoclRUVGo1allYX19KVndyd0NnOTA?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-08-12T10:18:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Wintermute Plans $1 Billion AI Investment to Compete on Wall Street",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/wintermute-plans-1-billion-ai-investment-to-compete-on-wall-street",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-12T10:08:51.000Z",
-      "kind": "news",
-      "summary": "Wintermute Trading Ltd. intends to invest about $1 billion in high-frequency trading and artificial intelligence data center infrastructure over the next five years, as the digital assets market maker looks to diversify into traditional markets following a slump in crypto.",
       "tier": 1,
       "tickers": [],
       "related": [],

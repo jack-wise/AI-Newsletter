@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:31:51.746Z",
+  "generatedAt": "2026-08-15T03:00:28.299Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,41 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "🚀 $FRMI YOLO DD 🚀",
-      "url": "https://www.reddit.com/r/FRMI/comments/1voq6bt/frmi_yolo_dd/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-15T01:59:02.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Capital-Row6633",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 78,
-      "summary": "🚀 $FRMI YOLO DD 🚀"
-    },
-    {
-      "title": "Fermi Says It Received US Subpoena Related to Project Matador - bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
-      "source": "bloomberg.com",
-      "publishedAt": "2026-08-14T21:21:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75
-    },
     {
       "title": "SEC filing: 10-Q — Fermi Inc. (10-Q FERMI SECOND QUARTER FORM 10-Q)",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000207177826000051/frmi-20260630.htm",
@@ -80,6 +45,28 @@
       "score": 75,
       "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
       "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
+    },
+    {
+      "title": "🚀 $FRMI YOLO DD 🚀",
+      "url": "https://www.reddit.com/r/FRMI/comments/1voq6bt/frmi_yolo_dd/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-15T01:59:02.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Capital-Row6633",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 68,
+      "summary": "🚀 $FRMI YOLO DD 🚀"
     },
     {
       "title": "I am fairly confident that the SEC request is related to Toby and insider trading.",
@@ -146,6 +133,20 @@
       "related": [],
       "score": 68,
       "summary": "10Q is out"
+    },
+    {
+      "title": "Fermi Says It Received US Subpoena Related to Project Matador",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T15:09:00.000Z",
+      "kind": "news",
+      "summary": "Fermi Inc. said it received a subpoena from a US District Court for certain documents related to Project Matador, a massive data center campus it’s developing in west Texas.",
+      "tier": 1,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 65
     },
     {
       "title": "SEC filing: 8-K — Fermi Inc. (CURRENT REPORT)",
@@ -919,17 +920,19 @@
   ],
   "related": [
     {
-      "title": "Nvidia scales back data center guarantee plans: report - Tech in Asia",
-      "url": "https://www.techinasia.com/nvidia-scales-data-center-guarantee-plans",
-      "source": "Tech in Asia",
-      "publishedAt": "2026-08-15T01:41:00.000Z",
+      "title": "Nvidia scales back $250 billion OpenAI data center guarantee, WSJ reports - The Star",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/08/15/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports",
+      "source": "The Star",
+      "publishedAt": "2026-08-15T00:15:00.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
+        "NVDA",
+        "OpenAI"
       ],
-      "score": 65
+      "score": 65,
+      "summary": "Aug ⁠14 (Reuters) - Nvidia has ⁠downsized plans for ‌a $250 billion guarantee for an OpenAI data ​center, the ⁠Wall Street ⁠Journal reported on Friday, ⁠citing ‌people familiar ⁠with the matter."
     },
     {
       "title": "Nvidia Nears Deal To Guarantee About $100 Billion In Financing For Massive Data Center - The Information",
@@ -945,10 +948,10 @@
       "score": 65
     },
     {
-      "title": "Nvidia scales back $250 billion OpenAI data center guarantee, WSJ reports - Reuters",
+      "title": "Nvidia scales back funding guarantee for Ohio OpenAI data center, WSJ reports - Reuters",
       "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
       "source": "Reuters",
-      "publishedAt": "2026-08-14T23:49:53.000Z",
+      "publishedAt": "2026-08-14T23:44:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1015,6 +1018,20 @@
       "score": 65
     },
     {
+      "title": "GE Vernova Stock And 2 Nuclear Power Picks For AI Data Center Demand - simplywall.st",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/ge-vernova-stock-and-2-nuclear-power-picks-for-ai-data-cente",
+      "source": "simplywall.st",
+      "publishedAt": "2026-08-15T02:38:05.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GEV"
+      ],
+      "score": 55,
+      "summary": "Energy and commodity prices are still feeding into inflation in major economies, and that keeps reliable baseload power in the spotlight. Nuclear energy stocks sit at the crossroads of this story, with potential exposure to both electricity demand and resource pricing. This article walks through three stocks from the Nuclear Energy Stocks screener that stand out and explains what each could add to a long term portfolio. The stocks covered below are just a starting sample from"
+    },
+    {
       "title": "AI Infrastructure Debt Piles Up as Nvidia Raises $500B - Briefs Finance",
       "url": "https://www.briefs.co/news/the-unseen-billions-behind-ai-s-expansion-are-piling-up-rapi/",
       "source": "Briefs Finance",
@@ -1027,6 +1044,19 @@
       ],
       "score": 55,
       "summary": "Nvidia partners with Apollo, Blackstone and others to raise $500B+ for AI infrastructure as hidden lease debt hits $1.5 trillion."
+    },
+    {
+      "title": "Nvidia scales back data center guarantee plans: report - Tech in Asia",
+      "url": "https://www.techinasia.com/nvidia-scales-data-center-guarantee-plans",
+      "source": "Tech in Asia",
+      "publishedAt": "2026-08-15T01:41:00.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     },
     {
       "title": "Nvidia scales back $250 billion OpenAI data center guarantee, WSJ reports By Reuters - Investing.com",
@@ -1112,9 +1142,9 @@
       "summary": "Kyiv wants tighter controls to keep foreign silicon out of Moscow"
     },
     {
-      "title": "Nvidia’s $500 Billion Plan Envelops Wall Street in Its AI Frenzy - bloomberg.com",
+      "title": "Nvidia’s $500 Billion Plan Envelops Wall Street in Its AI Frenzy - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-08-14/nvidia-s-500-billion-plan-envelops-wall-street-in-its-ai-frenzy",
-      "source": "bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-14T16:42:09.000Z",
       "kind": "news",
       "tier": 1,
@@ -1123,20 +1153,6 @@
         "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Private credit roundup: Nvidia’s half trillion for chips financing, plus others - The Mighty 790 KFGO",
-      "url": "https://kfgo.com/2026/08/14/private-credit-roundup-nvidias-half-trillion-for-chips-financing-plus-others/",
-      "source": "The Mighty 790 KFGO",
-      "publishedAt": "2026-08-14T14:15:41.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "LONDON, Aug 14 (Reuters) - Nvidia's colossal financing deal for AI infrastructure buildouts is the talk of private markets this week. The chip giant said it has partnered with six major financial institutions to launch compute financing platforms aimed..."
     },
     {
       "title": "‘I’m not the one that should be in jail’: OpenAI protester, 69, turns herself in - The San Francisco Standard",
@@ -1167,23 +1183,9 @@
       "summary": "Memory has emerged as the newest bottleneck in the AI semiconductor value chain."
     },
     {
-      "title": "Nvidia Found Another Way to Win From Its $20 Billion Groq Deal - Business Insider",
-      "url": "https://www.businessinsider.com/nvidia-partners-groq-ai-services-groqcloud-2026-8",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-14T09:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Nvidia strengthens its market position by making AI chip rival Groq a customer, integrating their systems."
-    },
-    {
-      "title": "Z.ai Aims to Catch Anthropic, OpenAI in Coding With New AI Model - bloomberg.com",
+      "title": "Z.ai Aims to Catch Anthropic, OpenAI in Coding With New AI Model - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-08-14/z-ai-aims-to-catch-anthropic-openai-in-coding-with-new-ai-model",
-      "source": "bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-14T08:41:04.000Z",
       "kind": "news",
       "tier": 1,
@@ -1308,21 +1310,6 @@
       "score": 45
     },
     {
-      "title": "Nvidia scales back funding guarantee for Ohio OpenAI data center, WSJ reports - CNA",
-      "url": "https://www.channelnewsasia.com/business/nvidia-scales-back-funding-guarantee-ohio-openai-data-center-wsj-reports-6320821",
-      "source": "CNA",
-      "publishedAt": "2026-08-14T23:43:56.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Aug 14 : Nvidia has revised its plans to support a proposed OpenAI data center project in Ohio and is now expected to initially guarantee less than $120 billion, down from the $250 billion previously discussed, the Wall Street Journal reported on Friday, citing people familiar with the matter. • The Journal"
-    },
-    {
       "title": "Nvidia Scales Back on OpenAI Data Center Guarantee - Devdiscourse",
       "url": "https://www.devdiscourse.com/article/technology/3964175-nvidia-scales-back-on-openai-data-center-guarantee",
       "source": "Devdiscourse",
@@ -1336,6 +1323,20 @@
       ],
       "score": 45,
       "summary": "Nvidia has reportedly reduced its financial guarantee for a new OpenAI data center from $250 billion to less than $120 billion. The decision aimed to mitigate investor concerns about potential risks associated with the project. The Wall Street Journal cites sources familiar with the situation."
+    },
+    {
+      "title": "Nvidia Uses $500 Billion Financing Initiative to Dispel AI Bubble Fears - PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-uses-500-billion-dollar-financing-initiative-dispel-ai-bubble-fears/",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-08-14T23:32:13.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Nvidia’s $500 billion artificial intelligence financing initiative that was announced Monday (Aug. 10) aims to assure the company’s investors that there"
     }
   ],
   "general": [
@@ -1404,17 +1405,6 @@
       "publishedAt": "2026-08-14T23:14:24.000Z",
       "kind": "news",
       "summary": "This week, inflation may be edging lower, but as markets push rates higher, the Fed’s 2% inflation target might be a long way off. And, Mexico is building a land-based trade corridor that could give shipping companies more options when traditional channels are disrupted. Plus, as exits slow and borrowing costs rise, the ability of private equity investments to generate returns that beat public markets is less certain. Later, Cuba is promising its biggest market reforms in dec",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "National lab in Livermore using autonomous AI to quicken, broaden experimentation - The Mercury News",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYnEwVHRoalVKS0dkZ3BWQWxQZGZQTzc5UHhmTlg4SWpXMHByeUJlRHhZbjc3bkJpbDcyY2xUdHhHa20yNFQxcHNHMkZYS1UtRDFCUWdZSkhTZHdNdlFSdk4tQVBaY0lTWGtrYl9CQTVXRm1uS0I0bjZUeGZKNTlkN2VPancwTUdYdElUZ0F6MmM1ck40bVB4bFRXMl9aRDJES095ZjZ5YS1PNlloTmEta2s0azc4clRLLUt1UNIBwgFBVV95cUxPSjBxZjJWR3ZzT2NMYTZYODNvV0lhZHB4SHlDdGFXM1JNV09vd0JjbHNNbXRnWGp4Sk5rUGZCX1N2THUtdEdOSjRRRzhfUC05TnZfRnhxNnBZd0J2SFA5TndzQW5qZGlaVENYSGp0bjhRNXBUVUU2RGNDTkpjUF8xMlJ0WWhWQ0dSZlhLeUtBaThsM01zczk2MFVOdGxfcG4yVmNkUmhBTDNrS2pNR2RSZjVBLW1nd2haVy1GNEozT2Qzdw?oc=5",
-      "source": "The Mercury News",
-      "publishedAt": "2026-08-14T23:05:33.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1540,17 +1530,6 @@
       "score": 50
     },
     {
-      "title": "Anthropic defends and explains its AI watermarking feature - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMVZxeVFtSWpNWGxRU2twaV8xSW9vS2N2M3hIZUsyS0dJMkpmR3Fld3RmbHFtUU41d3lYYTc4TXBhTDdwOWl1bGtScEY1d0RPMVJpaG1sWG0tY01BRFlDT0I0aGZTWTkzZnVmVTRLc2RhNHdBbEM4T0VLN2xBRjc3X2pEcnd6b3poaHlzME81dGE2WnFMbXg4RTNhM1liams5YjlPWEl3RE9WWDdpMXc?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-14T21:25:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Anthropic Revenue Ahead of IPO Surges Over 14-Fold in Second Quarter",
       "url": "https://www.bloomberg.com/news/articles/2026-08-14/anthropic-revenue-ahead-of-ipo-surges-over-14-fold-in-second-quarter",
       "source": "Bloomberg",
@@ -1563,81 +1542,10 @@
       "score": 50
     },
     {
-      "title": "Understanding Hyperscalers | Masters in Business with Ankur Crawford",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-14/masters-in-business-with-ankur-crawford-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-14T21:00:20.000Z",
-      "kind": "news",
-      "summary": "Ankur Crawford, Executive Vice President and Portfolio Manager of the Alger Capital Appreciation, Alger Focus Equity, and Alger Spectra Strategies joins Barry for a conversation about how she builds an investment strategy. They also discuss her journey from engineering to investment, along with understanding AI and compute investment cycles. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Avoid Being Shaken Out Of The Market: Wilson",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-14/avoid-being-shaken-out-of-the-market-wilson-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-14T20:49:14.000Z",
-      "kind": "news",
-      "summary": "Mike Wilson, chief US equity strategist & chief investment officer at Morgan Stanley, joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Amazon’s New User Agreement Seeks to Curb Class-Action Suits",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-14/amazon-s-new-user-agreement-seeks-to-curb-class-action-suits",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-14T20:43:50.000Z",
-      "kind": "news",
-      "summary": "Amazon.com Inc. reintroduced a clause in its user agreement that seeks to prevent shoppers from filing class-action lawsuits against the online retailer, inserting a legal buffer between itself and plaintiffs attorneys that it removed five years ago.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Freshmen Pay Thousands For Sorority Rush Coaches",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-14/freshmen-pay-thousands-for-sorority-rush-coaches-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-14T20:43:31.000Z",
-      "kind": "news",
-      "summary": "Bloomberg's Lisa Mateo joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss how young women rushing sororities have been paying from $3K to $12K for coaches to teach them southern sororities unwritten rules in hopes of getting accepted. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Berkshire Pads Delta, Alphabet Stakes as Abel Taps Cash Pile",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-14/berkshire-boosts-delta-alphabet-stakes-as-abel-taps-cash-pile",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-14T20:37:45.000Z",
-      "kind": "news",
-      "summary": "Berkshire Hathaway Inc. increased its holdings in Delta Air Lines Inc. and Google parent Alphabet Inc. as Greg Abel began tapping into the company’s massive cash hoard.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Canada helped build modern AI. Data centres could power its next advantage - The Hub | More Signal. Less Noise.",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUVcxamNKTnFGVE1jbFBPUVFkdDRUeU84T1cxNlJ5SkF3YVNkVFZYekNRU0ltUUptZURlVjRXVmt0Q1FuaEQwcHQ5WnJoVU8tbFFyRUx5Y2NLNnVBdkxkUVBCM2RZeHZRdmF0Rjgyd3QtYlR1RDJhS1phX25NM0JodXpZWFlQWDZmQWNISUJuSFFOanFEelRNLXZONGtudWtaWGVhRFRR?oc=5",
-      "source": "The Hub | More Signal. Less Noise.",
-      "publishedAt": "2026-08-14T20:33:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "How Monolithic’s AI-Driven Earnings Beat and Conference Spotlight Will Impact Monolithic Power Systems (MPWR) Investors - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQc3VjZUwzMUVFZmhzRVZnOXdpaVFidmZWeDQ5LVJoZFA4aDlKY1pfTjdCNmlfN2MxWnBCazVRakNJaGpPZk5KVjRxUno5N3p5Z2hySldPQ0lmQzVwbDdXblZpVG0wbkQtVC1kOXdOaENabWZvWW5xZ3I5VHhRS214YTF4aThOUHJtTjFZR1NaUVdXTlZiem84UlZpT3lTUXRmcHc0VzNWSUtJQXJCZ3ZlZU1QWUtGcUNZRGotX3pNeEktRXVrZVl1Z0s1d1VMYmlhMHJRM2ttQTdldVB3MlhOaE9nRdIB6AFBVV95cUxNNXI2cEJPdlZqQzJNUXlQdkd6NzcwX2lrMzMtLU9BQnc4LXZsLUZFeGVBQzRnc3lOejhaUUQya3dac2MyeDltUE9paFVzV0VxRm1RbWU0N1k1bWNnYTFTN3VpdUR0RjFPV1RCUFVLMndDVGVWQ3FNWUN2RVN0UnVmOFRXSkFLeEZUS0FPaHotYnA5dmdFVlV6SllhQ3Nmc2ZIVHhjc2xwZVR4Mno2T1lwSWZrUXMzMEJ0bXJCTGQzcDZuTnk4SmdRRmN2MC1HWkd0NF9DRU9IT0VVWjdNRF9qOFhJal9TdFRN?oc=5",
-      "source": "simplywall.st",
-      "publishedAt": "2026-08-15T01:43:10.000Z",
+      "title": "Private equity’s AI gold rush comes at a cost - Private Equity Stakeholder Project PESP",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcTZvMVdpYnRLM3R5TV9yUDNReUl3aWkySmNCS2w4UFNjczlXV3pGTzBNZ2ZhX2d6LU1zV0dlNGlVeEIzVFU5cmZlZHoxYmdUcWlUQmxFT19vaTFzY3ZRX1lmWmxfSW84eGxxVHREQkVxNlhBRUlLTTZLVnJYRFZiUkpn?oc=5",
+      "source": "Private Equity Stakeholder Project PESP",
+      "publishedAt": "2026-08-15T02:40:44.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1645,21 +1553,10 @@
       "score": 40
     },
     {
-      "title": "Oakland councilmember addresses pushback to proposed AI data center downtown - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbG5IUkRaU1YxdnFndTN2Vk9SaWxLVnVFU2l4NXU5SFN6anloZFNfVndTSDZmSW5jcmxyOFMyMXB0dm93MmtwSjFCbFlHX2xZQ3VmVVMxRlBab1dsSXd2djJrQXRkaDZRT0JoRzNyTFA5aVJ1VE9EQ3d6LXpvZFYtZnByR1pZLUlFdmhPS2Zjc2xRUGRKY2JzQXJWaDQ1MEE?oc=5",
-      "source": "CBS News",
-      "publishedAt": "2026-08-15T01:35:56.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Duke’s US$1.75 Billion AI Data Center Financing Could Be A Game Changer For Duke Energy (DUK) - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR1FnTWtEUGhtV1ZKRFkydHl4eGphRUtXMFF1dENiVldWYTNacE9pZ19QNUNLejM2X0hNN1hmdmgzXzNHYmNGU2hhV3hOZWdDUTUtR3pkcDIxX0RtX1NsQm1qbTI3akdKeU8wUUZ4Qm5KMlpzaWc3UUNxZmM2NlZHT1BjSW5YZ3JURjBTOHAzRDBPQk9UTnJNV3YtRDdmUUpmS2x0SGY1OC1tSmFrLTJYcVAtandRUUJkLV9CeWE0eks1YXh0WGFr0gHMAUFVX3lxTFB0SHY0RkFiRGN4R3hpMDRHXzA3RlI4c1prejhlMGpuSzRDWTl5VkxiZm9wR1hsbGhHQ0ZDdWMtR1U2bWl5dnBobnRpb3ZOUEJpWmpvYkh3ZDhyYllyNGhfRE9vQjgyNHE4Y0xYSnlUeWFuN29MVkJrVUszcmZMN2VBM3E1cFFtZGhlaWFDLWFBNi14VGhwd2NFNWFEZDZGMVdrZkVVYWZ2d0s3T2MxbmlkSEhrZDY4RTc1WGFZd0ZfSWZ1TkRaRnF0YmU2NQ?oc=5",
+      "title": "ONEOK (OKE) Is Up 9.9% After Raising 2026 Guidance And Landing 1-GW AI Power Deal - What's Changed - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWFc3blN6NldTZ3g3YzhvT2Z5blZQdUQwSDdieDk0Z1FJZThzM3hVUlJBb3QzSTFHVDB6amxFZUxXMTI4YW9ZVjBLMjVybU9YMEVoR1UzLXB4X0hlQXBMVkttZVc5V0o3RWRSdlFtRzVCVzc2Q0lOT3NsY3lid2NlekJKU2pDVTBZdmdRazFKWjV2ckJyQ2VzQko1aU81WTZkR0NaLTBiU1E2bmNlMzZYd1VZUUFyNTdZMzl30gHAAUFVX3lxTE96NWo1QjcwTzZnSjlyUVUxOEQyRTVUSjREZGZiQjUwMzBiM3ZCVS0xd2c3RUMtTVpiZ0hxVnc3aGMydG93WlNyWFRDWDhaU2JybzUtbkJYZjdSekp0YlktVDk1eVNoTHhDOWZKNzUwNEJ0VFdJOFB4cllDSjlBVU1RT2JmQ0dESEdsMXA2cWhuTmNEZzlfbnE3cHVsNGNwSlFDWHM5STVQd0FuU1ZvYW5DckRJWkRRdGVTUUFjZldwVg?oc=5",
       "source": "simplywall.st",
-      "publishedAt": "2026-08-15T01:33:01.000Z",
+      "publishedAt": "2026-08-15T02:32:26.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1678,6 +1575,89 @@
       "score": 40
     },
     {
+      "title": "IMC Rare Earths Ltd (IMC) files F-1 for 10.1M warrant-share resale",
+      "url": "https://www.stocktitan.net/sec-filings/IMC/f-1-imc-rare-earths-ltd-foreign-issuer-ipo-registration-c793cf605093.html",
+      "source": "Stock Titan",
+      "publishedAt": "2026-08-14T21:40:55.000Z",
+      "kind": "news",
+      "summary": "IMC Rare Earths Ltd (IMC), a Cayman Islands company focused on Brazilian rare earth exploration, has filed a Form F-1 resale prospectus for 10,110,000 ordinary shares underlying warrants held by Americas Rare Earths Holdings Ltd. The company will not receive proceeds from these sales. IMC's primary asset is the Itarantim Project in Brazil, an ionic adsorbed clay rare earth deposit with an inferred mineral resource of 1.1 billion tonnes. [sentiment: Neutral]",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Understanding Hyperscalers | Masters in Business with Ankur Crawford",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/masters-in-business-with-ankur-crawford-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T21:00:20.000Z",
+      "kind": "news",
+      "summary": "Ankur Crawford, Executive Vice President and Portfolio Manager of the Alger Capital Appreciation, Alger Focus Equity, and Alger Spectra Strategies joins Barry for a conversation about how she builds an investment strategy. They also discuss her journey from engineering to investment, along with understanding AI and compute investment cycles. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Avoid Being Shaken Out Of The Market: Wilson",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/avoid-being-shaken-out-of-the-market-wilson-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T20:49:14.000Z",
+      "kind": "news",
+      "summary": "Mike Wilson, chief US equity strategist & chief investment officer at Morgan Stanley, joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Amazon’s New User Agreement Seeks to Curb Class-Action Suits",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/amazon-s-new-user-agreement-seeks-to-curb-class-action-suits",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T20:43:50.000Z",
+      "kind": "news",
+      "summary": "Amazon.com Inc. reintroduced a clause in its user agreement that seeks to prevent shoppers from filing class-action lawsuits against the online retailer, inserting a legal buffer between itself and plaintiffs attorneys that it removed five years ago.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Freshmen Pay Thousands For Sorority Rush Coaches",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/freshmen-pay-thousands-for-sorority-rush-coaches-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T20:43:31.000Z",
+      "kind": "news",
+      "summary": "Bloomberg's Lisa Mateo joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss how young women rushing sororities have been paying from $3K to $12K for coaches to teach them southern sororities unwritten rules in hopes of getting accepted. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Berkshire Pads Delta, Alphabet Stakes as Abel Taps Cash Pile",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/berkshire-boosts-delta-alphabet-stakes-as-abel-taps-cash-pile",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T20:37:45.000Z",
+      "kind": "news",
+      "summary": "Berkshire Hathaway Inc. increased its holdings in Delta Air Lines Inc. and Google parent Alphabet Inc. as Greg Abel began tapping into the company’s massive cash hoard.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Canada helped build modern AI. Data centres could power its next advantage - The Hub | More Signal. Less Noise.",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUVcxamNKTnFGVE1jbFBPUVFkdDRUeU84T1cxNlJ5SkF3YVNkVFZYekNRU0ltUUptZURlVjRXVmt0Q1FuaEQwcHQ5WnJoVU8tbFFyRUx5Y2NLNnVBdkxkUVBCM2RZeHZRdmF0Rjgyd3QtYlR1RDJhS1phX25NM0JodXpZWFlQWDZmQWNISUJuSFFOanFEelRNLXZONGtudWtaWGVhRFRR?oc=5",
+      "source": "The Hub | More Signal. Less Noise.",
+      "publishedAt": "2026-08-14T20:33:11.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Drone stocks rally after Trump orders tariffs on foreign-made components",
       "url": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html",
       "source": "CNBC",
@@ -1690,9 +1670,9 @@
       "score": 40
     },
     {
-      "title": "Goldman’s latest cash cow is all about funding the AI infrastructure boom - CNBC",
+      "title": "Goldman’s latest cash cow is all about funding the AI infrastructure boom - cnbc.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVpsNFZxZkZtbHdtdDdBZmhZczJmRkxnVmVOT19NSDJ2M0VteE1ZaEZWM3pfZlVSVFUxV1dQTkE0TERDUjNBNExjSk16bUk3SEFwNEZBS0pOcGwtNWtVQ2VlM1B6SDJkNF9KQTFlYmk4LTZNa21NcUFpaTlNZ0hWa3A1c3M1MnZHRXNGS05jU05HNl84ZWtoNFhDWVZXMTlsYl9QYVNhaG5ab0R5WEE?oc=5",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "publishedAt": "2026-08-14T20:02:24.000Z",
       "kind": "news",
       "tier": 1,
@@ -1723,9 +1703,9 @@
       "score": 40
     },
     {
-      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - Axios",
+      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - axios.com",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5",
-      "source": "Axios",
+      "source": "axios.com",
       "publishedAt": "2026-08-14T19:42:07.000Z",
       "kind": "news",
       "tier": 1,
@@ -1746,20 +1726,9 @@
       "score": 40
     },
     {
-      "title": "Claude users are canceling their subscriptions, citing Anthropic’s new AI watermark - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXN4MnZiMUxiTWRjTUJpNXBnejdXM1gzNlNybmg0c1FYS01uak4zNXJ5S1RhaFA1a2p4a05sc2d2T2tDWTl6cExkTzBmU0RiaWp2LWs1dERncnVva0VjU2lCWFVrbFpVMHJhRUl4eWNSd0QwR1lWVnRHazlZZVRKXzlabGNUS0p0RmtkcTgyUXVEQkxYdi01NnIxdUFHQUVSZ1d2ejlHTFpUZw?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-14T18:48:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "New Mexico Gas Pipeline for Oracle Data Center Delayed to 2027 - bloomberg.com",
+      "title": "New Mexico Gas Pipeline for Oracle Data Center Delayed to 2027 - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaU96WU9wU1lxQjM5cmptQUIzQTduSWJDQUNnOWhGd1RIYnNYLThLY2dMbzM0OFNwWENnT1JNSVJpM3JqVWIySENoaHBFLTdqNlVScWxicjFnNXVvOWtWejVxMktlall4UXFSNkhWNEZpVm9zY1dOSDRJaEh3cU45QlllZWY5MWg2QWw0cHJ2eUNoUnM2VnQ5R0R0QnlwT1FsQXk5aTlsTnlTejV3THQxcDU3SQ?oc=5",
-      "source": "bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-14T18:13:54.000Z",
       "kind": "news",
       "tier": 1,
@@ -1774,17 +1743,6 @@
       "publishedAt": "2026-08-14T18:13:54.000Z",
       "kind": "news",
       "summary": "A key New Mexico natural gas pipeline project that would supply fuel to power a planned Oracle Corp. artificial intelligence data center has been delayed by nearly six months.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Tech analyst Ben Thompson dismisses the 'clearly absurd' concept embedded in AI watermarking - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWHdocHVvcTlZS0hLWEJzUkZmZjVNZ01HYUpWaUdfSTNieWVKRzFjYlJoVFdnbjNPQWpLVVB6QlVwZHJWeUJLMF80RkJzUDAyYWZkTlAxbUJ4UkwzUDdISHJPa24wZ1JJcy1fWWhoOTdlZUx2OHZLVmpobVc2M1dFbWVzYV85OWp4TG0wXw?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-14T18:12:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1821,6 +1779,17 @@
       "publishedAt": "2026-08-14T17:39:05.000Z",
       "kind": "news",
       "summary": "Cerebras Systems reported better-than-expected second-quarter revenue and raised its full-year guidance.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Utility ETFs to Buy as Rapid AI Buildout Sparks Energy Crisis - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbG1pX2wzT205M0dvSEpGVW5zYW9Xa0EyV0c2ZTdNcWtDNU1YMV9QYzNJQnVIcVhIcVcwR0V6NzlDSUlzN191dURiOEY1RFJXRGhteENfV05MeVRwZVR1UjlHZHZweXZyQVBiQVhza0FiQWgzVmZoN0pkdlY3VWpoUlFtREl3d29raV9DbmNkZlM5ellqZnBueTlHM21pQzVqU29OWmRqVVVOZG5mdWxlOU41dTJpVnAybC1Rdng5ODVwMllnbjk2M1V3Ti1Ra3o3cHlzb29PcXJTRGVyLUE?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-08-14T16:36:33.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1916,6 +1885,41 @@
       "publishedAt": "2026-08-14T15:01:04.000Z",
       "kind": "news",
       "summary": "Optima Befektetési Zrt. is considering selling its controlling stake in Globe Trade Centre SA, a move that would end the controversial influence of Hungary’s central bank over one of eastern Europe’s biggest property developers.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "US Retail Sales Fall Most Since May 2025",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/us-retail-sales-fall-most-since-may-2025-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T15:00:14.000Z",
+      "kind": "news",
+      "summary": "US retail sales fell in July by the most in more than a year as consumers pulled back on purchases at online stores and auto dealers. The value of retail purchases, which isn’t adjusted for inflation, decreased 0.6%, the most since May 2025, according to data published Friday by the Census Bureau. Veronica Clark, US Economist with Citi, reacts to the US retail sales data and discusses the weakening labor market and slowing inflation. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Amazon and Alphabet’s Profits Reveal Circular Nature of A.I. Boom - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTYjQyMEtqZ3drOEFXbFo0TS1hTFRUOEowR2w5Q29PTmJzbzduTkZ4a1VKNzkyRmR0RGN4a2M4NmdKT2huM0pVVXktTDVEZFJSLWVXV3FHdENjSFpTSkhkSnIyN3lMS204YTc5N29WQzVfUQ?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-14T14:44:23.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Why Work 9-to-5 When You Can ‘Income Stack’?",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-14/why-work-9-to-5-when-you-can-income-stack",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T14:30:04.000Z",
+      "kind": "news",
+      "summary": "Gen Z is throwing out the rulebook when it comes to generating wealth. Its members are looking beyond the standard 9-to-5 job and opting to be their own boss, with a side-hustle or two for good measure. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

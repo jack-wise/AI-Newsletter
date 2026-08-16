@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T05:03:48.265Z",
+  "generatedAt": "2026-08-16T05:31:27.983Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -220,20 +220,6 @@
       ],
       "related": [],
       "score": 55
-    },
-    {
-      "title": "Analysts Offer Insights on NA Companies: CoreWeave (CRWV) and Fermi Inc. (FRMI) - The Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/FRMI-Q/pressreleases/3830923/analysts-offer-insights-on-na-companies-coreweave-crwv-and-fermi-inc-frmi/",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-08-13T13:56:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "summary": "Detailed price information for Fermi Inc (FRMI-Q) from The Globe and Mail including charting and trades."
     },
     {
       "title": "SEC filing: 8-K — Fermi Inc. (CURRENT REPORT)",
@@ -923,6 +909,28 @@
       "related": [],
       "score": 48,
       "summary": "Fermi Announces Second Quarter 2026 Results and Delivers on All Five 90-day Objectives"
+    },
+    {
+      "title": "Fermi Names Lee McIntire CEO",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vna4f7/fermi_names_lee_mcintire_ceo/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-13T13:03:06.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/LuckyLuckierLuckest",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 48,
+      "summary": "Fermi Names Lee McIntire CEO"
     }
   ],
   "related": [
@@ -937,63 +945,23 @@
       "related": [
         "MSFT"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Both Amazon and Microsoft are benefiting from the AI arms race."
     },
     {
-      "title": "OpenAI's 612-megawatt facility, ranked among the world's biggest AI data centres, abandons plan to cool s - The Times of India",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/openais-612-megawatt-facility-ranked-among-the-worlds-biggest-ai-data-centres-abandons-plan-to-cool-it-with-recycled-water-as-/articleshow/133263763.cms",
-      "source": "The Times of India",
-      "publishedAt": "2026-08-16T02:39:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "OpenAI has abandoned plans to cool its planned S7 data center in Sydney, Australia, with recycled water. OpenAI nixed the plans in favor of a closed-loop liquid cooling system."
-    },
-    {
-      "title": "Siemens Energy's €6 Billion Buyback Masks a Boardroom Question That Could Move the Stock More - ad-hoc-news.de",
-      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/siemens-energy-s-6-billion-buyback-masks-a-boardroom-question-that/69953860",
-      "source": "ad-hoc-news.de",
-      "publishedAt": "2026-08-16T04:21:24.000Z",
+      "title": "Nvidia eyes investing $3 billion in SB Energy under OpenAI data center deal: Report - Moneycontrol.com",
+      "url": "https://www.moneycontrol.com/artificial-intelligence/nvidia-eyes-investing-3-billion-in-sb-energy-under-openai-data-center-deal-report-article-14006575.html",
+      "source": "Moneycontrol.com",
+      "publishedAt": "2026-08-16T05:17:54.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "SMNEY"
-      ],
-      "score": 55,
-      "summary": "Siemens Energy posts record orders, launches €6B buyback, mulls spin-off, and rebrands as Omterra am"
-    },
-    {
-      "title": "Someone built a free tool to scrub AI watermarks from OpenAI, Gemini-generated text and files - Currently.com",
-      "url": "https://currently.att.yahoo.com/att/someone-built-free-tool-scrub-041325693.html",
-      "source": "Currently.com",
-      "publishedAt": "2026-08-16T04:13:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
+        "NVDA",
         "OpenAI"
       ],
       "score": 55,
-      "summary": "An open-source GitHub project is designed to strip invisible characters, statistical watermarks and file metadata used to identify AI-generated content."
-    },
-    {
-      "title": "NVIDIA Earnings Preview August 2026: AI Chip Leader's Next Catalyst - Intellectia AI",
-      "url": "https://intellectia.ai/blog/nvda-earnings-august-26-2026-preview",
-      "source": "Intellectia AI",
-      "publishedAt": "2026-08-16T04:07:28.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
+      "summary": "The proposed investment is linked to broader talks between Nvidia, OpenAI and SB Energy over providing around $100 billion in credit support for the planned Ohio data centre project"
     },
     {
       "title": "Nvidia weighs $3 bln in SB Energy for Ohio AI data center - The Information - Investing.com",
@@ -1108,6 +1076,76 @@
       "score": 55
     },
     {
+      "title": "Siemens Energy's €6 Billion Buyback Masks a Boardroom Question That Could Move the Stock More - ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/siemens-energy-s-6-billion-buyback-masks-a-boardroom-question-that/69953860",
+      "source": "ad-hoc-news.de",
+      "publishedAt": "2026-08-16T04:21:24.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "SMNEY"
+      ],
+      "score": 45,
+      "summary": "Siemens Energy posts record orders, launches €6B buyback, mulls spin-off, and rebrands as Omterra am"
+    },
+    {
+      "title": "Someone built a free tool to scrub AI watermarks from OpenAI, Gemini-generated text and files - Currently.com",
+      "url": "https://currently.att.yahoo.com/att/someone-built-free-tool-scrub-041325693.html",
+      "source": "Currently.com",
+      "publishedAt": "2026-08-16T04:13:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "An open-source GitHub project is designed to strip invisible characters, statistical watermarks and file metadata used to identify AI-generated content."
+    },
+    {
+      "title": "NVIDIA Earnings Preview August 2026: AI Chip Leader's Next Catalyst - Intellectia AI",
+      "url": "https://intellectia.ai/blog/nvda-earnings-august-26-2026-preview",
+      "source": "Intellectia AI",
+      "publishedAt": "2026-08-16T04:07:28.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Nvidia Eyes $3 Billion Stake in SB Energy as OpenAI Pushes Massive Ohio Data Center: Report - TradingView",
+      "url": "https://www.tradingview.com/news/benzinga:d4721aa3a094b:0-nvidia-eyes-3-billion-stake-in-sb-energy-as-openai-pushes-massive-ohio-data-center-report/",
+      "source": "TradingView",
+      "publishedAt": "2026-08-16T03:47:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Nvidia Corp. (NASDAQ:NVDA) is reportedly in talks to invest up to $3 billion in SB Energy, a SoftBank Group Corp. subsidiary building a massive Ohio data center campus for OpenAI.Investment Tied to Broader Credit Support DealThe potential stake is part of larger talks involving Nvidia, OpenAI, and…"
+    },
+    {
+      "title": "OpenAI's 612-megawatt facility, ranked among the world's biggest AI data centres, abandons plan to cool s - timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/openais-612-megawatt-facility-ranked-among-the-worlds-biggest-ai-data-centres-abandons-plan-to-cool-it-with-recycled-water-as-/articleshow/133263763.cms",
+      "source": "timesofindia.indiatimes.com",
+      "publishedAt": "2026-08-16T02:39:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "OpenAI has abandoned plans to cool its planned S7 data center in Sydney, Australia, with recycled water. OpenAI nixed the plans in favor of a closed-loop liquid cooling system."
+    },
+    {
       "title": "Nvidia in Talks to Inject $3 Billion Into SoftBank's SB Energy for OpenAI Data Center - finance.biggo.com",
       "url": "https://finance.biggo.com/news/3bb5ca32-aae8-4c7b-a8ef-cecf48516e84",
       "source": "finance.biggo.com",
@@ -1137,9 +1175,9 @@
       "summary": "Demonstrators dressed as \"rogue AI agents\" ran through the lobby of OpenAI's City Center Plaza office Friday morning in a protest against the company's $500 billion Stargate data center expansion."
     },
     {
-      "title": "Nvidia eyes investing US$3bil in SB Energy under OpenAI data center deal - nst.com.my",
+      "title": "Nvidia eyes investing US$3bil in SB Energy under OpenAI data center deal - NST Online",
       "url": "https://www.nst.com.my/business/corporate/2026/08/1512020/nvidia-eyes-investing-us3bil-sb-energy-under-openai-data-center",
-      "source": "nst.com.my",
+      "source": "NST Online",
       "publishedAt": "2026-08-16T01:37:23.000Z",
       "kind": "news",
       "tier": 3,
@@ -1292,20 +1330,6 @@
       "summary": "Memory has emerged as the newest bottleneck in the AI semiconductor value chain."
     },
     {
-      "title": "Nvidia Found Another Way to Win From Its $20 Billion Groq Deal - Business Insider",
-      "url": "https://www.businessinsider.com/nvidia-partners-groq-ai-services-groqcloud-2026-8",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-14T09:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Nvidia strengthens its market position by making AI chip rival Groq a customer, integrating their systems."
-    },
-    {
       "title": "Z.ai Aims to Catch Anthropic, OpenAI in Coding With New AI Model - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-08-14/z-ai-aims-to-catch-anthropic-openai-in-coding-with-new-ai-model",
       "source": "Bloomberg.com",
@@ -1330,20 +1354,6 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "OpenAI loses revenue chief Denise Dresser, second major executive departure in days",
-      "url": "https://www.cnbc.com/2026/08/13/openai-denise-dresser-executive-exits.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-13T19:59:46.000Z",
-      "kind": "news",
-      "summary": "Denise Dresser's sudden departure could be a major blow to OpenAI as it pursues a blockbuster IPO.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
     }
   ],
   "general": [
@@ -1357,7 +1367,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "China Revises Timing of July Economic Data Release, Briefing",
@@ -1383,17 +1393,6 @@
       "score": 50
     },
     {
-      "title": "AI-led matchmaking apps getting all the investor love - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOazNXNUNOVmNwOVdBZUg5endaQjVPYlcwQjlXUzlkS01kQVVMSEtmdmtZdElnUDNSRXMyZjFhOWZ1RzFrNjU3MFNYMGFqblhQNkhMR3kxQkJXMGRWRnNDQ2pRbkdrQm1BcE5jb2V3MWVKOHBRUHhuTENSdlBIVEZYTmp2dkZ2bWxDRVRYNENMTVZIYTRCck5FNW55V2hYUmJkYlJLT1k1ZWN2aHJGNkk2cTdaTGRucjVqUFM3bm5nVjl5elFDM2FSSXpYZ1ZmZ2IxX0HSAdcBQVVfeXFMTlZob2FuSk1wWFVhYnZxUm80MzNwN3E2czBtdXFXU3JxaHN5dFVvVmk5OGY1Q2Y1LTY1eDc0aEVkZjNsSnJxZWhzWEpLbzZxRDgyTXp4cXRJRmR0M1NXMEtiLUVSeVdtc3pMNzRDbW9rWUVfY3E0bzRvbTRHOWlndUh4aXNZNzJzMXZ5Vk5tOUV3dTFXQkxXSlZncXFKNTFCV21sMWM0WTR2UzdmZ2x2SXQwV05JU1VCeXUxN0I5TnZJb3hURWNsdjZ3ZnQ2QjZnLXc5RXVhems?oc=5",
-      "source": "The Economic Times",
-      "publishedAt": "2026-08-16T00:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "AI Is Helping Patients Solve Medical Mysteries - WSJ",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY2VIVTZYdlF1N1E2b0tmNVVpUUpnMFJ1LU1kc2FIN19ld1F2ZElWdV80SE5GOFhpa20yWXZJNVFibVNxWFFkMmFvM211STVjdWZYalRHTDJRTWR0NDhiOXZKR0JabjU5Y3BnVUtZNlE5Rl9VZjB0Q1ktLTlad0ZkR1lOWi1qeVVoZFE?oc=5",
       "source": "WSJ",
@@ -1405,10 +1404,10 @@
       "score": 50
     },
     {
-      "title": "onsemi Boosts Utilization as AI Data Center Revenue Set to More Than Double - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0RLZUJhM25YcmZ0cjUzbmd2aVl1VzNWOGp6dFhRcThlTFVhclUxVE1qaEx2RlJwa2lnamJ1Q1VXeW1ZWjVQazNmODFCb1VVRDEzUVFQNFF6T2ktWEEzS2JnQ1hIZzNJUzI3Tk15T3ZMNGZ5TGt2eTVSSGlNbnVUX2ktN1MzU2otbmUtaW4xWVhab0NjWGhkZDlMUGpRZFVpZ01neHY2cWRYRHJ1MGNJT0hkbG51b1ZWS0ZCcVhXNFgxVDA1UFhlXw?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-08-16T04:17:46.000Z",
+      "title": "Artificial intelligence is changing medicine – but who will pay for the next mistake? - jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT0xMWmlqbWdFaHFaT0ZfQVdzcG1WWk0wNEdBVU1oYjRiRTRMcTFoVnR3TklIVlBEUnhhaF96alUzQVBKck9rdW8tazlaVW5ablJHaUJzZnJQN3ZQVG4waV8wb0habExFYUNDc2NVMjlkcTBKTHJjS0N4T1RreVpDT1dvTUpQZEJhbWZzTnJwZG12R2cyR3pfbQ?oc=5",
+      "source": "jpost.com",
+      "publishedAt": "2026-08-16T05:00:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1721,18 +1720,6 @@
       "score": 40
     },
     {
-      "title": "MarginEdge raises $80M; Francisco Partners to buy Moneris; Robinhood Ventures II",
-      "url": "https://www.axios.com/pro/fintech-deals/2026/08/15/fintech-deals-marginedge-francisco-moneris-robinhood",
-      "source": "Axios",
-      "publishedAt": "2026-08-15T12:09:28.000Z",
-      "kind": "news",
-      "summary": "This article provides a weekly roundup of significant fintech deals, including venture capital funding, private equity acquisitions, public offerings, liquidity events, other mergers and acquisitions, and fundraising activities. Key highlights include MarginEdge raising $80M, Francisco Partners' agreement to buy Moneris for C$2B, and Robinhood Ventures Fund II trading on the NYSE after a $200M IPO. The report also covers various personnel changes within the financial and vent [sentiment: Neutral]",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Inflation Is Cooling. But is 2% Out of Reach?",
       "url": "https://www.bloomberg.com/news/videos/2026-08-15/inflation-is-cooling-but-is-2-out-of-reach-video",
       "source": "Bloomberg",
@@ -1885,6 +1872,17 @@
       "score": 40
     },
     {
+      "title": "onsemi Boosts Utilization as AI Data Center Revenue Set to More Than Double - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0RLZUJhM25YcmZ0cjUzbmd2aVl1VzNWOGp6dFhRcThlTFVhclUxVE1qaEx2RlJwa2lnamJ1Q1VXeW1ZWjVQazNmODFCb1VVRDEzUVFQNFF6T2ktWEEzS2JnQ1hIZzNJUzI3Tk15T3ZMNGZ5TGt2eTVSSGlNbnVUX2ktN1MzU2otbmUtaW4xWVhab0NjWGhkZDlMUGpRZFVpZ01neHY2cWRYRHJ1MGNJT0hkbG51b1ZWS0ZCcVhXNFgxVDA1UFhlXw?oc=5",
+      "source": "MarketBeat",
+      "publishedAt": "2026-08-16T04:17:46.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
       "title": "Why Banks Could Be The Next AI Beneficiaries - BusinessToday Malaysia",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDNDOXFlRGtiYy1NWFc2UjduQ2ZnX19uNnY5T005RlV6ckpjWXFuZ21ubjVYc1c0Z3Exbmk2WGNZUU1pZVBVVmdxdk9GSmVjemFoOEJHSXdSRnJSS1VEMXU0WGRMU190RGdKcFN5TlZTWUdEUXB6RnJVWFNJbG9aZDBYUG0zQXVaNnNBVnZqczMxSDA?oc=5",
       "source": "BusinessToday Malaysia",
@@ -1896,9 +1894,9 @@
       "score": 30
     },
     {
-      "title": "AI data center boom fuels $1 billion in generator sales, prompts production ramp-up - finance.yahoo.com",
+      "title": "AI data center boom fuels $1 billion in generator sales, prompts production ramp-up - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORnBCOVA3MFVGM2tha29wVmZSNE13d3gyTm0xeEMwUUpMZ0kyRzVOa2M2VmNDUGJmc0o3ZWlmTWl5NHQ5X2tVVmpkT2MwaVJFNDcxTS1QU1d4alRfUUJLWTBURUZFZ0M4V1A4bm80TUxRdWVBeUJUN1VsSVJvdFZJZktzejdLS0o0ZGc?oc=5",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "publishedAt": "2026-08-16T03:24:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1922,6 +1920,17 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZG9WYjhBREN3RFhWNFdaYXp2eDJPT2pybFQ0M3JNYXQzNE9vdzBlT04tTmNPa1hMWTE1LWt1LWhiMVB5cWFMYnJrdE5NU0JRNnV0ODdzNHZBZ2Q4UUtObGQ5VFFiQTB6Z09reUU2bGE4b05CX19mRGNiRFRfRHg0Wk9fSzJBOXRaQ19iVFpfNmtKdW9La09mdkY0TVVSbF9jbkVBQWZhWXI4ZTlXTlVySVI5cWRZVTgzcG9DZ2xKUWVpd0FXZGJfRA?oc=5",
       "source": "South China Morning Post",
       "publishedAt": "2026-08-16T03:00:12.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 30
+    },
+    {
+      "title": "The AI Dilemma: Growing US Opposition to Data Center Construction - ColombiaOne.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaDZOVk16TVB0MXFKUmphVG9SdkgxWmdlX18zemxfZHp6ZlAxamI2dHo3eWxhVjJQXzJxdEdnX3lVVHNDSlBPM2NuRlA2VW4xUUZaMUxvb2V5djJSOUxpUjd5Y2hsQVo0OFZqX2pjUEg4WmRqRzBhcmpobHVZVU1Xa0IxdVg2RWxHVmNFY3gtMGxnQm1taXptbzN5Y2o?oc=5",
+      "source": "ColombiaOne.com",
+      "publishedAt": "2026-08-16T03:00:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

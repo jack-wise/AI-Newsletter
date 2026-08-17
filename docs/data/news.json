@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:02:33.153Z",
+  "generatedAt": "2026-08-17T13:31:37.366Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -35,7 +35,7 @@
       },
       "tier": 2,
       "related": [],
-      "score": 78,
+      "score": 68,
       "summary": "Fermi Receives Subpoena From Eastern District of New York Over Project Matador"
     },
     {
@@ -823,9 +823,9 @@
       "summary": "A quick valuation analysis shows that at current prices this stock at a minimum 30% undervalued."
     },
     {
-      "title": "Fermi Inc. (FRMI) deepens losses while securing $6.5B AI lease and $431M notes - Stock Titan",
+      "title": "Fermi Inc. (FRMI) deepens losses while securing $6.5B AI lease and $431M notes - stocktitan.net",
       "url": "https://www.stocktitan.net/sec-filings/FRMI/10-q-fermi-inc-quarterly-earnings-report-9c36a51fb1d7.html",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "publishedAt": "2026-08-14T20:43:47.000Z",
       "kind": "news",
       "tier": 2,
@@ -908,11 +908,40 @@
       "title": "OpenAI's Brockman brushes off concerns about leadership changes in CNBC exclusive",
       "url": "https://www.cnbc.com/2026/08/17/openai-brockman-leadership-changes.html",
       "source": "CNBC",
-      "publishedAt": "2026-08-17T13:00:36.000Z",
+      "publishedAt": "2026-08-17T13:22:55.000Z",
+      "kind": "news",
+      "summary": "Brockman told CNBC he doesn't think the wave of recent departures at OpenAI are 'actually that atypical.'",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "OpenAI President Greg Brockman: Compute is becoming the new oil of the AI age - CNBC",
+      "url": "https://www.cnbc.com/video/2026/08/17/openai-president-greg-brockman-compute-is-becoming-the-new-oil-of-the-ai-age.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-17T13:12:05.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "Greg Brockman, OpenAI co-founder and president, joins 'Squawk Box' to discuss cybersecurity concerns around AI, OpenAI leadership changes, economics of AI, capex spending, state of AI tech race, and more."
+    },
+    {
+      "title": "Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal - Reuters",
+      "url": "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-17T13:03:28.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA",
         "OpenAI"
       ],
       "score": 75
@@ -932,51 +961,10 @@
       "score": 75
     },
     {
-      "title": "Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal - reuters.com",
-      "url": "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
-      "source": "reuters.com",
-      "publishedAt": "2026-08-17T12:46:51.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 75
-    },
-    {
-      "title": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute - The Manila Times",
-      "url": "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/nvidia-guarantees-sb-energys-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute/2406834",
-      "source": "The Manila Times",
-      "publishedAt": "2026-08-17T12:38:48.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Groq Valued at $3.5 Billion in Funding Round After Nvidia Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-17/groq-valued-at-3-5-billion-in-funding-round-after-nvidia-deal",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-17T12:30:00.000Z",
-      "kind": "news",
-      "summary": "Groq has raised $350 million in funding at a $3.5 billion valuation, roughly half what it was worth nearly a year ago before Nvidia Corp. struck a licensing deal with the startup and hired away much of its talent.The financing, set to be announced Monday, was led by Dallas-based investment firm Disruptive. Nvidia is also set to invest in the round, according to a representative for Groq. Nvidia did not respond to a request for comment. Founded in 2016, Groq was among the comp",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal By Reuters - Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-to-invest-15-billion-in-sb-energy-under-openai-data-center-deal-4863156",
-      "source": "Investing.com",
-      "publishedAt": "2026-08-17T12:53:40.000Z",
+      "title": "NVIDIA commits $1.5B in SB Energy as OpenAI targets 8 GW Ohio AI campus - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4633824-nvidia-commits-15b-in-sb-energy-as-openai-targets-8-gw-ohio-ai-campus",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-17T13:02:25.000Z",
       "kind": "news",
       "tier": 2,
       "tickers": [],
@@ -987,12 +975,26 @@
       "score": 65
     },
     {
-      "title": "Jim Cramer Slams Trump Team for Blocking Nvidia’s China Chip Sales: ‘So Ill-Advised’ as Beijing Pushes fo - Benzinga",
-      "url": "https://www.benzinga.com/markets/asia/26/08/61243237/jim-cramer-slams-trump-team-for-blocking-nvidias-china-chip-sales-so-ill-advised-as-beijing-pushes-for-ai-dominance",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-17T12:04:48.000Z",
+      "title": "Nvidia invests $1.5B in SB Energy for Ohio AI data center By Investing.com - Investing.com Canada",
+      "url": "https://ca.investing.com/news/stock-market-news/nvidia-invests-15b-in-sb-energy-for-ohio-ai-data-center-93CH-4803742",
+      "source": "Investing.com Canada",
+      "publishedAt": "2026-08-17T12:58:08.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Groq Valued at $3.5 Billion in Funding Round After Nvidia Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/groq-valued-at-3-5-billion-in-funding-round-after-nvidia-deal",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-17T12:30:00.000Z",
+      "kind": "news",
+      "summary": "Groq has raised $350 million in funding at a $3.5 billion valuation, roughly half what it was worth nearly a year ago before Nvidia Corp. struck a licensing deal with the startup and hired away much of its talent.The financing, set to be announced Monday, was led by Dallas-based investment firm Disruptive. Nvidia is also set to invest in the round, according to a representative for Groq. Nvidia did not respond to a request for comment. Founded in 2016, Groq was among the comp",
+      "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
@@ -1096,6 +1098,74 @@
       "score": 65
     },
     {
+      "title": "Nvidia to invest $1.5bn in SB Energy under OpenAI data center deal - Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-to-invest-1.5bn-in-sb-energy-under-openai-data-center-deal",
+      "source": "Nikkei Asia",
+      "publishedAt": "2026-08-17T13:25:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Move is latest by US chipmaker to finance ecosystem for its own products"
+    },
+    {
+      "title": "IBM Makes Surprise Move in Nvidia AI Race - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcG1keEFXUzBwdFhVTFMzdXJ1d2pGZV9qLVFtUm9yRFN0MnZQR2tJVWRURkQtRU1xdVZOV20tUGJWZ0hWNmNhekJ5bFJkRUY4bWJ5YlhiNnVyUGFEOENad0xKUzEwd3oyTGNvZU1hZUtiX2JhU2lGTWFsQlF2d0Z4R1RKclRDdzg?oc=5",
+      "source": "GuruFocus",
+      "publishedAt": "2026-08-17T13:18:45.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Nvidia Invests $1.5B in SB Energy for AI Data Center Push - TradingPedia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVVBqdWc1SmlwbXNTQ2RaaFI3R2VtNGJmZDJrWjRYQVd0Vmo1MEJWYzRJdTJwazJmOGhPaGZXbDNrN09QdVFxWnRLVnRtanJYdXdVMHF2OENTZWxrSXVmUEhRdm5LODlSLUd0Q20wd3BrcGU0NXhGWXlIMXhQTnNkV0h3VXk1SUVPcnczSFlSN0JKSXVLampMbGplUzdZdw?oc=5",
+      "source": "TradingPedia",
+      "publishedAt": "2026-08-17T13:17:50.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "NVIDIA, SB Energy Partner for 8 GW AI Data Center Campus in Ohio - TheEnergyMag",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNS3MzN0hrb0FSYjQtTzJtUDBCWmg1bWNmbGxVWVFlVWxzVVZpZkpwSzd4X0RoOEk4RUhyVXdMLXRrdlNzN2xkV1h3Vnd2bzZiR2JCR0FFczFTeXJiemZKZEUyTDV2SFdTMkxtd1ppVXpQQzRhekVZZGVwT0s5bzZJZ21DOElPWnFoM2tPSERGdVd2TFN0WGpJaGpQTWVpelVXMUpXN1N4WHFMM0Z5Snc?oc=5",
+      "source": "TheEnergyMag",
+      "publishedAt": "2026-08-17T13:13:26.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "NVIDIA Backs OpenAI’s Gigantic 8GW Ohio AI Mega-Campus In Restructured Deal - HotHardware",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWE96M3ZnNXZWN3JYTndTZm9HcVVadEJuYlo2dGN1SkdxR2xTb2o1dkZHVjZrM2NWX1dWOG9kbzhuWXRvZjhjVnhyNmxYeHJtd1RPNFlCVFNQaWFoRVEzRnNmZDlUbXRxLUt5OGN5QnIxVHg3OHRIUFVabVpBT21SWXJJYnpFX1JsWFRIaXlva3ktdmU0?oc=5",
+      "source": "HotHardware",
+      "publishedAt": "2026-08-17T13:02:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
       "title": "Why Nvidia is putting $1.5 billion into an OpenAI-linked data center - Latest news from Azerbaijan",
       "url": "https://news.az/news/why-nvidia-is-putting-15-billion-into-an-openai-linked-data-center",
       "source": "Latest news from Azerbaijan",
@@ -1110,7 +1180,7 @@
       "score": 55
     },
     {
-      "title": "Nvidia Stock Rises as It Rows Back on $250 Billion OpenAI Pledge - Barron's",
+      "title": "Nvidia Rows Back on $250 Billion OpenAI Pledge and the Stock Rises - Barron's",
       "url": "https://www.barrons.com/articles/nvidia-stock-price-openai-4466ab53",
       "source": "Barron's",
       "publishedAt": "2026-08-17T12:46:00.000Z",
@@ -1150,10 +1220,24 @@
       "score": 55
     },
     {
-      "title": "IBM Makes Surprise Move in Nvidia AI Race - GuruFocus",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOVnUwLXBvMUJpUWlJWTZXNEg2NXEyUnppbXZKQTJjbEIyRXZpVzVlbGpLWVRjM3dDcFp1Rk5nb3ZGNzJkRFQ1Z01RMWhOc3BmdXZpR0Fqczh4TUtLYVdJZXo3cmpPT3p0aVU3NjJBUEw3QmhNaEdqMjhfeDViNXdqOXpnY2pSd21ZNzBma2VYMFVUNlNZbGkyWGgwcXM1Vl81U3JiWllMcWxleE9ZOWtmUEZPcUtkM1Q1QWZVX1dGdkxyT3RpTW1PRU9UV1hMNWhWZ3dOR2t6NVlsaTB4V19Kd2NpV05yaGVmNFBIckNDMGgtQTFENjJNZ1hpOXpaVzJzcHpQZXBqa1lCVER1TnZsQVZ5ZTM?oc=5",
-      "source": "GuruFocus",
-      "publishedAt": "2026-08-17T12:38:16.000Z",
+      "title": "Nvidia to Invest $1.5 Billion in SB Energy Under OpenAI Data Center Deal - U.S. News - Money",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd1hMaEVfMFlIR1BLenZoUXVkckZyWVNobkJfTEZYTGlDOGNTRG5TZ2RGWkpacGZPN1NHWFFzSGlYUGZSRzJkbC1fTXhqajR5MVdvME9mQjhnbEdSU2lfUTFtMlFGV2w1Y3Q3cjRxTGVpZTlqVGZrUkgtRnlKOHRoM0tsek12eW9PUS13RERMRWdULTFhcUxpLURaX1VtZkJFZlR3ZFVGdlJfdnE0bjVTZG9KNHBfa2ZlZzV5c2xDeDZOcDQ1cEowc1RYUQ?oc=5",
+      "source": "U.S. News - Money",
+      "publishedAt": "2026-08-17T12:43:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute - NVIDIA Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYXdyMXl0ZUs3UDVBSFo1a3BCcDg4UlZUazQxSEp1allrY1B3SEVxYnQ2RjFQVFY5T3Q1YUFYM19Jc1ZQNXVobGtZNVJBc1BPQXpFWFFsTlBvWEJqV3VRM1lCU0ZzSVlHcS14UGxUZldBaEVsdUJveHN0TXJOLURfWDBxRlJYaFdXMHREU3VSNlVrcFZncENub1czY2lGV1F6eGpGSWZiU2loYlJYVVRFZTdQSU80Q0lNZmdvX3FZQ0hTU1pjZF8weHhCRWEzeURkcDk3N1Z3?oc=5",
+      "source": "NVIDIA Newsroom",
+      "publishedAt": "2026-08-17T12:38:11.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1176,44 +1260,15 @@
       "score": 55
     },
     {
-      "title": "Nvidia Emerges as Wall Street’s New Power Broker for the AI Boom - citybiz",
-      "url": "https://www.citybiz.co/article/889587/nvidia-emerges-as-wall-streets-new-power-broker-for-the-ai-boom/",
-      "source": "citybiz",
-      "publishedAt": "2026-08-17T12:22:30.000Z",
+      "title": "Jim Cramer Slams Trump Team for Blocking Nvidia’s China Chip Sales: ‘So Ill-Advised’ as Beijing Pushes fo - Benzinga",
+      "url": "https://www.benzinga.com/markets/asia/26/08/61243237/jim-cramer-slams-trump-team-for-blocking-nvidias-china-chip-sales-so-ill-advised-as-beijing-pushes-for-ai-dominance",
+      "source": "Benzinga",
+      "publishedAt": "2026-08-17T12:04:48.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 55,
-      "summary": "Nvidia is expanding beyond its role as the dominant supplier of artificial intelligence chips, increasingly helping arrange the financing needed... Read More"
-    },
-    {
-      "title": "Nvidia Is Becoming AI's Bank: Here's Why It Could Reshape NVDA Stock - TradingView",
-      "url": "https://www.tradingview.com/news/gurufocus:10150a555094b:0-nvidia-is-becoming-ai-s-bank-here-s-why-it-could-reshape-nvda-stock/",
-      "source": "TradingView",
-      "publishedAt": "2026-08-17T12:09:25.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Nvidia NASDAQ:NVDA is moving beyond its traditional role as a chip supplier by helping customers finance the enormous cost of building AI infrastructure. The shift is important because AI data centers require billions of dollars before they can generate revenue, creating a financing bottleneck that…"
-    },
-    {
-      "title": "$250bn OpenAI Data Center in Ohio Guarantee Scaled back by Financier Nvidia - Construction Review",
-      "url": "https://constructionreviewonline.com/250bn-openai-data-center-in-ohio-guarantee-scaled-back-by-financier-nvidia/",
-      "source": "Construction Review",
-      "publishedAt": "2026-08-17T12:07:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
       ],
       "score": 55
     },
@@ -1221,7 +1276,7 @@
       "title": "How OpenAI's and Anthropic's AI Models Went Rogue - WSJ",
       "url": "https://www.wsj.com/video/how-openai-and-anthropics-ai-models-went-rogue/32BA18D7-EF32-4580-A46A-78003C0FE77C",
       "source": "WSJ",
-      "publishedAt": "2026-08-17T04:17:40.000Z",
+      "publishedAt": "2026-08-17T05:01:28.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1257,65 +1312,32 @@
       ],
       "score": 55,
       "summary": "IBM and OpenAI Partner to Accelerate Secure Enterprise AI Deployment"
-    },
-    {
-      "title": "Chinese AI company Zhipu claims its new model is a better bug-finder than Anthropic, OpenAI - The Register",
-      "url": "https://www.theregister.com/security/2026/08/17/chinese-ai-company-zhipu-claims-its-new-model-is-a-better-bug-finder-than-anthropic-openai/5288203",
-      "source": "The Register",
-      "publishedAt": "2026-08-17T00:51:21.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "PLUS: HCL, TCS, admit data breaches; South Korea to fine Apple, Google; India bans some rideshare tips; and more!"
-    },
-    {
-      "title": "Nvidia cuts OpenAI data center guarantee - The American Bazaar",
-      "url": "https://americanbazaaronline.com/2026/08/16/nvidia-cuts-openai-data-center-guarantee-486481/",
-      "source": "The American Bazaar",
-      "publishedAt": "2026-08-16T23:23:01.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Nvidia has reportedly reduced its planned guarantee for an OpenAI data center in Ohio to less than $120 billion."
-    },
-    {
-      "title": "OpenAI reportedly disbanded its preparedness team - The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "source": "The Verge",
-      "publishedAt": "2026-08-16T21:32:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "It’s just the latest shakeup of its safety teams as it heads towards an IPO."
-    },
-    {
-      "title": "The Bank of Nvidia, Dario Amodei’s Wife and More | Technology for Aug. 16 - WSJ",
-      "url": "https://www.wsj.com/tech/ai/the-bank-of-nvidia-407f5a7a",
-      "source": "WSJ",
-      "publishedAt": "2026-08-16T14:48:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
     }
   ],
   "general": [
+    {
+      "title": "Meta faces ‘astronomical’ consequences as legal fight reaches critical moment in California",
+      "url": "https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-17T13:23:20.000Z",
+      "kind": "news",
+      "summary": "Less than two weeks after a loss in New Mexico, Meta faces a much bigger legal test in a case being co-led by California's attorney general.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "‘Humiliated’: Sainsbury’s store pauses AI scanning after false shoplifting accusation - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX2xScWNDcmQ4S08xWEtURHRWWk8zSDJoVU1pU1BIRW1FT0tqOHlWcDZ3dy0wVXJscFQxVWFHOF82ajJIcFRJcGZwWDRXaHFSWmNWOUZzMTNVUTM4Zi1rUzJOZnYyNDNNT24wWHpDamRRNkFwdW5wOF91Rlo1eUJZWEo4WkJrQUZ1RmJwMkZoNzlWUnRwSU5TSFpsUlBWS1E2bThyRDVsR0dVR0I1WnZVSGJlQXBCc3ZhR2U1WDExYUFIeWVjUzVjLWwyVEk?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-08-17T13:23:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "The Labor Economy Is Sliding Backwards",
       "url": "https://www.bloomberg.com/news/videos/2026-08-17/opinion-the-labor-economy-is-sliding-backwards-video",
@@ -1323,6 +1345,18 @@
       "publishedAt": "2026-08-17T12:56:56.000Z",
       "kind": "news",
       "summary": "Workers make too little money and have too little power. They deserve more protections, says Bloomberg Opinion columnist and economist Kathryn Anne Edwards. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Deutsche Telekom to Buy Macquarie’s Poland Fiber, TV Assets in €1 Billion Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-17/deutsche-telekom-will-buy-macquarie-s-poland-fiber-tv-assets-in-1-billion-deal",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-17T12:56:20.000Z",
+      "kind": "news",
+      "summary": "Deutsche Telekom AG agreed to buy a fiber company and a television provider in Poland from Macquarie Asset Management for an enterprise value around €1 billion ($1.2 billion), part of the German company’s strategy to expand its broadband offering.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1423,16 +1457,49 @@
       "score": 60
     },
     {
+      "title": "AI infrastructure stocks edge higher after Anthropic's Q2 revenue surge - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORkRVUVZ6a3JVU0J5NHRWZjVfWHFRS2ZINXYyajFNbDB3TWdnLXdoWTlTcFB4ZFhIOFA3UXA4WDd1R0lvY0ZoX1ZxWHJ3cWdKN3gtMXduUTJoNldfcjhuQ1NRSTNXT2RXdkZORVNicXV5a29Qb1dMbFo3cVZreDVMYXpXeHlKTm5uWHdlZ0IyQXR5TFdCdmNnQS1CVkRtTjlTS0hYMm9OTjV6SUNz?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-17T13:05:37.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Tens of thousands of jobs are planned at an Ohio AI campus—when? - stocktitan.net",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0NYMlVvZmxxbVJYQUhMbGplUjFQZ3VkSGVmdHNuc1dxc084ai14Y3FEME5QQzNhZ0o4ZUxjazRZS1MwZXlBYzROMGVLa2lWbV9NZ1ZVTnA0bG8ya0VncmRHVEd5Yjd3YmQ3Wk9Dd1dURlhpeEx3SXlWYXlQY1lzeHBUMVo2Uk5TZVBDNmV5cWJVN09NQ1F3T3BJV3dDZlRkTXF0ZklBbGdDRlFfdy1xNXhmRUJNZHN3akNYQmVB?oc=5",
+      "source": "stocktitan.net",
+      "publishedAt": "2026-08-17T12:33:00.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Trinity Biotech (TRIB) makes AI data-center cooling push - stocktitan.net",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTkdmY1pqWGJrSDdaaWhhNnkyeV9kLXdxZEQ0UjVjYjg1QmtxaVU2QnBMSC1GY04yWjIyVEZnb1ljd3BXRl9HTFFoc3NaNnI2NGp1NENRYVo0SHB5U0R1NE5xbWEzQ3pyTVo5Vkh2MHJ6ZmdTMHJERmVDN1BtdWFMbHdYbGVHN181R2VpM3pSS0IwZTA5ZzhIeGVtd1ZhTnpFWmQ5bmg0Unp2cFpyc3RWeFVxVmFnZw?oc=5",
+      "source": "stocktitan.net",
+      "publishedAt": "2026-08-17T12:32:48.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Gas Price Rebound Pushes Canada Inflation to 3%",
       "url": "https://www.bloomberg.com/news/articles/2026-08-17/canada-inflation-ticks-up-to-3-amid-higher-gas-prices",
       "source": "Bloomberg",
       "publishedAt": "2026-08-17T12:30:02.000Z",
       "kind": "news",
-      "summary": "Canada yearly inflation accelerated to 3% as the Middle East conflict continued to push up gasoline prices, while core measures of price growth remained subdued.",
+      "summary": "Canada yearly inflation accelerated to 3% as the Middle East conflict pushed up gasoline prices, while core measures of price growth remained subdued.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Albertsons Says Its Shoppers Are Buying More—Thanks to AI - WSJ",
@@ -1443,7 +1510,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Brazil Economic Activity Suffers Biggest Drop in Over a Year",
@@ -1455,7 +1522,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Nigerian Inflation Edges Lower in July, Boosting Rate-Cut Case",
@@ -1467,7 +1534,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "I drove Tesla FSD, Rivian Autonomy+ ‘hands-free’ driving systems. Here’s how they compare",
@@ -1479,7 +1546,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Introducing Nearmap Labs: A Window into the Future of Property Intelligence - PR Newswire",
@@ -1487,62 +1554,6 @@
       "source": "PR Newswire",
       "publishedAt": "2026-08-17T12:03:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Tens of thousands of jobs are planned at an Ohio AI campus—when? - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNU0NYMlVvZmxxbVJYQUhMbGplUjFQZ3VkSGVmdHNuc1dxc084ai14Y3FEME5QQzNhZ0o4ZUxjazRZS1MwZXlBYzROMGVLa2lWbV9NZ1ZVTnA0bG8ya0VncmRHVEd5Yjd3YmQ3Wk9Dd1dURlhpeEx3SXlWYXlQY1lzeHBUMVo2Uk5TZVBDNmV5cWJVN09NQ1F3T3BJV3dDZlRkTXF0ZklBbGdDRlFfdy1xNXhmRUJNZHN3akNYQmVB?oc=5",
-      "source": "Stock Titan",
-      "publishedAt": "2026-08-17T12:33:00.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Trinity Biotech (TRIB) makes AI data-center cooling push - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTkdmY1pqWGJrSDdaaWhhNnkyeV9kLXdxZEQ0UjVjYjg1QmtxaVU2QnBMSC1GY04yWjIyVEZnb1ljd3BXRl9HTFFoc3NaNnI2NGp1NENRYVo0SHB5U0R1NE5xbWEzQ3pyTVo5Vkh2MHJ6ZmdTMHJERmVDN1BtdWFMbHdYbGVHN181R2VpM3pSS0IwZTA5ZzhIeGVtd1ZhTnpFWmQ5bmg0Unp2cFpyc3RWeFVxVmFnZw?oc=5",
-      "source": "Stock Titan",
-      "publishedAt": "2026-08-17T12:32:48.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Echelon’s More Than 700 MW in Development Gets a Cooling Collaborator - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONTcxMEpLZV9ZUVJGNFlsaElvQnJtT3RMSmE4UWNxR2JFYXoxOERSeHpmVGN1VTdsTXpqckRPQmJmeFotelBnamR0N29HcWNLdVV2N0YtalJ3bjBmb2NZZDNha09GVUVuSDdnMGMwRmotZmtzRWZVOHRQRlBtSU45bF9HQnVNU0d4NFFNdDdhekd3M3hfZllOZ1kwYW05R3FUOFFWYTBUaU9WX2t3MS1xdnhmbWZqa2ZrcE5Kbg?oc=5",
-      "source": "Stock Titan",
-      "publishedAt": "2026-08-17T12:30:00.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Trane Technologies, Eaton unveil power and cooling design for AI data centers (TT:NYSE) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR2VrUXpXa05mZXdjMU82Q1JWOUJHeEdzSzhKMjhPTFVFLWtEX29Da01vbHl6TjNCNHhBT1d2Ml92Vkw4NXVrZGxkUGEwWGxHdGk2SzNTMDVXOTZ6aGRvblQzV0FfNGZ6WS1oYWw1Z3pWUUN0Ni1hRkFiSjgzUzZjSTJGSDRvSmY4Y0hHLVlTS2ZFSHZRSHFGa1FhT2lzajFmUFpiWlBLZFl6WDNuWDNabFAxelE?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-17T12:11:57.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta faces ‘astronomical’ consequences as legal fight reaches critical moment in California",
-      "url": "https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-17T12:00:01.000Z",
-      "kind": "news",
-      "summary": "Less than two weeks after a loss in New Mexico, Meta faces a much bigger legal test in a case being co-led by California's attorney general.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1602,17 +1613,6 @@
       "publishedAt": "2026-08-17T11:55:51.000Z",
       "kind": "news",
       "summary": "Alibaba Group Holding Ltd. launched the beta version of an artificial intelligence music-generation model that can turn a single text prompt into a fully produced song, expanding the Chinese technology giant’s push into generative AI.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Higgsfield's valuation soars fourfold to $5.4 billion in six months on AI content demand - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU2JUdkZ2ZjZ4enNhT1VXa1pXU1NtbjhPbncyUDNZZTZWOC1zb3E4akhtN1pkenY3LVZpYzdCY2xna2NIMFRkRG8yQklDTW5KejV2TjZJT1dsaXk3NlFDcE1YWks3aVRPbklKVWJxWTAxUmNKOWx1b2t3WWxmMXA5VEIzdTNlMWdVVTZKMFNkWTZDQWVVNFNXdGFlc0l1QTFoQkRBNGlvT3l5dC0xSTh6QWYwSV96TWRLUm9hdGtUclpfejZfQWdpUzRFczBpbjVK?oc=5",
-      "source": "reuters.com",
-      "publishedAt": "2026-08-17T11:49:43.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1726,7 +1726,7 @@
       "score": 50
     },
     {
-      "title": "AI and trade wars",
+      "title": "Here’s How ChatGPT Would Fight Today’s Trade Wars",
       "url": "https://www.bloomberg.com/news/newsletters/2026-08-17/ai-and-trade-wars",
       "source": "Bloomberg",
       "publishedAt": "2026-08-17T11:00:01.000Z",
@@ -1818,9 +1818,9 @@
       "score": 50
     },
     {
-      "title": "Trump crypto firm backs venture offering AI from restricted Chinese companies - reuters.com",
+      "title": "Trump crypto firm backs venture offering AI from restricted Chinese companies - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHhDcEM5cGN4V2duaGh3RmNtbVZndFdfWHBjSkF5ekRiN1JBVnRULTBUeTVld0I3czliYWZsckdXbVJfLTdJcldxY0V1VnV6NU1sME1uM3BWLUttZzR4RDVPSkJsTXlRQkRSTkFJc2pLelNEYXNBWHpUX1BGdzFBTGtmaFFwdE1DclphZDZncHMyTk5oNmFZSWhQRmVrUHdkaFpCb3ZBWWY4eExmcGZEMkJZekFPTEI3VG4zUQ?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "publishedAt": "2026-08-17T10:25:18.000Z",
       "kind": "news",
       "tier": 1,
@@ -1851,9 +1851,9 @@
       "score": 50
     },
     {
-      "title": "At Beijing AI-themed bar, DeepSeek tokens come with the pints - reuters.com",
+      "title": "At Beijing AI-themed bar, DeepSeek tokens come with the pints - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQnRfS09TOFIza3VWYzJ2bHJwa25BOThFODJFdTlFWF9LWWtYNGp3S0VaTkltQ214ckZrMFBZTXFFLVhST1k2UFZqLTNiUGR2WEo0Y2ZLaU9Id1F0TXFLbWdBd0ZSRDU0QUhnVzR4RTVmWXU3Sy02dkxzaUpPLXhOOWN4V2E3VThNd1pwQ3J3cThNX3NYY1hQU1k0dXlZeGR0eTlYME9pRjV2ZlJj?oc=5",
-      "source": "reuters.com",
+      "source": "Reuters",
       "publishedAt": "2026-08-17T10:09:43.000Z",
       "kind": "news",
       "tier": 1,

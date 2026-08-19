@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T21:02:14.145Z",
+  "generatedAt": "2026-08-19T21:32:03.694Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,21 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "SEC filing: 4 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-18T21:20:25.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75,
-      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
-      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
-    },
     {
       "title": "$FRMI",
       "url": "https://stocktwits.com/StockAuthority/message/662312984",
@@ -74,6 +59,21 @@
       "related": [],
       "score": 70,
       "summary": "$FRMI gap to fill 6.11 Also catalyst ahead for them to announce the Tier 1 Guarantor 🚀"
+    },
+    {
+      "title": "SEC filing: 4 — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-18T21:20:25.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 65,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
     },
     {
       "title": "Fermi FTZ approved",
@@ -184,21 +184,6 @@
       "related": [],
       "score": 58,
       "summary": "Governor Shapiro Signs Executive Order Demanding Data Center Developers Comply with Strict Requirements and Blocking Speculative, Irresponsible Data Center Projects"
-    },
-    {
-      "title": "Fermi Inc. (NASDAQ: FRMI) reports insider share activity - Stock Titan",
-      "url": "https://www.stocktitan.net/sec-filings/FRMI/form-4-fermi-inc-insider-trading-activity-d83d594b39a5.html",
-      "source": "Stock Titan",
-      "publishedAt": "2026-08-18T21:21:12.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "summary": "SEC Form 4 shows an insider transaction at Fermi Inc., but this summary includes no details on the size, price, or type of share activity reported.",
-      "excerpt": "Overview Financials News SEC Filings Fermi Inc. (NASDAQ: FRMI) reports insider share activity Filing Impact (Neutral) Filing Sentiment (Neutral) Form Type 4 Rhea-AI Filing Summary English Italian Spanish German Korean French Arabic Fermi Inc. (symbol: FRMI) is the issuer of record for a Form 4 filing submitted to the SEC."
     },
     {
       "title": "Activist Governance Risk Threatens Fermi Inc.’s Strategy, Valuation, and Financing Stability - The Globe and Mail",
@@ -852,6 +837,21 @@
       "score": 45
     },
     {
+      "title": "Fermi Inc. (NASDAQ: FRMI) reports insider share activity - Stock Titan",
+      "url": "https://www.stocktitan.net/sec-filings/FRMI/form-4-fermi-inc-insider-trading-activity-d83d594b39a5.html",
+      "source": "Stock Titan",
+      "publishedAt": "2026-08-18T21:21:12.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45,
+      "summary": "SEC Form 4 shows an insider transaction at Fermi Inc., but this summary includes no details on the size, price, or type of share activity reported.",
+      "excerpt": "Overview Financials News SEC Filings Fermi Inc. (NASDAQ: FRMI) reports insider share activity Filing Impact (Neutral) Filing Sentiment (Neutral) Form Type 4 Rhea-AI Filing Summary English Italian Spanish German Korean French Arabic Fermi Inc. (symbol: FRMI) is the issuer of record for a Form 4 filing submitted to the SEC."
+    },
+    {
       "title": "Fermi sinks after receiving subpoena tied to Project Matador (FRMI:NASDAQ) - Seeking Alpha",
       "url": "https://seekingalpha.com/news/4633902-fermi-sinks-after-receiving-subpoena-tied-to-project-matador",
       "source": "Seeking Alpha",
@@ -895,6 +895,19 @@
   ],
   "related": [
     {
+      "title": "Spirit Flight Attendants Fight Google’s Data Bid for AI - WSJ",
+      "url": "https://www.wsj.com/pro/bankruptcy/spirit-flight-attendants-fight-googles-data-bid-for-ai-e939e049",
+      "source": "WSJ",
+      "publishedAt": "2026-08-19T21:29:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 75
+    },
+    {
       "title": "Legal Tech AI Firms Shift Away From Anthropic, OpenAI Reliance - Bloomberg Law News",
       "url": "https://news.bloomberglaw.com/legal-ops-and-tech/legal-tech-ai-firms-shift-away-from-anthropic-openai-reliance",
       "source": "Bloomberg Law News",
@@ -920,7 +933,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia Tries to Spur the AI Boom Into the Future - Bloomberg",
@@ -933,7 +946,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Marvell's stock pops 10% on AI chip deal that lets Google buy up to $12.2 billion in shares",
@@ -962,6 +975,19 @@
       ],
       "score": 65,
       "summary": "OpenAI pauses frontier RL training for two weeks, keeps its largest planned run on hold, and adds stricter monitoring and isolation."
+    },
+    {
+      "title": "Indian startup Murf AI aims to compete with OpenAI in crowded voice arena - Business Standard",
+      "url": "https://www.business-standard.com/technology/artificial-intelligence/indian-startup-murf-ai-aims-to-compete-with-openai-in-crowded-voice-arena-126081901405_1.html",
+      "source": "Business Standard",
+      "publishedAt": "2026-08-19T18:02:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
     },
     {
       "title": "Marvell, Google Deepen Ties in AI Chip Race | Bloomberg Tech 8/19/2026",
@@ -1074,7 +1100,7 @@
       "score": 65
     },
     {
-      "title": "Google’s New Phone Comes With Plenty of A.I. Does Anyone Want That? - The New York Times",
+      "title": "Google’s Pixel 11 Comes With Plenty of A.I. Does Anyone Want That? - The New York Times",
       "url": "https://www.nytimes.com/2026/08/19/technology/personaltech/google-pixel-11-review.html",
       "source": "The New York Times",
       "publishedAt": "2026-08-19T16:00:11.000Z",
@@ -1102,31 +1128,17 @@
       "summary": "Stratification at the frontier model level will have consequences for partner companies, customers and suppliers, analysts say."
     },
     {
-      "title": "OpenAI pausing some model work over safety concerns - The Hill",
-      "url": "https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/",
-      "source": "The Hill",
-      "publishedAt": "2026-08-19T15:22:00.000Z",
+      "title": "NVIDIA (NVDA): What Foxconn and Super Micro Are Telling Us about the AI Boom - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-foxconn-super-micro-210152728.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-19T21:01:52.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
-      "score": 65
-    },
-    {
-      "title": "Marvell pops 8% on AI chip deal that lets Google buy up to $12.2 billion in shares - CNBC",
-      "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-19T15:08:05.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 65,
-      "summary": "Google and its competitors have been pursuing custom chips to improve efficiency and reduce reliance on Nvidia."
+      "score": 55
     },
     {
       "title": "Nvidia Reportedly Explores Stake in AI Data Provider Mercor At $20B Valuation - TradingView",
@@ -1157,34 +1169,6 @@
       "summary": "CNN’s Max Foster and Hadas Gold discuss OpenAI rolling out new safeguards."
     },
     {
-      "title": "U.S. Markets Prepare For AI Compute Derivatives Tied To TSMC, Nvidia GPU Prices - Investor's Business Daily",
-      "url": "https://www.investors.com/news/ai-compute-derivatives-nvidia-meta-tsmc-broadcom-microsoft-amazon-google/",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-19T20:24:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Regulators took initial steps to allow investors to trade AI compute futures based on the prices of GPUs sold by the likes of Nvidia, TSMC and Broadcom."
-    },
-    {
-      "title": "Former Nvidia lab leader Sanja Fidler launches Veeda AI to tackle world models - BetaKit",
-      "url": "https://betakit.com/former-nvidia-lab-leader-sanja-fidler-launches-veeda-ai-to-tackle-world-models/",
-      "source": "BetaKit",
-      "publishedAt": "2026-08-19T20:15:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "The new startup backed by Radical and Khosla will focus on how robots interact with the physical world."
-    },
-    {
       "title": "Researchers say OpenAI revoked their access to limited cyber program - TechCrunch",
       "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
       "source": "TechCrunch",
@@ -1211,6 +1195,19 @@
       ],
       "score": 55,
       "summary": "Nvidia may join Mercor’s funding round at a $20B valuation."
+    },
+    {
+      "title": "OpenAI pausing some model work over safety concerns - The Hill",
+      "url": "https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/",
+      "source": "The Hill",
+      "publishedAt": "2026-08-19T15:22:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "The CEO of This Nvidia-Backed Artificial Intelligence (AI) Chip Company Just Bought $10 Million of His Own Stock. Here's What He's Seeing That Retail Investors Won't Want to Miss. - The Motley Fool",
@@ -1299,7 +1296,7 @@
       "title": "OpenAI blinks first in AI safety standoff - Axios",
       "url": "https://www.axios.com/2026/08/19/openai-astra-safety-altman-anthropic",
       "source": "Axios",
-      "publishedAt": "2026-08-19T09:16:07.000Z",
+      "publishedAt": "2026-08-19T09:16:51.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1311,6 +1308,53 @@
     }
   ],
   "general": [
+    {
+      "title": "Gravis Robotics CEO on Softbank Backing, Construction",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/gravis-robotics-ceo-on-softbank-backing-construction-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T21:22:42.000Z",
+      "kind": "news",
+      "summary": "SoftBank has made a $200 million investment in Gravis Robotics, a construction technology startup specializing in retrofitting existing excavators and heavy machinery with autonomous and semi-autonomous capabilities. Ryan Luke Johns, CEO and Co-Founder of Gravis Robotics, explained that the funding reflects SoftBank's strong confidence in the physical AI space, particularly in automating earth-moving equipment critical to infrastructure projects such as roads, quarries, and m",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "I’m a Harvard Professor. Grade Inflation Is Real",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/opinion-a-harvard-professor-on-grade-inflation-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T21:22:27.000Z",
+      "kind": "news",
+      "summary": "Have grades lost their meaning? Harvard professor and Bloomberg Opinion columnist Noah Feldman weighs in on Harvard and University of Michigan’s recent grade policies. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "The data center fight is hitting a fever pitch. Here's how they actually work - Axios",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeUQtZVU0dE1JYkM3VlA1QnptY0Q1OGhwMWhoRVBUZ0pMWjFYRkh6MWJERXkzejdXWmZudkx3R1h0VXpZbkJPU3lldkx4cDZRNTM3ZVRnWmttd3p6cy1HRW5EYWh0bnhteGd0dlotR3NoZC0tYWl1dlpHR0JhTjlGanhfOEs?oc=5",
+      "source": "Axios",
+      "publishedAt": "2026-08-19T21:02:39.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US vs China AI Race: How ChatGPT, Gemini, Deepseek, Kimi Agents Compare",
+      "url": "https://www.bloomberg.com/graphics/2026-us-china-ai-race/",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T21:00:01.000Z",
+      "kind": "news",
+      "summary": "A spate of new releases show Chinese competitors are closing the gap on Silicon Valley, and winning market share with lower prices.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Ramp Co-CEO on $44B Valuation, $1B Saved, AI Spending",
       "url": "https://www.bloomberg.com/news/videos/2026-08-19/ramp-co-ceo-on-44b-valuation-1b-saved-ai-spending-video",
@@ -1333,7 +1377,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Moderna Surges as Stocks Rise & Long-Term Yields Retreat | Closing Bell",
@@ -1345,7 +1389,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Thoma Bravo Keeps Up Intense Pace of Dealmaking, Rohde Says",
@@ -1357,7 +1401,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Opens Door to Hyperliquid as US Pulls Crypto Trade Onshore",
@@ -1369,7 +1413,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Europe AI data centres seek cheaper, quicker energy and land - Reuters",
@@ -1380,7 +1424,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Says Interest Rate System Doesn't Make Sense",
@@ -1392,7 +1436,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Investment Committee: Spotlight On SPACs",
@@ -1404,7 +1448,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Stripe to buy OpenRouter as fintech expands deeper into AI",
@@ -1416,7 +1460,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "SpaceX Attempted to Buy AI Coding Startup Cognition",
@@ -1428,7 +1472,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Estée Lauder CEO Says Company Has 'Great Momentum'",
@@ -1440,7 +1484,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Public Debt Hits $40 Trillion, Raising ‘Doom Loop’ Risk",
@@ -1452,18 +1496,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "Rockland police department uses an AI startup to write reports - The Maine Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ob1JLVnR6bVdVRzZmY29vYWlOX3V5N3Q2N1otSUJzQkZWaExFbWZBZFNEUEhleWVxbjhBQVhsSGpWRGJGWHkybk0zR1p0bmFOaC1zMERzejE5bUJKV3FvRTFiNDFOQQ?oc=5",
-      "source": "The Maine Monitor",
-      "publishedAt": "2026-08-19T20:05:27.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Why High Yields on Government Bonds Are Causing Alarm",
@@ -1472,17 +1505,6 @@
       "publishedAt": "2026-08-19T20:02:44.000Z",
       "kind": "news",
       "summary": "Government borrowing costs have been surging around the world as investors demand more compensation to entice them to hold longer-maturity debt. Average bond yields across the Group of Seven countries hit their highest level since 2008 in mid-August.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "China Wants Its Tech Champions to Raise Money at Home - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rMjYwRGNLa09aWFNHdDhLcklGMXgwU0hMUnBnNU0zenJqeTcxbTd2VXRhRUQzNUtIS05Ob3hLLVhoeUkwTFFMb3ZjYmgwNmMxTEF0WmJNYVNnekhQZ2tteTFPZFMyMmltaEZHT0h4eWNYYTl2N1RF?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-19T20:02:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1666,6 +1688,17 @@
       "score": 50
     },
     {
+      "title": "Ramp Launches Router.com to Cut Companies' Rising AI Bills - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcDFVTHp2R1RjTTZOdDh0aGp4dmQ0QlJYR0tWRkV6QjdOUzcwYnZHVEM1cDlOaUE3RjJPTVNiU09wbW9HY0FPcEYyVS05a19PbzJpcDd5ZWJYTUcwa2lDa2tMOTAyVnAxUnRDdGJ0Zk9UVmdDT0NHYXV5TEFyMkZoaHYwRWZHb0RnRzRsV09WbE5SemhPakc5aVlkZTdvcV9fSkhvNUlNUTVnU1RHQ0tXODNR?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-08-19T19:05:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Anthropic’s AI watermark has already spawned tools to remove it - The Next Web",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XN1FQQnJURFp4elNPLWk0OERWSDg3NlFoeV81N2Z2ZTNpVGJvUjc2M3BVQUlocjNTbXgwSzA0cjRSWmVtaXlnWHNrMUNXbjM0MlFWaTlNNWZpeERvMHRLczlXRW9ua2lvRWRXNHRZR3pxSTM0c1lpWUtB?oc=5",
       "source": "The Next Web",
@@ -1704,6 +1737,17 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVDF3Rm42WkxFY3hlOHFIQ1RsNzVHVGY5OXpMNkFuQ2YwemplNWV5dldMQnpRNklIWnlLSFVwZDU3WmFMaDBzOWpHZ2xHV2ktbWVVcS1NZU5pV0FHeHA0d3F0eG1waHlXSy1md1E3a09LLVprMm1VWmhvU3pvWmtkZTVvOWtpYlVDNndpQ19XQVp1RUVyUmRlSQ?oc=5",
       "source": "The Motley Fool",
       "publishedAt": "2026-08-19T18:20:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Stripe Agrees to Buy AI Firm OpenRouter; No Terms Disclosed - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb2lpcHU2c3ZTV1FBZTNGWWpjY2RKbTFoNGN6SHpDV0YzNlFFSEV3elhwOUc0SGI5cWFfenpqWEFQMFlLM00tNGJlQUlva3FRSm8tMWI4RlR5RHZqY056TFRGN2ZSR3JLbzQ1VC1ncl9CNFNhOXlodjFsQ2c4UzU0S0VscmEwY2RRTHRYWUg0MTNUcmxOdzU3S2N3ZkttSzdSZEZjWWZOSHFKWmNiUlE?oc=5",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T18:10:33.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1793,17 +1837,6 @@
       "score": 50
     },
     {
-      "title": "Stripe Agrees to Buy AI Firm OpenRouter; No Terms Disclosed - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb2lpcHU2c3ZTV1FBZTNGWWpjY2RKbTFoNGN6SHpDV0YzNlFFSEV3elhwOUc0SGI5cWFfenpqWEFQMFlLM00tNGJlQUlva3FRSm8tMWI4RlR5RHZqY056TFRGN2ZSR3JLbzQ1VC1ncl9CNFNhOXlodjFsQ2c4UzU0S0VscmEwY2RRTHRYWUg0MTNUcmxOdzU3S2N3ZkttSzdSZEZjWWZOSHFKWmNiUlE?oc=5",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T17:09:26.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Bessent Shocks Markets With Bigger Buybacks | Open Interest 8/19/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-08-19/open-interest-8-19-2026-video",
       "source": "Bloomberg",
@@ -1822,30 +1855,6 @@
       "publishedAt": "2026-08-19T16:54:32.000Z",
       "kind": "news",
       "summary": "Matt McClure, Goldman Sachs global co-head of investment banking, says the IPO market is \"open for business,\" with AI-related companies accounting for more than half of capital raised despite representing about 20% of IPOs this year. Speaking with Dani Burger on \"Bloomberg Deals,\" McClure says confidence is growing in private equity, with $1.5 trillion of capital waiting to be deployed. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Moderna and Merck Revive mRNA Hopes With Melanoma Success",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/moderna-merck-revive-mrna-hopes-with-melanoma-success-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T16:48:09.000Z",
-      "kind": "news",
-      "summary": "A personalized vaccine developed by Moderna Inc. and Merck & Co. reduced the recurrence of melanoma in a large, late-stage trial, raising expectations for treating the deadliest form of skin cancer and showing the promise of the embattled mRNA technology. Bloomberg's Sam Fazeli joins to discuss. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Healthcare Stands Out Beyond AI",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/healthcare-stands-out-beyond-ai-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T16:38:24.000Z",
-      "kind": "news",
-      "summary": "UBS's Nadia Lovell said that as AI influences more sectors across the market, traditional diversification has become more challenging, making healthcare an attractive option due to its strong performance, innovation pipeline, and relatively attractive valuations. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1882,18 +1891,6 @@
       "publishedAt": "2026-08-19T16:23:00.000Z",
       "kind": "news",
       "summary": "A record surge in Moderna Inc.’s shares delivered a $5.5 billion blow to short sellers who had bet that the vaccine maker’s years-long slump would continue.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Carvana Up as Report on Walter’s Pledged Stake Allays Fear",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/carvana-rebounds-as-report-on-walter-s-pledged-stake-allays-fear",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T16:14:21.000Z",
-      "kind": "news",
-      "summary": "Shares of online used-car dealer Carvana Co. recovered some losses from a two-day selloff, after a report showed billionaire Mark Walter’s stake in the company was pledged, meaning he wouldn’t be able to immediately sell it as he contends with a federal probe of his investment empire.",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T23:02:02.722Z",
+  "generatedAt": "2026-08-19T23:32:04.449Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 4 — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-18T21:20:25.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 65,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
+    },
     {
       "title": "$FRMI",
       "url": "https://stocktwits.com/StockAuthority/message/662312984",
@@ -35,23 +50,8 @@
         "FRMI"
       ],
       "related": [],
-      "score": 70,
+      "score": 60,
       "summary": "$FRMI"
-    },
-    {
-      "title": "SEC filing: 4 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-18T21:20:25.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 65,
-      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
-      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
     },
     {
       "title": "$FRMI gap to fill 6.11 Also catalyst ahead for them to announce the Tier 1 Guarantor 🚀",
@@ -802,28 +802,6 @@
       "summary": "A Reverse Valuation Analysis on FRMI, and the reason I am buying after selling in June"
     },
     {
-      "title": "Fermi Could Be the Next SanDisk: The $17.50 Case for FRMI(Source: Tobi Opeyemi Amure)",
-      "url": "https://www.reddit.com/r/FRMI/comments/1vqbnx4/fermi_could_be_the_next_sandisk_the_1750_case_for/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-16T23:14:27.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Successful-Manager51",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 48,
-      "summary": "Fermi Could Be the Next SanDisk: The $17.50 Case for FRMI(Source: Tobi Opeyemi Amure)"
-    },
-    {
       "title": "Fermi (FRMI) Earnings Reading: The Bottom-Line Figure Outpaces Its Comparison in the Current Update; Price Reaction: Shares Finish 6.51% Lower in the Latest Reading - Revenue Guidance Range - Vinanet",
       "url": "http://vinanet.vn/aticles-market/Fermi-FRMI-Earnings-Reading-The-BottomLine-Figure-Outpaces-Its-Comparison-in-the-Current-Update-Price-Reaction-Shares-Finish-651-Lower-in-the-Latest-Reading-57-17462",
       "source": "Vinanet",
@@ -880,11 +858,25 @@
       "summary": "Detailed price information for Fermi Inc (FRMI-Q) from The Globe and Mail including charting and trades."
     },
     {
-      "title": "Fermi Says It Received US Subpoena Tied to Project Matador - Bloomberg",
+      "title": "Fermi Says It Received US Subpoena Tied to Project Matador - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-08-14T22:09:56.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45
+    },
+    {
+      "title": "Fermi Says It Received US Subpoena Related to Project Matador",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T14:21:00.000Z",
+      "kind": "news",
+      "summary": "Fermi Inc. said it received a subpoena from a US District Court for certain documents related to Project Matador, a massive data center campus it’s developing in west Texas.",
       "tier": 1,
       "tickers": [
         "FRMI"
@@ -895,17 +887,17 @@
   ],
   "related": [
     {
-      "title": "Nvidia Tries to Spur the AI Boom Into the Future - Bloomberg",
+      "title": "Nvidia Tries to Spur the AI Boom Into the Future - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/newsletters/2026-08-19/nvidia-tries-to-spur-the-ai-boom-into-the-future",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T21:33:06.000Z",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-19T23:03:40.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65
+      "score": 75
     },
     {
       "title": "Spirit Flight Attendants Fight Google’s Data Bid for AI - WSJ",
@@ -1018,46 +1010,17 @@
       "score": 65
     },
     {
-      "title": "'Big Short' investor Michael Burry unpacks 'serious competition' for Nvidia that he thinks could shake up the AI trade - Business Insider",
-      "url": "https://www.businessinsider.com/big-short-michael-burry-nvidia-ai-stocks-etched-competition-2026-8",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-19T17:17:44.000Z",
+      "title": "OpenAI tightens AI security after agents hack into Hugging Face - ABC10",
+      "url": "https://www.abc10.com/video/news/nation-world/openai-tightens-ai-security-after-agents-hack-into-hugging-face/103-1b3879f9-0c85-4fc8-958b-44c1658265a0",
+      "source": "ABC10",
+      "publishedAt": "2026-08-19T23:20:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Michael Burry flagged a potential \"disruption\" for AI stocks that could stem from Etched, the tech startup hiring top Nvidia talent."
-    },
-    {
-      "title": "OpenAI hit the brakes. Now what? - The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "source": "The Verge",
-      "publishedAt": "2026-08-19T17:10:09.000Z",
-      "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 65,
-      "summary": "AI safety still depends largely on the industry policing itself."
-    },
-    {
-      "title": "Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/08/19/jensen-huang-just-signed-ai-factory-deals-across-j/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-19T17:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "The country wants an AI robotics ecosystem independent of China and the United States."
+      "score": 55
     },
     {
       "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents - NVIDIA Developer",
@@ -1074,17 +1037,18 @@
       "summary": "NVIDIA Holoscan is a platform for building real-time AI applications at the edge, from medical imaging to robotics. HoloHub is its companion repository: a growing collection of reference applications…"
     },
     {
-      "title": "\"Would Flying Squirrels Live Here If There Were Electromagnetic Waves or Noise?\"... Even Finns Are Surprised by Google's Data Center [AIDC Era of Coexistence] ⑥ - 아시아경제",
-      "url": "https://www.asiae.co.kr/en/article/2026080610281570383",
-      "source": "아시아경제",
-      "publishedAt": "2026-08-19T22:20:00.000Z",
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections - TechCrunch",
+      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-08-19T22:10:46.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
-        "GOOGL"
+        "OpenAI"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data."
     },
     {
       "title": "Researchers say OpenAI revoked their access to limited cyber program - TechCrunch",
@@ -1101,6 +1065,48 @@
       "summary": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster."
     },
     {
+      "title": "'Big Short' investor Michael Burry unpacks 'serious competition' for Nvidia that he thinks could shake up the AI trade - Business Insider",
+      "url": "https://www.businessinsider.com/big-short-michael-burry-nvidia-ai-stocks-etched-competition-2026-8",
+      "source": "Business Insider",
+      "publishedAt": "2026-08-19T17:17:44.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Michael Burry flagged a potential \"disruption\" for AI stocks that could stem from Etched, the tech startup hiring top Nvidia talent."
+    },
+    {
+      "title": "OpenAI hit the brakes. Now what? - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "source": "The Verge",
+      "publishedAt": "2026-08-19T17:10:09.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "AI safety still depends largely on the industry policing itself."
+    },
+    {
+      "title": "Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/08/19/jensen-huang-just-signed-ai-factory-deals-across-j/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-19T17:05:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "The country wants an AI robotics ecosystem independent of China and the United States."
+    },
+    {
       "title": "OpenAI’s Latest Bid to Fight Anthropic: A Promise Not to Keep Customer Data - WSJ",
       "url": "https://www.wsj.com/tech/ai/openais-latest-bid-to-fight-anthropic-a-promise-not-to-keep-customer-data-d51a9b65",
       "source": "WSJ",
@@ -1110,6 +1116,19 @@
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Google strikes $12bn AI chip deal with Marvell - ft.com",
+      "url": "https://www.ft.com/content/0fdb094c-fc03-4d3c-8da6-bd11af88ff63?syn-25a6b1a6=1",
+      "source": "ft.com",
+      "publishedAt": "2026-08-19T16:05:56.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
       ],
       "score": 55
     },
@@ -1165,20 +1184,6 @@
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Marvell gives Google option to buy $12.2 billion stake in custom chip deal",
-      "url": "https://www.reuters.com/technology/marvell-grants-google-122-billion-stock-warrant-custom-chip-deal-2026-08-19/",
-      "source": "Reuters",
-      "publishedAt": "2026-08-19T13:41:30.000Z",
-      "kind": "news",
-      "summary": "Marvell Technology will partner with Google to develop custom chips for Google's AI infrastructure, offering Google the option to purchase up to a $12.2 billion stake in Marvell. This deal enables Google to diversify its custom chip partnerships beyond Broadcom and secure alternatives to Nvidia's GPUs for AI inference, capitalizing on the increasing demand for in-house chips. The warrant's full exercise is contingent on Google meeting specific purchasing targets through 2033. [sentiment: Neutral]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
       ],
       "score": 55
     },
@@ -1253,6 +1258,19 @@
       "summary": "The $4 trillion club is about to get more crowded."
     },
     {
+      "title": "China eases limits on Nvidia H200 chips as AI race escalates - ft.com",
+      "url": "https://www.ft.com/content/6c5650fb-969d-4d4e-80d6-8d11002a8cf7?syn-25a6b1a6=1",
+      "source": "ft.com",
+      "publishedAt": "2026-08-19T02:09:39.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Exclusive | OpenAI’s Second-Quarter Sales Show Tepid Growth Compared With Anthropic - WSJ",
       "url": "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998",
       "source": "WSJ",
@@ -1266,48 +1284,68 @@
       "score": 55
     },
     {
-      "title": "OpenAI Scales Back AI Development, but it Could be Too Late - AI Business",
-      "url": "https://aibusiness.com/generative-ai/openai-scales-down-ai-development-could-be-too-late",
-      "source": "AI Business",
-      "publishedAt": "2026-08-19T21:50:09.000Z",
+      "title": "\"Would Flying Squirrels Live Here If There Were Electromagnetic Waves or Noise?\"... Even Finns Are Surprised by Google's Data Center [AIDC Era of Coexistence] ⑥ - 아시아경제",
+      "url": "https://www.asiae.co.kr/en/article/2026080610281570383",
+      "source": "아시아경제",
+      "publishedAt": "2026-08-19T22:20:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "OpenAI said it is taking a two-week pause in reinforcement learning training for its upcoming models."
-    },
-    {
-      "title": "Expert urges caution as OpenAI launches ChatGPT for teenagers - kjzz.com",
-      "url": "https://kjzz.com/news/local/expert-urges-caution-as-openai-launches-chatgpt-for-teenagers",
-      "source": "kjzz.com",
-      "publishedAt": "2026-08-19T21:26:12.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "For parents whose teenagers are increasingly turning to artificial intelligence for schoolwork, advice or even companionship, Pete Ashdown, the owner of XMissio"
-    },
-    {
-      "title": "NVIDIA (NVDA): What Foxconn and Super Micro Are Telling Us about the AI Boom - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-foxconn-super-micro-210152728.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-08-19T21:01:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
+        "GOOGL"
       ],
       "score": 45
     }
   ],
   "general": [
+    {
+      "title": "Miner Fortescue’s Profit Falls as China Challenges Persist",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/miner-fortescue-s-profit-falls-as-china-challenges-persist",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T23:19:37.000Z",
+      "kind": "news",
+      "summary": "Fortescue Ltd.’s full-year profit fell despite buoyant iron ore prices as China’s property slowdown and negotiations with the country’s state-backed buyer persisted.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Apple’s Camera-Equipped AI AirPods Remain on Track for 2027 Despite Video Leak",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/apple-s-camera-equipped-ai-airpods-remain-on-track-for-2027-despite-video-leak",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T23:05:35.000Z",
+      "kind": "news",
+      "summary": "An Apple Inc. effort to sell camera-equipped AirPods remains on track for 2027, despite a leak from the company indicating that the product might arrive sooner.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Japan’s 20-Year Bond Auction Faces Test as Global Yields Surge",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/japan-s-20-year-bond-auction-faces-test-as-global-yields-surge",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T23:01:10.000Z",
+      "kind": "news",
+      "summary": "Japan’s sale of 20-year government bonds on Thursday will test whether elevated yields are enough to lure buyers back to the long end as a global debt selloff piles pressure on the market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "BlackRock, Oaktree Seize Movie Servicer With $900 Million Debt",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/blackrock-oaktree-seize-movie-servicer-with-900-million-debt",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T22:58:30.000Z",
+      "kind": "news",
+      "summary": "BlackRock Inc.’s HPS and Brookfield Corp.’s Oaktree Capital Management took over a firm that provides lighting, rigging and other services for Hollywood productions, wiping out as much as $900 million of debt as the global entertainment industry struggles with changing economics, according to people with knowledge of the deal.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Behind the Bond Market Rollercoaster and Bessent’s Treasury Intervention",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/behind-the-bond-market-rollercoaster-and-bessent-s-treasury-intervention",
@@ -1326,11 +1364,11 @@
       "source": "Bloomberg",
       "publishedAt": "2026-08-19T22:12:30.000Z",
       "kind": "news",
-      "summary": "Asian stocks were set to rebound, tracking Wall Street’s broad gains after US officials said they plan to boost buybacks of longer dated Treasuries to help ease borrowing costs following a surge in yields to near multi-decade highs.",
+      "summary": "Asian stocks looked set to gain as pressure from the bond market eased after the US Treasury unveiled plans to buy back longer-dated debt to curb borrowing costs. Bonds rallied and the dollar fell to a three-month low.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Markets Rebound as Treasury Moves to Rein In Yields | The Close 8/19/2026",
@@ -1342,7 +1380,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AIA Posts Growth in New Business Value on Hong Kong, China",
@@ -1354,7 +1392,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Latest Oil Market News and Analysis for Aug. 19",
@@ -1362,11 +1400,11 @@
       "source": "Bloomberg",
       "publishedAt": "2026-08-19T22:03:53.000Z",
       "kind": "news",
-      "summary": "Oil held a four-day run of gains as traders assessed the standoff in the Middle East between Iran and the US, with signs some crude is being shipped through the Strait of Hormuz to global markets.",
+      "summary": "Oil held a four-day run of gains, as US President Donald Trump announced a fresh package of measures intended to crush Iran’s economy.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Hong Kong Banks Turn to Student Housing as Property Bright Spot",
@@ -1674,18 +1712,6 @@
       "score": 50
     },
     {
-      "title": "Why High Yields on Government Bonds Are Causing Alarm",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/why-high-yields-on-government-bonds-are-causing-alarm",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T20:02:44.000Z",
-      "kind": "news",
-      "summary": "Government borrowing costs have been surging around the world as investors demand more compensation to entice them to hold longer-maturity debt. Average bond yields across the Group of Seven countries hit their highest level since 2008 in mid-August.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Lowe's gives muted outlook as it sees 'pressure' in home improvement spending",
       "url": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
       "source": "CNBC",
@@ -1722,24 +1748,11 @@
       "score": 50
     },
     {
-      "title": "CFTC Considers AI Compute Futures as ICE, CME Eye New Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/cftc-considers-ai-compute-futures-as-ice-cme-eye-new-market",
-      "source": "Bloomberg",
+      "title": "CFTC Considers AI Compute Futures as ICE, CME Eye New Market - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTzV6WldoVTVHSGEwSGkzZF9WeFpzLXhQbkxCYlU2Sl94M2haOTJNejY0WWpsNTRmRnJKTm8tUVJhTWlkRUwwYTY0ZGk4WmxZVDV6MWVsNGhtbnltMlBLTjRuWlgxME9vOVBzcmdfd3FHb3BoWTRzZGp2dm14ZGxtZ0x0Nm9mcER1WnZDOE5HVGRkUEg3SWJoMmRXQzBLekd6TUVCZWxxZlA5Wk96RW9Z?oc=5",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-08-19T19:57:07.000Z",
       "kind": "news",
-      "summary": "The Commodity Futures Trading Commission is asking for public input on futures contracts for the computing power that undergirds the artificial intelligence sector as industry heavyweights move to embrace so-called compute as a tradable asset.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic’s Annualized Revenue Tops $65B Before IPO",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/anthropic-s-annualized-revenue-tops-65b-before-ipo-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T19:46:02.000Z",
-      "kind": "news",
-      "summary": "Bloomberg's Anthony Hughes joins Dani Burger on \"Bloomberg Deals.\" Anthropic is on track to generate annualized revenue of more than $65 billion based on its current performance, according to people familiar with the matter, up more than sevenfold from its pace at the end of last year. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1815,9 +1828,9 @@
       "score": 50
     },
     {
-      "title": "Chip Firm Fractile Seeks $6.5 Billion Value After Anthropic Deal - Bloomberg",
+      "title": "Chip Firm Fractile Seeks $6.5 Billion Value After Anthropic Deal - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ0hWZktsTEJtWklDQmI0N1BRV2RHY3c5NHVEVWFOZWVKUkhjZExVazNWaDBmaWFGd3REcVROZEZlVjFNS1FWdDRueVl0Sk1Ga2M1VERzRXU2UUdoVEFLeWFTRE44UVNOWl9zcG1zTHVaX18xQ1RybFlHSDdyVlh1RHlJVjZnd0FIYi1SbG56eXlSU3BOZzI3cGJHZ3AyWVh1ZEtEVDFYNml0S3I1Q2hZalVKN1Q2ZmNGVnFIbzgyR1NqRllqR0E?oc=5",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-08-19T18:31:58.000Z",
       "kind": "news",
       "tier": 1,
@@ -1860,35 +1873,11 @@
       "score": 50
     },
     {
-      "title": "Stripe Agrees to Buy AI Firm OpenRouter; No Terms Disclosed - Bloomberg",
+      "title": "Stripe Agrees to Buy AI Firm OpenRouter; No Terms Disclosed - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb2lpcHU2c3ZTV1FBZTNGWWpjY2RKbTFoNGN6SHpDV0YzNlFFSEV3elhwOUc0SGI5cWFfenpqWEFQMFlLM00tNGJlQUlva3FRSm8tMWI4RlR5RHZqY056TFRGN2ZSR3JLbzQ1VC1ncl9CNFNhOXlodjFsQ2c4UzU0S0VscmEwY2RRTHRYWUg0MTNUcmxOdzU3S2N3ZkttSzdSZEZjWWZOSHFKWmNiUlE?oc=5",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-08-19T18:10:33.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Fed Minutes Show Many Officials Said Rate Hikes May Be Needed",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/fed-minutes-show-many-officials-said-rate-hikes-may-be-needed",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T18:00:01.000Z",
-      "kind": "news",
-      "summary": "Several Federal Reserve officials favored an interest-rate hike last month and many indicated that policy tightening would be necessary if inflation didn’t decline, a record of the central bank’s most recent policy debate showed.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Investors Bet on Making Commercial Fusion a Reality",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/investors-bet-on-making-commercial-fusion-a-reality-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T17:56:24.000Z",
-      "kind": "news",
-      "summary": "Fuse has raised $100 million to accelerate development and commercialization of its fusion technology. CEO JC Btaiche joins Bloomberg to discuss why the company is focused on building generators faster, and why he sees private companies as critical to helping the US compete with China in the race for fusion energy. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

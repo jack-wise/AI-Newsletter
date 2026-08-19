@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:42:47.830Z",
+  "generatedAt": "2026-08-19T17:02:07.070Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 4 — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-18T21:20:25.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
+    },
     {
       "title": "$FRMI gap to fill 6.11 Also catalyst ahead for them to announce the Tier 1 Guarantor 🚀",
       "url": "https://stocktwits.com/StockAuthority/message/662301322",
@@ -35,23 +50,8 @@
         "FRMI"
       ],
       "related": [],
-      "score": 80,
+      "score": 70,
       "summary": "$FRMI gap to fill 6.11 Also catalyst ahead for them to announce the Tier 1 Guarantor 🚀"
-    },
-    {
-      "title": "SEC filing: 4 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-18T21:20:25.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75,
-      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
-      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
     },
     {
       "title": "Fermi FTZ approved",
@@ -830,9 +830,9 @@
       "score": 45
     },
     {
-      "title": "Federal Court, SEC Seek Records On Fermi's Project Matador - Bisnow",
+      "title": "Federal Court, SEC Seek Records On Fermi's Project Matador - bisnow.com",
       "url": "https://www.bisnow.com/news/atlanta/data-center-capital-markets/fermi-project-matador-management-records-subpoena",
-      "source": "Bisnow",
+      "source": "bisnow.com",
       "publishedAt": "2026-08-18T19:11:06.000Z",
       "kind": "news",
       "tier": 3,
@@ -888,6 +888,20 @@
   ],
   "related": [
     {
+      "title": "OpenAI’s safety monitoring adds about 20% compute overhead - The Next Web",
+      "url": "https://thenextweb.com/news/openai-20-percent-compute-overhead-safety-monitoring",
+      "source": "The Next Web",
+      "publishedAt": "2026-08-19T16:48:49.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "OpenAI paused some frontier training and says new safety monitoring adds about 20% compute overhead. Anthropic sees no need to pause."
+    },
+    {
       "title": "Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/08/19/jensen-huang-just-signed-ai-factory-deals-across-j/",
       "source": "The Motley Fool",
@@ -912,7 +926,7 @@
       "related": [
         "GOOGL"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "The phone’s artificial intelligence can order groceries, book tables and take photos on a user’s behalf. But is it something people really want?"
     },
     {
@@ -926,7 +940,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Stratification at the frontier model level will have consequences for partner companies, customers and suppliers, analysts say."
     },
     {
@@ -940,19 +954,6 @@
       "tickers": [],
       "related": [
         "GOOGL"
-      ],
-      "score": 75
-    },
-    {
-      "title": "OpenAI pausing some model work over safety concerns - The Hill",
-      "url": "https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/",
-      "source": "The Hill",
-      "publishedAt": "2026-08-19T15:22:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
       ],
       "score": 65
     },
@@ -999,9 +1000,9 @@
       "summary": "Intel CEO Lip-Bu Tan just bought over 100,000 shares of Intel in the open market."
     },
     {
-      "title": "OpenAI Raises the Safety Bar on Anthropic; Anthropic Expands Its Revenue Lead - theinformation.com",
+      "title": "OpenAI Raises the Safety Bar on Anthropic; Anthropic Expands Its Revenue Lead - The Information",
       "url": "https://www.theinformation.com/newsletters/ai-agenda/openai-raises-safety-bar-anthropic-anthropic-expands-revenue-lead",
-      "source": "theinformation.com",
+      "source": "The Information",
       "publishedAt": "2026-08-19T14:01:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1054,20 +1055,6 @@
       "summary": "/PRNewswire/ -- Penguin Ai, a healthcare-native artificial intelligence company, today announced that its Utilization Management and HCC Risk Adjustment..."
     },
     {
-      "title": "Nvidia Tries to Spur the AI Boom Into the Future",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-19/nvidia-tries-to-spur-the-ai-boom-into-the-future",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T11:02:01.000Z",
-      "kind": "news",
-      "summary": "The company seeks to extend demand for the technology to a time chips will be plentiful",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "Abnormal AI Expands OpenAI Partnership to Boost Cybersecurity - PYMNTS.com",
       "url": "https://www.pymnts.com/cybersecurity/2026/abnormal-ai-expands-openai-partnership-to-boost-cybersecurity/",
       "source": "PYMNTS.com",
@@ -1109,59 +1096,18 @@
       "summary": "OpenAI’s $20B Georgia data center highlights rising AI power demand, water use and environmental concerns as ChatGPT expands."
     },
     {
-      "title": "OpenAI Pauses Training After AI Agent Hack - Technology Org",
-      "url": "https://www.technology.org/2026/08/19/openai-slows-model-training-hugging-face-hack-astra/",
-      "source": "Technology Org",
-      "publishedAt": "2026-08-19T16:00:00.000Z",
+      "title": "Nvidia Tries to Spur the AI Boom Into the Future",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-19/nvidia-tries-to-spur-the-ai-boom-into-the-future",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T11:02:01.000Z",
       "kind": "news",
-      "tier": 3,
+      "summary": "The company seeks to extend demand for the technology to a time chips will be plentiful",
+      "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Former Nvidia lab leader Sanja Fidler launches Veeda AI to tackle world models - BetaKit",
-      "url": "https://betakit.com/former-nvidia-lab-leader-sanja-fidler-launches-veeda-ai-to-tackle-world-models/",
-      "source": "BetaKit",
-      "publishedAt": "2026-08-19T15:55:10.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "The new startup backed by Radical and Khosla will focus on how robots interact with the physical world."
-    },
-    {
-      "title": "boost.ai Announced that it has been Named an OpenAI Select Partner - MarTech Cube",
-      "url": "https://www.martechcube.com/boost-ai-announced-that-it-has-been-named-an-openai-select-partner/",
-      "source": "MarTech Cube",
-      "publishedAt": "2026-08-19T15:53:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Leader in trusted conversational AI joins OpenAI Partner Network as a Select Partner boost.ai, the trusted leader in AI-powered customer experience solutions for regulated industries, today announced that it has been named an OpenAI Select Partner within the OpenAI Partner Network. The OpenAI Partner Network is a global program for partners to build, sell, and"
-    },
-    {
-      "title": "NVIDIA Partners With SB Energy on 10-GW AI “Factory” in Ohio - Engineering News-Record",
-      "url": "https://www.enr.com/articles/63525-nvidia-partners-with-sb-energy-on-10-gw-ai-factory-in-ohio",
-      "source": "Engineering News-Record",
-      "publishedAt": "2026-08-19T15:52:56.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "What firms are building 10-GW data center, along with 10 GW of power generation capacity, on former uranium enrichment facility in Piketon, Ohio?"
     },
     {
       "title": "The U.S. banned Nvidia's best chips from going to China. Now it's trying to close a crucial loophole",
@@ -1301,9 +1247,100 @@
       ],
       "score": 55,
       "summary": "Firm said it was overhauling its research and training and will require greater safety parameters of AI after hack"
+    },
+    {
+      "title": "OpenAI introduces ChatGPT for Teens, promising a more age-appropriate chatbot - AP News",
+      "url": "https://apnews.com/article/openai-chatgpt-teens-ai-safety-650cb35591de6546054d6c4e73b3290a",
+      "source": "AP News",
+      "publishedAt": "2026-08-18T20:27:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "OpenAI is launching a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are already using it for schoolwork, questions about daily life and even companionship."
+    },
+    {
+      "title": "OpenAI Pauses Training After AI Agent Hack - Technology Org",
+      "url": "https://www.technology.org/2026/08/19/openai-slows-model-training-hugging-face-hack-astra/",
+      "source": "Technology Org",
+      "publishedAt": "2026-08-19T16:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Former Nvidia lab leader Sanja Fidler launches Veeda AI to tackle world models - BetaKit",
+      "url": "https://betakit.com/former-nvidia-lab-leader-sanja-fidler-launches-veeda-ai-to-tackle-world-models/",
+      "source": "BetaKit",
+      "publishedAt": "2026-08-19T15:55:10.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "The new startup backed by Radical and Khosla will focus on how robots interact with the physical world."
+    },
+    {
+      "title": "boost.ai Announced that it has been Named an OpenAI Select Partner - MarTech Cube",
+      "url": "https://www.martechcube.com/boost-ai-announced-that-it-has-been-named-an-openai-select-partner/",
+      "source": "MarTech Cube",
+      "publishedAt": "2026-08-19T15:53:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Leader in trusted conversational AI joins OpenAI Partner Network as a Select Partner boost.ai, the trusted leader in AI-powered customer experience solutions for regulated industries, today announced that it has been named an OpenAI Select Partner within the OpenAI Partner Network. The OpenAI Partner Network is a global program for partners to build, sell, and"
     }
   ],
   "general": [
+    {
+      "title": "Moderna, Merck Revive mRNA Hopes With Melanoma Success",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/moderna-merck-revive-mrna-hopes-with-melanoma-success",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T16:51:50.000Z",
+      "kind": "news",
+      "summary": "A personalized vaccine developed by Moderna and Merck reduced the recurrence of melanoma in a large, late-stage trial, raising expectations for treating the deadliest form of skin cancer and showing the promise of the embattled mRNA technology. Madison Muller explains (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Moderna and Merck Revive mRNA Hopes With Melanoma Success",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/moderna-merck-revive-mrna-hopes-with-melanoma-success-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T16:48:09.000Z",
+      "kind": "news",
+      "summary": "A personalized vaccine developed by Moderna Inc. and Merck & Co. reduced the recurrence of melanoma in a large, late-stage trial, raising expectations for treating the deadliest form of skin cancer and showing the promise of the embattled mRNA technology. Bloomberg's Sam Fazeli joins to discuss. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Healthcare Stands Out Beyond AI",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/healthcare-stands-out-beyond-ai-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T16:38:24.000Z",
+      "kind": "news",
+      "summary": "UBS's Nadia Lovell said that as AI influences more sectors across the market, traditional diversification has become more challenging, making healthcare an attractive option due to its strong performance, innovation pipeline, and relatively attractive valuations. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Ex-Meta Staffer Testifies Daughter, 14, Was Prey on Instagram",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/ex-meta-staffer-testifies-daughter-14-was-prey-on-instagram",
@@ -1341,6 +1378,18 @@
       "score": 60
     },
     {
+      "title": "Lagarde Is Still Being Pursued by the WEF for Its Top Job",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/lagarde-is-still-being-pursued-by-the-wef-for-its-top-job",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T16:24:46.000Z",
+      "kind": "news",
+      "summary": "The World Economic Forum is still courting Christine Lagarde to take over as its next chair, an issue that was discussed at a meeting of the organization’s board this week, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Moderna’s 160% Surge Burns Shorts in ‘Painful’ $5 Billion Loss",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/moderna-s-160-surge-burns-shorts-in-painful-5-billion-loss",
       "source": "Bloomberg",
@@ -1353,7 +1402,7 @@
       "score": 60
     },
     {
-      "title": "Two Sigma Lost ‘Major Investor’ in Founders’ Feud, Overdeck Says",
+      "title": "Two Sigma Lost a ‘Major Investor’ Over Co-Founders’ Feud",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/two-sigma-lost-major-investor-in-founders-feud-overdeck-says",
       "source": "Bloomberg",
       "publishedAt": "2026-08-19T16:21:03.000Z",
@@ -1412,6 +1461,28 @@
       "score": 60
     },
     {
+      "title": "Will AI push Lloyds shares to 342p? - The Twelfth Magpie",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSjdxVUFsZEo2NG1aWm1jaElFbTZDQ09SMUdzVE05eTQ3Y3ZlY3dzUzRJY3NXZXlnREUzYmM5ckJvTG81N0wzVWV4NmZkXzhxZk9kaUVnWDk2YVpSVExLX3RRUmFmdnNNdjVjTmVCN21NR1VINnlyaDNOZGpoeWFrSnpR?oc=5",
+      "source": "The Twelfth Magpie",
+      "publishedAt": "2026-08-19T16:07:41.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "More is different when AI agent populations work together, study suggests - Tech Xplore",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44WFFVZDg4OWw5VUZuUV9wbXNhR1RCbjFMdjc2WjRfc1ZpdUNsTzZ4RkJORDJWSGRCb0lRWGV4WjVKcFNYQU9kWFRkaXJiMEN0bDVRcVEyajBsMkhacmcyRmVzTWZOSHdfWWktejdB?oc=5",
+      "source": "Tech Xplore",
+      "publishedAt": "2026-08-19T16:40:07.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Alibaba Tops Chinese Tech Stocks This Quarter on AI Resurgence",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/alibaba-tops-chinese-tech-stocks-this-quarter-on-ai-resurgence",
       "source": "Bloomberg",
@@ -1421,7 +1492,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Workday Introduces AI Research Team Dedicated to Advancing Reliable, Trustworthy, and Efficient Enterprise AI - PR Newswire",
@@ -1432,7 +1503,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Harvard Fund Discloses $2.2 Billion Stake in Musk’s SpaceX",
@@ -1444,7 +1515,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Cantor Becomes To Offer Access To Prediction Market Kalshi",
@@ -1456,7 +1527,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Ex-FTX, Alameda Executives Get 5-Year Trading Bans in CFTC Case",
@@ -1468,7 +1539,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Moderna Surges on Cancer Vaccine; Estee Lauder Rallies on Earnings | Stock Movers",
@@ -1480,7 +1551,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "UMaine-led team uses AI to strengthen electric grids against cyberattacks and extreme weather - The University of Maine",
@@ -1489,28 +1560,6 @@
       "publishedAt": "2026-08-19T15:43:01.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "TCW Artificial Intelligence ETF Q2 2026 Commentary (AIFD) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUGtXVkUtUy00Ql9ldy1ic1VFVmpRV3d6aDUtTHlpb21IUkFSQTFGdnc3RWhwdnlob2xULWxTY25ERVc5TWlVYzVhaW9MWWRSRzVXLVpKMkpVUDBZQnhhVVZjeXFHUnY5THFKVkNUSkxqbEVaOHlXNnd6Yk5OVi1qa1liN01hR0RIUnlSa09CZmN3VWdsZ0E?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-19T15:55:00.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZFNEQ0dvb0VSM3lPbWdrelkzOHpsWGJ4NWlqRG5WTGlCMXVKN19hU2VTZk5heXNJekFPQ2w4WFZybHBvaVpsTHN3bVE5U0g1bGI1LXNpWXdnX1JPbC1tcnA0Q20wZ2p0VGs2cno4SVNBdnV1SWJmOUltN3gwRnBfWmw5US01N3pVcDRHT1J0Z0hETlZaam54ZUZxYXJfQWNtZVc3ZFpUa2tFdWJQdmRvSg?oc=5",
-      "source": "TechCrunch",
-      "publishedAt": "2026-08-19T15:44:53.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1576,10 +1625,10 @@
       "score": 50
     },
     {
-      "title": "Majority ‘more concerned than excited’ about increased AI use in daily life: Survey - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQalM1T09kTmFGM1VVLWJxMzhPakFEamlFclQwOTVScjd4cGlWNkJiZFQ1T3RZVGRNNk5HYTZIQm9Gb2ZlSWRCQW1VX1E2dkJqMXFTYzFTSmdTZ1J4azhsdDRBTkw5TXZVQ2ZLTVZvdmszZ1BnSW9pTFNscGU3NHZya9IBhgFBVV95cUxPbUxUbmZIWUNqYkI1M0xqWFpPMnE0Q1BmZ3BVNjQ4QUZFZEJxTl9fZW1USHB1VlM4am9YUmRZeHpqTWxLVlVkYTVFY1lQdDYycF9vVk5TQ1lQamxCcmRuQkwtcTN0djRGLTRnMjhTZ0d2ek9xeVZYT3ZKQlMycXMwblRfNzJ6Zw?oc=5",
-      "source": "The Hill",
-      "publishedAt": "2026-08-19T15:15:00.000Z",
+      "title": "The Home Slopping Network - The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTNXdjdvWDY4ZFRZa20wNEljdXJEa3h4aHo1YzZLV3BLTFBWUVdnanZsLXNLNlJHX01rWmxDTGhVQXVxTzVrcENLeUFobFNPbXRaczY4Unk2dExRa25Ecy1EUHlqSHZqOGp4OFpfd3N1a0pNZVN0YTNpd1RWUmdmRm5EMGNnSVpu?oc=5",
+      "source": "The Atlantic",
+      "publishedAt": "2026-08-19T15:15:33.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1604,17 +1653,6 @@
       "publishedAt": "2026-08-19T15:00:48.000Z",
       "kind": "news",
       "summary": "Lowe's reported mixed quarterly results as the retailer said it continued to see pressure in home improvement spending.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Star researcher Sanja Fidler raises over US$90M for world model startup - The Logic",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LTEJEbDJEZ2pmV1VBeXNVQkVSLWc2c19ldUNzUUt2UzllMlN4R3J6dUNFS0o4ckdzdE1TMXhoZjI4Z0c1cVlNX1hoS3p0WnZsM3JBU1pncEtGamR4dnBUVEc2S3l2NERUb3dYSWp3b0R1dw?oc=5",
-      "source": "The Logic",
-      "publishedAt": "2026-08-19T15:00:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1650,18 +1688,6 @@
       "source": "The Cap Times",
       "publishedAt": "2026-08-19T14:50:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Target’s Turnaround Is Finally Working: Telsey Analyst",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/target-s-turnaround-is-finally-working-telsey-analyst-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T14:43:12.000Z",
-      "kind": "news",
-      "summary": "Target’s turnaround may finally be working. Telsey Advisory Group Senior Managing Director and Assistant Director of Research Joseph Feldman joined Bloomberg Open Interest to break down why stronger traffic, sharper merchandising and a revamped food strategy are bringing shoppers back, even without tariff refunds. He also explains why Target shouldn’t copy Walmart and which struggling retailers could lose the most market share. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1745,28 +1771,6 @@
       "publishedAt": "2026-08-19T13:51:15.000Z",
       "kind": "news",
       "summary": "India’s policymakers opted to wait for more clarity on inflation before changing interest rates even as one of them saw a case for a hike later in the year, minutes of the central bank’s Aug. 3-5 meeting showed Wednesday.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China Wants Its Tech Champions to Raise Money at Home - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rMjYwRGNLa09aWFNHdDhLcklGMXgwU0hMUnBnNU0zenJqeTcxbTd2VXRhRUQzNUtIS05Ob3hLLVhoeUkwTFFMb3ZjYmgwNmMxTEF0WmJNYVNnekhQZ2tteTFPZFMyMmltaEZHT0h4eWNYYTl2N1RF?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-19T13:43:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "What's behind the move higher in yields? Blame AI - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYjBOd0ZDTzFoSnJDYUM4bUctU3BvMV8wSjY2X2tQeVN5bm5CTm9BNmtlVmM3S2xlU1E3MGFkOFFzeGdxWnpHSWZUeEpOVDZoTFBHSkNITlVCSk9zZGlMR25Db0NXbE9QN2g5bTI3RHhVaGI2dEFlX2hJeFBnNDZjT2kwM1QxN2VNNE0zSQ?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-08-19T13:36:17.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1862,12 +1866,12 @@
       "score": 50
     },
     {
-      "title": "China Criticizes EU Over Extraterritorial Reach in JD.com Probe",
+      "title": "China Accuses EU of Overreach in JD.com Probe, Warns of Reprisal",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/china-criticizes-eu-over-extraterritorial-reach-in-jd-com-probe",
       "source": "Bloomberg",
       "publishedAt": "2026-08-19T12:39:46.000Z",
       "kind": "news",
-      "summary": "China criticized the European Union’s use of its Foreign Subsidies Regulation to probe JD.com Inc.’s planned €2.2 billion takeover of German electronics retailer Ceconomy, calling it an “improper extraterritorial jurisdiction” and prohibiting compliance with the measures.",
+      "summary": "China criticized the European Union for its use of the Foreign Subsidies Regulation to probe JD.com Inc.’s planned €2.2 billion takeover of German electronics retailer Ceconomy, calling it an “improper extraterritorial jurisdiction” and prohibiting compliance with the measures.",
       "tier": 1,
       "tickers": [],
       "related": [],

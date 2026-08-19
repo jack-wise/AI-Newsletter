@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:02:07.365Z",
+  "generatedAt": "2026-08-19T18:32:07.660Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 4 — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-08-18T21:20:25.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
+    },
     {
       "title": "$FRMI",
       "url": "https://stocktwits.com/StockAuthority/message/662312984",
@@ -35,23 +50,8 @@
         "FRMI"
       ],
       "related": [],
-      "score": 80,
+      "score": 70,
       "summary": "$FRMI"
-    },
-    {
-      "title": "SEC filing: 4 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026091318/xslF345X06/ownership.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-08-18T21:20:25.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75,
-      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
-      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
     },
     {
       "title": "$FRMI gap to fill 6.11 Also catalyst ahead for them to announce the Tier 1 Guarantor 🚀",
@@ -897,6 +897,34 @@
   ],
   "related": [
     {
+      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior - The Hacker News",
+      "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-08-19T18:06:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "OpenAI pauses frontier RL training for two weeks, keeps its largest planned run on hold, and adds stricter monitoring and isolation."
+    },
+    {
+      "title": "Marvell, Google Deepen Ties in AI Chip Race | Bloomberg Tech 8/19/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/bloomberg-tech-8-19-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T17:57:07.000Z",
+      "kind": "news",
+      "summary": "Bloomberg’s Ed Ludlow takes a look at the expanded partnership between Marvell and Google for chip development, with Marvell giving the search giant the right to buy as much as $12.2 billion in stock. Plus, SK Hynix plans to buy back $29 billion of shares and return more profits to investors to stabilize its stock after falling more than 50% in two months. And, startup Fuse raises $100 million to bring commercial nuclear fusion energy to the US and its allies. (Source: Bloomb",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 75
+    },
+    {
       "title": "OpenAI to Enhance Safety Processes for Paid Tool Customers",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/openai-to-enhance-safety-processes-for-paid-tool-customers",
       "source": "Bloomberg",
@@ -938,6 +966,20 @@
       "score": 75
     },
     {
+      "title": "Nvidia considers funding AI startup Mercor, which helps it develop open-source models: report - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4635071-nvidia-considers-funding-ai-startup-mercor-which-helps-it-develop-open-source-models-report",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-19T18:27:48.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Nvidia may join Mercor’s funding round at a $20B valuation."
+    },
+    {
       "title": "'Big Short' investor Michael Burry unpacks 'serious competition' for Nvidia that he thinks could shake up the AI trade - Business Insider",
       "url": "https://www.businessinsider.com/big-short-michael-burry-nvidia-ai-stocks-etched-competition-2026-8",
       "source": "Business Insider",
@@ -948,7 +990,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Michael Burry flagged a potential \"disruption\" for AI stocks that could stem from Etched, the tech startup hiring top Nvidia talent."
     },
     {
@@ -962,13 +1004,13 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "AI safety still depends largely on the industry policing itself."
     },
     {
-      "title": "Nvidia Tries to Spur the AI Boom Into the Future - Bloomberg.com",
+      "title": "Nvidia Tries to Spur the AI Boom Into the Future - Bloomberg",
       "url": "https://www.bloomberg.com/news/newsletters/2026-08-19/nvidia-tries-to-spur-the-ai-boom-into-the-future",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-19T17:03:06.000Z",
       "kind": "news",
       "tier": 1,
@@ -976,7 +1018,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "OpenAI’s safety monitoring adds about 20% compute overhead - The Next Web",
@@ -989,7 +1031,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "OpenAI paused some frontier training and says new safety monitoring adds about 20% compute overhead. Anthropic sees no need to pause."
     },
     {
@@ -1009,7 +1051,7 @@
       "title": "Jensen Huang Just Signed AI Factory Deals Across Japan's Biggest Manufacturers. What That Means for Nvidia's Growth. - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/08/19/jensen-huang-just-signed-ai-factory-deals-across-j/",
       "source": "The Motley Fool",
-      "publishedAt": "2026-08-19T16:27:39.000Z",
+      "publishedAt": "2026-08-19T16:11:04.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1020,7 +1062,7 @@
       "summary": "The country wants an AI robotics ecosystem independent of China and the United States."
     },
     {
-      "title": "The A.I. in Google’s New Pixel 11 Is Not Very Helpful - The New York Times",
+      "title": "Google’s New Pixel 11 Comes With Plenty of A.I., but It’s Not Very Helpful - The New York Times",
       "url": "https://www.nytimes.com/2026/08/19/technology/personaltech/google-pixel-11-review.html",
       "source": "The New York Times",
       "publishedAt": "2026-08-19T16:00:11.000Z",
@@ -1060,33 +1102,6 @@
         "GOOGL"
       ],
       "score": 65
-    },
-    {
-      "title": "OpenAI pausing some model work over safety concerns - The Hill",
-      "url": "https://thehill.com/policy/technology/6038415-openai-pauses-ai-training/",
-      "source": "The Hill",
-      "publishedAt": "2026-08-19T15:22:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Marvell pops 6% on AI chip deal that lets Google buy up to $12.2 billion in shares - CNBC",
-      "url": "https://www.cnbc.com/2026/08/19/marvell-google-ai-chips.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-19T15:08:05.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 65,
-      "summary": "Google and its competitors have been pursuing custom chips to improve efficiency and reduce reliance on Nvidia."
     },
     {
       "title": "The CEO of This Nvidia-Backed Artificial Intelligence (AI) Chip Company Just Bought $10 Million of His Own Stock. Here's What He's Seeing That Retail Investors Won't Want to Miss. - The Motley Fool",
@@ -1144,18 +1159,31 @@
       "score": 65
     },
     {
-      "title": "Penguin Ai Launches Utilization Management and HCC Risk Adjustment Solutions in AWS Marketplace - PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/penguin-ai-launches-utilization-management-and-hcc-risk-adjustment-solutions-in-aws-marketplace-302854614.html",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-19T12:11:00.000Z",
+      "title": "NVIDIA vs. Broadcom: The AI Stock You Should Buy Right Now - Zacks Investment Research",
+      "url": "https://www.zacks.com/stock/news/2977215/nvidia-vs-broadcom-the-ai-stock-you-should-buy-right-now",
+      "source": "Zacks Investment Research",
+      "publishedAt": "2026-08-19T18:22:30.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "AMZN"
+        "NVDA"
       ],
-      "score": 65,
-      "summary": "/PRNewswire/ -- Penguin Ai, a healthcare-native artificial intelligence company, today announced that its Utilization Management and HCC Risk Adjustment..."
+      "score": 55
+    },
+    {
+      "title": "Groq Raises $350M for Nvidia-Powered AI Neocloud - Channel Insider",
+      "url": "https://www.channelinsider.com/infrastructure/news-groq-350m-nvidia-ai-neocloud/",
+      "source": "Channel Insider",
+      "publishedAt": "2026-08-19T18:11:34.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Groq raises $350 million at a $3.5 billion valuation as it expands an Nvidia-powered AI cloud with more capacity for training and inference workloads."
     },
     {
       "title": "Microsoft Stock Rises as $678 Billion Backlog Supports AI Spending - TradingView",
@@ -1170,20 +1198,6 @@
       ],
       "score": 55,
       "summary": "Microsoft NASDAQ:MSFT, the enterprise-software, cloud and artificial-intelligence giant, gained approximately 0.6% to $484.30 Wednesday morning as falling Treasury yields pulled buyers back into mega-cap technology. But forget the small bounce for a second. The bigger Microsoft story is sitting und…"
-    },
-    {
-      "title": "NVIDIA Partners With SB Energy on 10-GW AI Data Center Complex in Ohio - Engineering News-Record",
-      "url": "https://www.enr.com/articles/63525-nvidia-partners-with-sb-energy-on-10-gw-ai-data-center-complex-in-ohio",
-      "source": "Engineering News-Record",
-      "publishedAt": "2026-08-19T17:17:12.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Planned hyperscale data center complex on the site of a Cold War-era uranium enrichment plant gets a shot in the arm from the chip-making giant."
     },
     {
       "title": "The U.S. banned Nvidia's best chips from going to China. Now it's trying to close a crucial loophole",
@@ -1228,9 +1242,9 @@
       "summary": "The two leading AI labs publicly diverging on safety could put them on different model-release timelines."
     },
     {
-      "title": "Cerebras Says Its New Computer Boosts AI Speed Advantage Over Nvidia - Bloomberg.com",
+      "title": "Cerebras Says Its New Computer Boosts AI Speed Advantage Over Nvidia - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/cerebras-cbrs-says-its-new-computer-boosts-ai-speed-advantage-over-nvidia",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-19T00:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1258,7 +1272,7 @@
       "title": "Exclusive | OpenAI’s Second-Quarter Sales Show Tepid Growth Compared With Anthropic - WSJ",
       "url": "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998",
       "source": "WSJ",
-      "publishedAt": "2026-08-18T23:47:00.000Z",
+      "publishedAt": "2026-08-18T23:44:23.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1294,23 +1308,33 @@
       ],
       "score": 55,
       "summary": "Firm said it was overhauling its research and training and will require greater safety parameters of AI after hack"
-    },
-    {
-      "title": "OpenAI introduces ChatGPT for Teens, promising a more age-appropriate chatbot - AP News",
-      "url": "https://apnews.com/article/openai-chatgpt-teens-ai-safety-650cb35591de6546054d6c4e73b3290a",
-      "source": "AP News",
-      "publishedAt": "2026-08-18T20:27:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI is launching a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are already using it for schoolwork, questions about daily life and even companionship."
     }
   ],
   "general": [
+    {
+      "title": "Iran Has 'Little Incentive' To Open Strait, Says Former Ambassador Daniel Fried",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-19/iran-has-little-incentive-to-open-strait-says-fried-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T18:14:37.000Z",
+      "kind": "news",
+      "summary": "Daniel Fried, former US ambassador to Poland, said 'Iranians have little incentive in the near term' to allow the Strait of Hormuz to open and that a solution to the conflict will require patience. Fried, who also served as the assistant Secretary of State for Europe, also said that when it comes to assisting Ukraine in war against Russia, the US is leaving 'perfectly good leverage on the table' because Ukrainian success also means success for the US. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Fed Minutes Show Many Officials Said Rate Hikes May Be Needed",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/fed-minutes-show-many-officials-said-rate-hikes-may-be-needed",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-19T18:00:01.000Z",
+      "kind": "news",
+      "summary": "Several Federal Reserve officials favored an interest-rate hike last month and many indicated that policy tightening would be necessary if inflation didn’t decline, a record of the central bank’s most recent policy debate showed.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Investors Bet on Making Commercial Fusion a Reality",
       "url": "https://www.bloomberg.com/news/videos/2026-08-19/investors-bet-on-making-commercial-fusion-a-reality-video",
@@ -1318,6 +1342,17 @@
       "publishedAt": "2026-08-19T17:56:24.000Z",
       "kind": "news",
       "summary": "Fuse has raised $100 million to accelerate development and commercialization of its fusion technology. CEO JC Btaiche joins Bloomberg to discuss why the company is focused on building generators faster, and why he sees private companies as critical to helping the US compete with China in the race for fusion energy. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "China Wants Its Tech Champions to Raise Money at Home - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rMjYwRGNLa09aWFNHdDhLcklGMXgwU0hMUnBnNU0zenJqeTcxbTd2VXRhRUQzNUtIS05Ob3hLLVhoeUkwTFFMb3ZjYmgwNmMxTEF0WmJNYVNnekhQZ2tteTFPZFMyMmltaEZHT0h4eWNYYTl2N1RF?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-19T17:56:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1395,17 +1430,6 @@
       "score": 60
     },
     {
-      "title": "Can Investing in Bloom Energy Stock Double Your Money? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU1Q1QVBJUDNPT2xoZ0hNcmdQUUZLaldtM2xSVFM2aXBLVno5UFpESEZ1UFRzaFVBNTVacEoxWnJnM2pIMVlLbE5lZWx2UlNjYmdRWjlRRVZnU3dlQzlTY1hpNEdqNmtrbUJWVG1kYW1FelN1alZGSFVzazRKV1VHUDFqRXh0WVRNWVBfZThETDZJN1F3QmpTdmhFeUxYTHFmcmFjejlJYWNSTVlNeHVZTzBlTDRGNk1HQ19NNHVLOHVEZ1Fic3NRODFNTmJWUUhzb1BKUQ?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-08-19T17:38:46.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "US, Canadian Funds Are Hedging FX Risks by Most in Three Years",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/us-canadian-funds-are-hedging-fx-risks-by-most-in-three-years",
       "source": "Bloomberg",
@@ -1430,6 +1454,28 @@
       "score": 60
     },
     {
+      "title": "AIB Data Centers at Emerging Growth Conference: power-first push - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb1lnQ1hFYW1NTlZyOUxGRFpMUnlTQ0RBMmgzUE1WS1pTWlRaanVsN1VkSmZ6YUNLRGVwZ2J4NW5oVEZqcXNWaDVaWnByQ1BfUi1WRzh0Nkhyci1CLWZmYnZRdHRHZmNlNS0zQUctTW8wbmVBazRkc1UxTm9ZWnpTWkpQMEpLUGM4REYtVTdPZWlpNVAwSlF4cDVGdjJkWEFJdlFhSTE0VGZUdmxFamNHVXduVTdVX2Nzamc?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-08-19T18:16:36.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "The frontier race upset - Tech Brew",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DMk5qWUVITENQTGVHaGhKa05ndHFOUjVYcGFSZmcxZ1JwZEpiMHlIU3gxSnhEaEUwZi1Oa0QwVXlTcnRSTnVvamt3NzV6ZzBCNUNBWjhIS3EyNmFlNFhVRGp2VDFvc1dWQTF5UUJqZXNEN2ZJZ2dQRE5HamQ?oc=5",
+      "source": "Tech Brew",
+      "publishedAt": "2026-08-19T18:06:19.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Lowe's gives muted outlook as it sees 'pressure' in home improvement spending",
       "url": "https://www.cnbc.com/2026/08/19/lowes-low-q2-2026-earnings.html",
       "source": "CNBC",
@@ -1439,7 +1485,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "CPPIB Is Said to See Several Departures Across Senior Ranks",
@@ -1451,10 +1497,10 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Goldman Sounds Out Investors for CoreWeave-Tied Data Center Bond",
+      "title": "Goldman Gauges Demand for CoreWeave-Tied Data Center Bond",
       "url": "https://www.bloomberg.com/news/articles/2026-08-19/goldman-sounds-out-investors-for-coreweave-tied-data-center-bond",
       "source": "Bloomberg",
       "publishedAt": "2026-08-19T17:13:34.000Z",
@@ -1463,7 +1509,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Says US Has ‘Come to a Deal With Canada’",
@@ -1475,7 +1521,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Stripe Agrees to Buy AI Firm OpenRouter; No Terms Disclosed",
@@ -1483,11 +1529,11 @@
       "source": "Bloomberg",
       "publishedAt": "2026-08-19T17:09:26.000Z",
       "kind": "news",
-      "summary": "Stripe Inc. has agreed to buy OpenRouter Inc., an artificial intelligence startup that helps developers access and switch between AI models. No terms were disclosed.",
+      "summary": "Stripe Inc. has agreed to buy OpenRouter Inc., adding one of the fastest-growing gateways to artificial intelligence models as the payments giant pushes deeper into the infrastructure powering the AI boom. Terms weren’t disclosed.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "‘The Treasury Is Watching’: Bessent’s Buybacks Jolt Bonds",
@@ -1499,7 +1545,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Healthcare of Ontario Pension Plan’s Private Equity Boss Departs",
@@ -1598,24 +1644,22 @@
       "score": 50
     },
     {
-      "title": "Reviven temores de guerra en la selva de Colombia",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-19/reviven-temores-de-guerra-en-la-selva-de-colombia",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T16:33:45.000Z",
+      "title": "American Medical Association's New AI Billing Codes Draw Nursing Opposition and Raise Broader Questions about AI Reimbursement, Liability, and Compliance - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVlPejExckpDcHMxS2lfTXBqX2tGbmRfanYxdkFRalNKaTJrUkx3UFRMTkQ0ajk5UUdOMDM4aTJsaWpXaGZsb0txaGZZNWs5c0JkUXR1MkFxcWZBTU9Zb25nYXFEMldxMG85S3NWX05mMndCV2l3T2FySWk5bVVDTlhpQjVNSnA1T1JWM2xvX1AwR0U5bjZBSFVQSlpMclFNdmtGRTZVYnRYdHdoYWs4edIBtgFBVV95cUxNRGRSTVNiTV9NSkJ0b3RIMlJhVXhiN3JwMThIZElpa2kyb1BjM2hnT1J6NjRKZVBXd0hFd3JfdmdhNlFZYkkwUHFkWWM4WDZiUTFfblN5cnBkMnZlNmU3a1ZpTHcwWmpMbDNYcUh0TTlMZVkxVWs0NzVaWHByR0ZrWTdrYk9aYk9WWWpMdmNVWlluM21zdm5wSVh1dUFFaVY5dUVqR05qOWMzN2VacGRMdUdfVjFjZw?oc=5",
+      "source": "The National Law Review",
+      "publishedAt": "2026-08-19T16:33:26.000Z",
       "kind": "news",
-      "summary": "De la Espriella ha iniciado lo que podría convertirse en la mayor ofensiva de Colombia contra grupos armados ilegales en más de una década. En Putumayo, excombatientes esperan saber qué ocurrirá. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "Venezuela Is Ready to Sign Oil Deals, Minister Tells Houston Investors",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/venezuela-is-ready-to-sign-oil-deals-minister-tells-houston-investors",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T16:30:59.000Z",
+      "title": "Inside Big Tech’s Frantic Race to Quell the Growing Backlash to AI - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd0ZMN28xd2NTdzNCbllaLVFGVkVDaGJlMkZOOU1xMlplVjR6ZnpoRVcxT0ZYMFdDcDJCN3p1SHdYT00waFVkT0loNGxMcXN0NFpyVzZJbzE5R3hsaHhTM2xZWUREOTdyN0R3RmJ3ajNzd2lFRGlUOVlZckVzQTRUYVJzeWFVZEwwSzY1QW84NGJfM3B4OWNMWkpFZHBiS3NI?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-08-19T16:31:37.000Z",
       "kind": "news",
-      "summary": "Venezuela is keen to sign production-sharing contracts and ramp up output from the world’s biggest crude reserves, Oil Minister Paula Henao told investors in Houston.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1628,18 +1672,6 @@
       "publishedAt": "2026-08-19T16:24:46.000Z",
       "kind": "news",
       "summary": "The World Economic Forum is still courting Christine Lagarde to take over as its next chair, an issue that was discussed at a meeting of the organization’s board this week, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Moderna’s 160% Surge Burns Shorts in ‘Painful’ $5 Billion Loss",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-19/moderna-s-160-surge-burns-shorts-in-painful-5-billion-loss",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-19T16:23:00.000Z",
-      "kind": "news",
-      "summary": "A record surge in Moderna Inc.’s shares delivered a $5 billion blow to short sellers who had bet that the vaccine maker’s years-long slump would continue.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1709,17 +1741,6 @@
       "publishedAt": "2026-08-19T15:57:34.000Z",
       "kind": "news",
       "summary": "FTX co-founder Gary Wang and former Alameda Research Chief Executive Officer Caroline Ellison avoided financial penalties under a settlement with the US derivatives regulator over their roles at the collapsed cryptocurrency exchange.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "UMaine-led team uses AI to strengthen electric grids against cyberattacks and extreme weather - The University of Maine",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSXBEbHVCc3BrZ1FIOVRCbC1UVDNCaUpfNXZibS1GX3o1QUxQeUJVYUpZeE1mVlZQYjVfNEtLaVlCR0FQeDlCNTA0VldmNzRBRjhob3p6eUFhTVlqTTJmdEFTYUVhUllsYnNKM0pCY2szTXFSdGY4MzFIMDdFOGdla2x0dE90MGFpRUF2QVZjVm0tSlpGU1MzVkRIUV96OXJSMGtCTVlQR0tLbnk4djJHUnExa3UwVDIyX21TRmRjd0hVX2JM?oc=5",
-      "source": "The University of Maine",
-      "publishedAt": "2026-08-19T15:43:01.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1872,28 +1893,6 @@
       "publishedAt": "2026-08-19T13:51:15.000Z",
       "kind": "news",
       "summary": "India’s policymakers opted to wait for more clarity on inflation before changing interest rates even as one of them saw a case for a hike later in the year, minutes of the central bank’s Aug. 3-5 meeting showed Wednesday.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China Wants Its Tech Champions to Raise Money at Home - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rMjYwRGNLa09aWFNHdDhLcklGMXgwU0hMUnBnNU0zenJqeTcxbTd2VXRhRUQzNUtIS05Ob3hLLVhoeUkwTFFMb3ZjYmgwNmMxTEF0WmJNYVNnekhQZ2tteTFPZFMyMmltaEZHT0h4eWNYYTl2N1RF?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-19T13:43:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AESC Learning & Development Launches AI 101 For Executive Search Teams to Explore Foundational Artificial Intelligence Use During Critical Moments in the Search Process - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxObUpPa2VwU3ViQUpTdXZTaTQ5S1YyQ1htQWk3OEtFRkRPRWZHVG1UZkk1N1YySEQ0Vi1mWjBLWXhwRUZoaVFQWHNxZGJXSDNvQmdObUpSTW0tSHBPSU8xZFhuVXIzT19DZWFPLW01RmstYlhrelREc1hDNXlybXFIUnMzTk5DVXZ6SFA1akJBemdNQkE4Z1QyT182d3FCYVd3cVY4VnFyRW1ySkNERDlZZTkxQkVTLWJrSEU2dV96MldHTWlhMWF3SExtdzdJNF91UEZLWS1kXy0zQ2g1cllERnVGUzhRaTVUcjRJalpFc3FtY202YlBaVTR1WkN0eUJnQWhhRlJUak92OUdzS3NiaHBkRVNjSlNaLTU1d0NpcmFWTmdicXJ4cUlEd1l4a0NSeGIwbkpkNjQ2REVrUmMwMENwSnVyUQ?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-19T13:30:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

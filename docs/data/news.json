@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T02:02:07.428Z",
+  "generatedAt": "2026-08-21T02:32:04.188Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -35,7 +35,7 @@
       },
       "tier": 2,
       "related": [],
-      "score": 78,
+      "score": 68,
       "summary": "Why are you…"
     },
     {
@@ -755,6 +755,20 @@
       "summary": "Detailed price information for Fermi Inc (FRMI-Q) from The Globe and Mail including charting and trades."
     },
     {
+      "title": "Fermi Says It Received US Subpoena Related to Project Matador",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-14T14:21:00.000Z",
+      "kind": "news",
+      "summary": "Fermi Inc. said it received a subpoena from a US District Court for certain documents related to Project Matador, a massive data center campus it’s developing in west Texas.",
+      "tier": 1,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45
+    },
+    {
       "title": "Construction is seen underway at Fermi America's Project Matador Campus in the Texas Panhandle near Amarillo. - The Lufkin Daily News",
       "url": "https://lufkindailynews.com/news_reuters/state/construction-is-seen-underway-at-fermi-americas-project-matador-campus-in-the-texas-panhandle-near/image_59132069-b057-537d-ac56-e623a4259f90.html",
       "source": "The Lufkin Daily News",
@@ -856,28 +870,6 @@
       "related": [],
       "score": 38,
       "summary": "Call With Fermi IR"
-    },
-    {
-      "title": "Jensen Huang: \"Land, power and shell: The next critical resource for AI factories.\"",
-      "url": "https://www.reddit.com/r/FRMI/comments/1vquc0z/jensen_huang_land_power_and_shell_the_next/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-17T14:44:24.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/sunnydays2121",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Jensen Huang: \"Land, power and shell: The next critical resource for AI factories.\""
     }
   ],
   "related": [
@@ -923,45 +915,19 @@
       "score": 65
     },
     {
-      "title": "Nvidia denies report it is rolling out China AI chip by year-end - Reuters",
-      "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20/",
-      "source": "Reuters",
-      "publishedAt": "2026-08-20T20:16:35.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia Q2 FY27 Earnings Preview: AI Chip Leader's Next Catalyst (August 2026) - Intellectia AI",
-      "url": "https://intellectia.ai/blog/nvidia-q2-fy27-earnings-preview-august-2026",
-      "source": "Intellectia AI",
-      "publishedAt": "2026-08-21T01:30:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia Rubin vs Google TPU 8: AI Chip Race Heats Up - tech-insider.org",
-      "url": "https://tech-insider.org/nvidia-rubin-vs-google-tpu-8-ai-chip-race-2026/",
-      "source": "tech-insider.org",
-      "publishedAt": "2026-08-21T01:23:28.000Z",
+      "title": "NVIDIA Backs OpenAI's Ohio Data Center With $105 Billion - Memeburn",
+      "url": "https://memeburn.com/nvidia-openai-data-center-105-billion/",
+      "source": "Memeburn",
+      "publishedAt": "2026-08-21T02:13:20.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "NVDA",
-        "GOOGL"
+        "OpenAI"
       ],
       "score": 55,
-      "summary": "Nvidia Rubin, Google TPU 8i/8t, Microsoft Maia 300, and Intel 3nm chips all launched in August 2026. Here is what each one actually does."
+      "summary": "NVIDIA committed over $105 billion to secure land, power, and infrastructure for OpenAI's 8-gigawatt Ohio data center, potentially generating $200 billion in GPU revenue by 2030."
     },
     {
       "title": "OpenAI is gaining on Anthropic with business users, new data indicates - TechCrunch",
@@ -978,15 +944,15 @@
       "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is."
     },
     {
-      "title": "OpenAI and Anthropic Clash Over Massachusetts’ AI Safety Push - Benzinga",
-      "url": "https://www.benzinga.com/markets/private-markets/26/08/61346746/openai-and-anthropic-clash-over-massachusetts-ai-safety-push",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-20T21:38:36.000Z",
+      "title": "Nvidia denies report it is rolling out China AI chip by year-end - Reuters",
+      "url": "https://www.reuters.com/world/china/nvidia-ship-ai-chip-china-by-year-end-information-reports-2026-08-20/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-20T20:16:35.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
       "score": 55
     },
@@ -1089,28 +1055,15 @@
       "summary": "Tiger Global's Chase Coleman was busy buying Cerebras and Intel stock in Q2."
     },
     {
-      "title": "Anthropic, OpenAI Clash Over Strict Massachusetts AI Safeguards - Bloomberg.com",
+      "title": "Anthropic, OpenAI Clash Over Strict Massachusetts AI Safeguards - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-08-20/strict-massachusetts-ai-safeguards-spark-anthropic-openai-clash",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-20T13:13:33.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Hudson River Trading to Build Next-Gen Research Platform Powered by NVIDIA Vera Rubin NVL72 on CoreWeave Cloud - Business Wire",
-      "url": "https://www.businesswire.com/news/home/20260820288080/en/Hudson-River-Trading-to-Build-Next-Gen-Research-Platform-Powered-by-NVIDIA-Vera-Rubin-NVL72-on-CoreWeave-Cloud",
-      "source": "Business Wire",
-      "publishedAt": "2026-08-20T12:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
       ],
       "score": 55
     },
@@ -1127,6 +1080,34 @@
       ],
       "score": 55,
       "summary": "These companies are poised to thrive as data centers require more electricity than ever before."
+    },
+    {
+      "title": "Nvidia Q2 FY27 Earnings Preview: AI Chip Leader's Next Catalyst (August 2026) - Intellectia AI",
+      "url": "https://intellectia.ai/blog/nvidia-q2-fy27-earnings-preview-august-2026",
+      "source": "Intellectia AI",
+      "publishedAt": "2026-08-21T01:30:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Nvidia Rubin vs Google TPU 8: AI Chip Race Heats Up - tech-insider.org",
+      "url": "https://tech-insider.org/nvidia-rubin-vs-google-tpu-8-ai-chip-race-2026/",
+      "source": "tech-insider.org",
+      "publishedAt": "2026-08-21T01:23:28.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Nvidia Rubin, Google TPU 8i/8t, Microsoft Maia 300, and Intel 3nm chips all launched in August 2026. Here is what each one actually does."
     },
     {
       "title": "AI bubble debate intensifies as Nvidia secures $500B financing deal - eciks.org",
@@ -1198,6 +1179,20 @@
       "score": 45
     },
     {
+      "title": "OpenAI and Anthropic Clash Over Massachusetts’ AI Safety Push - Yahoo",
+      "url": "https://www.yahoo.com/news/politics/articles/openai-anthropic-clash-over-massachusetts-213836618.html",
+      "source": "Yahoo",
+      "publishedAt": "2026-08-20T21:38:36.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Massachusetts lawmakers are weighing some of the toughest state-level artificial intelligence rules in the U.S. The state Senate passed an economic development bill last month requiring AI labs to go ..."
+    },
+    {
       "title": "OpenAI Is Burning Billions as Token Prices Plunge – Time to Panic? - MarketWise",
       "url": "https://marketwise.com/investing/openai-cash-burn-token-prices-plunge/",
       "source": "MarketWise",
@@ -1255,6 +1250,19 @@
       "summary": "IREN's first Microsoft data center is now live, giving investors early proof that its AI pivot can turn massive contracts into revenue."
     },
     {
+      "title": "Alibaba Says Older Nvidia GPUs Are Still Going Strong - Alibaba Gr Hldgs (NYSE:BABA), ALIBABA GROUP HOLDI - Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/08/61343688/alibaba-nvidia-v100-gpus",
+      "source": "Benzinga",
+      "publishedAt": "2026-08-20T20:04:19.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
       "title": "Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
       "url": "https://global.morningstar.com/en-ca/stocks/going-into-earnings-is-nvidia-stock-buy-sell-or-fairly-valued-4",
       "source": "Morningstar",
@@ -1279,28 +1287,87 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "Nvidia to ship AI chip for China by year-end, The Information reports By Reuters - Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-to-ship-ai-chip-for-china-by-yearend-the-information-reports-4870258",
-      "source": "Investing.com",
-      "publishedAt": "2026-08-20T17:20:30.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
     }
   ],
   "general": [
     {
+      "title": "CME CEO Spars With CFTC Chair About Prediction Market Oversight",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/cme-ceo-spars-with-cftc-chair-about-prediction-market-oversight",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T02:15:27.000Z",
+      "kind": "news",
+      "summary": "The head of CME Group Inc. told the chairman of the Commodity Futures Trading Commission that the agency needed to do more to prevent manipulation on prediction markets as the trading startups grow into multibillion-dollar businesses.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Opinion | How data centers can stanch the political bleeding - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ3dYMFFQakdyUUszbDg3emloS1pMY3dRWkM2akhhUXp1TVRXRkZuZlVXbEZnMVpLWXNKclltb3F1VXRZMHpKNWFJZnQ0ajRiM05aT253RTF0TGxacnV6Q1R5bXNGWG1aNEhrTWViNDNLWW5mNjZVNGdKVWxNZlNPUDVYWmZ1YmpMY2M0WkxWdHY3Zw?oc=5",
       "source": "The Washington Post",
-      "publishedAt": "2026-08-21T01:39:19.000Z",
+      "publishedAt": "2026-08-21T02:09:56.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Japan’s Upcoming Budget Requests in Spotlight Amid Fiscal Fears",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/japan-s-upcoming-budget-requests-in-spotlight-amid-fiscal-fears",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T02:00:00.000Z",
+      "kind": "news",
+      "summary": "Japan’s budget requests for next year are set to hit a record that may overstate the pace of fiscal expansion, as Prime Minister Sanae Takaichi seeks to pack more spending into the initial plan rather than leaning on supplementary budgets later in the year.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Samsung Set to Top Phone Market in Downturn, Counterpoint Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/samsung-set-to-top-phone-market-in-downturn-counterpoint-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T01:53:19.000Z",
+      "kind": "news",
+      "summary": "Samsung Electronics Co. will regain the top position in the smartphone market this year, in a sign of its greater resilience to higher memory-chip prices, Counterpoint Research predicted.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Swift Indian Ban on JPMorgan Unit Seen as Warning to Traders",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/india-s-quick-rebuke-of-jpmorgan-unit-seen-as-warning-to-traders",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T01:51:07.000Z",
+      "kind": "news",
+      "summary": "India’s securities regulator issued an interim order against a JPMorgan Chase & Co. unit in record time, a move market watchers say could deter attempts to manipulate the country’s new closing stock auction.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "CXMT, AI Hardware Firms Take Helm as China Earnings Enter Peak",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/cxmt-ai-hardware-firms-take-helm-as-china-earnings-enter-peak",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T01:49:56.000Z",
+      "kind": "news",
+      "summary": "CXMT Corp.’s breakout listing has sparked optimism across the domestic artificial intelligence hardware space, supporting China’s strategic ambitions to challenge the US in AI development.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Japan Lintec’s Stock Slides as Major Shareholder Sets Exit Plan",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/japan-lintec-s-stock-slides-as-major-shareholder-sets-exit-plan",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T01:48:18.000Z",
+      "kind": "news",
+      "summary": "Lintec Corp. shares fell to a three-month low on Friday after its largest shareholder announced plans to dispose its stake, as a growing number of Japanese companies divest non-core assets to improve their capital efficiency.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1316,7 +1383,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Evergrande Creditors Owed $45 Billion Now Face More Complex Path",
@@ -1328,7 +1395,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Berkshire Hathaway Just Bought More of This Brilliant Artificial Intelligence (AI) Stock - The Motley Fool",
@@ -1339,7 +1406,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "New Bank Indonesia Chief’s Shift From High Yields to Test Rupiah",
@@ -1351,7 +1418,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Ten Cap's Jun Bei Liu on What Bessent Is Up Against",
@@ -1674,30 +1741,6 @@
       "score": 50
     },
     {
-      "title": "Big Take: Riding The Bond Market Rollercoaster",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-20/big-take-riding-the-bond-market-rollercoaster-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-20T21:07:36.000Z",
-      "kind": "news",
-      "summary": "On today's Big Take podcast, behind the bond market selloff and the US government's intervention. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Ross Stores Raises Annual Profit Outlook on Robust Momentum",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/ross-stores-raises-annual-profit-outlook-on-robust-momentum",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-20T21:04:56.000Z",
-      "kind": "news",
-      "summary": "Ross Stores Inc. raised its annual profit outlook for a second time this year, signaling that the discount retailer’s momentum is holding up.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Bonds Fall on Doubts Over Treasury's Plan | Real Yield 8/20/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-08-20/real-yield-8-20-2026-video",
       "source": "Bloomberg",
@@ -1715,18 +1758,6 @@
       "source": "The Motley Fool",
       "publishedAt": "2026-08-20T21:00:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Housing Slump Winners, Losers Emerge From Australia’s Earnings",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/housing-slump-winners-losers-emerge-from-australia-s-earnings",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-20T21:00:00.000Z",
-      "kind": "news",
-      "summary": "Companies exposed to Australia’s housing downturn are facing a test this earnings season, as high interest rates and tax reforms divide the stock market into winners and losers.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1779,16 +1810,15 @@
       "score": 50
     },
     {
-      "title": "Holcim Is Acquiring Part of James Hardie’s European Business",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/holcim-said-to-acquire-part-of-james-hardie-s-european-business",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-20T20:27:53.000Z",
+      "title": "800VDC adoption in AI data centers is set to reshape power chip demand - digitimes",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMEotU2NQRC1wblNZRThzcFI3MUgtUVJuM0RNREJXZ002cTRvMkRwMFdwaXItODlySGFtUTRkSzJQZ3U1MWIxQjJqNWlpZUhZSklHLU13QXZfSnVKTjZZWVlVZ2tVVFZZUlgwVDJJQUFRcXF0bzJTenRFLTVqZkZJYzJFNThqdw?oc=5",
+      "source": "digitimes",
+      "publishedAt": "2026-08-21T01:56:55.000Z",
       "kind": "news",
-      "summary": "Holcim Ltd. is acquiring part of the European business of James Hardie Industries Plc for €840 million ($981 million), expanding its building, sustainable flooring and walling solution offerings.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Brazil launches AI supercomputer push while balancing US and Chinese tech - Al Jazeera",
@@ -1813,17 +1843,6 @@
       "score": 40
     },
     {
-      "title": "As concerns spread that the introduction of artificial intelligence (AI) would reduce jobs, U.S. com.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvM09YVUtmYjBFYzk5M2Vhem1wOTk5a1ZKX0wtT3RlaFZ2SzVqcXlhM1A1ZXF1Y3JDanBrdHh3RE9pMFZqZzZ3QlV5dw?oc=5",
-      "source": "매일경제",
-      "publishedAt": "2026-08-21T01:12:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom - TechCrunch",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYTlycWN4OE8teHZpeC1TVlBDN2VyNlpUYWFSUjJxT0NYRHM5Q3EzNmNjb0RmQnJScDlWbU1uUFZpTE1tN3A5YTFma2h0dDZXLWxleU92QWxxNjZPVE02dTNOY2FHSHlMMWtBZ1pYU3I2bk5LYzI4S2hXYmt3NnhTVTgwaXZLUUZLMUhEYWZ6V2tDQWMweXRzVEJ6S2VBN0N6TzRrYnU0Tk9KRFk?oc=5",
       "source": "TechCrunch",
@@ -1835,45 +1854,24 @@
       "score": 40
     },
     {
+      "title": "Holcim Is Acquiring Part of James Hardie’s European Business",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/holcim-said-to-acquire-part-of-james-hardie-s-european-business",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-20T20:27:53.000Z",
+      "kind": "news",
+      "summary": "Holcim Ltd. is acquiring part of the European business of James Hardie Industries Plc for €840 million ($981 million), expanding its building, sustainable flooring and walling solution offerings.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Walmart stock tumbles 9% after outlook disappoints Wall Street",
       "url": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html",
       "source": "CNBC",
       "publishedAt": "2026-08-20T20:01:49.000Z",
       "kind": "news",
       "summary": "Walmart is expected to report its fiscal second-quarter earnings on Thursday, offering a read on the consumer and the K-shaped economy.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Opinion | Debating the Use of A.I. in Writing - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdnZkN1FrYllkUU01WUxGUmN1N2dHWXF6cnlkSHR5dFlmbUgyT3ZGUzQzZWpmdmRNNWpjWXM4TjhwRTQzSDlCZHc2cnBUNnM2VmhqS2hSdl93aXl4d09lMHNYUWRfdHo0aUZvMDZNUFBxV01MQUIxUnFPZ3hwVWRqNEZSYk4?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-20T20:00:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "UW-Madison prioritizes artificial intelligence in alumni address - The Daily Cardinal",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUHBjd1lpdWExV01jVG1pNzRrVDZqbEpULVNBQ2pMTV9neEU2MjlfQmtsbjhfNWdITXcta05zOUdJb1hudjNkNFRpUm5IdXRxZ1hKbThCRUVaVXhYMkY5TFhCVVNCVmxOdDZ6TF9xQzJ5R0Q3Smg1Rmt1ZElmX1dleG9jNExFbFphWFkzamtnUVVfb2JQWkNMMmlVTExxYTJFaDZjNGlKWHNGTVhXRmpR?oc=5",
-      "source": "The Daily Cardinal",
-      "publishedAt": "2026-08-20T20:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware - The Record from Recorded Future News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNWmc4QnhnTXpnNG8yVkNrUGxaQzhQWkppcFRrMERGZmFpdml1bUJaanlMY2dYOUhRV3dqSHBkelFLM3prOFZITGxQQldOUU5yTElKd0FSNGt3TmplZ0poMWV1WUpXc3d6ZXc?oc=5",
-      "source": "The Record from Recorded Future News",
-      "publishedAt": "2026-08-20T19:49:03.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

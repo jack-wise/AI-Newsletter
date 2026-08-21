@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:02:12.118Z",
+  "generatedAt": "2026-08-21T18:32:06.295Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Just got back from a Fermi tour",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vuo27x/just_got_back_from_a_fermi_tour/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-21T18:14:02.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/GittyupGoDaddy",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Just got back from a Fermi tour"
+    },
     {
       "title": "A Landmark Power Deal Puts Fermi’s (FRMI) Big Bet to the Test",
       "url": "https://www.reddit.com/r/FRMI/comments/1vumyzq/a_landmark_power_deal_puts_fermis_frmi_big_bet_to/",
@@ -39,28 +61,6 @@
       "summary": "A Landmark Power Deal Puts Fermi’s (FRMI) Big Bet to the Test"
     },
     {
-      "title": "Long calls on Fermi",
-      "url": "https://www.reddit.com/r/FRMI/comments/1vum75b/long_calls_on_fermi/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-21T17:05:58.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/dizzymesa396",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 78,
-      "summary": "Long calls on Fermi"
-    },
-    {
       "title": "$FRMI lets get back to $10",
       "url": "https://stocktwits.com/StockAuthority/message/662524018",
       "source": "@StockAuthority on StockTwits",
@@ -81,6 +81,28 @@
       "related": [],
       "score": 70.5,
       "summary": "$FRMI lets get back to $10"
+    },
+    {
+      "title": "Long calls on Fermi",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vum75b/long_calls_on_fermi/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-21T17:05:58.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/dizzymesa396",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 68,
+      "summary": "Long calls on Fermi"
     },
     {
       "title": "Ground tour of the Fermi site today",
@@ -858,24 +880,36 @@
       ],
       "related": [],
       "score": 45
-    },
-    {
-      "title": "Fermi Inc. (NASDAQ: FRMI) reports insider share activity - Stock Titan",
-      "url": "https://www.stocktitan.net/sec-filings/FRMI/form-4-fermi-inc-insider-trading-activity-d83d594b39a5.html",
-      "source": "Stock Titan",
-      "publishedAt": "2026-08-18T21:21:12.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45,
-      "summary": "SEC Form 4 shows an insider transaction at Fermi Inc., but this summary includes no details on the size, price, or type of share activity reported.",
-      "excerpt": "Overview Financials News SEC Filings Fermi Inc. (NASDAQ: FRMI) reports insider share activity Filing Impact (Neutral) Filing Sentiment (Neutral) Form Type 4 Rhea-AI Filing Summary English Italian Spanish German Korean French Arabic Fermi Inc. (symbol: FRMI) is the issuer of record for a Form 4 filing submitted to the SEC."
     }
   ],
   "related": [
+    {
+      "title": "Nvidia to Pay Poolside a $6 Billion License, Tap Startup’s Staff - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/nvidia-to-pay-ai-startup-poolside-a-6-billion-license-newcomer-says",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-21T18:14:48.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Allspring’s Miletti Sees Jackson Hole as Bigger Risk Than Nvidia",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/allspring-s-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T18:08:49.000Z",
+      "kind": "news",
+      "summary": "Allspring Global Investments’ Ann Miletti said Wall Street has more to worry about from next week’s Jackson Hole economic symposium than earnings from AI bellwether Nvidia Corp.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
     {
       "title": "HRT Taps CoreWeave for NVIDIA Vera Rubin: Could This Be a Win for CRWV? - The Globe and Mail",
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/3974456/hrt-taps-coreweave-for-nvidia-vera-rubin-could-this-be-a-win-for-crwv/",
@@ -960,10 +994,23 @@
       "summary": "The AI powerhouse will give investors a major update next week."
     },
     {
+      "title": "‘Way Harder than it Looks’ in China AI. Nvidia, DeepSeek & YMTC. ARD #146 - AI: Reset to Zero",
+      "url": "https://michaelparekh.substack.com/p/way-harder-than-it-looks-in-china",
+      "source": "AI: Reset to Zero",
+      "publishedAt": "2026-08-21T18:08:43.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Inklings: Newfangled 'Hackquisitions' • Epic v. Apple • Meta v. States • OpenAI v. Apple • 'Stripe of AI' • Vision Pro Pickle - spyglass.org",
       "url": "https://spyglass.org/inklings-newfangled-hackquisitions-epic-v-apple-meta-v-states-openai-v-apple-stripe-of-ai-vision-pro-pickle/",
       "source": "spyglass.org",
-      "publishedAt": "2026-08-21T17:50:56.000Z",
+      "publishedAt": "2026-08-21T17:50:52.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -987,51 +1034,9 @@
       "score": 55
     },
     {
-      "title": "OpenAI introduces ChatGPT for Teens. What do teachers think? - Northeastern Global News",
-      "url": "https://news.northeastern.edu/2026/08/21/chatgpt-for-teens-ai-classroom/",
-      "source": "Northeastern Global News",
-      "publishedAt": "2026-08-21T17:20:50.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "ChatGPT for Teens debuts and has teachers divided on AI in the classroom. Northeastern experts weight the benefits and risks."
-    },
-    {
-      "title": "Microsoft vs. Nvidia: Which AI Giant Is More Likely to Double Your Money? - Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-nvidia-ai-giant-171541189.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-08-21T17:15:41.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "MSFT"
-      ],
-      "score": 55
-    },
-    {
-      "title": "How L’Oréal and OpenAI Are Changing Beauty Discovery in the Age of AI - WWD",
-      "url": "https://wwd.com/beauty-industry-news/beauty-features/beauty-discovery-age-ai-geo-loreal-technology-search-1239094886/",
-      "source": "WWD",
-      "publishedAt": "2026-08-21T17:05:07.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "L’Oréal’s partnership with OpenAI is reshaping beauty discovery, leveraging AI-powered tools like ChatGPT integrations, generative engine optimization and clinical data to enhance consumer experiences."
-    },
-    {
-      "title": "Nvidia finds that simple linear math can replace costly AI model handoffs - VentureBeat",
+      "title": "Nvidia finds that simple linear math can replace costly AI model handoffs - Venturebeat",
       "url": "https://venturebeat.com/technology/nvidia-finds-that-simple-linear-math-can-replace-costly-ai-model-handoffs",
-      "source": "VentureBeat",
+      "source": "Venturebeat",
       "publishedAt": "2026-08-21T16:33:56.000Z",
       "kind": "news",
       "tier": 2,
@@ -1042,19 +1047,31 @@
       "score": 55
     },
     {
-      "title": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61357400/modine-stock-jumps-after-report-names-google-amazon-as-data-center-cooling-customers",
-      "source": "Benzinga",
-      "publishedAt": "2026-08-21T14:40:50.000Z",
+      "title": "Exclusive | Nvidia in Talks to Invest in Data-Center Power Developer Cloverleaf Infrastructure - WSJ",
+      "url": "https://www.wsj.com/business/deals/nvidia-in-talks-to-invest-in-data-center-power-developer-cloverleaf-infrastructure-ff94c556",
+      "source": "WSJ",
+      "publishedAt": "2026-08-21T12:30:00.000Z",
       "kind": "news",
-      "summary": "Modine Manufacturing Co. (NYSE: MOD) shares surged after a report by Hunterbrook Media identified Google as the previously unnamed customer for Modine's $4 billion cooling agreement. The report, based on leaked internal documents, also revealed an additional $4.5 billion in potential Google business and nearly $3 billion from Amazon's cloud unit and other data center clients. Hunterbrook estimated Modine's total pipeline at close to $23 billion, suggesting revenue could signi [sentiment: Bullish]",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [
-        "AMZN",
-        "GOOGL"
+        "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "Nvidia pays Poolside $6bn to license its model factory and hire 109 staff - The Next Web",
+      "url": "https://thenextweb.com/news/nvidia-poolside-6bn-model-factory-licence",
+      "source": "The Next Web",
+      "publishedAt": "2026-08-21T12:18:44.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia is paying Poolside $6bn to license its model-building software and hire 109 staff. The letter insists it is not an acquisition."
     },
     {
       "title": "Nvidia earnings, Jackson Hole to test pillars of stock rally - The Mighty 790 KFGO",
@@ -1098,6 +1115,20 @@
       "score": 55
     },
     {
+      "title": "Nvidia to Pay AI Startup Poolside a $6 Billion License, Newcomer Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/nvidia-to-pay-ai-startup-poolside-a-6-billion-license-newcomer-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-20T22:24:07.000Z",
+      "kind": "news",
+      "summary": "Nvidia Corp. has agreed to pay $6 billion to license artificial intelligence models from Poolside and will extend job offers to more than 100 employees, according to people familiar with the situation.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "GE Vernova's AI Data Center Orders Just Doubled All of 2025 in 1 Half-Year. Is the Stock Still a Buy? - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/08/20/ge-vernovas-ai-data-center-orders-just-doubled-all/",
       "source": "The Motley Fool",
@@ -1123,6 +1154,49 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "OpenAI introduces ChatGPT for Teens. What do teachers think? - Northeastern Global News",
+      "url": "https://news.northeastern.edu/2026/08/21/chatgpt-for-teens-ai-classroom/",
+      "source": "Northeastern Global News",
+      "publishedAt": "2026-08-21T17:20:50.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "ChatGPT for Teens debuts and has teachers divided on AI in the classroom. Northeastern experts weight the benefits and risks."
+    },
+    {
+      "title": "Microsoft vs. Nvidia: Which AI Giant Is More Likely to Double Your Money? - 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/08/21/microsoft-vs-nvidia-which-ai-giant-is-more-likely-to-double-your-money/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-08-21T17:15:41.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Both Microsoft and Nvidia just delivered blockbuster AI earnings, but only one of them has a realistic shot at returning 100% from its current valuation. The answer may surprise investors who have been betting on the obvious winner."
+    },
+    {
+      "title": "How L’Oréal and OpenAI Are Changing Beauty Discovery in the Age of AI - WWD",
+      "url": "https://wwd.com/beauty-industry-news/beauty-features/beauty-discovery-age-ai-geo-loreal-technology-search-1239094886/",
+      "source": "WWD",
+      "publishedAt": "2026-08-21T17:05:07.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "L’Oréal’s partnership with OpenAI is reshaping beauty discovery, leveraging AI-powered tools like ChatGPT integrations, generative engine optimization and clinical data to enhance consumer experiences."
     },
     {
       "title": "Nvidia Is Not Just Selling AI Chips: Its Latest Deals Show Where The Next Growth Wave May Come From - TradingView",
@@ -1196,6 +1270,19 @@
       "summary": "Seattle-area space startup will use Nvidia's next-gen chip on its own next-gen satellites for AI data processing."
     },
     {
+      "title": "NVIDIA Partners with Major Firms for $500 Billion AI Infrastruct - GuruFocus",
+      "url": "https://www.gurufocus.com/news/9047800/nvidia-partners-with-major-firms-for-500-billion-ai-infrastructure-financing",
+      "source": "GuruFocus",
+      "publishedAt": "2026-08-21T15:50:06.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
       "title": "AMD vs. Nvidia: Is AMD Finally Closing the AI Gap? - 24/7 Wall St.",
       "url": "https://247wallst.com/investing/2026/08/21/amd-vs-nvidia-is-amd-finally-closing-the-ai-gap/",
       "source": "24/7 Wall St.",
@@ -1208,100 +1295,85 @@
       ],
       "score": 45,
       "summary": "AMD just posted its best quarter ever while Nvidia shipped its way toward a trillion-dollar runway, and now every hyperscaler has to decide whether a credible second source is worth betting on."
-    },
-    {
-      "title": "AMD Lost SpaceX to Nvidia. Is Its AI Challenge Already Falling Apart? - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/08/21/amd-lost-spacex-to-nvidia-is-its-ai-challenge-already-falling-apart/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-08-21T15:30:37.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "SpaceX just handed NVIDIA a high-profile win by locking in 20% of its next platform, leaving AMD without a flagship logo at the worst possible moment. The real question is whether this signals a crack in Lisa Su's ambitions or just the cost of competing in a market built on scarcity and politics."
-    },
-    {
-      "title": "Florida seeks court ruling to officially classify Sam Altman and ChatGPT as a 'public nuisance' — OpenAI fights to keep lawsuit away from a state jury - Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-fights-to-keep-chatgpt-lawsuit-away-from-a-state-jury",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-08-21T15:11:18.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Trump ally Judge Aileen Cannon has had the remand motion for seven weeks."
-    },
-    {
-      "title": "Nvidia invests in data center developer Cloverleaf Infrastructure - WTVB",
-      "url": "https://wtvbam.com/2026/08/21/nvidia-invests-in-data-center-developer-cloverleaf-infrastructure/",
-      "source": "WTVB",
-      "publishedAt": "2026-08-21T14:52:23.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Aug 21 (Reuters) - Nvidia has made a minority investment in privately held Cloverleaf Infrastructure to develop ​infrastructure to power AI &zwnj;data center projects across the U.S., the companies said on Friday. The investment will help Cloverleaf develop..."
-    },
-    {
-      "title": "Nvidia Eyes Deal With $2.3 Billion AI Chip Rival - TradingView",
-      "url": "https://www.tradingview.com/news/gurufocus:77b8d307e094b:0-nvidia-eyes-deal-with-2-3-billion-ai-chip-rival/",
-      "source": "TradingView",
-      "publishedAt": "2026-08-21T14:50:12.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "As rivalry in AI inference intensifies, the leader in AI chips, Nvidia Corp. (NVDA, Financials), is apparently considering a transaction with South Korean startup Rebellions.Bloomberg said that the corporation is in early talks with the company on numerous possibilities including a technical cooper…"
-    },
-    {
-      "title": "Google, OpenAI among companies to comply with Texas AI data center rules - USA Today",
-      "url": "https://www.usatoday.com/story/news/state/texas/2026/08/21/which-tech-ai-companies-are-complying-with-texas-data-center-rules/91373947007/",
-      "source": "USA Today",
-      "publishedAt": "2026-08-21T14:01:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI",
-        "GOOGL"
-      ],
-      "score": 45
-    },
-    {
-      "title": "OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model - South China Morning Post",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3364827/openai-backed-legal-tech-firm-pivots-chinese-kimi-k3-open-weight-model",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-08-21T14:00:10.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "San Francisco-based Harvey says its new model, Harvey Tenet, was post-trained on top of the open-weight Kimi K3 base."
     }
   ],
   "general": [
     {
-      "title": "China's Traders Find Meaning in Niu Lai",
+      "title": "CoreWeave vs. Nebius Group: Which Artificial Intelligence (AI) Cloud Stock Has More Upside? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRUJtZi1SY2treTlDTGVvVW1JaWxVMmRONUh5ak9kLVJSend0MVlNT1gwM19tcUZVMUpEUW56ZEZDaktmLU9BUUNIZmxpZ2tXeWxTSXA3Vk5BOXRpMnEzX3BEMERqTExMTU43ZW83bGNGMTZRRWJBUDl0czFsdmthdzFrNHhhSi0wczNPZ3NGVjFnRlZwSUl6eA?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-21T18:22:23.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Clock Ticks Down on New Canada Tariff Deadline",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-21/clock-ticks-down-on-new-canada-tariff-deadline-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T18:19:06.000Z",
+      "kind": "news",
+      "summary": "Sarah Bianchi, senior managing director at Evercore ISI and former deputy US trade representative, joined Balance of Power to discuss the upcoming tariff deadline. Bianchi said that after the US strikes a tariff deal with Canada, Mexico will likely ask for similar relief. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Prices, Iran war, AI dominate final Markey-Moulton Senate debate - The New Bedford Light",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPampiYVBCenBXNkZ2cWVVR1FoNUlkZjNSNHNNWDNIYm1TSFRMVkl6WTZlTXVwNEl0azVRVHNJZjJGQUI2Z2hsemQ1b0JNelJtbjdiek9walZuZV9YM3pJSWlXMlliWUFoeElGbUNVNFZNVWZuYzM3M1ZnRXdaZ3RvaDljWjFPSW1VU0x5S3FnMFVRMmJwWlE?oc=5",
+      "source": "The New Bedford Light",
+      "publishedAt": "2026-08-21T18:18:26.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Mexican Governor Accused by US of Cartel Ties Returns to His Job",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/mexican-governor-accused-by-us-of-cartel-ties-returns-to-his-job",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T18:01:03.000Z",
+      "kind": "news",
+      "summary": "The Mexican governor accused by the US of conspiring with a major criminal cartel to traffic drugs is ending his leave of absence, pledging to finish out his term through next year in a move that could inflame tensions with Washington.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "SEC Accuses Ex-BofA Senior Banker Satsky of Insider Trading",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/sec-accuses-ex-bofa-senior-banker-satsky-of-insider-trading",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T18:00:03.000Z",
+      "kind": "news",
+      "summary": "Former senior Bank of America Corp. investment banker Jason Satsky was accused by the US Securities and Exchange Commission of providing an insider-trading tip to a friend who allegedly made $18.5 million in illegal profits.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "The Zacks Analyst Blog Highlights Dell, Celestica, Lumentum and Vertiv - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdDh0VEV5bWY4Q0NHUFFOSzZsYmt2eXpkcWJGeXQ3UWtNS1R4b2ItZ3l4SWd2UGdwTVhFRl9SNDFSR3ZmaDA1cExHMGNfUmVkMXpQTU16VmMwdFBwNkVQU2pxZXFub0FmZWVselN3WGQ0SzkzaWJlVG1iRVY1bnNfRkNRWjBBbEhtMEtlaHZXMzFmdDVUc3NMMWtSUUFZajBvcnBra3kwNGR6MUtva09vemh1UFA0Y21QdUlzalQzc25XNGg5TENCRzQ2YWdqNnc5ZmNLUzlzQjEwUTZTUEJXaFNZV1BCM0hI?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-08-21T17:56:23.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "China’s Traders Find Meaning in ‘Niu Lai’",
       "url": "https://www.bloomberg.com/news/videos/2026-08-21/opinion-china-s-traders-find-meaning-in-niu-lai-video",
       "source": "Bloomberg",
       "publishedAt": "2026-08-21T17:50:23.000Z",
       "kind": "news",
-      "summary": "A crude animated film has become a meme for Chinese retail investors who see their own market struggles in its characters. Bloomberg Opinion columnist Shuli Ren explains why Niu Lai has struck a nerve. (Source: Bloomberg)",
+      "summary": "A crude animated film has become a meme for Chinese retail investors who see their own market struggles in its characters. Bloomberg Opinion columnist Shuli Ren explains why “Niu Lai” has struck a nerve. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1350,10 +1422,10 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "The Stock Market's Boom Will Likely Bust",
+      "title": "The Stock Market’s Boom Will Likely Bust",
       "url": "https://www.bloomberg.com/news/videos/2026-08-21/opinion-the-stock-market-s-boom-will-likely-bust-video",
       "source": "Bloomberg",
       "publishedAt": "2026-08-21T17:14:04.000Z",
@@ -1362,7 +1434,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "What to Look Out for at the Fed’s Jackson Hole Gathering",
@@ -1374,7 +1446,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "MAHA activists urge Trump against promoting coal to power energy-hungry AI data centers - The Seattle Times",
@@ -1385,7 +1457,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bond Moves Not a Surprise, Says CFR's Patterson",
@@ -1397,7 +1469,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "MAHA activists criticize Trump for promoting coal to power energy-hungry AI data centers - The Killeen Daily Herald",
@@ -1408,7 +1480,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Walmart Shares Extend Decline After Rare US Sales Miss",
@@ -1420,7 +1492,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Dalio Says Sell Bonds, Buy Gold, Bitcoin as Debt Crisis Looms",
@@ -1432,7 +1504,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Why Data Center Pushback Is a Unique Form of NIMBYism",
@@ -1482,6 +1554,17 @@
       "score": 50
     },
     {
+      "title": "Private Equity Is Deploying an Army of AI Wonks to Embed in the Firms They Back - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemJ0SHpLNXJVOGFSRnMwNVdDZUN5VHd0T3FEemJ4dTBvVTN2ZjVXQzN4aW1nM1JiLWFWMmdKbG4tMloyc0NkTXhZbmJWMG5RaGE1WXVZVUh5NFNGSnp5U3VLd19zb0poY2hnVXAyZkxDUGp3WjhubnNZS1pMTUc1SEoxeFVzcDFsZndvYy1Idmw5Wk8xMzh2a1NVV3ZPejhYWXN2Y1FGTlFMUlUxR2VEclJWUkRPdVU?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-08-21T16:17:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Apollo Reports Data Breach From ‘Social Engineering Incident’",
       "url": "https://www.bloomberg.com/news/articles/2026-08-21/apollo-reports-data-breach-from-social-engineering-incident",
       "source": "Bloomberg",
@@ -1512,6 +1595,17 @@
       "publishedAt": "2026-08-21T16:07:57.000Z",
       "kind": "news",
       "summary": "Peruvian growth came in just above expectations in the second quarter, handing President Keiko Fujimori a resilient economy as she starts her five-year term amid unusual weather.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI Data Centers Are Becoming a Flash Point in the Midterm Election - The Washington Stand",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcFVqOVNsaXhBLUpLamtlX19lTU1oVkhtam5ORzFUdWVGdl9ObGpWc1RIMTRDVDl2UHNjT1NOOWw2QS1CMTVIT2pCWTVlYlVndlUtc21uNkhjWDZFVHhsRS1BVzFITWZQc3lkMmFMdmFJdWlqQnpRN2hUQlB2VV9yWHdOeXVkel9mY01ZdWFhbzhmcGZUUUNDZk5qY0V4V2RJWXZnbA?oc=5",
+      "source": "The Washington Stand",
+      "publishedAt": "2026-08-21T16:06:59.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1565,54 +1659,6 @@
       "score": 50
     },
     {
-      "title": "US Buyback Pledge Draws Japan Comparisons and Pressures Dollar",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-21/us-buyback-draws-japan-comparisons-dollar-pressures-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-21T15:27:24.000Z",
-      "kind": "news",
-      "summary": "The US bond buyback pledge that whipsawed markets this week is prompting comparisons with policies in Japan, where efforts to contain borrowing costs resulted in prolonged currency weakness. The dollar is trading at a three-month low and is on track for its worst week this month. Geoffrey Yu, Senior EMEA Strategist at BNY, discusses the treasury buy backs and the dollar's resilience in correlated selloffs. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Week of Whiplash in Treasuries Closing With Traders on Pause",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-21/week-of-treasuries-whiplash-to-end-with-traders-on-pause-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-21T15:24:46.000Z",
-      "kind": "news",
-      "summary": "After a turbulent stretch for the US bond market, traders headed into Friday’s session with questions about what Treasury Secretary Scott Bessent’s next move will be. Kevin Gordon, Head of Macro Research & Strategy at Schwab Center for Financial Research, discusses the bond buyback announcement and impact on the market. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Wild Weather Sends Crop Prices Soaring in Risk to China Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-21/wild-weather-sends-crop-prices-soaring-in-risk-to-china-trade",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-21T15:23:48.000Z",
-      "kind": "news",
-      "summary": "Extreme weather is trimming US harvests and boosting prices for farmers just as top commodities importer China is increasing soybean purchases to meet a commitment struck between the two nations’ leaders.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Why Small-Cap ETFs Could Break Out",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-21/why-small-cap-etfs-could-break-out-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-21T15:17:14.000Z",
-      "kind": "news",
-      "summary": "Bridgeway Capital CEO John Montgomery joins Bloomberg Open Interest to talk about why small-cap value ETFs could be poised for a comeback after years of large-cap dominance. He breaks down the advantage active ETFs can have in less-liquid stocks, why valuations look compelling, and why AI still isn’t a guaranteed source of investing alpha. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "US corporate AI debt surge tests investor limits as fatigue emerges - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR0I5VXZyeVp4RlV6cnhVdXFwZ2RNZUU0Q1czQ2c0WkpZUUJuRV9PNEg0VHkzLVlnSUdZMWVOalJzNkNXdlNtamlGSzRLbVRXb0VkVzl3dm5Uc3hPV21Cb3BIdTNyOWZQSDRGQ1ZvV2xUVUZ6eExfeGpRM0hQck8wSDlzR3ViRDJHS25NaGxwNHdVYWN5cHRUcWJvb0hybjRtclNxMFFGT18tMmc2SEw5RFNYb3ZrSWZpS0VYTw?oc=5",
       "source": "Reuters",
@@ -1658,7 +1704,7 @@
       "score": 50
     },
     {
-      "title": "Why Anthropic’s AI watermark is going further than its rivals — for now - Business Insider",
+      "title": "Why Anthropic's AI watermark for Claude text goes further than rivals — for now - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeEJ6TTlIZ0pHOUhVV0pKcHJpR2pTYTY0c0swNmlzR2k0LThTaVQzSWROVHJKX1NveEJpOWtEYXZlSkRvLVVDcFROZDA2SURkQXFlaGMtVDY1dllLQUZJb1RzUHZqdUkxVXVGc2gyUDF1NHA4VzBRbmVvd3p2YTNzY0gwSm5aalZXZW10NWpvOVBoMXdYRmc?oc=5",
       "source": "Business Insider",
       "publishedAt": "2026-08-21T14:54:00.000Z",
@@ -1730,7 +1776,7 @@
       "title": "Constellation Energy vs. Vistra: Who Leads the AI Power Revenue Race? - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1BNaVpZVzNhWDlxa1pZaTRoN1ZUN04zRGNBcGp1MWdGbDBtdmhoTHg5VV92Zk1yOWdzWk1rMmNLdW1NQTJQTVd6U2twY1VaMlZBZU1GOXo1Z2N0QUx0c05tZk15c3ZuSVlnNEJ4MlVVaG02T3JNbGFUMFB5MmQ4Z0lsUE9IYVZINTg5a1JINUR2dGNwQXhmUXZZWmFlQ194REM0endTbHUxVTlNTmRfdE5HRHNZdw?oc=5",
       "source": "The Motley Fool",
-      "publishedAt": "2026-08-21T12:32:30.000Z",
+      "publishedAt": "2026-08-21T12:58:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1738,86 +1784,26 @@
       "score": 50
     },
     {
-      "title": "Canada Retail Sales to Fall 0.8% in July After Strong 2Q",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-21/canada-retail-sales-to-fall-0-8-in-july-after-strong-2q",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-21T12:30:01.000Z",
+      "title": "Webinar: See more. Know faster. Respond smarter: AI for public safety - Police1",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWndlZkg0RHNSZnA1RTd4LUhPeEZMT1FLS2dWSzZfb2J4RkVFd0U2eUFZekdIUi12Q3I2S0ozUlFlTG5iOGVmVDBNcEM0NE9wYVFJRXlKSDFJT1I2NDl1QWpHYVVsS25MNnVxcGJrRTk4N3FQbU9McUJVYUlpYlFJMVQ1dzR0ZU82MEphclkybUhXM3lnOWl0bk51SGZMVTdFS0M2d3ZSSjVhZDVRX3g4SHFFbw?oc=5",
+      "source": "Police1",
+      "publishedAt": "2026-08-21T18:26:40.000Z",
       "kind": "news",
-      "summary": "Canadian retail sales are set to fall for the first time this year, but strong second quarter purchases point to a rebound in consumption.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Bessent's 'toolkit,' American brands in China, data center backlash and more in Morning Squawk",
-      "url": "https://www.cnbc.com/2026/08/21/5-things-to-know-before-the-stock-market-opens.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-21T12:29:02.000Z",
+      "title": "Delaware paired students with agencies in 3-day AI hackathon - StateScoop",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpV2R3N2dhX0lPWXZJOVRtS2MwNDFVa3hjcV96UGVNYXpRYmFjRnhXRmpLQndMaHF4MTdrbWJ3alJ3UThRZEdqZWF4NGJfcTg0ZEU2WnNzUXA4WkhXa3RPZzgyVGY?oc=5",
+      "source": "StateScoop",
+      "publishedAt": "2026-08-21T18:19:32.000Z",
       "kind": "news",
-      "summary": "Here are five key things investors need to know to start the trading day.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "Braskem Debt Talks Drag With No Deal Days Ahead of Deadline",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-21/braskem-debt-talks-drag-on-with-no-deal-days-ahead-of-deadline",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-21T12:25:27.000Z",
-      "kind": "news",
-      "summary": "Braskem SA said talks with creditors have intensified, but have yet to produce an agreement, with a deadline on a court-ordered shield from enforcement actions set to expire in just three days.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI can transform legal writing, but lawyers still have to do the thinking - The Florida Bar",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOHU3OHRiOGpzb005MEVVTS11RVF5YmNqa2tjZDFURXBESkwxaThjUW9kZFozX09pek5VblFpRFJkLXFvc1VnYjA4WVpGdXFtVkIyalJvWGFWT0JjYjdEYVNxU3pudlZtcXZ3cWRkVEdaa0lDUjJhMmU5LU9TWXJZdjhVTUZKazdYUTBaYUdqVkVLMndTZlVnRFdQTHdNMFJhTDdLLWVsOElBZVlTbUtCem5QeEs0endXVHJhM0Z3?oc=5",
-      "source": "The Florida Bar",
-      "publishedAt": "2026-08-21T12:22:30.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Broadcom seeks more than $60bn in debt to fund AI chips for Anthropic - The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYQlREdWpLaUdtanRuZFVNRG5LRWdOQXZaZ19fbkViVE54dEoxRGVIVmowSmt5UEhCR2RsZzhVOWQxbU9CWWNyTkprdERuREx1bzI4eXlvNmZGRkpzNDB6X0NrQXZsMUZiTzd2dkVEUnh6UQ?oc=5",
-      "source": "The Next Web",
-      "publishedAt": "2026-08-21T12:18:44.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "No more doom scrolling or Instagram Stories? A Meta trial loss could end the social media we know",
-      "url": "https://www.cnbc.com/2026/08/21/meta-social-media-lawsuit-trial-instagram-facebook.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-21T12:11:14.000Z",
-      "kind": "news",
-      "summary": "\"These trials are often compared to the Big Tobacco lawsuits of the 90s, and the outcome will likely be analogous as well,\" one analyst told CNBC.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US ‘Playing With Fire’ as Dollar Risks Yen-Style Debasement",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-21/us-buyback-pledge-draws-japan-comparisons-and-pressures-dollar",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-21T12:04:30.000Z",
-      "kind": "news",
-      "summary": "The US bond buyback pledge that whipsawed markets this week is prompting comparisons with policies in Japan, where efforts to contain borrowing costs resulted in prolonged currency weakness.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Marines’ AI Training Mandate Requires Adaptability, Expert Says - National Defense Magazine",
@@ -1842,10 +1828,21 @@
       "score": 40
     },
     {
+      "title": "Nscale eyes $3B US IPO in AI data center listing rush - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUFdnU2RwbE5WV1g2ajUwdXNOVDVRaFREcTROd1R3bXlYT1F3bExra0VFcThCZkRQdy03ck9iQmxsbF9mUFVkUndjaHpwekxVTWlfeVhFbmVWVUJ2M085SzhZOG9WZTJTNDhfQ19ZZGRHb3NTa196S29qMklVdkw1R0dCV0k3MmRLdWVxU0s4WQ?oc=5",
+      "source": "Dealroom",
+      "publishedAt": "2026-08-21T17:35:40.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Grassroots Backlash Forces Big Tech to Rewrite Data Center Playbook - PYMNTS.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeUQ3MGp5YnRKYzh5UEtvR0piNDYzZEMxZmd4UHc3OExJUWtZSEFBT2Z2MWxpRnB2S014dlQzZy15NVRWVGlrMVA1U01MWTdWanM0b0ljekpqQmtDenlHMlk1S1JWSG11NXRwcS01d29jRTBPbDFXNC1MOTJJZ0ZzMWR3WFI3dTY3QUtCeTdRa2VOTm1tZk9vWUo0Ykh2T1VFQ2IwYVB1Mk1YQjlNZVI2d0gyN1ZYTTNnM0lKRG13Tkl6TXM?oc=5",
       "source": "PYMNTS.com",
-      "publishedAt": "2026-08-21T17:34:29.000Z",
+      "publishedAt": "2026-08-21T17:35:06.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1853,23 +1850,24 @@
       "score": 40
     },
     {
-      "title": "USC Computer Scientist Answers Five Common Questions About AI - USC Viterbi School of Engineering",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNzJSYnVPSUgzbnFHSnVldGo5SUdZVkJQMWU4eTlHVHNFMFRxWHlJaENvcEY4eDdqQVRIQWFPM0VMaXp0VERQWjR5YWJzYWZpSWtjbUJMOElTR0VaQkEyX0Z4SHAtVWxBdU9oTkdsam96ZzBxOHFSRzRRUWhLNmpDU3NtbWdwTFhyLTVoVzh2b1BjRHNaQkFxdTdhaHlPYjc1TFlQYUtWRm0?oc=5",
-      "source": "USC Viterbi School of Engineering",
-      "publishedAt": "2026-08-21T17:24:58.000Z",
+      "title": "Bloom Energy: It Is Springtime For This Company's Growth And Profitability (NYSE:BE) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNREdrdjdsbF9GNWQyMEI3d2owNFZ2LXFyci13VkhYNU03NHpnc3ViTXFwTDV5TmQ2Z1BCc2tlMHdNQmt4OGNiazN3U2pVYUxvaDBhajJqSTdRYWJKZjFEX3plM3QtNVM4bGtmemZDR0hNb0JCTExfVjVxbFlNdmlmN1d0bDExcjY2bzlqTk5hNDJabVRvZEFVRXVEc3cxTENua1htX2lQSkpvd255OWllNkRuaw?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-21T15:00:51.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "AI is making jury duty scams more convincing. Here’s how they work - WBUR",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wNVBBUGMySnV2UzlGRnM2WXhaT1AzVXRVWmZoSE1LRWJGRXhtbDhLeHgxOXpFTDZPeUNidjZmZTI2NUthNmI2UkY0ZnRqckJVYlNxYUwzOUt4Q3gyNzNQYnRkQW5jTUZnV3UzMExR?oc=5",
-      "source": "WBUR",
-      "publishedAt": "2026-08-21T17:21:16.000Z",
+      "title": "Canada Retail Sales to Fall 0.8% in July After Strong 2Q",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/canada-retail-sales-to-fall-0-8-in-july-after-strong-2q",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-21T12:30:01.000Z",
       "kind": "news",
-      "tier": 3,
+      "summary": "Canadian retail sales are set to fall for the first time this year, but strong second quarter purchases point to a rebound in consumption.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40

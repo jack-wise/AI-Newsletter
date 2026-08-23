@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:01:54.439Z",
+  "generatedAt": "2026-08-23T09:31:55.193Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -668,20 +668,6 @@
       "summary": "Detailed price information for Fermi Inc (FRMI-Q) from The Globe and Mail including charting and trades."
     },
     {
-      "title": "Fermi Says It Received US Subpoena Related to Project Matador",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-14T14:21:00.000Z",
-      "kind": "news",
-      "summary": "Fermi Inc. said it received a subpoena from a US District Court for certain documents related to Project Matador, a massive data center campus it’s developing in west Texas.",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
       "title": "Construction is seen underway at Fermi America's Project Matador Campus in the Texas Panhandle near Amarillo. - The Lufkin Daily News",
       "url": "https://lufkindailynews.com/news_reuters/state/construction-is-seen-underway-at-fermi-americas-project-matador-campus-in-the-texas-panhandle-near/image_59132069-b057-537d-ac56-e623a4259f90.html",
       "source": "The Lufkin Daily News",
@@ -893,6 +879,28 @@
       "related": [],
       "score": 38,
       "summary": "[August 18, 2026] Fermi America - $FRMI - Discussion Thread"
+    },
+    {
+      "title": "FRMI Lost almost all of the gains from the deal. This shows us that the market definitely doesn't trust the company to execute on this contract either, and lose the second contract in a row.",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vr4igd/frmi_lost_almost_all_of_the_gains_from_the_deal/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-17T20:52:26.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/adgrdt",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "FRMI Lost almost all of the gains from the deal. This shows us that the market definitely doesn't trust the company to execute on this contract either, and lose the second contract in a row."
     }
   ],
   "related": [
@@ -907,7 +915,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Chris Lehane tells Guardian of need to implement new safety standards as critics say AI firms acting ‘recklessly’"
     },
     {
@@ -926,10 +934,25 @@
       "summary": "Nvidia's first production units of its next-generation AI computing platform \"Vera Rubin\" have arrived at Microsoft data centers. Microsoft CEO Satya…"
     },
     {
-      "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent - the-decoder.com",
-      "url": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
-      "source": "the-decoder.com",
-      "publishedAt": "2026-08-23T08:19:46.000Z",
+      "title": "AWS Was Lagging Microsoft Azure and Google Cloud in Growth—Is Amazon Finally Catching Up? - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/aws-lagging-microsoft-azure-google-084105975.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-23T08:41:05.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
+      "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Shortage - 조선일보",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/23/AAB5QRDDVRFHNLXSUYXCT6WQ5U/",
+      "source": "조선일보",
+      "publishedAt": "2026-08-23T08:34:22.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -937,22 +960,7 @@
         "NVDA"
       ],
       "score": 55,
-      "summary": "Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the market power of the very supplier they're trying to break free from."
-    },
-    {
-      "title": "Anthropic, OpenAI Build Chips as NVIDIA, AMD Develop AI Models - 조선일보",
-      "url": "https://www.chosun.com/english/industry-en/2026/08/23/BWMCI4S6AZCXJDQYYIN6YBVL7U/",
-      "source": "조선일보",
-      "publishedAt": "2026-08-23T08:13:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "Anthropic, OpenAI Build Chips as NVIDIA, AMD Develop AI Models"
+      "summary": "NVIDIA Raises AI Server Prices by 15% Amid Memory Shortages Price hike reflects memory companies growing pricing power, raising costs for global AI data centers"
     },
     {
       "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports By Reuters - Investing.com",
@@ -1133,6 +1141,49 @@
       "summary": "Ronnie Chatterji leads a team of researchers at the company who study how AI is affecting workers, employers, and the economy."
     },
     {
+      "title": "Jensen Huang Makes Low-Key Taiwan Arrival Ahead of Nvidia Earnings; Reportedly Meets TSMC to Lock Down AI Capacity - finance.biggo.com",
+      "url": "https://finance.biggo.com/news/0cbc7540-c6ca-49a0-b1c6-522d99889d5e",
+      "source": "finance.biggo.com",
+      "publishedAt": "2026-08-23T08:25:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Nvidia CEO Jensen Huang arrived in Taiwan on a private jet on August 23, marking his third visit to the island this year. The timing comes just days…"
+    },
+    {
+      "title": "Memory shortage reportedly drives Nvidia AI server prices up about 15 percent - the-decoder.com",
+      "url": "https://the-decoder.com/memory-shortage-reportedly-drives-nvidia-ai-server-prices-up-about-15-percent/",
+      "source": "the-decoder.com",
+      "publishedAt": "2026-08-23T08:19:46.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Nvidia servers with Vera Rubin and Grace Blackwell chips are set to cost about 15 percent more due to an ongoing DRAM shortage from Samsung, SK Hynix, and Micron, Bloomberg reports. The price hikes hit cloud giants like Microsoft, Google, and Meta, which are pouring billions into AI infrastructure while bankrolling the market power of the very supplier they're trying to break free from."
+    },
+    {
+      "title": "Anthropic, OpenAI Build Chips as NVIDIA, AMD Develop AI Models - 조선일보",
+      "url": "https://www.chosun.com/english/industry-en/2026/08/23/BWMCI4S6AZCXJDQYYIN6YBVL7U/",
+      "source": "조선일보",
+      "publishedAt": "2026-08-23T08:13:02.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Anthropic, OpenAI Build Chips as NVIDIA, AMD Develop AI Models"
+    },
+    {
       "title": "OpenAI Just Unveiled a Powerful New Cyber AI, But You Probably Can’t Use It - MIXED Reality News",
       "url": "https://mixed-news.com/en/openai-just-unveiled-a-powerful-new-cyber-ai-but-you-probably-cant-use-it/",
       "source": "MIXED Reality News",
@@ -1159,20 +1210,6 @@
       ],
       "score": 45,
       "summary": "Nvidia’s AI server price increases will vary by chip generation and memory configuration, with systems using Vera Rubin and Grace Blackwell among those affected."
-    },
-    {
-      "title": "NVIDIA Raises AI Server Prices by 15% Amid Memory Shortages - 조선일보",
-      "url": "https://www.chosun.com/english/industry-en/2026/08/23/AAB5QRDDVRFHNLXSUYXCT6WQ5U/",
-      "source": "조선일보",
-      "publishedAt": "2026-08-23T04:56:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "NVIDIA Raises AI Server Prices by 15% Amid Memory Shortages Price hike reflects memory companies growing pricing power, raising costs for global AI data centers"
     },
     {
       "title": "\"AI Boom Bill Is Coming\": Nvidia AI Server Prices to Rise More Than 15% - bloomingbit",
@@ -1214,20 +1251,6 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "GE Vernova’s Gas Turbine Backlog Hits 116 GW. What Does This Mean for the AI Market? - Energy News Beat",
-      "url": "https://energynewsbeat.co/ai/ge-vernovas-gas-turbine-backlog-hits-116-gw-what-does-this-mean-for-the-ai-market/",
-      "source": "Energy News Beat",
-      "publishedAt": "2026-08-23T03:27:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GEV"
-      ],
-      "score": 45,
-      "summary": "Order a heavy-duty gas turbine from GE Vernova today, and it will not arrive until 2031. That production reality, confirmed on the company’s July 22, 2026, earnings call, sits beneath nearly every ambitious AI data-center power plan announced in recent years. GE Vernova closed the second quarter with a combined gas-power equipment backlog and slot-reservation agreements of 116 GW—up from 100 GW in the prior quarter and 83 GW at the end of 2025. Management expects the total un"
     },
     {
       "title": "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at replicating research - TechCrunch",
@@ -1285,19 +1308,6 @@
       "summary": "Nvidia expands AI infrastructure with new Cloverleaf partnership as chip demand soars"
     },
     {
-      "title": "OpenAI cuts developer pricing for frontier GPT-5.6 Sol model by more than 20% - Reuters",
-      "url": "https://www.reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21/",
-      "source": "Reuters",
-      "publishedAt": "2026-08-21T21:30:13.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
       "title": "An overlooked AI winner names a new CFO — plus, Nvidia's key earnings loom - CNBC",
       "url": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html",
       "source": "CNBC",
@@ -1313,6 +1323,17 @@
     }
   ],
   "general": [
+    {
+      "title": "Dr. Dre and Jimmy Iovine Think A.I. Is Good for Music - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLWlDZDZZSUMyTEhvZVdiMjJEMXRVT1FyMEJrN1dQbFNJdW9qV1RqY3had2lUX3RMeUg3aWl5TlMyd3FXeW5QelhvajlSTUplTUMxdzRTYnJPOGtTZXVxV3FYM3JYYUdmZW5BcU96OHNrX1k2eTZlbVVWMHdTcG02WTQ2Z1Y?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-23T09:01:07.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Fears of AI-induced armageddon are overdone - The Economist",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMjNNSnVoYWRCLU9fQll6YXA2SzBpNFU4YXpIV0d1UDhPNmRjTWw2RWtkeExlWmpsQ3IzZDBTT0VWTElzT3RwT3kyX1pmbllNZHpYTlBTOHc1SE12YWFqVzgwRVE5Sl82c25OM19YT3hodEpMZGszOVBqeUxFWnhmdmRPWDZsRU1JcXhZSUZWWWFjSDNyVnl2eVln?oc=5",
@@ -1334,17 +1355,6 @@
       "tickers": [],
       "related": [],
       "score": 60
-    },
-    {
-      "title": "Ameresco: A $1.5 Billion AI Power Backlog Changes The Story (NYSE:AMRC) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1hCZWg0QmdoX2lQbXN6LS13ZE5aUkQzZkdXWFJHNzNFSUVpYnBmUE9tZEliMzU5UEt1c2RHV1p2T3laSzVseWtaWVB4VFFwdUxRaXJnTmpVX0YzS0FfTjNmWHJfZi04ejJpOGViTTY5MVZRenExZk1hZGFzYm00dEF3QVptWG9ZUlhkS1o3V3BZQVBKRUthX2Y4R2xYdw?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-23T08:29:36.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
     },
     {
       "title": "Alibaba to Raise $10 Billion by Selling Shares for AI Expansion - Bloomberg.com",
@@ -1453,17 +1463,6 @@
       "score": 50
     },
     {
-      "title": "Alibaba plans $10 billion Hong Kong share placement to fund AI spending - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSHJGOUFEMWhrdjlTbk5JelZ2Zl9jNWZ3UjRUTFVZX3hyTmx2bnZ2Qi1Ob3FPZGdBNkoyOHpfRXk3YzFpYXMwNkZHb09uX01jWDRVZ3lJSi1rM2ZGbldMV1J1d0lLUWFTS1FLcHowTXNobENIUkxody01eDItOHZucHRUV0xjME80UkxscjVNX1dnRUlHY1BCN3o5TV9CMFNzcnlobjJBVWdyMHNiQjNtT090bEV6WXQyUU5SdQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-08-23T04:47:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Australia Reports First Bird Flu Case in a Mammal as Seal Dies",
       "url": "https://www.bloomberg.com/news/articles/2026-08-23/australia-reports-first-bird-flu-case-in-a-mammal-as-seal-dies",
       "source": "Bloomberg",
@@ -1488,10 +1487,10 @@
       "score": 50
     },
     {
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQldWM1lpRFZ5SjhkcXQxalo3S3p0RWw2RHR1Rm5vaXlONzU5a1dSM0VoWGJ6dVJQYWE2Q2VlU0QxT0V2OVpsWDE1ZlJDeE90cEl5TDNrQUxZNWlEMVNkczNGWHVJVmNVQ3c5Ym9GQnp5V2gxSG5Hc0NpNHhRSFFHS3kxZ08?oc=5",
-      "source": "Financial Times",
-      "publishedAt": "2026-08-23T08:23:24.000Z",
+      "title": "\"Artificial intelligence (AI) can create a goal to preserve itself.\" This is the diagnosis of Richar.. - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9iUnhVTmktV2s0cUZoQWdXWUw0ZmhZQWNXRTliMjZZajBhZUNZeDFjQnBOeldySGhBSkh4Z0o3NEtGSVlUaTNxR2Y2QQ?oc=5",
+      "source": "매일경제",
+      "publishedAt": "2026-08-23T08:51:02.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1499,13 +1498,23 @@
       "score": 40
     },
     {
-      "title": "Citizens Financial Group Inc. RI Has $18.03 Million Stock Holdings in Advanced Micro Devices, Inc. $AMD",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-citizens-financial-group-inc-ri-has-1803-million-stock-holdings-in-advanced-micro-devices-inc-amd-2026-08-23/",
-      "source": "MarketBeat",
-      "publishedAt": "2026-08-23T08:09:08.000Z",
+      "title": "Alibaba announces $10.2bn share placement as Chinese companies expand AI investment - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNEdNMFc2bXZIeDFtSUVHaURibi1oU1VRSFU0SzF0MlAxYUJheEt1U1d1djktaEtza1ZuVGJGS0U2LWZmQXlYYXJwR0V4WFJKWnRQMDJ0eVhseUlZNlA5Qzc2eFE1a3JzRGxaTEZvXzl2NTlWUS1BSFVCd1VsNzZBcTJ5ZnE?oc=5",
+      "source": "Financial Times",
+      "publishedAt": "2026-08-23T08:33:27.000Z",
       "kind": "news",
-      "summary": "Citizens Financial Group Inc. RI increased its stake in Advanced Micro Devices (AMD) by 12.8% in the second quarter, now holding 31,037 shares valued at $18.03 million. Other institutional investors also modified their AMD holdings. The company recently reported strong earnings, with revenue up 50.1% year-over-year, and analysts predict continued growth. [sentiment: Somewhat-Bullish]",
       "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Ameresco: A $1.5 Billion AI Power Backlog Changes The Story (NYSE:AMRC) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1hCZWg0QmdoX2lQbXN6LS13ZE5aUkQzZkdXWFJHNzNFSUVpYnBmUE9tZEliMzU5UEt1c2RHV1p2T3laSzVseWtaWVB4VFFwdUxRaXJnTmpVX0YzS0FfTjNmWHJfZi04ejJpOGViTTY5MVZRenExZk1hZGFzYm00dEF3QVptWG9ZUlhkS1o3V3BZQVBKRUthX2Y4R2xYdw?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-08-23T08:29:36.000Z",
+      "kind": "news",
+      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40

@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-25T14:32:09.991Z",
+  "generatedAt": "2026-08-25T14:58:32.145Z",
   "symbol": "FRMI",
-  "quoteTime": "2026-08-25T09:58:53",
+  "quoteTime": "2026-08-25T10:42:35",
   "underlying": {
-    "price": 5.76,
-    "change": 0.14,
-    "changePct": 2.4,
+    "price": 5.84,
+    "change": 0.22,
+    "changePct": 3.83,
     "prevClose": 5.62
   },
-  "iv30": 98.4,
-  "iv30ChangePct": 0.77,
+  "iv30": 98.9,
+  "iv30ChangePct": 1.31,
   "totals": {
     "contracts": 526,
     "expirations": 14,
     "callOI": 522084,
     "putOI": 193380,
-    "callVol": 2273,
-    "putVol": 92,
+    "callVol": 13730,
+    "putVol": 167,
     "pcOI": 0.37,
-    "pcVol": 0.04
+    "pcVol": 0.01
   },
   "sentiment": {
     "label": "Call-heavy",
-    "note": "More open interest in calls than puts (put/call 0.37) — positioning leans bullish. 30-day implied volatility is 98%."
+    "note": "More open interest in calls than puts (put/call 0.37) — positioning leans bullish. 30-day implied volatility is 99%."
   },
   "expirations": [
     {
@@ -30,38 +30,38 @@
       "days": 2,
       "callOI": 46511,
       "putOI": 17264,
-      "callVol": 1011,
-      "putVol": 21,
+      "callVol": 1935,
+      "putVol": 32,
       "pcOI": 0.37,
-      "atmIV": 127.9
+      "atmIV": 125.9
     },
     {
       "date": "2026-09-04",
       "days": 9,
       "callOI": 4701,
       "putOI": 4085,
-      "callVol": 57,
-      "putVol": 14,
+      "callVol": 554,
+      "putVol": 24,
       "pcOI": 0.87,
-      "atmIV": 112
+      "atmIV": 109.6
     },
     {
       "date": "2026-09-11",
       "days": 16,
       "callOI": 4195,
       "putOI": 18164,
-      "callVol": 137,
-      "putVol": 1,
+      "callVol": 253,
+      "putVol": 13,
       "pcOI": 4.33,
-      "atmIV": 106.5
+      "atmIV": 106.8
     },
     {
       "date": "2026-09-18",
       "days": 23,
       "callOI": 70589,
       "putOI": 17105,
-      "callVol": 237,
-      "putVol": 5,
+      "callVol": 362,
+      "putVol": 10,
       "pcOI": 0.24,
       "atmIV": 104.6
     },
@@ -70,10 +70,10 @@
       "days": 30,
       "callOI": 2905,
       "putOI": 1349,
-      "callVol": 17,
+      "callVol": 74,
       "putVol": 11,
       "pcOI": 0.46,
-      "atmIV": 101.4
+      "atmIV": 97.7
     },
     {
       "date": "2026-10-02",
@@ -83,39 +83,79 @@
       "callVol": 1,
       "putVol": 0,
       "pcOI": 0.25,
-      "atmIV": 101.9
+      "atmIV": 101.7
     },
     {
       "date": "2026-10-16",
       "days": 51,
       "callOI": 20697,
       "putOI": 7226,
-      "callVol": 433,
-      "putVol": 1,
+      "callVol": 835,
+      "putVol": 4,
       "pcOI": 0.35,
-      "atmIV": 109.1
+      "atmIV": 108.8
     },
     {
       "date": "2026-11-20",
       "days": 86,
       "callOI": 134748,
       "putOI": 22554,
-      "callVol": 14,
+      "callVol": 18,
       "putVol": 1,
       "pcOI": 0.17,
-      "atmIV": 113
+      "atmIV": 111.4
     }
   ],
   "mostActive": [
+    {
+      "contract": "FRMI261218C00015000",
+      "type": "call",
+      "strike": 15,
+      "expiry": "2026-12-18",
+      "last": 0.29,
+      "volume": 7250,
+      "openInterest": 8389,
+      "iv": 123.9
+    },
+    {
+      "contract": "FRMI261218C00019000",
+      "type": "call",
+      "strike": 19,
+      "expiry": "2026-12-18",
+      "last": 0.21,
+      "volume": 2175,
+      "openInterest": 2852,
+      "iv": 132.1
+    },
     {
       "contract": "FRMI260828C00006000",
       "type": "call",
       "strike": 6,
       "expiry": "2026-08-28",
-      "last": 0.15,
-      "volume": 913,
+      "last": 0.2,
+      "volume": 1595,
       "openInterest": 2517,
-      "iv": 125.4
+      "iv": 123.6
+    },
+    {
+      "contract": "FRMI260904C00006000",
+      "type": "call",
+      "strike": 6,
+      "expiry": "2026-09-04",
+      "last": 0.35,
+      "volume": 444,
+      "openInterest": 754,
+      "iv": 107.8
+    },
+    {
+      "contract": "FRMI261016C00007000",
+      "type": "call",
+      "strike": 7,
+      "expiry": "2026-10-16",
+      "last": 0.51,
+      "volume": 424,
+      "openInterest": 3885,
+      "iv": 113.5
     },
     {
       "contract": "FRMI261016C00010000",
@@ -125,67 +165,27 @@
       "last": 0.2,
       "volume": 300,
       "openInterest": 7860,
-      "iv": 127
-    },
-    {
-      "contract": "FRMI261218C00015000",
-      "type": "call",
-      "strike": 15,
-      "expiry": "2026-12-18",
-      "last": 0.25,
-      "volume": 200,
-      "openInterest": 8389,
-      "iv": 125.2
-    },
-    {
-      "contract": "FRMI260918C00010000",
-      "type": "call",
-      "strike": 10,
-      "expiry": "2026-09-18",
-      "last": 0.06,
-      "volume": 150,
-      "openInterest": 23992,
-      "iv": 139.5
-    },
-    {
-      "contract": "FRMI260911C00007000",
-      "type": "call",
-      "strike": 7,
-      "expiry": "2026-09-11",
-      "last": 0.15,
-      "volume": 110,
-      "openInterest": 1068,
-      "iv": 109.3
-    },
-    {
-      "contract": "FRMI261016C00008000",
-      "type": "call",
-      "strike": 8,
-      "expiry": "2026-10-16",
-      "last": 0.35,
-      "volume": 100,
-      "openInterest": 4331,
-      "iv": 120.5
-    },
-    {
-      "contract": "FRMI270115C00015000",
-      "type": "call",
-      "strike": 15,
-      "expiry": "2027-01-15",
-      "last": 0.35,
-      "volume": 70,
-      "openInterest": 3931,
-      "iv": 124.8
+      "iv": 120.9
     },
     {
       "contract": "FRMI260828C00006500",
       "type": "call",
       "strike": 6.5,
       "expiry": "2026-08-28",
-      "last": 0.07,
-      "volume": 68,
+      "last": 0.06,
+      "volume": 271,
       "openInterest": 3043,
-      "iv": 136.8
+      "iv": 127.9
+    },
+    {
+      "contract": "FRMI260918C00010000",
+      "type": "call",
+      "strike": 10,
+      "expiry": "2026-09-18",
+      "last": 0.05,
+      "volume": 155,
+      "openInterest": 23992,
+      "iv": 125.6
     }
   ],
   "topOI": [
@@ -194,10 +194,10 @@
       "type": "call",
       "strike": 10,
       "expiry": "2027-01-15",
-      "last": 0.7,
-      "volume": 13,
+      "last": 0.74,
+      "volume": 78,
       "openInterest": 70170,
-      "iv": 116.2
+      "iv": 115.7
     },
     {
       "contract": "FRMI261120C00015000",
@@ -207,17 +207,17 @@
       "last": 0.2,
       "volume": 0,
       "openInterest": 48077,
-      "iv": 127
+      "iv": 125.7
     },
     {
       "contract": "FRMI260918C00010000",
       "type": "call",
       "strike": 10,
       "expiry": "2026-09-18",
-      "last": 0.06,
-      "volume": 150,
+      "last": 0.05,
+      "volume": 155,
       "openInterest": 23992,
-      "iv": 139.5
+      "iv": 125.6
     },
     {
       "contract": "FRMI261120C00020000",
@@ -227,7 +227,7 @@
       "last": 0.1,
       "volume": 0,
       "openInterest": 21874,
-      "iv": 141
+      "iv": 139.8
     },
     {
       "contract": "FRMI260828C00009000",
@@ -237,17 +237,17 @@
       "last": 0.03,
       "volume": 0,
       "openInterest": 21253,
-      "iv": 261.6
+      "iv": 256.4
     },
     {
       "contract": "FRMI260918C00007000",
       "type": "call",
       "strike": 7,
       "expiry": "2026-09-18",
-      "last": 0.23,
-      "volume": 10,
+      "last": 0.25,
+      "volume": 57,
       "openInterest": 19131,
-      "iv": 101.4
+      "iv": 107
     },
     {
       "contract": "FRMI261120C00010000",
@@ -257,7 +257,7 @@
       "last": 0.35,
       "volume": 0,
       "openInterest": 18964,
-      "iv": 119.1
+      "iv": 117.2
     },
     {
       "contract": "FRMI260911P00004500",
@@ -267,7 +267,7 @@
       "last": 0.08,
       "volume": 1,
       "openInterest": 16215,
-      "iv": 102.1
+      "iv": 105.8
     }
   ],
   "source": "Cboe (delayed)"

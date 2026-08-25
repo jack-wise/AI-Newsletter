@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T23:33:45.595Z",
+  "generatedAt": "2026-08-25T23:56:01.995Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,28 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "$FRMI",
-      "url": "https://stocktwits.com/StockAuthority/message/662748903",
-      "source": "@StockAuthority on StockTwits",
-      "publishedAt": "2026-08-24T23:50:13.000Z",
-      "kind": "social",
-      "credibility": {
-        "score": 50,
-        "trust": "medium",
-        "reasons": [
-          "46,782 followers",
-          "1 likes"
-        ]
-      },
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 60,
-      "summary": "$FRMI"
-    },
     {
       "title": "How significant…",
       "url": "https://www.reddit.com/r/FRMI/comments/1vy3hhl/how_significant/",
@@ -456,6 +434,28 @@
       "score": 55,
       "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
       "summary": "Toby R. Neugebauer, the co-founder and largest individual shareholder of Fermi Inc., has issued a press release and letter to shareholders expressing confidence that a tenant deal will be announced soon and calling for a Special Meeting of Shareholders to evaluate strategic alternatives and restore normal governance. Neugebauer and other participants are soliciting agent designations to call the meeting, where shareholders can vote on board composition and consider options for maximizing shareholder value. The filing discloses that Neugebauer beneficially owns 146,516,035 shares of Fermi Inc. and is seeking to replace the current board with his own nominees to ensure a full-value risk-adjust"
+    },
+    {
+      "title": "$FRMI",
+      "url": "https://stocktwits.com/StockAuthority/message/662748903",
+      "source": "@StockAuthority on StockTwits",
+      "publishedAt": "2026-08-24T23:50:13.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "46,782 followers",
+          "1 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 50,
+      "summary": "$FRMI"
     },
     {
       "title": "New hires thread",
@@ -912,6 +912,20 @@
   ],
   "related": [
     {
+      "title": "Prediction: Nvidia's Shares Will Fall for a 5th Consecutive Quarter After Reporting Earnings on Aug. 26 - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/08/25/prediction-nvda-shares-fall-5th-straight-quarter/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-25T23:27:49.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "Nvidia's stock has a dubious post-earnings track record, fueled by investors' lofty expectations."
+    },
+    {
       "title": "Cramer says Nvidia has become 'all-important' to the AI trade. Here's what to watch beyond the numbers - CNBC",
       "url": "https://www.cnbc.com/2026/08/25/cramer-nvidia-all-important-ai-trade.html",
       "source": "CNBC",
@@ -922,7 +936,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "CNBC's Jim Cramer said Nvidia has become so central to the AI ecosystem that its earnings are effectively a referendum on the entire AI trade."
     },
     {
@@ -1036,6 +1050,34 @@
       "summary": "CNBC's Kate Rooney reports on news regarding local AI."
     },
     {
+      "title": "PSC deadline arrives for Georgia Power’s 3.2-gigawatt OpenAI data center contract - thecurrentga.org",
+      "url": "https://thecurrentga.org/2026/08/25/psc-deadline-arrives-for-georgia-powers-3-2-gigawatt-openai-data-center-contract/",
+      "source": "thecurrentga.org",
+      "publishedAt": "2026-08-25T23:41:49.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Georgia Power is expected to finalize a deal with OpenAI on Wednesday to supply electricity for a 3.2 gigawatt hyperscale data center in Effingham County, following a regulatory review process involving the Georgia Public Service Commission staff."
+    },
+    {
+      "title": "Nvidia and Perplexity partner to bring AI to local hardware - Jon Peddie Research",
+      "url": "https://www.jonpeddie.com/news/nvidia-and-perplexity-partner-to-bring-ai-to-local-hardware/",
+      "source": "Jon Peddie Research",
+      "publishedAt": "2026-08-25T23:31:17.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "New Perplexity Portable Computer, a local AI solution, powered by selected Nvidia hardware."
+    },
+    {
       "title": "Alabama investigating whether OpenAI violated consumer protection laws after Hugging Face hack - Yahoo News Canada",
       "url": "https://ca.news.yahoo.com/alabama-investigating-whether-openai-violated-231631451.html",
       "source": "Yahoo News Canada",
@@ -1075,34 +1117,6 @@
         "GOOGL"
       ],
       "score": 55
-    },
-    {
-      "title": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests - Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-25T16:19:39.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Wall Street hopes Nvidia can keep carrying the AI trade with another 'rock solid' earnings report - Business Insider",
-      "url": "https://www.businessinsider.com/nvidia-q2-earnings-wall-street-analysts-nvda-stock-ruben-2026-8",
-      "source": "Business Insider",
-      "publishedAt": "2026-08-25T16:12:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Expectations are high for Nvidia heading into its Q2 earnings report, with AI demand, next gen chips, and details on financing deals top of mind."
     },
     {
       "title": "Brain Drain Hits OpenAI and Google, But the Impact Isn’t Equal - WSJ",
@@ -1308,22 +1322,21 @@
         "OpenAI"
       ],
       "score": 55
-    },
-    {
-      "title": "Nvidia faces growth test as Rubin debut meets AI financing scrutiny - Reuters",
-      "url": "https://www.reuters.com/business/retail-consumer/nvidia-faces-growth-test-rubin-debut-meets-ai-financing-scrutiny-2026-08-25/",
-      "source": "Reuters",
-      "publishedAt": "2026-08-25T10:27:04.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
     }
   ],
   "general": [
+    {
+      "title": "Record Short Bets Hit China’s AI Model Duo on Fierce Competition",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/record-short-bets-hit-china-s-ai-model-duo-on-fierce-competition",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-25T23:30:00.000Z",
+      "kind": "news",
+      "summary": "Bearish bets against shares of Z.AI Co. and MiniMax Group Inc. have soared to records ahead of their earnings reports, highlighting growing investor worry over China’s heated AI rivalry.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Who gains in an AI-supercharged economy? - The Japan Times",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXdNenNWZnZQMHJYR1E1ajV6aG05M2VYUmw3bGhXbm4xc2d6WDZsZ29zX05PWThKV3RKdnVrelBPRFVfWURxQ2RWZmZWbUhtbGJqYkl4TlExMTlWUS1nOHhWZktnRWdFNXF1ZWtiS0pmN2F1bVYtYkNEN29yTlk4WXU3TEx5LW83VTJzMldVeU9iQmc?oc=5",
@@ -1357,7 +1370,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Korean AI Startup Wrtn Raises Funds at $870 Million Value to Fund Global Expansion - Bloomberg",
@@ -1678,6 +1691,17 @@
       "score": 50
     },
     {
+      "title": "Photonics ETFs: The Next Big AI Infrastructure Opportunity? - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMW56RVhXclk2bkQzdlRoNU1QSk1lWndEVVk4S2p3T1F3RmNGN2d0R3ZleHFTU2pKQWVyUzB4N0tCeThNVlJjbU9wVUd3ekFVZWNyUThlaXgtTnlDVVdkdUVqYlV5SDk0R0hNSVhSa1BDbEhRRk9oSDg3VnZSMFZ0U0lLOXM0LTZpUlJFMk9hc21aMXVydFZZMDBiR2UtZ3E5NHZZN2Jxbm5hZGRlR1pQblczWllfMkRtRG1kNU9MTlJfQWdUdzliZmlXNDFpd3hNM1M2djVmU2d5dw?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-08-25T20:01:52.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Northrop CEO Expects ‘Decent Share’ of Golden Dome Contracts",
       "url": "https://www.bloomberg.com/news/articles/2026-08-25/northrop-ceo-expects-decent-share-of-golden-dome-contracts",
       "source": "Bloomberg",
@@ -1708,17 +1732,6 @@
       "publishedAt": "2026-08-25T19:50:27.000Z",
       "kind": "news",
       "summary": "Bloomberg's Isabelle Lee joins Scarlet Fu and Tim Stenovec on \"Bloomberg Crypto.\" Bitcoin briefly climbed above $80,000 for the first time since mid-May, as optimism returns to the beaten-down crypto market amid a confluence of bullish signals that forced the liquidation of billions in leveraged bets. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Photonics ETFs: The Next Big AI Infrastructure Opportunity? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaGViamFxczBBWHFRZjVQSGlGZ0tHU0NZZW45cEZDaW4yN3NHbjg0S1h4enNzMGdsQ2dHajJqaVZRSzhGbGxyWURTY3JJWXY0VnlER1RyU3hsR0gyVUZhWUM4U09hcnhpTWFRWW03eWJRSUppQ2RNeThxaUdZOFA5NEhMVVFSRXU2N2VkUGE4UE4yS1RwZ0NpVVlwcncxal9qRVhRSlY1TURPNGQ0UDdMNm1HeU5aazRFcFZ4bzNybklXZnhnemNRQnAxQV95QzN5djlQNDRNWVU0UQ?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-08-25T19:46:16.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1890,21 +1903,10 @@
       "score": 50
     },
     {
-      "title": "KAIST uses light to distinguish real from fake with hard-to-replicate “artificial fingerprints” - EurekAlert!",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE05RmJNWEFRUTJWSzBrNnZINV9TbzVmVWpXYWh5dkJ6c0drVXRRNnZicWxwYVZYN3FVZTN6SEdqNEg3T2tZM2Rzb3lLRVlRZXp5TlF0bEVpRGptU3Vj?oc=5",
-      "source": "EurekAlert!",
-      "publishedAt": "2026-08-25T23:10:25.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "LLM Evaluation: Beyond Benchmarks - StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZS1nYW9ENlYweUNyNEVoMUcyZksyZzZDQlVnZnI4VU1lOHhFSkg2aDRfU1J6X1MzdHVlWkk5dWY3OEQyc01wQWVLWDh5aXVDTnpUWmxPUHBHczgycXdwdzRNYWlNQnlGb0RoM2Z4TF9maTVDU0duT1FkZE5JazJtbUo4UXVUTi1xZk1NU0JPV2xNenFCWE5URUtGOA?oc=5",
-      "source": "StartupHub.ai",
-      "publishedAt": "2026-08-25T23:03:14.000Z",
+      "title": "SaaS Cashes In on Its Own Apocalypse - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWFkwZnBnUndjenBCRmtYVVg3VkxHZVl2R1paZGZLS2Rqc0FGUlRIeEVrdngzT3BpQmhyVEk4SFVQazRlNENwYUxKbTdadW15UmtvOGR0TVFzM19lMmlCRFZ5V3hXbEJyUVNKeXVnLTFYUzZLT2RXWEw5VTBsZWpJb2VpanQwZUxEOHJXejRpSFJzMWh3dGZrTURR?oc=5",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-08-25T23:44:07.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

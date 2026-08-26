@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T22:28:20.440Z",
+  "generatedAt": "2026-08-26T22:31:55.755Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -101,7 +101,7 @@
       },
       "tier": 2,
       "related": [],
-      "score": 68,
+      "score": 58,
       "summary": "Big exodus from retail traders driving Fermi price down. Any specific news?"
     },
     {
@@ -672,6 +672,19 @@
       "summary": "Detailed price information for Fermi Inc (FRMI-Q) from The Globe and Mail including charting and trades."
     },
     {
+      "title": "Fermi Says It Received US Subpoena Tied to Project Matador - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-14T07:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45
+    },
+    {
       "title": "Everyone is…",
       "url": "https://www.reddit.com/r/FRMI/comments/1vwhx4n/everyone_is/",
       "source": "r/FRMI",
@@ -912,28 +925,6 @@
       "related": [],
       "score": 38,
       "summary": "[August 20, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "A few more questions for Rodrigo",
-      "url": "https://www.reddit.com/r/FRMI/comments/1vt57pv/a_few_more_questions_for_rodrigo/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-20T01:14:22.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Tpatty343",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "A few more questions for Rodrigo"
     }
   ],
   "related": [
@@ -942,19 +933,6 @@
       "url": "https://www.nytimes.com/2026/08/26/technology/nvidia-profit-ai-doubles-earnings.html",
       "source": "The New York Times",
       "publishedAt": "2026-08-26T22:26:16.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Watch DataBank’s Incoming CEO on AI Buildout, Nvidia Earnings - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/databank-s-incoming-ceo-on-ai-buildout-nvidia-earnings-video",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-26T22:23:29.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1156,20 +1134,6 @@
       "score": 65
     },
     {
-      "title": "Nvidia Is in Difficult Place Amid 'Healthy' AI Landscape, Cresset's Ablin Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/nvidia-in-difficult-place-ai-landscape-healthy-ablin-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T21:05:57.000Z",
-      "kind": "news",
-      "summary": "Jack Ablin, founding partner and chief investment strategist at Cresset, says Nvidia is \"sitting at the North Pole and any step they take is going to be a step south.\" Speaking on \"Bloomberg The Close,\" Ablin also says the AI landscape is \"remarkably healthy.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "Nvidia has a blowout quarter, but Wall Street wants more - Axios",
       "url": "https://www.axios.com/2026/08/26/nvidia-earnings-jensen-huang-ai",
       "source": "Axios",
@@ -1347,6 +1311,32 @@
       ],
       "score": 65,
       "summary": "Nvidia's AI story is expanding beyond GPUs. See how power, networking, financing, and AI factory design could deepen its moat, plus the key risk investors should watch."
+    },
+    {
+      "title": "AI boom continues apace as world's most valuable company Nvidia beats expectations - Sky News",
+      "url": "https://news.sky.com/story/ai-boom-continues-apace-as-worlds-most-valuable-company-nvidia-beats-expectations-13577580",
+      "source": "Sky News",
+      "publishedAt": "2026-08-26T22:29:43.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Why Nvidia says its AI partnerships aren't 'circular financing' - Yahoo Finance",
+      "url": "https://finance.yahoo.com/video/why-nvidia-says-ai-partnerships-222400222.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-08-26T22:24:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     }
   ],
   "general": [
@@ -1357,6 +1347,18 @@
       "publishedAt": "2026-08-26T22:23:16.000Z",
       "kind": "news",
       "summary": "Meera Pandit, Executive Director and Global Market Strategist at JPMorgan Asset Management, discussed the recent muted increase in personal consumption expenditures and its implications for Federal Reserve policy. With core inflation at 3.3%, above the 2% target but far below the highs seen in previous years, the Fed faces a dilemma on whether to raise rates further. She speaks with Romaine Bostick & Emily Graffeo on \"The Close.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Brazil Seeks $97 Million From App Discord Over User Protections",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/brazil-seeks-97-million-from-app-discord-over-user-protections",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-26T22:23:08.000Z",
+      "kind": "news",
+      "summary": "Brazil’s government is seeking 500 million reais ($97.1 million) in damages from chat app Discord Inc. in a local lawsuit, while also demanding that the platform strengthen protections for children and women and comply with Brazilian law.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1482,30 +1484,6 @@
       "score": 60
     },
     {
-      "title": "Unrivaled CEO Discusses New Funding, Expansion",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/unrivaled-ceo-discusses-new-funding-expansion-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T21:31:25.000Z",
-      "kind": "news",
-      "summary": "Alex Bazzell, CEO and co-founder Unrivaled, joins Dani Burger on \"Bloomberg Deals.\" Unrivaled, the 3-on-3 women’s basketball league founded by WNBA stars Breanna Stewart and Napheesa Collier. The league, founded in 2023, now has a valuation of $650 million, nearly doubling from September 2025. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "UK Starts Selling Plug-In Solar Panels at Argos to Lower Bills",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/uk-starts-selling-plug-in-solar-panels-at-argos-to-lower-bills",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T21:30:00.000Z",
-      "kind": "news",
-      "summary": "The UK will become the latest European country to sell plug-in solar panels, with Argos Ltd. and UKSOL Ltd. offering them as early as Thursday and other shops following in the coming weeks.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "How Power Constraints Are Shaping the Future of AI Data Center Growth - Investing News Network",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSDVLYmg2TVVGNlRaNUxSQjdWamtWYml6ald2UTIwMXZGdFRvQXdBamhtME5tUEhaMXhwZWJsZE8wVTNKRDNrbXFjR3lYM1ZLUTA2N01rS1BUdk5nWXlYeWplaHloSTZUWndyd3M5UmJWYnppU08yXzFzQUdpQTVkX1BDNUQzSmJ4ZjRtWG81SFE2RTJibFh0X0hydmc?oc=5",
       "source": "Investing News Network",
@@ -1523,6 +1501,30 @@
       "publishedAt": "2026-08-26T21:37:39.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Unrivaled CEO Discusses New Funding, Expansion",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-26/unrivaled-ceo-discusses-new-funding-expansion-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-26T21:31:25.000Z",
+      "kind": "news",
+      "summary": "Alex Bazzell, CEO and co-founder Unrivaled, joins Dani Burger on \"Bloomberg Deals.\" Unrivaled, the 3-on-3 women’s basketball league founded by WNBA stars Breanna Stewart and Napheesa Collier. The league, founded in 2023, now has a valuation of $650 million, nearly doubling from September 2025. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "UK Starts Selling Plug-In Solar Panels at Argos to Lower Bills",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/uk-starts-selling-plug-in-solar-panels-at-argos-to-lower-bills",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-26T21:30:00.000Z",
+      "kind": "news",
+      "summary": "The UK will become the latest European country to sell plug-in solar panels, with Argos Ltd. and UKSOL Ltd. offering them as early as Thursday and other shops following in the coming weeks.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1581,6 +1583,17 @@
       "publishedAt": "2026-08-26T21:21:07.000Z",
       "kind": "news",
       "summary": "Bloomberg's Laura Benitez joins Dani Burger on \"Bloomberg Deals.\" Private equity managers are using structured equity deals to placate investors frustrated by a lack of cash returns, as many firms struggle to exit investments and send money back to investors. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Bill Gates: AI will either be ‘greatest equalizer’ or ‘worst source of injustice’ - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYnl6NVVpU3pqOEl2eENJYVkxX2RidHpUZXhES2Y5czBGUUlVdlU2Y05XMzBiVHBsb2N0RnFzTUl3d0tkQ05yTHdPOWpUdlhJUHNKV011ZG80SXc0TFhVWV9BUlFaOWkxSkdlQ2NyQkJnU293bnVNRWpKZkxaVkxsMG15blF5Uk1nR3JNTURaVnJTZmfSAZgBQVVfeXFMTUVHUmVVcEY4aFU0ZlBPNldwYWc5MkphR0h0TEVQeUZzdGYxR0pFbUNSOUFQWDhMWTFwSUFzdWZ1ekxjOWdOZjl3MnY2MjZVSUhDVEw0Qk9IRUNWdXdLUkZpNWdBUFo0bWc3cEM0dGtSdWZRNE5mVlZsdTFoSTFjenRiNEo1VEtRRkRFSWRXaGt0Z09iS04wdXY?oc=5",
+      "source": "The Hill",
+      "publishedAt": "2026-08-26T21:19:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1906,28 +1919,6 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVzVZckV2QWFDb2xsVWN6OGhuamVpbENEQTZxZWk3SjFxVWxhSlVWeERya1lGM0dzbGx0RGlsMU1kLWhxcFQxVldKZThrR01CUS1Gcnhya0NEMGk2aklKMnZIRHIzZlNlTWRIekdlQ19jaU5NczBNUmpqY1hWVlVTbTFVclF2dWRGUVZ3SUN2NFp4OXA3QktYcW5LWWNHZWtmMDBxVFItc2FBS3Iy?oc=5",
       "source": "Bloomberg.com",
       "publishedAt": "2026-08-26T17:02:32.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "NuScale Power's Huge AI Data Center Tailwind Faces a Critical Test - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWHFOeXdINHhQbmk5S1lZa2tvOGR3enh3aUw4V1NQLWNGdlVVcGdYVTZ5eG9NOWNJU1dJZkZoaFZ3S0E0RkNVclgzVWNfLS04LVVqRlppVWpoak9VOHN2M1MzMzl1UlVsMWVSZk5VV0I4R0NGZU9aaVFHNWk1eFF3SFVxNk56R3dxUjR0VHRxbFhQZ2lVMmhz?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-26T16:56:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China’s Z.AI Made Ox Alpha Stealth Model That Rivals DeepSeek - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcFAzZElBMXB2bzloV0FDMnV0ZGE3QjBKb1RTT3JMWVNZTEJaUzdoY0dFM2lGWFRoejJWMUhWcS1kSHpSbG5YVjh5VElENTVOZW82ODQ3SW1heHc2cUhOVHBxOFJTd0JLaXFnT3kyRXVjUmlJSWhDWEhnREZSdWxydHB1MjdFQXJEQXlEQVFhZ1dobWtNVkEzT3c5VDJaanoxbkduWHRFTGd4bzBQa0dNdmd3?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-26T16:54:19.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

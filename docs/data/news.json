@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T01:01:55.371Z",
+  "generatedAt": "2026-08-27T01:31:58.414Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -35,30 +35,8 @@
       },
       "tier": 2,
       "related": [],
-      "score": 78,
+      "score": 68,
       "summary": "Fact Sheet: President Donald J. Trump Declares a National Emergency to Secure America’s Bulk-Power System"
-    },
-    {
-      "title": "$FRMI 5.99 avg and targeting 7.5",
-      "url": "https://stocktwits.com/StockAuthority/message/662922333",
-      "source": "@StockAuthority on StockTwits",
-      "publishedAt": "2026-08-26T19:08:16.000Z",
-      "kind": "social",
-      "credibility": {
-        "score": 50,
-        "trust": "medium",
-        "reasons": [
-          "46,785 followers",
-          "3 likes"
-        ]
-      },
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 70,
-      "summary": "$FRMI 5.99 avg and targeting 7.5"
     },
     {
       "title": "$FRMI excellent buying area, AI power w catalyst ahead of Tier 1 guarantor news could spike it 30% or more",
@@ -81,6 +59,28 @@
       "related": [],
       "score": 60.5,
       "summary": "$FRMI excellent buying area, AI power w catalyst ahead of Tier 1 guarantor news could spike it 30% or more"
+    },
+    {
+      "title": "$FRMI 5.99 avg and targeting 7.5",
+      "url": "https://stocktwits.com/StockAuthority/message/662922333",
+      "source": "@StockAuthority on StockTwits",
+      "publishedAt": "2026-08-26T19:08:16.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "46,785 followers",
+          "3 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 60,
+      "summary": "$FRMI 5.99 avg and targeting 7.5"
     },
     {
       "title": "$FRMI",
@@ -929,12 +929,25 @@
   ],
   "related": [
     {
-      "title": "Jensen Huang defends Nvidia's growing financial support for AI ecosystem, says 'the risk is low'",
-      "url": "https://www.cnbc.com/2026/08/26/jensen-huang-defends-nvidias-growing-financial-support-for-ai-ecosystem-says-the-risk-is-low-.html",
+      "title": "CNBC Daily Open: Nvidia is selling more shovels than ever in the AI gold rush - CNBC",
+      "url": "https://www.cnbc.com/2026/08/27/cnbc-daily-open-nvidia-ai-results.html",
       "source": "CNBC",
-      "publishedAt": "2026-08-27T00:53:55.000Z",
+      "publishedAt": "2026-08-27T01:11:00.000Z",
       "kind": "news",
-      "summary": "Nvidia CEO Jensen Huang defended the chipmaker’s growing role in financing AI companies, calling its investments a “once in a generation” opportunity.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "Nvidia reported results that beat expectations, but it also expects revenue to grow another 70% in fiscal 2028."
+    },
+    {
+      "title": "Nvidia’s Profit Doubles to $59.69 Billion Thanks to A.I. Spending - The New York Times",
+      "url": "https://www.nytimes.com/2026/08/26/technology/nvidia-profit-ai-doubles-earnings.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-27T01:05:58.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -946,9 +959,37 @@
       "title": "Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast",
       "url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
       "source": "CNBC",
-      "publishedAt": "2026-08-27T00:53:23.000Z",
+      "publishedAt": "2026-08-27T01:02:43.000Z",
       "kind": "news",
       "summary": "Nvidia CEO Jensen Huang did it again.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia Discussed Buying AI Startup Hugging Face, Insider Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/nvidia-discussed-buying-ai-startup-hugging-face-insider-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T00:56:54.000Z",
+      "kind": "news",
+      "summary": "Nvidia Corp. held talks about acquiring Hugging Face in a deal that would potentially value the AI startup at more than $13 billion, according to Business Insider.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Jensen Huang defends Nvidia's growing financial support for AI ecosystem, says 'the risk is low'",
+      "url": "https://www.cnbc.com/2026/08/26/jensen-huang-defends-nvidias-growing-financial-support-for-ai-ecosystem-says-the-risk-is-low-.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T00:53:55.000Z",
+      "kind": "news",
+      "summary": "Nvidia CEO Jensen Huang defended the chipmaker’s growing role in financing AI companies, calling its investments a “once in a generation” opportunity.",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -971,6 +1012,20 @@
       "score": 75
     },
     {
+      "title": "Nvidia has been in talks to acquire Hugging Face for more than $13 billion - Business Insider",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "source": "Business Insider",
+      "publishedAt": "2026-08-27T00:36:55.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "Nvidia has held talks to acquire Hugging Face for more than $13 billion as the chip giant expands its AI dealmaking."
+    },
+    {
       "title": "Over 1,000 AI agents worked together in OpenAI hack, report reveals - The Washington Post",
       "url": "https://www.washingtonpost.com/technology/2026/08/26/openai-says-its-ai-consistently-tries-cheat/",
       "source": "The Washington Post",
@@ -981,7 +1036,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia’s 70% growth forecast puts it on track to become tech’s No. 2 company by revenue",
@@ -995,7 +1050,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Building and deploying AI is very capital intensive, says Nvidia CEO Jensen Huang - CNBC",
@@ -1008,8 +1063,21 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Nvidia CEO Jensen Huang joins 'Mad Money' host Jim Cramer to talk the tech giant's second quarter results, competition in the semiconductor space, the state of the AI trade, and more."
+    },
+    {
+      "title": "Bill Gates’ AI Warning and Nvidia’s Boffo Quarter - The Information",
+      "url": "https://www.theinformation.com/newsletters/the-briefing/bill-gates-ai-warning-nvidias-boffo-quarter",
+      "source": "The Information",
+      "publishedAt": "2026-08-27T00:01:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
     },
     {
       "title": "Watch Nvidia Predicts AI-Fueled Surge Will Extend Into 2028 - Bloomberg",
@@ -1148,19 +1216,6 @@
       "score": 65
     },
     {
-      "title": "Nvidia’s Profit Doubles to $59.69 Billion Thanks to A.I. Spending - The New York Times",
-      "url": "https://www.nytimes.com/2026/08/26/technology/nvidia-profit-ai-doubles-earnings.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-26T22:48:10.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "Exclusive | Google Moves AI-Responsibility Team Out of DeepMind Lab in Latest Shake-Up - WSJ",
       "url": "https://www.wsj.com/tech/ai/google-moves-ai-responsibility-team-out-of-deepmind-lab-in-latest-shake-up-ed01e40c",
       "source": "WSJ",
@@ -1170,19 +1225,6 @@
       "tickers": [],
       "related": [
         "GOOGL"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Watch DataBank’s Incoming CEO on AI Buildout, Nvidia Earnings - Bloomberg",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/databank-s-incoming-ceo-on-ai-buildout-nvidia-earnings-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T22:25:08.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
       ],
       "score": 65
     },
@@ -1220,19 +1262,6 @@
       "publishedAt": "2026-08-26T22:15:36.000Z",
       "kind": "news",
       "summary": "Aswath Damodaran, Professor of Finance at NYU Stern School of Business, discusses the evolving landscape of AI investments following Nvidia's latest earnings report. He describes the current phase as AI's \"bar mitzvah moment,\" where investors are shifting from valuing companies based on future promises to requiring concrete evidence of progress. He speaks with Romaine Bostick & Mandeep Singh on \"The Close.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nasdaq Futures, AI Stocks Rise on Nvidia’s Outlook: Markets Wrap - Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T22:10:37.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1282,19 +1311,6 @@
       "score": 65
     },
     {
-      "title": "Watch Tech Billionaire Steve Case on AI Buildout, Nvidia Role - Bloomberg",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/tech-billionaire-steve-case-on-ai-buildout-nvidia-role-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T22:07:27.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "Nvidia Results Impress, But Shares Fall | The Close 8/26/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-08-26/the-close-8-26-2026-video",
       "source": "Bloomberg",
@@ -1321,19 +1337,6 @@
         "NVDA"
       ],
       "score": 65
-    },
-    {
-      "title": "Nvidia Reports Record Sales (Again) - WSJ",
-      "url": "https://www.wsj.com/tech/ai/nvidia-reports-record-sales-again-6bd8461c",
-      "source": "WSJ",
-      "publishedAt": "2026-08-26T21:45:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
     }
   ],
   "general": [
@@ -1350,12 +1353,60 @@
       "score": 60
     },
     {
+      "title": "Activist Tests Samsung Affiliate Directors With Unusual S-1 Bid",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/activist-tests-samsung-affiliate-directors-with-unusual-s-1-bid",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T01:00:00.000Z",
+      "kind": "news",
+      "summary": "An activist investor has offered a 45% premium for Samsung affiliates’ stakes in S-1 Corp., setting up an early test of how board directors handle their expanded fiduciary duties under South Korea’s revised corporate law.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "RBI Is Showing Up Whenever Rupee Weakens in Intervention Shift",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/rbi-is-showing-up-whenever-rupee-weakens-in-intervention-shift",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T01:00:00.000Z",
+      "kind": "news",
+      "summary": "India’s central bank is intensifying efforts to support the rupee, emboldened by a jump in its foreign-exchange reserves to contest the pressure from higher oil prices.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Meta Settlement Sparks Concerns That Teens Can Evade Safeguards",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/meta-settlement-sparks-concerns-that-teens-can-evade-safeguards",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T00:54:29.000Z",
+      "kind": "news",
+      "summary": "How does a company know for sure if a kid is a kid on the internet?",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "India Issues Flood Alert as 133 Citizens Missing in Nepal Deluge",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/india-issues-flood-alert-as-133-citizens-missing-in-nepal-deluge",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T00:53:29.000Z",
+      "kind": "news",
+      "summary": "India put parts of two of its northern states on high alert as floodwaters from neighboring Nepal headed toward the border, while 133 citizens were among tourists missing after catastrophic flash floods swept through the Himalayan nation.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "BOK Delivers Back-to-Back Rate Hike to Curb Inflation Risks",
       "url": "https://www.bloomberg.com/news/articles/2026-08-27/bok-delivers-back-to-back-rate-hike-to-curb-inflation-risks",
       "source": "Bloomberg",
       "publishedAt": "2026-08-27T00:52:23.000Z",
       "kind": "news",
-      "summary": "The Bank of Korea raised its benchmark interest rate at a second consecutive meeting, moving to contain inflation risks fueled by stronger-than-expected economic growth amid an unprecedented semiconductor boom.",
+      "summary": "The Bank of Korea raised its benchmark interest rate for a second consecutive meeting, moving to contain inflation risks fueled by stronger-than-expected economic growth amid an unprecedented semiconductor boom. The won nudged higher, adding to gains in the run-up to the decision.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1374,6 +1425,17 @@
       "score": 60
     },
     {
+      "title": "Bill Gates Is Warning That A.I. Is More Dangerous Than Big Tech Will Admit - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpdU40bG1VdWJuMWJGR3NrTTloZzVNV1V2VlBBNTQ1LW40UkxqQUV0cWV5a1NOX2hSLVhWVkladllLaUR6RWZsSXQwZ2hEckhJUUx0c1h3elFrWHN1MXhXMnVxQm9GV1RNaXAwbThoU3JKSTBoeHNVdjNB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-27T00:24:04.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "CrowdStrike's quarter shows AI is a cybersecurity tailwind, not a threat",
       "url": "https://www.cnbc.com/2026/08/26/crowdstrikes-shows-ai-is-a-cybersecurity-tailwind-not-a-threat.html",
       "source": "CNBC",
@@ -1383,7 +1445,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Cleveland Clinic President Discusses AI Summit for Health-Care Professionals - The ASCO Post",
@@ -1394,19 +1456,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Kioxia Plans New Chip Facility in Japan to Meet AI Memory Demand",
+      "title": "Kioxia Plans New Chip Fab in Japan to Meet AI Memory Demand",
       "url": "https://www.bloomberg.com/news/articles/2026-08-27/kioxia-plans-new-chip-facility-in-japan-to-meet-ai-memory-demand",
       "source": "Bloomberg",
       "publishedAt": "2026-08-27T00:06:53.000Z",
       "kind": "news",
-      "summary": "Kioxia Holdings Corp. is building a new fabrication facility at its manufacturing site in Japan’s northern prefecture of Iwate, people familiar with the matter said, ratcheting up production capacity to meet sustained AI-related demand for storage.",
+      "summary": "Kioxia Holdings Corp. is building a new chipmaking plant in northern Japan, ratcheting up production capacity to meet climbing AI-related demand for storage.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
@@ -1456,12 +1518,12 @@
       "score": 50
     },
     {
-      "title": "Gold Consolidates Above $4,600 as Investors Weigh Fed Rate Path",
+      "title": "Gold Consolidates Near $4,600 as Investors Weigh Fed Rate Path",
       "url": "https://www.bloomberg.com/news/articles/2026-08-26/gold-consolidates-above-4-600-as-investors-weigh-fed-rate-path",
       "source": "Bloomberg",
       "publishedAt": "2026-08-26T23:48:19.000Z",
       "kind": "news",
-      "summary": "Gold consolidated above $4,600 an ounce as investors weighed the Federal Reserve’s approach to stubborn inflation ahead of the annual Jackson Hole gathering this week.",
+      "summary": "Gold consolidated near $4,600 an ounce as investors weighed the Federal Reserve’s approach to stubborn inflation ahead of the annual Jackson Hole gathering this week.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1646,35 +1708,11 @@
       "score": 50
     },
     {
-      "title": "Revolution CEO Steve Case Says AI Driving Shift to Durable Assets",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/steve-case-says-ai-driving-shift-to-durable-assets-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T21:44:28.000Z",
-      "kind": "news",
-      "summary": "Revolution CEO Steve Case says AI will disrupt a wide range of industries and business models, advising investors to seek assets that have better durability. Speaking with Romaine Bostick on \"Bloomberg's The Close,\" Case points to real estate and hospitality as areas attracting investment. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Waystar turns agentic AI loose on claims, denials, and documentation - The Next Web",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTklSNGhlZWtPV2prSElQajFhR3FpdUU3ZnVpM19iTkJBbGF4NWFHMUFseFNaSk9ldGZHbldwNjlBSTE3T1hGeEZnSkNQdTBheEhqenlrSVNwZVZnUS02Y0lZWExaQ2V2NDFLWkJaRHZ3cnJwdEprU24yblZORVpYM1VfcHhkeW0ya2J3Q0loWjUzeGM?oc=5",
       "source": "The Next Web",
       "publishedAt": "2026-08-26T21:44:16.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta’s Monumental Settlement",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/opinion-meta-s-monumental-settlement-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T21:40:56.000Z",
-      "kind": "news",
-      "summary": "Finally, what some said could never be done has happened: Meta has been forced to make real changes to protect the millions of young people who use its products. While the amount that the company agreed to pay to settle a lawsuit brought by several states — up to $18 billion — is large, the real impact of the settlement may lie in what other social media apps do next, Bloomberg Opinion Dave Lee says. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1746,17 +1784,6 @@
       "publishedAt": "2026-08-26T21:21:07.000Z",
       "kind": "news",
       "summary": "Bloomberg's Laura Benitez joins Dani Burger on \"Bloomberg Deals.\" Private equity managers are using structured equity deals to placate investors frustrated by a lack of cash returns, as many firms struggle to exit investments and send money back to investors. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bill Gates: AI will either be ‘greatest equalizer’ or ‘worst source of injustice’ - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYnl6NVVpU3pqOEl2eENJYVkxX2RidHpUZXhES2Y5czBGUUlVdlU2Y05XMzBiVHBsb2N0RnFzTUl3d0tkQ05yTHdPOWpUdlhJUHNKV011ZG80SXc0TFhVWV9BUlFaOWkxSkdlQ2NyQkJnU293bnVNRWpKZkxaVkxsMG15blF5Uk1nR3JNTURaVnJTZmfSAZgBQVVfeXFMTUVHUmVVcEY4aFU0ZlBPNldwYWc5MkphR0h0TEVQeUZzdGYxR0pFbUNSOUFQWDhMWTFwSUFzdWZ1ekxjOWdOZjl3MnY2MjZVSUhDVEw0Qk9IRUNWdXdLUkZpNWdBUFo0bWc3cEM0dGtSdWZRNE5mVlZsdTFoSTFjenRiNEo1VEtRRkRFSWRXaGt0Z09iS04wdXY?oc=5",
-      "source": "The Hill",
-      "publishedAt": "2026-08-26T21:19:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1869,18 +1896,6 @@
       "score": 50
     },
     {
-      "title": "Victory Capital Agrees to Buy First Eagle For $7B",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/victory-capital-agrees-to-buy-first-eagle-for-7b-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T20:52:27.000Z",
-      "kind": "news",
-      "summary": "Bloomberg's Loukia Gyftopoulou joins Dani Burger on \"Bloomberg Deals.\" Victory Capital Holdings Inc. agreed to buy First Eagle Investments in a deal that would propel the combined firm’s assets under management to about $571 billion. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Salesforce, Anthropic expand partnership as Benioff responds to ‘SaaSpocalypse’ concerns",
       "url": "https://www.cnbc.com/2026/08/26/salesforce-anthropic-partnership-claudeforce.html",
       "source": "CNBC",
@@ -1909,18 +1924,6 @@
       "source": "WSJ",
       "publishedAt": "2026-08-26T20:24:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "CrowdStrike Shares Soar After Sales Outlook Beats Estimates",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/crowdstrike-beats-annual-revenue-forecasts-as-ai-threats-rise",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T20:12:21.000Z",
-      "kind": "news",
-      "summary": "CrowdStrike Holdings Inc.’s shares jumped in late trading after the company projected revenue for the full year that exceeded analysts’ estimates, evidence that the cybersecurity industry continues to benefit from AI-fueled demand.",
       "tier": 1,
       "tickers": [],
       "related": [],

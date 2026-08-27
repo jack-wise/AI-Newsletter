@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T18:01:57.890Z",
+  "generatedAt": "2026-08-27T18:32:00.466Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,28 +17,25 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
-      "title": "$FRMI these cheap prices won’t last, $NVDA up about 8% today, get it cheap while you can!",
-      "url": "https://stocktwits.com/StockAuthority/message/663008529",
+      "title": "$FRMI added 5.36 shares here. Swing till Tier 1 news",
+      "url": "https://stocktwits.com/StockAuthority/message/663033950",
       "source": "@StockAuthority on StockTwits",
-      "publishedAt": "2026-08-27T15:31:55.000Z",
+      "publishedAt": "2026-08-27T18:27:35.000Z",
       "kind": "social",
       "credibility": {
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "46,788 followers",
-          "1 likes"
+          "46,788 followers"
         ]
       },
       "tier": 2,
       "tickers": [
         "FRMI"
       ],
-      "related": [
-        "NVDA"
-      ],
-      "score": 70,
-      "summary": "$FRMI these cheap prices won’t last, $NVDA up about 8% today, get it cheap while you can!"
+      "related": [],
+      "score": 80,
+      "summary": "$FRMI added 5.36 shares here. Swing till Tier 1 news"
     },
     {
       "title": "Buy the dip now or wait?",
@@ -659,19 +656,6 @@
       "summary": "Detailed price information for Fermi Inc (FRMI-Q) from The Globe and Mail including charting and trades."
     },
     {
-      "title": "Fermi Says It Received US Subpoena Tied to Project Matador - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-14T07:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
       "title": "Why have…",
       "url": "https://www.reddit.com/r/FRMI/comments/1vx68zi/why_have/",
       "source": "r/FRMI",
@@ -912,9 +896,45 @@
       "related": [],
       "score": 38,
       "summary": "Why are you…"
+    },
+    {
+      "title": "Texas Is Sending a Clear Message on AI Infrastructure. Fermi Was Built for It.",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vtsij7/texas_is_sending_a_clear_message_on_ai/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-20T18:58:27.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/itssbri",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "Texas Is Sending a Clear Message on AI Infrastructure. Fermi Was Built for It."
     }
   ],
   "related": [
+    {
+      "title": "Nvidia jumps 9% after blockbuster earnings boost AI confidence",
+      "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T18:03:54.000Z",
+      "kind": "news",
+      "summary": "Nvidia shares rose on Thursday after the chip giant's revenue guidance reassured investors that AI demand will remain strong.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
     {
       "title": "Watch Nvidia Ignites AI Rally Ahead of Jackson Hole | Open Interest 8/27/2026 - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/videos/2026-08-27/open-interest-8-27-2026-video",
@@ -956,61 +976,6 @@
       "score": 75
     },
     {
-      "title": "Nvidia Ignites AI Rally Ahead of Jackson Hole | Open Interest 8/27/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-27/open-interest-8-27-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-27T17:29:12.000Z",
-      "kind": "news",
-      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Nvidia delivers a massive AI-driven forecast, lifting markets and fueling debate over the next wave of adoption. Todd McKinnon explores AI agent security and enterprise demand, while a preview of Kevin Warsh's closely watched Jackson Hole appearance. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Nvidia jumps nearly 10% after blockbuster earnings boost AI confidence",
-      "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-27T17:15:36.000Z",
-      "kind": "news",
-      "summary": "Nvidia shares rose on Thursday after the chip giant's revenue guidance reassured investors that AI demand will remain strong.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "OpenAI, Anthropic Urge Cyber Defense Action as AI Models Improve",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/openai-anthropic-urge-cyber-defense-action-as-ai-models-improve",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-27T17:09:20.000Z",
-      "kind": "news",
-      "summary": "Artificial intelligence companies OpenAI and Anthropic PBC, along with more than 100 other tech and financial services organizations, warned that businesses and governments must do more to prepare for and defend against AI-enabled hacks.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75
-    },
-    {
-      "title": "OpenAI and Other Tech Giants Call for Greater Defense Against A.I. Attacks - The New York Times",
-      "url": "https://www.nytimes.com/2026/08/27/technology/openai-letter-ai-attacks.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-27T17:03:32.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75
-    },
-    {
       "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI - TechCrunch",
       "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "source": "TechCrunch",
@@ -1026,10 +991,51 @@
       "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats."
     },
     {
-      "title": "AI giant Nvidia’s stock jumps after strong second quarter earnings - The Hill",
-      "url": "https://thehill.com/policy/technology/6054988-nvidia-stock-leaps-q2-earnings/",
-      "source": "The Hill",
-      "publishedAt": "2026-08-27T16:31:00.000Z",
+      "title": "Nvidia Ignites AI Rally Ahead of Jackson Hole | Open Interest 8/27/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-27/open-interest-8-27-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T17:29:12.000Z",
+      "kind": "news",
+      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Nvidia delivers a massive AI-driven forecast, lifting markets and fueling bets the AI boom still has legs. Bond markets on edge ahead of Kevin Warsh’s Jackson Hole debut. Plus, Okta CEO Todd McKinnon weighs in on AI agent security and enterprise demand. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
+      "title": "OpenAI, Anthropic Urge Cyber Defense Action as AI Models Improve",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/openai-anthropic-urge-cyber-defense-action-as-ai-models-improve",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T17:09:20.000Z",
+      "kind": "news",
+      "summary": "Artificial intelligence companies OpenAI and Anthropic PBC, along with more than 100 other tech and financial services organizations, warned that businesses and governments must do more to prepare for and defend against AI-enabled hacks.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "OpenAI and Other Tech Giants Call for Greater Defense Against A.I. Attacks - The New York Times",
+      "url": "https://www.nytimes.com/2026/08/27/technology/openai-letter-ai-attacks.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-27T17:03:32.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Tech stocks bolster Wall Street as Nvidia quells AI growth concerns - Reuters",
+      "url": "https://www.reuters.com/business/nasdaq-futures-take-lead-after-nvidia-forecast-refuels-ai-trade-2026-08-27/",
+      "source": "Reuters",
+      "publishedAt": "2026-08-27T16:58:25.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1039,10 +1045,10 @@
       "score": 65
     },
     {
-      "title": "Tech stocks bolster Wall Street as Nvidia quells AI growth concerns - Reuters",
-      "url": "https://www.reuters.com/business/nasdaq-futures-take-lead-after-nvidia-forecast-refuels-ai-trade-2026-08-27/",
-      "source": "Reuters",
-      "publishedAt": "2026-08-27T16:15:34.000Z",
+      "title": "AI giant Nvidia’s stock jumps after strong second quarter earnings - The Hill",
+      "url": "https://thehill.com/policy/technology/6054988-nvidia-stock-leaps-q2-earnings/",
+      "source": "The Hill",
+      "publishedAt": "2026-08-27T16:31:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1092,6 +1098,19 @@
       ],
       "score": 65,
       "summary": "Nvidia Corp. launched a political action committee Thursday to dole out donations to federal candidates, the company’s latest move in amassing its influence apparatus in Washington."
+    },
+    {
+      "title": "Watch Nvidia Sees AI-Fueled Demand Boosting Sales 70% Next Year - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-27/nvidia-sees-70-ai-fueled-demand-sales-boost-next-year-video",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-27T15:05:41.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
     },
     {
       "title": "Nvidia Sees AI-Fueled Demand Boosting Sales 70% Next Year",
@@ -1164,18 +1183,58 @@
       "score": 65
     },
     {
-      "title": "S&P 500 Rises as Nvidia Spurs Tech Rally, All Other Sectors Down",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-stock-futures-climb-as-nvidia-s-outlook-lifts-tech-sector",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-27T12:22:28.000Z",
+      "title": "Nvidia Forms PAC to Bolster Its Influence on Chips and AI Policy in Washington - Barron's",
+      "url": "https://www.barrons.com/articles/nvidia-employee-pac-chips-ai-federal-policy-182a296b",
+      "source": "Barron's",
+      "publishedAt": "2026-08-27T18:26:00.000Z",
       "kind": "news",
-      "summary": "A blockbuster outlook from chip darling Nvidia Corp. is providing a boost to tech stocks and lifting key equity indexes, which is offsetting broad-based weakness.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65
+      "score": 55
+    },
+    {
+      "title": "Nvidia's Next Massive AI Move Involves a $13 Billion Acquisition—and a Dancing Robot Duck - inc.com",
+      "url": "https://www.inc.com/kit-eaton/nvidias-next-massive-ai-move-involves-a-13-billion-acquisition-and-a-dancing-robot-duck/91397333",
+      "source": "inc.com",
+      "publishedAt": "2026-08-27T18:21:56.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Nvidia (NASDAQ:NVDA): Can AI Demand Keep the Buildout Strong? - Kalkine Media",
+      "url": "https://kalkinemedia.com/us/stocks/artificial-intelligence/nvidia-nasdaqnvda-can-ai-demand-keep-the-buildout-strong",
+      "source": "Kalkine Media",
+      "publishedAt": "2026-08-27T18:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia (NASDAQ:NVDA): Can AI Demand Keep the Buildout Strong?"
+    },
+    {
+      "title": "Nvidia's AI Boom Is Still Accelerating. Its Revenue Could Soon Leave Apple And Google Behind. - International Business Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc2VTZmNrOFg0RjlFTnpOX2tfMEZfU3Fac0taSEg4Y05zbnB3V2Y4S1N6VndjSVhkVUhGRS1jLWQxakdEa1FGZ01aYzUwYnUxQkxKZGdtRGQ3ZTJUcHlMTFJhSl80QnRFQllPZ3JNVUR2a0dLZlFWZUpNTkVQLWNCRFBpc05RZWM2RVBIOFZrU3dsVTRDTk5oYWgyLTl0VUhPTzM2MlpLNER5WGI3djFhZkJqU2RUZw?oc=5",
+      "source": "International Business Times",
+      "publishedAt": "2026-08-27T17:54:58.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "score": 55
     },
     {
       "title": "Nvidia’s Blockbuster Earnings: Here’s the Biggest Risk the AI Chipmaker Faces, Even as Sales Soar - MarketWise",
@@ -1194,7 +1253,7 @@
       "title": "A call for collective action on cyber defense - OpenAI",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RTFFNWXFnX1BoTG01SWNzTkcxZGI3SXpyalA5SEhEeTRHTWVLNjNtVTdXOGx5X3kzbk80TzhjRm8wdGhaWWlKMC1FQW5sYUZrUEp3UUxR?oc=5",
       "source": "OpenAI",
-      "publishedAt": "2026-08-27T17:39:06.000Z",
+      "publishedAt": "2026-08-27T17:37:30.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1218,19 +1277,6 @@
       "score": 55
     },
     {
-      "title": "OpenAI’s Models Went Rogue. Investigating Them Required More AI - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUlgxMWpockg1SkJwbUVKVENYVHRaM2pXZHg4al9STXJTZ2ttWk5DMFlCOEE1cGE5V25YZEc0LUlWajRGM2VFNlRlQ051dy10Q0xJZVJGdUxzUFhuTjlYZnpCcjVSbm9oenF5LW5DV1hncVNLVmNrZHROS3VTbzV3ag?oc=5",
-      "source": "Time Magazine",
-      "publishedAt": "2026-08-27T17:14:44.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
       "title": "AZIO AI expands NVIDIA GPU deal with Power Champion; pipeline hits $307M - Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQVZoVUhLbUdEXzN5WmlobkhhSGFFdGlYU3pKZ0I3LTlzclNPZmp0aFJJNmwzVG14STdENEgtZ3M5OVd4aUYwOG1PWE4wMGhtaGt1b1dRcVNPSk5LSW1UTnJlZ3lSWlJ4VG8xUE1MaDh5WjZsT1RiMXpvcGp1S1gzYk1ELUQyaW5XUGpIRjJRUk5PaTFqR2NRM1pqYjdrdW9Bb0Nxb3kzdEpPODN0?oc=5",
       "source": "Seeking Alpha",
@@ -1244,15 +1290,16 @@
       "score": 55
     },
     {
-      "title": "Alabama Demands Details From OpenAI About Rogue AI, Employee Concerns - WSJ",
-      "url": "https://www.wsj.com/pro/cybersecurity/alabama-demands-details-from-openai-about-rogue-ai-employee-concerns-3ef2a470",
-      "source": "WSJ",
-      "publishedAt": "2026-08-27T11:26:00.000Z",
+      "title": "S&P 500 Rises as Nvidia Spurs Tech Rally, All Other Sectors Down",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-stock-futures-climb-as-nvidia-s-outlook-lifts-tech-sector",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T12:22:28.000Z",
       "kind": "news",
+      "summary": "A blockbuster outlook from chip darling Nvidia Corp. is providing a boost to tech stocks and lifting key equity indexes, which is offsetting broad-based weakness.",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
       "score": 55
     },
@@ -1281,55 +1328,15 @@
         "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Nvidia’s $279 Billion Supply-Chain Gamble - WSJ",
-      "url": "https://www.wsj.com/tech/ai/nvidias-279-billion-supply-chain-gamble-cbe316d2",
-      "source": "WSJ",
-      "publishedAt": "2026-08-27T09:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "US Probes Apex Logistics Over Alleged Nvidia AI Chip Smuggling - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/us-probes-apex-logistics-over-alleged-nvidia-ai-chip-smuggling",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-27T08:24:05.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Over 1,000 AI agents worked together in OpenAI hack, report reveals - The Washington Post",
-      "url": "https://www.washingtonpost.com/technology/2026/08/26/openai-says-its-ai-consistently-tries-cheat/",
-      "source": "The Washington Post",
-      "publishedAt": "2026-08-27T05:22:43.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
     }
   ],
   "general": [
     {
-      "title": "Salesforce leads software rally, rocketing 20% on track for second-best day ever",
-      "url": "https://www.cnbc.com/2026/08/27/salesforce-stock-soars-on-track-for-second-best-day-ever.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-27T17:55:37.000Z",
+      "title": "Anthropic (Re-)Enlists for War - The American Prospect",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUTQwWEtoRlBQbmxEeGtqbHQ4dzhFQXUzOXYzUUx1YkRzbWJRaVkzWVNTbklTNkRUbWtkdkF3WloxWDhUS2NpU1FSWU1IaXp0dGU5VVdUaHFCNF8xZjVnQ3RBSFNkMlN4Ni1YbkhJOFVmVHhUTGwxcHhLZDM0RjFualRuZTM0emo2anc?oc=5",
+      "source": "The American Prospect",
+      "publishedAt": "2026-08-27T18:22:40.000Z",
       "kind": "news",
-      "summary": "Salesforce reported a strong beat on second-quarter earnings and announced an expanded AI partnership with Anthropic.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1339,9 +1346,104 @@
       "title": "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push",
       "url": "https://www.cnbc.com/2026/08/27/ai-cyber-defense-letter.html",
       "source": "CNBC",
-      "publishedAt": "2026-08-27T17:48:20.000Z",
+      "publishedAt": "2026-08-27T18:22:05.000Z",
       "kind": "news",
       "summary": "The letter also urged a coordinated government effort to make cyber defense accessible to critical infrastructure under pressure.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Russian Strikes on Kyiv 'Pure Terror, Pure War Crimes,' Says Former Ambassador",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-27/strikes-on-kyiv-pure-terror-pure-war-crimes-herbst-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T18:20:15.000Z",
+      "kind": "news",
+      "summary": "John Herbst, a former US ambassador to Ukraine now at the Atlantic Council's Eurasia Center, said that while Ukrainian strikes were weakening Russia's ability to conduct its war, Russia has 'no new tactics' and is resorting to killing civilians. Herbst described the most recent strikes on the Ukraine capital of Kyiv as 'pure terror, pure war crimes.' (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "How Meta’s $18 Billion Settlement Could Change Social Media",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/how-meta-s-18-billion-settlement-could-change-social-media",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T18:17:25.000Z",
+      "kind": "news",
+      "summary": "A flood of lawsuits against social media giants claim that by engineering their platforms to be hard to resist, the companies are causing serious harm to young users.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Okta's stock skyrockets 27%, CrowdStrike's surges 18% as rising AI threat boosts earnings",
+      "url": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T18:07:25.000Z",
+      "kind": "news",
+      "summary": "AI adoption is pushing customers to spend more on cybersecurity tools from companies such as CrowdStrike and Okta",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "SK Hynix CEO says Indiana will be key memory production base by 2030, first U.S. facility now underway",
+      "url": "https://www.cnbc.com/2026/08/27/sk-hynix-ceo-says-indiana-will-be-key-memory-production-base-by-2030.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T18:07:04.000Z",
+      "kind": "news",
+      "summary": "At the groundbreaking ceremony for SK Hynix's first U.S. facility, CEO Kwak Noh-Jung says Indiana will be a key memory production base by 2030.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Anthropic unveils new framework allowing AI agents to operate physical devices - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWhmNnhIejBEcG1zQWRzeWtHbVZCOUtZZmtraGJiNHdjVzdpU3liY2VfZTF0X3pUUl8tNWN1TXMxcTNqRk9xRXRTZ3VGQUV2MVl1MllqWHpCby1ua2R2VWJJR1hRUi1aTWJxQ1lXWHBEcklUb1hZS3dkTEZkSDFxUjNzbFFiZUktaXJ3WGJRUjF5RHROREJSd2c3N0RfRkNIbzNxd05GdnJ4VnZma0R5QU5QTEJwOG1aUmZuaERmMA?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-27T18:03:54.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Anthropic pushes into physical world with new standard to help AI agents operate machines",
+      "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T18:00:13.000Z",
+      "kind": "news",
+      "summary": "The Model Hardware Standard is initially available in a research preview, but Anthropic plans to open source it in the future.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Fed’s Collins Says Interest Rates Are Still Mildly Restrictive",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/fed-s-collins-says-interest-rates-are-still-mildly-restrictive",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T18:00:00.000Z",
+      "kind": "news",
+      "summary": "Federal Reserve Bank of Boston President Susan Collins said there’s still evidence the central bank’s current policy setting is restraining the US economy and helping to slow inflation.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Salesforce leads software rally, rocketing 20% on track for second-best day ever",
+      "url": "https://www.cnbc.com/2026/08/27/salesforce-stock-soars-on-track-for-second-best-day-ever.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T17:55:37.000Z",
+      "kind": "news",
+      "summary": "Salesforce reported a strong beat on second-quarter earnings and announced an expanded AI partnership with Anthropic.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1357,7 +1459,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bitcoin (BTC) Becomes Mainstream Thanks to IBIT, MSBT and ETF Process",
@@ -1369,7 +1471,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Nears Deal for Stake in Venezuela Oil Fields, Axios Says",
@@ -1381,7 +1483,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Jensen Huang says AI data centers can fix the very grid they’re straining - Business Insider",
@@ -1392,7 +1494,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Ask a Journalist: How Generative A.I. Is Changing Education - The New York Times",
@@ -1403,7 +1505,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Odd Lots: Kansas City Fed President on the Current State of Inflation",
@@ -1415,7 +1517,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Okta Shares Surge on Strong Earnings",
@@ -1427,7 +1529,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Major tech companies call for defensive surge to defeat AI-driven hacks - Reuters",
@@ -1436,17 +1538,6 @@
       "publishedAt": "2026-08-27T17:02:48.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "South Korea Creates 11 Electricity Zones to Slash AI Data Center Costs - Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMk9qS0tjb2o2aHZzR185YWFpRXpOYXA3bHpmVXNib1hzVXNkV3N6Zk5SRnRoTHZXN0FVYkg5NFR6NHMxWWxXcHBpSlJLQ1o2V2dXWGoxTVlWTURwZV9UbmlQVTdFeWU2N21mcHVZN1BKNXlKUGxFcEFnSGRkZ3pDc2pfN1o5VlpPcEF5UkFfOGhtZkYtVGFwdVZ0bFE2QmFjM2NMc3E0azVJWC03M0tBVExocWVfTUVlLWtvNDlKWQ?oc=5",
-      "source": "Tech Times",
-      "publishedAt": "2026-08-27T17:06:58.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1463,12 +1554,11 @@
       "score": 50
     },
     {
-      "title": "Okta's stock skyrockets 20%, CrowdStrike's surges 15% as rising AI threat boosts earnings",
-      "url": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-27T16:49:13.000Z",
+      "title": "Focus: As AI agents go rogue, cyber insurers are adapting their policies - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVRUeXAzYi1DWkw1Uno1dXNGdUo2NXlWVmt1Wk1Ob1lQNVNucTJVZ21TNEZQNU9qcmZweGJlV2xnTUFJWTFvbENkWlpyV3V4ekZRRzdfc1p4bnppXzRhd3hfdkQ4blp3eG1sNl9aajROWjA1SmxHVXJkZEFvMFkzNzk5ZXVWWWJ3Zi13bjdBV2t6ZVp6LXRfY0ZtX19ZdE1RUW9JNHFfWmVydkZ3c09WRl9MM0U?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-27T16:45:56.000Z",
       "kind": "news",
-      "summary": "AI adoption is pushing customers to spend more on cybersecurity tools from companies such as CrowdStrike and Okta",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1534,17 +1624,6 @@
       "score": 50
     },
     {
-      "title": "AI can detect heart disease in women using mammograms, study suggests - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV0MtOVFfZmlXTEVsRVoxSGdpRmZzdmkxcW9sYjFmR19yOVQwbXZPWHdsMDNiSTBZa2wtU3VkLVdrQ01QNEltNnZTUDFPOER5dXdPUEZsUDVnZlN5Z2wycml1d1B1WGtJNGQ4QktSRlpMOE5fZ2k2MllLYVFLTzh3N1RoMUdMQ194aS1BMkt4b0g?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-27T16:11:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "BofA’s Subramanian Takes ‘Flak’ for Street-Low S&P 500 Call",
       "url": "https://www.bloomberg.com/news/articles/2026-08-27/bofa-s-subramanian-takes-flak-for-street-low-s-p-500-call",
       "source": "Bloomberg",
@@ -1592,6 +1671,17 @@
       "score": 50
     },
     {
+      "title": "Some Scientists Have ‘Magic Hands’ in the Lab. This A.I. Is Learning Why. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVlJGVXBLc3hNRmt6N0laMG5iY2V3aDB1OXpJYmpKbEl2Xy00SjBPRlZMZUVnb1hwNHVkYURvN2pSS0k2TW1SQ1ZaYUxPaUhBaC1iZjR4azc0ZUNYQzY3clg5X3JLWnI0RDRLQ1J3YXBobTRhMEx4V2JKdjhTbS1MVmQtVkVGZTM5bWo5NWpB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-27T15:53:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Bloomberg Surveillance 8/27/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-08-27/bloomberg-surveillance-8-27-2026-video",
       "source": "Bloomberg",
@@ -1616,30 +1706,6 @@
       "score": 50
     },
     {
-      "title": "Fed-Treasury ‘Regime Change’ May Fuel Bond Rally, Citrini Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/fed-treasury-regime-change-may-fuel-bond-rally-citrini-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-27T15:27:32.000Z",
-      "kind": "news",
-      "summary": "The Treasury Department and Federal Reserve are moving toward a more coordinated approach that could shift government borrowing toward shorter-term debt and reduce the supply of longer-dated Treasuries, setting the stage for a rally in 30-year bonds, according to Citrini Research.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The Deal: Ryan Howard on Sports Investing and MLB’s Labor Fight",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-27/the-deal-ryan-howard-on-mlb-s-labor-fight-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-27T15:19:37.000Z",
-      "kind": "news",
-      "summary": "\"Five and a half years is the average career of a Major League Baseball player.\" On this episode of The Deal, Alex Rodriguez and Jason Kelly sit down to talk with Ryan Howard about salary caps for baseball players and how to make sure the average ball player also gets to have a payday. Listen wherever you get your podcasts (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "The Next AI Race Will Be Won on Infrastructure, Not Algorithms - The AI Journal",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaWJFUHUydHRzc1VVaFJraWtQUEkyWV9IdVdyYkw4Rmc1aC1xcm5GNDl4ck9KSHRDeG5VWTM4TkYyOTcwcFo4MjJHaGNTMGZyM0E5QWVQVlpVSlJ4bXlOXy1iVXlSMnAwWWotVU9pa1FLbTBJSmNSLUVoUXh6dzdNUktFRWp4M2tKZ1E?oc=5",
       "source": "The AI Journal",
@@ -1657,18 +1723,6 @@
       "publishedAt": "2026-08-27T15:09:12.000Z",
       "kind": "news",
       "summary": "SK Hynix Inc. held a groundbreaking ceremony Thursday for its advanced memory packaging facility in Indiana, marking a milestone in Washington’s expansive campaign to rebuild domestic supply chains and manufacturing for strategically important sectors.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Todd Boehly’s Insurer Vows to Restructure Collateral Loans",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-27/boehly-s-insurer-vows-to-restructure-collateral-loans-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-27T15:07:01.000Z",
-      "kind": "news",
-      "summary": "Security Benefit Life Insurance Co., the insurer controlled by Wall Street veteran Todd Boehly, said it will restructure its $14 billion stockpile of collateral loans after such assets drew scrutiny from regulators. Sridhar Natarajan has more. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1828,6 +1882,18 @@
       "score": 50
     },
     {
+      "title": "Private Jet Firm Vista Explores $1 Billion Europe IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/private-jet-firm-vista-explores-1-billion-europe-ipo",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T13:40:56.000Z",
+      "kind": "news",
+      "summary": "Vista Global Holding Ltd. is considering a European initial public offering that could raise more than $1 billion, people with knowledge of the matter said.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Romania’s Rating Downgrade Risks Grow After Wage Law Failure",
       "url": "https://www.bloomberg.com/news/articles/2026-08-27/romania-s-rating-downgrade-risks-grow-after-wage-law-failure",
       "source": "Bloomberg",
@@ -1840,68 +1906,12 @@
       "score": 50
     },
     {
-      "title": "Altrata Report Finds AI Investment Boom Drove Record Billionaire Wealth Gains in 2025 - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYzJqWWFjTV9yQno3UGo2bTYyMXRObVJNSDl6YWVzX1hKTElOUzdGc2tDdjh6Q2F6TGRnS2FmOFNTbnVKbVVnQXhaU1p1eF9MSFZ0bG5pUnFyRTh3ZnpTOS1RUVpaRHQ0TTAxUUtoVUlNZXJSMUdxVzVsSmJ0X0lNbG9YcUJJSGMxaEdIbzNxYW8zSDd2UWJORGFjVkp3Z3dqUlFRaV9PckNzX2wyb3NDdW5VU1c4N2Z6THZDN0ltTUdfbkFkaFdEY2FnR00zUW9TZHZZSHpUNWE?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-27T13:16:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "SpaceX’s Musk, David Sacks to Join Altman, Huang at G20 Event",
       "url": "https://www.bloomberg.com/news/articles/2026-08-27/spacex-s-musk-david-sacks-to-join-altman-huang-at-g20-event",
       "source": "Bloomberg",
       "publishedAt": "2026-08-27T13:14:56.000Z",
       "kind": "news",
       "summary": "SpaceX Chief Executive Officer Elon Musk, who ran a brazen campaign in Washington to cut government spending last year, and former White House AI czar David Sacks are scheduled to speak at a tech-focused Group of 20 ministerial meeting in North Carolina next week, along with Nvidia Corp.’s Jensen Huang and OpenAI’s Sam Altman, people familiar with the matter said.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Plaud Unveils Earbuds with 4G Connectivity in AI Gadgets Push - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTTFqZks4dEVJSXUwRXVMbjRKVXJ0NmpPS3ZrZUk4a0VNUmdNNlpJSkZDY3ktcG1YZEREclQteWR4dUhvaFloZV9QbDRJV1JLaklNa3pWV0tpSnNBMkNiTlNlcHlobVBsVE9yVHJodVRxWTl6OGp3TTJCYmxVdHdHZG9wTmQzTEZDMkNESTBzVkVGdUJyd1YzRmMwR18xN05iMGRyclZYcFdjU3lQbmdzdXFR?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-27T13:00:04.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Plaud Unveils Earbuds with 4G Connectivity in AI Gadgets Push",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/plaud-unveils-earbuds-with-4g-connectivity-in-ai-gadgets-push",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-27T13:00:04.000Z",
-      "kind": "news",
-      "summary": "Plaud Inc., a startup that makes note-taking devices, announced a pair of wireless, 4G-connected earbuds that lets users record conversations and complete tasks with artificial-intelligence assistants on the go, adding to a nascent category of gadgets built for the AI era.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "FingerMotion Sets Out New Management’s Strategic Plan with - GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOUGJidW11cE04SmJTNVJxd0MxamQ1SE1LWm10Nko1aEFob3kwbl94TnFyQ0dieEtLREc1RlBSeHdEZlRyUS1NNTVzeTk4R011WmtpNTFLSjJHcEFfdnJJQ0dvSnVXNGNnbklVcWdGU0JnVlpzZFhWLU9Vb2h2TFFWaWtUaWFCV2VXOG5wVFoyRjVVd0ZUSW5DZm9SbjhIM1RVZFp0QWtZd0Q1YUNPekctRDlKUW1Bb3hnN3VtMnVNbzhtLUtZdkxaMGZtR0ZkRFNpdEFtX0NOTEtNaFN0OU5zSEpKR2hRTHEtNEFvT3V4Nm15UVB2UG1wcDJzZFFSNmJ1QTBjcGJNZ190QkhiVjdOdHBhcnRTMjJrbHFpMWp5ODU3UHF0eTd1bjFB?oc=5",
-      "source": "GlobeNewswire",
-      "publishedAt": "2026-08-27T12:45:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Ravi Kumar S Recognized on TIME100 AI List for Shaping the Future of Enterprise AI - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNalBIWDgwM2JNN2dZQktLX2ZiQlFENUUwY2p4MVAyS3NrbVJxWjlEaGdwSzVRSkRYSE1nLWtST1VFWUQtODdBbUxoZ3VtSnI1OHJ3UWRPekZ2M3REdTNObC1zOVM4TE14TGJ5dE0zSlVLbGlrTHFQMmV6Q2w5dXBaRnJUMUtlYlg0eXl1bE9GaWkzZlNlUGxTNmxlYW83NjVqSzRwcWZBdC1zMXo5bUxDeWZPQ1lPZnJBVHpWVDBIYkhnbTQyczUzc3F0MXJXWXA2eHEzcw?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-08-27T12:43:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

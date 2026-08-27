@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T00:01:55.061Z",
+  "generatedAt": "2026-08-27T00:31:56.235Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Fact Sheet: President Donald J. Trump Declares a National Emergency to Secure America’s Bulk-Power System",
+      "url": "https://www.reddit.com/r/FRMI/comments/1vzeon4/fact_sheet_president_donald_j_trump_declares_a/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-08-27T00:24:49.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Tpatty343",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Fact Sheet: President Donald J. Trump Declares a National Emergency to Secure America’s Bulk-Power System"
+    },
     {
       "title": "$FRMI 5.99 avg and targeting 7.5",
       "url": "https://stocktwits.com/StockAuthority/message/662922333",
@@ -672,9 +694,9 @@
       "summary": "Detailed price information for Fermi Inc (FRMI-Q) from The Globe and Mail including charting and trades."
     },
     {
-      "title": "Fermi Says It Received US Subpoena Tied to Project Matador - Bloomberg.com",
+      "title": "Fermi Says It Received US Subpoena Tied to Project Matador - Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-08-14/fermi-says-it-received-us-subpoena-related-to-project-matador",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-14T07:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -903,36 +925,55 @@
       "related": [],
       "score": 38,
       "summary": "Three job postings today"
-    },
-    {
-      "title": "[August 20, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1vt8ttk/august_20_2026_fermi_america_frmi_discussion/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-20T04:02:33.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "[August 20, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
     {
-      "title": "Strong AI chip demand fuels Nvidia's Q2 results well beyond Wall Street's expectations - The Washington Post",
-      "url": "https://www.washingtonpost.com/business/2026/08/26/nvidia-artificial-intelligence-earnings/8c5a3764-a18e-11f1-8606-1d40ad00172e_story.html",
+      "title": "Over 1,000 AI agents worked together in OpenAI hack, report reveals - The Washington Post",
+      "url": "https://www.washingtonpost.com/technology/2026/08/26/openai-says-its-ai-consistently-tries-cheat/",
       "source": "The Washington Post",
-      "publishedAt": "2026-08-26T23:53:34.000Z",
+      "publishedAt": "2026-08-27T00:26:20.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia’s 70% growth forecast puts it on track to become tech’s No. 2 company by revenue",
+      "url": "https://www.cnbc.com/2026/08/26/nvidia-70percent-growth-forecast-puts-it-on-track-to-be-tech-no-2-company.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T00:21:27.000Z",
+      "kind": "news",
+      "summary": "\"Our demand is much greater than 70%,\" CEO Jensen Huang said on the earnings call.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Building and deploying AI is very capital intensive, says Nvidia CEO Jensen Huang - CNBC",
+      "url": "https://www.cnbc.com/video/2026/08/26/building-and-deploying-ai-is-very-capital-intensive-says-nvidia-ceo-jensen-huang.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T00:16:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "Nvidia CEO Jensen Huang joins 'Mad Money' host Jim Cramer to talk the tech giant's second quarter results, competition in the semiconductor space, the state of the AI trade, and more."
+    },
+    {
+      "title": "Bill Gates’ AI Warning and Nvidia’s Boffo Quarter - The Information",
+      "url": "https://www.theinformation.com/newsletters/the-briefing/bill-gates-ai-warning-nvidias-boffo-quarter",
+      "source": "The Information",
+      "publishedAt": "2026-08-27T00:05:41.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -942,8 +983,8 @@
       "score": 75
     },
     {
-      "title": "OpenAI details AI agent crime spree against Hugging Face - The Register",
-      "url": "https://www.theregister.com/security/2026/08/27/openai-details-ai-agent-crime-spree-against-hugging-face/5292780",
+      "title": "OpenAI explains how its naughty AI agents attacked Hugging Face - The Register",
+      "url": "https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780",
       "source": "The Register",
       "publishedAt": "2026-08-26T23:45:58.000Z",
       "kind": "news",
@@ -956,9 +997,23 @@
       "summary": "Biz describes its act of automated irresponsibility as"
     },
     {
-      "title": "Watch Nvidia Predicts AI-fueled Sales Surge Will Extend Into 2028 - Bloomberg.com",
+      "title": "Nvidia's 70% sales growth projection for 2028 wows analysts on earnings call - CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/nvidias-70percent-sales-growth-projection-for-2028-wows-analysts-on-earnings-call.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-26T23:42:07.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "The growth forecast is likely to reinvigorate narratives around the so-called AI supercycle."
+    },
+    {
+      "title": "Watch Nvidia Predicts AI-fueled Sales Surge Will Extend Into 2028 - Bloomberg",
       "url": "https://www.bloomberg.com/news/videos/2026-08-26/nvidia-predicts-sales-surge-will-extend-into-2028-video",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-26T23:36:08.000Z",
       "kind": "news",
       "tier": 1,
@@ -993,20 +1048,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
-    },
-    {
-      "title": "Over 1,000 AI agents worked together in OpenAI hack, report reveals - The Washington Post",
-      "url": "https://www.washingtonpost.com/technology/2026/08/26/openai-says-its-ai-consistently-tries-cheat/",
-      "source": "The Washington Post",
-      "publishedAt": "2026-08-26T23:13:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia Steps Back Into China Market With First H200 Chip Sales",
@@ -1020,7 +1062,21 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
+    },
+    {
+      "title": "Strong AI chip demand fuels Nvidia’s Q2 results well beyond Wall Street’s expectations - AP News",
+      "url": "https://apnews.com/article/nvidia-artificial-intelligence-earnings-dc8d556e709b50915cca9217a60b1991",
+      "source": "AP News",
+      "publishedAt": "2026-08-26T22:59:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Nvidia’s latest quarterly results once again blew past Wall Street’s expectations as revenue for the computer chip company’s high-end artificial intelligence chips soared, the latest sign that AI infrastructure spending remains strong."
     },
     {
       "title": "CEO Jensen Huang went on an AI deal spree in August. Nvidia plans to invest $18 billion more this fiscal year. - Business Insider",
@@ -1063,9 +1119,22 @@
       "score": 65
     },
     {
-      "title": "Watch DataBank’s Incoming CEO on AI Buildout, Nvidia Earnings - Bloomberg.com",
+      "title": "Exclusive | Google Moves AI-Responsibility Team Out of DeepMind Lab in Latest Shake-Up - WSJ",
+      "url": "https://www.wsj.com/tech/ai/google-moves-ai-responsibility-team-out-of-deepmind-lab-in-latest-shake-up-ed01e40c",
+      "source": "WSJ",
+      "publishedAt": "2026-08-26T22:28:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Watch DataBank’s Incoming CEO on AI Buildout, Nvidia Earnings - Bloomberg",
       "url": "https://www.bloomberg.com/news/videos/2026-08-26/databank-s-incoming-ceo-on-ai-buildout-nvidia-earnings-video",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-26T22:25:08.000Z",
       "kind": "news",
       "tier": 1,
@@ -1082,6 +1151,19 @@
       "publishedAt": "2026-08-26T22:21:50.000Z",
       "kind": "news",
       "summary": "Kevin Ooley, the incoming CEO of DataBank and current CFO, joined the program to discuss critical issues surrounding the expansion of data centers. Operating over 70 data centers across more than 25 markets, DataBank faces significant challenges related to power availability and infrastructure. He speaks with Romaine Bostick & Mandeep Singh on \"The Close.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Nvidia projects 70% revenue growth in 2028 - Axios",
+      "url": "https://www.axios.com/2026/08/26/nvidia-earnings-jensen-huang-ai",
+      "source": "Axios",
+      "publishedAt": "2026-08-26T22:20:01.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1118,7 +1200,20 @@
       "summary": "The $5tn firm beat Wall Street expectations for yet another blockbuster quarter, though the stock made only modest gains"
     },
     {
-      "title": "Nasdaq Futures, AI Stocks Rise on Nvidia’s Outlook: Markets Wrap",
+      "title": "Nasdaq Futures, AI Stocks Rise on Nvidia’s Outlook: Markets Wrap - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ0ZyNEs4VHlpUTE2VEsyU3R2Rmpxb3pZYTBjTFZENzBnWnk3MkpMU0gwUEwxRUJOVUtaeGx5bGJSR3RaRDBhd2ZNa0ZXS3U2aDhkRElxUE52S3ZrUmFQdE5fSVEyVmFGWmUwSnF2RXRJR281cWd2Nmpwcm9fQnhoRldrZHRkblNlNzNSZy1WT0xSUXNEMEE5M0hYakJqb2lzcU1rZUUwUlFOLVJuUnktVkNqLUM?oc=5",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-26T22:10:37.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Nasdaq Futures, Asia Stocks Rise on Nvidia Outlook: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap",
       "source": "Bloomberg",
       "publishedAt": "2026-08-26T22:10:37.000Z",
@@ -1159,9 +1254,9 @@
       "score": 65
     },
     {
-      "title": "Watch Tech Billionaire Steve Case on AI Buildout, Nvidia Role - Bloomberg.com",
+      "title": "Watch Tech Billionaire Steve Case on AI Buildout, Nvidia Role - Bloomberg",
       "url": "https://www.bloomberg.com/news/videos/2026-08-26/tech-billionaire-steve-case-on-ai-buildout-nvidia-role-video",
-      "source": "Bloomberg.com",
+      "source": "Bloomberg",
       "publishedAt": "2026-08-26T22:07:27.000Z",
       "kind": "news",
       "tier": 1,
@@ -1216,7 +1311,7 @@
       "title": "Nvidia Reports Record Sales (Again) - WSJ",
       "url": "https://www.wsj.com/tech/ai/nvidia-reports-record-sales-again-6bd8461c",
       "source": "WSJ",
-      "publishedAt": "2026-08-26T21:45:00.000Z",
+      "publishedAt": "2026-08-26T21:46:39.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1226,38 +1321,10 @@
       "score": 65
     },
     {
-      "title": "AI Expert on Anthropic’s “Fantasy” Projections, Nvidia",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/ai-expert-on-anthropic-s-fantasy-projections-nvidia-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T21:38:58.000Z",
-      "kind": "news",
-      "summary": "Gary Marcus, NYU Emeritus Professor of Psychology and Neural Science, discusses the recently rumored total addressable market (TAM) figures presented by AI companies like Anthropic, which suggest a market size comparable to the entire U.S. GDP. He expresses skepticism about the realism of such enormous valuations and market opportunities, noting that while AI impacts many areas, not everyone is using or satisfied with it. He speaks with Romaine Bostick & Emily Graffeo on \"The",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "OpenAI’s rogue AI model incident was worse than we thought - The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "source": "The Verge",
-      "publishedAt": "2026-08-26T21:36:06.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "Two new reports offer nearly 130 pages of details on the OpenAI-Hugging Face cybersecurity incident, many of them previously unreleased."
-    },
-    {
-      "title": "Nvidia bounce shows Wall Street's AI obsession is far from over - Reuters",
-      "url": "https://www.reuters.com/business/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-over-2026-08-26/",
+      "title": "Nvidia forecasts quarterly revenue above estimates, shares rise - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVTdJRXVOXzFrQjZXaG1XeVpHNUg0UzBHMnZ0b3lUT1hCZktWajJhbkJfSmcweHEyVE9sNVdrOGx2MlFhUlZ2Z0xna3Jzd0gzWUJCdHR2MHN3Y0pqYURLQ0JQUmxfYVJpT3h3TEV4amE3TkR5SnlIa3A1NlRvcE16Y3NZbnNzQUVuRFlfS2lvUE81ajBta2hYaEp5Wk94c014b3lkQmg5S3N6WlMyWWc?oc=5",
       "source": "Reuters",
-      "publishedAt": "2026-08-26T21:33:43.000Z",
+      "publishedAt": "2026-08-26T21:43:51.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1265,77 +1332,33 @@
         "NVDA"
       ],
       "score": 65
-    },
-    {
-      "title": "OpenAI releases sweeping report on Hugging Face AI agent hack",
-      "url": "https://www.cnbc.com/2026/08/26/open-ai-hugging-face-hack.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-26T21:17:34.000Z",
-      "kind": "news",
-      "summary": "The 37-page report walks through the actions that OpenAI's models took during a series of evaluations prior to and during the Hugging Face breach.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Amazon to Buy 2 Million Nvidia Chips for Data Center Build-Out - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/amazon-to-buy-2-million-nvidia-chips-for-data-center-build-out",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-26T21:07:55.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia has a blowout quarter, but Wall Street wants more - Axios",
-      "url": "https://www.axios.com/2026/08/26/nvidia-earnings-jensen-huang-ai",
-      "source": "Axios",
-      "publishedAt": "2026-08-26T21:02:03.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia's non-hyperscaler customers can fuel AI investment, says Bernstein's Stacy Rasgon - CNBC",
-      "url": "https://www.cnbc.com/video/2026/08/26/nvidias-non-hyperscaler-customers-can-fuel-ai-investment-says-bernsteins-stacy-rasgon.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-26T20:36:17.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Stacy Rasgon, semiconductor analyst at Bernstein, joins 'Closing Bell' to discuss the state of Nvidia's stock activity and what can be done to bring more excitement to the company."
-    },
-    {
-      "title": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm",
-      "source": "The Guardian",
-      "publishedAt": "2026-08-26T19:58:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "Firm says ‘early signals … could have triggered an earlier response’ as it releases report into Hugging Face hack"
     }
   ],
   "general": [
+    {
+      "title": "CrowdStrike's quarter shows AI is a cybersecurity tailwind, not a threat",
+      "url": "https://www.cnbc.com/2026/08/26/crowdstrikes-shows-ai-is-a-cybersecurity-tailwind-not-a-threat.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T00:19:24.000Z",
+      "kind": "news",
+      "summary": "Earlier this year, the bears thought advances in AI models could disintermediate the cybersecurity sector. So far, they've been proven wrong.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Kioxia Plans New Chip Facility in Japan to Meet AI Memory Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/kioxia-plans-new-chip-facility-in-japan-to-meet-ai-memory-demand",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-27T00:06:53.000Z",
+      "kind": "news",
+      "summary": "Kioxia Holdings Corp. is building a new fabrication facility at its manufacturing site in Japan’s northern prefecture of Iwate, people familiar with the matter said, ratcheting up production capacity to meet sustained AI-related demand for storage.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
       "url": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html",
@@ -1349,23 +1372,35 @@
       "score": 60
     },
     {
-      "title": "Economists See RBA Rate Hike as Early as September After Hot CPI",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/economists-see-rba-rate-hike-as-early-as-september-after-hot-cpi",
+      "title": "Malaysia Detains Ex-Treasury Chief Over Pilgrimage Fund Probe",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/malaysia-detains-ex-treasury-chief-over-pilgrimage-fund-probe",
       "source": "Bloomberg",
-      "publishedAt": "2026-08-26T23:50:08.000Z",
+      "publishedAt": "2026-08-26T23:52:07.000Z",
       "kind": "news",
-      "summary": "Australia’s hot inflation spurred economists from Goldman Sachs Group Inc. to Commonwealth Bank to predict another interest-rate increase as early as next month, abandoning expectations of no change for the remainder of the year.",
+      "summary": "Malaysian authorities have detained a former Treasury secretary-general over a probe into mismanagement of Muslim pilgrimage fund Tabung Haji, according to the Malaysian Anti-Corruption Commission.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "Salesforce raises annual forecasts, expands AI partnership with Anthropic - The Lufkin Daily News",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPLVhuRlZHakRubE1oTkhpS3hiLXJxT2VOQmdIMlVyRVo0eWp0ejFmbWVlTUlqOFp5RzBUVmNKVXNQQTRWVGdiTlF5dmdpQ21uZWd4eEEyWEF0Ynh1SFNCeTNMQXFoNjJ1RlA4eEtTREN2cFdOZ2l6SDRsUWRXcWg0V2FQbmJ4amZ3dmxMYmNTM2JpSG55LW9kZW5iOVVOSXRUa0p4Mk5XVFNfWHV5cW1yM3ZiWGJ1ckpMei1QYTFYTHBiUWVOeVlYRFgybzlOZWxlb2xVbnBoRTZoZUMxTkEwdlRxSm1RMEN6NHRtTDVXUkxLM1hKdE1IMXpaUHVzS096bXc?oc=5",
-      "source": "The Lufkin Daily News",
-      "publishedAt": "2026-08-26T23:49:58.000Z",
+      "title": "Salesforce raises annual forecasts, expands AI partnership with Anthropic - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDN3Q0RQRENZTDF5TE95YURuRTZiczNvdTJ3ZzBRQjBGNkxRUnBlSWpSd2p3MUpJQzJoamNOR084RzU2dXRFM3ZEUXVBYWRLaVc5UXFza0VRcWNvS3ZvZGowVWdkbG9ROGVIVUt6bE9nN05VRk8zVng2b3JHT0Vub000Y2lDMzBMaWdBd1RmYVlJdw?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-08-26T23:50:26.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Economists See RBA Rate Hike as Early as September After Hot CPI",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/economists-see-rba-rate-hike-as-early-as-september-after-hot-cpi",
+      "source": "Bloomberg",
+      "publishedAt": "2026-08-26T23:50:08.000Z",
+      "kind": "news",
+      "summary": "Australia’s hot inflation spurred economists from Goldman Sachs Group Inc. to Commonwealth Bank to predict another interest-rate increase as early as next month, abandoning expectations of no change for the remainder of the year.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1405,7 +1440,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "London neurosurgeons perform first successful AI-assisted operation to remove brain tumour - The Guardian",
@@ -1668,35 +1703,12 @@
       "score": 50
     },
     {
-      "title": "Salesforce raises annual revenue forecasts, expands AI partnership with Anthropic - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDN3Q0RQRENZTDF5TE95YURuRTZiczNvdTJ3ZzBRQjBGNkxRUnBlSWpSd2p3MUpJQzJoamNOR084RzU2dXRFM3ZEUXVBYWRLaVc5UXFza0VRcWNvS3ZvZGowVWdkbG9ROGVIVUt6bE9nN05VRk8zVng2b3JHT0Vub000Y2lDMzBMaWdBd1RmYVlJdw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-08-26T21:27:17.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Power, Infrastructure At Center of Data-Center Deals",
       "url": "https://www.bloomberg.com/news/videos/2026-08-26/power-infrastructure-at-center-of-data-center-deals-video",
       "source": "Bloomberg",
       "publishedAt": "2026-08-26T21:27:06.000Z",
       "kind": "news",
       "summary": "Maria Goodpaster, Partner at McKinsey & Company, Kate Dorsey, Managing Director at Stonepeak, and Melissa Kalka, M&A, Private Equity Partner at Kirkland & Ellis, join Dani Burger on \"Bloomberg Deals\" to discuss data-center dealmaking. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta Settles Social Media Lawsuit for $18B",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-26/meta-settles-social-media-lawsuit-for-18b-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-08-26T21:25:01.000Z",
-      "kind": "news",
-      "summary": "Meta Platforms Inc. said it agreed to pay up to $18 billion in landmark settlements to resolve social media claims from US states that would require the company to make major changes to how it operates platforms like Facebook and Instagram. Bloomberg News Investigative Reporter Olivia Carville and Bloomberg Tech Host Ed Ludlow break down the announced agreement and what it means for the tech giant. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1906,17 +1918,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUGJwME5jMU9SNWI3eUlYMm1qc0tQdFFydEhIN01La05ac1ZWV01iNnFON0Y2cW5QUUd5SkFPLWJrWGdtRkg0WlItSG1DYlExVjEyMU5vc0ExQS1fOFc1SHJOdTVKWHV2MlVxWlM4eDVqbmtuSDI0aUNmOHFxV0ZHNW0tVldxblNSVW9ZUmhEWlIwQnYwaC0tdw?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-08-26T19:40:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Cleveland Clinic President Discusses AI Summit for Health-Care Professionals - The ASCO Post",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMHZkOUZRdHVZYXI4ZjllOW9KZXRVZ2o2ZlhPOF9maDlISURXZFZPeXJ6bUxEenBJSHUyRTBDR0lvaE1kQnlLOHVLUEdzSXhfZERNdmFUa3hMQ2FacmpTOWpmbzZpUWJPbHRCR3FDVUxSTGpCVG5qdk1YREZnY3liMTBoclI3RE5qQ3Z5UzJTLVBPVlpzRmpoaDl2TDcwak1vMWhFSlFpUm5YVzdSTk5COGxaTGF6Zw?oc=5",
-      "source": "The ASCO Post",
-      "publishedAt": "2026-08-26T18:42:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

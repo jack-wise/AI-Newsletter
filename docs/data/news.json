@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T22:31:28.735Z",
+  "generatedAt": "2026-09-02T23:01:23.679Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -91,7 +91,7 @@
         "score": 45,
         "trust": "medium",
         "reasons": [
-          "2,287 followers",
+          "2,286 followers",
           "7 likes"
         ]
       },
@@ -936,6 +936,34 @@
   ],
   "related": [
     {
+      "title": "DOJ urges judge to rule for OpenAI, Microsoft in N.Y. Times lawsuit - The Washington Post",
+      "url": "https://www.washingtonpost.com/technology/2026/09/02/doj-urges-judge-rule-openai-microsoft-ny-times-lawsuit/",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-02T22:45:14.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "MSFT"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
+      "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-02T22:37:13.000Z",
+      "kind": "news",
+      "summary": "Microsoft will begin reporting quarterly Azure revenue in dollars for the first time, providing more clarity about its business that competes with AWS.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 75
+    },
+    {
       "title": "Nvidia’s stock is climbing as investors get more confidence in an expanding base of AI customers - MarketWatch",
       "url": "https://www.marketwatch.com/story/nvidias-stock-is-climbing-as-investors-get-more-confidence-in-an-expanding-base-of-ai-customers-a6e297f1",
       "source": "MarketWatch",
@@ -945,20 +973,6 @@
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
-      "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-02T20:46:42.000Z",
-      "kind": "news",
-      "summary": "Microsoft will begin reporting quarterly Azure revenue in dollars for the first time, providing more clarity about its business that competes with AWS.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
       ],
       "score": 65
     },
@@ -977,10 +991,10 @@
       "score": 65
     },
     {
-      "title": "US government backs OpenAI in New York Times copyright case - Reuters",
-      "url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+      "title": "OpenAI is building 'automated shutdown' capabilities for AI tools, letter to lawmakers says - Reuters",
+      "url": "https://www.reuters.com/legal/litigation/openai-is-building-automated-shutdown-capabilities-ai-tools-letter-lawmakers-2026-09-02/",
       "source": "Reuters",
-      "publishedAt": "2026-09-02T19:37:14.000Z",
+      "publishedAt": "2026-09-02T20:05:11.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1003,26 +1017,27 @@
       "score": 65
     },
     {
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs - The Hacker News",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-02T18:27:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "GOOGL"
+      ],
+      "score": 65,
+      "summary": "Google launches Gemini 3.8 Flash Cyber for trusted defenders as OpenAI says Astra meets its Critical cybersecurity capability threshold."
+    },
+    {
       "title": "Nvidia Nears $14 Billion Hugging Face Deal | Bloomberg Tech 09/02/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-09-02/bloomberg-tech-09-02-2026-video",
       "source": "Bloomberg",
       "publishedAt": "2026-09-02T17:44:19.000Z",
       "kind": "news",
       "summary": "Bloomberg’s Ed Ludlow breaks down Nvidia's advanced talks to acquire AI startup Hugging Face in a $14 billion deal. Plus, Dell shares jump after the company boosted its annual sales forecast by $25 billion due to surging demand for servers to run AI tasks. And, Uber cuts 10% of its staff globally to streamline its core engineering, science, and delivery groups. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia In Advanced Talks for Hugging Face",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-02/nvidia-in-advanced-talks-for-hugging-face-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T17:39:04.000Z",
-      "kind": "news",
-      "summary": "Nvidia could be closing in on its biggest AI acquisition yet, according to sources. The chipmaker is in advanced talks to buy Hugging Face in a deal that could be worth about $14 billion. Bloomberg's Ian King and Rachel Metz join Ed Ludlow on \"Bloomberg Tech\" to discuss their reporting. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1043,33 +1058,6 @@
       ],
       "score": 65,
       "summary": "Researchers warn OpenAI's Astra model could be an AI safety disaster"
-    },
-    {
-      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release - The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "source": "The Verge",
-      "publishedAt": "2026-09-02T16:40:50.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "A report triggered concerns about a safety ‘race to the bottom.’&nbsp;"
-    },
-    {
-      "title": "Trump administration backs OpenAI in New York Times' copyright case over training of chatbots - washingtonpost.com",
-      "url": "https://www.washingtonpost.com/business/2026/09/02/justice-department-new-york-times-openai-copyright/66aa2802-a702-11f1-9e38-f705d048bd5a_story.html",
-      "source": "washingtonpost.com",
-      "publishedAt": "2026-09-02T22:26:32.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
     },
     {
       "title": "CrowdStrike launches AI models for cybersecurity with Nvidia - SC Media",
@@ -1100,51 +1088,10 @@
       "summary": "In an S-1 registration statement filed with the Securities and Exchange Commission, SB Energy said it is \"substantially dependent\" on OpenAI, which serves as both a major tenant and an equity investor in the company."
     },
     {
-      "title": "OpenAI Astra Brings Autonomous Zero-Day Exploitation to AI - Security Affairs",
-      "url": "https://securityaffairs.com/198317/ai/openai-astra-brings-autonomous-zero-day-exploitation-to-ai.html",
-      "source": "Security Affairs",
-      "publishedAt": "2026-09-02T21:58:37.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI says Astra can autonomously find zero-days and build exploits, marking its first model to reach the “Critical” cyber risk level."
-    },
-    {
-      "title": "Nvidia’s $1 Billion Nokia Bet Was Worth About $2.2 Billion by June. Is 6G the Hidden AI Trade? - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-1-billion-nokia-bet-215606198.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-02T21:56:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts - TechCrunch",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-02T20:19:14.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models."
-    },
-    {
-      "title": "Nvidia Jumps On AI Bid, Software Stocks Dip: Stock Market Today - Benzinga",
-      "url": "https://www.benzinga.com/markets/equities/26/09/61584217/software-stocks-crash-despite-earnings-beats-fed-hike-odds-66-percent-markets-wednesday",
-      "source": "Benzinga",
-      "publishedAt": "2026-09-02T17:21:20.000Z",
+      "title": "Enterprises put non-Nvidia chips 14 points ahead of Nvidia's next-gen GPUs on their evaluation lists - VentureBeat",
+      "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
+      "source": "VentureBeat",
+      "publishedAt": "2026-09-02T21:05:59.000Z",
       "kind": "news",
       "tier": 2,
       "tickers": [],
@@ -1168,6 +1115,33 @@
       "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads."
     },
     {
+      "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "source": "The Verge",
+      "publishedAt": "2026-09-02T16:40:50.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "A report triggered concerns about a safety ‘race to the bottom.’&nbsp;"
+    },
+    {
+      "title": "Trump admin backs OpenAI ‘fair use’ argument in suit from New York Times - The Hill",
+      "url": "https://thehill.com/homenews/media/6066304-ny-times-openai-ai-lawsuit/",
+      "source": "The Hill",
+      "publishedAt": "2026-09-02T15:50:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
       "title": "Nvidia CEO Jensen Huang wants to avoid 'theoretical' harm rules on AI - The Detroit News",
       "url": "https://www.detroitnews.com/videos/tech/2026/09/02/nvidia-ceo-jensen-huang-wants-to-avoid-theoretical-harm-rules-on-ai/91578206007/",
       "source": "The Detroit News",
@@ -1181,9 +1155,9 @@
       "score": 55
     },
     {
-      "title": "Nvidia’s Huang Urges G20 to Speed AI Adoption, Spur Growth - bloomberg.com",
+      "title": "Nvidia’s Huang Urges G20 to Speed AI Adoption, Spur Growth - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/nvidia-s-huang-urges-g20-to-speed-ai-adoption-as-key-to-growth",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-09-02T13:04:26.000Z",
       "kind": "news",
       "tier": 1,
@@ -1194,9 +1168,9 @@
       "score": 55
     },
     {
-      "title": "Voice AI Startup ElevenLabs Hires OpenAI Executive to Oversee Revenue - bloomberg.com",
+      "title": "Voice AI Startup ElevenLabs Hires OpenAI Executive to Oversee Revenue - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/elevenlabs-hires-openai-vp-as-first-chief-revenue-officer",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-09-02T13:00:01.000Z",
       "kind": "news",
       "tier": 1,
@@ -1234,31 +1208,31 @@
       "summary": "/PRNewswire/ -- Equinix, Inc. (Nasdaq: EQIX), the world"
     },
     {
-      "title": "Broadcom Needs Nvidia-Like Earnings to Stop $520 Billion Skid",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/broadcom-needs-nvidia-like-earnings-to-stop-520-billion-skid",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T10:45:01.000Z",
+      "title": "OpenAI Astra Brings Autonomous Zero-Day Exploitation to AI - Security Affairs",
+      "url": "https://securityaffairs.com/198317/ai/openai-astra-brings-autonomous-zero-day-exploitation-to-ai.html",
+      "source": "Security Affairs",
+      "publishedAt": "2026-09-02T21:58:37.000Z",
       "kind": "news",
-      "summary": "Broadcom Inc. has had a difficult summer in the stock market, as a disappointing outlook sent the shares on a roughly $520 billion tailspin since hitting a high in early June.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 55
+      "score": 45,
+      "summary": "OpenAI says Astra can autonomously find zero-days and build exploits, marking its first model to reach the “Critical” cyber risk level."
     },
     {
-      "title": "Not just Nvidia: these power and cooling firms are riding the trillion-dollar data centre boom - Reuters",
-      "url": "https://www.reuters.com/business/energy/not-just-nvidia-these-power-cooling-firms-are-riding-trillion-dollar-data-centre-2026-09-01/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-01T23:03:00.000Z",
+      "title": "Nvidia’s $1 Billion Nokia Bet Was Worth About $2.2 Billion by June. Is 6G the Hidden AI Trade? - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-1-billion-nokia-bet-215606198.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-02T21:56:06.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 45
     },
     {
       "title": "NVIDIA (NVDA) CEO Urges G20 to Accelerate AI Adoption for Economic Growth - gurufocus.com",
@@ -1270,20 +1244,6 @@
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "DOJ urges judge to rule for OpenAI, Microsoft in N.Y. Times lawsuit - washingtonpost.com",
-      "url": "https://www.washingtonpost.com/technology/2026/09/02/doj-urges-judge-rule-openai-microsoft-ny-times-lawsuit/",
-      "source": "washingtonpost.com",
-      "publishedAt": "2026-09-02T21:15:14.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI",
-        "MSFT"
       ],
       "score": 45
     },
@@ -1302,6 +1262,20 @@
       "summary": "Nvidia stock approached a buy point Wednesday as chip stocks rallied following a bullish quarterly report from Dell Technologies."
     },
     {
+      "title": "Trump administration sides with OpenAI in lawsuit against New York Times - theguardian.com",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai",
+      "source": "theguardian.com",
+      "publishedAt": "2026-09-02T20:52:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "The Times and many companies are accusing OpenAI of misusing their material to train AI systems without compensation"
+    },
+    {
       "title": "Nvidia’s Huang pushes for AI infrastructure in every country - cnbcafrica.com",
       "url": "https://www.cnbcafrica.com/2026/nvidias-huang-pushes-for-ai-infrastructure-in-every-country",
       "source": "cnbcafrica.com",
@@ -1316,9 +1290,9 @@
       "summary": "Artificial intelligence is taking center stage at the G20 gatherings this week. Nvidia CEO Jensen Huang, Anthropic Co-Founder Tom Brown and OpenAI CEO Sam Altman highlight the tech-focused guests on Wednesday for day 2 of the G20 Innovation Ministerial in Chapel Hill, North Carolina. Commerce Secretary Howard Lutnick and White House Office of Science and Technology Policy Director Michael Kratsios are leading the […]"
     },
     {
-      "title": "DOJ sides with OpenAI over NY Times in lawsuit alleging AI copyright infringement - nypost.com",
+      "title": "DOJ sides with OpenAI over NY Times in lawsuit alleging AI copyright infringement - New York Post",
       "url": "https://nypost.com/2026/09/02/business/doj-sides-with-openai-over-ny-times-in-lawsuit-alleging-ai-copyright-infringement/",
-      "source": "nypost.com",
+      "source": "New York Post",
       "publishedAt": "2026-09-02T20:27:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1331,9 +1305,37 @@
     },
     {
       "title": "Trump administration says a New York Times win in OpenAI lawsuit would “threaten national security” and hurt small newsrooms - Nieman Lab",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYzVFY1ZRVFJ5WFBobmRaLWhVWFJWZk4zYnliLV9VcF9JNjhwRlJLTWRnVU9XQk5GU1dHc3dIckh6Nk16T2ltLU8tMjRwcWt2M2ZlQkNPX0d4UDl5cDdMdXY0Sjh5MDFXMktXbjdpU05FZldDTXdDSjBtNXU5TTQ1MjZEdkw4WGM4RlpiQ1FWb3laaHRYMXRUcmplSXE4bklTaXVVaFYxZklQcXV5QUxzOG5kRVZraTUyQmU2RnVYU094Y0dlb0FVcjRoYWQ1U0ZNZWhpNmZVM0hJRFliTEFMczg3OEhoa1RwbHpFTXVR?oc=5",
+      "url": "https://www.niemanlab.org/2026/09/trump-administration-says-a-new-york-times-win-in-openai-lawsuit-would-threaten-national-security-and-hurt-small-newsrooms/",
       "source": "Nieman Lab",
       "publishedAt": "2026-09-02T20:22:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "The Department of Justice filing argues that large publishers will disproportionately benefit if AI companies have to pay to use copyrighted content."
+    },
+    {
+      "title": "OpenAI’s new reasoning technique alarms AI safety experts - Yahoo Tech",
+      "url": "https://tech.yahoo.com/ai/chatgpt/articles/openai-reasoning-technique-alarms-ai-201914302.html",
+      "source": "Yahoo Tech",
+      "publishedAt": "2026-09-02T20:19:14.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models."
+    },
+    {
+      "title": "OpenAI's Altman says AI is as essential as electricity for future growth (Video) - Raleigh News & Observer",
+      "url": "https://www.newsobserver.com/news/politics-government/article317105336.html",
+      "source": "Raleigh News & Observer",
+      "publishedAt": "2026-09-02T19:42:21.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1344,6 +1346,41 @@
     }
   ],
   "general": [
+    {
+      "title": "How Equinix has found a niche in the multitrillion-dollar AI data center boom",
+      "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-02T22:49:01.000Z",
+      "kind": "news",
+      "summary": "Nvidia announced a new data center deal with Equinix and Together AI on Wednesday to help enterprise customers with open-model inference.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI & Tech Brief: Fable 5.1 and data privacy - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX3RnTF9Sd1NEdm9aOEtMNTVTMWNZY0tRb2FZWDhDN3ZiZDdMUFQ3enloV0V6azlFZldtblZoY1g2bnpPOUVoLXFWRVE4Uk9sNzJmUmNWaHV1NFlIU0t6OFN0c1hyZERLR085X0pUeDQ1RVRHZGJhV1lJWWhuNXhITk4xelZOZmd2aVJmbEE5M0hyeEhROE1lSzNocjdKMXNlMVFuZWs5UHM0NTZR?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-02T22:42:05.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Five Below Lifts Outlook, Aims to Ramp Up Appeal to Gen Alpha",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/five-below-lifts-outlook-aims-to-ramp-up-appeal-to-gen-alpha",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-02T22:30:30.000Z",
+      "kind": "news",
+      "summary": "Five Below Inc. shares rose over 8% in postmarket trading on Wednesday after the retailer lifted its full-year outlook, citing the addition of new stores and the popularity of its budget-friendly merchandise among Gen Alpha and Gen Z shoppers.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "TikTok Backs Out of House Meeting to Avoid Kids Safety Questions",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/tiktok-backs-out-of-house-meeting-to-avoid-kids-safety-questions",
@@ -1381,6 +1418,40 @@
       "score": 60
     },
     {
+      "title": "Lutnick: Anthropic is \"back on the right side\" with Trump administration - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81WkZsU1dLY1B0bWtPX0FDcnlSV0JGYVZNU05RTzlNaTdQd0lKTW9JVFAxOTQwWWRFTFhERndMejJybVJGZmFhLUdidlItSjFOaG11UDV3TTNFeFlSZ2gtd2o1ODJxWlE?oc=5",
+      "source": "Axios",
+      "publishedAt": "2026-09-02T22:13:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Asian Stocks Set to Advance as Oil Pressures Ease: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/stock-market-today-dow-s-p-live-updates",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-02T22:08:10.000Z",
+      "kind": "news",
+      "summary": "Asian stocks were poised to track Wall Street higher as oil’s surge eased after President Donald Trump played down the prospect of a prolonged conflict with Iran, tempering inflation concerns.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US urges G20 countries to allow AI training on creators' work - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYTRRRFloNlZWNUJwamZCOEJrcGRwQ0JzaS1DeExVS3JOQ21pRi1yRFdyOEsyVlpCSHNobWExOENjRmJEU2dZV1BHY1hVNm9idkdTMGRZQS1YYnhHR1JGNW5mUlJMMGJiQ3E1bDVOWENLTkc2dnZHdUVvZzllWXJpd21KQXZ1TU1ScUJCWkdDd0ppTWZRcnhGQmw4ZkZGTG44SlNJdDcwdGVOVzA2djhfOE93?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-02T22:04:30.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Latest Oil Market News and Analysis for Sept. 3",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/latest-oil-market-news-and-analysis-for-sept-3",
       "source": "Bloomberg",
@@ -1393,6 +1464,29 @@
       "score": 60
     },
     {
+      "title": "Markets Rebound as Oil, Yields & AI Remain in Focus | The Close 9/2/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-02/the-close-9-2-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-02T22:00:42.000Z",
+      "kind": "news",
+      "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Alger Executive Vice President, Portfolio Manager Ankur Crawford, ProShares Head of Research, Active Investments CIO Alessio De Longis, Oppenheimer Managing Director & Senior Analyst Brian Nagel, MongoDB CEO CJ Desai, Edward Jones Head of Investment Strategy Mona Mahajan, DigitalBridge CEO Marc Ganzi, Sky",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Tech CEOs, Trump Administration Ask G-20 to Adopt Pro-AI Policies - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdTNQSnJnNl9jZXVwakxoOWk4RDh6ODd2S0VNVkR0MWd5X0Z4OE1ZaDh4d0RaemR3Um5KTVlzTXJ0T2NFdjlZQXYwV3VrTmVUTExhM01ibTdPTWp4a0JGWE5ncUZWMWI0TkZMYlk4RERhUjY1U0RMdlFtZ29rMjRzZjh4T1BPREVnODNBaFNlYUZTSlcxZWhFQkRteGs0U3p1QXlv?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-02T21:52:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "CJ Desai Says MongoDB’s AI Momentum Is Real, But Guidance Remains Prudent",
       "url": "https://www.bloomberg.com/news/videos/2026-09-02/cj-desai-says-mongodb-s-ai-momentum-is-real-video",
       "source": "Bloomberg",
@@ -1402,7 +1496,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "DigitalBridge's Ganzi Says Data Centers Are 'Not the Villain'",
@@ -1453,24 +1547,24 @@
       "score": 50
     },
     {
-      "title": "Japanese Companies Consider Asset Sales as Yen Debt Costs Rise",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/japanese-companies-consider-asset-sales-as-yen-debt-costs-rise",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T21:00:00.000Z",
-      "kind": "news",
-      "summary": "Japanese companies are expanding their toolkit to deal with the steepest borrowing costs in a generation, including considering sales of strategic shareholdings and other assets to offset the impact, a Bloomberg News survey shows.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Australian Earnings Beat Estimates for First Time in Four Years",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/australian-earnings-beat-estimates-for-first-time-in-four-years",
       "source": "Bloomberg",
       "publishedAt": "2026-09-02T21:00:00.000Z",
       "kind": "news",
       "summary": "Australian earnings beats are outpacing misses for the first time in four years, defying a challenging economic backdrop and bolstering chances for a stalled stock rally to resume.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Japanese Companies Consider Asset Sales as Yen Debt Costs Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/japanese-companies-consider-asset-sales-as-yen-debt-costs-rise",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-02T21:00:00.000Z",
+      "kind": "news",
+      "summary": "Japanese companies are expanding their toolkit to deal with the steepest borrowing costs in a generation, including considering sales of strategic shareholdings and other assets to offset the impact, a Bloomberg News survey shows.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1494,6 +1588,17 @@
       "publishedAt": "2026-09-02T20:42:46.000Z",
       "kind": "news",
       "summary": "Representatives from the world’s largest economies unanimously agreed to adopt guidelines proposed by the US that call for a lighter touch toward governing artificial intelligence and other emerging technologies, handing a win to the Trump administration and Silicon Valley.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Broadcom Third-Quarter Profit Soars on AI-Driven Revenue Growth - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRVZZdENPOUlETmdDb3VpR2tlRVJpX2tUUkx4aktLZlpXcEhlYTMtbHNlOEVyeDU1bFFxMWUzemtZVzZCQTBaUVpYTGl5Tko1QnBCallrMGI5LUxLSG9KUHcxOXJvUmhVMUZMRVBqMmVNWmw2T2kwX2UtdmVYZnJ3ZU9HZkNodDlwakVNV3p6YnBQam1pN2lJYXFPQ2lhZjBPZTZ1Q1VRWERtYjlIOGVj?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-02T20:36:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1524,6 +1629,17 @@
       "score": 50
     },
     {
+      "title": "HPE raises annual forecasts as AI, networking demand lifts quarterly revenue - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZERQRDlrUjdGdUJRSGE1RG1HeU5Gbm81OGZjLTRCT2kzOHpYWTcxS09FcVMxeXRtdUNKZ0xjZEd0TVBsU1dvOXFvcmlreVJhV3B2UUlNaUdYcE12S3lqOWlHcEFla21VdEw3VWtXMENVZHpXc042Z1ViQ095ZzcwR1BqS19icUM1ZGRfeHdPdUhRN3B6Q3lxNVRmaHA1eWdXZUtOSXNwNUI0S2hoNl9EOTFDS3QzTWdE?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-02T20:20:39.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Snowflake Jumps on Revenue Outlook, Uptake of AI Assistant",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/snowflake-jumps-on-revenue-outlook-uptake-of-ai-assistant",
       "source": "Bloomberg",
@@ -1536,23 +1652,12 @@
       "score": 50
     },
     {
-      "title": "Broadcom Forecast Misses Estimates, Disappointing Investors - bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYktLOGJKZW5pZDR4S3h6eUhHMnlBa29wOVdXblk5VWhUVDBNUWNFWUJRdklNTmhtNGxFVXdwdU93MW1MTDVtbkF0SS1xdFZNblZvTUUwaFpZQjJ2bVNWZ3lfN2xQTG5mRFh3RFBueGlwRGRJRGV2Q2YxczhQcjc2cl9nZzdOWUpFNFlTY3UwV3E5RUF4S0ZyZFhHbTFUMWxVaU9OcDA2aEk5SW1rc1E?oc=5",
-      "source": "bloomberg.com",
-      "publishedAt": "2026-09-02T20:19:59.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Broadcom Predicts Surge in AI Chip Revenue Over Next Two Years",
+      "title": "Broadcom Predicts Surge in AI Chip Sales Over Next Two Years",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/broadcom-forecast-misses-estimates-disappointing-investors",
       "source": "Bloomberg",
       "publishedAt": "2026-09-02T20:19:59.000Z",
       "kind": "news",
-      "summary": "Broadcom Inc. predicted a surge in artificial intelligence chip sales over the next two years, helping renew optimism that the company can challenge Nvidia Corp.’s dominance in the market.",
+      "summary": "Broadcom Inc. predicted a boom in artificial intelligence chip sales over the next two years, helping renew optimism that it can challenge Nvidia Corp.’s dominance in the lucrative market.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1630,17 +1735,6 @@
       "score": 50
     },
     {
-      "title": "Mamdani imposes one-year AI ban for most NYC students - The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR04xd1NzeHRmTENzaWx4ZEw2N1NRYVVFUzh3N0tneXk1dU5RTWNrSlN0UmFBSl83SzU3aTNOSFFJNlBuYkd3aXhpRlZtcTZFZUxBOWEwRXpCZ05zUFdydVp3ME94bjNwaUFHbXJlQ2I4T2NsQjVEb290bGx4QkQwbE1uVTFzYU9oQ2ZhM0I2T3VtUEs1QnVzUU9tOGVua1p4OGt2emI1QUV1Vkk5T2JxNERfa2JiTlFaallEOURR?oc=5",
-      "source": "The Detroit News",
-      "publishedAt": "2026-09-02T20:01:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Uber to cut 10% of workforce in bid to move 'simpler and faster'",
       "url": "https://www.cnbc.com/2026/09/02/uber-to-cut-10percent-of-workforce-in-bid-to-move-simpler-and-faster.html",
       "source": "CNBC",
@@ -1700,18 +1794,6 @@
       "score": 50
     },
     {
-      "title": "US Will Not Tackle Debt Until Republicans, Democrats Come Together, Says Rep. Arrington",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-02/gop-dems-must-work-together-on-us-debt-arrington-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T19:14:40.000Z",
-      "kind": "news",
-      "summary": "House Budget Chairman Jodey Arrington said 'Republicans and Democrats are going to have to come together' on a debt reduction plan to counteract the demographic challenges of increasing Social Security and Medicare beneficiaries. Arrington also discussed the pushback against AI data centers around the country, saying that the US has win the AI race but there should be guardrails on drawing on energy and water resources to do so. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Fed Beige Book Shows Modest Growth, Mixed Sentiment",
       "url": "https://www.bloomberg.com/news/videos/2026-09-02/fed-beige-book-shows-modest-growth-mixed-sentiment-video",
       "source": "Bloomberg",
@@ -1724,23 +1806,23 @@
       "score": 50
     },
     {
-      "title": "Meta Releases More Powerful AI Model, Edging Closer to Rivals",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/meta-releases-more-powerful-ai-model-edging-closer-to-rivals",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T19:00:00.000Z",
+      "title": "Artificial Intelligence News: MoneySimpler Launches AI Trading App for Automated Global Stock and Forex Investing - The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPUU1nSTBsN0ozTXhHemFkb2ZmQVBnM2Nyb0tCMmJSUkxIYUtYZXAzZmtuX1RkYU50TUExY2lxaGlGRUxPYTYwaDRKbEhhVlJhYk1iODk4czdidkVUdndRbGJGWldZZkQwS1F6bFUwVG9ncDRUZVZJaWZfbjNQQ2c1cFl6NTRSaUVuWllXel9jLWtiRDdNUE5VNXNYdGJLSVFTczdETUdrV0k5ZDNBV1phQmYwWXZyYmxlUXVvRnJncHlDUmEzSkVFQ29ySEZPOFY0cWpFLXRZcVlzY2w0SEFGNzJfZklSVVVuVm9jaG8zbUJJeTBucVIxMHFTZDRjemJOYXFhempsb3VlUUdMSXp1Ni01akk?oc=5",
+      "source": "The Manila Times",
+      "publishedAt": "2026-09-02T19:01:22.000Z",
       "kind": "news",
-      "summary": "Meta Platforms Inc. released its most powerful artificial intelligence model yet, with its chief AI officer saying its capabilities are edging closer to top competitors.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "Uber drivers launch European class action over ‘soulless’ and ‘scary’ AI algorithm - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcThrcUtIeVd6WC1kOXVJLUxteG1sR3FEVWlXOFh0bXNqQlJMMzJ0RDFXWGMzaXRLRjR0aEdWem1tXy1NVF9BUGU0UFhjMEdYS1JnMGJYMk91bzUwT3FOV0VvV2wxNVJHSmJkRC0wdTZkQV9WSnZDTG5KYWYyTzItLUxtb1lvMzh2WHhnbmtRYklEQlp5OVZzSGZyeDQ?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-02T18:52:00.000Z",
+      "title": "Meta Releases More Powerful AI Model, Edging Closer to Rivals",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-02/meta-releases-more-powerful-ai-model-edging-closer-to-rivals",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-02T19:00:00.000Z",
       "kind": "news",
+      "summary": "Meta Platforms Inc. released its most powerful artificial intelligence model yet, with its chief AI officer saying its capabilities are edging closer to top competitors.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1842,95 +1924,15 @@
       "score": 50
     },
     {
-      "title": "Ouster’s Physical AI Push",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-02/ouster-s-physical-ai-push-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T17:48:27.000Z",
-      "kind": "news",
-      "summary": "Ouster’s technology gives machines the ability to see and navigate the world around them — helping drive the rise of physical AI.The company is expanding into drone mapping through a partnership with GeoCue, while John Deere is bringing Ouster sensors to its GUSS autonomous vehicles. Ouster CEO and co-founder Angus Pacala discusses the company’s push into new markets and the growing demand for physical AI on Bloomberg Open Interest. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Waymo Taps Pimco, Blackstone for $3 Billion in First Debt Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/waymo-taps-pimco-blackstone-for-3-billion-in-first-debt-deal",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T17:41:55.000Z",
-      "kind": "news",
-      "summary": "Waymo is in the final stages of talks to raise debt for the first time, tapping lenders including Pacific Investment Management Co. for more than $3 billion as it looks to become the leading robotaxi company globally.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Big Law’s AI Training Strategies Get a Human-Centered Touch - Bloomberg Law News",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxON0RrdDhiOGRVZGVaaVRxZXZNVjl6WTg3eWxJTEFfX1IweWlqUzBUMmM3OGl3U2MzNExia0RvR3k0V3B2bmFWdmtCWVh4T0RfNmVER2p0SEJsOTI2aUx2eE9NZVhDQ195Qk81U25Cdkk4czdVQzV1NXRzeVozWGdtZTNTdTJWNU5aSWIweGtlRUZfYklzSVkzS01zWTFUM0U4eDEyMHhjM3NNdE5jMENJZDBBR1VETWZtTEMtUmJkSHRhbWRJRkdKSFcwUDlTZGNxQTFsRmVBMWpVQjRwUzFzZjJ0bXRFUzh4d01IRXhEY3RnQl9PU3FTOHpMXzRoWEowczdrU1VjNWotc2hzaGdfVVk4UzA3bnlqMjFXZnM1VzdkUWlld1Z5eA?oc=5",
-      "source": "Bloomberg Law News",
-      "publishedAt": "2026-09-02T17:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
-      "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
+      "title": "AI trade faces test with next week's Oracle earnings - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUjJFX2pPdS0xQ2lVdnZRS2I0Rjl0c05GVnJIb1I2Z2Q4WVhHcXJFQWhPeGlqajFkeXVSSHhYdU9JSC1aMkRFSi1EV1c1VnlnYkE4dnRLQWRFTXlwWm4wUW5uN2M4d0ZRR1RuYjVGTldCOEQ4MzBGcGEzWk4xd0laNmN5UkFWelpNRTZBZVl5ZVdsUdIBlwFBVV95cUxQSy1vbW9pTXY2OFB6WS1ONmFuNzhLalB3VGFWQW9NWWIyM2daQmh4ekJwMktzNjdVcl9Fa0NfVjYwV3p1YUhYeW1OTUlXaFN2QXBmWkFxNGJ1UnNtNERMcGJrSU5VX3NETi1YOUFnSm9DYmtOdUFFbkFZSmsyaklWR01CYkFjYW85ZUljZk1ST25FVWxwVS1v?oc=5",
       "source": "CNBC",
-      "publishedAt": "2026-09-02T16:41:48.000Z",
+      "publishedAt": "2026-09-02T17:57:04.000Z",
       "kind": "news",
-      "summary": "Palo Alto Networks' stock has nearly doubled this year as AI boosts demand for security detection and response tools",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
-    },
-    {
-      "title": "LAUSD blocks AI tools - LAist",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNDllMUNBbUF5aGVJUGZZOWdrX2MtenFWeTByc0hBTmNxeVhIendKczRWc0JoVXlEZDNaTVVZaVVXVlVGYXF1THZNMXVOc2pvU0J2Z3E1dnZrMVVZOUNZVjNIZXdfMHRrYU5YZ2xSMm1zOTRKRHZQN0hTeTFhLWg2ekFpX1pIcGJCa1ZuM2tnd2lPdDQx?oc=5",
-      "source": "LAist",
-      "publishedAt": "2026-09-02T22:16:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Councilmember, residents push back on AI ‘blight scores' given to thousands of homes - NBC 5 Dallas-Fort Worth",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMk1TUXo5SVdxQVpkeG91ZG1QUHk4TlZ0bFNoWUN2cDI1bjgtem1Ua3hvSFdxamprYUVjaEZ6NENEeHVXM3dhRHhKV3V3QTFLUnVpVmZhbDdQVWlDVnc4bjBkMlY2TkxlUW1nNE82STlJTUw3aTlVWVVWVzFVaC11ak5nQm1PSGFiajVFRUFvZjB3RTFIbUx2bUZNRFFVS1VvMVVobm5OQnltVTQyTGI3T2hVTWE3dm11M0l0bFpUbUx3LXAyUGpwY0tnNkdoQVY1V3drM9IB3AFBVV95cUxORGNfMkdlTEJyT211eS1Vek1PZFNnelJoMEdhbGNVYjZjTXRobEJQM3ZYdVIwSS1lTzBkeWk5RVpTLXBDOTJjMzJqUmhvZHBNdG9FOE1BS0Zza0w1R1lPMHFIaTFEbGZ5ZUh1anNRRk5xM0diVktwOHB5Zm9maHU1NDgxcUxhYUtFREhXVWVySlZiTG9yTldGOVBZVmEyMXk2cjFyU3lPNlZyZy05Z1RMQVZzYkd6LTJ6NUNDbEpHZ0wzaWxqZU5JeHVBRVJWT2dKcUtmMUgtTUR6Uzkt?oc=5",
-      "source": "NBC 5 Dallas-Fort Worth",
-      "publishedAt": "2026-09-02T22:12:21.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Oracle (NYSE:ORCL) Faces New AI Risk Warning Over Customer Exposure - Kalkine Media",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNDM1OEVUU3RNR3F4cFcxWGNjTWNNRGFpSXdneW4zcHM4b2cwck5RY2dwSzhlR0dKLUFKa0lTV05FdEs4NEw2a25WSjVjVldkREUyeGJiZVZlWFNkekFnb1ZhaXJLcXRTYnpTOWJYMjdJX05DTEZVYXh6alpyLVhJajV3U2V4YlgwYWZjYV9jLXNLWnc2cmJreXl0Nm1JN2gtTGpyN0JzQ2syQ2FuamJJ?oc=5",
-      "source": "Kalkine Media",
-      "publishedAt": "2026-09-02T22:07:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Policymakers, tech leaders discuss AI growth, workforce needs at G20 event in Chapel Hill - ABC11 News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb19JdzBiSkFFVTRLaThrWloyeUJ0WXM1YnZTVmtzMFpOd1F6dXRtZUpLOHo4S1g5UER6YzR4U19zcFdLNTlZLU9wY2o2V1J2bTZTblRaQ2FIdDdSaUFHbFVndVRocmFxNmN2VzkyMVB5Y1RFd3BqaGdGTnZOTTRuQkw1UDdXb3ExaGRheTZrV0VzMi0wQ3RKUHJlNzE2dnktdEp0c1dNUzRQWFc4V3kzeWltVWvSAboBQVVfeXFMT3p6SFhuWW5UNkl5VzBNREQwT0x3RUNUUnVYaHJqOUhHQlZ4M3p1bXdrNVZ3bkFYY1ppeE1nOHhOTDRkbUZHcHVjVF94UmxuSUlKQi1VYmRMLUZaeC1FTEU0TktrWU9JbDdoaG1XZWZhdjdhUzhVYi02VzJwZ2M1NHJkR0xzcEVWdVJubmxuUU0xV0dvWGF2b2ZtcE1pSWR5LWhyNE1QOGw3djUzRXdfRWdKZHBqNE1PZ1FR?oc=5",
-      "source": "ABC11 News",
-      "publishedAt": "2026-09-02T22:04:34.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
     }
   ],
   "sourceErrors": [

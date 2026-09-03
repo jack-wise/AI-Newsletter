@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T17:01:30.594Z",
+  "generatedAt": "2026-09-03T17:31:30.067Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -27,7 +27,7 @@
         "trust": "medium",
         "reasons": [
           "46,788 followers",
-          "1 likes"
+          "3 likes"
         ]
       },
       "tier": 2,
@@ -944,6 +944,20 @@
   ],
   "related": [
     {
+      "title": "Microsoft to impose time limits on Xbox cloud gaming subscribers as costs continue to climb",
+      "url": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-03T17:00:01.000Z",
+      "kind": "news",
+      "summary": "Xbox Game Pass subscribers will have cloud gaming capped starting in November.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 75
+    },
+    {
       "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
       "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
       "source": "CNBC",
@@ -1000,6 +1014,20 @@
       "score": 65
     },
     {
+      "title": "Nvidia to buy Hugging Face for $13 billion in big bet on open AI models",
+      "url": "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-03T13:18:41.000Z",
+      "kind": "news",
+      "summary": "Nvidia will acquire Hugging Face, a popular developer platform for open AI models, for $12.93 billion. This acquisition strengthens Nvidia's position in the open AI market and gives it direct access to a platform used by developers to collaborate and share AI tools. The deal also includes an equity-based retention program for Hugging Face employees joining Nvidia, highlighting the company's commitment to the open-source AI ecosystem. [sentiment: Somewhat-Bullish]",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
       "title": "Google starts September with AI momentum after longest monthly losing streak in over a decade",
       "url": "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
       "source": "CNBC",
@@ -1026,6 +1054,22 @@
         "NVDA"
       ],
       "score": 65
+    },
+    {
+      "title": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "source": "VentureBeat",
+      "publishedAt": "2026-09-03T14:13:21.000Z",
+      "kind": "news",
+      "summary": "Microsoft AI has released MAI-Transcribe-2, a speech-recognition model that is significantly faster, more accurate, and cheaper than competing offerings from OpenAI, Google, and ElevenLabs. Priced at just 10 cents per hour of audio, this new model cuts the cost by 72% compared to its predecessor and includes advanced features like speaker diarization, word-level timestamps, and code switching. This move is part of Microsoft's strategy to build its own frontier-class AI models [sentiment: Neutral]",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "MSFT",
+        "GOOGL"
+      ],
+      "score": 55
     },
     {
       "title": "FILE PHOTO: Tour of OpenAI data center in Abilene, Texas - The Lufkin Daily News",
@@ -1070,46 +1114,33 @@
       "summary": "While the University’s research-focused data center facility is quite different from the commercial one in Saline, it broadcasts the same idea: The people with money will ultimately succeed in accomplishing whatever they want, regardless of legal or political pushback."
     },
     {
-      "title": "Citizen-led lawsuit challenges zoning for OpenAI Georgia data center - thecurrentga.org",
-      "url": "https://thecurrentga.org/2026/09/03/citizen-led-lawsuit-challenges-zoning-for-openai-georgia-data-center/",
-      "source": "thecurrentga.org",
-      "publishedAt": "2026-09-03T15:54:23.000Z",
+      "title": "NetApp Expands AWS Transform Support to Accelerate Enterprise Storage Migrations",
+      "url": "https://finance.yahoo.com/technology/ai/articles/netapp-expands-aws-transform-support-141338315.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-03T14:13:00.000Z",
       "kind": "news",
+      "summary": "NetApp and AWS have expanded their collaboration by integrating Amazon FSx for NetApp ONTAP into AWS Transform, a service that automates workload migration. This integration allows enterprises to migrate attached storage and database workloads directly to AWS, including from non-NetApp on-premises environments, potentially reducing migration costs and complexity. The move aims to strengthen NetApp's position in cloud migration workflows, especially for critical applications,  [sentiment: Somewhat-Bullish]",
       "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "AMZN"
       ],
-      "score": 45,
-      "summary": "A new lawsuit asks court to declare that data center zoning at OpenAI site is invalid."
+      "score": 45
     },
     {
-      "title": "Microsoft's AI Shake-Up Changes What Investors See - tradingview.com",
-      "url": "https://www.tradingview.com/news/gurufocus:c7017a713094b:0-microsoft-s-ai-shake-up-changes-what-investors-see/",
-      "source": "tradingview.com",
-      "publishedAt": "2026-09-03T15:48:54.000Z",
+      "title": "Why Microsoft Investors Should Fear Amazon More Than Google",
+      "url": "https://247wallst.com/investing/2026/09/03/why-microsoft-investors-should-fear-amazon-more-than-google/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-09-03T13:30:45.000Z",
       "kind": "news",
+      "summary": "Microsoft's recent decision to disclose standalone Azure revenue reveals that Amazon's AWS is a much larger competitor than Google Cloud, shifting the investment focus for MSFT shareholders. Despite Google Cloud's high growth rate, Amazon holds a stronger position due to existing enterprise contracts and its new role as an alternative for OpenAI's AI workloads. Microsoft's core advantage lies in its enterprise distribution, but Amazon's AWS growth and ability to attract major [sentiment: Somewhat-Bullish]",
       "tier": 3,
       "tickers": [],
       "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Microsoft NASDAQ:MSFT is reorganizing how it reports its business just as artificial intelligence increasingly cuts across Azure, Microsoft 365, GitHub and its broader software portfolio. Starting with fiscal 2027, Microsoft will collapse three long-standing reporting segments into just two: Agents…"
-    },
-    {
-      "title": "Charter CFO’s move to Blackstone-Google AI venture signals where finance talent is flowing - Fortune",
-      "url": "https://fortune.com/2026/09/03/charter-cfo-move-to-blackstone-google-ai-venture-signals-where-finance-talent-flowing/",
-      "source": "Fortune",
-      "publishedAt": "2026-09-03T12:25:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
+        "MSFT",
         "GOOGL"
       ],
-      "score": 45,
-      "summary": "Fischer's exit after nearly a decade at Charter marks a bet on AI infrastructure over legacy cable."
+      "score": 45
     },
     {
       "title": "OpenAI's entanglements with a data center company go on display in a new filing - Business Insider",
@@ -1169,29 +1200,86 @@
       "summary": "SB Energy hasn't generated any revenue from its data center business, and none of its data centers are operational yet."
     },
     {
-      "title": "Nvidia to Invest $1 Trillion in U.S. AI Infrastructure This Year - Seoul Economic Daily",
-      "url": "https://en.sedaily.com/international/2026/09/03/nvidia-to-invest-1-trillion-in-us-ai-infrastructure-this",
-      "source": "Seoul Economic Daily",
-      "publishedAt": "2026-09-03T08:53:00.000Z",
+      "title": "Amazon.com, Inc. $AMZN Shares Acquired by Symmetry Partners LLC",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-shares-acquired-by-symmetry-partners-llc-2026-09-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-09-03T08:51:56.000Z",
       "kind": "news",
+      "summary": "Symmetry Partners LLC increased its stake in Amazon.com, Inc. by 14.7% in the second quarter, bringing its total holdings to 19,788 shares valued at $4.7 million. Institutional investors now own 72.2% of AMZN, while the company reported strong Q2 earnings of $5.75 per share against a $1.82 consensus, with revenue up 19.6% year-over-year. Despite positive analyst sentiment and a \"Moderate Buy\" rating, risks include insider selling and an FTC lawsuit regarding advertising pract [sentiment: Somewhat-Bullish]",
       "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "AMZN"
       ],
-      "score": 35,
-      "summary": "Nvidia CEO Jensen Huang said the company will invest nearly $1 trillion in U.S."
+      "score": 35
     },
     {
-      "title": "Siemens Energy's Dual Narrative: Musk's Turbine Ambitions Read as Bullish Signal While Breakup Machi - AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeWs5Y1p1OEkzNUIyZU5HQVg4aW5uT0VNQWVYUldEeV9feVpsenBNVDJBYjRwNjdfVmltVWhFaFFrb1o4dmVGb2thd3hkT1lTeUtvdGdoT1E1NzFiRFFWa2Viejh2VXJMMVRSU0VZZERWd3k4cGtQSHdZd09iWlZxY1lmRTBjYzByWnNobnFlX1J5X1BZSzVRMU01aTFqZTBwUGRfeV9ieWUtdkNwWUtWb0NkTGtaQlN3bm41VjZBNTliUWlxSHFrclpSN21pUV9pMXBIXy1MN25wZk42?oc=5",
-      "source": "AD HOC NEWS",
-      "publishedAt": "2026-09-02T20:00:56.000Z",
+      "title": "Capstone Wealth Management LLC Increases Holdings in Amazon.com, Inc. $AMZN",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-capstone-wealth-management-llc-increases-holdings-in-amazoncom-inc-amzn-2026-09-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-09-03T07:33:38.000Z",
+      "kind": "news",
+      "summary": "Capstone Wealth Management LLC significantly increased its stake in Amazon.com, Inc. (NASDAQ:AMZN) by 116.1% in the second quarter, acquiring an additional 3,084 shares and bringing its total to 5,741 shares valued at $1,368,000. This makes Amazon its 11th largest position, representing 0.6% of its investment portfolio. Other institutional investors also adjusted their positions, while recent insider transactions show sales by Amazon executives. [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "AMZN"
+      ],
+      "score": 35
+    },
+    {
+      "title": "Amazon.com, Inc. $AMZN is Abundance Wealth Counselors' 8th Largest Position",
+      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-is-abundance-wealth-counselors-8th-largest-position-2026-09-03/",
+      "source": "MarketBeat",
+      "publishedAt": "2026-09-03T07:18:38.000Z",
+      "kind": "news",
+      "summary": "Abundance Wealth Counselors significantly increased its stake in Amazon.com, Inc. (NASDAQ:AMZN) by 81.9% in the second quarter, making it their eighth-largest position. Other institutional investors like Vanguard Group Inc., State Street Corp, and Geode Capital Management LLC also increased their holdings. The article details Amazon's financial performance, recent insider stock sales, and current analyst ratings, alongside recent news impacting the company's sentiment. [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "AMZN"
+      ],
+      "score": 35
+    },
+    {
+      "title": "Google Signs 396MW Geothermal Deal With Fervo Energy, With Path to 1GW, to Power Utah AI Data Centers Around the Clock - XenoSpectrum",
+      "url": "https://xenospectrum.com/en/google-fervo-cape-station-ppa/",
+      "source": "XenoSpectrum",
+      "publishedAt": "2026-09-03T02:00:25.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "SMNEY"
+        "GOOGL"
+      ],
+      "score": 35,
+      "summary": "Google and geothermal startup Fervo Energy have signed a deal to procure 396MW from Fervo"
+    },
+    {
+      "title": "Google Expands Shilin AI R&D Center by 60%; Taiwanese Firms Elevated to Co-Design Partners - finance.biggo.com",
+      "url": "https://finance.biggo.com/news/81ea3d52-3e3d-4cdb-8ddd-77b3d21934f2",
+      "source": "finance.biggo.com",
+      "publishedAt": "2026-09-03T01:25:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 35,
+      "summary": "Google CTO Amin Vahdat announced at SEMICON Taiwan 2026 that the company will expand its AI infrastructure R&D center in Taipei's Shilin district,…"
+    },
+    {
+      "title": "Is Microsoft Stock Winning The Move To The Cloud Or Just The AI Boom?",
+      "url": "https://www.trefis.com/stock/msft/articles/613952/is-microsoft-stock-winning-the-move-to-the-cloud-or-just-the-ai-boom/2026-09-02",
+      "source": "Trefis",
+      "publishedAt": "2026-09-02T19:10:29.000Z",
+      "kind": "news",
+      "summary": "Microsoft's growth engine has shifted from cloud migrations to AI consumption, with the company focusing on monetizing AI workloads and Azure AI platform adoption. While Azure's 43% growth is driven by AI, the overall Intelligent Cloud segment still grows at 32%. This change indicates Microsoft's successful pivot to a recurring, consumption-based AI model, and its future performance hinges significantly on continued AI adoption. [sentiment: Somewhat-Bullish]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
       ],
       "score": 35
     },
@@ -1208,6 +1296,20 @@
       ],
       "score": 35,
       "summary": "OpenAI will spend $4.8 million to provide free breakfast and lunch to Effingham County K-12 students this school year."
+    },
+    {
+      "title": "Jensen Huang Told Investors in June to 'Buy at a Discount' During Nvidia's Sell-Off. Nearly Three Months Later, Nvidia Is Up 4%, and a Broader AI Basket Gained 8%. Did His Call Pay Off?",
+      "url": "https://www.fool.com/investing/2026/08/31/jensen-huang-told-investors-in-june-to-buy-at-a-di/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-01T18:10:50.000Z",
+      "kind": "news",
+      "summary": "Nvidia CEO Jensen Huang advised investors to \"buy at a discount\" during a June sell-off. Three months later, Nvidia's stock is up 4%, while a diversified AI basket including Microsoft, Amazon, and Alphabet saw an 8% gain, largely due to Microsoft's strong performance. The article suggests that three months is too short a period for long-term investors to judge an investment, and Huang's optimism about AI's long-term growth, supported by Nvidia's strong Q2 2027 results and a r [sentiment: Somewhat-Bullish]",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 35
     },
     {
       "title": "SB Energy offered OpenAI $5.5 bln in warrants to secure data-center deal - WSJ - Investing.com",
@@ -1236,6 +1338,19 @@
       "score": 35
     },
     {
+      "title": "Exclusive | The $5.5 Billion Perk SoftBank’s Data-Center Venture Offered to Land OpenAI - WSJ",
+      "url": "https://www.wsj.com/tech/ai/the-5-5-billion-perk-softbanks-data-center-venture-offered-to-land-openai-a5c7fb5e",
+      "source": "WSJ",
+      "publishedAt": "2026-08-31T03:55:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35
+    },
+    {
       "title": "China-Linked Bot Farm Spread Anti-Data Center Content, X And OpenAI Find - The Woody Show",
       "url": "https://www.thewoodyshow.com/content/2026-08-28-china-linked-bot-farm-spread-anti-data-center-content-x-and-openai-find/",
       "source": "The Woody Show",
@@ -1248,119 +1363,45 @@
       ],
       "score": 35,
       "summary": "Investigations by X and OpenAI revealed that a China-linked bot farm used AI to spread anti-data center messages in the U.S."
-    },
-    {
-      "title": "Nvidia adds more than $400 billion in value after blowout earnings boost AI confidence",
-      "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-27T20:47:36.000Z",
-      "kind": "news",
-      "summary": "Nvidia shares rose on Thursday after the chip giant's revenue guidance reassured investors that AI demand will remain strong.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 35
-    },
-    {
-      "title": "Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast",
-      "url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
-      "source": "CNBC",
-      "publishedAt": "2026-08-27T01:02:43.000Z",
-      "kind": "news",
-      "summary": "Nvidia CEO Jensen Huang did it again.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 35
-    },
-    {
-      "title": "OpenAI, Meta Seek Help to Combat Data Center PR Problem - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-08-20/openai-meta-seek-help-to-combat-data-center-pr-problem",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-08-20T20:00:01.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 35
-    },
-    {
-      "title": "Siemens Energy's Rebound Hinges on a Reassuring Read of Musk's Turbine Plans - AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQ2IxRVJTdktMcThNYUhNRUZzUEZtdzRqM3BVbW9PRl80QjAyZTdJSlVGa2RNODFHdlVPXzdkeHNwaTNHankwbFJCbEg0R19ycEkwR3pXWUJmLTFLU3lMN2xBNEpEZnlCanV0bWdqTWJXbHlHeXdaMDlCb2tmMkN0cGJjQk1nSXdtSHMyMGZwR2tySTFuaFBFbzhEV2RZQnBLTmxNWFlqeURVYUtwTWJfYUw3TkV2Znl4TlZLRTdqZFlMa2lWY041OWp3N0p5Tlhfd0hSQmM1X1c1Zw?oc=5",
-      "source": "AD HOC NEWS",
-      "publishedAt": "2026-09-02T16:51:20.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "SMNEY"
-      ],
-      "score": 25
-    },
-    {
-      "title": "SB Energy IPO Filing Reveals Reliance on OpenAI - findarticles.com",
-      "url": "https://www.findarticles.com/sb-energy-ipo-filing-openai-reliance/",
-      "source": "findarticles.com",
-      "publishedAt": "2026-09-02T13:01:42.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 25,
-      "summary": "SoftBank-controlled SB Energy has filed for a U.S. IPO, disclosing an AI data-center strategy closely tied to OpenAI before any of its facilities begin operating."
-    },
-    {
-      "title": "SoftBank's SB Energy Files for IPO While Admitting It Needs OpenAI to Pay Up - Startup Fortune",
-      "url": "https://startupfortune.com/softbanks-sb-energy-files-for-ipo-while-admitting-it-needs-openai-to-pay-up/",
-      "source": "Startup Fortune",
-      "publishedAt": "2026-09-01T22:07:54.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 25,
-      "summary": "SB Energy's IPO filing shows it's betting on OpenAI's unpaid Ohio leases, with $5.5B in warrants and Nvidia backstopping up to $105 billion."
-    },
-    {
-      "title": "OpenAI data center chief leaves the company as exec exodus continues - TechRadar",
-      "url": "https://www.techradar.com/pro/openai-data-center-chief-leaves-the-company-as-exec-exodus-continues",
-      "source": "TechRadar",
-      "publishedAt": "2026-09-01T21:10:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 25,
-      "summary": "The move comes as OpenAI had already essentially dismantled his job across three different executives"
-    },
-    {
-      "title": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses - SemiAnalysis",
-      "url": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
-      "source": "SemiAnalysis",
-      "publishedAt": "2026-09-01T20:14:32.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 25,
-      "summary": "Korea hosts a Squid Games, National AI Tournament, the best non-Chinese open source model gets eliminated, why Nvidia needs open source, implications for Hynix and Samsung"
     }
   ],
   "general": [
+    {
+      "title": "Earnings Have Been \"Armor\" to Tolerate Yields: Bordlemay",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/earnings-have-been-armor-to-tolerate-yields-bordlemay-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T17:25:44.000Z",
+      "kind": "news",
+      "summary": "Katherine Bordlemay, Co-Head of Equity Client Portfolio Management at Goldman Sachs Asset Management, says the magnitude and breadth of earnings strength will continue to support the market going forward. She speaks to Bloomberg's Dani Burger and Isabelle Lee on \"Open Interest.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Fuels Snowflake’s Accelerating Revenue Growth",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/ai-fuels-snowflake-s-accelerating-revenue-growth-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T17:22:49.000Z",
+      "kind": "news",
+      "summary": "Snowflake posted a third straight quarter of accelerating product revenue growth and raised its full-year outlook, with CEO Sridhar Ramaswamy saying AI accounted for about half of the company’s outperformance. He discusses the rapid adoption of Snowflake’s AI coding agent Coco, growing customer usage, and how the company is competing with Databricks in the race to turn enterprise data into AI-driven growth. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Wayve, Uber Bring Robotaxi Rides to London",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/wayve-uber-bring-robotaxi-rides-to-london-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T17:21:02.000Z",
+      "kind": "news",
+      "summary": "Self-driving startup Wayve is launching robotaxi rides with Uber in London, initially with safety drivers behind the wheel. CEO Alex Kendall discusses the path to fully driverless service, plans to expand with Uber to more global cities, and how Wayve’s end-to-end AI technology is designed to drive without relying on high-definition maps. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Elon Musk starts spending his midterm election millions, revealing his key Senate targets",
       "url": "https://www.cnbc.com/2026/09/03/elon-musk-america-pac-election-senate-races.html",
@@ -1368,6 +1409,18 @@
       "publishedAt": "2026-09-03T17:00:34.000Z",
       "kind": "news",
       "summary": "Elon Musk’s America PAC is spending in key Senate races including Texas and Maine, days after Musk met with House Speaker Mike Johnson.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Goldman's Bordlemay Sees `Ping-Pong' Pattern for Stocks",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/goldman-s-bordlemay-sees-ping-pong-pattern-for-stocks-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T17:00:10.000Z",
+      "kind": "news",
+      "summary": "Katherine Bordlemay, co-head of client portfolio management at Goldman Sachs Asset Management, expects to see a ``ping-pong of volatility'' continue in US stocks even as major indexes grind higher. She says stronger earnings have cushioned equities from rising US Treasury yields. She speaks with Dani Burger and Isabelle Lee on Bloomberg's ``Open Interest.'' (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1407,7 +1460,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Travelers Book Later and Some Trade Down: BWH CEO",
@@ -1419,7 +1472,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Pentagon Says Its Anthropic Ban Is On, Despite Lutnick Remarks",
@@ -1431,7 +1484,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "HPE CEO Neri on Oracle Deal, AI Adoption and Earnings Outlook",
@@ -1443,7 +1496,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Stocks, Bonds Rise as Fed-Hike Bets Ease on Waller",
@@ -1455,7 +1508,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Chicago Projects $882 Million Budget Gap on Bond, Pension Costs",
@@ -1661,36 +1714,12 @@
       "score": 50
     },
     {
-      "title": "137 Ventures’ Returns Soar on SpaceX, Anduril and Cognition Bets",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/137-ventures-returns-soar-on-spacex-anduril-and-cognition-bets",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T14:00:00.000Z",
-      "kind": "news",
-      "summary": "The 2014 fund of early SpaceX backer 137 Ventures is now worth more than eight times the money investors originally put into it, net of fees and other charges.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "US Services Pick Up, Price Gauge Jumps to Four-Year High",
       "url": "https://www.bloomberg.com/news/articles/2026-09-03/us-service-sector-picks-up-price-gauge-jumps-to-four-year-high",
       "source": "Bloomberg",
       "publishedAt": "2026-09-03T14:00:00.000Z",
       "kind": "news",
       "summary": "The US service sector expanded in August by the most in six months, bolstered by strong demand and a pickup in business activity.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Elliott Builds Deutsche Telekom Stake, Opposes T-Mobile Merger",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-03/elliott-builds-telekom-stake-opposes-t-mobile-merger-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T13:54:09.000Z",
-      "kind": "news",
-      "summary": "Elliott Investment Management has built a sizeable stake in Deutsche Telekom and indicated the German telecommunications giant should ditch a potential merger with its American arm T-Mobile US, people familiar with the matter said. Swetha Gopinath reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1817,18 +1846,6 @@
       "score": 50
     },
     {
-      "title": "Blackstone Private Credit Fund Again Caps Redemptions at 5%",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/blackstone-s-bcred-caps-redemptions-again-after-10-seek-to-exit",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T12:23:55.000Z",
-      "kind": "news",
-      "summary": "Blackstone Inc. moved to limit redemptions from its flagship private credit fund for a second consecutive quarter, providing an early glimpse at the lasting pressures facing the $1.8 trillion market.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "How Meta will pull off massive changes to its social media apps",
       "url": "https://www.cnbc.com/2026/09/03/meta-teen-app-changes.html",
       "source": "CNBC",
@@ -1943,18 +1960,6 @@
       "publishedAt": "2026-09-03T07:14:50.000Z",
       "kind": "news",
       "summary": "European stocks gained as traders reduced bets on a Federal Reserve rate hike following remarks from Governor Christopher Waller, while Deutsche Telekom AG advanced on news that activist investor Elliott Investment Management has built a sizeable stake.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Turkey Prices Cool Further in August, Raising Rate-Cut Prospect",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/turkish-prices-cool-more-than-expected-to-31-5-in-august",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T07:03:59.000Z",
-      "kind": "news",
-      "summary": "Turkish inflation slowed more than expected last month, strengthening the case for an interest-rate cut as early as September.",
       "tier": 1,
       "tickers": [],
       "related": [],

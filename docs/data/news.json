@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T04:31:26.952Z",
+  "generatedAt": "2026-09-03T04:59:19.372Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 3 — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026096889/xslF345X06/ownership.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-09-02T21:44:06.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
+      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
+    },
     {
       "title": "$FRMI Ty is makes me even MORE confident in huge and near term upside! 🚀 🤖 ⚡️ 💰",
       "url": "https://stocktwits.com/StockAuthority/message/663505451",
@@ -34,23 +49,8 @@
         "FRMI"
       ],
       "related": [],
-      "score": 80,
+      "score": 70,
       "summary": "$FRMI Ty is makes me even MORE confident in huge and near term upside! 🚀 🤖 ⚡️ 💰"
-    },
-    {
-      "title": "SEC filing: 3 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026096889/xslF345X06/ownership.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-09-02T21:44:06.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75,
-      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
-      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
     },
     {
       "title": "SEC filing: 8-K — Fermi Inc. (CURRENT REPORT)",
@@ -681,18 +681,18 @@
       "score": 65
     },
     {
-      "title": "DOJ urges judge to rule for OpenAI, Microsoft in N.Y. Times lawsuit - The Washington Post",
-      "url": "https://www.washingtonpost.com/technology/2026/09/02/doj-urges-judge-rule-openai-microsoft-ny-times-lawsuit/",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-03T00:55:07.000Z",
+      "title": "Trump administration backs OpenAI in New York Times’ copyright case over training of chatbots - The Hindu",
+      "url": "https://www.thehindu.com/news/international/trump-administration-backs-openai-in-new-york-times-copyright-case-over-training-of-chatbots/article71422156.ece",
+      "source": "The Hindu",
+      "publishedAt": "2026-09-03T01:49:10.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI",
-        "MSFT"
+        "OpenAI"
       ],
-      "score": 65
+      "score": 65,
+      "summary": "The Trump administration supports OpenAI in a copyright case against The New York Times regarding AI training practices."
     },
     {
       "title": "Nvidia Taps Equinix, Together AI for AI Inference Push - The Tech Buzz",
@@ -709,18 +709,18 @@
       "summary": "Nvidia partners with Equinix, Together AI to power enterprise open-model AI inference"
     },
     {
-      "title": "Nvidia’s Huang pushes for AI infrastructure in every country - CNBC Africa",
-      "url": "https://www.cnbcafrica.com/2026/nvidias-huang-pushes-for-ai-infrastructure-in-every-country",
-      "source": "CNBC Africa",
-      "publishedAt": "2026-09-02T23:10:00.000Z",
+      "title": "OpenAI’s data center will need unprecedented power. What it means for Effingham County electric bills - WJCL",
+      "url": "https://www.wjcl.com/article/openais-data-center-power-bills-effingham-county/73599707",
+      "source": "WJCL",
+      "publishedAt": "2026-09-03T04:18:45.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 65,
-      "summary": "Artificial intelligence is taking center stage at the G20 gatherings this week. Nvidia CEO Jensen Huang, Anthropic Co-Founder Tom Brown and OpenAI CEO Sam Altman highlight the tech-focused guests on Wednesday for day 2 of the G20 Innovation Ministerial in Chapel Hill, North Carolina. Commerce Secretary Howard Lutnick and White House Office of Science and Technology Policy Director Michael Kratsios are leading the […]"
+      "score": 55,
+      "summary": "“More than we've ever seen in the history of our state”: Georgia regulator outlines OpenAI’s Effingham County data center energy use — and who will pay the bill"
     },
     {
       "title": "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
@@ -734,21 +734,21 @@
       "related": [
         "MSFT"
       ],
-      "score": 65
+      "score": 55
     },
     {
-      "title": "OpenAI’s data center will need unprecedented power. What it means for Effingham County electric bills - WJCL",
-      "url": "https://www.wjcl.com/article/openais-data-center-power-bills-effingham-county/73599707",
-      "source": "WJCL",
-      "publishedAt": "2026-09-03T04:18:45.000Z",
+      "title": "Trump administration sides with OpenAI in lawsuit against New York Times - The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/sep/02/trump-new-york-times-lawsuit-ai",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-02T20:52:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
       "score": 55,
-      "summary": "“More than we've ever seen in the history of our state”: Georgia regulator outlines OpenAI’s Effingham County data center energy use — and who will pay the bill"
+      "summary": "The Times and many companies are accusing OpenAI of misusing their material to train AI systems without compensation"
     },
     {
       "title": "Microsoft to Disclose Azure Sales After Investor Gripes",
@@ -778,31 +778,19 @@
       "score": 55
     },
     {
-      "title": "U.S. Government Backs OpenAI in Copyright Fight With Publishers - WSJ",
-      "url": "https://www.wsj.com/tech/ai/u-s-government-backs-openai-in-copyright-fight-with-publishers-64a0735b",
-      "source": "WSJ",
-      "publishedAt": "2026-09-02T19:05:01.000Z",
+      "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs - The Hacker News",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-02T18:27:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Trump’s DoJ Backs OpenAI In Legal Face Off With New York Times - The Hollywood Reporter",
-      "url": "https://www.hollywoodreporter.com/business/business-news/trump-doj-backs-openai-new-york-times-1236688417/",
-      "source": "The Hollywood Reporter",
-      "publishedAt": "2026-09-02T18:06:16.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
+        "OpenAI",
+        "GOOGL"
       ],
       "score": 55,
-      "summary": "The government argues that restrictions on AI training will undermine national security, as well as competition among AI companies and news publishers."
+      "summary": "Google launches Gemini 3.8 Flash Cyber for trusted defenders as OpenAI says Astra meets its Critical cybersecurity capability threshold."
     },
     {
       "title": "Wall Street Is Obsessing Over Nvidia's $105 Billion Circular Financing Structure With OpenAI. Here's the More Important Deal No One Is Talking About. - The Motley Fool",
@@ -846,19 +834,6 @@
       "score": 55
     },
     {
-      "title": "Nvidia’s Huang Urges G20 to Speed AI Adoption, Spur Growth - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/nvidia-s-huang-urges-g20-to-speed-ai-adoption-as-key-to-growth",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-02T13:04:26.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Voice AI Startup ElevenLabs Hires OpenAI Executive to Oversee Revenue - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/elevenlabs-hires-openai-vp-as-first-chief-revenue-officer",
       "source": "Bloomberg.com",
@@ -868,19 +843,6 @@
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia and CrowdStrike Develop New Cybersecurity AI Models - WSJ",
-      "url": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
-      "source": "WSJ",
-      "publishedAt": "2026-09-02T12:46:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
       ],
       "score": 55
     },
@@ -899,6 +861,20 @@
       "summary": "/PRNewswire/ -- Equinix, Inc. (Nasdaq: EQIX), the world"
     },
     {
+      "title": "G20 live updates: Nvidia's Huang pushes for AI infrastructure in every country",
+      "url": "https://www.cnbc.com/2026/09/02/g20-innovation-ministerial-live-updates.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-02T11:09:00.000Z",
+      "kind": "news",
+      "summary": "The G20 Innovation Ministerial focused heavily on AI, with Nvidia CEO Jensen Huang advocating for every country to build its own AI infrastructure, calling it a \"great equalizer.\" Commerce Secretary Howard Lutnick discussed impending semiconductor tariffs to encourage domestic production and claimed Canada \"blew up\" trade deals for political reasons, a claim refuted by Alberta Premier Danielle Smith. Other discussions included the public backlash against AI data centers and p [sentiment: Somewhat-Bullish]",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Breakingviews - COMMENTARY: Financiers are set to turn Nvidia into an AI baron - Reuters",
       "url": "https://www.reuters.com/commentary/breakingviews/financiers-are-set-turn-nvidia-into-an-ai-baron-2026-09-02/",
       "source": "Reuters",
@@ -912,9 +888,9 @@
       "score": 55
     },
     {
-      "title": "Billionaire Dan Loeb Exited Nvidia and Broadcom. Is He Calling the Top in AI Chips? - finance.yahoo.com",
+      "title": "Billionaire Dan Loeb Exited Nvidia and Broadcom. Is He Calling the Top in AI Chips? - Yahoo Finance",
       "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-dan-loeb-exited-nvidia-032353901.html",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "publishedAt": "2026-09-03T03:23:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -939,9 +915,9 @@
       "summary": "Meta says it has caught up with Anthropic and OpenAI with Muse Spark 1.3, its most powerful AI model yet - SiliconANGLE"
     },
     {
-      "title": "Siemens Energy Faces Twin Tests: Musk's Turbine Gambit and a High-Stakes Divestiture - AD HOC NEWS",
+      "title": "Siemens Energy Faces Twin Tests: Musk's Turbine Gambit and a High-Stakes Divestiture - ad-hoc-news.de",
       "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/siemens-energy-faces-twin-tests-musk-s-turbine-gambit-and-a-high-stakes/70046546",
-      "source": "AD HOC NEWS",
+      "source": "ad-hoc-news.de",
       "publishedAt": "2026-09-03T02:40:29.000Z",
       "kind": "news",
       "tier": 3,
@@ -953,9 +929,9 @@
       "summary": "Siemens Energy shares dip 6.7% in a month, but analysts see turbine demand and spin-off as positives"
     },
     {
-      "title": "Broadcom Sees $230B In AI Revenue By 2028, Driven By 'Geniuses' OpenAI, Anthropic: Analyst Says Some Risks Remain Unresolved - finance.yahoo.com",
+      "title": "Broadcom Sees $230B In AI Revenue By 2028, Driven By 'Geniuses' OpenAI, Anthropic: Analyst Says Some Risks Remain Unresolved - Yahoo Finance",
       "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-sees-230b-ai-revenue-023424926.html",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "publishedAt": "2026-09-03T02:34:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1008,9 +984,9 @@
       "summary": "Google CTO Amin Vahdat announced at SEMICON Taiwan 2026 that the company will expand its AI infrastructure R&D center in Taipei's Shilin district,…"
     },
     {
-      "title": "Tech Bytes: OpenAI’s next AI model crosses ‘Critical’ cybersecurity threshold - Proactive Investors",
+      "title": "Tech Bytes: OpenAI’s next AI model crosses ‘Critical’ cybersecurity threshold - proactiveinvestors.co.uk",
       "url": "https://www.proactiveinvestors.co.uk/companies/news/1098015/tech-bytes-openai-s-next-ai-model-crosses-critical-cybersecurity-threshold-1098015.html",
-      "source": "Proactive Investors",
+      "source": "proactiveinvestors.co.uk",
       "publishedAt": "2026-09-03T00:46:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1020,6 +996,20 @@
       ],
       "score": 45,
       "summary": "OpenAI's upcoming AI model Astra has crossed its highest cybersecurity capability threshold, becoming the first model the company believes can autonomously..."
+    },
+    {
+      "title": "Nvidia’s Huang pushes for AI infrastructure in every country - cnbcafrica.com",
+      "url": "https://www.cnbcafrica.com/2026/nvidias-huang-pushes-for-ai-infrastructure-in-every-country",
+      "source": "cnbcafrica.com",
+      "publishedAt": "2026-09-02T23:10:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Artificial intelligence is taking center stage at the G20 gatherings this week. Nvidia CEO Jensen Huang, Anthropic Co-Founder Tom Brown and OpenAI CEO Sam Altman highlight the tech-focused guests on Wednesday for day 2 of the G20 Innovation Ministerial in Chapel Hill, North Carolina. Commerce Secretary Howard Lutnick and White House Office of Science and Technology Policy Director Michael Kratsios are leading the […]"
     },
     {
       "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals - TechCrunch",
@@ -1036,6 +1026,20 @@
       "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two."
     },
     {
+      "title": "Nvidia boss presses G20 ministers to build AI infrastructure - Tech Xplore",
+      "url": "https://techxplore.com/news/2026-09-nvidia-boss-g20-ministers-ai.html",
+      "source": "Tech Xplore",
+      "publishedAt": "2026-09-02T22:20:01.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Nvidia chief Jensen Huang urged G20 ministers on Wednesday to build more data centers to support the artificial intelligence revolution and warned that leaders who talk up the technology's dangers risk leaving their countries behind."
+    },
+    {
       "title": "Nvidia Fiscal Q2: The AI Giant Answers To Losing Market Share (NASDAQ:NVDA) - Seeking Alpha",
       "url": "https://seekingalpha.com/article/4942528-nvidia-fiscal-q2-the-ai-giant-answers-to-losing-market-share",
       "source": "Seeking Alpha",
@@ -1050,23 +1054,10 @@
       "summary": "Nvidia Corporation earnings show good AI growth, gigawatt revenue insights, and FY28 guidance is raised to 70. Click to get key NVDA takeaways to act now."
     },
     {
-      "title": "Enterprises put non-Nvidia chips 14 points ahead of Nvidia's next-gen GPUs on their evaluation lists - VentureBeat",
-      "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
-      "source": "VentureBeat",
-      "publishedAt": "2026-09-02T21:05:59.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "OpenAI’s new reasoning technique alarms AI safety experts - TechCrunch",
-      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "title": "US government sides with OpenAI on issue of training LLMs on copyrighted material - TechCrunch",
+      "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
       "source": "TechCrunch",
-      "publishedAt": "2026-09-02T20:19:14.000Z",
+      "publishedAt": "2026-09-02T17:09:06.000Z",
       "kind": "news",
       "tier": 2,
       "tickers": [],
@@ -1074,10 +1065,60 @@
         "OpenAI"
       ],
       "score": 45,
-      "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models."
+      "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads."
+    },
+    {
+      "title": "Enhanced geothermal notches another win as Google buys 400 MW from Fervo - TechCrunch",
+      "url": "https://techcrunch.com/2026/09/02/enhanced-geothermal-notches-another-win-as-google-buys-400-mw-from-fervo/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-02T16:54:23.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Fervo's deal with Google could expand to 1 gigawatt of geothermal power, enough to supply a very large AI data center in Utah."
     }
   ],
   "general": [
+    {
+      "title": "Trump to Levy More Chip Tariffs to Boost Manufacturing",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/trump-to-levy-more-chip-tariffs-to-boost-manufacturing-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T04:56:49.000Z",
+      "kind": "news",
+      "summary": "The Trump administration is weighing a fresh round of tariffs on imported semiconductors to lure more manufacturing to the US, Commerce Secretary Howard Lutnick has said. Reporting from Semicon in Taiwan, Bloomberg's Stephen Engle says chip-supply-chain companies remain upbeat because AI chip demand is strong in the US. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "China-US Spat at G20 Largely Came Down to Dispute Over One Word",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/china-us-spat-at-g20-largely-came-down-to-dispute-over-one-word",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T04:55:10.000Z",
+      "kind": "news",
+      "summary": "A disagreement between Chinese and US officials at a Group of 20 finance chiefs meeting this week mostly revolved around a dispute over one word, according to people familiar with the talks.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Trump Says 'Doing Well' in Iran, Asserts Hormuz Control",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/trump-says-doing-well-in-iran-asserts-hormuz-control-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T04:43:52.000Z",
+      "kind": "news",
+      "summary": "US President Donald Trump said renewed attacks on Iran would likely be short-lived, reiterating his claim Washington controls the Strait of Hormuz after fresh fighting spiked energy prices and rekindled fears of an open-ended war. Bloomberg's Jon Herskovitz has the latest. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Big Tech leaders talk innovation with policymakers, finalize AI agreements - The Duke Chronicle",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNdUY5NTBGeEVaUzZtSTdzSEk1RHhaZi1SZkpXMWlqM0Y1SFJDV1hjT3doMGw3cHRlUmhJanhFUmNzcVZOY1BrUEpwY25BSUJJOEtzOUxmbllmMU9LMGE3U3g4bGZLY01HRGhDb21ISjZvZzdZakljWmVxLWkxUW9RN2FQNWF4UloxLTdjaU5fMnhERWREWU9pdm81SDVGb2VPSFVFeUpLNFJrejh6M28xX0h4Wl9zYjJuQXp4Zm94LXB1VjVnTUlMUEhCZ0xxN1pOQ3FnQ3k4Z2NDQmpXckFUdzFMOGlYOHdpbXA3UTNCSjZyX2RIcDVUeHdfVzYtRmVEUDhJ?oc=5",
@@ -1096,6 +1137,18 @@
       "publishedAt": "2026-09-03T04:25:19.000Z",
       "kind": "news",
       "summary": "Government Pension Investment Fund’s recent announcement that its management team took the unusual step of meeting in August is fueling speculation that Japan’s biggest retirement fund may boost its allocation target for domestic bonds.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Drama Frenzy Sends China Broadcaster Mango Soaring 64%",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/ai-drama-frenzy-sends-china-broadcaster-mango-soaring-64",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T04:24:58.000Z",
+      "kind": "news",
+      "summary": "A frenzy for AI-generated dramas is sending investors rushing into Mango Excellent Media Co., putting the Chinese broadcaster on track to become Asia’s hottest stock this week.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1130,6 +1183,17 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMzFMc3lYV29yNWpnS0dHLVlhRk5wVHNUUi1GVm1UakxsUGxORFhqOHJkQ19FYTZzaEVRdmFwc3NHVnl2OGp5WTJPbzBNRGROdzhFSnNybFB0VjhzTW9HdHB0SDlHY2czaUVaU2xjMkFEMU1IelRhNHlWMWRLVVBkS3ZfZnhzU1JHNWQ5SFJuUS1qR1Z3TjBEQXJWcFV4RjZZR2xUWkxWRVlKSDg1Q0xMY2g0YV9BOTNwTHR5S0VkUkdLSEI2MWJCUktwREN5MFVSeURRWkQyd0J6V0RfV2pXQ0czMDg?oc=5",
       "source": "PR Newswire",
       "publishedAt": "2026-09-03T04:02:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI & Tech Brief: Fable 5.1 and data privacy - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX3RnTF9Sd1NEdm9aOEtMNTVTMWNZY0tRb2FZWDhDN3ZiZDdMUFQ3enloV0V6azlFZldtblZoY1g2bnpPOUVoLXFWRVE4Uk9sNzJmUmNWaHV1NFlIU0t6OFN0c1hyZERLR085X0pUeDQ1RVRHZGJhV1lJWWhuNXhITk4xelZOZmd2aVJmbEE5M0hyeEhROE1lSzNocjdKMXNlMVFuZWs5UHM0NTZR?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-03T04:00:03.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1182,19 +1246,30 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Japan’s 30-Year Bond Sale Demand Stronger Than 12-Month Average",
+      "title": "Japan’s 30-Year Bond Sale Passes Smoothly With Yields Above 4%",
       "url": "https://www.bloomberg.com/news/articles/2026-09-03/japan-s-30-year-bond-sale-demand-stronger-than-12-month-average",
       "source": "Bloomberg",
       "publishedAt": "2026-09-03T03:40:56.000Z",
       "kind": "news",
-      "summary": "Japan’s 30-year government bond auction Thursday saw stronger demand than the 12-month average as elevated yields underpinned buying.",
+      "summary": "A closely watched auction of Japan’s 30-year government bonds Thursday passed smoothly with yields above 4%, offering some respite from the selloff in long-dated bonds.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "LS Electric, KT Cloud sign MOU to build AI data center infrastructure - The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN2I4aU9CaHBXeUc2M1VBTjFkTnY2X2FuUjR1STJIejBXNnFxRk1WWGIwYWdWUXpyaU1xc0F3MENMUzE2eHFTX2RJV25ZMTJfaS1fTF90UlNoVTdrOGdxUlpvNkV0NWw5OVU0SG9WaDFvNGlDUlp4QnQyTF9pM3djQlM5RUdyVU1DZ0JGWS1vcWtIbU1kaFltTmxsRDhJNWIyWTZ0NkNYXy1RUVJzNUhjY2ZPSWFwcmlXVXRua0l3Mkl1ejTSAcgBQVVfeXFMTkxWbWlCOEJTNjU3OEkzc0tReE4wVFRja2dXLVVPY3FTNndMZlFWSi1iUkdfNlpjU1JrUDNLX0xCYnBMaUNQUXhpczJsNUdCMHhaXzBHSlh3VnBfVUVEeks4YUU3eFRzaDNEaGUybUJiYUxDMXA0VmpEZ1o1Z3FqSUk2RjhVd2ZfTzNKcGdLUGxRbnZLdXdQOEhBRjU2OG55WklsYTRIbmM5SFZnNG1vemhCWEZ6RGRPMTNEMUtzTkxNS3VwUWJGMjk?oc=5",
+      "source": "The Korea Times",
+      "publishedAt": "2026-09-03T03:40:04.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Dry Bulk Shipping Rates Surge on Tight Capesize Vessel Supply",
@@ -1206,7 +1281,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "India’s Rupee Gains as RBI Measures Bring in Bumper $136 Billion",
@@ -1218,7 +1293,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "HDFC Bank Is at Risk of Losing Its Top Nifty Spot to Rival ICICI",
@@ -1292,6 +1367,17 @@
       "score": 50
     },
     {
+      "title": "New York City to ban generative AI until high school - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQlNTWXFCSEppQTJ2RDN4dTNRTk13TmhBRWdtRU9MekFtb2tpWlgzSlpMdzFfQ2owcVBJc0FxTHZJWXR2YWIzTXNfX1RxNmEzZTlfb1BzUTBfWGJlZVVaaEtiRVFNb09MOXhwUG1SdXB5ZWdpOVQxSVoxcjNqRGhtTGlET3NNbTUzNWpHRlIyWU9faFU5aHBTRTN3YzNQSmRqVTA0Zw?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-03T02:30:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Singapore Ruling on Bankrupt Indonesian Firm May Open Recovery Path for Others",
       "url": "https://www.bloomberg.com/news/articles/2026-09-03/singapore-ruling-on-bankrupt-indonesian-firm-may-open-recovery-path-for-others",
       "source": "Bloomberg",
@@ -1328,23 +1414,34 @@
       "score": 50
     },
     {
-      "title": "Fitch Sees Thai Risks Easing Ahead of Rating Review, Citing Political Stability",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/fitch-sees-thai-risks-easing-ahead-of-rating-review-citing-political-stability",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T02:00:24.000Z",
+      "title": "The Hunt for AI-Proof Assets Is Leading Investors to Sports, Casinos and Travel - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWDNnN29fMkM2OHpfMXJjZ01Qdk9aVjNwRjNrRS0wRTExSkRObDBXeVgxQW5FdDZLMmVQQXFsZHV2ajU0SjZQX1RZd3pRVDNKX3NSaVBaSHo1MExmSWZMUU9EY3lZTTY4OHI4dEFWUEVIcTRVVGljLUE5MHJwYWZsX0hYTnlUM3pwd1lyUEt0cTU5RURORmtBVndkU3YweFdDY1dELTZjajI2UGVub0JwcGtfcVRDUQ?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-03T02:02:48.000Z",
       "kind": "news",
-      "summary": "Thailand is heading into Fitch Ratings’ annual review with risks receding from a year ago, when political uncertainty and mounting debt prompted a negative outlook on its credit.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "The Hunt for AI-Proof Assets Is Leading Investors to Sports, Casinos and Travel - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVGhSSDJRbW9WQmgyN3RsQS1NRmdqN05uNGpoWFFXQkhNdHNsX0w3UklUc1lULXgxcVNfZWkwTEtDTWVRWU1PczZJaWZSb3NZRFFwdzExMEVxTU1RZlhFMWFpS2NVYXV0QTJ3TWtyMFl1VmFPMTFtYVF3VGxWbVFlWVc5Mkh5WUlodFlKc050MWJkODBTRk5CcG9vT3lQVGY2SXI0dUpPYzFGUkt2a0hycWxfR1lMZDNBcGNZUWpzelN4Z0RsRGdFdjlCclRGUnM?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-03T02:00:00.000Z",
+      "title": "Sony, Warner sue Anthropic over Claude copyright claims - The Daily Aus",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNS25udzM0VVpBRmJPZDgyU01WSDBIdjZXV2ZIWWhfUG1YUmhiVk5xUGMySVRjVXUwM3ZUdnVudHRxVVpKZlpPc0Z0aWJscE1PRTBlRFJPLTNrM0ZwVEtpU1Y1Nm9EY0pMbmUxWHR4ZnMzdURycWwyQVdXeURDakdadQ?oc=5",
+      "source": "The Daily Aus",
+      "publishedAt": "2026-09-03T02:02:42.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Fitch Sees Thai Risks Easing Ahead of Rating Review, Citing Political Stability",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/fitch-sees-thai-risks-easing-ahead-of-rating-review-citing-political-stability",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T02:00:24.000Z",
+      "kind": "news",
+      "summary": "Thailand is heading into Fitch Ratings’ annual review with risks receding from a year ago, when political uncertainty and mounting debt prompted a negative outlook on its credit.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1375,36 +1472,12 @@
       "score": 50
     },
     {
-      "title": "Hongkong Land Eyes Billion-Dollar Property Deals to Enter Japan",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/hongkong-land-eyes-billion-dollar-property-deals-to-enter-japan",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T01:43:00.000Z",
-      "kind": "news",
-      "summary": "One of Hong Kong’s biggest landlords is in talks to enter Japan’s resurgent property market as part of parent Jardine Matheson Holdings Ltd.’s pivot toward becoming an investment firm, people familiar with the matter said.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Korean FX Reserves Swell by Record $14.3 Billion in August",
       "url": "https://www.bloomberg.com/news/articles/2026-09-03/korea-fx-reserves-swell-by-record-14-3-billion-in-august",
       "source": "Bloomberg",
       "publishedAt": "2026-09-03T01:32:22.000Z",
       "kind": "news",
       "summary": "South Korea’s foreign-exchange reserves rose by a record $14.33 billion in August, driven by a jump in commercial banks’ foreign-currency deposits at the central bank.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Diversified Energy Buys Elliott-Backed Birch for $1.8 Billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/diversified-energy-buys-elliott-backed-birch-for-1-8-billion",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T01:11:59.000Z",
-      "kind": "news",
-      "summary": "Diversified Energy Co. agreed to acquire Elliott Investment Management-backed oil and gas company Birch Resources in a deal valued at about $1.8 billion.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1459,17 +1532,6 @@
       "score": 50
     },
     {
-      "title": "Broadcom raises AI chip forecast as Big Tech keeps writing bigger checks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMHVNSmdqeHMyQ25WbzBIbEllY05mcWZaNG9DcGFPR216TGZlcURDU0k3U3VhRTJROS1VMnFEZVp0cG1vN1h2MkxJdDFCdlpfZ1pJcWs0QVhSNTUxMmxTR1FkZlJSNUduMTRqMV9faHJuemt3eWRUNW1oamNYWVRILVoyeGtPODg1VUNsSWk2aVlWNU4zQmpwRExHbUkxUQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-02T23:31:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Snowflake lifts annual revenue forecast on cloud and AI demand, shares soar - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFJ2U1c4RFI3aWwtQVNXOW1KaHFMSVpxc2RFc1BiUnNYdnBTaUJ5eWZpc3BxRWUzcnhiNURoRXlwY0VqU2M1NEYtX01XMlhLeF9zRkZncnEzYVFMSDJ0c182LWtNbUpHYy1NUXNET0NTZnZJMkxWOXVBa2ZvVVF2NTJDRHhpRjJOblRvRzJzZ1ZDN08yZnZ1UGpfQUdWRnc5Zm1fU0V5Vlc3SmIwdHUwbGNubEM4ZUQxbHdz?oc=5",
       "source": "Reuters",
@@ -1517,18 +1579,6 @@
       "score": 50
     },
     {
-      "title": "Asia Dollar Gauge’s Surge Masks Two-Tier Currency Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-02/asia-dollar-gauge-s-surge-masks-two-tier-currency-market",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-02T23:00:00.000Z",
-      "kind": "news",
-      "summary": "Asia’s currency gauge has been on a two-month tear, with one measure of its relationship to the dollar close to a record low. But its strength belies a two-tier divide, with currencies of technology-heavy exporters roaring ahead and set to further outperform peers less cushioned against high oil prices.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "ASML Supplier Says China 15 Years Behind in Top Chipmaking Tools",
       "url": "https://www.bloomberg.com/news/articles/2026-09-02/asml-supplier-says-china-15-years-behind-in-top-chipmaking-tools",
       "source": "Bloomberg",
@@ -1541,16 +1591,37 @@
       "score": 50
     },
     {
-      "title": "How Equinix has found a niche in the multitrillion-dollar AI data center boom",
-      "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-02T22:49:01.000Z",
+      "title": "Trump Administration Expresses Trust in Anthropic - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdlpZU3BDUU54UVF1U1FYNDk3UVg4eWRsY21FejQzczU3VnMyRkdtWV9SYjBZQ3E4a2d3dHhoZWdGSlNXQlJvS2VLVDhDaC1iVFd5R19tSnN3cFB6N2JPRl9kTndBS2c1azhKamIwNkNoRkx4RHFDa0gtSE1nZDhuMkIzeTVsbWla?oc=5",
+      "source": "조선일보",
+      "publishedAt": "2026-09-03T04:52:30.000Z",
       "kind": "news",
-      "summary": "Nvidia announced a new data center deal with Equinix and Together AI on Wednesday to help enterprise customers with open-model inference.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "3 AI Stocks Up 500% or More in the Past Year That Could Have More Room to Run - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeC1JTDRqek9qMFlfWWZrX1MwV2ZZcFJORzY2eEJwNzZwUEtGNjZXMld1aTltWnNxTkRiTEFCLU90SDVOeFdpVE90YV80ejdrTTQwTUtSOEhHYW8ySEF4dk0weFBzbXZtNldMd1Zmak5TaHljUlE2NXVmQ09iSy1QckNCSUhTamc1ekRJVGZn?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-03T04:50:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "800VDC Rack Solid-State Disconnects Market - Future Market Insights",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVWZzSHNqa2c5ekZsZ3lzRWF0WHAtTk4wTVdvOGlIcVpfaEl6ODJYLThyZGRpSGlZRGNUdlR5SnhSUnYyS3pWSTBVSHFqenlMRnJEV3I4QTZITWlfWm9paGdHWEhVVzNieDdsY2VpR0ZaNkFVdFA3TEZLcERIU1hXaWNpOVc1NTV5VUVjeDI0bDY?oc=5",
+      "source": "Future Market Insights",
+      "publishedAt": "2026-09-03T04:38:41.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "New Trier one of 9 schools to receive national grant for AI safety, literacy - therecordnorthshore.org",
@@ -1575,17 +1646,6 @@
       "score": 40
     },
     {
-      "title": "Fixing the AI industry’s PR problem - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdGVNYUNyQ0FmNHQ1bXVOMjNMVUotZGdpLVRubV9MTTZsWkZhNG1HZ3ktUWhPYVl4RDFRZjlZeFBNekdkZFhyd1AyNjRzOGN0eWp4VlZuV1FGWlBrdnI0aG1sVk1PUWg5VGM4enpSRGJlOV9kYW5kUWJTbzN6QkNhR2Myb1U?oc=5",
-      "source": "Financial Times",
-      "publishedAt": "2026-09-03T04:01:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Warnock calls for Georgia data center moratorium - Griffin Daily News",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUmVzU3E0Q1ZDc0N0bXMtYTRZYkNCZnZMdms1VnRyeUh1SzRhZF80LThmM25lbUp4Ty1rd0ZCNGcxREJ3Ni03Tlh6VXgtN3pVQ0s5UzF5N19yM3V2bEdwR1JFZEl3RlU4UENRYnVGQTZUdkZkdFZ3U3ZtUm9FSDBqeWdod0xQT3RLN0xxdGFmVHdfOGtVRVRmMGdTMjY4NDNMcGFzc2w1T25vbEdRVHFhSVgtUXJJczJwcUZKX3RLOFJseHBHbWNyMXZ5eGRnYkhNaEE?oc=5",
       "source": "Griffin Daily News",
@@ -1597,67 +1657,13 @@
       "score": 40
     },
     {
-      "title": "Fibre Connectivity: New Critical Infrastructure for AI Data Centres - ET Datacenters",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPaTBXSHFPS19EYWFTT0NXN25xTUpfZzdNNVZmRHAyZHo1SVBzdGNPcTlkd25YYkg5QjNub2IyZ2lpSUN5d0EwaHlDRlBKZEFTeU82ZEZZaFNfcG54UFljdDRjaTB4T2dscERXbkE0bWtuNXQwcFctMm5ZY0tueF9tS28wWTVGSGk1bUJMQ0VmMjVmUTk5QzFwS1hzTmhfdndfRHFCblJZT1FtbXVNOXJ4QlgzRFpKeVozN1h3aTIxRzBpa3NPMVB2N3RlUDRGMjA0ZkpOZDR2c1VDQWtGeVo3b0o2Z2N4ZGdEQVJIUUJyb2JtYl9LMlN3NDdqam9oTWJyNVctazNTeUVfWDduSklXNFpqS0l5T0laY2ptN2ktTzg1OGNDSVFj0gH2AUFVX3lxTE9TZzg5cmhBTDB5THFIams0dkQyTmhnSHdrazVEcmdkLVVURmhCV0ttTXNJQlloWnBlQjN1cGVOMHFIbTY2NTZEQ0wxY2NESGM3R3I4S1VRWmtEVXBnWDdPMXN4YzlBRkE5V0dNVXdTRzFjakhWUXE3cnhrOFVzdmdvOHBhYV8ycnRaZ3VRczNaTlE3ZEstbHZ0azJMNlU0Sjl6dHpMRlFwNmJhTGloOWFCQmtWY1FDdlhsTklQOUVRdHZxZmQzbmF5RnZMZms5LXN4blVOdXhhUUg5RnhIMFc0SzRRRTY0QlRBT000RmZDYmRRN290dw?oc=5",
-      "source": "ET Datacenters",
-      "publishedAt": "2026-09-03T03:50:31.000Z",
+      "title": "How Equinix has found a niche in the multitrillion-dollar AI data center boom",
+      "url": "https://www.cnbc.com/2026/09/02/equinix-partners-with-nvidia-carves-niche-in-ai-data-center-boom.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-02T22:49:01.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI Boom to Drive $31.6 Trillion Data Centre Spending by 2050 - ET Datacenters",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPZlVfZER1LWJBbGQ2dTB2dzRSaWpQR2lGQm1EYlNWOVVRdGRodU9jV0I1NFRlS29WWEFxSEpBd0huYkV6bUtCaURueUtYYVJVUi1UdE9JVkJyeTlkcFcyNmJrTk8xN3p3dlZVX0Z4aVBGdjQ0aENfcWRONGF0LTBzRHNvY2tLS3VFQ1E3X1ZyUDR2WGU4eUlDME5HWkUybk0yVU9YTkd1UXBuTUlLb0R1REJqekxSTUp2UFpPVWk4SVBZQV9tdGdzZEtqY2wwRWstRUlBdzgyVzJTSGp0MEo0M01wM1hlOHVqMXQtVk5rMW1SOXY1WEpJdUdfRmdVSFFBRThjUHFTaE5PdXdVQURpTW5VQ2lNRXfSAeYBQVVfeXFMTTNSbmpUSjB3Mm93Skt1N2F4MDdSOFZXNGNhMUhuZnUzX0pBaEJFR3pNcGpTcGJJLUN4RWN4aUdub1NkMklwd0FDcV9XQng3dTFpRFRiS2hFZUpNOXY0aENZN1JmZ19TNkdJQjE5U0pFejA3S2d0NDJYMUNrY0FnYUVIYS1xQ0NEeWZpZGtqMFJKN0ZsSnozQ18wVDhXWXpJSWRyTXE4d3MzUE9YME5BMDF1YkxjaTdpaVlzZFY5S1U5YnlqTlk0bEphdzJGN01uWEdoaWlTSWNiT3lxQ3Rha1NVMWRRMXc?oc=5",
-      "source": "ET Datacenters",
-      "publishedAt": "2026-09-03T03:50:31.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI Data Centre Expansion Faces Power, Workforce Constraints - ET Datacenters",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQclhCV2p1ZDFWWUo1LU5zNEFjMTBMbkl6SVN0aUkzZ1o4TnFrN1llR0VsMUg5LWlHa043dkhUeTdrcTZkQTk4cFo4U0ZvZ3ltYzBKNHc5YVMtMjE3ZlY3U01Xam1PNnBtN0lfQ2UwaDZPaFlSYjhwallpSFhHSTBuNWpiRHpEUHo0N0Y5Z1phNWRJM19HNk1MNDVoY21jVUN5NWNnMVM3TzBnYmhncUdONk9rMlVfY0E4eGlIaTdWTktqQUdDX1M4d1AzbE9MYkVfMDRybzIxTExKc3pncG5oS01BT2ZGZTN4YjVPWUhFMnk3dzUzVnJmdXpHdlMxMlc3d0c3bVdkQTJBSWIwLW9pUl9SY0l0NEHSAeYBQVVfeXFMT2V3Skw0aGtkMXYxSEZpS1c1NTM0SVE5QWRnZmdvMlV4THlxYWNOYlgxUmFWNV9YakEtNXNxc0VRXzFzQU9xNll2RlVSWXVuMEVPcWxLdjFJMk45SlE2RjlxQXkzZG4zWjRYVzFJSXdNMW5HZjF6TUxzVXBDTjRmbWg1eUQyYVhSWU9udFNGMXBqcF9VT0RDeGhQY25pUm5HOE5FNWw2SXN2TklDOW0wLUVXbHgyajhPWXltYTlkWmc4aVdqTVpwREN4bW1oei1GNGItclJOQWtkVTZzT0h4WmRFSVR3YVE?oc=5",
-      "source": "ET Datacenters",
-      "publishedAt": "2026-09-03T03:50:30.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI Inference Demands Reshape Data Centre Infrastructure - ET Datacenters",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPMWdKSVN3dlpZdEFvSGxjT3dHZS1lWUQ0OGVRM2xSSTlFMDR1WGxwNlRjMkxUNE82bHhCbnMtOFM4bThaWTIwVEx3UW5pTmV1cHBXR2FsMlNSREJQTkdxWEpfbFZ5dXVORlloSWo2YnpIX2tNMmJoZF9fcElPN19QbUFvSk1jN0p5bk14SHZXcEZ1MmRDOHRhTV95dDJabk5ua2hwUVdjc2VaazFFa20xdlo5NkE4WkZiYVQ4eDNiUFFoYjdsSml2Q0Z6Q3E1a0lyTGZxZnRaWDU1dU1vU0JuTHA5LUEtMDlkSndwTkRaNW1yVFdSZmpPYXcyMnFMNzVwbnhoTkRqZ2ZGaURsMlZVd255Y9IB4gFBVV95cUxOX1VMUU1oNTBnRXV5QTZiLXJGMzd6VjlqYThhUEVnYy1CQklSQ1ZZQ1hucF9rSmlleGdiWkxNQmJKblBUMGdBMzBjaUJBVTBzbDF0WmdmSDI1N0diUG85VjdYWlJFWUMtQ1dvLVcwUTZrOU9wNW1jTllCanhLVzJsN0VmR3JlcHlKQVZxTUR0Vm5ULUNLaXhrUC1WR2lyY3V6bWVqa3pBZE84MHRWTXVWSm1SWFRZUllRYUI2NmVZWnBOT2xOYUJKamNiZDRHQmtnb2xnN0pycGNOWFhQcXpEcW1R?oc=5",
-      "source": "ET Datacenters",
-      "publishedAt": "2026-09-03T03:50:30.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Tempus AI Got an $80 Target and 28% Upside Call. Is Wall Street Underestimating Its Healthcare Data Moat? - finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVDQzLUppMkt3NnJzR29CXzF6S1VqZjBESDc2ZVgwc21GY2FQTi0tcjl1WFhpdUVuNXJSVG10Z00zanJ3RXpYUHFVS1FuTGtWMHZZenRNRUUwbUxpVE9rMEtkYUliZUZ3MzhiODhBQ0FfdnF6SzYwXzFyS2wyUEtkeGpiUDNpUkV4WlFDTg?oc=5",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-09-03T03:34:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "FuelCell Energy: AI Data Center Push Likely To Remain An Uphill Battle - Hold - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNU9Pb0w1SFRya2IzUUZOekxaVW9xUDdjUkdzbzQyeFRRNVFJNlVseTd3SlJGZVFwbmp4VGZFdGVuZVpTWVpUX1BWaXJqdU9GU0VGNlYzdFJMS1BKR3dqT1c1UTB1a3NWemt3bUFtc2RPa1RrTU1RcTZnTGhwNU9jRHh4R3BSX3RhRE5EVkdrZ2t6aHl2XzdJT0FYZ2Z0ZjV2dWtTZUdHOEJKVXc0bF9V?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-09-03T02:53:04.000Z",
-      "kind": "news",
-      "tier": 2,
+      "summary": "Nvidia announced a new data center deal with Equinix and Together AI on Wednesday to help enterprise customers with open-model inference.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T16:31:25.606Z",
+  "generatedAt": "2026-09-03T17:01:30.594Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "$FRMI and $15 possible by end of year too",
+      "url": "https://stocktwits.com/StockAuthority/message/663559450",
+      "source": "@StockAuthority on StockTwits",
+      "publishedAt": "2026-09-03T16:51:29.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "46,788 followers",
+          "1 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 80,
+      "summary": "$FRMI and $15 possible by end of year too"
+    },
     {
       "title": "SEC filing: 3 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026096889/xslF345X06/ownership.xml",
@@ -42,7 +64,7 @@
         "trust": "medium",
         "reasons": [
           "46,788 followers",
-          "6 likes"
+          "7 likes"
         ]
       },
       "tier": 2,
@@ -918,28 +940,6 @@
       "related": [],
       "score": 38,
       "summary": "Republic Nation News"
-    },
-    {
-      "title": "Price keeps declining?",
-      "url": "https://www.reddit.com/r/FRMI/comments/1w11uyk/price_keeps_declining/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-08-28T20:27:23.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/EdwardoWick",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Price keeps declining?"
     }
   ],
   "related": [
@@ -947,7 +947,7 @@
       "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
       "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
       "source": "CNBC",
-      "publishedAt": "2026-09-03T16:27:21.000Z",
+      "publishedAt": "2026-09-03T16:43:22.000Z",
       "kind": "news",
       "summary": "Nvidia CEO Jensen Huang said that with Hugging Face, the chipmaker will \"expand access to AI for developers and institutions worldwide.\"",
       "tier": 1,
@@ -956,34 +956,6 @@
         "NVDA"
       ],
       "score": 75
-    },
-    {
-      "title": "Nvidia launches free tool that links idle computers into a personal AI data center - The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-      "source": "The Verge",
-      "publishedAt": "2026-09-03T16:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75,
-      "summary": "We have AI tokens at home."
-    },
-    {
-      "title": "NVIDIA plans to acquire Hugging Face and keep AI development platform open - The Robot Report",
-      "url": "https://www.therobotreport.com/nvidia-to-acquire-hugging-face-and-keep-ai-develpment-platform-open/",
-      "source": "The Robot Report",
-      "publishedAt": "2026-09-03T15:42:16.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75,
-      "summary": "NVIDIA is already a major model contributor to Hugging Face, which recently surpassed 1 million datasets."
     },
     {
       "title": "Why Hugging Face Decided to Combine With Nvidia",
@@ -997,7 +969,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "OpenAI, Anthropic, SpaceXAI Hit by Service Outages for AI Models",
@@ -1011,48 +983,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75
-    },
-    {
-      "title": "Nvidia: Hugging Face Acquisition Both a Wise Offensive Move, and Also Defensive - Morningstar",
-      "url": "https://www.morningstar.com/stocks/nvidia-hugging-face-acquisition-both-wise-offensive-move-also-defensive",
-      "source": "Morningstar",
-      "publishedAt": "2026-09-03T15:51:34.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "We think Nvidia stock is moderately undervalued."
-    },
-    {
-      "title": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion - WSJ",
-      "url": "https://www.wsj.com/tech/ai/nvidia-agrees-to-buy-hugging-face-for-13-billion-11929060",
-      "source": "WSJ",
-      "publishedAt": "2026-09-03T15:10:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
       "score": 65
-    },
-    {
-      "title": "Nvidia to spend $13 billion on Hugging Face, which will remain an open source platform - apnews.com",
-      "url": "https://apnews.com/article/nvidia-hugging-face-ai-d96d50e037a2ade479dcdf81cdf2afcf",
-      "source": "apnews.com",
-      "publishedAt": "2026-09-03T15:09:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion. Jensen Huang said in a post on Thursday that more than 18 million developers, researchers and creators use Hugging Face to share more than 3 million models, 500,000 data sets and 1 million applications."
     },
     {
       "title": "Nvidia Up on Acquisition; Snowflake Jumps on Outlook | Stock Movers",
@@ -1069,75 +1000,6 @@
       "score": 65
     },
     {
-      "title": "Nvidia to buy Hugging Face, an open-source AI platform, for $12.9 billion - CNBC",
-      "url": "https://www.cnbc.com/video/2026/09/03/nvidia-to-buy-hugging-face-an-open-source-ai-platform-for-12-point-9-billion.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-03T14:34:54.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Nvidia has officially agreed to buy open-source artificial intelligence platform Hugging Face for $12.9 billion, as the chipmaker moves beyond hardware and further up the AI stack. CNBC's Kristina Partsinevelos reports."
-    },
-    {
-      "title": "Nvidia buys developer platform Hugging Face for $12.9bn - The Times",
-      "url": "https://www.thetimes.com/business/companies-markets/article/nvidia-buy-hugging-face-open-source-ai-platform-9mjflzhbq",
-      "source": "The Times",
-      "publishedAt": "2026-09-03T14:01:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "The $5 trillion chip giant has thrown its weight behind the start-up scene as the steep cost of AI technology has sent demand for open-weight models surging"
-    },
-    {
-      "title": "Watch Nvidia (NVDA) Buying AI Platform Hugging Face in $13 Billion Deal - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQck16S3E5OERmM2FJbWZSbjR6Ym5GcGsxNnp2UzJPdXJrWUhGX3hxWlNIaVFZZVZaeVVNMW5fT1RWc1plbDlBaGs3WEMxaWE0bzRRa29KLVU2WjZYdkZFNERYMDNmU3JjbktPMzZnU1l2WHppM0pLdThkcnlFMlFqdzNhY2R0UEJOTk1ZZmNjYzRsaWtYY0ZOX2M2MmZ4SWhyMFdLOWhmOUR0TERKNlRv?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-03T13:27:53.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia to buy developer platform Hugging Face in $12.9bn deal - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-03T13:23:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Semi-conductor giant bets that support for open AI models could offset potential slowdown in demand for chips"
-    },
-    {
-      "title": "Nvidia buys Hugging Face for $12.9B, promises not to squeeze too hard - The Register",
-      "url": "https://www.theregister.com/ai-and-ml/2026/09/03/nvidia-buys-hugging-face-for-129b-promises-not-to-squeeze-too-hard/5294208",
-      "source": "The Register",
-      "publishedAt": "2026-09-03T13:03:13.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "GPU giant pledges to keep the model hub open to the entire AI ecosystem"
-    },
-    {
       "title": "Google starts September with AI momentum after longest monthly losing streak in over a decade",
       "url": "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html",
       "source": "CNBC",
@@ -1148,19 +1010,6 @@
       "tickers": [],
       "related": [
         "GOOGL"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia agrees to buy Hugging Face for almost $13 billion, expanding up AI stack - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUmJIYTUtMlNRemVDYm42cHc4ZWRmanRBZm5UUzhOUE1rWGFZaFNqLWhaZVlqeTNYOTQ2NWoxZXh3NE5xemVVQy1xOHRvTDRSYmlSendIM2k5Qy1MWVRxTW5WdUk5bFZBUUN3clVxc0RBUU9qdmVnRVR5c2toQS15MUhoSWpQcWMzQWNYSmZLZ1BDNFJUVHJQb1BucnEyU1J5NGNhT2xiZEdjYmtQZ0FPTU9TbmVLaG5SeW94MA?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-09-03T12:21:06.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
       ],
       "score": 65
     },
@@ -1179,126 +1028,64 @@
       "score": 65
     },
     {
-      "title": "Nvidia to spend $13 billion on Hugging Face, which will remain an open source platform - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2dCeVdWTElXNFlNWHFFc0hJR2JjR21iVkRTcnAtQzBfRXZQQ0x6TXhDbkJhbDRBOTA3VDhZODgxejN3YVM2aWtmcXBXYm5aNEZmM2UycjBjZWJEMU5MOUtST05odEdId1N0RlY2OUUxa2V1VDRqR3FnRTRWNFlQaUtKVkFmblh4UmtSd3NqampoRVlHZmVrRnlLczY0Vkt6ckRZeWpKS2REdzZLeFNkRNIBtgFBVV95cUxPQ3pnSEZqMmJXMmxsQ3gxNlo4bDJtYVFrdi1sWnBTdDZXMG0yQzZLcG5GOXZ5ZmwxUU01YmV0c0oxVnVJT0hzYXFqZUV2UmlnenUyT2thaURFZXI5djhUdXlSSWRXWGtybVgzT1hHSTRLa19sVVExM1EtaldramR2MEx0Q3M2ZHhPRldYbUVWVDBiRG15dFV0ZU1raTNSNnhFdUZYNmhUQ0N6aUpYb0VkeF9nVW9LUQ?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-09-03T16:07:30.000Z",
+      "title": "FILE PHOTO: Tour of OpenAI data center in Abilene, Texas - The Lufkin Daily News",
+      "url": "https://lufkindailynews.com/news_reuters/national/file-photo-tour-of-openai-data-center-in-abilene-texas/image_a46955ef-48a1-5135-a40e-3af2eeef90d6.html",
+      "source": "The Lufkin Daily News",
+      "publishedAt": "2026-09-03T10:15:35.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026 - blogs.nvidia.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc19tWkhaOGg5NWFFWGN5R0dnVkctSk1OTlQzdlJFeGxyOFdpcDl2VllVZTU3Vl9CeWZLTEkxZ3MtUG9Xam4yeVlvU0wtZTdaWmtUOFppY0ZDdVFWczNNWWVQd1FVM05XS09NZ3diemlBYlNoc0RCcUttaTB4VUozci1qbw?oc=5",
-      "source": "blogs.nvidia.com",
-      "publishedAt": "2026-09-03T16:05:29.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia to buy Hugging Face to buy $12.9bn AI software deal - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UUERKbnRyTjVyMVF3cEpneExmQWgwR3Z0WGVZb0xKU2tscll0dmZRMXBmc0FKcWg3N0NvWElDaVJ5a2xUQXRuaDdUN0M1aWREeWtaNmdYRzczUQ?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-09-03T16:01:39.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "NVIDIA PAIR Turns Your Idle Home PCs Into A Local AI Cluster, Killing $1,200-Per-Month Cloud API Bills - Wccftech",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUWg0T1F5S3FYWUVMUEx3WnQ2SkNMSHpwNURSTU9HZXNGaUtWSE5fZVd6UkNyNGFMVzNxNlhDanI3UUdfZ2ZMeXdHeUNwTGJacndVemIwMDE5RnpxX3FILS1Kd1d6eE93VFNjdHBHSEx4akZPM05lQXU5aTdGbjlacFNrVVZ2c3lfYWfSAY8BQVVfeXFMTkEwT2l6dVZUVm9UbVdXN1pESV9WNEJDdlZfMXY2T3NxVlluV01BNmtibnprcHFUTDZVaF91WHhCcjRnOF9SbFdPZUNFZVIwZmlHTzVKVWpuQlJpS0pKV29JVWZvVzZWMmRaMEZCcnJDQm85YlJWeGhtbkJSWjVxeFNVMkQ2Qm8xUXRhaFNuMXM?oc=5",
-      "source": "Wccftech",
-      "publishedAt": "2026-09-03T16:00:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "NVIDIA Brings Simplified Local AI Support To NVIDIA GPUs Carrying 24+ GB VRAM While vLLM & & llama.cpp Optimizations Boost Compute By Up To 1.9x - Wccftech",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSVo1MERrc0VSTXFyNXY2MnExTkRBM0RCbGRsWHNkNUdpTmFEb0JGMGZFODhJbENQTVpFNWxaRWdudjR1LS1vRGg2RHFoZzY2c0gxOHBQNm5VNU1SZWtPekc5YTF4RzJ6emxwbEJUZi1yczZSeTctcWwtcDNZc0ZtQUtqOXVlWThhZVp5RmZqOUZqMG9DbDkxSnRMMlE1UkZ0ekd4MFh6cW7SAa4BQVVfeXFMTVNQSTlTMXo0VVRFUDFMOHhzSzdmTW5DVGhqNkVJSlI5WlFZQW1Fb3oxWmhtbG80bGU4MzZMTWJOS0lOQXRhbWl5ZVptRUd2NE5BU09KaVpiV2R1TXlTZ1NIbjVlelNNVWdoTi0tWURBNW5uVm44MHF6dUZwVEJhMlQ2d0I0MllMU2JiN01UZ0FMUXUtMFNEOFlSdjVSQzBHc19Sa3E4X2gwdjlicEVR?oc=5",
-      "source": "Wccftech",
-      "publishedAt": "2026-09-03T16:00:04.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia PAIR Speeds Up AI Agents by Annexing PCs on Your Network - CNET",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVkYyMEVZbXk4MXJsbDRhc2p4UFE4UHpDNU1GNndzQUF3SExOYWZmSFlIMnBSaUg0N01WSXBRRDF5THBPcFJwTFdLMnpCbkRVVE9Bd2VkNU5IdlVZTHRuV1VLSnBvWW50eEF1UWtZQmZ6SEpPWmlVRXU0UTBQQjh5YTN6NHFFX0o0U0tQcDdXRjZnQkUtRVpjZURTUmdQRDhtQWMyRDVXdV91czNZWVE?oc=5",
-      "source": "CNET",
-      "publishedAt": "2026-09-03T16:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "NVIDIA's PAIR Lets You Use Idle PCs For AI Computing Tasks - Engadget",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLU9PWTQzd2tUaWZMTWZfcW1wSFRucjVCOHNqaEFLXzBxWVVYbEpuSTAtdnFSeU1iVlVCWXFmdkU4QUZrN2taZ0xxbmZCeDdKREpmdTZLY3RBUk9UYVZMMmxIVVpWbjZzaE5XZXBnaDVZMm5tUWF5ajB4REVTUXdSQWZJUVdVbjViS25UOUxEbDNvZGZXMGJN?oc=5",
-      "source": "Engadget",
-      "publishedAt": "2026-09-03T16:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "NVIDIA to acquire Hugging Face for $12.93B - AI News",
-      "url": "https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b/",
-      "source": "AI News",
-      "publishedAt": "2026-09-03T15:52:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
+        "OpenAI"
       ],
       "score": 55,
-      "summary": "NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model repository's platform and infrastructure."
+      "summary": "FILE PHOTO: The steel frame of data centers under construction during a tour of the OpenAI data center in Abilene, Texas, U.S., September 23, 2025."
     },
     {
-      "title": "NVIDIA splashes almost $13 billion on acquiring a popular AI platform - Windows Central",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbWtsUWVRd0FYMGljQVd5U0N3QmRQSUYwUzg5Z2VMV01vbldpMFZlU2xBQlRBZ0ZrNHpTUXRYTzBuUEgyd3hlT2JQQWdmeGU5UEUxUS1TZ3ltSEV6UVEzLU5kTF9iTkV3LVVMM1pHdHg0MmJvMC1ZT2VVaHB6U0VEcWUyVldKVlBINGRvZTFSQjBZLUl0anlnamN1OEgzUmtNRTZzNHVrY1gwdHlyTFFuUEVUTzl6VW41RkxzTW1tMl8zWG5EOW91eUFlaUxlcWFtWnBmZFkxeVVqZVRJMkxqekpqYllTd210MjhiSTVaYUhKZw?oc=5",
-      "source": "Windows Central",
-      "publishedAt": "2026-09-03T15:52:15.000Z",
+      "title": "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
+      "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-02T22:37:13.000Z",
+      "kind": "news",
+      "summary": "Microsoft will begin reporting quarterly Azure revenue in dollars for the first time, providing more clarity about its business that competes with AWS.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55
+    },
+    {
+      "title": "UMich’s data center has a similar playbook as OpenAI’s - The Michigan Daily",
+      "url": "https://www.michigandaily.com/opinion/columns/umichs-playbook-in-ypsilanti-township-isnt-that-different-than-openais-in-saline/",
+      "source": "The Michigan Daily",
+      "publishedAt": "2026-09-02T21:24:26.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "While the University’s research-focused data center facility is quite different from the commercial one in Saline, it broadcasts the same idea: The people with money will ultimately succeed in accomplishing whatever they want, regardless of legal or political pushback."
+    },
+    {
+      "title": "Citizen-led lawsuit challenges zoning for OpenAI Georgia data center - thecurrentga.org",
+      "url": "https://thecurrentga.org/2026/09/03/citizen-led-lawsuit-challenges-zoning-for-openai-georgia-data-center/",
+      "source": "thecurrentga.org",
+      "publishedAt": "2026-09-03T15:54:23.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 55
+      "score": 45,
+      "summary": "A new lawsuit asks court to declare that data center zoning at OpenAI site is invalid."
     },
     {
       "title": "Microsoft's AI Shake-Up Changes What Investors See - tradingview.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaWQxeUYzSzAwWlpzSC1nc19NQXotTi0yV01NWHJKbS1qT3l2dDU3cEk3Tk1Bb3ZMMVVDT1daeTJJWlFKUExMQ2ctM2xnQkRwVzgtaEdrMlZTMGxkYjFOd0Zsc09DZmxlUXZEZ0Q5Q3ZrSUg5UGpmNXJQTFlXdDBSeVk2cTF4dGhYOVdGbGNiNkJtM0wxVTRNV0xzdURtY2hJaDNBd0J0dXQweXZReDJr?oc=5",
+      "url": "https://www.tradingview.com/news/gurufocus:c7017a713094b:0-microsoft-s-ai-shake-up-changes-what-investors-see/",
       "source": "tradingview.com",
       "publishedAt": "2026-09-03T15:48:54.000Z",
       "kind": "news",
@@ -1307,49 +1094,321 @@
       "related": [
         "MSFT"
       ],
-      "score": 55
+      "score": 45,
+      "summary": "Microsoft NASDAQ:MSFT is reorganizing how it reports its business just as artificial intelligence increasingly cuts across Azure, Microsoft 365, GitHub and its broader software portfolio. Starting with fiscal 2027, Microsoft will collapse three long-standing reporting segments into just two: Agents…"
     },
     {
-      "title": "Nvidia Stock Rises After Jensen Huang Confirms $12.9 Billion Hugging Face Deal - tradingview.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeEk0OWxFamZaZjNxQUVVWVRaRlZLanlrSmg5SVBrTlFRTEU4THJLYmFHWW82RTdBaTI5ZmVGeUNTdTVER1h1SDRnc0dTMHZ0TjRMdlNfS3dzcFRST0oyVFhUb3dnLWZDQWJsNENWQXlLUXpPWFRxVTVDOVVPdjFOek1DMTZHbUpfQ1hOQ1BtUm10WDladTMwMzdnbmdNUkRGZi1PSTZ1N1JfQWpXVUtBSllBajVGRWdtbGs1b3NMOFNEQ2V6ZjFNZTBXUmFrSnNGNEow?oc=5",
-      "source": "tradingview.com",
-      "publishedAt": "2026-09-03T15:43:56.000Z",
+      "title": "Charter CFO’s move to Blackstone-Google AI venture signals where finance talent is flowing - Fortune",
+      "url": "https://fortune.com/2026/09/03/charter-cfo-move-to-blackstone-google-ai-venture-signals-where-finance-talent-flowing/",
+      "source": "Fortune",
+      "publishedAt": "2026-09-03T12:25:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Fischer's exit after nearly a decade at Charter marks a bet on AI infrastructure over legacy cable."
+    },
+    {
+      "title": "OpenAI's entanglements with a data center company go on display in a new filing - Business Insider",
+      "url": "https://www.businessinsider.com/openai-secures-major-stake-sb-energy-ipo-plans-2026-9",
+      "source": "Business Insider",
+      "publishedAt": "2026-09-01T21:01:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "SB Energy's IPO filing shows how it is entangled with OpenAI across its business, relying on the AI lab for demand in the AI buildout."
+    },
+    {
+      "title": "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
+      "url": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-01T20:20:50.000Z",
+      "kind": "news",
+      "summary": "OpenAI said it will make Astra available \"soon,\" but access to its cybersecurity capabilities will be limited.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Softbank's SB Energy files for IPO, says it's 'substantially dependent' on OpenAI",
+      "url": "https://www.cnbc.com/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-01T16:40:27.000Z",
+      "kind": "news",
+      "summary": "SB Energy hasn't generated any revenue from its data center business, and none of its data centers are operational yet.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
+      "title": "AI data center firm SB Energy, which is backed by Softbank, Nvidia and OpenAI, files for IPO - CNBC",
+      "url": "https://www.cnbc.com/amp/2026/09/01/sb-energy-ipo-softbank-open-ai-nvidia.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-01T15:32:36.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "SB Energy hasn't generated any revenue from its data center business, and none of its data centers are operational yet."
+    },
+    {
+      "title": "Nvidia to Invest $1 Trillion in U.S. AI Infrastructure This Year - Seoul Economic Daily",
+      "url": "https://en.sedaily.com/international/2026/09/03/nvidia-to-invest-1-trillion-in-us-ai-infrastructure-this",
+      "source": "Seoul Economic Daily",
+      "publishedAt": "2026-09-03T08:53:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 35,
+      "summary": "Nvidia CEO Jensen Huang said the company will invest nearly $1 trillion in U.S."
     },
     {
-      "title": "Nvidia Is Spending $12.9 Billion to Move Beyond the GPU - tradingview.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNelluc2Q1TXJzS3JhQmNsX0ZkMFBCQUZnMk1rZldFMnluLWE1RDhqZnE5aHd4djRlTFdUd0lROXpKRVRsc3hSMHVxVklxMzdYVndNU2Z2YktWWlZGc1FwbGdVbGJzOWFnTHB1YVBaekJaNmtBYzRnYW1PaWxHNXdxVXU2Z3pJUnJSQXE3c1lfck1aWGI1dHRkVkduakI2ckN0OXI0eUdKV2xhM201cWNOS1VvUEk?oc=5",
-      "source": "tradingview.com",
-      "publishedAt": "2026-09-03T15:43:15.000Z",
+      "title": "Siemens Energy's Dual Narrative: Musk's Turbine Ambitions Read as Bullish Signal While Breakup Machi - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeWs5Y1p1OEkzNUIyZU5HQVg4aW5uT0VNQWVYUldEeV9feVpsenBNVDJBYjRwNjdfVmltVWhFaFFrb1o4dmVGb2thd3hkT1lTeUtvdGdoT1E1NzFiRFFWa2Viejh2VXJMMVRSU0VZZERWd3k4cGtQSHdZd09iWlZxY1lmRTBjYzByWnNobnFlX1J5X1BZSzVRMU01aTFqZTBwUGRfeV9ieWUtdkNwWUtWb0NkTGtaQlN3bm41VjZBNTliUWlxSHFrclpSN21pUV9pMXBIXy1MN25wZk42?oc=5",
+      "source": "AD HOC NEWS",
+      "publishedAt": "2026-09-02T20:00:56.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "SMNEY"
+      ],
+      "score": 35
+    },
+    {
+      "title": "OpenAI Will Pay $4.8M for Effingham School Meals - Effingham Herald",
+      "url": "https://www.effinghamherald.net/data-centers/openai-will-pay-48m-for-effingham-school-meals/",
+      "source": "Effingham Herald",
+      "publishedAt": "2026-09-02T19:05:03.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35,
+      "summary": "OpenAI will spend $4.8 million to provide free breakfast and lunch to Effingham County K-12 students this school year."
+    },
+    {
+      "title": "SB Energy offered OpenAI $5.5 bln in warrants to secure data-center deal - WSJ - Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/sb-energy-offered-openai-55-bln-in-warrants-to-secure-datacenter-deal--wsj-4882171",
+      "source": "Investing.com",
+      "publishedAt": "2026-09-01T07:41:15.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35
+    },
+    {
+      "title": "Oracle and OpenAI's Saline Township data center going up quickly - The Detroit News",
+      "url": "https://www.detroitnews.com/picture-gallery/news/michigan/2026/08/31/construction-update-saline-twp-data-center-project-aka-the-barn/91490973007/",
+      "source": "The Detroit News",
+      "publishedAt": "2026-08-31T13:43:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35
+    },
+    {
+      "title": "China-Linked Bot Farm Spread Anti-Data Center Content, X And OpenAI Find - The Woody Show",
+      "url": "https://www.thewoodyshow.com/content/2026-08-28-china-linked-bot-farm-spread-anti-data-center-content-x-and-openai-find/",
+      "source": "The Woody Show",
+      "publishedAt": "2026-08-28T17:53:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35,
+      "summary": "Investigations by X and OpenAI revealed that a China-linked bot farm used AI to spread anti-data center messages in the U.S."
+    },
+    {
+      "title": "Nvidia adds more than $400 billion in value after blowout earnings boost AI confidence",
+      "url": "https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T20:47:36.000Z",
+      "kind": "news",
+      "summary": "Nvidia shares rose on Thursday after the chip giant's revenue guidance reassured investors that AI demand will remain strong.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 35
+    },
+    {
+      "title": "Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast",
+      "url": "https://www.cnbc.com/2026/08/26/nvidia-wows-wall-street-with-a-strong-quarter-eye-popping-sales-forecast.html",
+      "source": "CNBC",
+      "publishedAt": "2026-08-27T01:02:43.000Z",
+      "kind": "news",
+      "summary": "Nvidia CEO Jensen Huang did it again.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 35
+    },
+    {
+      "title": "OpenAI, Meta Seek Help to Combat Data Center PR Problem - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-20/openai-meta-seek-help-to-combat-data-center-pr-problem",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-20T20:00:01.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35
+    },
+    {
+      "title": "Siemens Energy's Rebound Hinges on a Reassuring Read of Musk's Turbine Plans - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQ2IxRVJTdktMcThNYUhNRUZzUEZtdzRqM3BVbW9PRl80QjAyZTdJSlVGa2RNODFHdlVPXzdkeHNwaTNHankwbFJCbEg0R19ycEkwR3pXWUJmLTFLU3lMN2xBNEpEZnlCanV0bWdqTWJXbHlHeXdaMDlCb2tmMkN0cGJjQk1nSXdtSHMyMGZwR2tySTFuaFBFbzhEV2RZQnBLTmxNWFlqeURVYUtwTWJfYUw3TkV2Znl4TlZLRTdqZFlMa2lWY041OWp3N0p5Tlhfd0hSQmM1X1c1Zw?oc=5",
+      "source": "AD HOC NEWS",
+      "publishedAt": "2026-09-02T16:51:20.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "SMNEY"
+      ],
+      "score": 25
+    },
+    {
+      "title": "SB Energy IPO Filing Reveals Reliance on OpenAI - findarticles.com",
+      "url": "https://www.findarticles.com/sb-energy-ipo-filing-openai-reliance/",
+      "source": "findarticles.com",
+      "publishedAt": "2026-09-02T13:01:42.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 25,
+      "summary": "SoftBank-controlled SB Energy has filed for a U.S. IPO, disclosing an AI data-center strategy closely tied to OpenAI before any of its facilities begin operating."
+    },
+    {
+      "title": "SoftBank's SB Energy Files for IPO While Admitting It Needs OpenAI to Pay Up - Startup Fortune",
+      "url": "https://startupfortune.com/softbanks-sb-energy-files-for-ipo-while-admitting-it-needs-openai-to-pay-up/",
+      "source": "Startup Fortune",
+      "publishedAt": "2026-09-01T22:07:54.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 25,
+      "summary": "SB Energy's IPO filing shows it's betting on OpenAI's unpaid Ohio leases, with $5.5B in warrants and Nvidia backstopping up to $105 billion."
+    },
+    {
+      "title": "OpenAI data center chief leaves the company as exec exodus continues - TechRadar",
+      "url": "https://www.techradar.com/pro/openai-data-center-chief-leaves-the-company-as-exec-exodus-continues",
+      "source": "TechRadar",
+      "publishedAt": "2026-09-01T21:10:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 25,
+      "summary": "The move comes as OpenAI had already essentially dismantled his job across three different executives"
+    },
+    {
+      "title": "Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses - SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign",
+      "source": "SemiAnalysis",
+      "publishedAt": "2026-09-01T20:14:32.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia to acquire AI platform Hugging Face for $12.9 billion - voz.us",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklLa08yNHRISnhzUTIyNkdmR2RFdWVhMEU3cUFwemJyV3g5ZXpNTjk4cWw5UC1GWko3c3lUaF9rQ0tRckV3TTBiOWd0dUFZMlNvcWVIWWJNamEyaERSSVFmeTVCbWpLVW45S1lUTjFCa3pDQUJnRTNKalJqVy1BVE53UEV5dnZyUW9kTzk0VjM2OXp4dl9WQ1hxbllkSEJ5TzRxMXlXQ2Y5MDNKR1E?oc=5",
-      "source": "voz.us",
-      "publishedAt": "2026-09-03T15:40:48.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
+      "score": 25,
+      "summary": "Korea hosts a Squid Games, National AI Tournament, the best non-Chinese open source model gets eliminated, why Nvidia needs open source, implications for Hynix and Samsung"
     }
   ],
   "general": [
+    {
+      "title": "Elon Musk starts spending his midterm election millions, revealing his key Senate targets",
+      "url": "https://www.cnbc.com/2026/09/03/elon-musk-america-pac-election-senate-races.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-03T17:00:34.000Z",
+      "kind": "news",
+      "summary": "Elon Musk’s America PAC is spending in key Senate races including Texas and Maine, days after Musk met with House Speaker Mike Johnson.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Elina Ribakova on Russia-Ukraine War",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/elina-ribakova-on-russia-ukraine-war-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T16:56:11.000Z",
+      "kind": "news",
+      "summary": "Peterson Institute for International Economics Senior Fellow Elina Ribakova discusses the war between Russia and Ukraine. She says we should stop calling it ‘hybrid warfare’ and start calling it ‘open warfare.’ (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Snowflake Jumps on Revenue Outlook, Uptake of AI Assistant",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/snowflake-jumps-on-revenue-outlook-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T16:44:39.000Z",
+      "kind": "news",
+      "summary": "Snowflake shares jumped by the most in three months after the company raised its outlook for annual sales and touted rapid adoption of its AI-assisted coding tool. Bloomberg Intelligence Senior Tech Analyst Matt Bloxham discusses the outlook from Snowflake as well as Broadcom's AI chip forecast and Nvidia's move to buy Hugging Face. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Markets Rally as Fed Governor Waller Points to Disinflation",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/bloomberg-surveillance-9-3-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T16:21:01.000Z",
+      "kind": "news",
+      "summary": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day than \"Bloomberg Surveillance.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Travelers Book Later and Some Trade Down: BWH CEO",
       "url": "https://www.bloomberg.com/news/videos/2026-09-03/travelers-book-later-and-some-trade-down-bwh-ceo-video",
@@ -1387,45 +1446,12 @@
       "score": 60
     },
     {
-      "title": "How the data center backlash is growing in U.S. statehouses - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHd0ZGthSDVzTTRSQVRkUllQSV9namdoc0JreU41RV9MZ1RPeUJoOGQtQW51dkpvYktzZHhoVk9QcGtYeDFXV2dfQ1RieDU0TUtYUm9TUVNqZk9CRldfMmZqNzhjOGY3NUFvTUxROHY5eTFBLXNMbkt2bTNXTHlGUlFpenFiYlVOS2NyOWNRakIwclFTSFo0QUc0N1h5ODhOZVE?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-03T16:02:59.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Stocks, Bonds Rise as Fed-Hike Bets Ease on Waller",
       "url": "https://www.bloomberg.com/news/videos/2026-09-03/stocks-bonds-rise-as-fed-hike-bets-ease-on-waller-video",
       "source": "Bloomberg",
       "publishedAt": "2026-09-03T16:02:25.000Z",
       "kind": "news",
       "summary": "Stocks rose and bond yields fell as Federal Reserve Governor Christopher Waller said he’d be willing to support holding rates steady if price pressures continue to show signs of easing. Keith Lerner, CIO at Truist, discusses current market moves, Fed expectations, and outlook for where the S&P 500 may end the year. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Texas Republicans turn against data centers, putting big tech on notice - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObnVVV1JaaGRibzZ2d1o5ckdSUWN6RjMxTll5LTBDcGhvUjlTWko3dWJzaTQzX29iOFNqenRwSUg2MkR4UkpjMjJHQzBlZVFOUWk4bXJLNmwxWmhVRW5vWlZUbEl4N3FvbXFoeU4ta1o3UG5wYXZhVk5Sd0JWQUVhZWRTaGRjSDdzbENFNmJodnZmV01SUVhtR1pWeGFQUnBKQWp6cU5lUUZhM3l0ZFBZbGlZX2x3Z2hMSXZXUg?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-03T16:01:41.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Sanders proposes ban on ‘artificial superintelligence’ after rogue AI incidents - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNUM2S0d4bnRiVmNRdE5JaHRVb0xCYXFTWkh1dnZPSWI1a0VoMEtlNzRZSzJHZG1PNjZobnBzV2licHEwVWg0RkdIenFEeV96eDRWYTZzXzhXZ2pUZWRPRHhBdENmRnIwNEtnUVZNekE5djd4TzZ6NnBQRHhkaFdUT3VTOWphUHdzWFR4d1NLc0tzNmZ4MDRPWFduRXZMeWhHYmpndGRhYm10S2sweEt3VE5oeGxtdmUxQnJMelhtbzlzZTVZZklV?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-03T16:00:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1441,7 +1467,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "NYC Transit Agency Prepares $785 Million Mansion Tax Bond Sale",
@@ -1453,7 +1479,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Carney Says He’s Open to US Pact if Auto, Steel Terms Are Competitive",
@@ -1465,19 +1491,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "Elon Musk starts spending his midterm election millions, revealing his key Senate targets",
-      "url": "https://www.cnbc.com/2026/09/03/elon-musk-america-pac-election-senate-races.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-03T15:46:23.000Z",
-      "kind": "news",
-      "summary": "Elon Musk’s America PAC is spending in key Senate races including Texas and Maine, days after Musk met with House Speaker Mike Johnson.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "EU Risks Falling Further Behind US, China, Ireland’s Martin Says",
@@ -1489,24 +1503,13 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "The Fed Fights Over the Right Sports Analogy",
       "url": "https://www.bloomberg.com/news/newsletters/2026-09-03/the-fed-fights-over-the-right-sports-analogy",
       "source": "Bloomberg",
       "publishedAt": "2026-09-03T15:34:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Can Power Utility Demand Boost nVent Electric's Long-Term Growth? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWDdiZlhnODdEdEJIcW9Ldk12endza0I1b29nb2JaSTZ3ak5pSTJFZ3JSZDVJM2Q1ZTVtSUkwMFQzVFBBTmFyTUEzcWJEVjdRSjJwdktSOXhvYm9MUkQ2SEVuV0c4U2tFN3RwelpySnFGOTYzcFNnZUs1aWxsX2ZBZjV1c2JxNDZoVzZNQXpLNmRaZ0dTbFJlWGJUWHpGeDNYZ0dhNE5INUpRdEhkbFBzN3lNa1BfeEJwUEloTXN6aXl2eHJob2c0TXNBQnE3Zmg0c0l1TkM0SjZCY2h5WFhxUA?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-09-03T15:30:50.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1538,34 +1541,12 @@
       "score": 50
     },
     {
-      "title": "HUMAIN Unveils humain-m3, a Frontier Arabic Language Model Developed by MiniMax, in Research Preview on HUMAIN Node - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSnpUMG56YmRuRDdBbWNoWE5kVGpvcDdmTVFoOS1mMk1qbXBTN0plNG1ranJpajg4cGRKNXBYLUl3SUs0SEZLY0VwcWUtT2FkRS1FX2RUV25aRks5NXE3MmJ2cGlabzhmNWdYMTVXRk5NY0RXVFZ0cVdoWWhBd1FsZmhYdk9mR3pud2s4bHZmWVd3bFp2UlI4QktXQ0FCcWhPUXpwNXB3Vkx5dmdrcm8zdnVMMzdaalZfUEc5NVJ6OE9DZjJQS2ZEbUlFUEQtMEJqNXdhRlhndU1ucUwyb0Zjdlh1bVh5RUdpYXViMHlkU2xxYjduOEVQSnZ4TkFJdw?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-03T15:28:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "'No steering wheel, no pedals': Tesla teases fans ahead of long-awaited Cybercab update",
       "url": "https://www.cnbc.com/2026/09/03/tesla-teases-no-steering-wheel-no-pedals-ahead-of-cybercab-update.html",
       "source": "CNBC",
       "publishedAt": "2026-09-03T15:23:27.000Z",
       "kind": "news",
       "summary": "Tesla first unveiled the Cybercab almost two years ago, and fans of the company have been waiting to hear more.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Chinese AI firm Moonshot files confidentially for Hong Kong IPO, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNT3M0Q2ZhaUlPQkc5bzU5MUEyMlpEaFFMVU5uakRWOEJkek85Z2ZsVWxjc0JnR3NrTFdXOGRIdDRQWmhobmhCZU9iVE9sakxTTVE0ejBhRnAyX1BaM0huMlVvZEJHREh6YzRQMzRLaXZRU2xtRld0THVvODFwTmJwa3BhOU9TQ1ZoQ2UxMldKVzlwcThoWTlEcVctbjhuZ2FqQVc4UTZwejhYeGtvWXJCdTBMaHVnSTVFbDVZSG1nVXYwOEtp?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-03T15:15:37.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1704,17 +1685,6 @@
       "score": 50
     },
     {
-      "title": "Snowflake's AI-powered results send shares soaring, buoy software stocks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMGllenZQOUdyWUY5dll4MzN6UThlWUp1MWdhN2NTNE00U2JvR2tGcE01a2wzdDA1U0tEb2lwS1NnYkU2STNXNHVXY3lJSGxwbTllTGIxc042dGdwUkduOTQ0c2lTM2xCOHBVcFlXNWdJa2xGMl9XcEZOTjdtdWgwcG4wbjRIWkptSjVRWEpBNUUyaHktWU5YUnNEMlZpZnphUUg3bWlXNFU?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-03T13:59:22.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Elliott Builds Deutsche Telekom Stake, Opposes T-Mobile Merger",
       "url": "https://www.bloomberg.com/news/videos/2026-09-03/elliott-builds-telekom-stake-opposes-t-mobile-merger-video",
       "source": "Bloomberg",
@@ -1739,18 +1709,6 @@
       "score": 50
     },
     {
-      "title": "Why Nuveen’s Rodriguez Is ‘Fairly Neutral’ on Duration",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-03/why-nuveen-s-rodriguez-is-fairly-neutral-on-duration-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T13:49:46.000Z",
-      "kind": "news",
-      "summary": "Tony Rodriguez, head of fixed income strategy at Nuveen, explains his firm’s position on duration and how that would change with a series of interest rate hikes from the Federal Reserve. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Treasuries Rise After Fed’s Waller Notes Inflation Progress",
       "url": "https://www.bloomberg.com/news/articles/2026-09-03/treasuries-rise-after-fed-s-waller-notes-progress-on-inflation",
       "source": "Bloomberg",
@@ -1763,56 +1721,12 @@
       "score": 50
     },
     {
-      "title": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOLV9Bd3VxMnlXU0NXNnI4dmhVZGQ2dUhRd1RCYU9iSm80dncwLXVWcFJxeVVlSGJJSW0wNDRSYzFwb3BGS3BEYVIzdDVlUW1xMGN3U2c3U1UwZzU4WTBPZHN0ZnMwaTZrVE1vWnlWX3RiVWxUeXJ3cmM4c3VFd1ZUTTMtdHlPeTd6Q2lCemVVMmp2WHdyQWM2UmJ6bHlLd2RoS2NYaGNCWlhtSFZZSFp0OXVZT2QwT0NxSmUxdGM4V2FCWFl0MWoya2x5T2tZZXV4dkplbjQ0akJWYkh4VGdiQkdDNy1yZ2NUTUUxWjNPTENzY2FuZE1ZY1kwNHZqazQ1bkgxLVE1VQ?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-03T13:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Spending Is Up. So Is the Guesswork. - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KOTVkN0NFRHNsR2RDaERyVng1YWJuRWVtZ3JLdU1Kam1HQVViQXhpS19IeVdTTzRPMzB6QWZtd01FazVtdEtzZDBJUFBlYWlDaEd5ZVdLc3J5UnB4STgyX1pxN3lVc0xDRGVMLVhUcDJaRzdyaHhSUUpudVNUT3M?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-03T13:18:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Saudi AI Firm Humain Unveils Model Based on China’s MiniMax",
       "url": "https://www.bloomberg.com/news/articles/2026-09-03/saudi-arabia-s-humain-unveils-ai-model-based-on-china-s-minimax",
       "source": "Bloomberg",
       "publishedAt": "2026-09-03T13:11:29.000Z",
       "kind": "news",
       "summary": "Saudi Arabia’s artificial intelligence company Humain has built a national AI platform based on an open model from Chinese lab MiniMax Group Inc., joining a growing list of countries seeking tighter control of the increasingly important technology.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "EcoVadis and CO2 AI Partner to Advance Scope 3 Transparency with Primary Data Precision - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVTBTTjBvMzk3c0lMWmhNWnJxeU5ZMXVrUXpxNWF5UG5wWmRlWXlMMTlHWXhESjdOSWx3RFVNd3NVWUxSbXplT1N0Nm0tNVZPTnZWQ1JTV2JfTURJUVBvZWNRNnZJZ1pQOGlnLUt0VnNkenFSaUJ6RDhISkI5c1otc3R3bUVka1BjMVJzNmt1dUlYVUlRYjR3blE1RFZNZ1VBaHVOZGw4eS1lSE5FcE0yeXlIVDg3UmptUVluWkZVSVFqMmMzaU1oemkwSk05UjZZZ3d0S2VHbWd1RGs?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-03T13:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Nscale and Figure Sign Strategic Partnership to Power the Next Generation of Physical AI - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXlLUU1zZE5wUVc5T3pRejU4R0Y5VF85S3A1NWJLTkktUVdEbElFUm0xdE9uM2FNRXloRmw1REtiZzFWSTVmNEpOcl9aRHlWdUdpaEllLWRUay1DWHdzUDRqYkRMODdYVUFIY0VJcWk4SVVKUmtNcWN4TG9TemZrWmNDRDJVTUZ1MnZYV011SXpPcmFCT25lQmJ6MjdHekMxTjF0R1RTLXNHTkJQTlJSeWN5SDVHSkl1Vk5lNjV5ZVdYXzAzbkxveE9veWR3R1d5YVlyT2dqbGxSZ3pO?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-03T13:00:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1843,68 +1757,12 @@
       "score": 50
     },
     {
-      "title": "S&P 500 Rises After Fed’s Waller Signals Patience on Rate Hikes",
+      "title": "S&P 500 Eyes Best Day in Month as Fedspeak Signals Rate Patience",
       "url": "https://www.bloomberg.com/news/articles/2026-09-03/us-stock-futures-rise-as-traders-parse-fedspeak-earnings",
       "source": "Bloomberg",
       "publishedAt": "2026-09-03T12:50:32.000Z",
       "kind": "news",
-      "summary": "The S&P 500 Index rose Thursday as investors weighed remarks from Federal Reserve Governor Christopher Waller, who offered optimism that inflation is showing some signs of slowing. Traders pared bets for interest-rate hikes in September.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Rival Technologies Opens Applications For Second Year Of Innovation Insiders - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdk1NYld5TWN6eHBObnYtZUhBeEZXU3lqYTd5c1NfNkxFampndTMyWER5cFNIcWYxUmVmSFBkNEhxNWxPVDd5N2JrWHVoUEtZXzB5UzJLM3h4YXZFb1FIYy00bDNaTnFYNEVMcUE5d0VzTzM4T2ZwdUNsT3lVX2pMdURrS3V6eGw2U0ZpQktUOFRFYWxlR19BZ3ZKOHlZRFV4TGVzNW5RdnBHYzB4MGtxaHdtUXVfY1RheWh3Tlh5Y0tEd1NVT2ExT3JLdHE?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-03T12:47:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Data Centers Are Being Rewired. One Critical Metal Is Moving With Them - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdTRKM3daTzBQNzFIM29aSjJud1A4M0lGZmtRQ2hKSVRzeXpibmYzN3VId0FsRkd5LWgwb3B2c0FsNkZEZktCNlhua0F6N2JQcUNZYksyY1pLeEpNOUdlUGRkc0YwOEpnaTYydDkwcEdBVmNxZGRxZm9rQmdmSTV1WGQ0Y2VBMDIxRGFfMmU1SjdvcjF2QXBKaVNsTUNsTjJLNDZpRENrT1p2am5uVFh3SUU3QUVERGhraHdxYWd6eU9sdURRYldTRmJUMy1pbUM3UzRwUTFHdmVxWWRuS1I2azJ6T2FGa3NoQnVESQ?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-09-03T12:46:35.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Revelio Labs Reports 36.5K US Jobs Added in August, Employment in AI-Exposed Jobs 19% Lower for Workers Under 25 - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNMFpMMkJ5ZmJIbnEzZGQ1UWpSUFVEOElvTjZ4TGVQdDRzV2J2Smo1T3daTUlkRk5UMnk5VTI1eWI1T2R6cXYxUWJDVXdNcVhST3dzZm5MOVdpUy1KVjBZU2pBOW9tbnlrak1Pcl94LVZPdlpOeTZhMm9Gc1N3SERJQ3hqQ0dFaTZ6Nl8weEE3Qjg2OHpsdm13N1hWeDdqc0JqblFuLUFRcHNoZlVHOXdfaXlnd0I1SWh4VVo3OXQtbkE2b2xJU3BSWEl6Vm5OVzgzamJySVRUZFZKVFE3ZDdyM3FWNFhacmNKNnc0SVJOQmVLTnVNVVhjU3lNYw?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-03T12:46:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Authenticx Expands Pharmacovigilance AI to Automate Downstream Safety Workflows With Accuracy - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPLTlwX1hRaERUenduckpsOEFsbmhha2VFTkVjTGR2NWU2amxEYU5fc0d5SkVkOWg0NmxrVVB0c2pmbTU4UFZ3V3c1Mmx1T0lHME9pQVpsTndGM25qZHNGNzZTRlUzMEhMNi02MW5kOUpHc3E2VEhVRkJMMktZSFRJNVRtazluamFzb01WdG1LTnZBakl5VE5oY0xOcUFkWVd3eVM5YmpnOUxqczgyWEJDVGxja2dETVpsSGR0OTJkdnptNmZHTXVSbFFhaHpuMmtUaU9ZRmVmdGs4REpOUnY2MjNiYw?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-03T12:38:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Campbell’s Shares Slump on Sales Drop, Dividend Cut, Outlook",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-03/campbell-s-shares-slump-on-sales-slide-dividend-cut-outlook",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-03T12:34:53.000Z",
-      "kind": "news",
-      "summary": "Campbell’s Co. shares slumped after the packaged food and snack maker posted its fourth straight quarterly sales decline, cut its dividend and unveiled a cost-savings plan.",
+      "summary": "The S&P 500 Index rose Thursday, on track for its best day in a month, as investors weighed remarks from Federal Reserve Governor Christopher Waller, who offered optimism that inflation is showing some signs of slowing. Traders pared bets for interest-rate hikes in September.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1933,6 +1791,174 @@
       "tickers": [],
       "related": [],
       "score": 50
+    },
+    {
+      "title": "Fed’s Waller Leans Toward Holding Rates If Inflation Improving",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/fed-s-waller-says-september-rate-decision-hinges-on-august-cpi",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T12:30:00.000Z",
+      "kind": "news",
+      "summary": "Federal Reserve Governor Christopher Waller said his next decision on interest rates will be “heavily influenced” by August inflation data due next week.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "G20 on AI policy, Snowflake earnings, Ford's production push and more in Morning Squawk",
+      "url": "https://www.cnbc.com/2026/09/03/5-things-to-know-before-the-stock-market-opens.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-03T12:28:37.000Z",
+      "kind": "news",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Blackstone Private Credit Fund Again Caps Redemptions at 5%",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/blackstone-s-bcred-caps-redemptions-again-after-10-seek-to-exit",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T12:23:55.000Z",
+      "kind": "news",
+      "summary": "Blackstone Inc. moved to limit redemptions from its flagship private credit fund for a second consecutive quarter, providing an early glimpse at the lasting pressures facing the $1.8 trillion market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "How Meta will pull off massive changes to its social media apps",
+      "url": "https://www.cnbc.com/2026/09/03/meta-teen-app-changes.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-03T12:00:01.000Z",
+      "kind": "news",
+      "summary": "Meta settled its child safety case. Now comes the hard part of actually implementing changes to its social media platforms. Here's what to expect.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Polish Rates Seen on Hold for Rest of 2026, MPC Member Duda Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/polish-rates-seen-on-hold-for-rest-of-2026-mpc-member-duda-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T11:53:12.000Z",
+      "kind": "news",
+      "summary": "Poland’s interest rates are set to stay unchanged for the rest of this year, or potentially longer, as inflation may temporarily top the central bank’s tolerance range, according to policymaker Iwona Duda.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Anthropic's distillation battle turns to the dark web as China concerns swell",
+      "url": "https://www.cnbc.com/2026/09/03/anthropic-distillation-battle-turns-to-dark-web-china-concerns-swell.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-03T11:45:01.000Z",
+      "kind": "news",
+      "summary": "Foreign adversaries have been illegally accessing American AI systems to train competing technology, and selling copycat versions at a lower price.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "China and Brazil and US Race for Rare Earths",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-03/china-and-brazil-and-us-race-for-rare-earths",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T11:00:01.000Z",
+      "kind": "news",
+      "summary": "Beijing controls much of the world’s minerals and mines and perhaps the most important part: the processing.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Even Rich Brits Are Shopping Second-Hand and Trading Down",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-03/even-rich-brits-are-shopping-second-hand-and-trading-down",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T11:00:01.000Z",
+      "kind": "news",
+      "summary": "Frugality has become part of the UK’s national mood.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "US Jobs Report Could Offer Clues on Workforce Participation Drop",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/us-jobs-report-could-offer-clues-on-workforce-participation-drop",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T10:00:00.000Z",
+      "kind": "news",
+      "summary": "A recent plunge in US labor force participation has sparked competing theories about whether persistent drivers — like aging and immigration — or more temporary seasonal shifts are to blame. Any evidence in upcoming jobs reports could reshape how policymakers view the labor market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "BOJ Data Suggest No Intervention While Officials Vow to Fight On",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/boj-accounts-suggest-no-major-yen-intervention-on-wednesday",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T09:26:07.000Z",
+      "kind": "news",
+      "summary": "Bank of Japan accounts showed no sign of a major intervention in the currency market by Tokyo on Wednesday, suggesting that sharp moves in the exchange rate that day were likely driven by twitchy traders amid a re-calibration of rate hike expectations.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Germany's Blessing on Economy, Banking Consolidation, Energy Prices",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-03/germany-s-blessing-on-economy-banking-consolidation-energy-prices",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T09:08:57.000Z",
+      "kind": "news",
+      "summary": "Martin Blessing, who is German Chancellor Friedrich Merz’s personal representative for investments, discusses the economy, banking consolidation and the surge in energy costs ahead of the European winter. Blessing, the former CEO of Commerzbank AG, speaks on Bloomberg Television. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "BOJ Is Said to Favor Quarter-Point Hike, Flexible on Future Path",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/boj-is-said-to-favor-quarter-point-hike-flexible-on-future-path",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T07:35:21.000Z",
+      "kind": "news",
+      "summary": "The Bank of Japan is leaning toward raising its benchmark interest rate by a quarter point this month in response to upward price risks, while leaving open the possibility of accelerating the pace of hikes thereafter, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "European Stocks Gain as Fed Rate-Hike Wagers Ease; Soitec Jumps",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/european-stocks-muted-as-deutsche-telekom-gains-on-elliott-stake",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T07:14:50.000Z",
+      "kind": "news",
+      "summary": "European stocks gained as traders reduced bets on a Federal Reserve rate hike following remarks from Governor Christopher Waller, while Deutsche Telekom AG advanced on news that activist investor Elliott Investment Management has built a sizeable stake.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Turkey Prices Cool Further in August, Raising Rate-Cut Prospect",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-03/turkish-prices-cool-more-than-expected-to-31-5-in-august",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-03T07:03:59.000Z",
+      "kind": "news",
+      "summary": "Turkish inflation slowed more than expected last month, strengthening the case for an interest-rate cut as early as September.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
     }
   ],
   "sourceErrors": [

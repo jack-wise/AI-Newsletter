@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:02:05.337Z",
+  "generatedAt": "2026-09-10T20:31:59.284Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,6 +17,28 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
+      "title": "Just Deployed. Fermi is my 4th largest position.",
+      "url": "https://www.reddit.com/r/FRMI/comments/1wcu7o5/just_deployed_fermi_is_my_4th_largest_position/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-09-10T20:05:01.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/CDBOIChill",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Just Deployed. Fermi is my 4th largest position."
+    },
+    {
       "title": "$FRMI adding dip shares today at the 13 ema. Many positive catalysts ahead here.",
       "url": "https://stocktwits.com/StockAuthority/message/663983929",
       "source": "@StockAuthority on StockTwits",
@@ -26,8 +48,8 @@
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "46,805 followers",
-          "3 likes"
+          "46,803 followers",
+          "4 likes"
         ]
       },
       "tier": 2,
@@ -48,7 +70,7 @@
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "46,805 followers",
+          "46,803 followers",
           "3 likes"
         ]
       },
@@ -911,28 +933,6 @@
       "related": [],
       "score": 38,
       "summary": "[September 02, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "This is not normal.",
-      "url": "https://www.reddit.com/r/FRMI/comments/1w4x6wu/this_is_not_normal/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-09-02T02:10:33.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/TennKare26",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "This is not normal."
     }
   ],
   "related": [
@@ -947,7 +947,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia CEO Jensen Huang says cybersecurity is AI's next blockbuster app - Business Insider",
@@ -960,7 +960,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Nvidia's Jensen Huang says AI will transform cybersecurity. The chip giant recently made strategic partnerships with CrowdStrike, Cisco, and Palantir."
     },
     {
@@ -975,7 +975,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "OpenAI not on track to reduce risk of ‘catastrophic’ loss of control, says board member - The Guardian",
@@ -990,19 +990,6 @@
       ],
       "score": 65,
       "summary": "US government adviser Paul Christiano warns of risks to AI industry as he joins OpenAI’s non-profit foundation"
-    },
-    {
-      "title": "The Mathematician Crushed Between OpenAI and Anthropic Over a Math Problem - The New York Times",
-      "url": "https://www.nytimes.com/2026/09/10/science/tristan-buckmaster-openai-math-navier-stokes.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-10T17:18:48.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
     },
     {
       "title": "Nvidia’s Huang Touts Cybersecurity as Next Big Market for AI",
@@ -1060,17 +1047,31 @@
       "score": 65
     },
     {
-      "title": "Nvidia and Palantir Expand AI Partnership. What It Means for the Stocks. - barrons.com",
-      "url": "https://www.barrons.com/articles/nvidia-palantir-ai-supply-chain-partnership-stock-impact-69524fc9",
-      "source": "barrons.com",
-      "publishedAt": "2026-09-10T14:41:26.000Z",
+      "title": "CT leaders demand answers from OpenAI over rogue AI agents - WSHU",
+      "url": "https://www.wshu.org/connecticut-news/2026-09-10/ct-leaders-openai-rogue-ai-agents",
+      "source": "WSHU",
+      "publishedAt": "2026-09-10T20:24:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "U.S. Sen. Richard Blumenthal (D-CT) and Attorney General William Tong are seeking answers after OpenAI disclosed that autonomous AI agents breached Hugging Face and tried to conceal their actions."
+    },
+    {
+      "title": "An N.Y.U. Mathematician Clashed With OpenAI Over a $1 Million Proof - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/10/science/tristan-buckmaster-openai-math-navier-stokes.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-10T14:05:57.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 65
+      "score": 55
     },
     {
       "title": "Morgan State University and Google Public Sector Collaborate to Build Next-Generation AI Campus - PR Newswire",
@@ -1098,6 +1099,20 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "Mathematicians want proof OpenAI didn’t use their work - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "source": "The Verge",
+      "publishedAt": "2026-09-10T11:00:57.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Another mathematician accused the company of ‘dishonesty’ after several big breakthroughs."
     },
     {
       "title": "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
@@ -1224,6 +1239,19 @@
       "score": 55
     },
     {
+      "title": "Introducing the Agents API - OpenAI",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "source": "OpenAI",
+      "publishedAt": "2026-09-10T19:22:14.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
       "title": "Nvidia Drops Over 2% as Australia Targets a 125% AI-Capacity Jump - Yahoo Finance",
       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-drops-over-2-australia-184933231.html",
       "source": "Yahoo Finance",
@@ -1292,9 +1320,9 @@
       "score": 45
     },
     {
-      "title": "Google Is Buying Half a Nuclear Plant's Output Through 2049. Cheap Power Just Became the Real AI Moat. - 247wallst.com",
+      "title": "Google Is Buying Half a Nuclear Plant's Output Through 2049. Cheap Power Just Became the Real AI Moat. - 24/7 Wall St.",
       "url": "https://247wallst.com/investing/2026/09/10/google-is-buying-half-a-nuclear-plants-output-through-2049-cheap-power-just-became-the-real-ai-moat/",
-      "source": "247wallst.com",
+      "source": "24/7 Wall St.",
       "publishedAt": "2026-09-10T17:47:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1318,37 +1346,139 @@
       ],
       "score": 45,
       "summary": "Google to Invest $15B in Finland’s AI Infrastructure"
-    },
-    {
-      "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies - NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
-      "source": "NVIDIA Blog",
-      "publishedAt": "2026-09-10T17:16:39.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "NVIDIA’s modular, full-stack robotaxi pipeline — a three-computer solution spanning AI training, simulation and in-vehicle computing — is being adopted across the robotaxi ecosystem."
-    },
-    {
-      "title": "Nvidia invests $3.5B in MediaTek to extend its grip on AI - Network World",
-      "url": "https://www.networkworld.com/article/4220808/nvidia-invests-3-5b-in-mediatek-to-extend-its-grip-on-ai.html",
-      "source": "Network World",
-      "publishedAt": "2026-09-10T17:13:56.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "The deal gives MediaTek access to Nvidia's data center infrastructure."
     }
   ],
   "general": [
+    {
+      "title": "Oracle's stock jumps 7% on earnings beat as cloud infrastructure revenue more than doubles",
+      "url": "https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-10T20:30:07.000Z",
+      "kind": "news",
+      "summary": "Oracle's results for the quarter came in stronger than expected, as did its revenue backlog.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Yankees, Vanderbilt on the Evolution of College Sports",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-10/yankees-vanderbilt-on-the-evolution-of-college-sports-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:27:01.000Z",
+      "kind": "news",
+      "summary": "Randy Levine, President, New York Yankees and Candice Storey Lee, Vice Chancellor for Athletics and University Affairs and Athletic Director at Vanderbilt University discuss the evolving college sports landscape with Bloomberg’s Janet Lorin at Bloomberg Power Players 2026 in New York. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI researcher who warned of ‘disaster’ is now a target of the right - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdl9ZSnNVQlk0SGE3VzFDNGhlb1RCVENwOFkzSTBoS2I4UFBuYmVwVDlYQ08wM0lCRzBad0MtRUVLWllhSTQ5YTMzX3lhd29EZ2xXXzVwWVh5SUJGV1Q3T1VEdFFWdFF6NWlIa29SS09Kazh4Mk1WQXFhM1Z0NGFnaGZIMkdWSXRHaTdHYTRReE1pTE1neVBxTk9aSHFZNV9oNWtjU0RSdXhzQ3c?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-10T20:26:19.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Anthropic disrupts Russian, Chinese AI campaigns targeting its Claude models - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUlpORllxa2oyR0lQcWRNaXQwTXd5LThFQTQ3bXFJdlQzUWRBZ2RYMjlmWm55R0gtd255dzltb2dEa3hlaHlJc0hNVG1GaWhkSDBXa3hRbVNiVkZ3XzZsbzY5ZE8wQ1pfR0w4TERlczNHbm5YaVI0QmN5TnJLWmVNRmsxMkxmcnFlTDg1QVdhSHJ0Vm5SUWsyWHFCU0JpdXNYcFhpWjBuQWVFTTZ2V1J1Ym82aExqdGJmVE9VNm5zR0xrUmtkSkNn?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-10T20:23:21.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Oracle Posts Cloud Sales That Top Estimates on Surging AI Demand",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/oracle-posts-cloud-sales-that-top-estimates-on-surging-ai-demand",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:15:12.000Z",
+      "kind": "news",
+      "summary": "Oracle Corp. reported growth in its cloud computing business that topped analysts’ estimates, suggesting the company’s large AI data center projects are helping boost its financial results.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Dispersion In High Yield Idiosyncratic: Steinbach",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-10/dispersion-in-high-yield-idiosyncratic-steinbach-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:15:03.000Z",
+      "kind": "news",
+      "summary": "Margaret Steinbach, fixed income asset class lead at Capital Group, joins Scarlet Fu on \"Bloomberg Deals.\" They discuss the gap between spreads between CCC and single B bonds in the high yield market. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Intel-Backed Altera Seeking IPO as Soon as 2026, Reuters Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/intel-backed-altera-seeking-ipo-as-soon-as-2026-reuters-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:13:54.000Z",
+      "kind": "news",
+      "summary": "Altera, a chipmaker backed by Silver Lake and Intel Corp., is preparing to file confidentially for an initial public offering that could occur as soon as this year, Reuters reported, citing people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Adobe Forecast Misses Estimates, Renewing Fears About AI Impact",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/adobe-forecast-misses-estimates-renewing-fears-about-ai-impact",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:11:36.000Z",
+      "kind": "news",
+      "summary": "Adobe Inc. gave an outlook for sales that narrowly missed analysts’ estimates, renewing concerns about pressure from artificial intelligence upstarts.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Silicon Valley Escalates Warnings About Existential Risks of AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/silicon-valley-escalates-warnings-about-existential-risks-of-ai-mtvyorsp",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:10:11.000Z",
+      "kind": "news",
+      "summary": "For years, some of the leading figures in Silicon Valley have warned that artificial intelligence might pose an existential threat to humanity even as they pushed to develop the technology. This week, the high-profile resignation of an Anthropic researcher brought that conversation to the mainstream.Jacob Coxon, a rank-and-file staffer, quit his job and accused both his former employers — Anthropic and OpenAI — of “gambling with our lives” by “racing toward super-intelligent ",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "NYC Transit Agency Prepares $785M Mansion Tax Bond Sale",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-10/nyc-transit-agency-prepares-785m-mansion-tax-bond-sale-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:03:50.000Z",
+      "kind": "news",
+      "summary": "Bloomberg's Michelle Kaske joins Scarlet Fu on \"Bloomberg Deals.\" New York City’s transit network is planning to offer $785 million of debt backed by a levy on sales of luxury real estate. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Connecticut Surplus Deposits to State Pensions Top $11B",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-10/connecticut-surplus-deposits-to-state-pensions-top-11b-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T20:03:28.000Z",
+      "kind": "news",
+      "summary": "Bloomberg's Martin Braun joins Scarlet Fu on \"Bloomberg Deals.\" Connecticut transferred about $1.3 billion in excess revenue this latest fiscal year to underfunded state employees’ and teachers’ pensions, bringing surplus deposits to more than $11 billion over the last seven years, state Treasurer Erick Russell said Tuesday. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Credit Has Been 'Well Behaved': Griffiths",
       "url": "https://www.bloomberg.com/news/videos/2026-09-10/credit-has-been-well-behaved-griffiths-video",
@@ -1356,6 +1486,17 @@
       "publishedAt": "2026-09-10T19:53:37.000Z",
       "kind": "news",
       "summary": "Margaret Steinbach, fixed income asset class lead at Capital Group, and Zachary Griffiths, head of US IG & macro strategy at CreditSights, join Scarlet Fu on \"Bloomberg Deals.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "In-house counsel group accuses rival of training AI on its materials - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNlJDTVpGUjNQcWRSb3BKVy1aV2xYMUVJMG1kU2wtVy1IVnNLMzBpdmNTeExoNWpsLUtfc18wY2ZxYV9OUGczLWpiZjNuT2RuWXZsYlJ6Ukw4b09zSDZNb1hVNXl5OWVPVnlUd3gxNTFuOUphNlVBb3B3ME8zTXJMUG81UU4zLU5FampOT1RMMjBSZ080amxQTGZFSDByY0ZNMGZXU01ZbFFZTG1KSkZudG4yd2VGZw?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-10T19:41:13.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1406,7 +1547,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Argentina Monthly Inflation Slows to Lowest Since Last June",
@@ -1418,7 +1559,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Pretty Far From 'Liz Truss Moment': Herr",
@@ -1430,7 +1571,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Prediction Markets Are Huge Opportunity, DraftKings CEO Says",
@@ -1467,10 +1608,10 @@
       "score": 50
     },
     {
-      "title": "In-house counsel group accuses rival of training AI on its materials - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNlJDTVpGUjNQcWRSb3BKVy1aV2xYMUVJMG1kU2wtVy1IVnNLMzBpdmNTeExoNWpsLUtfc18wY2ZxYV9OUGczLWpiZjNuT2RuWXZsYlJ6Ukw4b09zSDZNb1hVNXl5OWVPVnlUd3gxNTFuOUphNlVBb3B3ME8zTXJMUG81UU4zLU5FampOT1RMMjBSZ080amxQTGZFSDByY0ZNMGZXU01ZbFFZTG1KSkZudG4yd2VGZw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-10T18:38:47.000Z",
+      "title": "How Chinese AI Firms Tried to Clone U.S. AI Models - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeGswOXZNYVNvdzV2SzRHVC1aM0lGM01aNHVnMlRRQWVZYkFhTGh0dzE4UkRER042RU5kQnVmUVY3X282ZmgzYUtJYU5uSnhyZTV1eWlsaDdKcHBjQ28tQnQzd09XUm9KczY4SFB1c1hEZ2xfS203RExlZDU5OUZRcHZ4YUNUdG5JbzByNFlqWi10ZVlXcmxVNExXODR6dEp4X1FjbERSckRRQ0ZNcVhiMGxR?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-10T18:43:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1597,59 +1738,11 @@
       "score": 50
     },
     {
-      "title": "NSE Downsizes India IPO, Showing Mounting Valuation Concern",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/nse-downsizes-india-ipo-signaling-mounting-valuation-concern",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T17:48:49.000Z",
-      "kind": "news",
-      "summary": "National Stock Exchange of India Ltd., the world’s largest derivatives exchange by volume, has downsized its initial public offering, a sign of rising concern over the willingness of investors to buy into the deal at the valuation the firm had been seeking.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Windshield Giant Belron Is Said to Seek Banks for Amsterdam IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/windshield-giant-belron-is-said-to-seek-banks-for-amsterdam-ipo",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T17:23:08.000Z",
-      "kind": "news",
-      "summary": "Belron Group SCA is reaching out to investment banks to pitch for roles on a potential initial public offering that could be one of the largest Europe has seen in recent years, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Want to Make a Fortune From the AI Power Boom? Buy These 2 Industrial Stocks - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRk9SNVFEdFZqbjNtMTVZd1phRVpacllESy1xVG5sUVNLSUVBU3RtTzNYOG5RMDBIU0hkMzFRRW43ZF83SFZpTlFkcmlUcC10bDduR3plMG1CZ1VRcnZ0ZmJhd2diUlNxQllaTHFKZEJhd0gxdkUwdG5RSHRvM3JTajZVa09lb3g2aEx4T0VoUnk?oc=5",
       "source": "The Motley Fool",
       "publishedAt": "2026-09-10T17:15:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Europe’s New Wealth Hubs Lure UK Super Rich",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-10/europe-s-new-wealth-hubs-lure-uk-super-rich-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T17:14:31.000Z",
-      "kind": "news",
-      "summary": "The UK is facing new competition from countries such as Greece and Turkey, which offer disaffected ultra-wealthy residents more favorable tax regimes. Nicole Sy explains. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Why ETF Shop ProShares Wants to Launch Interval Funds",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-09-10/why-etf-shop-proshares-wants-to-launch-interval-funds",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T17:11:10.000Z",
-      "kind": "news",
-      "summary": "The firm also wants to target individual, self-directed traders",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1717,18 +1810,7 @@
       "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb3RxODh4LWhOS0o0UFBGNUhHODA0Z2dqbTcyTlFmYVRwRzJVVnhKMFl4U2dqQUQwZXV6d0c1c0gwRHZXeF9wOFRTN2xCengtRnRuR0tJLUNDTlI3VjAyekRzRngwMWY4M01hSUVwWURFUFAxdkRjRC1HZUM3cG9YTnZ4UVFNcVlnT200?oc=5",
       "source": "The New York Times",
-      "publishedAt": "2026-09-10T17:00:05.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Chinese AI Giants Accused of Sending Millions of User Queries to U.S. Models - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeGswOXZNYVNvdzV2SzRHVC1aM0lGM01aNHVnMlRRQWVZYkFhTGh0dzE4UkRER042RU5kQnVmUVY3X282ZmgzYUtJYU5uSnhyZTV1eWlsaDdKcHBjQ28tQnQzd09XUm9KczY4SFB1c1hEZ2xfS203RExlZDU5OUZRcHZ4YUNUdG5JbzByNFlqWi10ZVlXcmxVNExXODR6dEp4X1FjbERSckRRQ0ZNcVhiMGxR?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-10T17:00:00.000Z",
+      "publishedAt": "2026-09-10T17:00:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1845,88 +1927,6 @@
       "source": "PR Newswire",
       "publishedAt": "2026-09-10T16:00:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Mortgage Rates in the US Rise to 6.76%, Highest Since June 2025",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/mortgage-rates-in-the-us-rise-to-6-76-highest-since-june-2025",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "kind": "news",
-      "summary": "Mortgage rates rose for a third week, moving closer to 7% as US Treasury yields climb and the housing market stalls.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Top Pentagon Official Rejects Anthropic Researcher’s AI Warning",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/top-pentagon-official-rejects-anthropic-researcher-s-ai-warning",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T15:57:00.000Z",
-      "kind": "news",
-      "summary": "A top Pentagon official is pushing back against rising fears about artificial intelligence risks days after a public warning from an Anthropic PBC engineer that AI insiders believe the technology “could kill us all by the end of the decade.”",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Saudis Weigh Merging EA With Savvy to Create Global Gaming Giant",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/saudis-weigh-merging-ea-with-savvy-to-create-global-gaming-giant",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T15:50:01.000Z",
-      "kind": "news",
-      "summary": "Saudi Arabia’s wealth fund is considering combining Electronic Arts Inc. with Savvy Games, people familiar with the matter said, in a deal that would bring blockbuster titles like Madden NFL and Pokemon Go under one roof.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Cummins Sells the Power Solutions That Keep Data Centers Running. Does That Make the Stock a Buy? - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYXpYZU1xQk5BLWRaSTRUVXpfbmdoOVpvcFhreTdtX29WT1hHVVZrUzE2OEZaZV9IYjJhcE5BUllMX3pURDluQU03ZzdLZ0FwQXpVd0FIUFlUbVF3VjhmNUZZMXd1Sjc3U09LSWJHX1NrUjItNXZoTGJTM3Zad21JUHZlSnZ3RDllMDRkZnFiUk40bjJWeFE?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-10T15:36:42.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "BNP Says Too Much AI Borrowing Will End Bull Market in Credit",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/bnp-says-too-much-ai-borrowing-will-end-bull-market-in-credit",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T15:30:14.000Z",
-      "kind": "news",
-      "summary": "The breaking of the years-long rally in corporate bonds will happen when technology companies saturate markets with too much debt, according to a prediction from BNP Paribas SA.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Robotics Startup Skild AI Hits $100 Million in Revenue Run Rate As Customer List Grows - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDRnMVBkQzlWX2d4UGlyT3VHYXdkVDdfM0xRdC1IbEh5WllNVzBRSmtPSXRRVlBpMFZzT2dmclB0LU9sYjVhcERLV2dXclRCWXp5bUsxcjlRNTQxMkYyMGNMN082MUdXdkVJQ0Y2cWZ0RVlWRW1BMW41VTBOLWV5bTNZMkxyUlZTenQtQ1BoTGdzblZHNmRJOGpaS2k5THBRTkRiR2tsdGpzSDdHWmI2azZwaw?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-10T15:30:02.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Robotics Startup Skild AI Hits $100 Million in Revenue Run Rate",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/robotics-startup-skild-ai-hits-100-million-in-revenue-run-rate",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T15:30:02.000Z",
-      "kind": "news",
-      "summary": "Skild AI Inc., a fast-growing startup that develops software to help robots learn tasks, has reached $100 million in recurring revenue run-rate, 10 months after beginning commercial use.",
       "tier": 1,
       "tickers": [],
       "related": [],

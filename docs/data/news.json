@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T07:01:53.342Z",
+  "generatedAt": "2026-09-10T07:31:40.223Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -979,22 +979,24 @@
       "score": 65
     },
     {
-      "title": "DOJ probes Nvidia's licensing deal with AI startup Groq, NYT reports - Reuters",
-      "url": "https://www.reuters.com/legal/litigation/us-doj-probes-nvidias-licensing-deal-with-ai-startup-groq-nyt-reports-2026-09-10/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-10T01:07:00.000Z",
+      "title": "Meet the data center capital of Europe as Google joins Microsoft and TikTok in betting over $30.2 billion on Finland - Fortune",
+      "url": "https://fortune.com/2026/09/10/europe-data-center-capital-google-microsoft-tiktok-30-2-billion/",
+      "source": "Fortune",
+      "publishedAt": "2026-09-10T07:00:00.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "MSFT",
+        "GOOGL"
       ],
-      "score": 65
+      "score": 55,
+      "summary": "Major “hyperscalers” are making their way across the pond to build foundations in Europe’s newest data center host."
     },
     {
-      "title": "Google plans for $15B AI build-out in Finland - arkansasonline.com",
+      "title": "Google plans for $15B AI build-out in Finland - The Arkansas Democrat-Gazette",
       "url": "https://www.arkansasonline.com/news/2026/sep/10/google-plans-for-15b-ai-build-out-in-finland/",
-      "source": "arkansasonline.com",
+      "source": "The Arkansas Democrat-Gazette",
       "publishedAt": "2026-09-10T06:47:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1006,24 +1008,10 @@
       "summary": "HELSINKI -- Alphabet's Google will invest at least $15.1 billion in AI infrastructure in Finland over the next two years, its biggest European investment, including a major deal for the supply of nuclear power."
     },
     {
-      "title": "Google To Invest €13 Billion In Finland’s AI Infrastructure - Sarawak Tribune",
-      "url": "https://www.sarawaktribune.com/google-to-invest-e13-billion-in-finlands-ai-infrastructure/",
-      "source": "Sarawak Tribune",
-      "publishedAt": "2026-09-10T06:25:13.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55,
-      "summary": "HELSINKI/WASHINGTON: Google announced on Wednesday that it will invest €13 billion (US$15.1 billion) in Finland to develop artificial intelligence (AI)"
-    },
-    {
-      "title": "Nvidia plans major expansion of data centre capacity in Australia to meet AI demand - Reuters",
-      "url": "https://www.reuters.com/world/asia-pacific/nvidia-teams-up-with-australian-partners-build-ai-factory-capacity-2026-09-10/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-10T00:22:00.000Z",
+      "title": "DOJ probes Nvidia's licensing deal with AI startup Groq, NYT reports - reuters.com",
+      "url": "https://www.reuters.com/legal/litigation/us-doj-probes-nvidias-licensing-deal-with-ai-startup-groq-nyt-reports-2026-09-10/",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-10T01:07:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1033,15 +1021,28 @@
       "score": 55
     },
     {
-      "title": "OpenAI adds AI safety official to its board - Axios",
-      "url": "https://www.axios.com/2026/09/09/openai-adds-ai-safety-official-to-its-board",
-      "source": "Axios",
-      "publishedAt": "2026-09-09T22:15:01.000Z",
+      "title": "Justice Dept. Investigates Nvidia Deal With Groq - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/09/business/nvidia-groq-antitrust.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-10T00:23:24.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Nvidia plans major expansion of data centre capacity in Australia to meet AI demand - reuters.com",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-teams-up-with-australian-partners-build-ai-factory-capacity-2026-09-10/",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-10T00:22:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 55
     },
@@ -1060,6 +1061,19 @@
       "score": 55
     },
     {
+      "title": "Opinion | I Worked on Safety at OpenAI. The Fix Isn’t Hard. - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/09/opinion/openai-ai-companies-safety-regulation.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-09T21:00:03.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
       "title": "FILE PHOTO: Tour of OpenAI data center in Abilene, Texas - The Post Star",
       "url": "https://poststar.com/partners/reuters/photos/image_925a3c01-8ad8-59ba-935b-79df8592be1f.html",
       "source": "The Post Star",
@@ -1074,6 +1088,19 @@
       "summary": "The steel frame of data centers under construction during a tour of the OpenAI data center in Abilene, Texas, Sept. 23, 2025."
     },
     {
+      "title": "OpenAI adds AI safety official to its board - Axios",
+      "url": "https://www.axios.com/2026/09/09/openai-adds-ai-safety-official-to-its-board",
+      "source": "Axios",
+      "publishedAt": "2026-09-09T17:26:18.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
       "title": "Google Commits $15.1 Billion to Finland AI Infrastructure - The National CIO Review",
       "url": "https://nationalcioreview.com/articles-insights/extra-bytes/google-commits-15-1-billion-to-finland-ai-infrastructure/",
       "source": "The National CIO Review",
@@ -1086,6 +1113,19 @@
       ],
       "score": 55,
       "summary": "Google plans to invest $15.1 billion in AI infrastructure across Finland through 2028, its largest single investment in Europe."
+    },
+    {
+      "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized comms, researchers say - reuters.com",
+      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-09T16:03:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Google commits $15B to Finnish AI infrastructure, marking its largest-ever European investment - The News International",
@@ -1211,22 +1251,23 @@
       "summary": "Google's €13B Finland investment fuels AI data centers, clean energy, jobs"
     },
     {
-      "title": "Google to Invest $15 Billion in Data Centers and Infrastructure in Finland - WSJ",
-      "url": "https://www.wsj.com/tech/google-to-invest-15-billion-in-data-centers-and-infrastructure-in-finland-335c5ee2",
-      "source": "WSJ",
-      "publishedAt": "2026-09-09T07:14:00.000Z",
+      "title": "Google To Invest €13 Billion In Finland’s AI Infrastructure - Sarawak Tribune",
+      "url": "https://www.sarawaktribune.com/google-to-invest-e13-billion-in-finlands-ai-infrastructure/",
+      "source": "Sarawak Tribune",
+      "publishedAt": "2026-09-10T06:25:13.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "GOOGL"
       ],
-      "score": 55
+      "score": 45,
+      "summary": "HELSINKI/WASHINGTON: Google announced on Wednesday that it will invest €13 billion (US$15.1 billion) in Finland to develop artificial intelligence (AI)"
     },
     {
-      "title": "Google to invest $15bn in Finland AI infrastructure, secure nuclear power - Banglanews24",
+      "title": "Google to invest $15bn in Finland AI infrastructure, secure nuclear power - en.banglanews24.com",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jcjl2M2xiemJLdEdfaEtkQ0hpUHAwdm13dkF4eEpyQUp3ZG13eG5fdnBuM3M3Yjh0cE9GUnowMEVYeWVmOWh6N0ZEcWdXTHU0blBLalU2NE9pU0Jfc3otLU1NVjJyR0hNTjJ3RGV3?oc=5",
-      "source": "Banglanews24",
+      "source": "en.banglanews24.com",
       "publishedAt": "2026-09-10T05:55:29.000Z",
       "kind": "news",
       "tier": 3,
@@ -1237,9 +1278,9 @@
       "score": 45
     },
     {
-      "title": "OpenAI, Anthropic AI Agents Bypass Controls, Access Over 10 Sites - chosun.com",
+      "title": "OpenAI, Anthropic AI Agents Bypass Controls, Access Over 10 Sites - 조선일보",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV2NMUWNNUjR2M3BhMGQzeVU3aWVzZ2wtZC0tVUdkMDJaUTR6Z1BScXN6UUEwX1Y2dTY4VGlRc1FPWWpjVGpueWV3TVlvS0VJTTRYNHFnWHY0cnIxa0ZBYjc3RmlGdFVlZTcyV0wwV2ZUb2JhMGdfRS15dDAxMlZhc2I3SkExekxy?oc=5",
-      "source": "chosun.com",
+      "source": "조선일보",
       "publishedAt": "2026-09-10T05:45:30.000Z",
       "kind": "news",
       "tier": 3,
@@ -1303,50 +1344,138 @@
       ],
       "score": 45,
       "summary": "Nvidia announced partnerships with eight Australian cloud computing and data center operators—Firmus, AirTrunk, NextDC, CDC, Sharon AI, Iren, Reset…"
-    },
-    {
-      "title": "NVIDIA (NVDA) Expands AI Factories In Australia As Global Partnerships Deepen - simplywall.st",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvda/nvidia/news/nvidia-nvda-expands-ai-factories-in-australia-as-global-part",
-      "source": "simplywall.st",
-      "publishedAt": "2026-09-10T02:40:17.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Google Invests €13 Billion in Finland AI Infrastructure, Including Three New Data Centres: how 19 outlets framed it - NewsCord",
-      "url": "https://newscord.org/article/google-invests-13-billion-in-finland-ai-infrastructure-including-three-new-data--Story_20260909_GooglepicksFinlandfob2a90fbd",
-      "source": "NewsCord",
-      "publishedAt": "2026-09-10T02:04:20.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45,
-      "summary": "Google Cloud Press Corner spotlights environmental sustainability, while News.az stresses security risks tied to foreign-owned data centres."
-    },
-    {
-      "title": "OpenAI Hugging Face hack keeps getting ‘more crazy and sci-fi’ - AZ Family",
-      "url": "https://www.azfamily.com/2026/09/10/openai-hugging-face-hack-keeps-getting-more-crazy-sci-fi/",
-      "source": "AZ Family",
-      "publishedAt": "2026-09-10T01:45:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Two new reports reveal that much of what the public was initially told about the OpenAI–Hugging Face hack was wrong. An AI researcher says the fuller picture is even more alarming."
     }
   ],
   "general": [
+    {
+      "title": "Bloom Energy Has More Room to Run Amid the AI Supercycle, and Its S&P 500 Inclusion Could Add to the Momentum - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR1Q3eTA2WnhvVUV1WGprcm5weGhiQlU4ZkNlb0o0dEs4N0V0dW56TEstUFF1c3pLMDc3NVpRTGtiUG5FNTBNZEpuUmo5STlkcUVFUk9VMU80RFFyLXpIR1NBRFlQQ1RndlB4YU5SYTVGREFHZm1HTlAxal9NTkxMV0puamU2R2hiamlsN0VqLTBtLU1VUWk2Wg?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-10T07:30:02.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "What Happens If the AI Boom Never Pays Off?",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/what-happens-if-the-ai-boom-never-pays-off",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T07:29:17.000Z",
+      "kind": "news",
+      "summary": "On this week’s Trumponomics , Cory Doctorow joins Stephanie Flanders to challenge the industry’s biggest promises.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Europe’s Shrinking Bank Liquidity Fuels Hedge Fund Rates Bet",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/europe-s-shrinking-bank-liquidity-fuels-hedge-fund-rates-bet",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T07:26:18.000Z",
+      "kind": "news",
+      "summary": "Investors are piling into an arbitrage trade in euro money markets that’s gaining traction as the region’s financial conditions tighten.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Treasuries Dismiss President's Promise: 3-Minutes MLIV",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-10/treasuries-dismiss-president-s-promise-3-minutes-mliv-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T07:25:22.000Z",
+      "kind": "news",
+      "summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Vietnam Grab Drivers Plan Weekend Boycott Over Commission Fees",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/vietnam-grab-drivers-plan-weekend-boycott-over-commission-fees",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T07:19:43.000Z",
+      "kind": "news",
+      "summary": "Vietnam drivers for Grab Holdings Ltd. are calling on fellow independent contractors to engage in a work stoppage this weekend to protest the ride-hailing company’s commission rate, which they say is excessive and threatens their ability to earn a living wage.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Thai Central Bank Targets Money Flows Behind Scam Networks",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/thai-central-bank-targets-money-flows-behind-scam-networks",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T07:19:16.000Z",
+      "kind": "news",
+      "summary": "Thailand’s central bank is making its broadest push yet to trace and block illicit money flows, targeting the proceeds of scams and other illegal activities that have surged across Southeast Asia.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Sanlam Profit Falls 22% on Higher Claims, Weakness in India",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/sanlam-interim-profit-falls-22-on-weakness-in-india-morocco",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T07:15:42.000Z",
+      "kind": "news",
+      "summary": "Sanlam Ltd. profit dropped as weather-related claims in South Africa grew and strength in the rand trimmed the translated value of earnings from its businesses outside of its home market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI data centers are less thirsty now, tech giants say - The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaUp0ZlVXMVV2dEs0S2s2dFFQQmU0YXdlNFJFT0tRTXZheUF1XzZLNWIwNFg4NDl0SDZ4UVVWUFprTkIyOFZZWXh0ZE03Q0hsbng0RVdtQWY2ZGpDVjlfazFRMTUtUVRKOXE1UEs1ZzlSdjlFRmthZzljRGh6SDcxZHZ1LWJZTmk3R0VJdDgzZHIycGFIY05ONkw2NWt1OEozOE9pajRn?oc=5",
+      "source": "The Daily Star",
+      "publishedAt": "2026-09-10T07:05:31.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Anthropic AI Models Breached Real Systems After Test Misconfiguration - The Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE44Nk9jVHVyUWMyRUN6TFJGcXNNX281akYxdExzMlk1elhQbnhpbWt1VzFrS09McEhGemc3V0c5THFQa1VIcmI3ZmFLeFcyTXh3YTNCendNT3YyX3ZpNkNyU0hXWG1LS21KNG1FZ25NSVFGOHhETUx6Y0E2LW0?oc=5",
+      "source": "The Hacker News",
+      "publishedAt": "2026-09-10T07:04:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Model Built by Bloomberg Predicts Bank of England Rate Rise in February",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/ai-model-built-by-bloomberg-predicts-bank-of-england-rate-rise-in-february",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "kind": "news",
+      "summary": "A machine learning model built by Bloomberg Economics that uses past decisions to predict future policy expects the Bank of England to raise interest rates in February, earlier than most forecasters.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Coinbase CEO Predicts Bitcoin's Downturn Is Over",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-10/insight-with-haslinda-amin-9-10-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T06:53:07.000Z",
+      "kind": "news",
+      "summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Why Payment Companies Are Choosing India's GIFT City",
       "url": "https://www.bloomberg.com/news/videos/2026-09-10/why-payment-companies-are-choosing-india-s-gift-city-video",
@@ -1408,6 +1537,18 @@
       "score": 60
     },
     {
+      "title": "Egypt Inflation Turns to Easing Again Despite War Pressures",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/egypt-inflation-turns-to-easing-again-despite-war-pressures",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-10T06:25:21.000Z",
+      "kind": "news",
+      "summary": "Egyptian inflation slowed in August after quickening the month before, an unexpected easing that came despite price pressures stemming from the Iran war.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "HD Hyundai Heavy bets W1.07tr on engines, SMRs for AI power - The Korea Herald",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBT2s5Z2ZRNmdhOC0wM1NoUDBEcmVQSHdsTFl4UnFJd2JyMEtDSjJjTG51dW00RThhWml0ZUg4R3BKWmdjU3NqVWdCSzlxTF9KVXF0VUgyUQ?oc=5",
       "source": "The Korea Herald",
@@ -1416,7 +1557,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "UK Faces Soaring Gas Prices as Winter Nears",
@@ -1428,7 +1569,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "John Lewis Loss Widens as Turnaround Hit by Higher Costs",
@@ -1440,7 +1581,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "ECB Expected to Raise Interest Rates",
@@ -1452,7 +1593,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Payout Pledge Adds to Bond Market Jitters as Auction Looms",
@@ -1464,12 +1605,23 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "AI boom poses new financial stability risks, BIS head says - Reuters",
+      "title": "Bank of Korea Warns of Destabilizing Impact of High-Risk AI Trades - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSUVHaWQ5NkVFNW5PMmxHRFk4N1N5RDdCSjVBU3NiNFpmNUlVT1NBMmZSVFcxckFUcHBNZlR0ZURCN1hRLWx6QmpGLWhqc0lYbDduYWdFVGR0ZHNLVkdQQTR0Q0xvcldNd0I2UF8yUVlfakdoaEVSOVRwX1A2T1pjeG42VXhTNXRZQ05yWld5QVRfb3BiREFvVFRtNS03a2MwYzRvQ09hZFphYk5haGUw?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-10T05:58:18.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI boom poses new financial stability risks, BIS head says - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcDUzRnJ3dHpQaFN0aF9CVHRZbTExQ1h4UHg2OEFaQmxHeHZsdUwtN2piZzdPdk5oYUticEdmSEIyS0RYUlpKYUpRX3ptWFp6WGFNbGp2QXlVNjRIVFdvanlTWXdubklpcXZzUHNWQWxURlBrU3hpcTU0dVJ2M1NEUEpRU3FhUzhHa25XRklRbUo2LUVoVWlsV3dVcVY5SENFc29hd3JXRUZQZG1FbHEw?oc=5",
-      "source": "Reuters",
+      "source": "reuters.com",
       "publishedAt": "2026-09-10T05:53:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1502,30 +1654,7 @@
       "score": 50
     },
     {
-      "title": "FTSE 100 Live: Markets Settle After Oil-Driven Bond and Stock Drops",
-      "url": "https://www.bloomberg.com/news/live-blog/2026-09-10/ftse-100-live-pound-bonds-oil-prices-gilts-inflation-ecb-rate-what-s-moving-uk-markets-right-now-markets-today",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T05:50:57.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Yen May Climb Back Toward Upper 150s Per Dollar, Barclays Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/yen-may-climb-back-toward-upper-150s-per-dollar-barclays-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T05:41:25.000Z",
-      "kind": "news",
-      "summary": "The yen’s sharp rally could reverse toward the upper 150s per dollar if expectations for faster Bank of Japan rate hikes and a shift by Japanese pension funds toward domestic assets fail to materialize, according to Barclays Plc.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Musk’s Boring Co. Raises Capital, Valuing Firm at $23 Billion",
+      "title": "Musk’s Boring Co. Raises Funds at Valuation of $23 Billion",
       "url": "https://www.bloomberg.com/news/articles/2026-09-10/musk-s-boring-co-raises-capital-valuing-firm-at-23-billion-mtv5xwy7",
       "source": "Bloomberg",
       "publishedAt": "2026-09-10T05:35:53.000Z",
@@ -1543,41 +1672,6 @@
       "publishedAt": "2026-09-10T05:35:24.000Z",
       "kind": "news",
       "summary": "Taiwan Semiconductor Manufacturing Co. reported a 53.3% increase in monthly sales, with the company struggling to meet overwhelming demand from the global AI infrastructure buildout.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "All the latest updates on AI data centers - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0UxRGMyQ3VLZ1hCY2U3dVVzZnYyX1FZSGJ6OElGOFZ3amc1NnY2Z3Fhb2NIcUp4UFNQNTBQZ3RPa2RiaGEtYWROcHpadFpCV244Nng2VDZuOTBMZDNwdHR3ajl4RXhSSEFjSUZQMVlFd25GSXNZWHZxaVpJYXN0VFJSYUtwcWpOc1huZENJSTRjTlJtTUN3RXh4WFgxRkhOZnBLNVFwSHc?oc=5",
-      "source": "The Verge",
-      "publishedAt": "2026-09-10T05:35:07.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Trump Announces $5,000 to US Adults if GOP Wins Midterms",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-10/the-china-show-9-10-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T05:34:07.000Z",
-      "kind": "news",
-      "summary": "“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Nakhle: Oil Volatility to Stay Until Iran Endgame Clear",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-10/nakhle-oil-volatility-to-stay-until-iran-endgame-clear-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T05:34:01.000Z",
-      "kind": "news",
-      "summary": "Brent held around $101 per barrel as Iran vowed it was prepared for a more intense war after hostilities flared across the Middle East. But Carole Nakhle, CEO of Crystol Energy told Bloomberg’s Jennifer Zabasajja on Horizons Middle East & Africa $101/b is not as high a threshold as it could have been. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1619,12 +1713,12 @@
       "score": 50
     },
     {
-      "title": "Iran Ready to Escalate War, Trump at RNC Convention",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-10/the-asia-trade-9-10-2026-video",
+      "title": "UMNO Hopeful Malaysia Ex-PM Najib Will Secure Royal Pardon",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-10/umno-chief-hopeful-malaysia-ex-pm-najib-will-secure-royal-pardon",
       "source": "Bloomberg",
-      "publishedAt": "2026-09-10T05:20:27.000Z",
+      "publishedAt": "2026-09-10T05:13:11.000Z",
       "kind": "news",
-      "summary": "“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Bloomberg)",
+      "summary": "Malaysia’s former ruling party United Malays National Organisation is hopeful of a positive outcome from former Prime Minister Najib Razak’s latest bid for a royal pardon, party president Ahmad Zahid Hamidi said.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1642,48 +1736,12 @@
       "score": 50
     },
     {
-      "title": "Schroders Buys Hungary Bonds in 1990s-Style Bet on Euro Adoption",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/schroders-buys-hungary-bonds-in-1990s-style-bet-on-euro-adoption",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T05:00:00.000Z",
-      "kind": "news",
-      "summary": "Schroders Plc is betting Hungary’s push toward euro adoption will deliver fast convergence-trade gains as the country’s government yields move toward those of peers already in the currency union.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Asian Ports Snarled as El Niño Fuels Busy Typhoon Season",
       "url": "https://www.bloomberg.com/news/articles/2026-09-10/asian-ports-snarled-as-el-nino-fuels-busy-typhoon-season",
       "source": "Bloomberg",
       "publishedAt": "2026-09-10T04:55:26.000Z",
       "kind": "news",
       "summary": "An unusually active typhoon season is disrupting shipping operations across Asia, with Shanghai particularly hard hit by snarled traffic and vessel delays.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Upstage Co-Founder Lee on AI Race, Strategy",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-10/upstage-co-founder-lee-on-ai-race-strategy-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T04:26:47.000Z",
-      "kind": "news",
-      "summary": "Hwalsuk Lee, Co-Founder & CTO at Upstage, discusses how his company can win the sovereign AI model competition by testing its technology in consumer services. He speaks exclusively on the sidelines of the KBFG Korea Conference in Seoul. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Mavuso: Slow Reforms Are Holding Back Investment",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-10/mavuso-slow-reforms-are-holding-back-investment-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T04:25:30.000Z",
-      "kind": "news",
-      "summary": "Business Leadership South Africa CEO Busi Mavuso says reforms are taking too long to translate into improvements on the ground, while companies continue to shoulder the cost of failing municipal services. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1876,62 +1934,6 @@
       "tickers": [],
       "related": [],
       "score": 50
-    },
-    {
-      "title": "BOJ’s Masu Says Will Continue to Raise Benchmark Rate",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-10/boj-s-masu-says-will-continue-to-raise-benchmark-interest-rate",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-10T01:39:12.000Z",
-      "kind": "news",
-      "summary": "The Bank of Japan will continue to raise its benchmark interest rate to ensure that the price trend doesn’t exceed 2%, board member Kazuyuki Masu said, in comments that support widespread expectations that the bank will raise borrowing costs next week.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI could kill all humans in next decade, warn experts: but how seriously should we take them? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNUNtV20wYXJQU1RyZGpkOVh6LUFqTDRPY1hDTDhoQzlVZWduQjB2aVR0QzZmYkozX3BLZHVYMDdaV1c5UHhaNktCX0o1UnZCWm81Wjl3TUs0c1I3QXB3Z3NRQW1EZFduejZTLWk3OFBqMFhQNFhTM1d1NEVvbkM4czhqNlhUWlNqRnVvV2FvamxYRTRPTDlPQ2xGOXpac1V2NjkzdUh5U0s5NW9fLUE?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-10T01:31:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic has a cute graphic showing how its AI spread 'malicious' code - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTTE4c2xpa1J5bFpVeXV1dUNhT0txZ0JVdG54VzZuOW95cGJFRi1VcU4tMHppekx3UnBwczdORl9EckVVeVItYzhqS25JUTdab2hYNTJhMWtMZXRPb0h2YTdERnVOSms1ZnNLdWxEN3NaWVpFWExicU9kendKR24xX25SX0JYM3JIdjkxSms1SUN3SVdkNkRKN2hnN0xzX0FDR2lHOWV3VFNjYW1jSE5jYlFiSHhINm54?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-09-10T01:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Berenberg Says Infineon’s Slide Looks Like An AI Power Play - finimize.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUFNhMUdYQmNkT1dvTjN3bzdnbWc0OVl3OFZrZnRVQ0NmOXlqTTkzeV9SV3ZVTG1ua0VwbXRUYnFvbGNGcE1FRW5BUy1UbnpoOFdwbDd5ZHBUUHVyU0NCcXRfVnpSWHh2Nl8weFcyd2dvRFhqRUxBVDl6SUdraVhzbTFCdXV2b1JpX2cycFU0MUM?oc=5",
-      "source": "finimize.com",
-      "publishedAt": "2026-09-10T07:00:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Anthropic discloses 4th AI hacking incident as researcher quits over safety - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaVNvS2NCLTIzRG1JMUtKZnd2NGpScTIwVUoyYnlNODUybTMxUGdyeGE5WVFkOWtraTJYNXp2RmhpVVh1S3E4QTZOVkFCOHFtR2FJTFlfc0YzNVVYX1lzOTRyODlEWGxncUJXOVc0MmdsQ19mTkNiRkV0T2kwNUFSRGlnMWhTeTlDWWs1V005Zy11NUNWRUFUVmtHdmdaRld6UmgySjNGY1h2ckRWSEHSAbMBQVVfeXFMUE4xcjB6OEJPZHZrZExQWUZqRU9GZk5zeFBjS0tGeHdWckFUWUpaTkNyRWpMN1VaUXY0bllQbGpvV1BIb01zNUdtdEJxaVRyLUMxSnRTV2RHVWozcVJwUklabkpWYllWTGhrQWpRcUVESmRCZkRCdy11aUlVMEdGdkljejRrS2VIbnQ5cmE2dmYySFdKWDI3dm5zT0tZakp3WVVpUjV6cTNBX2ptamtaLWphNjQ?oc=5",
-      "source": "Al Jazeera",
-      "publishedAt": "2026-09-10T06:33:36.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
     }
   ],
   "sourceErrors": [

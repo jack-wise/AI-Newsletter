@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T10:03:14.709Z",
+  "generatedAt": "2026-09-14T10:32:24.681Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: PX14A6G — Fermi Inc. (NOTICE OF EXEMPT SOLICITATION)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026099255/ea0305276-px14a6g_toby.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-09-11T20:03:56.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 65,
+      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
+      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
+    },
     {
       "title": "[September 14, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1wfsxll/september_14_2026_fermi_america_frmi_discussion/",
@@ -35,23 +50,8 @@
       },
       "tier": 2,
       "related": [],
-      "score": 68,
+      "score": 58,
       "summary": "[September 14, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "SEC filing: PX14A6G — Fermi Inc. (NOTICE OF EXEMPT SOLICITATION)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026099255/ea0305276-px14a6g_toby.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-09-11T20:03:56.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 65,
-      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
-      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
     },
     {
       "title": "SEC filing: 3 — Fermi Inc.",
@@ -526,9 +526,9 @@
       "summary": "Fermi Founder Parties File Formal Proposal for Independent Strategic Review of Extraordinary Transactions, Press Board on Restoring Texas-Style Governance Ahead of October 30 Annual"
     },
     {
-      "title": "Largest Fermi (FRMI) shareholder group presses for deal review - stocktitan.net",
+      "title": "Largest Fermi (FRMI) shareholder group presses for deal review - Stock Titan",
       "url": "https://www.stocktitan.net/sec-filings/FRMI/px14a6g-fermi-inc-sec-filing-b18c5e97b8ba.html",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "publishedAt": "2026-09-11T20:04:53.000Z",
       "kind": "news",
       "tier": 2,
@@ -941,30 +941,31 @@
   ],
   "related": [
     {
-      "title": "OpenAI’s Brockman Says an AI Pause Should Focus on Frontier - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/openai-s-brockman-says-an-ai-pause-should-focus-on-frontier",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-14T09:14:25.000Z",
+      "title": "Broadcom vs. Nvidia: 3 Key Metrics Point to the Stronger AI Chipmaker to Buy After Earnings - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/09/14/broadcom-vs-nvidia-3-key-metrics-point-to-the-stro/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-14T10:28:11.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
-      "score": 75
+      "score": 75,
+      "summary": "Both chipmakers recently reported strong earnings results."
     },
     {
-      "title": "Prediction: The Next Nvidia-Backed Stock to Go Parabolic Could Be Hiding in Plain Sight - fool.com",
+      "title": "Prediction: The Next Nvidia-Backed Stock to Go Parabolic Could Be Hiding in Plain Sight - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/09/14/prediction-the-next-nvidia-backed-stock-to-go-para/",
-      "source": "fool.com",
+      "source": "The Motley Fool",
       "publishedAt": "2026-09-14T09:39:38.000Z",
       "kind": "news",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
+      "score": 75,
       "summary": "This player has become a key partner of AI giant Nvidia."
     },
     {
@@ -1010,33 +1011,6 @@
       "score": 65
     },
     {
-      "title": "OpenAI President Greg Brockman on Doing Business in the Wake of Hugging Face",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/openai-president-greg-brockman-on-doing-business-in-the-wake-of-hugging-face",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T08:00:02.000Z",
-      "kind": "news",
-      "summary": "How the firm is thinking about pacing the frontier.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Odd Lots: OpenAI’s Brockman on Pacing the AI Frontier (Podcast)",
-      "url": "https://www.bloomberg.com/news/audio/2026-09-14/odd-lots-openai-s-brockman-on-pacing-the-ai-frontier-podcast",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T08:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
       "title": "OpenAI’s Altman Voices Support for ‘Pacing’ AI Development",
       "url": "https://www.bloomberg.com/news/articles/2026-09-14/openai-s-altman-voices-support-for-pacing-ai-development",
       "source": "Bloomberg",
@@ -1049,6 +1023,33 @@
         "OpenAI"
       ],
       "score": 65
+    },
+    {
+      "title": "Ex-Anthropic and OpenAI researcher urges global pause amid superintelligence warnings - KWXX - Hawaii",
+      "url": "https://www.kwxx.com/2026/09/14/ex-anthropic-and-openai-researcher-urges-global-pause-amid-superintelligence-warnings/",
+      "source": "KWXX - Hawaii",
+      "publishedAt": "2026-09-14T10:24:47.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Former OpenAI and Anthropic researcher Jacob Coxon announced his resignation from Anthropic, publicly criticizing the two leading artificial intelligence companies for prioritizing rapid technological"
+    },
+    {
+      "title": "Cybersecurity stocks get a jolt on gloomy AI warnings from CEOs of Anthropic and OpenAI - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/article/cybersecurity-stocks-get-a-jolt-on-gloomy-ai-warnings-from-ceos-of-anthropic-and-openai-102226852.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-14T10:22:26.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Nvidia Stock Could Be the Best Chip Bet in an AI Slowdown as Broadcom AMD Fall - Barron's",
@@ -1102,20 +1103,6 @@
       ],
       "score": 55,
       "summary": "Elon Musk says SpaceX will launch Nvidia Vera Rubin AI supercomputers in space by 2027."
-    },
-    {
-      "title": "SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T01:42:42.000Z",
-      "kind": "news",
-      "summary": "SoftBank Group Corp. secured an $11.87 billion loan to support its investment in US artificial intelligence firm OpenAI, people familiar with the matter said, up from its earlier target of $10 billion.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
     },
     {
       "title": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development - The Guardian",
@@ -1173,23 +1160,9 @@
       "score": 55
     },
     {
-      "title": "AI Firms Are Reportedly Buying NVIDIA RTX 5090 GPUs in Bulk for Server Use - TechPowerUp",
-      "url": "https://www.techpowerup.com/352663/ai-firms-are-reportedly-buying-nvidia-rtx-5090-gpus-in-bulk-for-server-use",
-      "source": "TechPowerUp",
-      "publishedAt": "2026-09-14T08:46:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "New photos shared by HKEPC show pallets of brand-new, boxed GeForce RTX 5090 cards being unpacked at AI server assembly sites. Notably, these firms are not using the RTX PRO 6000 or dedicated data center accelerators NVIDIA actually markets for that work. The cards in question are standard retail..."
-    },
-    {
-      "title": "Effingham County town hall to address OpenAI data center project - WTOC",
+      "title": "Effingham County town hall to address OpenAI data center project - wtoc.com",
       "url": "https://www.wtoc.com/2026/09/14/effingham-county-town-hall-address-data-center-project/",
-      "source": "WTOC",
+      "source": "wtoc.com",
       "publishedAt": "2026-09-14T08:28:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1229,51 +1202,23 @@
       "summary": "Asian shares are mixed and U.S. futures have edged lower"
     },
     {
-      "title": "Why AI Benchmarks Are Total BS (And How OpenAI and Anthropic Use Them to Trick You) - PCMag Middle East",
-      "url": "https://me.pcmag.com/en/ai/38040/why-ai-benchmarks-are-total-bs-and-how-openai-and-anthropic-use-them-to-trick-you",
-      "source": "PCMag Middle East",
-      "publishedAt": "2026-09-14T04:07:41.000Z",
+      "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says - The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-12T23:00:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
       "score": 45,
-      "summary": "Benchmark scores for GPT-5.6, Fable 5.1, and Opus 5 don’t translate to real-world performance. Look under the hood, and you'll find self-graded tests, missing numbers, and pure marketing spin."
+      "summary": "OpenAI’s decision comes after dire warnings about rapidly progressing technology and lawmakers’ calls for new rules"
     },
     {
-      "title": "OpenAI’s next ChatGPT ad format: click to chat, not to site - Digiday",
-      "url": "https://digiday.com/marketing/openais-next-chatgpt-ad-format-click-to-chat-not-to-site/",
-      "source": "Digiday",
-      "publishedAt": "2026-09-14T04:05:29.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "The new format lets brands turn an ad click into a conversation with an AI agent inside ChatGPT, rather than sending users to their websites."
-    },
-    {
-      "title": "Sundar Pichai Says Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter. Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
-      "url": "https://www.fool.com/investing/2026/09/13/sundar-pichai-alphabets-backlog-514-billion/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-13T12:50:40.000Z",
-      "kind": "news",
-      "summary": "Alphabet's Google Cloud reported an 82% year-over-year revenue growth in Q2 2026, with its backlog reaching $514 billion, exceeding the company's trailing 12-month revenue. While Search currently remains Alphabet's primary revenue and profit driver, the substantial growth and backlog in Google Cloud suggest it is poised to become the largest long-term growth engine, as only a small percentage of overall enterprise workloads have shifted to the cloud. CEO Sundar Pichai emphasi [sentiment: Somewhat-Bullish]",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Anthropic, OpenAI CEOs call for slowdown in AI development - axios.com",
+      "title": "Anthropic, OpenAI CEOs call for slowdown in AI development - Axios",
       "url": "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
-      "source": "axios.com",
+      "source": "Axios",
       "publishedAt": "2026-09-12T19:51:05.000Z",
       "kind": "news",
       "tier": 1,
@@ -1282,6 +1227,20 @@
         "OpenAI"
       ],
       "score": 45
+    },
+    {
+      "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/09/12/googles-historic-396-mw-clean-energy-deal-just-cha/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-12T19:45:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Recent IPO stock Fervo Energy is building on its partnership with Google with a massive power purchase agreement."
     },
     {
       "title": "Inside Microsoft’s Plans to Massively Expand Computing Power - Bloomberg.com",
@@ -1339,6 +1298,20 @@
       "score": 45
     },
     {
+      "title": "Why AI Benchmarks Are Total BS (And How OpenAI and Anthropic Use Them to Trick You) - PCMag Middle East",
+      "url": "https://me.pcmag.com/en/ai/38040/why-ai-benchmarks-are-total-bs-and-how-openai-and-anthropic-use-them-to-trick-you",
+      "source": "PCMag Middle East",
+      "publishedAt": "2026-09-14T04:07:41.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35,
+      "summary": "Benchmark scores for GPT-5.6, Fable 5.1, and Opus 5 don’t translate to real-world performance. Look under the hood, and you'll find self-graded tests, missing numbers, and pure marketing spin."
+    },
+    {
       "title": "Jensen Huang’s 70% Nvidia Growth Case Is a Supply Claim, Not Formal Guidance - TechStock²",
       "url": "https://ts2.tech/en/jensen-huangs-70-nvidia-growth-case-is-a-supply-claim-not-formal-guidance/",
       "source": "TechStock²",
@@ -1351,9 +1324,165 @@
       ],
       "score": 35,
       "summary": "Jensen Huang’s 70% Nvidia Growth Case Is a Supply Claim, Not Formal Guidance - TechStock²"
+    },
+    {
+      "title": "Jensen Huang: Nvidia's Growth Ceiling Is Supply, Not Demand — AI Infrastructure Investment Supercycle Has Begun - finance.biggo.com",
+      "url": "https://finance.biggo.com/news/b96a9f05-afef-4420-9f38-366a2fdb7a17",
+      "source": "finance.biggo.com",
+      "publishedAt": "2026-09-14T01:05:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 35,
+      "summary": "Nvidia CEO Jensen Huang signaled at Goldman Sachs' annual technology conference that global AI infrastructure investment remains in an acceleration…"
+    },
+    {
+      "title": "Data Center Expansion Might Change The Case For Investing In Microsoft Stock (MSFT) - simplywall.st",
+      "url": "https://simplywall.st/stocks/us/software/nasdaq-msft/microsoft/news/data-center-expansion-might-change-the-case-for-investing-in/amp",
+      "source": "simplywall.st",
+      "publishedAt": "2026-09-13T22:27:46.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 35
     }
   ],
   "general": [
+    {
+      "title": "Tech stocks are tumbling as AI apocalypse fears go mainstream - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5",
+      "source": "Business Insider",
+      "publishedAt": "2026-09-14T10:30:23.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "OECD Study Says Daily Chatbot Use Sets Students Back a Year - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZFZYZlFKV3lwUjhNdzNZM0R5VEFHaS11c2hROTd1azB3bXUwWkZ4Ym9VSDJlWkRCaUp5bU1LMWJyVDA4UnJqSHBZaFU1VXQxeE92bV90TmplSnU3YlJ6SjdfcF8tVmt5MHhXZHpnMUdYOHRmc3FOZzV0aWpvRGEyV1FoUV81RTRaN2plc04xU3dIb2xWQzBMRjhyRW5ick5OWWlkdUlxRmV4djVibkd1MHFZYmVXNktENWpr?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-14T10:30:01.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Use for Schoolwork Leaves Students 1.5 Years Behind, OECD Finds",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/ai-use-for-schoolwork-leaves-students-1-5-years-behind-oecd-finds",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:30:01.000Z",
+      "kind": "news",
+      "summary": "But use of AI chatbots is pervasive in Asian economies",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Indonesia’s New Finance Chief Is Seen as Market-Friendly Veteran",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/indonesia-s-new-finance-chief-is-seen-as-market-friendly-veteran",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:22:27.000Z",
+      "kind": "news",
+      "summary": "Suahasil Nazara, Indonesia’s new finance minister, is an experienced insider and familiar face for investors, having served as a deputy over the past seven years.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Africa's Richest Man Set for $23 Billion Jump in Fortune on IPO",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-14/africa-s-richest-man-to-gain-23-billion-fortune-on-ipo-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:21:10.000Z",
+      "kind": "news",
+      "summary": "Africa's richest man, Aliko Dangote, is set for a $23 billion leap in his net worth with the IPO of his refinery business. Jennifer Zabasajja explains why the continent's biggest listing promises to supercharge the Nigerian's wealth. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Risk of AI Slowdown Prompts Angst Among Tech Investors",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/risk-of-ai-slowdown-prompts-angst-among-tech-investors",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:15:34.000Z",
+      "kind": "news",
+      "summary": "Investors were already fretting that AI hype had inflated a bubble in stocks.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Wall Street’s Data Center Boom Is Reshaping the Real Estate Bond Market - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUFwNER5ZTdabnFIdFRzWm5GME5tYXZmSnVoYXpTUjZ3WjhqbHJEWjVsSy12M3ZFUlZjU0pqajNXOG1abzg1SHo1bXlISk9aZkNDTkhDX3RZYzN4SWI3c0RFRXZ0bEh0ME1ybjREaGtKdXVTMnFuWFFISGxaS3d2X0dkVTR0UEY2VFc2QTFnWWRLSXJSMzlZeA?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-14T10:10:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Data Center Boom Is Changing CMBS Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/ai-data-center-boom-is-changing-cmbs-risks",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:10:00.000Z",
+      "kind": "news",
+      "summary": "The commercial mortgage backed securities market, long a mainstay of financing for America’s offices, apartments and malls, is being reshaped by a surge in data-center deals, forcing investors to grapple with an entirely new set of risks.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Forvia Is Said to Explore Selling Car Smart-Tech Unit Clarion",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/forvia-is-said-to-explore-selling-car-smart-tech-unit-clarion",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:09:16.000Z",
+      "kind": "news",
+      "summary": "French automotive supplier Forvia SE is considering selling its Japanese unit Clarion Electronics Co. as it looks to cut debt and streamline, according to people familiar with the situation.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Dangote Refinery IPO Demand Crashes Nigerian Trading App Bamboo",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/dangote-refinery-ipo-demand-crashes-nigerian-trading-app-bamboo",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:09:15.000Z",
+      "kind": "news",
+      "summary": "Demand for the continent’s biggest initial public offering, the listing of the Dangote Petroleum Refinery and Petrochemicals FZE, overwhelmed one of many Nigerian investing apps less than an hour after subscription opened.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "ECB’s Schnabel Says Energy-Price Trends ‘Quite Concerning’",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/ecb-s-schnabel-says-energy-price-trends-quite-concerning",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:04:24.000Z",
+      "kind": "news",
+      "summary": "European Central Bank Executive Board member Isabel Schnabel said recent energy-price developments have been “quite concerning” as officials weigh further interest-rate hikes following last week’s increase.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Global Seagate Research Finds Nearly All Organizations Expect AI to Increase Storage Requirements, but Only 38% of Organizations Say They Are Fully Prepared - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxONUVDcXFSalJMVU9qYnVubkc5anN2MzI3VXVWN1VaZ212c3QwdF85ei1CNGE2NmltVEEwUk1iWWtJcUdvcFgzQjFjNy0xUUUzZ1prZl9LR2tMaGVweTlsRjhfSDFLY1ljRlZUdFhCUE1lSG1GVXhxTEdlaEJYTTlIWURCd29FYzdlUk9LVUJFUUExRnl2cF9TbVFrQXJBYzZXcmUzRm52cW9UU1NqQmlNS3RCMDFMQlJCTmJiOXI2OGVNQ1FQa0x2bUpNcWUtZ0luOHRzUFFqem1fUzcyWGlMMGd4WU10a1lQeWFsZUpsZ1JONl9CVE5ndGtrb1Y5aVRYZ2ZKVnFuU3dHNkJHWllLVXNwWjlaSHdRMEo3YXJSVkhhUUp3c0dzTi14cWowZUJZckJuNzJB?oc=5",
@@ -1366,12 +1495,79 @@
       "score": 60
     },
     {
+      "title": "Hyperscale Data Establishes $750 Million Minimum Sale Threshold for Michigan AI Data Center; Management Believes Value Could Reach or Exceed $1.25 Billion - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOZzBkTHBVQ2NnTGpLWWJDaVlRTEpKUnB3U1lKWnNJZksycVo0cDN1a2g2dHpmUzFCcmVXems2TTB2VU02N1J6eURIa2FCYTdQZVE4VllLSi14WWxBd244RFR2b2Y4d3JGc1RnMElkMUN2b24ycFFta19tdnJQc0gxT2s3bklseGVqWGM2Q3cyOENpNE16WXJFdWFTbjFNaTltRm9IQkdHY3JkSEIyV0VtVWtCdHRGQ19XckZBNXFJUmlJSmVIUXJXR2pURlYtcXNfWEhYRElZb291eU1PbTNLSWVxNjVxM0kxN3llRWVuVDVUSHRMWGJ0VnV6d1pyVmNCM1FjTFNMTV9janNQeFRiOW5rOElxRExIQVBITGNPV0JPbEJHXzE0VDh1YTlhY3k3?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-09-14T10:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "American Miner Signs Rwanda Tungsten Deal to Grow Western Supply",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/american-miner-signs-rwanda-tungsten-deal-to-grow-western-supply",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-14T10:00:00.000Z",
+      "kind": "news",
+      "summary": "An American miner is partnering with Rwanda’s government to source and process tungsten from the African nation, extending a push to build a Western-aligned supply chain for the strategic metal that reduces reliance on China.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "AI Bosses Risk Pushback Over Calls to Slow Tech",
       "url": "https://www.bloomberg.com/news/videos/2026-09-14/ai-bosses-risk-pushback-over-calls-to-slow-tech-video",
       "source": "Bloomberg",
       "publishedAt": "2026-09-14T09:59:29.000Z",
       "kind": "news",
       "summary": "Anthropic and OpenAI have called for slowing AI development in the name of safety. But they may face pushback from the tech industry, financial markets and the Trump administration. Newley Purnell explains. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXBVbWdJVHFtcDF3SHNDTUx5dV8yeGJDbXRsMmFNY2RmTHZodXo2NUFtU19nNF9NY0JEVURiQ0pockxyNGgxTkdKMVlDaWZSb0tnMUVHSV9sQXIzZGEtR2RCalV4a1Y3ZkRXb1RrR1ZuTFRscHNXYk5EZUpMNjA4c2FQbDdJd1ZWMXpRd3huRkgzT1lLYUxZX0RKSDNsemJ6b3Ftb01XZEFwMUtvV00yd0NVNFVhQlFW?oc=5",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-14T09:56:31.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Tech stocks fall after big AI groups call for slowdown - ft.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYWtoSDV4bG9HZm83MmNTZ1BaT003NTM0ckdUNFBVRlItZE04YnU4eGtlY1gxdmMyRnFfai1hbGY3cGg5SThhaTVTOXRtUnRNYW5QUUlfYVVQVmI3YklUUTdWVWZ0MEJHNTZPc2haMWdoMmpMeVFZcGVseGpVdENoLUhCdmk?oc=5",
+      "source": "ft.com",
+      "publishedAt": "2026-09-14T09:56:15.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Beijing hits back at Anthropic CEO’s call to curb China’s AI development - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR1hUdWtVT3RlWE4yUGZLeE52YXpQczNrR012eHJGcVlfd0xhWU5UTTVHeUx2aU1UVjBaSlRIUW10TGh1cE1TbVMzVnNENVBfN0hncjF3bXVFOUJBc3d6MWpxWlFxWnBiSE1kTDNoNjBkZ1JSLUZyWXlqbU5PVk9veDJOd21iZGRIREQtRlBBeU1HZw?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-09-14T09:55:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Why the loud public debate over an AI apocalypse may be humanity's best defense against it - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOODZTXzJTR2lOcFgtLXpPRV80WTU3NVc4Qm52LXdkNVNqYlhxUU9HM2ZWR25kOEZWWVE3dFpoaGJtemoyTTg1aUpUSnlLTXRyZUY4RkdFbXZ1OXJ2amVwekxkSXVmS0g1bm9KMzM0OWVkWUYzaGR6dnk2WDdjdVdjTXo3dS1ZbDBaM1l4eEEwV0d1c3dmYzNNMFRfOVNWMjgyR05FSVVNMkhZUQ?oc=5",
+      "source": "Business Insider",
+      "publishedAt": "2026-09-14T09:50:13.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1443,7 +1639,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Dollarization: What Adopting the US Dollar Would Mean for Venezuela",
@@ -1455,18 +1651,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Beijing hits back at Anthropic CEO’s call to curb China's AI development - The Sun Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbG5nbU8ydFRPTTlXcktvdm5tMXJQWHg0Y29VQ1lERy1RNVBFd04xRkxGRHhpbC05VzNmRjFDVTNReEVrNGJab3FhM1MyMHgtSUVFZTU1eDI2ZEhnR3lyS0JoWDNIWDkwTUJlV2tLLWpUVlV5NTRka2RQNE82bml0SGtGNDVjalJuS2k5Ulk2RGhlcmlOSXJEZkNVVXEycXJ3dUhyU3lLM0c0MzlHSnFuUUNtVDVMSElDRDBXZVZQY2FXX0hxa2xRMXFoQUZOeDVYbkF2dnB4MC1Oa2M4cWRnQTdGR21EeHZ6WFV5WldJM0tHRnFZVlE3bm1FcFdqVDM0?oc=5",
-      "source": "The Sun Chronicle",
-      "publishedAt": "2026-09-14T09:28:40.000Z",
+      "title": "King Charles to host AI executives as threat fears mount - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ2RHR1kteU9kT1lsd3NHU0lpTXZyZWJKYTI4cW93ZENtdVFyNkNjWDBLWWF5YXIxQk9JcjFfYk02NFpuTzhBd0VseFl4NFRoV3BPclc0RURUV3V4ZTEwQmNhd2M5UlJyS3pwdUcySkhTZXQyTjdBbHN5RjdKUkhNT3NQcmttVnpJdExTQWVoVExfam5KTVFnQnpoak1KblV0MmdyVXh3?oc=5",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-14T09:17:54.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "China’s Credit Expansion Misses Forecast as Loan Demand Sags",
@@ -1474,11 +1670,11 @@
       "source": "Bloomberg",
       "publishedAt": "2026-09-14T09:13:58.000Z",
       "kind": "news",
-      "summary": "China’s credit expansion came in way below expectations in August from a year ago, as subdued borrowing by households and businesses outweighed support from government bond financing.",
+      "summary": "China’s credit expansion fell well short of expectations in August from a year ago, as subdued borrowing by households and businesses outweighed the support from government bond sales.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "We greet the news that AI could extinguish us with a glazed indifference. What is the way out of this nihilism? - The Guardian",
@@ -1489,18 +1685,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "The very big caveat to the report that Anthropic is profitable for a second straight quarter - marketwatch.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU2pkT19YODFLUFBYUnhpN2VQMWIzaUtMbXFVd1g2WWZBTm12MExOeWc2N1h6VUF4TWNEbU02Znp3NElEMTdrVzhJUHIxdnBfTlBVSGtxZG1fTXFjekVWS2gyOFZUQ3dUZ3djcEJ0VHlRV0tJREcwd3o0T1BIQjJsTzZhdkRKZXpJYTJwNlJzbDRNNDlSNnIzUnYtQ3ZmbjJmWTluNE9VR1hHM05jUlM3Nlh5cTBOZHZWTTRfN256N1JmN1ZRZkM4MnBSa3oyRzFJ?oc=5",
-      "source": "marketwatch.com",
-      "publishedAt": "2026-09-14T09:04:00.000Z",
+      "title": "How China is preparing for the risk of AI escaping human control - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1FUWERnbmM3dlBucFJQMmJmSEp5UVlXUVp0UEI0eU9aV1VzSnVoX3pNZUtWcFZsXzAtNUVXQmdOakFVNUYzZWVwSm9laXBTU2pvRXVaendNSFU3XzJmeGxrdDlKN0N3OUwxd1VSSEhfcWVTQTRNMV9hRnZkVk9WaUowMmtPdC1HTmhIOG9BRHpucDZHTk1KTnVLdXRfU1NVclVibTlCU1hjQQ?oc=5",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-14T09:07:11.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Is A.I. Raising the Chances of Biological Warfare? - The New York Times",
@@ -1667,9 +1863,9 @@
       "score": 50
     },
     {
-      "title": "Anthropic's Dario Amodei calls for slower pace of AI development - cnbc.com",
+      "title": "Anthropic's Dario Amodei calls for slower pace of AI development - CNBC",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY2Y4OWEzMGR1YkJ6QWswbWJpcG8zaHVrT1R3RDU5U2EybEduU3NQUjI5bFdEbmdhV0lXNUYybTczUS0xaldYT0pYc25ON1VQUE12dXlwY0Q2X0d3aVczTFBzVEJXeXBfZm5tUVFMcmxvZVZjQk1XNzB5eFdhUnZOVHotTzcyaEdCeTRFTlFXMXcySmlwVW5ZTHA1ZnlERVpycXhUdjExNmpTQQ?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "publishedAt": "2026-09-14T07:43:59.000Z",
       "kind": "news",
       "tier": 1,
@@ -1702,9 +1898,9 @@
       "score": 50
     },
     {
-      "title": "U.S. power grid still lags surging demand for AI data centers, says FERC - cnbc.com",
+      "title": "U.S. power grid still lags surging demand for AI data centers, says FERC - CNBC",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOV9PcGlZOUVMc0lFak5ZWnpDMEJjNXNrU0hwY21qaXFwX1EtZnFxOXp1cFBYam5Kc2JGRHhEeEltN2NGdmdWVWItTWV5SzlZTjBzODFvYWJpSTJFeDZrM1E0NWRtYTB1ck9yTVBKbW1JQVd1SXU3Mi16Mk9sVU42bjB4SG1UUUxES3h5X2ZNSFlpYXJWbEdzWGZ4bjJ4NHNVS3FUWTd5eG1KMllfYVZ5T1VLbEk?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "publishedAt": "2026-09-14T07:13:49.000Z",
       "kind": "news",
       "tier": 1,
@@ -1713,45 +1909,9 @@
       "score": 50
     },
     {
-      "title": "Everything Is Now Bullish for Treasuries: 3-Minutes MLIV",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-14/everything-is-now-bullish-for-treasuries-3-minutes-mliv-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T07:10:12.000Z",
-      "kind": "news",
-      "summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" For up to the minute market intelligence and insight, click MLIV . (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Solar Industries Bids $1.4 Billion for South Africa’s Omnia",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/solar-industries-bids-1-4-billion-for-south-africa-s-omnia",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T06:40:22.000Z",
-      "kind": "news",
-      "summary": "Solar Industries India Ltd. agreed to acquire South African industrial-explosives and fertilizer firm Omnia Holdings Ltd. for 21.8 billion rand ($1.4 billion), seeking to expand in the continent’s mining and agriculture industries.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Oil Jumps as Saudi Pipeline Attack Deepens Energy Crisis",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-14/horizons-middle-east-africa-9-14-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T06:25:34.000Z",
-      "kind": "news",
-      "summary": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or start your day in London or Johannesburg. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "CNBC Daily Open: 'Whoever wins AI, wins' - cnbc.com",
+      "title": "CNBC Daily Open: 'Whoever wins AI, wins' - CNBC",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVFowWl9RMzRZZ1lyVGZ3bG5aOGdvREhQU1Rab2dkTjVWRWJXOTg1QXBSRThvWlQyRGtVRkY3LXZzekd6UFlFanlRUmZ2UVd0UGRoQktOaUhtOGpZNmdnMzlnWXk1RFVWVktxVWl5UVJmQnZaUWlYZTM4bFhKb1c5ctIBhgFBVV95cUxOUWdnVXd3RDluNm9UQmZyT2IzR1dlR0lCbHB0Rm5Db2FLZUcxUXBXaTFVWHFaZGlrY3FRb1NldVRZRnJpclpFTHFLRTZpc3BoQ2h3VzA4MkJ0Q2NaWTN6NDgzb1Fwa3kwS3huLWlxRy1vLTRpUnRaSGNGSjlEbjAtWE9Vcm1IQQ?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "publishedAt": "2026-09-14T06:25:12.000Z",
       "kind": "news",
       "tier": 1,
@@ -1770,164 +1930,6 @@
       "tickers": [],
       "related": [],
       "score": 50
-    },
-    {
-      "title": "UniCredit's Orcel to Meet German Finance Minister",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-14/unicredit-s-orcel-to-meet-german-finance-minister-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T06:12:17.000Z",
-      "kind": "news",
-      "summary": "UniCredit Chief Executive Officer Andrea Orcel and German Finance Minister Lars Klingbeil are set to meet and \"engage in a dialogue\" to discuss a potential deal over Commerzbank. The talks mark a clear break from Berlin’s previous effort to thwart a transaction that might end up being the largest across global banking in almost two decades. Bloomberg's Steven Arons breaks down the situation. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Asian Refiners Seek Saudi Updates After Oil Pipeline Closure",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/asia-refiners-seek-saudi-updates-after-oil-pipeline-closure",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T06:09:41.000Z",
-      "kind": "news",
-      "summary": "Asian oil refiners are waiting for clarity on cargoes due to be picked up at Saudi Arabia’s Red Sea port of Yanbu, after the kingdom was forced to close a vital pipeline that serves the terminal following drone attacks.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "European tech stocks hit six-week low as calls for AI slowdown worry investors – business live - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZkZSc002dHRMQV9vX1BPUVN3OXkxWlJBbXNsSXNoMlFIdEZLWXFoYXFDSGhoaDBWclQ5VkVnMWRscm56aTY3UXhscnV5SFY5aG91N1piWU1FRGYxc2NJTjluV3BVN2w0eDlibFkyUVBsaW1OdjZ1elpObG1TZFFQZFBzN3BYWFlxNHRJRjNFQlo3X2JuVlBDVTNPdVZ0Yk9YLTNvdWNkdldqUUo3STdUTjQ0U3lLTlVUVEpvNTYtOGJsVU8tS012bHByX051T0lZSWc?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-14T06:08:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Big AI wants to slow down AI research. Is it a safety pause or a strategic retreat? - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUHBjYkI2NGc2SUxyMFJkaXUxSlZwc0xXcGswQ1MwUjJNT0dkMllFSjlFSHlocEFiTUtHdjJjT3RnZmNFUnRDNWxVVk42XzAtcmdmVzRlMzZMeS01V05kM1hOZ1ktNTlXd3BVY2p1SzBfRVNqYUdxVFVKaFlOQUphWVJwVkh2ZXI2ZkFTV1RBVDJyQmU3QW9BMnExODJrbTdOSlhMSlptaGc5QVkzS0w4UnlSQ2V1NlU?oc=5",
-      "source": "The Conversation",
-      "publishedAt": "2026-09-14T05:49:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI CEOs say they need to slow the pace of development. But will they? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5XQlp1T0FKUFNtVnFFME44cGFabC1iYlp4YXVWaWtXaWtfR0l3b1FRbEh1NTd2RmxjazNmcGIzX1lJQm1Ub2pMNDR3R0VYbG8tUGpOUXFuTUZXQWpiSERMOUdscExGZS05NzA3cWtmZWFjODFRZzg3YlFEWWNEQQ?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-14T05:01:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Bosses Risk Clash With Wall Street and Trump Over Safety Call - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ1pUNWlPeGNMdmxRd1p2Y3A0azhfZUxCSUZjWnNSNUxtaU9taEY1RkxpdUZGeW53MHJjNTN3WDk1Q1NGS3VlT05rZV8zUFkxeUh4WnA5azBXTW9FcW1Xck1oeDBBRjJuZ0VFNUN0TVhZOGFSRkd2eWtLaVBaVDdsUkpRNDRuVHB5eWt1Wk56U0lpRTF1cmZhT1k2dXZ0VWtJT0FRb21SNlRmWVpNNERMX1ZvNFhaQQ?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-14T04:45:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Ligent Technologies Seeks $727 Million in Hong Kong IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T04:21:05.000Z",
-      "kind": "news",
-      "summary": "AI computing networks maker Ligent Technologies Inc. is seeking to raise as much as HK$5.7 billion ($727 million) in a Hong Kong initial public offering, adding to a surge of listings this year tied to the global artificial intelligence buildout.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "SoftBank Shares Slide 13% After AI Chiefs Sound Alarm on Safety - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSHREMThxYkRTSkt1RlprX2R3ZEo3SEVYQTQ3dWd1NzNYbGxua1gwQnlTOU13bGRoZVBfa0RuMG5ob1ZFMFA1NnZ5RWo3YWxBZ3N0amdiVkdPc0pmeUxhb1pSTG9WdWJGZmVJU0xiREIzTlp0YVdBbnROaUtIcWwzWUZyMUt0Qk1PSTRTdndfNlptRjlyUk1jUE9DS0lxOV9LVUdTSWlPOUdDVkVnUEdYQg?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-14T04:21:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Ed Conway on the Fragile World of Global Trade",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-14/ed-conway-on-the-fragile-world-of-global-trade-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-14T04:08:17.000Z",
-      "kind": "news",
-      "summary": "Merryn Somerset Webb talks with Ed Conway, economics and data editor at Sky News and author of \"Trade World,\" about the vast and often invisible supply chains behind the things we buy and whether decades of globalization have made economies more resilient or dangerously dependent. They also discuss China’s manufacturing advantage, and whether the UK and Europe can rebuild their industrial base without giving up the cheap goods consumers have come to expect. (Source: Bloomberg",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China state newspaper blasts Anthropic's calls to slow AI as 'Cold War' tactic - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXBVbWdJVHFtcDF3SHNDTUx5dV8yeGJDbXRsMmFNY2RmTHZodXo2NUFtU19nNF9NY0JEVURiQ0pockxyNGgxTkdKMVlDaWZSb0tnMUVHSV9sQXIzZGEtR2RCalV4a1Y3ZkRXb1RrR1ZuTFRscHNXYk5EZUpMNjA4c2FQbDdJd1ZWMXpRd3huRkgzT1lLYUxZX0RKSDNsemJ6b3Ftb01XZEFwMUtvV00yd0NVNFVhQlFW?oc=5",
-      "source": "reuters.com",
-      "publishedAt": "2026-09-14T04:04:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Moody's names Azerbaijan a regional leader in AI infrastructure - Report.az",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdlVET0pqTjFkRUFDbUp5Z0R4LWFwRkNuZFBSdk9CQmxVT2FVOGpiM0xUekdZQVhqRlJFbXFtNE41eEFEQ1pFcWNMRzczcWpzbi13T3prbTVnWG5rVmdiMk54eFpucnhXeUF5OUtwbFFiMTVrSk1uTVdVUXV4b2NpbXJSTU0wWDB1QUQ5X0dxMFJsUdIBlwFBVV95cUxQSTJUeVI4Z1IwYzV1RFBOM3FjRHA2dUVzb2lua0dNR2ZIQjg2NmtVRnF2cE1IX0h2azU5bGhaTXZabktpcXNSaWstckN1UlUxZURNU1lJZnI2N0JULUhhV2tQOEpXRU1zaXZjcU05TndmaXFXeVZueHY4bFMwY0ROcld4R0plN1hXUnhqZHM0cGdZNkVvMXkw?oc=5",
-      "source": "Report.az",
-      "publishedAt": "2026-09-14T09:53:08.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Apple faces unique copyright infringement lawsuit - Maryland Daily Record",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaXBfcjVjbW1uLXhWRXBUNnpNdEtvX1R2Rkh5M2F4ZmFwUGJYTjQySThDWHp6U1N1LWF2THFfdnFSZHhtNGxfXzhKMW5KRDk3amEyRnphTjVLZzAtZkNITlhPUFpwVUVwZ2NPbG8tdmdiNGFEbkJfcDZoVFJLd19uVFNTcGprWU14X2s2R0tLMWIyZjVtV2hDdlk0bUg?oc=5",
-      "source": "Maryland Daily Record",
-      "publishedAt": "2026-09-14T09:50:05.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI company Anthropic opening Cambridge office in Kendall Square - whdh.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaHhEblp4WmpWZzBfbE40RFU5a1BFQkxiU250cmxmOFJYQnhwR0hfZU5MRDFZcWpvRGU2S1JEWV9aY18wd0dSZHZaUnlHbWszb2NmaldQeWZKOE94OUZ3SzBDLUdtdnJ1NERiRmJjdDFIYVNNRGVFOTQxd1gwdFFCRk1vb0hHd0lLVUNoR21rWQ?oc=5",
-      "source": "whdh.com",
-      "publishedAt": "2026-09-14T09:46:10.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800 word warning - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSnh0RURESW5RRmc3NlJrdUgxRV95V0pCSkJvY2szWi04YnhjRkY0N0xtT3RQeXp3d0ZBc05wMURvRGtlNUVNakNpdzh6dEVpSUdVem13ZzlhN2ttYXdOZXVWNmxYdEd1Q3l5NjV1TFRJUkxTa3hoMzNZNzY2Q3pfalkxY0JkVEpVa1FJNDhaM0lNRDQyYzZaRFJMSWVPLURKZ01wUDRYUnZwUm9WdWRUSmlpbDRKcm5MdEc3VWhkMW1odV9hV1YyOV9oOXM1QUZreGxJcF9Vd3Fldw?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-14T09:36:37.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
     }
   ],
   "sourceErrors": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T14:55:48.643Z",
+  "generatedAt": "2026-09-15T15:03:08.337Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,6 +17,28 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
+      "title": "$FRMI bought more here 4.81",
+      "url": "https://stocktwits.com/StockAuthority/message/664281731",
+      "source": "@StockAuthority on StockTwits",
+      "publishedAt": "2026-09-15T14:57:07.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "46,802 followers",
+          "2 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 80,
+      "summary": "$FRMI bought more here 4.81"
+    },
+    {
       "title": "$FRMI good dip buy here, we wait for new leases and Tier 1 guarantor news in the meantime",
       "url": "https://stocktwits.com/StockAuthority/message/664272794",
       "source": "@StockAuthority on StockTwits",
@@ -27,7 +49,7 @@
         "trust": "medium",
         "reasons": [
           "46,802 followers",
-          "5 likes"
+          "6 likes"
         ]
       },
       "tier": 2,
@@ -35,7 +57,7 @@
         "FRMI"
       ],
       "related": [],
-      "score": 80.5,
+      "score": 70.5,
       "summary": "$FRMI good dip buy here, we wait for new leases and Tier 1 guarantor news in the meantime"
     },
     {
@@ -906,31 +928,23 @@
       "related": [],
       "score": 38,
       "summary": "FRMI - higher than usual off exchange activity yesterday"
-    },
-    {
-      "title": "Official Community FAQ Updates on Fermi America ($FRMI) Site & Operations",
-      "url": "https://www.reddit.com/r/FRMI/comments/1w71x7x/official_community_faq_updates_on_fermi_america/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-09-04T11:38:31.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/ktk8172",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Official Community FAQ Updates on Fermi America ($FRMI) Site & Operations"
     }
   ],
   "related": [
+    {
+      "title": "OpenAI is working with Anthropic, Google on AI safety, Bloomberg News reports - Reuters",
+      "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-15T14:53:18.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "GOOGL"
+      ],
+      "score": 75
+    },
     {
       "title": "OpenAI Says It’s Working With Anthropic, Google on AI Safety",
       "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
@@ -956,6 +970,19 @@
       "tickers": [],
       "related": [
         "MSFT"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Nvidia’s Jensen Huang Gets Onstage Call From Trump, Who Dismissed A.I. Safety Concerns - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-15T13:33:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 65
     },
@@ -1002,52 +1029,9 @@
       "summary": "\"The data centers are great, and they make people wealthy, and they make states wealthy. And it's the oil of the next 20 to 25 years; it's even bigger than the internet,\" Trump claimed on Monday."
     },
     {
-      "title": "How Nvidia gutted a onetime rival and left behind a $3.5 billion AI cloud - Business Insider",
-      "url": "https://www.businessinsider.com/groq-navigates-ai-cloud-market-shift-after-nvidia-deal-2026-9",
-      "source": "Business Insider",
-      "publishedAt": "2026-09-15T09:03:33.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "In a $20 billion deal last year, Nvidia took what made Groq special. The AI cloud startup left behind bets that special doesn't matter anymore."
-    },
-    {
-      "title": "OpenAI has tapped a startup to make its AI work for lawyers - Business Insider",
-      "url": "https://www.businessinsider.com/telon-openai-select-partner-legal-tech-lewis-bretts-2026-9",
-      "source": "Business Insider",
-      "publishedAt": "2026-09-15T09:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "OpenAI wants more lawyers to use its tech. To that end, it's partnered with a new startup to give it boots on the ground inside law firms."
-    },
-    {
-      "title": "OpenAI is working with Anthropic, Google on AI safety, Bloomberg News reports - Yahoo",
-      "url": "https://www.yahoo.com/news/politics/articles/openai-working-anthropic-google-ai-145007050.html",
-      "source": "Yahoo",
-      "publishedAt": "2026-09-15T14:50:07.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI",
-        "GOOGL"
-      ],
-      "score": 55,
-      "summary": "Sept 15 (Reuters) - OpenAI is working with rivals Anthropic and Alphabet's Google DeepMind on AI safety, Bloomberg News reported on Tuesday, citing the ChatGPT maker's global policy chief Chris Lehane"
-    },
-    {
-      "title": "Microsoft's AI-driven revenue jumps 22.6%, Azure grows 40%, with major data center expansion planned. - pluang.com",
+      "title": "Microsoft's AI-driven revenue jumps 22.6%, Azure grows 40%, with major data center expansion planned. - Pluang",
       "url": "https://pluang.com/en/news-feed/microsoft-melawan-gravitasi-ai",
-      "source": "pluang.com",
+      "source": "Pluang",
       "publishedAt": "2026-09-15T14:47:56.000Z",
       "kind": "news",
       "tier": 3,
@@ -1073,7 +1057,7 @@
     },
     {
       "title": "Crusoe signs multiyear Perplexity cloud deal for Nvidia AI chips: Bloomberg - Blockspace Media",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNM1Z2MS1uY0tISEZXUWxhZjlMbHlpWUFzWXM2TlBieExSZ0t3enV0b0RmRWhpOVZBRzN6dnVGZElTaDVGY1BiQTRaVGdLTTBMUkpqUHFVRDJ3UEhIYy15TmJXdzN6dFdWdzhQSjJWUWI5QlhiXzg0NjJmUDVLcC00bGVCZEo?oc=5",
+      "url": "https://blockspace.media/insight/crusoe-perplexity-cloud-deal-nvidia-ai-chips/",
       "source": "Blockspace Media",
       "publishedAt": "2026-09-15T14:46:26.000Z",
       "kind": "news",
@@ -1127,7 +1111,7 @@
     },
     {
       "title": "Nvidia CEO Jensen Huang dismisses AI doomsday fears as 'not grounded in science' - Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YMDJXQW1DSWdmR2trbjBMb25GMHlFeTR3eGxXdWVRMVdfdzJWenAycmJsSG1vVEZ0SUtRcF9faUhTRFVuQVNWTUctRVJTb2ZxdC1ScDlDUzhxZ1k?oc=5",
+      "url": "https://www.foxbusiness.com/video/6405086529112",
       "source": "Fox Business",
       "publishedAt": "2026-09-15T14:22:16.000Z",
       "kind": "news",
@@ -1136,11 +1120,12 @@
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "Stuart Varney and Madison Allworth report on Nvidia CEO Jensen Huang dismissing AI doomsday fears. Jensen Huang explains why extreme AI concerns are not grounded in science, as President Donald Trump calls into the event."
     },
     {
       "title": "OpenAI Life Sciences Launches Public Data for Health - AI Magazine",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaEpZVmpieW1ranVGN0luNGd6a1JuNEtmT0JOdFVRcFdVMU02aUF1NVYzY0cyUlRTY1ZDREtSc3RtV1l5NWxhZHprdnBFYm9DckZyRHFPM2Vab2VkRUs5RFYyUldrY3JjMVRlWWx6NmI0WGREU29KeWVwTGFFLWphYU92WEFCTU0?oc=5",
+      "url": "https://aimagazine.com/news/openai-life-sciences-launches-public-data-for-health",
       "source": "AI Magazine",
       "publishedAt": "2026-09-15T14:13:51.000Z",
       "kind": "news",
@@ -1149,7 +1134,8 @@
       "related": [
         "OpenAI"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "The launch of Public Data for Health will build foundations for researchers to ask AI better questions, Jacob Trefethen of the OpenAI Foundation says"
     },
     {
       "title": "OpenAI Reportedly Acquires AI Smartphone Camera Startup Glass Imaging For $300+ Million - Pulse 2.0",
@@ -1206,38 +1192,12 @@
       "summary": "The company explained that the time spent on projects improved, but there were still human interactions that the AI couldn't replicate with its algorithm."
     },
     {
-      "title": "In onstage call with Nvidia CEO, Trump deems AI fears a ‘hoax’ - The Washington Post",
-      "url": "https://www.washingtonpost.com/politics/2026/09/14/onstage-call-with-nvidia-ceo-trump-deems-ai-fears-hoax/",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-15T03:47:52.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom",
       "url": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html",
       "source": "CNBC",
       "publishedAt": "2026-09-14T23:30:02.000Z",
       "kind": "news",
       "summary": "Dutch startup Euclyd raised the funding in a round co-led by Samsung, Somerset Capital Partners, the Scaleup Europe Fund and Innovation Industries.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia’s Jensen Huang Gets Onstage Call From Trump, Who Dismissed A.I. Safety Concerns - The New York Times",
-      "url": "https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-14T22:29:25.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1274,9 +1234,9 @@
       "score": 55
     },
     {
-      "title": "Nvidia CEO Puts Trump on Phone While Downplaying AI Risks - bloomberg.com",
+      "title": "Nvidia CEO Puts Trump on Phone While Downplaying AI Risks - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-14/nvidia-ceo-puts-trump-on-speakerphone-while-downplaying-ai-risks",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-09-14T21:27:33.000Z",
       "kind": "news",
       "tier": 1,
@@ -1301,6 +1261,20 @@
       "score": 55
     },
     {
+      "title": "Dominion Energy vs. GE Vernova: Which Utilities Stock Is a Better Buy in 2026? - The Motley Fool",
+      "url": "https://www.fool.com/coverage/better-buy/2026/09/14/dominion-energy-vs-ge-vernova-which-utilities-stock-is-a-better-buy-in-2026/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-14T15:30:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GEV"
+      ],
+      "score": 55,
+      "summary": "One trades on steady cash generation and regulated returns, while the other bets on explosive demand for equipment. Their financial profiles tell starkly different stories."
+    },
+    {
       "title": "Palantir, Nvidia curb AI model use over data fears, The Information reports - Reuters",
       "url": "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/",
       "source": "Reuters",
@@ -1312,20 +1286,6 @@
         "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Dominion Energy vs. GE Vernova: Which Utilities Stock Is a Better Buy in 2026? - The Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/GEV/pressreleases/4592064/dominion-energy-vs-ge-vernova-which-utilities-stock-is-a-better-buy-in-2026/",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-09-14T15:09:40.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GEV"
-      ],
-      "score": 55,
-      "summary": "Detailed price information for GE Vernova Inc (GEV-N) from The Globe and Mail including charting and trades."
     },
     {
       "title": "OpenAI foundation gifts UNC Lineberger Comprehensive Cancer Center $40 million to make vaccines more effective for patients - ABC7 Los Angeles",
@@ -1340,9 +1300,61 @@
       ],
       "score": 45,
       "summary": "The grant funds will be used to generate data that could make personalized cancer vaccines more effective."
+    },
+    {
+      "title": "OpenAI backs bipartisan House plan for third-party safety assessments - Politico",
+      "url": "https://www.politico.com/news/2026/09/15/openai-backs-bipartisan-house-plan-for-third-party-safety-assessments-01076588",
+      "source": "Politico",
+      "publishedAt": "2026-09-15T13:37:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
+      "title": "What Nvidia CEO Huang Told Trump About the AI Doom Debate - Barron's",
+      "url": "https://www.barrons.com/articles/nvidia-stock-price-huang-trump-ai-slowdown-97db392a",
+      "source": "Barron's",
+      "publishedAt": "2026-09-15T13:36:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "OpenAI Foundation Gives $125M to Public Data for AI-Driven Health Program - Inside Precision Medicine",
+      "url": "https://www.insideprecisionmedicine.com/topics/informatics/openai-foundation-gives-125m-to-public-data-for-ai-driven-health-program/",
+      "source": "Inside Precision Medicine",
+      "publishedAt": "2026-09-15T13:32:16.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "The Public Data for Health program will assist nonprofits and universities in developing, preserving, and sharing high-quality scientific datasets."
     }
   ],
   "general": [
+    {
+      "title": "Coinbase Slides Ahead of Clarity Act Vote; Waystar Up on Sale Exploration | Stock Movers",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-15/coinbase-slides-ahead-of-clarity-act-vote-waystar-up-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T14:52:17.000Z",
+      "kind": "news",
+      "summary": "On this episode of Stock Movers: - Dave & Buster's (PLAY) shares are lower after it reported revenue for the second quarter that missed the average analyst estimate. - Coinbase (COIN) along with other crypto shares along with Bitcoin are sliding ahead of the Senate's vote on the CLARITY Act that would regulate digital assets and the crypto industry. - Waystar (WAY) shares are higher after Reuters reported that the firm is exploring options, including a sale, two years after a",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Ricos usan ETF de BlackRock y Vanguard para ahorrar impuestos",
       "url": "https://www.bloomberg.com/news/features/2026-09-15/ricos-usan-etf-de-blackrock-y-vanguard-para-ahorrar-impuestos",
@@ -1368,23 +1380,12 @@
       "score": 60
     },
     {
-      "title": "Bessent Says He’ll Meet His Chinese Counterpart This Weekend",
+      "title": "Bessent to Meet Chinese Counterpart Ahead of Trump-Xi Summit",
       "url": "https://www.bloomberg.com/news/articles/2026-09-15/bessent-says-he-ll-meet-with-chinese-counterpart-this-weekend",
       "source": "Bloomberg",
       "publishedAt": "2026-09-15T14:39:20.000Z",
       "kind": "news",
       "summary": "Treasury Secretary Scott Bessent said he will meet this weekend with his Chinese counterpart, He Lifeng, ahead of a summit between President Donald Trump and Xi Jinping later this month.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Opinion | How to keep AI from going rogue? Start with a 30-day stand-down. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYTNnVHpCOUVUZDhXclZSUXZuY1liVUlMaFV6NHg5cU44X0FVY3lVMkZlcWtNUjNCbS13S2E5dkZCejlxV1lmdUpPUGJYbnBwUl9LZ29rZm1UQUhwNHdsd2RnbURGYk1ncVEteU5STUpieHl4V0M3ZGZMY19vRE8ySHZRV2NhM25aX2JEcms3NlRVUDNZMUpTUXMxRmkzMEFKcDFuT0praXFqdlFjTUE?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-15T14:34:44.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1463,6 +1464,17 @@
       "score": 60
     },
     {
+      "title": "A new AI tool draws on 300,000 supply-chain links. SPS Commerce opened MAX to fulfillment customers. - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbm5DSVh1SWl6NmZuVEZFR2wyNUlicWp1b0lkQ0tRWlQ5UlpkOEpGZkZGQzVzbGczXy02V0x2ZFgtYW9oYVlaWWt1c3pxQlBVTlhSQXVwNkhSemx3XzNnZ0ZDZloyem9ldmlTZ3BuTUhPZXNqUXdRVnM3UV83SVFhSGJTMWVwLXhReF9CbDJFZ19kMU1aOG5ubU1PV09qamdBd0tkYmJ3Z0d6VE5YOU9ieU1DQUxzaWpnR3FpS2JCd04?oc=5",
+      "source": "Stock Titan",
+      "publishedAt": "2026-09-15T14:03:53.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Carlyle’s Fujiyama Sees Investor Excitement in Defense Tech",
       "url": "https://www.bloomberg.com/news/videos/2026-09-15/carlyle-s-fujiyama-sees-investor-excitement-in-defense-video",
       "source": "Bloomberg",
@@ -1472,18 +1484,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Meta Touts the Cost-Saving Benefits of Latest In-House AI Chips - bloomberg.com",
+      "title": "Meta Touts the Cost-Saving Benefits of Latest In-House AI Chips - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeUZCZk9JODh6eDF4RVB6Q3lGSkt5Ul9IOGRSVFROQ2lxTFAxY21rUmk3WHVsbnBYcTg2eHBuTTk4STNVRkliTEF5azVXZUs0M09yM0J4bW5ManFRMC1yckY1UTh4N2xEX2V6S3NFZ09UdTZnSm01a24xVDYzb3JRd1Zla1BUZDQtQ0JaTERnOVlQS3ZJSTRNamxtNnFFa2hKVmVxNnJicVFoNHBYSHltUlFLUEg?oc=5",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-09-15T14:00:08.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Meta Touts the Cost-Saving Benefits of Latest In-House AI Chips",
@@ -1495,7 +1507,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Merge Launches MergeIQ™, the AI Layer Powering Intelligence Across its Enterprise Imaging Platform - PR Newswire",
@@ -1506,7 +1518,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Nigeria Inflation Unexpectedly Eases, Boosts Case for Rate Cut",
@@ -1516,28 +1528,6 @@
       "kind": "news",
       "summary": "Nigeria’s annual inflation rate unexpectedly fell in August, improving the case for policymakers to resume their easing cycle next week.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Forgent Power Solutions: Huge Q4 And Even Bigger Year Ahead (Earnings Review) (FPS) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZnhxYW5jOF81UmVBSmtfVHoya3d6N0p4amMzekVrQ0p4TUN4SEU2YXljbnhyQ242Tld1VTNzR3lGZTlRZUNZTS1wbC1NVE9oSUxTQ1puQ1I0bU5ZWnNvXzhBVzBoSnZYaDlHX19Vc2k5OFkxemVKaE9CS09QZ0JabVBBZXZ0WGFGTXlIRzZmZzdmZ3RpVGxiV1hlR2xvTGMxQVJva21CU2RveEEwbU5IVzBUeGhFZw?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-09-15T14:38:23.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "A new AI tool draws on 300,000 supply-chain links. SPS Commerce opened MAX to fulfillment customers. - Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbm5DSVh1SWl6NmZuVEZFR2wyNUlicWp1b0lkQ0tRWlQ5UlpkOEpGZkZGQzVzbGczXy02V0x2ZFgtYW9oYVlaWWt1c3pxQlBVTlhSQXVwNkhSemx3XzNnZ0ZDZloyem9ldmlTZ3BuTUhPZXNqUXdRVnM3UV83SVFhSGJTMWVwLXhReF9CbDJFZ19kMU1aOG5ubU1PV09qamdBd0tkYmJ3Z0d6VE5YOU9ieU1DQUxzaWpnR3FpS2JCd04?oc=5",
-      "source": "Stock Titan",
-      "publishedAt": "2026-09-15T14:03:53.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1718,17 +1708,6 @@
       "score": 50
     },
     {
-      "title": "Alteryx and Golden Analytics Partner to Help Organizations Reimagine Analytics for the AI Era - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQlhaR1oydmFHal91QXR6VDZoZW43dFFnaVFhSkM1SmNGVGE1amVNRGg0bmVOUzlESXVMcWI4aHVaVTFEWXRadTBhaW5TVzhZMkdfZU9fYnZpVU1qaVo2TXlBZDNub29jRFJ0dDUxSHlvUERKckNPOWhzQ1JtbE9aaGZjYUt1RDh1b2x2LUd5VmdYcl83UmR5U0FQMVBnY3ljXzRrd0dkNHBlM2RKSEJoWjlhcVRBOHFvTXBaYzh0VFVGVDlOZHhzVkpJTWswRDVHaVBONi1mWkNpbUFJOTJCSlBBTQ?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-09-15T13:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "FILE PHOTO: Illustration shows message reading \"AI artificial intelligence\", keyboard and robot hands - The Lufkin Daily News",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNaHZ4TUdHR2hpOG1PWEFfRjJ5NkYzb0FPT3o1VVRVQUlRLU1FZmwxTl9iV2JmdDB2d3lOYjJGS1VDd2lPVGp2WnNFWVhPZ3l6RGVycFczbkxEeEpHNUtXRlRIVy1FRXZjOXBYaEVyVi1ERnVxNFJrWDRfalpjZEZBVW9ZRmd6TkJSeW43OWJKcVVXQzhfQzZNcnQ4YW9vYVpMbmhfTklmeGdTeE8wTFBreFFTY1BQSUhDWmM0N2RwYlZKcDRSeUxNM05mWnhzNVoxQUhYRDc3c0FjYUw4OHRiMERUalpzMDBTaElLTkkzUkFTM0F2UnM4Tk1qNWNuTFItMUNKT3NxV2h5TXhUQWJTUlFqYWlibnpTQkJ2OWw3QjE?oc=5",
       "source": "The Lufkin Daily News",
@@ -1810,34 +1789,11 @@
       "score": 50
     },
     {
-      "title": "Trump facing AI backlash in Congress as push for guardrails intensifies - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbHk0cnRVWlZ6WVhQWVVwUTlyNHFEWGVWM2loUXpYOFBqOXBrZ0ZBQ0JDQzFwYkJDRm10RXVMS20yM1ZJanVhWmJ6RVdrNHV2OG9LNVFjeVdjcW9BeWhkc296RUhEbnpsa1M5Slk5bndkNkJoWEVYaDhsemlxXzBUc3VCX2NUUGx4Tm5wVVN2VGViVWQxSURV?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-15T12:13:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "DG Matrix Appoints Daniel Doimo, MGE UPS Systems Co-Founder and Former Schneider Electric Executive Vice President, to Executive Advisory Board - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOSWUyVkZSVGxMWTZObjNNV085clJjUHdnWTk0dTNGei1kNDdzeHFSU2J4cHYzb2toX1VrX2hVUUxhMmcxZWZZN01UdnhGSlVWV2xKNTU5bF9hcWhTeFB3MFZ6V0p5cHNBVFFOam9YRW9wbFJXajJJTlJyOGhES2QyUFZqNHlvbXdfNFQ1LUdJeHBFaU1SbXJoNTBza1RWa1M0emtMelF1Sk15ZHJkOU5IbFFTS3R6RDdmTlNqakxPLTdtZm9kc3VVYTdpM3hPTnhCeEFYU3Q0cENTS0xpUVRHNS1XVzdjazBoc01iUF95ZVQ2ZXZZRFpfTkFWd2xSMUN2QW5KdmE1d2p3VjlwdGU0TnlDelFhU2R1QUFubUVENFprVkJ4?oc=5",
       "source": "Business Wire",
       "publishedAt": "2026-09-15T12:10:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Merz Promises German Drivers Relief on Surging Gas Prices",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-15/merz-to-respond-to-surging-prices-as-breaking-point-reached",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-15T12:06:14.000Z",
-      "kind": "news",
-      "summary": "Chancellor Friedrich Merz said his coalition will take action on “price gouging” by gas suppliers and promised German motorists relief amid mounting calls to alleviate the burden on consumers from surging fuel prices.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1918,6 +1874,53 @@
       "source": "Business Wire",
       "publishedAt": "2026-09-15T12:00:00.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Crusoe Signs Perplexity AI Deal to Provide Cloud Capacity",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/crusoe-signs-perplexity-ai-deal-to-provide-cloud-capacity",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "kind": "news",
+      "summary": "Data center operator Crusoe struck a multiyear cloud deal with Perplexity AI Inc., an AI search company, continuing its push to win more business renting out artificial intelligence chips and related software.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Mexico Tourism Hit by Falling Beach Visits from Big Spending Foreigners",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/mexico-tourism-hit-by-falling-beach-visits-from-big-spending-foreigners",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T12:00:00.000Z",
+      "kind": "news",
+      "summary": "Mexico is trying to figure out how to reignite growth at its once-booming beach destinations, where visits by big-spending travelers have slowed in another bleak sign for a struggling economy.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "3 E Network Highlights Strategic Value of Finnish Market Amid Nordic AI Infrastructure Investment Boom - The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZXV3VnczeHBuM3BleWtXTVJ1VHBWU1RtS0loMG1BT2pDZTVnay1OSjZfaVNEQVBTelR3UGl2c1lsQTZOV0VVMjZEdnpvenU1ZWNZcU5jZENLdnhZWHhMUDN4VS1lZi1KR2RKMXRBc210d1lvVmJRQ0FKaVR6ZmlsTjVwY1hkYWxsQXVUMi1YUk9SaFFpYUt2N2IyVzFSeExNTlhJc2tmUlFVN0I4bUZtaVdUNTRwdFdETG44RGJmV1RsT3JYdmtPalZOZEdNVldDSHB5bXlkbjNkOFlNYTF5RTM3eEcxYzBOeVdlRDJOMkJ2U2x2ekk2ejYwUGR0VEtpZjhNdmZWb9IBjAJBVV95cUxNdVJLR2VVZEx4eHNCUUI1MFBoT1I1NUZlSDE3b1JEenVXUElxZ2xleHAteEFTeld4R2tISXE4d1N1OS1qQncwUTA3QzJuRWVlOC12M2tTQWYwX1JzUHJlNk8wbHpxNXBtZVZ5RHJHYnBGSWtxNkFmYVd0aVJkNVFtaldRWEhjUUZCWjVCS1ZRMmY4RWVQVUlqZ0pjSXUzX3JJaUZSZkdLcGFrY3l1LW95Uy1VdFJ1MGdBb2dMZGZ5LWJsZXlReVhvYWMwNExrZkdUSHlTdlZoTzU4SmJKZ001MnRoWS16SVNkaDF6VV9HdkZQTnRDal92dzFLSnRKcS01Qlhub3V0SWZ1RVNV?oc=5",
+      "source": "The Manila Times",
+      "publishedAt": "2026-09-15T11:58:40.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "US Stock Futures Today: Enova, Forgent Power, Vera, Waystar",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/us-stock-futures-today-enova-forgent-power-vera-waystar",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T11:52:20.000Z",
+      "kind": "news",
+      "summary": "S&P 500 Index futures fall 0.2% as of 7:42 a.m. in New York. Stocks are heading for more declines as oil prices and Treasury yields climb.",
       "tier": 1,
       "tickers": [],
       "related": [],

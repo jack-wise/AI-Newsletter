@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T23:02:43.616Z",
+  "generatedAt": "2026-09-16T23:32:16.592Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -949,13 +949,27 @@
       "title": "OpenAI reports 6 new instances of 'concerning model behavior' since March",
       "url": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
       "source": "CNBC",
-      "publishedAt": "2026-09-16T23:01:52.000Z",
+      "publishedAt": "2026-09-16T23:05:48.000Z",
       "kind": "news",
       "summary": "OpenAI has disclosed six new cases of model misbehavior and offered a framework for disclosing future instances, as the debate over AI model safety intensifies.",
       "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Huawei Set to Unveil China’s Best Answer to Nvidia AI Chip Reign",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/huawei-set-to-unveil-china-s-best-answer-to-nvidia-ai-chip-reign",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T23:00:00.000Z",
+      "kind": "news",
+      "summary": "Huawei Technologies Co. is set to unveil new AI technology this week in defiance of US export control curbs, advancing its ambition to replace Nvidia Corp. in China and compete on the global stage.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 75
     },
@@ -974,18 +988,18 @@
       "score": 75
     },
     {
-      "title": "OpenAI’s Altman to Attend Trump Dinner With Chinese President",
+      "title": "Apple’s Cook, OpenAI CEO to Attend Trump Dinner With Xi",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/openai-s-altman-to-attend-trump-dinner-with-chinese-president",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T22:16:44.000Z",
       "kind": "news",
-      "summary": "OpenAI Chief Executive Officer Sam Altman is poised to attend a state dinner that US President Donald Trump is holding for Chinese counterpart Xi Jinping.",
+      "summary": "Apple Inc. Executive Chairman Tim Cook and OpenAI Chief Executive Officer Sam Altman are poised to attend a White House state dinner for Chinese President Xi Jinping next week.",
       "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "OpenAI releases framework to track model misalignment - Reuters",
@@ -998,7 +1012,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "OpenAI CEO Sam Altman will attend state dinner for Trump-Xi summit in Washington",
@@ -1029,12 +1043,11 @@
       "score": 65
     },
     {
-      "title": "OpenAI, Microsoft fend off part of software developer lawsuit over AI training",
+      "title": "OpenAI, Microsoft fend off part of software developer lawsuit over AI training - Reuters",
       "url": "https://www.reuters.com/legal/government/openai-microsoft-fend-off-part-software-developer-lawsuit-over-ai-training-2026-09-16/",
       "source": "Reuters",
-      "publishedAt": "2026-09-16T20:46:06.000Z",
+      "publishedAt": "2026-09-16T20:35:43.000Z",
       "kind": "news",
-      "summary": "A U.S. appeals court has sided with OpenAI and Microsoft against a portion of a lawsuit brought by software developers. The developers alleged that the companies misused code from GitHub to train generative AI systems, specifically violating the Digital Millennium Copyright Act (DMCA). The court upheld a previous ruling that OpenAI and Microsoft were not liable under the DMCA, differentiating these claims from traditional copyright infringement. [sentiment: Somewhat-Bullish]",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1113,18 +1126,32 @@
       "score": 65
     },
     {
-      "title": "Prediction: Dell's AI Server Backlog Makes It a Sneaky Way to Play the Nvidia Supercycle - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/09/16/prediction-dells-ai-server-backlog-makes-it-a-snea/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-16T17:20:00.000Z",
+      "title": "OpenAI Tests Sponsored AI Agents in ChatGPT Ads - PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-tests-sponsored-ai-agents-in-chatgpt-ads/",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-09-16T23:27:54.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "OpenAI is testing business-sponsored artificial intelligence agents that will have conversations with people who click on an ad in ChatGPT, the company"
+    },
+    {
+      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation | NVIDIA Technical Blog - NVIDIA Developer",
+      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+      "source": "NVIDIA Developer",
+      "publishedAt": "2026-09-16T23:23:05.000Z",
+      "kind": "news",
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
-      "summary": "Dell Technologies has delivered incredible returns to investors in 2026, and it isn't done soaring yet."
+      "score": 55,
+      "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties…"
     },
     {
       "title": "AI safety push sparks infighting at OpenAI, Anthropic - afr.com",
@@ -1141,50 +1168,9 @@
       "summary": "Staff at the Silicon Valley companies are baulking at suggestions from their bosses that outsiders evaluate their AI work as part of the slowdown."
     },
     {
-      "title": "State reveals full DRI report on OpenAI’s Effingham Co. data center project - WTOC",
-      "url": "https://www.wtoc.com/2026/09/16/state-reveals-full-dri-report-openais-data-center-project/",
-      "source": "WTOC",
-      "publishedAt": "2026-09-16T22:30:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "A state impact report outlines the full utility, environmental, and economic footprint of the proposed $20 billion Project Camellia data center in Effingham County"
-    },
-    {
-      "title": "OpenAI plans regular reports on unexpected AI behavior - KSL News",
-      "url": "https://www.ksl.com/article/51624990/openai-plans-regular-reports-on-unexpected-ai-behavior",
-      "source": "KSL News",
-      "publishedAt": "2026-09-16T22:25:56.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI said on Wednesday it ​would begin regularly publishing reports on unexpected or unauthorized ‌AI behavior, while warning that the industry ⁠has yet ​to solve key ⁠alignment challenges as systems grow ‌more powerful."
-    },
-    {
-      "title": "Microsoft AI Chief Says the Way Anthropic Trains Claude Could Upend Society - Gizmodo",
-      "url": "https://gizmodo.com/microsoft-ai-chief-says-the-way-anthropic-trains-claude-could-upend-society-2000812750",
-      "source": "Gizmodo",
-      "publishedAt": "2026-09-16T22:13:19.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? - techcrunch.com",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? - TechCrunch",
       "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-      "source": "techcrunch.com",
+      "source": "TechCrunch",
       "publishedAt": "2026-09-16T21:07:24.000Z",
       "kind": "news",
       "tier": 2,
@@ -1194,6 +1180,20 @@
       ],
       "score": 55,
       "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation."
+    },
+    {
+      "title": "Prediction: Dell's AI Server Backlog Makes It a Sneaky Way to Play the Nvidia Supercycle - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/09/16/prediction-dells-ai-server-backlog-makes-it-a-snea/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-16T17:20:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Dell Technologies has delivered incredible returns to investors in 2026, and it isn't done soaring yet."
     },
     {
       "title": "OpenAI investors have approached the company about a new funding round",
@@ -1206,19 +1206,6 @@
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Exclusive: Microsoft AI chief blasts Anthropic's notion of AI consciousness - Axios",
-      "url": "https://www.axios.com/2026/09/16/microsoft-ai-chief-anthropic-consciousness",
-      "source": "Axios",
-      "publishedAt": "2026-09-16T14:40:02.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
       ],
       "score": 55
     },
@@ -1249,6 +1236,19 @@
       "score": 55
     },
     {
+      "title": "Exclusive: Microsoft AI chief blasts Anthropic's notion of AI consciousness - axios.com",
+      "url": "https://www.axios.com/2026/09/16/microsoft-ai-chief-anthropic-consciousness",
+      "source": "axios.com",
+      "publishedAt": "2026-09-16T14:07:02.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55
+    },
+    {
       "title": "After suspending Stargate UK, OpenAI goes to Canada for data centre partnerships; is 'very impressed' wit - The Times of India",
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-suspending-stargate-uk-openai-goes-to-canada-for-data-centre-partnerships-is-very-impressed-with-pm-mark-carney-for-/articleshow/134289592.cms",
       "source": "The Times of India",
@@ -1261,19 +1261,6 @@
       ],
       "score": 55,
       "summary": "ChatGPT maker OpenAI may be looking at Canada for data centre partnerships. This comes after putting its Stargate UK project on hold earlier this year."
-    },
-    {
-      "title": "IonQ, ORNL, NVIDIA, and the University of Tennessee, Knoxville Show AI Method Reduces Quantum Optimization Trade Off - Business Wire",
-      "url": "https://www.businesswire.com/news/home/20260916753282/en/IonQ-ORNL-NVIDIA-and-the-University-of-Tennessee-Knoxville-Show-AI-Method-Reduces-Quantum-Optimization-Trade-Off",
-      "source": "Business Wire",
-      "publishedAt": "2026-09-16T13:54:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
     },
     {
       "title": "Global Technology Pioneers Emerald AI, Google, and NVIDIA Launch the AI Energy Management Alliance to Advance Flexible AI Data Centers - Business Wire",
@@ -1345,19 +1332,31 @@
       "score": 55
     },
     {
-      "title": "Emerald AI, Google, And NVIDIA Launch AI Energy Management Alliance With 18 Partners To Advance Flexible AI Data Centers - Pulse 2.0",
-      "url": "https://pulse2.com/ai-energy-management-alliance/",
-      "source": "Pulse 2.0",
-      "publishedAt": "2026-09-16T22:02:30.000Z",
+      "title": "State reveals full DRI report on OpenAI’s Effingham Co. data center project - WTOC",
+      "url": "https://www.wtoc.com/2026/09/16/state-reveals-full-dri-report-openais-data-center-project/",
+      "source": "WTOC",
+      "publishedAt": "2026-09-16T22:30:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA",
-        "GOOGL"
+        "OpenAI"
       ],
       "score": 45,
-      "summary": "Emerald AI, Google and NVIDIA have launched the AI Energy Management Alliance, a new coalition focused on making AI data centers more flexible participants in the power grid by allowing facilities to dynamically adjust electricity consumption during periods of peak grid stress."
+      "summary": "A state impact report outlines the full utility, environmental, and economic footprint of the proposed $20 billion Project Camellia data center in Effingham County"
+    },
+    {
+      "title": "Microsoft AI Chief Says the Way Anthropic Trains Claude Could Upend Society - Gizmodo",
+      "url": "https://gizmodo.com/microsoft-ai-chief-says-the-way-anthropic-trains-claude-could-upend-society-2000812750",
+      "source": "Gizmodo",
+      "publishedAt": "2026-09-16T22:13:19.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45
     }
   ],
   "general": [
@@ -1365,7 +1364,7 @@
       "title": "Salesforce issues revenue target of over $63 billion for fiscal 2030, beating estimates",
       "url": "https://www.cnbc.com/2026/09/16/salesforce-issues-revenue-target-of-63-billion-for-fiscal-2030.html",
       "source": "CNBC",
-      "publishedAt": "2026-09-16T23:01:09.000Z",
+      "publishedAt": "2026-09-16T23:13:45.000Z",
       "kind": "news",
       "summary": "Salesforce issued some updated longer-term financials at its annual Dreamforce conference.",
       "tier": 1,
@@ -1374,11 +1373,93 @@
       "score": 60
     },
     {
-      "title": "House votes to curb AI data center costs - Axios",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41NjN0Qi0ta3A3U3JRYWM2MENyVjFET19Zc2xpXy1OWWJZOHVsU0d6aDR3VllCY0lqcXhPUXBieml4bVRCd2RnSS1MYklLVFNQTlliTlZmSUlaSkNjUGFFWFNWZ29GVDIxVWoyMTB1ZlEtZmM?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-09-16T22:56:26.000Z",
+      "title": "Hong Kong Follows Fed With First Rate Hike in Over Three Years",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-follows-fed-with-first-rate-hike-in-over-three-years",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T23:09:50.000Z",
       "kind": "news",
+      "summary": "The Hong Kong Monetary Authority followed the US Federal Reserve in raising interest rates for the first time since 2023, a decision that could threaten a property recovery unfolding since last year.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "House votes to curb AI data center costs - axios.com",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41NjN0Qi0ta3A3U3JRYWM2MENyVjFET19Zc2xpXy1OWWJZOHVsU0d6aDR3VllCY0lqcXhPUXBieml4bVRCd2RnSS1MYklLVFNQTlliTlZmSUlaSkNjUGFFWFNWZ29GVDIxVWoyMTB1ZlEtZmM?oc=5",
+      "source": "axios.com",
+      "publishedAt": "2026-09-16T23:01:41.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Asia Risks Unrest as El Niño, War Threaten Food Supplies, Consultancy Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/asia-risks-unrest-as-el-nino-war-threaten-food-supplies-consultancy-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T23:01:00.000Z",
+      "kind": "news",
+      "summary": "Severe weather disruptions will amplify food security risks in Asia, potentially triggering civil unrest and political instability in vulnerable countries such as India, Indonesia and the Philippines, according to consultancy Verisk Maplecroft.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US House advances first bill addressing economic impacts of data center boom - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlJ5dTh2eFhMZFhIMFBycGVFeWNyRFlETUlMem1NNXFVakRtbmQ5Q3FYYUpIb0RlcG1OalB1WDU2VktjaHhQV2pONTdYcmtLSmpaMmtUODR5T1Z1RkpRRUJJN0pBRm15bkprQXQxTUVsTmdCbk5YRVVqcVBFWnJJQUotUjdxbEU1eUFXNHBqZnIyQkhVeW05Y3lfVk5WdXN3aEZnRGE0LUlkNzNZcTdPdUtheUJlQQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-16T23:00:51.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Cramer bets AI spending will 'continue apace,' says he's not giving up on data center trade",
+      "url": "https://www.cnbc.com/2026/09/16/cramer-ai-slowdown-stocks-dip.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-16T23:00:33.000Z",
+      "kind": "news",
+      "summary": "CNBC's Jim Cramer said he doesn't see AI spending slowing, despite growing concerns about the pace of model development.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "IMF Urges RBA to Stay Hawkish, Warns of Inflation Upside Risks",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T23:00:00.000Z",
+      "kind": "news",
+      "summary": "Australia’s central bank should stand ready to hike interest rates as needed given inflation risks remain tilted to the upside, the International Monetary Fund said, adding that the government could support disinflation by tightening its fiscal stance.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "House Passes Bill Taking Aim at Data Center Electricity Costs - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVjBBcGx2aUxNRk5XQkZWd1Z4LVQxelBTdU81THZ4YmV5RFZoVlh4U0dIcUpmdEYxYUlFQk9EcHhudDlfT2tVelllenpsWjMxaGo4YnJQaWFacXZ4emxaM1EwUV8tLXhydEtydUtsamlLOTdSYUFzYnNmX3hzZ01aOU5yWC1OLUJxLW02all3X2FVTnNMUko5ZTIwdmh6VFRiT0g5UlNqNElXc05sWWE3M3ZhQQ?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-16T22:58:19.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Salesforce Sees $63 Billion in Revenue in Fiscal Year 2030",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/salesforce-sees-63-billion-in-revenue-in-fiscal-year-2030",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T22:53:19.000Z",
+      "kind": "news",
+      "summary": "Salesforce Inc. gave a long-term outlook for sales that exceeded analysts’ estimates, signaling to investors that the software company can boost revenue growth in the face of competition from artificial intelligence tools.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1397,24 +1478,24 @@
       "score": 60
     },
     {
-      "title": "The Fed’s Unanimous 25-basis-point Hike Puts Trump and Warsh on Collision Course",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/the-fed-s-unanimous-25-basis-point-hike-puts-trump-and-warsh-on-collision-course",
+      "title": "New Zealand’s Economic Growth Beat Estimates Last Quarter",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/new-zealand-economic-growth-exceeded-estimates-in-second-quarter",
       "source": "Bloomberg",
-      "publishedAt": "2026-09-16T22:47:53.000Z",
+      "publishedAt": "2026-09-16T22:51:11.000Z",
       "kind": "news",
-      "summary": "The Fed bucked political pressure and voted unanimously for a 25-basis-point hike.",
+      "summary": "New Zealand’s economic growth exceeded estimates in the three months through June even as the Middle East conflict sent fuel prices soaring, squeezing local households and weighing on corporate activity.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "Chelsea Strikes Deal for Exit of Walter, Boehly as Shareholders",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/chelsea-strikes-deal-for-exit-of-walter-boehly-as-shareholders",
+      "title": "The Fed’s Unanimous 25-basis-point Hike Puts Trump and Warsh on Collision Course",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/the-fed-s-unanimous-25-basis-point-hike-puts-trump-and-warsh-on-collision-course",
       "source": "Bloomberg",
-      "publishedAt": "2026-09-16T22:46:17.000Z",
+      "publishedAt": "2026-09-16T22:47:53.000Z",
       "kind": "news",
-      "summary": "Chelsea Football Club owners Clearlake Capital agreed to buy out chairman Todd Boehly and director Mark Walter, bringing an end to a turbulent period among the clubs owners.",
+      "summary": "The Fed bucked political pressure and voted unanimously for a 25-basis-point hike.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1430,7 +1511,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Republicans clash on Senate floor over AI kill switch - The Hill",
@@ -1441,31 +1522,42 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Asian Stocks to Fall as Fed Hikes, Dollar Jumps: Markets Wrap",
+      "title": "Asian Bonds Decline as Fed Hikes, Dollar Jumps: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T22:06:59.000Z",
       "kind": "news",
-      "summary": "Stocks in Asia were poised for losses, tracking a decline on Wall Street after the Federal Reserve raised interest rates for the first time since 2023 and signaled further tightening to curb inflation. The dollar gained the most since June.",
+      "summary": "Shorter-dated Asian sovereign bonds fell, tracking moves in Treasuries after the Federal Reserve raised interest rates for the first time since 2023 and signaled further tightening to curb inflation. The dollar gained the most since June.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Oil Extends Slump as Saudi Arabia Moves to Restore Key Pipeline",
+      "title": "Oil Extends Drop as Saudi Arabia Moves to Restore Vital Pipeline",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/oil-extends-slump-as-saudi-arabia-moves-to-restore-key-pipeline",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T22:05:54.000Z",
       "kind": "news",
-      "summary": "Oil extended the biggest drop in more than six weeks on signs of easing Middle East supply disruptions, with a key pipeline being restored.",
+      "summary": "Oil dropped for a second day on signs of easing Middle East supply disruptions, with a key pipeline being restored.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Divisions emerge in the tech industry over calls for a coordinated AI slowdown - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcVUxMGdxcHlEQXczN3d2eFU0ZEZ0TFd0cm1zaS02NWdmTWdZazVMVTFHa2lkcjlabkRCVHpRUTY5SVhfWV84dkYwR3pTR3ljWHNSVnowUU9qekwtRmRhaFZZZHFhOVJtLU94a3Q5dXNjSTNhd0dwS3B1S0VwUUFna0M3OFFsZmZEaFdpUGdWX3J5dEhmRUhFUEttZWM2UzFZWXc?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-09-16T22:04:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Nuclear Services Firm Holtec Is Said to Suspend US IPO Plan",
@@ -1477,7 +1569,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI Doom Hits Tech World",
@@ -1552,6 +1644,17 @@
       "score": 50
     },
     {
+      "title": "AI rivalry hangs over Trump-Xi talks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSks5MUdiY1Z4N0FkTnB1Z2N6MU9EczBvZEJqVVNtY050bVc3LUJ6STh4b2xEZUpsVjNvcWUyNmxUb1ZvQjV2ZklENUc1RUpzdFhnZy1teFJhSk8zdUZXQ0JnMGZ4dnJHbW5DV0dsSEVlTGQyeW43X3BocVRHV21wN2dsRDdGQU9TRFRHRi1WRzQtVHc?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-16T21:39:06.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Amazon Secures $340M Generac Warrants in Data Center Deal - The Tech Buzz",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcldFamswdnhhMVljaGJtQVY4UlFhLUQtN1RWSXBvaXhHSDBHeEd6OC16OWJMdlBGeWRHSm9MUl9fQkJoOVVMNGNRdThLWHc0R3EtUHF5ZEdGdHFNUVNVOWJRVnFBajdQOFU2b1FBVHRaZVFRZFhTd09nbC1QZUNNVUtwdERBdi1sNkFNNXhlcG9TM28?oc=5",
       "source": "The Tech Buzz",
@@ -1567,17 +1670,6 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdVJBWmptSHdmVklTbEFMdHVicTV2WkxXU1I2cHlzNE04ZVNHbTcxcjZsNkhNTklxTjRnbkFlWVppcUN6WG41UFRZd0tSRUJQLWlveHo4UFprY0VsXzhtYXJYY3lpaXZaNTRwZzBxc1pra3l6WFVwbC03b3ZJclFRS2ktWHNMalBudXRqYjktczV6M3lzYkZxZDR4cUp3TFpLZ3JIVERySTBQcWtTbHBPdG5VVnlsQXlf?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-09-16T21:37:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI rivalry hangs over Trump-Xi talks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSks5MUdiY1Z4N0FkTnB1Z2N6MU9EczBvZEJqVVNtY050bVc3LUJ6STh4b2xEZUpsVjNvcWUyNmxUb1ZvQjV2ZklENUc1RUpzdFhnZy1teFJhSk8zdUZXQ0JnMGZ4dnJHbW5DV0dsSEVlTGQyeW43X3BocVRHV21wN2dsRDdGQU9TRFRHRi1WRzQtVHc?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T21:36:31.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1639,6 +1731,18 @@
       "publishedAt": "2026-09-16T21:19:26.000Z",
       "kind": "news",
       "summary": "Ken Shinoda of DoubleLine Capital said the Fed’s unanimous rate hike was largely in line with market expectations, noting that traders had already priced in a better-than-90% chance of a move. He pointed to the reaction in Treasuries as evidence that the market believes more tightening may still be needed, with the 10-year yield slightly higher on the day and the long bond giving back some of its initial rally. He speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Calpers CEO Bonus Jumps 43% After Pension Returns Beat Target",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/calpers-ceo-bonus-jumps-43-after-pension-returns-beat-target",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T21:11:34.000Z",
+      "kind": "news",
+      "summary": "California Public Employees’ Retirement System voted Wednesday to give its chief executive officer a $1.1 million bonus and a salary bump as state workers fight for higher pay.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1740,34 +1844,12 @@
       "score": 50
     },
     {
-      "title": "The Liftoff Scenario That Terrifies A.I. Doomsayers - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUFBzNEsya0lCSHdGM0ZCaDlVRG1rOWRnRWVxZXBfbmZTNWhKeWFDbG4yVjRMWWxPejROOHV5VnZCMDY5WVJxTXpJRmlySlVBRkRjN2J1ZWtESURFSG5MX3BTU0twSmhXeHlUZHduR2NoR0t0Tzg4Ri1qRU9FcUxKMnFEdw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-16T19:56:44.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Anthropic policy chief says AI companies can't be expected to operate on 'honor code'",
       "url": "https://www.cnbc.com/2026/09/16/anthropic-policy-chief-says-ai-companies-cant-operate-on-honor-code.html",
       "source": "CNBC",
       "publishedAt": "2026-09-16T19:56:09.000Z",
       "kind": "news",
       "summary": "Sarah Heck, Anthropic's head of public policy, offered her perspectives on AI safety as the debate about how to regulate model development intensifies.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The Most Powerful Man in AI Isn’t Worried at All - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVUZteWtCYjlMUzZGNW50aFVjWVR3NzNaVHZEVnVMLS1KUDk0MWYtd2Fqd1ZHdUpEVE1PUDhKTFRlMUFIbjJrdFRHd3d2b2V0dUxEQjdXREpDSVVqUWU5YzEya3pvYklUUkluanhyOGlTXzJHdURYUG96cy12SDZsc050a0tHSy03S1E?oc=5",
-      "source": "The Atlantic",
-      "publishedAt": "2026-09-16T19:47:49.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1802,6 +1884,17 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNU1BamVFcVJGTnR0OVk4MV9sTFFaYUZRV2lDdjJJSm5fWTVtT0JodnVSWHA1Y3ZwYWFNUVBSVjJZSlg0bl9yVnFxZmJIS2FCajIzenctdWY3TTZnSGhCWlhJOXRGd3ViMjQ0UjJNdkJJQ25TQ1dEdXRMQTVVSTJuY2hGTUpTNWt3ejBPdHBHOTA3WHNkdklCb215TlloZkhUdFNB?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-09-16T19:35:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "‘If you’re building Frankenstein, stop’: JD Vance dismisses calls for AI regulation - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOUU3a0YtdWVPbVZMOEJuM3dETXRIV1I5LXF2QWpmVy1EU0FZcDZ3ZlRUTzM2Vk0yMkVhSE9LeG85NDdwVEx0R2M0MDhYRVlqMXFneldVQUk0b1BiR1A4Zm00YlhPWlgzZXhRekdWck84dzNPSF8zN2RBWjBrNUQyenBIVGRwYjlYbkozTDNEOC1mVWc5M0FiN2xkeHQwR2d2VGkyMlR5cTk?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-16T19:19:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1850,102 +1943,6 @@
       "publishedAt": "2026-09-16T18:32:03.000Z",
       "kind": "news",
       "summary": "Bloomberg's Mike Shepard said President Trump's opposition to AI guardrails is another instance of his anti-regulation position across all industries, as well as his closeness with Nvidia CEO Jensen Huang who recently pushed back on fears about AI safety. Shepard said that President Trump is also looking to his meeting with China's President Xi and wants no obstacles around AI heading into that conversation. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Nagel Says Some Far-Right Policies Risk ‘Total Economic Ruin’",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/nagel-says-some-far-right-policies-risk-total-economic-ruin",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:30:15.000Z",
-      "kind": "news",
-      "summary": "Bundesbank President Joachim Nagel said proposals by some far-right parties in Europe would risk derailing their countries’ economies if they were enacted.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Hawkish Warsh Lifts Dollar as Traders Bet on More Rate Increases",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/dollar-jumps-after-fed-raises-rates-sends-hawkish-signal",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:28:26.000Z",
-      "kind": "news",
-      "summary": "The dollar notched its best day in three months on prospects that the Federal Reserve will continue to raise interest rates after Chairman Kevin Warsh delivered a stern message on inflation.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Indictment Alleges Russian Global Assassination Network",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/us-indictment-exposes-russian-global-assassination-network",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:20:01.000Z",
-      "kind": "news",
-      "summary": "Last year, a former military officer in the Russian intelligence services named Yuri Khrameev offered $25,000 to a US citizen to track and kill someone in Lithuania’s capital who was “telling lies about Russia,” according to US prosecutors.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Is 'Huge Factor' In Success of US Economy, Says Stephen Moore",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/ai-is-huge-factor-in-us-economy-says-stephen-moore-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:18:53.000Z",
-      "kind": "news",
-      "summary": "Stephen Moore, former senior economic adviser to President Donald Trump said that the AI industry is a 'huge factor' in the US economy given both the investment pouring into the space and the data center construction boom. Moore also discussed high oil and diesel prices, saying that as the price of energy rises so does 'everything else.' Despite high energy prices, Moore says he's bullish on the outlook for the US economy. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Sen. Blumenthal urges AI oversight: 'We're on the verge of losing control'",
-      "url": "https://www.cnbc.com/2026/09/16/blumenthal-ai-regulation-safety-oversight.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-16T18:18:09.000Z",
-      "kind": "news",
-      "summary": "The Trump administration argues that beating China in the race to AI dominance is an all-important goal.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bond Traders Signal Warsh Credibility Growing in Inflation Fight",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/treasuries-hold-gains-as-fed-hikes-rates-signaling-more-ahead",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:11:55.000Z",
-      "kind": "news",
-      "summary": "The bond market is signaling growing confidence that Federal Reserve Chairman Kevin Warsh will act on his vow to tame inflation, which has exceeded policymakers’ target for half a decade.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bain Capital Ventures Bets $1.6 Billion on AI’s Next Act",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/bain-capital-ventures-bets-1-6-billion-on-ai-s-next-act-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:06:23.000Z",
-      "kind": "news",
-      "summary": "Bain Capital Ventures has raised a $1.6 billion fund to back early-stage companies built for what it calls “life after AGI.” Partner Slater Stich discusses where the firm sees opportunities across AI infrastructure, software, robotics and science, why knowledge work could be transformed first, and how BCV identifies founders capable of building the next generation of category-defining AI companies. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta CEO Weighs In on AI Safety Debate",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/bloomberg-tech-9-16-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:01:54.000Z",
-      "kind": "news",
-      "summary": "Bloomberg’s Ed Ludlow breaks down Mark Zuckerberg's call for AI labs to rely on independent evaluators and advisers to ensure models are safe. Plus, OpenAI is said to be in early talks with investors about a new funding round that could value the ChatGPT maker at more than $1.2 trillion, and Impulse Space CEO Tom Mueller discusses the company's $308 million Series D extension and the future of the space mobility economy. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T02:32:04.658Z",
+  "generatedAt": "2026-09-16T03:02:18.477Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -70,7 +70,7 @@
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "46,805 followers",
+          "46,804 followers",
           "2 likes"
         ]
       },
@@ -92,7 +92,7 @@
         "score": 50,
         "trust": "medium",
         "reasons": [
-          "46,805 followers",
+          "46,804 followers",
           "3 likes"
         ]
       },
@@ -943,7 +943,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "OpenAI CFO Sarah Friar tells CNBC she isn't worried about slowing AI development",
@@ -952,6 +952,19 @@
       "publishedAt": "2026-09-16T00:12:29.000Z",
       "kind": "news",
       "summary": "Friar joined CNBC's Jim Cramer on \"Mad Money\" as the debate over technology's safety risks rages on.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "OpenAI strikes first news deal in Canada - Axios",
+      "url": "https://www.axios.com/2026/09/15/openai-canada-villager-media-news",
+      "source": "Axios",
+      "publishedAt": "2026-09-15T23:45:49.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -983,19 +996,6 @@
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "OpenAI strikes first news deal in Canada - Axios",
-      "url": "https://www.axios.com/2026/09/15/openai-canada-villager-media-news",
-      "source": "Axios",
-      "publishedAt": "2026-09-15T22:45:49.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
       ],
       "score": 65
     },
@@ -1096,9 +1096,9 @@
       "score": 65
     },
     {
-      "title": "'Fast Money' traders react to Nvidia CEO Jensen Huang addressing AI safety - CNBC",
+      "title": "'Fast Money' traders react to Nvidia CEO Jensen Huang addressing AI safety - cnbc.com",
       "url": "https://www.cnbc.com/video/2026/09/15/fast-money-traders-react-to-nvidia-ceo-jensen-huang-addressing-ai-safety.html",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "publishedAt": "2026-09-15T21:22:56.000Z",
       "kind": "news",
       "tier": 1,
@@ -1124,34 +1124,6 @@
       "summary": "At San Francisco conference Dario Amodei reiterates need for AI slowdown as Jensen Huang says argued against it"
     },
     {
-      "title": "AI networking startups race to replace Nvidia's NVLink - The Register",
-      "url": "https://www.theregister.com/systems/2026/09/15/ai-networking-startups-race-to-replace-nvidias-nvlink/5296672",
-      "source": "The Register",
-      "publishedAt": "2026-09-15T20:56:48.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Intel spin-off Cornelis and newcomer Delos Data pitch open alternatives for scaling AI beyond the rack"
-    },
-    {
-      "title": "Anthropic, OpenAI Safety Push Risks ‘Regulatory Wall’ for Rivals",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-15/anthropic-openai-safety-push-risks-regulatory-wall-for-rivals",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-15T20:36:16.000Z",
-      "kind": "news",
-      "summary": "A new push by top artificial intelligence firms to coordinate with one another and the US government on AI safeguards threatens to make it harder for smaller companies to compete in the lucrative market, according to startup executives and industry watchers.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
       "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says - TechCrunch",
       "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
       "source": "TechCrunch",
@@ -1166,9 +1138,37 @@
       "summary": "AI isn't some kind of new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker."
     },
     {
-      "title": "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce - CNBC",
+      "title": "AI networking startups race to replace Nvidia's NVLink - The Register",
+      "url": "https://www.theregister.com/systems/2026/09/15/ai-networking-startups-race-to-replace-nvidias-nvlink/5296672",
+      "source": "The Register",
+      "publishedAt": "2026-09-15T20:56:48.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Intel spin-off Cornelis and newcomer Delos Data pitch open alternatives for scaling AI beyond the rack"
+    },
+    {
+      "title": "Anthropic, OpenAI Safety Push Risks ‘Regulatory Wall’ for Rivals",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/anthropic-openai-safety-push-risks-regulatory-wall-for-rivals",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T20:36:16.000Z",
+      "kind": "news",
+      "summary": "A new push by top artificial intelligence firms to coordinate with one another and the US government on AI safeguards threatens to make it harder for smaller companies to compete in the lucrative market, according to startup executives and industry watchers.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce - cnbc.com",
       "url": "https://www.cnbc.com/2026/09/15/nvidia-and-anthropic-ceos-diverge-on-ai-safety-at-dreamforce.html",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "publishedAt": "2026-09-15T20:00:16.000Z",
       "kind": "news",
       "tier": 1,
@@ -1349,6 +1349,42 @@
   ],
   "general": [
     {
+      "title": "Bessent to Meet He Lifeng Ahead of Trump-Xi Summit",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-16/bessent-to-meet-he-lifeng-ahead-of-trump-xi-summit-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T02:41:03.000Z",
+      "kind": "news",
+      "summary": "Treasury Secretary Scott Bessent will meet with his Chinese counterpart, He Lifeng, ahead of a summit between President Donald Trump and Xi Jinping. Bloomberg's Stephen Engle has the latest. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Indian Bonds Feel the Heat From Global Yield Surge",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/indian-bonds-feel-the-heat-from-global-yield-surge",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T02:31:03.000Z",
+      "kind": "news",
+      "summary": "The RBI’s planned bond sales are likely to put more upward pressure on yields.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Copper Steadies Ahead of Fed Decision as Supply Concerns Ease",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/copper-steadies-ahead-of-fed-decision-as-supply-concerns-ease",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T02:29:19.000Z",
+      "kind": "news",
+      "summary": "Copper steadied as traders eyed rising inventories and loosening spreads ahead of the Federal Reserve’s decision later Wednesday on whether to raise interest rates.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Trump Has Few Good Options to Slow China’s Rise as AI Superpower",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/trump-has-few-good-options-to-slow-china-s-rise-as-ai-superpower",
       "source": "Bloomberg",
@@ -1358,7 +1394,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "HSBC, ICICI Propel India Finance Hub With FX Loans for Diaspora",
@@ -1466,7 +1502,7 @@
       "score": 50
     },
     {
-      "title": "Shrinking Chinese Fuel Inventories Raise Chance of Export Curbs",
+      "title": "Shrinking China Fuel Stockpiles Raise Chance of Export Curbs",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/shrinking-chinese-fuel-inventories-raise-chance-of-export-curbs",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T00:10:17.000Z",
@@ -1538,10 +1574,32 @@
       "score": 50
     },
     {
+      "title": "Siddhartha Mukherjee discusses AI and health at OU Presidential Speakers Series dinner - The University of Oklahoma",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN2FjeWczcThnTjF1XzlocUd1ZndETFVXWTBrTGxKU2Z3LUxJTXpIWU5nTURKSExNdk5QR2dzSzVFdjlXRFprQTB5VE9aLWI3ZThzTE81WVJWWkowUXQ0MWEtZG5PRnkxdUgtMzZkZHJkSDB3YndwdmtHY1VqNmRUcl9qS3VxSEs1WWhFUEFPM1JKakpHeDlF?oc=5",
+      "source": "The University of Oklahoma",
+      "publishedAt": "2026-09-15T23:45:45.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "The AI gold rush has a dress code: steel-toe boots - Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVjlfZkRua2pFLWNPYWRUUE1NU01NLVBIeEFpYWYwTVhBcmtGZ2xtdGpOblNIV2hhdU56cHFKOEJJWV8tSEljbXBpZ2N6SXdKWXE0akEySGNFeUVISmRoTHZQd3FyVXkyUzdETTdSVkM2NEswYVd3MklPYWJtaWdadjVMZ1lJTDFQUWlTaEtobEtjcFJxV1FybnVBclRPSTFpV2lEdkVtOA?oc=5",
       "source": "Reuters",
-      "publishedAt": "2026-09-15T23:41:02.000Z",
+      "publishedAt": "2026-09-15T23:37:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI and data centers are incredibly unpopular in every poll - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYTdkOFdFd0FtZ2FPU0cxUTZCZmstdjhYMlM0TlBOdjFRNE5XRUdaNEpPbmpVYWxCZEU0WXZMQnlvaXJuWEh0eks1N2I1bTcxWXlFVE43Sl9ISkZCYmk1X0xPcEJuRWZmY04xMU9zTE91UnlST2xXb0lEaXB3Q280cjBYMFdMNlQzU2RFaU5iV3VsTkU1YmUxYjdrOGFvdw?oc=5",
+      "source": "The Verge",
+      "publishedAt": "2026-09-15T23:34:25.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1607,12 +1665,12 @@
       "score": 50
     },
     {
-      "title": "Fed Seen Hiking Rates in Defiance of Trump: Decision-Day Guide",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-15/fed-seen-hiking-rates-in-defiance-of-trump-decision-day-guide",
+      "title": "Thai Finance Chief Sticks to 2.5% Growth Goal Despite Oil Surge",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/thai-finance-chief-sticks-to-2-5-growth-goal-despite-oil-surge",
       "source": "Bloomberg",
       "publishedAt": "2026-09-15T23:00:00.000Z",
       "kind": "news",
-      "summary": "The Federal Reserve is expected to lift interest rates on Wednesday for the first time since 2023 as policymakers lose confidence that inflation will cool sufficiently without at least a nudge from the central bank.",
+      "summary": "Thai Finance Minister Ekniti Nitithanprapas is sticking with the government’s forecast for 2.5% economic growth this year despite the surge in oil prices, betting that strong investment will help offset the drag from higher energy costs.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1631,12 +1689,24 @@
       "score": 50
     },
     {
-      "title": "US Coast Guard Boards Oil Tanker in Cyber Attack Investigation",
+      "title": "Fed Seen Hiking Rates in Defiance of Trump: Decision-Day Guide",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/fed-seen-hiking-rates-in-defiance-of-trump-decision-day-guide",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T23:00:00.000Z",
+      "kind": "news",
+      "summary": "The Federal Reserve is expected to lift interest rates on Wednesday for the first time since 2023 as policymakers lose confidence that inflation will cool sufficiently without at least a nudge from the central bank.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "US Coast Guard Boarded Oil Supertanker in Cyber Attack Probe",
       "url": "https://www.bloomberg.com/news/articles/2026-09-15/us-coast-guard-boards-oil-tanker-in-cyber-attack-investigation",
       "source": "Bloomberg",
       "publishedAt": "2026-09-15T22:50:41.000Z",
       "kind": "news",
-      "summary": "US military forces and FBI agents boarded a Texas-bound oil tanker to investigate a cyberattack, the Coast Guard confirmed late Tuesday.",
+      "summary": "US military forces and FBI agents boarded a Texas-bound oil tanker last month to investigate a cyberattack, the Coast Guard confirmed late Tuesday.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1712,17 +1782,6 @@
       "score": 50
     },
     {
-      "title": "Steve Bannon and Bernie Sanders Condemn Tech ‘Oligarchs’ and Demand A.I. Reforms - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1oRFFsUUQ5YkZTeVJCWTNfUzVzTWRKcGx6MlprWUk0dUV6R2JvZHZDNlRxbHBNQ2hvSHliUU9JNzd2Rmo2b3hHekJyVXpzQ2M2cVlIZm9pTFRVODItVlR2dno0NUVsdzllRHAxNlctby1GbXhKbnZHeEwwdWJuZw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-15T22:17:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Two camps have emerged in the debate over AI safety and regulation",
       "url": "https://www.cnbc.com/2026/09/15/ai-regulation-trump-nvidia-openai-anthropic.html",
       "source": "CNBC",
@@ -1735,23 +1794,23 @@
       "score": 50
     },
     {
-      "title": "Trump Calls Opposition to AI Data Centers a Mistake: Americans Disagree - The Santa Barbara Independent",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaE1qQ09zbXNpeDA1dVhwcXJhcFpOZ2Q1bjZzbzVKb2NrSVl1bXRUNTNJWVRwdXVUMHRqNTl0VWlWVHVQUGl2R1ZTSmpwc2oyanBkLVBzZHFTQkNGSTk1NUNuVUlnSzRpeEdGYUhoQTE3ZW9oSkZ4YS1KTEUwUVdWWTBpZGNfSlRLam90ZFpWaV9GUkU3bEVldmZPTmgyVl9nNmlaYWhyQ2FlTTNyMTFv?oc=5",
-      "source": "The Santa Barbara Independent",
-      "publishedAt": "2026-09-15T22:15:42.000Z",
+      "title": "Stocks, Bonds Hold Ground Before Fed; Oil Slips: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T22:11:24.000Z",
       "kind": "news",
+      "summary": "Stocks and bonds posted modest moves as investors held back ahead of the Federal Reserve’s interest-rate decision, with markets expecting its first hike since 2023. Oil’s rally paused.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "Asian Stocks Steady in Runup to Fed, Oil Declines: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-15T22:11:24.000Z",
+      "title": "Trump Advisers Meet With Anthropic Executive Over AI Safety - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcVJCd1JzOVZOSkZWSU5pYjZnZ1NRRWt2VW9LUmlOSXNuTW52X3RVZXRoVmlVQlM1QU5yNi1BQm41cnp2YTJUZ2Y1d3p2bUt0QWRuZlVEbHRHLUFQWDZqcmtWbHZhVDZnUTdUQ1hHYXdJWHN0Nm83cnlHSkJvQXVYMkZUZjRGY0t2QldvNzlES3A2UGdlaXJPM2d0VERvMmdPaXVzU1Z0RmtnXzg4eEdPdzdQaUdHR1dTSzdZV2lfOGFvTEFm?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-15T22:05:35.000Z",
       "kind": "news",
-      "summary": "Asian stocks steadied after four days of losses as investors held back ahead of the Federal Reserve’s interest-rate decision, with markets expecting its first hike since 2023. Oil declined, supporting gains in regional bonds.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1800,6 +1859,18 @@
       "publishedAt": "2026-09-15T21:51:08.000Z",
       "kind": "news",
       "summary": "Anthony Soohoo, CEO of MoneyGram, said the company was surprised by the Senate's failure to advance the Clarity Act, but emphasized that MoneyGram will keep moving forward and focus on what it can control. He said it is too early to tell whether the bill, or something like it, will pass soon, and noted that the company is reassessing the regulatory environment. He speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Sheinbaum Tax Change Eyes New Revenue But Businesses Fear Impact",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/sheinbaum-tax-change-eyes-new-revenue-but-businesses-fear-impact",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-15T21:47:00.000Z",
+      "kind": "news",
+      "summary": "Mexican President Claudia Sheinbaum is proposing sweeping changes to corporate income tax rules to raise as much as 140 billion pesos ($8.2 billion) next year, part of an effort to narrow the budget deficit but one that risks squeezing low-margin businesses.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1859,75 +1930,6 @@
       "publishedAt": "2026-09-15T21:12:07.000Z",
       "kind": "news",
       "summary": "Rick Pitcairn, chairman and chief global strategist at family office Pitcairn, said its his job to tap the breaks on wealthy clients who want to put too much of their money in 'shiny star' investments like SpaceX or private markets. Pitcairn said that there is a role for private credit and private markets, but it should be inside a diverse portfolio. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Fink Warns AI Pushback Will Make the Technology a Large-Firm Domain",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-15/fink-warns-ai-pushback-will-make-the-technology-a-large-firm-domain",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-15T20:59:35.000Z",
-      "kind": "news",
-      "summary": "Delays in the build-out of artificial intelligence because of public opposition will make the technology the “domain of large firms,” limiting access, BlackRock Inc. Chief Executive Officer Larry Fink warned.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Could AI really wipe out humanity – six experts spell out the risks - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOa3puUXRFSE5YY01MaFJkQkNjYXh3QkJKMWVUdUJmcHNaeHRxWm5Nd3AwZzRwVTMxa2Iya1ZyX0ozV0hoNEtyVjJzWnFoN1dKZ2JRaDl6Nk54ZmNwQlZFRmE4MVZWSGx5R0F5bUZqczJPSDhSd19OZXhTbHNoek5XRGVuUVN0MHVCdV82VUhNZmQzcmNralltaEpvUnZ6NmNhVldqaVFtdXZENWc5?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-15T20:55:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Retirement Math Difficult for Investors, says BlackRock's Magyera",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-15/anthropic-deepens-finance-industry-ties-with-blackrock-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-15T20:54:53.000Z",
-      "kind": "news",
-      "summary": "Jaime Magyera, BlackRock senior managing director and head of US Wealth and head of Retirement, said advisers are using artificial intelligence to help parse increasingly complex capital markets after AI company Anthropic announces new ties with Blackrock. Magyera also said that AI is helping create more strategic customization for clients. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "3 Resilient Artificial Intelligence (AI) Stocks That Did Well the Last Time the Fed Raised Interest Rates - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ2huOGRXd2RFX0JvbWVZVlQ3T1E2N1F1ekNYYmpNTTdLLTlLWEFsZnBNQXE4eTQzRHItc0NhTXQwRTNteXhFYkxoU3lHMlNhMF9CT2tKdkNjakYxTzVYTl83OHY5M2IwNHNLU1YySGRwVFM1M2h4VUljTkFCbXhVU2F2MFdqOHNNSzhZb3ZieHd1aklYWEZ2SUJ1OTlYd005NXVTWnNaSUotT0VCZkM2b3dsNnh0NFZpdkprWTAyeXJnNTN5dXh3aGZXSGlla1VGQlVLM2MwYTBCUGkxUjU4?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-15T20:51:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Exclusive | U.S. Pressures Mexico to Box Out China’s AI Hardware Exports - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa0pqM1hOWmNYN0NfZDl2SFBtdHI4TG44akZhN2pOZ2FidndwV2d3YUFSWFVpODhsTVMyVi1BdFV0NFZ4cUllRVJDRnV3V0tKVFNxbld5dmU2LVpQYVpaVzlRZG9IWS11bHN0Umc1NDRKdEN1elh4YUpJNmpDcE5aV2N3RlVLQk9TQlR0TGljLXhYcjFPMkFET2cwRlk3bV8xbUkw?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-15T20:47:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "BlackRock's Fink Says AI Buildout Delays Limit Access to the Tech for Everyone",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-15/fink-says-ai-buildout-delays-limit-access-to-tech-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-15T20:38:38.000Z",
-      "kind": "news",
-      "summary": "BlackRock Inc. Chief Executive Officer Larry Fink says delays in the buildout of artificial intelligence lead to limited access. He spoke at the Canada Investment Summit on Tuesday. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

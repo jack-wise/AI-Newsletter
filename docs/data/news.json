@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T21:02:41.137Z",
+  "generatedAt": "2026-09-16T21:32:09.434Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,6 +17,28 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
+      "title": "Fermi Beats Co-Founder Neugebauer’s Bylaw Change Emergency Fight",
+      "url": "https://www.reddit.com/r/FRMI/comments/1wiabsw/fermi_beats_cofounder_neugebauers_bylaw_change/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-09-16T21:24:06.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/itssbri",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Fermi Beats Co-Founder Neugebauer’s Bylaw Change Emergency Fight"
+    },
+    {
       "title": "$FRMI ok all clear sounded to trend back up to $10 thx",
       "url": "https://stocktwits.com/StockAuthority/message/664398802",
       "source": "@StockAuthority on StockTwits",
@@ -27,7 +49,7 @@
         "trust": "medium",
         "reasons": [
           "46,807 followers",
-          "3 likes"
+          "4 likes"
         ]
       },
       "tier": 2,
@@ -920,28 +942,6 @@
       "related": [],
       "score": 38,
       "summary": "[September 06, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "[September 05, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1w7q34f/september_05_2026_fermi_america_frmi_discussion/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-09-05T04:02:21.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "[September 05, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
@@ -974,6 +974,20 @@
       "score": 75
     },
     {
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? - TechCrunch",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-16T21:07:24.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65,
+      "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation."
+    },
+    {
       "title": "Anthropic, OpenAI proposed new 'neutral' AI watchdogs. Why you should worry about the idea",
       "url": "https://www.cnbc.com/2026/09/16/anthropic-open-ai-model-safety-risks.html",
       "source": "CNBC",
@@ -984,6 +998,19 @@
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Nvidia Stock Rises as Meta’s Zuckerberg Weighs In on AI Safety After Trump - barrons.com",
+      "url": "https://www.barrons.com/articles/nvidia-stock-price-trump-ai-meta-03fe5938",
+      "source": "barrons.com",
+      "publishedAt": "2026-09-16T18:33:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 65
     },
@@ -1057,18 +1084,31 @@
       "summary": "Dell Technologies has delivered incredible returns to investors in 2026, and it isn't done soaring yet."
     },
     {
-      "title": "OpenAI investors have approached the company about a new funding round",
-      "url": "https://www.cnbc.com/2026/09/16/open-ai-investors-new-funding-round.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-16T15:18:16.000Z",
+      "title": "OpenAI, Github Seal Win in Copyright Case Over AI Coding Tool - Bloomberg Law News",
+      "url": "https://news.bloomberglaw.com/us-law-week/openai-github-seal-win-in-copyright-case-over-ai-coding-tool",
+      "source": "Bloomberg Law News",
+      "publishedAt": "2026-09-16T17:03:00.000Z",
       "kind": "news",
-      "summary": "OpenAI is gearing up for what is widely expected to be a blockbuster IPO next year, after it confidentially filed its prospectus in June.",
       "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 65
+      "score": 65,
+      "summary": "OpenAI Inc. and Microsoft Corp.‘s Github fully defeated a copyright lawsuit Wednesday after a federal appeals court ruled that open-source programmers can’t proceed with claims that the AI coding tool Copilot failed to provide proper attributions when outputting code."
+    },
+    {
+      "title": "Real World Analysis of Ideal AI Workloads for NVIDIA Vera on OCI - blogs.oracle.com",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/ai-workloads-for-nvidia-vera-on-oci",
+      "source": "blogs.oracle.com",
+      "publishedAt": "2026-09-16T21:00:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     },
     {
       "title": "Copyright Lawsuit Against OpenAI and Microsoft Grows to More Than 550 Publications - Insider NJ",
@@ -1086,9 +1126,9 @@
       "summary": "Platkin LLP now represents 60 publishers across the country suing Open AI , Microsoft Represented by Platkin LLP, publishers argue OpenAI and Microsoft systematically and willfully stole copyrighted news articles without permission or compensation A new group of 26 local, regional and specialty publishers joined a landmark copyright lawsuit against OpenAI and Microsoft Wednesday, alleging[...]"
     },
     {
-      "title": "Nvidia Gains 1.4% as Flexible Power Targets AI's Grid Bottleneck - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-gains-1-4-flexible-204159381.html",
-      "source": "Yahoo Finance",
+      "title": "Nvidia Gains 1.4% as Flexible Power Targets AI's Grid Bottleneck - TradingView",
+      "url": "https://www.tradingview.com/news/gurufocus:19b3809ec094b:0-nvidia-gains-1-4-as-flexible-power-targets-ai-s-grid-bottleneck/",
+      "source": "TradingView",
       "publishedAt": "2026-09-16T20:41:59.000Z",
       "kind": "news",
       "tier": 3,
@@ -1096,46 +1136,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 55
-    },
-    {
-      "title": "Apple may build AI servers with its own chips and Nvidia networking - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-may-build-ai-servers-202139274.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-16T20:21:39.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Apple Talks to Nvidia About NVLink for Its Own AI Server - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/apple-talks-nvidia-nvlink-own-202058186.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-16T20:20:58.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Real World Analysis of Ideal AI Workloads for NVIDIA Vera on OCI - Oracle Blogs",
-      "url": "https://blogs.oracle.com/cloud-infrastructure/ai-workloads-for-nvidia-vera-on-oci",
-      "source": "Oracle Blogs",
-      "publishedAt": "2026-09-16T20:13:26.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
+      "score": 55,
+      "summary": "Nvidia NASDAQ:NVDA, the AI-accelerator and data-center platform leader, launched the AI Energy Management Alliance with Google and Emerald AI on Wednesday, putting one of AI's biggest physical bottleneckselectricitysquarely in its sights. Nvidia shares gained approximately 0.9% to $214.08. The init…"
     },
     {
       "title": "Nvidia’s AI Boom Hits Its Next Challenge: Power - NVIDIA (NASDAQ:NVDA) - Benzinga",
@@ -1151,12 +1153,12 @@
       "score": 55
     },
     {
-      "title": "OpenAI Weighs Funding Round at $1.2 Trillion Valuation",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/openai-weighs-funding-round-at-1-2trillion-valuation-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T14:46:33.000Z",
+      "title": "OpenAI investors have approached the company about a new funding round",
+      "url": "https://www.cnbc.com/2026/09/16/open-ai-investors-new-funding-round.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-16T15:18:16.000Z",
       "kind": "news",
-      "summary": "OpenAI is holding early talks with investors about a fresh funding round that would value the company at more than $1.2 trillion ahead of an initial public offering. Michelle Davis reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "summary": "OpenAI is gearing up for what is widely expected to be a blockbuster IPO next year, after it confidentially filed its prospectus in June.",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1165,9 +1167,9 @@
       "score": 55
     },
     {
-      "title": "Exclusive: Microsoft AI chief blasts Anthropic's notion of AI consciousness - Axios",
+      "title": "Exclusive: Microsoft AI chief blasts Anthropic's notion of AI consciousness - axios.com",
       "url": "https://www.axios.com/2026/09/16/microsoft-ai-chief-anthropic-consciousness",
-      "source": "Axios",
+      "source": "axios.com",
       "publishedAt": "2026-09-16T14:40:02.000Z",
       "kind": "news",
       "tier": 1,
@@ -1216,6 +1218,19 @@
       ],
       "score": 55,
       "summary": "ChatGPT maker OpenAI may be looking at Canada for data centre partnerships. This comes after putting its Stargate UK project on hold earlier this year."
+    },
+    {
+      "title": "Why OpenAI’s $1.2 Trillion Valuation Can Lift Oracle, CoreWeave From AI Gloom - barrons.com",
+      "url": "https://www.barrons.com/articles/oracle-stock-price-coreweave-ai-openai-valuation-701079d9",
+      "source": "barrons.com",
+      "publishedAt": "2026-09-16T13:26:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Global Technology Pioneers Emerald AI, Google, and NVIDIA Launch the AI Energy Management Alliance to Advance Flexible AI Data Centers - Business Wire",
@@ -1315,36 +1330,21 @@
       "score": 55
     },
     {
-      "title": "OpenAI Says It’s Working With Anthropic, Google on AI Safety - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-says-it-s-working-with-anthropic-google-on-ai-safety",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-15T21:15:03.000Z",
+      "title": "Apple Talks to Nvidia About NVLink for Its Own AI Server - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-talks-nvidia-nvlink-own-202058186.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-16T20:20:58.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI",
-        "GOOGL"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Anthropic CEO renews call for AI slowdown as Nvidia’s urges acceleration - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/sep/15/anthropic-nvidia-ceos-ai",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-15T21:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55,
-      "summary": "At San Francisco conference Dario Amodei reiterates need for AI slowdown as Jensen Huang says argued against it"
+      "score": 45
     },
     {
       "title": "Effingham County residents resist OpenAI data center by directing traffic flows to a website - Georgia Public Broadcasting",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVXNMQlNnRjZISG11WjRjanplYVM1R3NDbEtUcXJWeVk2aU5HVDBKUGpFTDVMUDZDdko1elZwNnlsS2tvQVVnbm9oOFljZWdxLXhUQlBTbmMzN1hNT2lmU1VFUVFOWUVkNWNtM015RTdveHVrbDhpNEtXQ2Frb3d6U2YzTVZPN18xX2dLRV9VR3dFVUR3ZFFNSXZfcG42M0txWlRtVGlXOTFVelNST0ZDb2VPM280dw?oc=5",
+      "url": "https://www.gpb.org/news/2026/09/16/effingham-county-residents-resist-openai-data-center-by-directing-traffic-flows",
       "source": "Georgia Public Broadcasting",
       "publishedAt": "2026-09-16T19:59:00.000Z",
       "kind": "news",
@@ -1353,10 +1353,69 @@
       "related": [
         "OpenAI"
       ],
-      "score": 45
+      "score": 45,
+      "summary": "A citizen-led nonprofit aims to guide traffic flows towards a website that one volunteer describes as \"an effort to provide truthful information around Project Camellia.\""
     }
   ],
   "general": [
+    {
+      "title": "Amazon obtains right to buy stock in Generac, boosting power company's share price by over 40%",
+      "url": "https://www.cnbc.com/2026/09/16/amazon-obtains-right-to-buy-up-to-340m-of-generac-boosting-stock-.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-16T21:26:51.000Z",
+      "kind": "news",
+      "summary": "Amazon was granted warrants to buy up to $340 million worth of Generac stock as part of a deal to supply backup power generators for its data centers.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "U.S. Catholic bishops meet with AI firms about ‘catastrophic’ risk - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRTYyRlZ0RkV1Z0Z0RGJzUG94VExQc1FJQnBxTm1JMDBPTjAzQWlIS0lDd1hKOG95R0lFQ3pvaW9QMXotSmZUNFJFR1gtWjBNeERCdGJvR25JbmFFTnFJV1liVnVPZklrTzZrU1R5MEhQWHZHLWVPbXdiWWFhQXBvV1hCVUpYSE5DcldWMzVNWWExczVQRUZjNW1XdUZfZDEzSVJoV1BtbHUxbTQxc2FOSm1Rc2U?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-16T21:23:20.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "DoubleLine’s Shinoda: I Think the 10-Year Goes Higher",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-16/doubleline-s-shinoda-i-think-the-10-year-goes-higher-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T21:19:26.000Z",
+      "kind": "news",
+      "summary": "Ken Shinoda of DoubleLine Capital said the Fed’s unanimous rate hike was largely in line with market expectations, noting that traders had already priced in a better-than-90% chance of a move. He pointed to the reaction in Treasuries as evidence that the market believes more tightening may still be needed, with the 10-year yield slightly higher on the day and the long bond giving back some of its initial rally. He speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US Plan to Boost Biofuel Exports Targets Restrictions Abroad",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/us-plan-to-boost-biofuel-exports-targets-restrictions-abroad",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T20:49:00.000Z",
+      "kind": "news",
+      "summary": "The Trump administration, following up on its efforts to boost domestic biofuels production, is taking the next step to help the industry: targeting policies abroad that limit uptake of fuels made from US crops.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "There's one issue where Republicans and Democrats are unified before the midterms, a new poll finds - AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRuY2Jucy1oTW9YNF9ZaXEybXMtMENxZGQ3Y3ItU2JSTW5DNlJ5VzV4S0Fua2EzZ1dKLWtTS3JTQjdUaEozNGQ1U2E3cnpzSzllaE1oaVlIZW9rT1dMM1AtR2RyWFBqdjdWTk8tcmw4VVk1TmM3TUxYelV3bURteGwzX2tRSDFodC1kYURZeFVJaEFPbUV0QktQdUxDR2wteXo1NQ?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-09-16T20:42:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Bloomberg Deals 9/16/2026",
       "url": "https://www.bloomberg.com/news/videos/2026-09-16/bloomberg-deals-9-16-2026-video",
@@ -1367,7 +1426,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Foreign Holdings of US Treasuries Fell to Nine-Month Low in July",
@@ -1379,7 +1438,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Market Repricing Fed Expectations, BlackRock's Rosenberg Says",
@@ -1391,7 +1450,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Drone Startup Zipline in Talks on About $1 Billion Raise at $20 Billion Valuation",
@@ -1403,7 +1462,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Warsh Gets a Credibility Boost",
@@ -1415,7 +1474,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Canadian M&A Sentiment Amid Trade War",
@@ -1427,7 +1486,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "J.B. Hunt stock plunges 13% after company warns third-quarter earnings will fall",
@@ -1572,6 +1631,17 @@
       "score": 50
     },
     {
+      "title": "‘If you’re building Frankenstein, stop’: JD Vance dismisses calls for AI regulation - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOUU3a0YtdWVPbVZMOEJuM3dETXRIV1I5LXF2QWpmVy1EU0FZcDZ3ZlRUTzM2Vk0yMkVhSE9LeG85NDdwVEx0R2M0MDhYRVlqMXFneldVQUk0b1BiR1A4Zm00YlhPWlgzZXhRekdWck84dzNPSF8zN2RBWjBrNUQyenBIVGRwYjlYbkozTDNEOC1mVWc5M0FiN2xkeHQwR2d2VGkyMlR5cTk?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-16T19:19:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Warsh Says Fed Rate Hike Is a Commitment to Price Stability",
       "url": "https://www.bloomberg.com/news/videos/2026-09-16/warsh-says-fed-hike-is-a-commitment-to-price-stability-video",
       "source": "Bloomberg",
@@ -1596,32 +1666,10 @@
       "score": 50
     },
     {
-      "title": "Why existential AI fears have hit a crescendo - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT21iaUNTeVlmYWk1Sm5xRGd2cmwtYVBLeWprT2hSV2ZrN2dFeDIzOGNCTzVqQUlaV0VCTy1pRTYtSWhTUG9oSEtvSlNGbHBvd2FzRGVBMUZORTF1X3AydmxwSWpiZFFwQmd1OWVMTDNoa3pMNFJnZW8ybUdEY0FKd1RXa2dzZ2ZYLXdCNVdvSzdVWEE4N3NYd3NaSnc5VjE1eWFORHh3UWE3TG1wXzVrT3FHUF8zUVRNX3V2T1ZSVFA1NjQ?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-16T19:00:01.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Trump adviser Sacks says AI fears driven by 'fear-mongering playbook' - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQemEtc1lCaUxzdHhLbzkyQ3JDeUR2ZzJza2ZIX1pQWEJWN2I4b2hvRXpmcmNSZTZucGhVN2Vlek1GRXU0dV93YUJHQmo3WmMzOUVZSWhvbU1zN2EzWVlkSEVwcGlfV2tFYlBfTVZUSW5BUGdiNWQyTVB1b1VjTVYxM2o2cUZfOEFicDJRVGxfT3N6WnpYcUo0cEluYTNac2NqRTk2Q0xPTVNQQ2g2czQxeDN0Zm5xeHY0ektFZQ?oc=5",
       "source": "Reuters",
       "publishedAt": "2026-09-16T18:52:20.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Artificial intelligence now beats some of the best human forecasters - The Economist",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOVE2WlNjSlVyUjdJZzRYT1ZTSlI1cWFHdHJYcHhMNnREaXYzRzhINE8xWHZIZmh2TTFaOGllS0lTVU5sNDctUzhuOXpNQi1BbjBwalduUkE3SllUbEp3ZTFveEVZajZwOGRSVXhDaS02bnVCMkM3OWdBZTd5STl4a2dBbjNidGhpSlQ1OXlCanZRaXpoay02TU45cXk5b2c5dndkQnRCVHdCbUxvV1ljTkNtMmY4aDFnUEFHNm5iMGdhWjB4SHNR?oc=5",
-      "source": "The Economist",
-      "publishedAt": "2026-09-16T18:47:08.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1665,6 +1713,17 @@
       "score": 50
     },
     {
+      "title": "Critics Warn of AI-Driven Disaster. Anthropic and Novo Are Betting on the Opposite. - barrons.com",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5mR19UQ0xNQ0VlX0h2ZFBBWnpWMUhuUlNHWnZlSlRiUEs4RWtTd1NFVzNsME54OWZGTHdUSWxIQlhVV3BHNzBFNnh1clNPMzlsNThfU08tc29jd0xWYjRxTUc2cTRlVnVvektoN2V0YWZGMEtv?oc=5",
+      "source": "barrons.com",
+      "publishedAt": "2026-09-16T18:27:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "AI Is 'Huge Factor' In Success of US Economy, Says Stephen Moore",
       "url": "https://www.bloomberg.com/news/videos/2026-09-16/ai-is-huge-factor-in-us-economy-says-stephen-moore-video",
       "source": "Bloomberg",
@@ -1689,7 +1748,7 @@
       "score": 50
     },
     {
-      "title": "Bond Traders Signal Warsh Crediblity Growing in Inflation Fight",
+      "title": "Bond Traders Signal Warsh Credibility Growing in Inflation Fight",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/treasuries-hold-gains-as-fed-hikes-rates-signaling-more-ahead",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T18:11:55.000Z",
@@ -1737,7 +1796,7 @@
       "score": 50
     },
     {
-      "title": "Fed Raises Rates as Warsh Bucks Trump to Contain Inflation",
+      "title": "Fed Raises Rates to Curb Inflation, Drawing Rebuke From Trump",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/fed-raises-rates-as-warsh-bucks-trump-to-contain-inflation",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T18:00:01.000Z",
@@ -1755,17 +1814,6 @@
       "publishedAt": "2026-09-16T18:00:01.000Z",
       "kind": "news",
       "summary": "Here are key takeaways from the Federal Reserve’s interest-rate decision on Wednesday:",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bessent says US open to discussing shared AI risks with China, Axios reports - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSTFILXRFaGlfMUdtb00tRVhOUTNKb0RTYVNZOE1yX0RIakRIakM4MXpJN2sySzBaTjR1ZWJnLTZ6YTJWeXVqYllDOVllYnZNdDlIeXN6MHVVc1pFYUdPRmxVNmRNYV92Umd6amNFekFpU1NjSmt5WWx6blY0cnBBS2N6TFd1R2tkRmlCU1lmWWVidTktdWZrNUNETk5pMm1RZkNRTEstZlhmM2xtMmlNZnFTb1ZWM1N5Z3BWcg?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T17:54:01.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1802,6 +1850,17 @@
       "publishedAt": "2026-09-16T17:34:08.000Z",
       "kind": "news",
       "summary": "President Donald Trump's AI-friendly administration argues U.S. dominance over China in the fast-expanding industry is essential.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Mark Zuckerberg Takes Aim at Anthropic in Debate Over A.I. Slowdown - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbDdJR2JuaHlmNmNBV3BFUDN1WVh6amQzM0VnWUcwLUl5MVFzaUJDMlBSQkNEeUhSSG1ZcjIya21VSWh5TXQ4dll4X0pHRE1BeUl3V3dydTctWEtRU0ZYQmE4V3BkcVM4VHV6MzdKVy1mNWE0WUtidXRubkFLZmxIRVFKblBEZ3NwczBLQ1habw?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-16T17:22:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1881,62 +1940,6 @@
       "url": "https://www.bloomberg.com/news/live-blog/2026-09-16/fed-rate-decision-live-coverage-warsh-speaks-at-news-conference",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T16:38:54.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "There's one issue where Republicans and Democrats are unified before the midterms, a new poll finds - AP News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRuY2Jucy1oTW9YNF9ZaXEybXMtMENxZGQ3Y3ItU2JSTW5DNlJ5VzV4S0Fua2EzZ1dKLWtTS3JTQjdUaEozNGQ1U2E3cnpzSzllaE1oaVlIZW9rT1dMM1AtR2RyWFBqdjdWTk8tcmw4VVk1TmM3TUxYelV3bURteGwzX2tRSDFodC1kYURZeFVJaEFPbUV0QktQdUxDR2wteXo1NQ?oc=5",
-      "source": "AP News",
-      "publishedAt": "2026-09-16T16:28:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Novo Nordisk Will Use Anthropic’s Claude for Drug Research - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNDByMU5QYk8zV1dFZ183Rmlocm9QS0dURE9HdXhiRjFwYXJuOXlZTnhXNjh1aWMwQzJoX3BFNk9GcllUZ01pUy1FYzJTMzNPVGRIdGZzV0RRa0FKakxXV3lBdnRVUEhnOE11YUpxdHJJcFByUEcxZ25EYVB3MlZkcnB0X1Q1b1JGWEJGNkloa3NnMHFtN05JZmJIUlhQSDh5YkRIVjRaM24?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-16T16:19:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Amazon's AI Bet Is Paying Off in Revenues: Why Isn't FCF Following? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNGpKU2ZVZTVLZ0xVMTBWWjFudVpfWXN6R1lyR2VsUHdUYktFZTA3eE9oY0QtNnkxX0hmZERIcEExdW40TWVrb2VvNDJab1MtYTZnOEN6UTVsUFVOSDVDVmZReWpZc2xieHg0b3VwUkg4Nll4UHEwbWxtLTFrU3ZPdjVOUDZkVUJGdVpvUUVxb0VnYkkzOHJRb09sT2xYMF9qRERsOFgtelVoTFhXdEljNE9FV3RXSm1LLUlnTkwyS2V5VEtIV3NSXzRsLWtDeEVpOGlNN1Y4cTJHTnhuU0p1YUtR?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-09-16T16:04:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Wedding Planning Site The Knot Sees Freshly Refinanced Loan Dive",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/wedding-planning-site-the-knot-sees-freshly-refinanced-loan-dive",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T16:03:47.000Z",
-      "kind": "news",
-      "summary": "Wedding planning platform The Knot Worldwide has seen the price of a loan it refinanced just last month plunge to deeply distressed levels.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "What CEOs Really Think About the AI Apocalypse Threat - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYVh4UV84NExWeXVFaDZ3VDFBUndjem1MVzVTVHdTaV9UblRPQzNqR2ZRNzAxR2xybDJhTXdfUThURW5lTld4empRRTdBX2s5d042SWhVbkplWDdVRGRseTktaFlOb3lIWjlQNzlJSERTcjk4M2E0Z3NSWWtTQkY2SERWSjlaaGdKNXp4elNjd3B2N3lM?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-16T15:56:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

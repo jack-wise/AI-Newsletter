@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T00:02:38.287Z",
+  "generatedAt": "2026-09-17T00:27:08.159Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,28 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "$FRMI ok all clear sounded to trend back up to $10 thx",
-      "url": "https://stocktwits.com/StockAuthority/message/664398802",
-      "source": "@StockAuthority on StockTwits",
-      "publishedAt": "2026-09-16T18:07:19.000Z",
-      "kind": "social",
-      "credibility": {
-        "score": 50,
-        "trust": "medium",
-        "reasons": [
-          "46,807 followers",
-          "4 likes"
-        ]
-      },
-      "tier": 2,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 70,
-      "summary": "$FRMI ok all clear sounded to trend back up to $10 thx"
-    },
     {
       "title": "Fermi Beats Co-Founder Neugebauer’s Bylaw Change Emergency Fight",
       "url": "https://www.reddit.com/r/FRMI/comments/1wiabsw/fermi_beats_cofounder_neugebauers_bylaw_change/",
@@ -59,6 +37,28 @@
       "related": [],
       "score": 68,
       "summary": "Fermi Beats Co-Founder Neugebauer’s Bylaw Change Emergency Fight"
+    },
+    {
+      "title": "$FRMI ok all clear sounded to trend back up to $10 thx",
+      "url": "https://stocktwits.com/StockAuthority/message/664398802",
+      "source": "@StockAuthority on StockTwits",
+      "publishedAt": "2026-09-16T18:07:19.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "46,809 followers",
+          "4 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 60,
+      "summary": "$FRMI ok all clear sounded to trend back up to $10 thx"
     },
     {
       "title": "First Siemens Turbine Is Here!!",
@@ -946,17 +946,31 @@
   ],
   "related": [
     {
-      "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses - Reuters",
-      "url": "https://www.reuters.com/business/snap-targets-enterprises-with-salesforce-nvidia-ai-tools-augmented-reality-2026-09-16/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T23:52:50.000Z",
+      "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-17T00:12:24.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses - The Lufkin Daily News",
+      "url": "https://lufkindailynews.com/news_reuters/business/snap-targets-enterprises-with-salesforce-nvidia-ai-tools-for-augmented-reality-glasses/article_e4545cd7-cdb2-5281-b1b2-85eb37d7e41d.html",
+      "source": "The Lufkin Daily News",
+      "publishedAt": "2026-09-16T23:45:12.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 75,
+      "summary": "Sept 16 (Reuters) - Snap on Wednesday announced partnerships with companies including Salesforce, Nvidia and Amazon Web Services to integrate workplace tools into its Specs augmented-reality glasses,"
     },
     {
       "title": "Snap tries to bring AR glasses to enterprise market, partnering with Nvidia, AWS and Salesforce",
@@ -985,7 +999,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Huawei Set to Unveil China’s Best Answer to Nvidia AI Chip Reign",
@@ -1002,9 +1016,9 @@
       "score": 65
     },
     {
-      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - Bloomberg.com",
+      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/openai-reports-new-ai-safety-incidents-sets-disclosure-process",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "publishedAt": "2026-09-16T22:47:29.000Z",
       "kind": "news",
       "tier": 1,
@@ -1021,19 +1035,6 @@
       "publishedAt": "2026-09-16T22:47:29.000Z",
       "kind": "news",
       "summary": "OpenAI shared several undisclosed incidents of its artificial intelligence models misbehaving, and unveiled a new framework for how it plans to track and disclose such occurrences going forward.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "OpenAI plans regular reports on unexpected AI behavior - Reuters",
-      "url": "https://www.reuters.com/technology/openai-releases-framework-track-model-misalignment-2026-09-16/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T22:44:42.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1112,47 +1113,6 @@
       "score": 65
     },
     {
-      "title": "OpenAI, Anthropic and SpaceXAI leaders back calls to slow AI development - The American Bazaar",
-      "url": "https://americanbazaaronline.com/2026/09/16/openai-anthropic-and-spacexai-leaders-back-calls-to-slow-ai-development/",
-      "source": "The American Bazaar",
-      "publishedAt": "2026-09-16T18:26:51.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "AI leaders including Dario Amodei and Sam Altman are backing calls to slow AI development as safety and competition concerns grow."
-    },
-    {
-      "title": "Microsoft AI chief calls out Anthropic's approach to AI consciousness - Reuters",
-      "url": "https://www.reuters.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-2026-09-16/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T18:21:45.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 65
-    },
-    {
-      "title": "OpenAI, Anthropic Safety Talks Stir Startup Concerns",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/openai-anthropic-safety-talks-stir-startup-concerns-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T18:04:15.000Z",
-      "kind": "news",
-      "summary": "AI startups are growing concerned that calls from Anthropic and OpenAI to “pace” frontier development could lead to a new regulatory framework shaped by the industry’s biggest players. Bloomberg’s Natasha Mascarenhas and Maggie Eastland discuss the reaction from founders and investors and early talks among OpenAI, Anthropic and Google DeepMind on common safety standards. Also being debated in Washington is if those efforts require government involvement or changes to antitrus",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
       "title": "OpenAI Tests Sponsored AI Agents in ChatGPT Ads - PYMNTS.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-tests-sponsored-ai-agents-in-chatgpt-ads/",
       "source": "PYMNTS.com",
@@ -1167,23 +1127,9 @@
       "summary": "OpenAI is testing business-sponsored artificial intelligence agents that will have conversations with people who click on an ad in ChatGPT, the company"
     },
     {
-      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation | NVIDIA Technical Blog - NVIDIA Developer",
-      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
-      "source": "NVIDIA Developer",
-      "publishedAt": "2026-09-16T23:23:05.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties…"
-    },
-    {
-      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? - TechCrunch",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? - techcrunch.com",
       "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-      "source": "TechCrunch",
+      "source": "techcrunch.com",
       "publishedAt": "2026-09-16T21:07:24.000Z",
       "kind": "news",
       "tier": 2,
@@ -1193,6 +1139,47 @@
       ],
       "score": 55,
       "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation."
+    },
+    {
+      "title": "OpenAI, Anthropic and SpaceXAI leaders back calls to slow AI development - The American Bazaar",
+      "url": "https://americanbazaaronline.com/2026/09/16/openai-anthropic-and-spacexai-leaders-back-calls-to-slow-ai-development/",
+      "source": "The American Bazaar",
+      "publishedAt": "2026-09-16T18:26:51.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "AI leaders including Dario Amodei and Sam Altman are backing calls to slow AI development as safety and competition concerns grow."
+    },
+    {
+      "title": "Microsoft AI chief calls out Anthropic's approach to AI consciousness - Reuters",
+      "url": "https://www.reuters.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-2026-09-16/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-16T18:21:45.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55
+    },
+    {
+      "title": "OpenAI, Anthropic Safety Talks Stir Startup Concerns",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-16/openai-anthropic-safety-talks-stir-startup-concerns-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T18:04:15.000Z",
+      "kind": "news",
+      "summary": "AI startups are growing concerned that calls from Anthropic and OpenAI to “pace” frontier development could lead to a new regulatory framework shaped by the industry’s biggest players. Bloomberg’s Natasha Mascarenhas and Maggie Eastland discuss the reaction from founders and investors and early talks among OpenAI, Anthropic and Google DeepMind on common safety standards. Also being debated in Washington is if those efforts require government involvement or changes to antitrus",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Prediction: Dell's AI Server Backlog Makes It a Sneaky Way to Play the Nvidia Supercycle - The Motley Fool",
@@ -1262,9 +1249,9 @@
       "score": 55
     },
     {
-      "title": "Microsoft AI Chief Warns Anthropic’s Humanlike Claude Is Risky - Bloomberg.com",
+      "title": "Microsoft AI Chief Warns Anthropic’s Humanlike Claude Is Risky - bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/microsoft-ai-chief-warns-anthropic-s-humanlike-claude-is-risky",
-      "source": "Bloomberg.com",
+      "source": "bloomberg.com",
       "publishedAt": "2026-09-16T14:08:07.000Z",
       "kind": "news",
       "tier": 1,
@@ -1344,21 +1331,93 @@
       "score": 55
     },
     {
-      "title": "OpenAI CFO Sarah Friar tells CNBC she isn't worried about slowing AI development",
-      "url": "https://www.cnbc.com/2026/09/15/open-ai-sarah-friar-safety.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-16T00:12:29.000Z",
+      "title": "Safety push sparks infighting at OpenAI, Anthropic - AFR",
+      "url": "https://www.afr.com/world/north-america/ai-safety-push-sparks-infighting-at-openai-anthropic-20260917-p60y2c",
+      "source": "AFR",
+      "publishedAt": "2026-09-16T23:26:00.000Z",
       "kind": "news",
-      "summary": "Friar joined CNBC's Jim Cramer on \"Mad Money\" as the debate over technology's safety risks rages on.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 55
+      "score": 45,
+      "summary": "Staff at the Silicon Valley companies are baulking at suggestions from their bosses that outsiders evaluate their AI work as part of the slowdown."
+    },
+    {
+      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation | NVIDIA Technical Blog - NVIDIA Developer",
+      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+      "source": "NVIDIA Developer",
+      "publishedAt": "2026-09-16T23:23:05.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties…"
     }
   ],
   "general": [
+    {
+      "title": "U.S. Catholic bishops meet with AI firms about ‘catastrophic’ risk - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRTYyRlZ0RkV1Z0Z0RGJzUG94VExQc1FJQnBxTm1JMDBPTjAzQWlIS0lDd1hKOG95R0lFQ3pvaW9QMXotSmZUNFJFR1gtWjBNeERCdGJvR25JbmFFTnFJV1liVnVPZklrTzZrU1R5MEhQWHZHLWVPbXdiWWFhQXBvV1hCVUpYSE5DcldWMzVNWWExczVQRUZjNW1XdUZfZDEzSVJoV1BtbHUxbTQxc2FOSm1Rc2U?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-17T00:09:02.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Malaysia’s Battered Bonds Face Growing Risk of Japan Fund Exodus",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/malaysia-s-battered-bonds-face-growing-risk-of-japan-fund-exodus",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T00:07:15.000Z",
+      "kind": "news",
+      "summary": "Malaysia’s struggling bond market may see an outflow of Japanese capital as its yield premium shrinks.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "BOJ Faces Higher Bar to Support Yen After Fed’s Hawkish Hike",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/boj-faces-higher-bar-to-support-yen-after-fed-s-hawkish-hike",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T00:01:56.000Z",
+      "kind": "news",
+      "summary": "The yen’s sharp drop after the Federal Reserve’s hawkish hike is raising the stakes for the Bank of Japan’s policy meeting Friday, with strategists warning the currency could weaken further unless officials convince markets that more tightening is coming.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "How, Exactly, Could A.I. Kill Us? - The New Yorker",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wWW1jUW9MSXJLTlNXRzlhN05FM0FKU0ZPbmpoZjNFR1NUMmZ4R2w5UU5mOWhpSTdLbEY1dUxuUFM3Zzl4UkI4aHdOa3JDLThXTjZqeDVpQ01sdXpRNXRqQmtyWG1QcllfUFNPOThDOG45SDBQWGc?oc=5",
+      "source": "The New Yorker",
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Gold Holds Decline After Fed Tilts Hawkish and Raises Rates",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/gold-holds-decline-after-fed-tilts-hawkish-and-raises-rates",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-16T23:54:12.000Z",
+      "kind": "news",
+      "summary": "Gold held a decline after the Federal Reserve raised interest rates for the first time in three years and signaled another hike was likely before year-end.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Snap Makes Its Case for Wearing A Computer On Your Face",
       "url": "https://www.bloomberg.com/news/videos/2026-09-16/snap-makes-its-case-for-wearing-a-computer-on-your-face",
@@ -1438,7 +1497,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Hong Kong Follows Fed With First Rate Hike in Over Three Years",
@@ -1450,7 +1509,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Asia Risks Unrest as El Niño, War Threaten Food Supplies, Consultancy Says",
@@ -1559,17 +1618,6 @@
       "score": 50
     },
     {
-      "title": "U.S. Catholic bishops meet with AI firms about ‘catastrophic’ risk - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRTYyRlZ0RkV1Z0Z0RGJzUG94VExQc1FJQnBxTm1JMDBPTjAzQWlIS0lDd1hKOG95R0lFQ3pvaW9QMXotSmZUNFJFR1gtWjBNeERCdGJvR25JbmFFTnFJV1liVnVPZklrTzZrU1R5MEhQWHZHLWVPbXdiWWFhQXBvV1hCVUpYSE5DcldWMzVNWWExczVQRUZjNW1XdUZfZDEzSVJoV1BtbHUxbTQxc2FOSm1Rc2U?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-16T22:45:42.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Fed’s Warsh Heeds Own Advice With Record Short Press Conference",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/fed-s-warsh-heeds-own-advice-with-record-short-press-conference",
       "source": "Bloomberg",
@@ -1617,12 +1665,12 @@
       "score": 50
     },
     {
-      "title": "Nuclear Services Firm Holtec Is Said to Suspend US IPO Plan",
+      "title": "Nuclear Power Services Firm Holtec Postpones Planned US IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/nuclear-services-firm-holtec-is-said-to-suspend-us-ipo-plan",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T22:03:00.000Z",
       "kind": "news",
-      "summary": "Holtec Nuclear Corp., a supplier of specialty services to the nuclear power industry, suspended its planned US initial public offering, according to people familiar with the matter.",
+      "summary": "Holtec Nuclear Corp., a supplier of specialty services to the nuclear power industry, postponed a planned US initial public offering which was expected to price Thursday.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1818,18 +1866,6 @@
       "score": 50
     },
     {
-      "title": "Amazon raises minimum hourly pay by $1 to $20 for US operations workers",
-      "url": "https://www.reuters.com/legal/litigation/amazon-raises-minimum-hourly-pay-by-1-20-us-operations-workers-2026-09-16/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-16T20:48:16.000Z",
-      "kind": "news",
-      "summary": "Amazon is increasing the minimum hourly pay for its eligible full-time U.S. operations workers by $1, bringing it to $20. The company also introduced a new benefit, \"Day 1 Financial,\" providing low-cost banking services through First Tech Federal Credit Union. With this raise and existing benefits, Amazon states the average total compensation for these workers will now exceed $32 per hour. [sentiment: Neutral]",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "There's one issue where Republicans and Democrats are unified before the midterms, a new poll finds - AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRuY2Jucy1oTW9YNF9ZaXEybXMtMENxZGQ3Y3ItU2JSTW5DNlJ5VzV4S0Fua2EzZ1dKLWtTS3JTQjdUaEozNGQ1U2E3cnpzSzllaE1oaVlIZW9rT1dMM1AtR2RyWFBqdjdWTk8tcmw4VVk1TmM3TUxYelV3bURteGwzX2tRSDFodC1kYURZeFVJaEFPbUV0QktQdUxDR2wteXo1NQ?oc=5",
       "source": "AP News",
@@ -1889,18 +1925,6 @@
       "score": 50
     },
     {
-      "title": "Warsh Gets a Credibility Boost",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/opinion-warsh-gets-a-credibility-boost-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T20:10:03.000Z",
-      "kind": "news",
-      "summary": "The Fed unanimously raised interest rates for the first time in more than three years. Bloomberg Opinion columnist Jonathan Levin explains why this boosts Chair Kevin Warsh’s credibility. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "J.B. Hunt stock plunges 13% after company warns third-quarter earnings will fall",
       "url": "https://www.cnbc.com/2026/09/16/jb-hunt-stock-jbht-earnings.html",
       "source": "CNBC",
@@ -1913,35 +1937,11 @@
       "score": 50
     },
     {
-      "title": "Anthropic policy chief says AI companies can't be expected to operate on 'honor code'",
-      "url": "https://www.cnbc.com/2026/09/16/anthropic-policy-chief-says-ai-companies-cant-operate-on-honor-code.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-16T19:56:09.000Z",
+      "title": "The Liftoff Scenario That Terrifies A.I. Doomsayers - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUFBzNEsya0lCSHdGM0ZCaDlVRG1rOWRnRWVxZXBfbmZTNWhKeWFDbG4yVjRMWWxPejROOHV5VnZCMDY5WVJxTXpJRmlySlVBRkRjN2J1ZWtESURFSG5MX3BTU0twSmhXeHlUZHduR2NoR0t0Tzg4Ri1qRU9FcUxKMnFEdw?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-16T19:56:44.000Z",
       "kind": "news",
-      "summary": "Sarah Heck, Anthropic's head of public policy, offered her perspectives on AI safety as the debate about how to regulate model development intensifies.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The Most Powerful Man in AI Isn’t Worried at All - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVUZteWtCYjlMUzZGNW50aFVjWVR3NzNaVHZEVnVMLS1KUDk0MWYtd2Fqd1ZHdUpEVE1PUDhKTFRlMUFIbjJrdFRHd3d2b2V0dUxEQjdXREpDSVVqUWU5YzEya3pvYklUUkluanhyOGlTXzJHdURYUG96cy12SDZsc050a0tHSy03S1E?oc=5",
-      "source": "The Atlantic",
-      "publishedAt": "2026-09-16T19:47:49.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Banks Line Up $22 Billion Chip Loan Tied to Blackstone, Alphabet",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/banks-line-up-22-billion-chip-loan-tied-to-blackstone-alphabet",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T19:38:10.000Z",
-      "kind": "news",
-      "summary": "A group of 10 banks is providing a $22 billion chip loan to support Blackstone Inc. and Alphabet Inc.’s new cloud venture Crux AI, the latest mega-debt deal in the race to finance the expensive processors crucial to artificial intelligence.",
       "tier": 1,
       "tickers": [],
       "related": [],

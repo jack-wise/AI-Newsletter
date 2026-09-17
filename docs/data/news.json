@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T01:02:31.040Z",
+  "generatedAt": "2026-09-17T01:32:17.994Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -35,7 +35,7 @@
       },
       "tier": 2,
       "related": [],
-      "score": 78,
+      "score": 68,
       "summary": "Ratepayer Protection Act Passes House"
     },
     {
@@ -946,9 +946,22 @@
   ],
   "related": [
     {
-      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - Bloomberg",
+      "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-17T00:12:24.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Process - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/openai-reports-new-ai-safety-incidents-sets-disclosure-process",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-09-16T23:52:20.000Z",
       "kind": "news",
       "tier": 1,
@@ -957,6 +970,20 @@
         "OpenAI"
       ],
       "score": 65
+    },
+    {
+      "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses - The Lufkin Daily News",
+      "url": "https://lufkindailynews.com/news_reuters/business/snap-targets-enterprises-with-salesforce-nvidia-ai-tools-for-augmented-reality-glasses/article_e4545cd7-cdb2-5281-b1b2-85eb37d7e41d.html",
+      "source": "The Lufkin Daily News",
+      "publishedAt": "2026-09-16T23:45:12.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Sept 16 (Reuters) - Snap on Wednesday announced partnerships with companies including Salesforce, Nvidia and Amazon Web Services to integrate workplace tools into its Specs augmented-reality glasses,"
     },
     {
       "title": "Snap tries to bring AR glasses to enterprise market, partnering with Nvidia, AWS and Salesforce",
@@ -1007,7 +1034,7 @@
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T22:47:29.000Z",
       "kind": "news",
-      "summary": "OpenAI shared several undisclosed incidents of its artificial intelligence models misbehaving, and unveiled a new framework for how it plans to track and disclose such occurrences going forward.",
+      "summary": "OpenAI shared several undisclosed incidents of its AI models misbehaving and unveiled a new framework for tracking and disclosing such occurrences going forward.",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1022,6 +1049,19 @@
       "publishedAt": "2026-09-16T22:16:44.000Z",
       "kind": "news",
       "summary": "Apple Inc. Executive Chairman Tim Cook and OpenAI Chief Executive Officer Sam Altman are poised to attend a White House state dinner for Chinese President Xi Jinping next week.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain - Reuters",
+      "url": "https://www.reuters.com/technology/openai-releases-framework-track-model-misalignment-2026-09-16/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-16T22:13:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1072,33 +1112,6 @@
       "score": 65
     },
     {
-      "title": "Anthropic, OpenAI proposed new 'neutral' AI watchdogs. Why you should worry about the idea",
-      "url": "https://www.cnbc.com/2026/09/16/anthropic-open-ai-model-safety-risks.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-16T19:31:06.000Z",
-      "kind": "news",
-      "summary": "Anthropic and OpenAI are proposing embedded AI evaluators to help manage risk of models causing catastrophic harm to society, but the idea has some issues.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Why IREN (IREN) Is Down 6.1% After Nvidia Strikes US$5.5 Billion AI Cloud Deal With Miner - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/why-iren-iren-down-6-001814288.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-17T00:18:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent? - TechCrunch",
       "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
       "source": "TechCrunch",
@@ -1111,6 +1124,20 @@
       ],
       "score": 55,
       "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation."
+    },
+    {
+      "title": "Anthropic, OpenAI proposed new 'neutral' AI watchdogs. Why you should worry about the idea",
+      "url": "https://www.cnbc.com/2026/09/16/anthropic-open-ai-model-safety-risks.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-16T19:31:06.000Z",
+      "kind": "news",
+      "summary": "Anthropic and OpenAI are proposing embedded AI evaluators to help manage risk of models causing catastrophic harm to society, but the idea has some issues.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "OpenAI, Anthropic and SpaceXAI leaders back calls to slow AI development - The American Bazaar",
@@ -1208,9 +1235,9 @@
       "score": 55
     },
     {
-      "title": "Microsoft AI Chief Warns Anthropic’s Humanlike Claude Is Risky - Bloomberg",
+      "title": "Microsoft AI Chief Warns Anthropic’s Humanlike Claude Is Risky - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/microsoft-ai-chief-warns-anthropic-s-humanlike-claude-is-risky",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-09-16T14:08:07.000Z",
       "kind": "news",
       "tier": 1,
@@ -1219,6 +1246,20 @@
         "MSFT"
       ],
       "score": 55
+    },
+    {
+      "title": "After suspending Stargate UK, OpenAI goes to Canada for data centre partnerships; is 'very impressed' wit - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-suspending-stargate-uk-openai-goes-to-canada-for-data-centre-partnerships-is-very-impressed-with-pm-mark-carney-for-/articleshow/134289592.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-16T13:54:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "ChatGPT maker OpenAI may be looking at Canada for data centre partnerships. This comes after putting its Stargate UK project on hold earlier this year."
     },
     {
       "title": "Global Technology Pioneers Emerald AI, Google, and NVIDIA Launch the AI Energy Management Alliance to Advance Flexible AI Data Centers - Business Wire",
@@ -1235,9 +1276,9 @@
       "score": 55
     },
     {
-      "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
+      "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - theinformation.com",
       "url": "https://www.theinformation.com/articles/apple-considers-return-server-market-talked-nvidia-use-network-tech",
-      "source": "The Information",
+      "source": "theinformation.com",
       "publishedAt": "2026-09-16T13:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1276,10 +1317,10 @@
       "score": 55
     },
     {
-      "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/snap-targets-enterprises-salesforce-nvidia-234512914.html",
+      "title": "Why IREN (IREN) Is Down 6.1% After Nvidia Strikes US$5.5 Billion AI Cloud Deal With Miner - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/why-iren-iren-down-6-001814288.html",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-09-16T23:45:12.000Z",
+      "publishedAt": "2026-09-17T00:18:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1314,51 +1355,67 @@
       ],
       "score": 45,
       "summary": "OpenAI is testing business-sponsored artificial intelligence agents that will have conversations with people who click on an ad in ChatGPT, the company"
-    },
-    {
-      "title": "Safety push sparks infighting at OpenAI, Anthropic - AFR",
-      "url": "https://www.afr.com/world/north-america/ai-safety-push-sparks-infighting-at-openai-anthropic-20260917-p60y2c",
-      "source": "AFR",
-      "publishedAt": "2026-09-16T23:26:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Staff at the Silicon Valley companies are baulking at suggestions from their bosses that outsiders evaluate their AI work as part of the slowdown."
-    },
-    {
-      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation | NVIDIA Technical Blog - NVIDIA Developer",
-      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
-      "source": "NVIDIA Developer",
-      "publishedAt": "2026-09-16T23:23:05.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties…"
-    },
-    {
-      "title": "State reveals full DRI report on OpenAI’s Effingham Co. data center project - WTOC",
-      "url": "https://www.wtoc.com/2026/09/16/state-reveals-full-dri-report-openais-data-center-project/",
-      "source": "WTOC",
-      "publishedAt": "2026-09-16T22:30:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "A state impact report outlines the full utility, environmental, and economic footprint of the proposed $20 billion Project Camellia data center in Effingham County"
     }
   ],
   "general": [
+    {
+      "title": "The dominance of AI is not inevitable. We can choose to change things for the better | Nick Evershed - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdVJBWmptSHdmVklTbEFMdHVicTV2WkxXU1I2cHlzNE04ZVNHbTcxcjZsNkhNTklxTjRnbkFlWVppcUN6WG41UFRZd0tSRUJQLWlveHo4UFprY0VsXzhtYXJYY3lpaXZaNTRwZzBxc1pra3l6WFVwbC03b3ZJclFRS2ktWHNMalBudXRqYjktczV6M3lzYkZxZDR4cUp3TFpLZ3JIVERySTBQcWtTbHBPdG5VVnlsQXlf?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-17T01:27:56.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Vistra vs. Constellation vs. Talen Energy: Which Nuclear-Heavy Stock Is the Better AI-Power Bet? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSDVzZU9Ya1gxSmtsdE1IV19nWVF1WGd2dVVpbTEzNWkyRTd3WS1wUEE2Tmw4SnJYaGRSVXhaREhCeU8tTHVEdmhwUGZxc0cxMVBOT0J6ZkhMMlBSS3JtZlRkSm5sakdIQTctOXdnS2J3cnRqa1NXc1Q3MHVKMXRVdW1BZ29wN0hXQmRGYUxhWnJTUi15d2JEXw?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-17T01:15:59.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Manus Eyes $4 Billion Value in First Round Since Meta Breakup",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/manus-eyes-4-billion-value-in-first-round-since-meta-breakup",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T01:13:39.000Z",
+      "kind": "news",
+      "summary": "Chinese-founded AI startup Manus is set to double its valuation to $4 billion in its first fundraising since Beijing ordered it to split from Meta Platforms Inc., charting a path to a fresh start after getting caught up in a geopolitical tussle.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "NSE Subscription for India IPO Starts With Valuation in Focus",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/nse-subscription-for-india-ipo-starts-with-valuation-in-focus",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T01:00:00.000Z",
+      "kind": "news",
+      "summary": "National Stock Exchange of India Ltd.’s long-awaited initial public offering starts taking orders Thursday, testing investor appetite for a valuation that remains rich compared with some of the world’s biggest listed exchanges.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "India Supplies Wall Street With CEOs But Has a Shortage at Home",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/india-supplies-wall-street-with-ceos-but-has-a-shortage-at-home",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T01:00:00.000Z",
+      "kind": "news",
+      "summary": "Indian-born bankers have led global financial giants from Deutsche Bank AG and Citigroup Inc. to Barclays Plc. Yet at home, the country’s lenders can face a string of challenges finding executives for the top job.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "U.S. Catholic bishops meet with AI firms about ‘catastrophic’ risk - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRTYyRlZ0RkV1Z0Z0RGJzUG94VExQc1FJQnBxTm1JMDBPTjAzQWlIS0lDd1hKOG95R0lFQ3pvaW9QMXotSmZUNFJFR1gtWjBNeERCdGJvR25JbmFFTnFJV1liVnVPZklrTzZrU1R5MEhQWHZHLWVPbXdiWWFhQXBvV1hCVUpYSE5DcldWMzVNWWExczVQRUZjNW1XdUZfZDEzSVJoV1BtbHUxbTQxc2FOSm1Rc2U?oc=5",
@@ -1371,11 +1428,24 @@
       "score": 60
     },
     {
-      "title": "House passes bill attempting to lower data center costs - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYW1ZV2l0QlA1SjQtOWlLYzRFVHV0cTMtNE1uU1BoZVN1VEpIdmNTOWU3bVhLVTBLb1JSbkhCRGtvT1dzWkw0ck0zeDRZNzVwaWlzYWFnQlhaZ29yRGRZRUtTYVhHXzc0UG9GWEFtdDRxSHNYZlBwWXJnV0VNYlZIWVJ6LTZfNTcxaTlyLUNUMV95Q3QtVUpBM2FJZGpjRUlfMC1SUFJkaU0?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-17T00:45:38.000Z",
+      "title": "China’s Gas Demand Outlook Clouded by Guangdong’s Power Shift",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/china-s-gas-demand-outlook-clouded-by-guangdong-s-power-shift",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T00:52:29.000Z",
       "kind": "news",
+      "summary": "Electricity market reforms in one of China’s economic powerhouses could herald a more sweeping slowdown in the country’s demand for natural gas.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Morgan Stanley Says Bathla Shows Need for More Credit Disclosure",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/morgan-stanley-says-bathla-shows-need-for-more-credit-disclosure",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T00:52:07.000Z",
+      "kind": "news",
+      "summary": "Morgan Stanley researchers have suggested greater disclosures to assess credit risk tied to property developers, following the collapse of Sydney’s Bathla Group.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1391,7 +1461,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Denied Rate Cut as Federal Reserve Targets War-Stoked Inflation",
@@ -1403,7 +1473,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Berkshire May Boost Japan Trading House Holdings, Itochu Says",
@@ -1415,7 +1485,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump Bans Canadian Goods From US Government Purchases",
@@ -1427,7 +1497,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Malaysia’s Battered Bonds Face Growing Risk of Japan Fund Exodus",
@@ -1439,7 +1509,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "BOJ Faces Higher Bar to Support Yen After Fed’s Hawkish Hike",
@@ -1572,6 +1642,17 @@
       "score": 50
     },
     {
+      "title": "US House advances first bill addressing economic impacts of data center boom - The Lufkin Daily News",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOVDJ6U2xkbTJFOHE2djNwbmJUMzRWa1RJbTFmdGxYVU9pbXllNU1WaGNGYmlYNm9IbmZZaUcwTDVwQzZ1eVBIQ21UdE5GdlJUUnFjc0RUcThMYkhqV0Q4N0hpcWM5RXQ5WkRDQjcwaWNqNUtmdjJMZEJRY2gwSDR3LW1ZcFpUZGg3T1ZubkhDN0pTcjk3V0EyNUVQbThpN0c4Y1NRNktBTktESHpCZlpBMGlPcXdiT1VPQVdsVHZnNk55RVVQcGZ5V0dXQWhPSjNycGJ3U2Zab1FlZXd0VjZqanFBWFRJRHI5eU5TLXJya19YM3F5OXNGaGdzY0pFdVRJNTdFMWluQQ?oc=5",
+      "source": "The Lufkin Daily News",
+      "publishedAt": "2026-09-16T23:00:25.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "US House advances first bill addressing economic impact of data center boom - Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlJ5dTh2eFhMZFhIMFBycGVFeWNyRFlETUlMem1NNXFVakRtbmQ5Q3FYYUpIb0RlcG1OalB1WDU2VktjaHhQV2pONTdYcmtLSmpaMmtUODR5T1Z1RkpRRUJJN0pBRm15bkprQXQxTUVsTmdCbk5YRVVqcVBFWnJJQUotUjdxbEU1eUFXNHBqZnIyQkhVeW05Y3lfVk5WdXN3aEZnRGE0LUlkNzNZcTdPdUtheUJlQQ?oc=5",
       "source": "Reuters",
@@ -1583,12 +1664,12 @@
       "score": 50
     },
     {
-      "title": "IMF Urges RBA to Stay Hawkish, Warns of Inflation Upside Risks",
+      "title": "IMF Urges RBA to Stay Hawkish Citing Inflation Upside Risks",
       "url": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
       "source": "Bloomberg",
       "publishedAt": "2026-09-16T23:00:00.000Z",
       "kind": "news",
-      "summary": "Australia’s central bank should stand ready to hike interest rates as needed given inflation risks remain tilted to the upside, the International Monetary Fund said, adding that the government could support disinflation by tightening its fiscal stance.",
+      "summary": "Australia’s central bank should stand ready to hike interest rates given inflation risks remain tilted to the upside, the International Monetary Fund said, adding the government could also support disinflation by reining in spending.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1856,94 +1937,11 @@
       "score": 50
     },
     {
-      "title": "Calpers CEO Bonus Jumps 43% After Pension Returns Beat Target",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/calpers-ceo-bonus-jumps-43-after-pension-returns-beat-target",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T21:11:34.000Z",
-      "kind": "news",
-      "summary": "California Public Employees’ Retirement System voted Wednesday to give its chief executive officer a $1.1 million bonus and a salary bump as state workers fight for higher pay.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Plan to Boost Biofuel Exports Targets Restrictions Abroad",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/us-plan-to-boost-biofuel-exports-targets-restrictions-abroad",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T20:49:00.000Z",
-      "kind": "news",
-      "summary": "The Trump administration, following up on its efforts to boost domestic biofuels production, is taking the next step to help the industry: targeting policies abroad that limit uptake of fuels made from US crops.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "There's one issue where Republicans and Democrats are unified before the midterms, a new poll finds - AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRuY2Jucy1oTW9YNF9ZaXEybXMtMENxZGQ3Y3ItU2JSTW5DNlJ5VzV4S0Fua2EzZ1dKLWtTS3JTQjdUaEozNGQ1U2E3cnpzSzllaE1oaVlIZW9rT1dMM1AtR2RyWFBqdjdWTk8tcmw4VVk1TmM3TUxYelV3bURteGwzX2tRSDFodC1kYURZeFVJaEFPbUV0QktQdUxDR2wteXo1NQ?oc=5",
       "source": "AP News",
       "publishedAt": "2026-09-16T20:42:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bloomberg Deals 9/16/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-16/bloomberg-deals-9-16-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T20:26:28.000Z",
-      "kind": "news",
-      "summary": "A weekly, midday program that delivers high-impact, editorially driven coverage of the most important corporate transactions shaping the global market. Today's guests: GFL Environmental Founder & CEO Patrick Dovigi, Norton Rose Fulbright Montreal Business Law Group Co-Chair, Partner Renee Loiselle, and Stikeman Elliot Partner Jeff Hershenfield. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Drone Startup Zipline in Talks on About $1 Billion Raise at $20 Billion Valuation",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/drone-startup-zipline-in-talks-on-about-1-billion-raise-at-20-billion-valuation",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-16T20:23:52.000Z",
-      "kind": "news",
-      "summary": "Zipline is in talks to raise around $1 billion in a funding round that would value the drone delivery and logistics startup at roughly $20 billion, nearly tripling its previous valuation.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "J.B. Hunt stock plunges 13% after company warns third-quarter earnings will fall",
-      "url": "https://www.cnbc.com/2026/09/16/jb-hunt-stock-jbht-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-16T20:00:36.000Z",
-      "kind": "news",
-      "summary": "Shares of J.B. Hunt plunged 13% Wednesday after the company warned of an earnings drop between 5% and 10%.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The Liftoff Scenario That Terrifies A.I. Doomsayers - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUFBzNEsya0lCSHdGM0ZCaDlVRG1rOWRnRWVxZXBfbmZTNWhKeWFDbG4yVjRMWWxPejROOHV5VnZCMDY5WVJxTXpJRmlySlVBRkRjN2J1ZWtESURFSG5MX3BTU0twSmhXeHlUZHduR2NoR0t0Tzg4Ri1qRU9FcUxKMnFEdw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-16T19:56:44.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic policy chief says AI companies can't be expected to operate on 'honor code'",
-      "url": "https://www.cnbc.com/2026/09/16/anthropic-policy-chief-says-ai-companies-cant-operate-on-honor-code.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-16T19:56:09.000Z",
-      "kind": "news",
-      "summary": "Sarah Heck, Anthropic's head of public policy, offered her perspectives on AI safety as the debate about how to regulate model development intensifies.",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T19:13:48.237Z",
+  "generatedAt": "2026-09-17T19:32:38.859Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,27 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "$FRMI looking like it wants to run into the close, once this reclaims $5 it tends to run to $6 fairly fast",
+      "url": "https://stocktwits.com/StockAuthority/message/664516935",
+      "source": "@StockAuthority on StockTwits",
+      "publishedAt": "2026-09-17T19:32:13.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "46,813 followers"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 80,
+      "summary": "$FRMI looking like it wants to run into the close, once this reclaims $5 it tends to run to $6 fairly fast"
+    },
     {
       "title": "[September 17, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1wijd1c/september_17_2026_fermi_america_frmi_discussion/",
@@ -913,31 +934,23 @@
       "related": [],
       "score": 38,
       "summary": "Korea weighs $120 billion investment in 8 nuclear reactors in U.S. as part of tariff deal"
-    },
-    {
-      "title": "[September 08, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1wadsny/september_08_2026_fermi_america_frmi_discussion/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-09-08T04:02:49.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "[September 08, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
+    {
+      "title": "OpenAI Reports New Safety Incidents, Sets Disclosure Plan",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-17/openai-flags-new-safety-incidents-sets-disclosure-plan-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T19:22:41.000Z",
+      "kind": "news",
+      "summary": "Bloomberg News AI reporter Shirin Ghaffary said that recent disclosures of AI safety incidents at OpenAI are a 'watershed moment' in the public understanding of AI risks as models get more powerful and employees issue warnings. Ghaffary said that getting AI models to align with companies intended goals is an ongoing issue and a the fact that it hasn't been solved yet amid rising AI integration is a 'big, big problem.' (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
     {
       "title": "Jensen Huang says Nvidia will sell twice as many chips next year",
       "url": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
@@ -950,7 +963,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Existential Angst Dominates Debate Over Tech From Anthropic, OpenAI",
@@ -1008,19 +1021,6 @@
       "score": 65
     },
     {
-      "title": "Nvidia’s Huang Calls for AI Safety Tests at King Charles Summit - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-17T16:18:35.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "What Backlash? Greek Region Pins Revival Hopes on Amazon Data Center - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-09-17/small-city-in-greece-hopes-huge-data-center-will-revive-local-economy",
       "source": "Bloomberg.com",
@@ -1062,10 +1062,24 @@
       "score": 65
     },
     {
+      "title": "Jim Cramer Presses OpenAI CFO on AI Spending. 6 Stocks Are Riding on What Happens Next - 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/09/17/jim-cramer-presses-openai-cfo-on-ai-spending-6-stocks-are-riding-on-what-happens-next/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-09-17T19:17:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Jim Cramer put OpenAI's CFO on the spot about whether a safety-driven slowdown could pull the rug out from under billions in AI infrastructure spending, and her answer has direct consequences for six companies already banking on that money."
+    },
+    {
       "title": "OpenAI and Anthropic Revenues Dwarf Those of Chinese AI Models - PYMNTS.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-anthropic-revenues-dwarf-those-chinese-ai-models/",
       "source": "PYMNTS.com",
-      "publishedAt": "2026-09-17T19:12:27.000Z",
+      "publishedAt": "2026-09-17T19:11:49.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1101,20 +1115,6 @@
         "OpenAI"
       ],
       "score": 55
-    },
-    {
-      "title": "Fearing No Repercussions, OpenAI Admits That Its Rogue AI Agents Performed a Bunch of Other Terrifying Actions - Futurism",
-      "url": "https://futurism.com/artificial-intelligence/openai-admits-ai-agents-performed-terrifying-actions",
-      "source": "Futurism",
-      "publishedAt": "2026-09-17T18:13:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI admitted that its models were involved in six additional \"reports on unexpected or concerning model behavior."
     },
     {
       "title": "Snap's $2,195 Glasses Are Becoming an Nvidia AI Bet - Snap (NYSE:SNAP), NVIDIA (NASDAQ:NVDA) - Benzinga",
@@ -1353,10 +1353,45 @@
   ],
   "general": [
     {
+      "title": "Argentine Economy Posts First Quarterly Contraction Since 2024",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/argentine-economy-posts-first-quarterly-contraction-since-2024",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T19:23:38.000Z",
+      "kind": "news",
+      "summary": "Argentina’s economy contracted in the second quarter for the first time in two years, marking a setback for President Javier Milei’s administration.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "3 Stocks to Buy if You Believe the AI Power Crunch Is Just Getting Started - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb3pPOV9WazZ6R1dwQU90aUs3ek0zWWNQWnF0dXMzV2JKT0R4ZEIzS2xhMjVjZ21EMDNEOTNBVjd0aXNpaDl6OVJuZC1ISWV6b29LaDNjNTdNVUxLamltaHlWT2VZVGM4VGNieExDNEtabjcxVFBuazhsQ3lCVjY0UmhybVJDWGdfNmtFQXZnaWd1eVdPa3Qycw?oc=5",
       "source": "The Motley Fool",
-      "publishedAt": "2026-09-17T19:09:47.000Z",
+      "publishedAt": "2026-09-17T19:15:23.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Palantir CEO Says AI Firms Responsible for Their Own Actions",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/palantir-ceo-says-ai-firms-responsible-for-their-own-actions",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T19:14:10.000Z",
+      "kind": "news",
+      "summary": "Palantir Technologies Inc. Chief Executive Officer Alex Karp said developers of artificial-intelligence systems need to be held liable for their own work as opposed to depending on government regulation.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opinion | Can Washington accept yes from the AI giants? - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYy01TUVkQi1ySGtYYy03WjJJWVpTbGowR3RzX1Y1cDZwTzdsQlFCeVpZZVFFbTFndll5dzZldFVyZHFnQzFTTHdxay1zNml3dlRlVlJnMWlnR1VrWlNyQmVwcVVoM3prRHVKS2Y4bkRBZmVkVG1GNENQWkJnUU5ZVUQ4VzRzbUExX3ZhYmZPR3lNTUNUSXltbG1md1VVRGUxaWxjWEx5UkxOMGFuVEMtdjNoWQ?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-09-17T19:12:34.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1432,7 +1467,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Iran War Leaves JPMorgan Oil Analysts Unable to Predict Market Outlook",
@@ -1444,7 +1479,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "How Existential Fears Are Shaping the Debate Over AI - Bloomberg.com",
@@ -1566,24 +1601,23 @@
       "score": 50
     },
     {
-      "title": "Putin Signs Decree to Seize Control of Nestle Assets in Russia",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T17:28:48.000Z",
+      "title": "King Charles warns tech leaders of 'existential dangers' from AI - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFdPV3JrbjNYMUd3RXlUY3NwOU5RMTVheVM2eHRUQ2VFWnBVU2w2SnFqR05iaHBiZzE5MHlyc1ZhX1NSeWxHMmNLMEx4YkxBQjVZY1A4MllpU19lM0c5RHhnV3JTRkQzWGlDME1Cam9WdlVzTTVNclhxZm90akpuUHFkeW9INXdGbmdiUTBTNHBnZEVSNmxtRDNLUWNPQTh4N05qVmh4c01JUWM?oc=5",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-17T17:40:59.000Z",
       "kind": "news",
-      "summary": "Russia seized control of the local assets of Swiss food giant Nestle SA and French supermarket chain Auchan, placing their stakes in Russian businesses under temporary administration.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "What the Bassman-Simplify Asset Management Clash Tells Us About the ETF Industry",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-09-17/what-the-bassman-simplify-asset-management-clash-tells-us-about-the-etf-industry",
+      "title": "Putin Signs Decree to Seize Control of Nestle Assets in Russia",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia",
       "source": "Bloomberg",
-      "publishedAt": "2026-09-17T17:20:24.000Z",
+      "publishedAt": "2026-09-17T17:28:48.000Z",
       "kind": "news",
-      "summary": "Harley Bassman raised several questions for Simplify Asset Management’s board in a letter to shareholders",
+      "summary": "Russia seized control of the local assets of Swiss food giant Nestle SA and French supermarket chain Auchan, placing their stakes in Russian businesses under temporary administration.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1632,17 +1666,6 @@
       "publishedAt": "2026-09-17T16:43:09.000Z",
       "kind": "news",
       "summary": "Airtel Money’s owners are considering raising less money than previously sought in the company’s initial public offering, a listing process that could start as soon as next week, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Nebius hikes AI cloud prices again as demand for computing power soars - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVWxwOEZoX3psWkpROUJ4M0d0YW52N1BxdWZId0hsN3hfQ2hWMWJtRmZpWHdHd0dITUZGWGk3YWh3SW5MY2pwdXVTdmh2SXVscndoNkNhME1TMWNhR0VBUlM2ejFkZHktMXJNVFhMWGdGU0JIc1hYbU44WlREbzB3eHR0LW4ySVlnQ0JJbU5iZ1NiVWNMU09IZW1ZTW5JZWkwMTg4TkNVQUVkOTJMWF9Z?oc=5",
-      "source": "reuters.com",
-      "publishedAt": "2026-09-17T16:17:01.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1765,18 +1788,6 @@
       "score": 50
     },
     {
-      "title": "How TikTok is Reshaping the Perfume Business",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-17/how-tiktok-is-reshaping-the-perfume-business-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T15:10:09.000Z",
-      "kind": "news",
-      "summary": "Interparfums CEO Jean Madar explains why tariff uncertainty isn’t slowing the company’s US ambitions, how TikTok and e-commerce are transforming the way consumers buy fragrance, and why men’s scents could be one of beauty’s biggest growth opportunities. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "The king and AI: UK monarch Charles meets artificial intelligence leaders as safety concerns swirl - AP News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1pxWVhPQ09jRmt4Zjg5VFV6Yko5MEFRU1ZJUnhCdnVwRG1GOFFFQ3NuR1hLTEQ2N1FEZnJ1Q3hHQ2pUTl9xQlJyZmZFTS00RTRuQ05FLTltZ3pGdUFmQWJ4TUt4SHJzbnFXMGlJV3FZWmI1UEhTZGkzekxZcFVKZnhVZDRWem5oS3ZPdnhDMkNkU20t?oc=5",
       "source": "AP News",
@@ -1835,34 +1846,32 @@
       "score": 50
     },
     {
-      "title": "India’s Chip Plan Investment Pledges Hit $12 Billion",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/india-s-new-chip-plan-draws-12-billion-in-investment-pledges",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T13:23:05.000Z",
+      "title": "Killer AI Is Already Here. We’re Using It in Iran. - Mother Jones",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVVd6YXViQWJmdTZFZlUzZ1A1SzZ3VXJIT0V2clo2aUFhak5DeXR0TmFScDdOTUxlblY2OElENHE1bEduclFVWGxfZThXUWRGR0t6Y0p2bFczNzlaU2d5ZGtMYTB6VnAwR194cmczVVJmVjNMc0FBdlZjUC11a25FTUtVWnBKeGJxTE5MN1dBUFZSMDJobEFr?oc=5",
+      "source": "Mother Jones",
+      "publishedAt": "2026-09-17T19:25:56.000Z",
       "kind": "news",
-      "summary": "India has received investment pledges of as much as $12 billion from global and local investors within months of launching it’s new semiconductor policy, marking an acceleration in its efforts to become a chip-making nation.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Meta-Tied Data Center Taps US Junk Bonds for the First Time",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/meta-tied-data-center-taps-us-junk-bonds-for-the-first-time",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T13:19:06.000Z",
+      "title": "The House Just Passed a Bill Targeting AI Data Center Power Costs - Gadget Review",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXBvWUNTQmVpSmxMUU95elBKNGJxamZDRzB1b3EtMlZXeHNha3dPaVd6VlBESG9qWHRhM3FvdE5PU0R0cEdMZ3JCWThLV1FGQkdvNjJWR2xWTUVycUtNaDhiVXFDZkhpR3FYLTRjQ19DaU9HaWJTdFcycl94R3hFVktyempHNHBoUzU0cUxianU3RzJFMjBRUXpB?oc=5",
+      "source": "Gadget Review",
+      "publishedAt": "2026-09-17T19:13:03.000Z",
       "kind": "news",
-      "summary": "CleanSpark Inc. is seeking to borrow roughly $2.23 billion through a debut junk-bond offering to fund artificial intelligence infrastructure tied to Meta Platforms Inc..",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "Trump administration live updates: Americans give AI in schools a poor grade - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMTl4TXNTeTBBZFU3TVVVUUlOdUU4XzN0aGhpTU00aEtjWS1FbVU0T2RyOHhQb2h6SFlISHZyWFZ4RXUzS1ZUVkJnaEpvWW9xbHpkSFBrenpRSy12TE1uUjMwaXpZNFY0Y0IzS2dYVW4tZHlucm56TnhqdGtVRVl3Rm5QQWpEa0J2cTFsZTNXYnFkLUFrcWJJTXFKbXEweGdWZ0laMlYwMGhBQ3NKVWc3Q21jV3ZMMGNGQmpXb3pGVHFGeGlZSmtoMHNZcXM?oc=5",
-      "source": "NBC News",
-      "publishedAt": "2026-09-17T19:01:19.000Z",
+      "title": "Gov. Gavin Newsom mulls further action, special session on more AI guardrails - Sacramento Bee",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVHJjbnhLTWlIWTd0ZXhFdENWV3I0M2JHMjhQMjFlM3E2VFpCR19QRUNWSlJSWlRwQ2VhRWYyVTRDS1Z3ZWxDNkdhblRVXzlzdEFKMkVTR3FQU2ZRa083bmx4dHowa1dybktpYm5TMk9BeVVCY0Eya2JaNDgydlZKbTFsYWx2UjJJRHA00gGLAUFVX3lxTE9fUDRXakhteUY3dkxyTHM2X0x2X094TUJIdUNEUW5LV0tTb1hKVm1KSVF1bVVhbmhNWGl1WWI5dzRPa3Rka2kyVkhETjhiLTh3Y2JXQ0dLV1FIbzNRYVBTTUN1Ym42Y1Y3SERYanFvcUYwTTBjZ0ZZMG41ci1OUEIzWE1aaXNyWTNxNTQ?oc=5",
+      "source": "Sacramento Bee",
+      "publishedAt": "2026-09-17T19:04:49.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1881,9 +1890,9 @@
       "score": 40
     },
     {
-      "title": "House Passes Bill Aimed at Addressing Impact of Data Centers on Energy Costs - broadbandbreakfast.com",
+      "title": "House Passes Bill Aimed at Addressing Impact of Data Centers on Energy Costs - Broadband Breakfast",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSUlDblZNcjVEaW9Ya1RSSlhnYWZBWU1zLU9BSHkzUFNOWThKMHhWb3BwVGp6STdpMndCT2FnZWJmV3ZIaVZkU2NLRG5kYlZYdHYwNEI3U1dIRjcyLUluaEROZmZFSzZjendyUXBsQ0FPbUlLNmtKX1ZFb2NVblpfQjZEMk85eWtuTXI4c1dSNjJTVHMtbEJGak1lMWIyYk5BQWhmbHZPdHRXbXkw?oc=5",
-      "source": "broadbandbreakfast.com",
+      "source": "Broadband Breakfast",
       "publishedAt": "2026-09-17T18:58:35.000Z",
       "kind": "news",
       "tier": 3,
@@ -1903,17 +1912,6 @@
       "score": 40
     },
     {
-      "title": "Healthcare’s agentic AI boom is outpacing governance: report - Healthcare Dive",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObjlOZjFtZE5hZWhwcWtSbGRmS1d6LXFPYnpDZDZYVjNiOUlWdGlvV3BjRkxwU1NMeEx6QXk2SDl2cEZ3TkEtdzhKS25lRW1xdDNqVGpXWkdYTFU5V0JvNXRuWnlrOUlENnhIS0RMaUs1TzNfaGpGTVViNDJ4Z3NSVTh6T2ZXRHoxZl9jVm1kSXlZenJWZFVsZGdXWDBIRi1NUElFb2lpNnZOTWNmMmh4Mg?oc=5",
-      "source": "Healthcare Dive",
-      "publishedAt": "2026-09-17T18:53:38.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "What Anthropic’s AI Threat Report Means for Laboratory Security - Lab Manager",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMUF5NGpVSVpPNWdWVmFzZ3dQcjlxdnFtV3Y1WmlQN2EyU3J1VXN5emV0NkZVRjF1TzdqRUpVQnlBN0pYSm9LdDYzdThzanJmYlY2SHJxbHF2MWdPTGFleVByczRnYzVLMHpoZFktOHNGd1BUcE9YWTYyVFo0V0VCbjVaRWZvSDBKeXVDR1Zqa2hreFQ0b19R?oc=5",
       "source": "Lab Manager",
@@ -1925,10 +1923,10 @@
       "score": 40
     },
     {
-      "title": "Senate Democrat blocks House-passed bill to shield Americans from data center energy costs, proposing alternate measure - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb3JaWUJDcjhVMXRZSTE2bHFCVHN5N0J6Ym4wVlVDazl3UEFDYmdrUmp6SkN0WTFlWXFHYVphYklmMHpIT3JUUVFMaG9BY0ROSW5pbm1qQjZqWDI5TFZnQlh2dU43WkI0Y1YtalQ1dVAtNEVsbHBrNnRrSGpqRFBFSlh3?oc=5",
-      "source": "CBS News",
-      "publishedAt": "2026-09-17T18:40:29.000Z",
+      "title": "Healthcare’s agentic AI boom is outpacing governance: report - Healthcare Dive",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObjlOZjFtZE5hZWhwcWtSbGRmS1d6LXFPYnpDZDZYVjNiOUlWdGlvV3BjRkxwU1NMeEx6QXk2SDl2cEZ3TkEtdzhKS25lRW1xdDNqVGpXWkdYTFU5V0JvNXRuWnlrOUlENnhIS0RMaUs1TzNfaGpGTVViNDJ4Z3NSVTh6T2ZXRHoxZl9jVm1kSXlZenJWZFVsZGdXWDBIRi1NUElFb2lpNnZOTWNmMmh4Mg?oc=5",
+      "source": "Healthcare Dive",
+      "publishedAt": "2026-09-17T18:47:45.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

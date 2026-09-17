@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:03:06.205Z",
+  "generatedAt": "2026-09-17T18:32:54.464Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -942,7 +942,7 @@
       "title": "Jensen Huang says Nvidia will sell twice as many chips next year",
       "url": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
       "source": "CNBC",
-      "publishedAt": "2026-09-17T17:52:29.000Z",
+      "publishedAt": "2026-09-17T18:23:25.000Z",
       "kind": "news",
       "summary": "Huang's comment is the latest forecast from Nvidia and points to continuing massive growth for the next six quarters.",
       "tier": 1,
@@ -951,6 +951,35 @@
         "NVDA"
       ],
       "score": 75
+    },
+    {
+      "title": "Existential Angst Dominates Debate Over Tech From Anthropic, OpenAI",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/existential-angst-dominates-debate-over-tech-from-anthropic-openai",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T18:11:05.000Z",
+      "kind": "news",
+      "summary": "Some experts worry that heated rhetoric makes it hard to hold companies accountable, and sets back attempts to deal with environmental impact and job loss",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "OpenAI, Microsoft Leaders Admitted AI Is Threat to News Industry - Bloomberg Law News",
+      "url": "https://news.bloomberglaw.com/ip-law/openai-microsoft-leaders-admitted-ai-is-threat-to-news-industry",
+      "source": "Bloomberg Law News",
+      "publishedAt": "2026-09-17T18:03:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "MSFT"
+      ],
+      "score": 75,
+      "summary": "OpenAI Inc. and Microsoft Corp. executives admitted that their AI tools were substitutes for articles published by the New York Times and other outlets and acknowledged the threat their technology posed for the news industry, according to a newly unsealed court document."
     },
     {
       "title": "Nvidia Committed $2 Billion to Brookfield AI Infrastructure Fund - Bloomberg.com",
@@ -963,7 +992,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "OpenAI safety chair warns AI models are 'essentially superhuman hackers' at AI Horizons Summit - The Business Journals",
@@ -975,6 +1004,19 @@
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Nvidia’s Huang Calls for AI Safety Tests at King Charles Summit - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-17T16:18:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 65
     },
@@ -1020,20 +1062,6 @@
       "score": 65
     },
     {
-      "title": "King Charles Calls on Nvidia, OpenAI Chiefs to Control AI - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-17T13:47:11.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
       "title": "Warsh spooks investors, OpenAI's 'concerning' incidents, Boeing's production problems and more in Morning Squawk",
       "url": "https://www.cnbc.com/2026/09/17/5-things-to-know-before-the-stock-market-opens.html",
       "source": "CNBC",
@@ -1048,24 +1076,24 @@
       "score": 65
     },
     {
-      "title": "When AI Agents Cheat: What the OpenAI Incident Means for Channel Partners - The Futurum Group",
-      "url": "https://futurumgroup.com/insights/when-ai-agents-cheat-what-the-openai-incident-means-for-channel-partners/",
-      "source": "The Futurum Group",
-      "publishedAt": "2026-09-17T12:06:28.000Z",
+      "title": "Fearing No Repercussions, OpenAI Admits That Its Rogue AI Agents Performed a Bunch of Other Terrifying Actions - futurism.com",
+      "url": "https://futurism.com/artificial-intelligence/openai-admits-ai-agents-performed-terrifying-actions",
+      "source": "futurism.com",
+      "publishedAt": "2026-09-17T18:13:52.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 65,
-      "summary": "Learn what the OpenAI Incident means for channel partners and enterprise AI governance. Key lessons from the July 2026 security breach incident."
+      "score": 55,
+      "summary": "OpenAI admitted that its models were involved in six additional \"reports on unexpected or concerning model behavior."
     },
     {
       "title": "OpenAI’s experimental AI agents were caught being devious again - Mashable",
       "url": "https://mashable.com/tech/openai-ai-agents-misalighnment-cases-future-versions-bypass-human-controls",
       "source": "Mashable",
-      "publishedAt": "2026-09-17T17:48:45.000Z",
+      "publishedAt": "2026-09-17T17:40:22.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1076,9 +1104,9 @@
       "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control."
     },
     {
-      "title": "King Charles Convenes OpenAI, Anthropic, Nvidia and Google for AI Safety Summit - yahoo.com",
-      "url": "https://www.yahoo.com/news/science/articles/king-charles-convenes-openai-anthropic-173602586.html",
-      "source": "yahoo.com",
+      "title": "King Charles Convenes OpenAI, Anthropic, Nvidia and Google for AI Safety Summit - Decrypt",
+      "url": "https://decrypt.co/378504/king-charles-openai-anthropic-nvidia-google-deepmind-ai-safety",
+      "source": "Decrypt",
       "publishedAt": "2026-09-17T17:36:02.000Z",
       "kind": "news",
       "tier": 3,
@@ -1089,81 +1117,12 @@
         "GOOGL"
       ],
       "score": 55,
-      "summary": "King Charles hosted senior AI executives at his Scottish estate to discuss keeping the technology \"in the service of humanity,\" days after industry leaders called for a slowdown."
+      "summary": "King Charles hosted senior AI executives at his Scottish estate to discuss keeping the technology \"in the service of humanity.\""
     },
     {
-      "title": "OpenAI’s experimental AI agents caught teaching future versions of itself to cheat - Mashable SEA",
-      "url": "https://sea.mashable.com/tech/54969/openais-experimental-ai-agents-caught-teaching-future-versions-of-itself-to-cheat",
-      "source": "Mashable SEA",
-      "publishedAt": "2026-09-17T17:29:50.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI shared six new examples of AI misalignment. In one case, AI agents taught future versions of themselves to bypass human control."
-    },
-    {
-      "title": "Google, NASA launch AI model to map methane emissions from space - ESG Dive",
-      "url": "https://www.esgdive.com/news/google-nasa-launch-ai-model-to-map-methane-emissions-from-space/830688/",
-      "source": "ESG Dive",
-      "publishedAt": "2026-09-17T17:26:04.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Iran Drone Strikes on Amazon Data Centers Are Permanently Deleting Customer Data - Futurism",
-      "url": "https://futurism.com/artificial-intelligence/iran-drone-strikes-data-centers-deleting-customer-data",
-      "source": "Futurism",
-      "publishedAt": "2026-09-17T17:25:01.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "AMZN"
-      ],
-      "score": 55,
-      "summary": "As the US Iran war shows no signs of letting up, strikes on data centers are putting customer data in serious peril."
-    },
-    {
-      "title": "OpenAI tests sponsored AI agents inside ChatGPT ads - qz.com",
-      "url": "https://qz.com/openai-chatgpt-sponsored-agents-hubspot-shopify-091726",
-      "source": "qz.com",
-      "publishedAt": "2026-09-17T17:18:18.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "The Sponsored Agents feature lets users start conversations with business-backed agents after clicking an ad in ChatGPT"
-    },
-    {
-      "title": "Nvidia Commits $2 Billion to Brookfield Artificial Intelligence Fund, Bloomberg Reports - marketscreener.com",
-      "url": "https://www.marketscreener.com/news/nvidia-commits-2-billion-to-brookfield-artificial-intelligence-fund-bloomberg-reports-ce785bd3de88f421",
-      "source": "marketscreener.com",
-      "publishedAt": "2026-09-17T17:08:14.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Price: 219.17, Change: +5.27, Percent Change: +2.46 ..."
-    },
-    {
-      "title": "Snap's $2,195 Glasses Are Becoming an Nvidia AI Bet - Snap (NYSE:SNAP), NVIDIA (NASDAQ:NVDA) - benzinga.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZVRYdm1SWTVqNjgtZzBjNFhJOGVzOUo2SXZHa3JYdWFvTkZENDBfdHBtOVJ5R3YxQjlsY2Jza005ZG1aZVVVSC1wbWtmSWNLcDRJeEpNR3NybXpWZE96ZVJ4T3ptazNqbndQS2xMcW02OTFZSk0yUEhaLTVpcjAxNjFzUEJ1ZmFkZ0VKZF9PS1E?oc=5",
-      "source": "benzinga.com",
+      "title": "Snap's $2,195 Glasses Are Becoming an Nvidia AI Bet - Snap (NYSE:SNAP), NVIDIA (NASDAQ:NVDA) - Benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61849887/snap-nvidia-ai-glasses",
+      "source": "Benzinga",
       "publishedAt": "2026-09-17T16:19:05.000Z",
       "kind": "news",
       "tier": 2,
@@ -1174,22 +1133,9 @@
       "score": 55
     },
     {
-      "title": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents - Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTkp3YWFfcEsyN1Z4eGRkVXRVXzh5RW5jYnRJczZKa2ROMzhCam9aN3d2SkN6b2c3eklFWVJ4b3N6NlZOUVNoa2tYbC1CRDZoVHhoZmUtZW5EUEExdFI3dG5qa1piZEF4alAxUGRsWkQtWjdJa0ZWNmozOUh1azlSZ29YS2hTRm9Gc24takZ1R2JNdWlwbTk3SW9KU29URjBCWmtQUEhkbk9CbmdYTDdYbVNR?oc=5",
-      "source": "Ars Technica",
-      "publishedAt": "2026-09-17T16:18:34.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "EXCLUSIVE: Google Is Racing to Secure Nuclear Power for AI—The Fuel Problem Comes Next - benzinga.com",
+      "title": "EXCLUSIVE: Google Is Racing to Secure Nuclear Power for AI—The Fuel Problem Comes Next - Benzinga",
       "url": "https://www.benzinga.com/markets/commodities/26/09/61846547/google-ai-nuclear-fuel",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "publishedAt": "2026-09-17T14:51:25.000Z",
       "kind": "news",
       "tier": 2,
@@ -1229,9 +1175,23 @@
       "summary": "A new coalition that includes Google, Nvidia, Anthropic and Emerald AI wants to find 100 GW of grid capacity for new data centers."
     },
     {
-      "title": "Huawei’s Plan to Become China’s Nvidia - wsj.com",
+      "title": "When AI Agents Cheat: What the OpenAI Incident Means for Channel Partners - The Futurum Group",
+      "url": "https://futurumgroup.com/insights/when-ai-agents-cheat-what-the-openai-incident-means-for-channel-partners/",
+      "source": "The Futurum Group",
+      "publishedAt": "2026-09-17T12:09:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Learn what the OpenAI Incident means for channel partners and enterprise AI governance. Key lessons from the July 2026 security breach incident."
+    },
+    {
+      "title": "Huawei’s Plan to Become China’s Nvidia - WSJ",
       "url": "https://www.wsj.com/tech/ai/huaweis-plan-to-become-chinas-nvidia-8af8d8a1",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-09-17T10:29:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1257,34 +1217,6 @@
       "score": 55
     },
     {
-      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads - The Hacker News",
-      "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-      "source": "The Hacker News",
-      "publishedAt": "2026-09-17T09:53:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI discloses six model misalignment incidents and introduces a framework for tracking and reporting them."
-    },
-    {
-      "title": "OpenAI Admits AI Models Concealed Errors, Fabricated Information and Bypassed Controls - The Media Line",
-      "url": "https://themedialine.org/headlines/openai-admits-ai-models-concealed-errors-fabricated-information-and-bypassed-controls/",
-      "source": "The Media Line",
-      "publishedAt": "2026-09-17T09:35:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "OpenAI has acknowledged numerous cases in which its [&hellip;]"
-    },
-    {
       "title": "OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says",
       "url": "https://www.cnbc.com/2026/09/17/chinas-ai-models-make-only-10percent-of-us-leaders-revenue-rhodium.html",
       "source": "CNBC",
@@ -1299,9 +1231,9 @@
       "score": 55
     },
     {
-      "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones - wsj.com",
+      "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones - WSJ",
       "url": "https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f",
-      "source": "wsj.com",
+      "source": "WSJ",
       "publishedAt": "2026-09-17T09:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1351,9 +1283,134 @@
         "OpenAI"
       ],
       "score": 55
+    },
+    {
+      "title": "China's Huawei says AI chip demand outstrips supply as it steps up Nvidia challenge - Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/",
+      "source": "Reuters",
+      "publishedAt": "2026-09-17T02:40:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Micron vs. Sandisk: Which AI Memory Stock Benefits More From Nvidia's $279 Billion Warning? - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/09/16/micron-vs-sandisk-which-ai-memory-stock-benefits/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-09-17T02:21:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Memory has become a binding constraint for artificial intelligence (AI) data center build-outs."
+    },
+    {
+      "title": "Huawei set to unveil China’s best answer to Nvidia AI chip reign - The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/09/17/tech/huawei-china-nvidia-ai-chip/",
+      "source": "The Japan Times",
+      "publishedAt": "2026-09-17T01:29:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "The company is aiming to ensure its Ascend chips can operate every single AI model, in China and beyond."
+    },
+    {
+      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Plan - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/openai-reports-new-ai-safety-incidents-sets-disclosure-process",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-17T01:12:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-17T00:12:24.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     }
   ],
   "general": [
+    {
+      "title": "What Happens When A.I. Stops Doing What Humans Want? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85UFFhZzRDZVNiX3RxNTRSY3QwQlAzTDlJYkhxU1k5bW14VHVKdldfNmEyZGRsbGRmaVQycHRJNFlZNDJEcXBobzN5UGFjZXB0SUlBMlR3U2JxSWRwNWFZRUtNLUVuVmJGcDZpNnpfRnBRN2dMRzRRYnJoUWV5QQ?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-17T18:18:21.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "JP Morgan Analysts Unsure How to Model Oil as Iran War Drags On",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/jp-morgan-analysts-unsure-how-to-model-oil-as-iran-war-drags-on",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T18:16:42.000Z",
+      "kind": "news",
+      "summary": "More than six months after the start of the Iran war, JPMorgan Chase & Co.’s oil analysts are stating what many traders have been saying privately for some time: the path to the end of the war is increasingly impossible to predict.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "How Existential Fears Are Shaping the Debate Over AI - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb3hnY2xIbmllc1ZicWItQ3pPTlo3TVlKS3NHVFEzb3BzcHF1YXV5Yk94dF9od2oycFBaSXU1OUdwYjFZcVBqczBMVkJEc2NqbVNESXVuVEw1aW9KR3BUaldLOENLTzRhNWplbEVDNlg5VlliLTYyalZYQlVSRDRYUlNnMDhYYkRGLTg2QzFNRUxfTVZIdXg4ZWpGVmtoQ1JIbkFMNXNXRUcyWEY0aFJJRERKOGIta0Ry?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-17T18:11:05.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Pioneer Andrew Ng Calls Extinction Fears ‘Science Fiction’",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/ai-pioneer-andrew-ng-calls-extinction-fears-science-fiction",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T18:09:32.000Z",
+      "kind": "news",
+      "summary": "Artificial intelligence pioneer Andrew Ng said warnings about existential AI risks from researchers at top model makers are “science fiction” that may be detrimental to ensuring the technology’s maximum benefits to society.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Test Your ETF Knowledge In Our IQ Test",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-17/test-your-etf-knowledge-in-our-iq-test",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T18:03:19.000Z",
+      "kind": "news",
+      "summary": "Bloomberg's Joel Weber puts Scarlet Fu, Eric Balchunas, and Isabelle Lee to the test on \"Bloomberg ETF IQ\" in this week's edition of \"IQ Test.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "AI Wealth Boom and Silicon Valley's Jobless Tech Workers",
       "url": "https://www.bloomberg.com/news/videos/2026-09-17/ai-wealth-boom-and-silicon-valley-s-jobless-tech-workers-video",
@@ -1373,6 +1430,18 @@
       "publishedAt": "2026-09-17T17:53:49.000Z",
       "kind": "news",
       "summary": "AI is helping companies build faster, but as competition at the frontier intensifies, should there be limits on how much risk companies can take to stay ahead? Karen McCormick, chief investment officer at Beringea, argues the answer isn't slowing innovation, but establishing common guardrails around testing, cybersecurity, and incident reporting. She joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI’s Safety Debate Meets Silicon Valley FOMO",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-17/bloomberg-tech-9-17-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-17T17:52:46.000Z",
+      "kind": "news",
+      "summary": "Bloomberg’s Ed Ludlow breaks down OpenAI's new plan to track when things go wrong after revealing new cases of its AI models going off-script. Plus, Databricks CEO Ali Ghodsi and machine learning pioneer Andrew Ng weigh in on the global AI safety debate. Meanwhile in Silicon Valley, the immediate fear is missing out on the money. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1436,7 +1505,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "What the Bassman-Simplify Asset Management Clash Tells Us About the ETF Industry",
@@ -1448,7 +1517,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Spanish Copper Manufacturer Cunext Is Said to Consider an IPO",
@@ -1516,7 +1585,7 @@
       "source": "Bloomberg",
       "publishedAt": "2026-09-17T16:43:09.000Z",
       "kind": "news",
-      "summary": "Airtel Africa Plc is considering raising less money than previously sought in the initial public offering for Airtel Money, a listing process that could start as soon as next week, according to people familiar with the matter.",
+      "summary": "Airtel Money’s owners are considering raising less money than previously sought in the company’s initial public offering, a listing process that could start as soon as next week, according to people familiar with the matter.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1558,36 +1627,12 @@
       "score": 50
     },
     {
-      "title": "US to Reopen Largest Port for Mexican Cattle Shipments",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/us-to-reopen-largest-port-for-mexican-cattle-shipments",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T16:12:05.000Z",
-      "kind": "news",
-      "summary": "The US is reopening its biggest port for Mexican live cattle shipments, marking a significant step in the Trump administration’s efforts to ease the pressures of a domestic cattle shortage.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "France Seeks to Pare Deficit After Missing 2026 Target",
+      "title": "France Seeks to Pare Deficit After Missing Its 2026 Target",
       "url": "https://www.bloomberg.com/news/articles/2026-09-17/french-premier-eyes-54-billion-effort-to-stop-deficit-blowout",
       "source": "Bloomberg",
       "publishedAt": "2026-09-17T16:10:28.000Z",
       "kind": "news",
       "summary": "French Prime Minister Sebastien Lecornu will propose a vast effort to control spending and narrow the deficit after failing to do so in 2026, setting the stage for a parliamentary battle that risks toppling the government just ahead of presidential elections.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Stocks Rally, Yields Fall After Fed Hikes Rates, Signals More to Come",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-17/bloomberg-surveillance-9-17-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T16:04:21.000Z",
-      "kind": "news",
-      "summary": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day than \"Bloomberg Surveillance.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1687,12 +1732,11 @@
       "score": 50
     },
     {
-      "title": "Turkey Detains Executives at Tera, Destek Amid Fund Turmoil",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/turkey-detains-executives-at-tera-destek-amid-fund-turmoil",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T15:31:35.000Z",
+      "title": "Mastercard Joins Visa in Letting AI Bots Do Your Shopping - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZXNKRzZlQzdMMmVKeVUyUmxsaVhleXp1V2twcHpuMVBKUnowWG16bk1POVdrNGY1QUFPZTV5bHF2LXVEc2RlNDFGUVU0dE84eW41TFNfRzJuWjhwek5TN3JBWjNxVVV4bDQxamxtTnN1Wi1jVXc3XzdKbm1OQW1Wc2w0ZndiSnFDbHNvbVVfNlBjaFFaektfNHg2SUdxVDI3bmxsWWlDU3pwNXBq?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-17T15:36:00.000Z",
       "kind": "news",
-      "summary": "Turkish authorities said several top finance executives were detained while others were given a travel ban, according to a statement on Thursday, as part of an investigation related to mass outflows from some funds this week.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1710,9 +1754,9 @@
       "score": 50
     },
     {
-      "title": "Antenna Group Announces Antenna House 2026, Bringing Energy, Climate, AI, and Business Leaders Together at Climate Week NYC - businesswire.com",
+      "title": "Antenna Group Announces Antenna House 2026, Bringing Energy, Climate, AI, and Business Leaders Together at Climate Week NYC - Business Wire",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWEhXQTU3R0Y4TVJFOXRySHhYd0tzYnpLaDg3N2lBZkNHY0x4c0NMX21zN0FIYXFMeDNSRlczZTdhT1JYTy16cFgtZ1lwa3ZUSzU1U21IU2hoeGhoeWhRRUc5UURVSVJuN1BVZ1Y2Z2NNdE5hTjVadWZSRDNwUXdTYUctWGFjRFhZNS03Q1FNWWlmMVVVbVUwQXk4aEFibFVFUUJ0MGkwaVQtVUZSNjVkRUM2YkU1M3doUko4QWpsYXh5cWRjNlVPTXZVWms3cDN2YS15bG9fTG5TSDhsa3JoVTV1aUxURk0tVDJKaVdhYnFpZDRMOWxfX1BIM3QySVFlRGp2cEJ6VQ?oc=5",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "publishedAt": "2026-09-17T15:20:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1778,18 +1822,6 @@
       "score": 50
     },
     {
-      "title": "Lucid Done Working With AlixPartners, CEO Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-17/lucid-done-working-with-alixpartners-ceo-says-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T14:44:21.000Z",
-      "kind": "news",
-      "summary": "Lucid Group Chief Executive Officer Silvio Napoli says the electric-vehicle maker has stopped working with restructuring adviser AlixPartners. He also talks about working with Bolt to deploy at least 25,000 fully autonomous Lucid vehicles across Europe. Napoli speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
       "url": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html",
       "source": "CNBC",
@@ -1813,36 +1845,12 @@
       "score": 50
     },
     {
-      "title": "Huang Says AI Firms Should Be 'More Rigorous in Testing'",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-17/huang-says-ai-firms-should-be-more-rigorous-in-testing-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T14:09:04.000Z",
-      "kind": "news",
-      "summary": "Nvidia CEO Jensen Huang comments on the sidelines of an event hosted by King Charles III in Scotland about concerns surrounding the mounting risks of artificial intelligence. \"You have rigorous testing systems, the testing lab should be contained, and products should not be released to the public until it's ready to be used by the public,\" Huang says. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Pentagon CTO says U.S. government shouldn't take stakes in AI giants, questions adding AI rules",
       "url": "https://www.cnbc.com/2026/09/16/emil-michael-ai-regulation-trump.html",
       "source": "CNBC",
       "publishedAt": "2026-09-17T14:06:00.000Z",
       "kind": "news",
       "summary": "President Donald Trump has angrily pushed back on the calls from industry and lawmakers for an AI slowdown or greater regulation.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Who Made the Guest List for King Charles III’s AI Summit",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/who-made-the-guest-list-for-king-charles-iii-s-ai-summit",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T14:05:43.000Z",
-      "kind": "news",
-      "summary": "King Charles III has asked some of the biggest figures in artificial intelligence for reassurances about keeping their inventions under control. Around 30 technology executives, policymakers, and ethics researchers attended the monarch’s private summit at Dumfries House in Scotland. Here are some of the best-known attendees.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1921,27 +1929,15 @@
       "score": 50
     },
     {
-      "title": "Czechs Keep Door Open for Rate Hike as Inflation Risks Persist",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/czechs-hold-rates-with-markets-looking-for-more-hikes-to-come",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-17T12:30:40.000Z",
+      "title": "Experts Say Frontier AI Slowdown Won’t Slow Adoption - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVVvOVIyNGhnd21XUFNoWmI5ZTRHUXFZcFlRcGxVNDEyRG9HTklXUFQ1bHk4S1Rfbi1jNXNDV095dS1ienhxeTRJZHJrWUlKZWdqenlhajREVTBnVFhScktZclFnZ3RicmJKalhBSmExRDZDN0ItX2xZcWduRDkxczNhUF9XVnhDOW10bGxBLUFZSjFwNTVJc3k1c1Z4MW5iMTRPRVI0aVBzZE5YOXc?oc=5",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-09-17T18:16:19.000Z",
       "kind": "news",
-      "summary": "Czech policymakers may deliver a second interest rate increase this year to tame persistent domestic price risks should inflationary pressure grow, according to the central bank’s governor.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "INNIO Secures 450 MW Order to Power Next-Generation Data Centers - businesswire.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUTB4M3J0dFQ3S1hDZzlxWkNLV09DNDhWQUt0TFpKYjZ2VmNUY3dQRnh3V185cGdHOFk0TWlnUTFMVm9FSW9RdzFxUk5nUzF6NExDV25lb29ZN2R2REF3NmVlNWVjQ0VmZTJoWFZsMTB0N3JNQnotNllYZjZ4OC1Ka0lGMG95N2pLeWVwRVhiMjdqSVhrampoenlJdFVBSktZdHlCQmJCckN2OElFemVmYzVNT2F5MTdyQzZLZ2hn?oc=5",
-      "source": "businesswire.com",
-      "publishedAt": "2026-09-17T12:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     }
   ],
   "sourceErrors": [

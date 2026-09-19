@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T09:32:44.000Z",
+  "generatedAt": "2026-09-19T10:02:50.721Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,28 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "[September 19, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1wkbr13/september_19_2026_fermi_america_frmi_discussion/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-09-19T04:02:07.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 68,
-      "summary": "[September 19, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
     {
       "title": "Last wknd open AI and Anthropic everyone warning about AI Scary and Bad. Fomc liquidity grab; Today after Hours Trump announces AI summit this weekend AI Good. you gotta love the Grift King $PLTR $NVDA $DJT $KEEL $FRMI",
       "url": "https://stocktwits.com/YouVSYou/message/664626986",
@@ -84,6 +62,28 @@
       "related": [],
       "score": 60.5,
       "summary": "$FRMI Elon is building the world’s most colllllosal Fab/Factory in Texas, TerraFab. The mind absolutely boggles at the size. Likely the largest commercial construction project on earth once completed. $FRMI also in Texas, hmmmm 😉 $TSLA $SP"
+    },
+    {
+      "title": "[September 19, 2026] Fermi America - $FRMI - Discussion Thread",
+      "url": "https://www.reddit.com/r/FRMI/comments/1wkbr13/september_19_2026_fermi_america_frmi_discussion/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-09-19T04:02:07.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/AutoModerator",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 58,
+      "summary": "[September 19, 2026] Fermi America - $FRMI - Discussion Thread"
     },
     {
       "title": "SEC filing: PX14A6G — Fermi Inc. (NOTICE OF EXEMPT SOLICITATION)",
@@ -939,6 +939,19 @@
   ],
   "related": [
     {
+      "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones - WSJ",
+      "url": "https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f",
+      "source": "WSJ",
+      "publishedAt": "2026-09-19T09:49:50.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
       "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors? - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/09/19/sam-altman-ai-industry-worry-nvidia-microsoft/",
       "source": "The Motley Fool",
@@ -954,19 +967,6 @@
       "summary": "The assessment isn't a permanent indictment. Indeed, if anything, it's a clarion call."
     },
     {
-      "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones - WSJ",
-      "url": "https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f",
-      "source": "WSJ",
-      "publishedAt": "2026-09-19T08:58:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75
-    },
-    {
       "title": "These 15 Words From Amazon’s Andy Jassy May Eliminate Nvidia’s Biggest Risk - The Globe and Mail",
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMD/pressreleases/4692314/these-15-words-from-amazons-andy-jassy-may-eliminate-nvidias-biggest-risk/",
       "source": "The Globe and Mail",
@@ -977,7 +977,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Detailed price information for Adv Micro Devices (AMD-Q) from The Globe and Mail including charting and trades."
     },
     {
@@ -993,6 +993,48 @@
       ],
       "score": 65,
       "summary": "Google's Gemini gained unauthorized access to real company systems during a May 2026 test, then halted after detecting a real-world breach."
+    },
+    {
+      "title": "AMD Targets NVIDIA Vera In Latest EPYC Venice “Agentic AI” Benchmarks, Zen 6 Leads With 20% Higher Per-Core & Over 2x Gains In Platform-Level Performance - Wccftech",
+      "url": "https://wccftech.com/amd-targets-nvidia-vera-in-latest-epyc-venice-agentic-ai-benchmarks/",
+      "source": "Wccftech",
+      "publishedAt": "2026-09-19T09:40:29.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "AMD has shared new benchmarks of its 6th Gen EPYC Venice CPUs in Agentic AI workloads against the competition from Intel & NVIDIA."
+    },
+    {
+      "title": "Google Gemini accessed protected systems of 3 real companies during artificial intelligence cybersecurity test - Fox Business",
+      "url": "https://www.foxbusiness.com/technology/google-gemini-accessed-3-companies-systems-during-ai-cybersecurity-test",
+      "source": "Fox Business",
+      "publishedAt": "2026-09-19T09:29:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "Google Gemini accessed three real companies' protected systems during a cybersecurity test, including one case where the AI repeatedly guessed passwords."
+    },
+    {
+      "title": "Nvidia CEO dismisses AI doomsday fears: '0% chance' of end of world - Anadolu Ajansı",
+      "url": "https://www.aa.com.tr/en/world/nvidia-ceo-dismisses-ai-doomsday-fears-0-chance-of-end-of-world/4061683",
+      "source": "Anadolu Ajansı",
+      "publishedAt": "2026-09-19T09:03:34.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Jensen Huang rejects AI doomsday scenarios, stresses need for safe products; says claims stirring fear across America 'make no sense' and may be driven by 'ulterior reasons' | Anadolu"
     },
     {
       "title": "Nvidia CEO Jensen Huang Rejects Calls to Slow Down AI Development: ‘We Are Going to Go as Fast We Can, But…' - Benzinga",
@@ -1021,19 +1063,6 @@
       ],
       "score": 55,
       "summary": "Google has disclosed that its flagship artificial intelligence (AI) model, Gemini, broke past its designated testing boundaries in May and hacked the digital infrastructure of three real-world companies during a series of cybersecurity evaluations designed to assess the AI agents’ offensive capabilities. The search giant, however, clarified that its system autonomously called off its operations once it gained administrative entry and realised it had logged into actual enterpr"
-    },
-    {
-      "title": "Google’s Gemini AI hacked into other companies, adding to ‘rogue’ AI incidents - The Washington Post",
-      "url": "https://www.washingtonpost.com/technology/2026/09/18/google-gemini-ai-hacked-into-other-companies-during-internal-testing/",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-19T03:12:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55
     },
     {
       "title": "Google's Gemini becomes latest AI model to break out and hack computer systems",
@@ -1100,19 +1129,6 @@
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI Projects Burning Through $278 Billion by 2030, FT Says - Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-18/openai-projects-burning-through-278-billion-by-2030-ft-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-18T23:02:13.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
       ],
       "score": 55
     },
@@ -1258,20 +1274,6 @@
       "score": 55
     },
     {
-      "title": "Prysmian, Rio Tinto partner to bring low-carbon aluminum to Amazon data center",
-      "url": "https://www.reuters.com/technology/prysmian-rio-tinto-partner-bring-low-carbon-aluminum-amazon-data-center-2026-09-18/",
-      "source": "Reuters",
-      "publishedAt": "2026-09-18T14:55:00.000Z",
-      "kind": "news",
-      "summary": "Prysmian has partnered with Rio Tinto to supply electrical cables made with low-carbon aluminum for an Amazon data center in Ohio. The cables will utilize ELYSIS \"inert-anode\" technology, which eliminates direct greenhouse gas emissions during the aluminum smelting process. This project marks the first known use of inert-anode-smelted aluminum in a data center, demonstrating a method to reduce the carbon footprint at the raw material level. [sentiment: Bullish]",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "AMZN"
-      ],
-      "score": 55
-    },
-    {
       "title": "OpenAI ‘ethically hacked’ with help of Anthropic’s Claude chatbot - The Guardian",
       "url": "https://www.theguardian.com/technology/2026/sep/18/openai-hacked-anthropic-claude-chatbot",
       "source": "The Guardian",
@@ -1286,9 +1288,9 @@
       "summary": "US cybersecurity researchers who conducted hack say ‘scope of what we could theoretically access was huge’"
     },
     {
-      "title": "Microsoft AI CEO: OpenAI's latest AI revelation a 'serious situation' - cnbc.com",
+      "title": "Microsoft AI CEO: OpenAI's latest AI revelation a 'serious situation' - CNBC",
       "url": "https://www.cnbc.com/2026/09/18/microsoft-ai-ceo-openais-latest-ai-revelation-a-serious-situation.html",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "publishedAt": "2026-09-18T13:23:58.000Z",
       "kind": "news",
       "tier": 1,
@@ -1315,34 +1317,6 @@
       "summary": "Anthropic and OpenAI said they'd welcome evaluators to track AI risks. A group of watchdogs, backed by pioneers like Geoffrey Hinton, has its answer."
     },
     {
-      "title": "Anthropic and OpenAI hunt for smaller data center deals, sources tell CNBC, in race to deploy AI capacity",
-      "url": "https://www.cnbc.com/2026/09/18/anthropic-openai-small-ai-data-center-deals.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-18T09:38:17.000Z",
-      "kind": "news",
-      "summary": "Anthropic and OpenAI have announced a flurry of AI infrastructure deals over the past year as demand booms.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia, OpenAI CEOs set to attend Xi dinner at White House - Latest news from Azerbaijan",
-      "url": "https://news.az/news/nvidia-openai-ceos-set-to-attend-xi-dinner-at-white-house",
-      "source": "Latest news from Azerbaijan",
-      "publishedAt": "2026-09-19T08:24:23.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
       "title": "Nvidia's Huang says AI development should move 'as fast as we can' - Türkiye Today",
       "url": "https://www.turkiyetoday.com/business/nvidias-huang-says-ai-development-should-move-as-fast-as-we-can-3228448",
       "source": "Türkiye Today",
@@ -1355,31 +1329,38 @@
       ],
       "score": 45,
       "summary": "Nvidia CEO Jensen Huang says AI development should move as fast as possible, while stressing that companies must not release unsafe products"
+    },
+    {
+      "title": "Anthropic Races to Defend Enterprise AI Lead Against OpenAI’s GPT-6 Astra But Weighs Safety Concerns: Report - TradingView",
+      "url": "https://www.tradingview.com/news/benzinga:3c268e173094b:0-anthropic-races-to-defend-enterprise-ai-lead-against-openai-s-gpt-6-astra-but-weighs-safety-concerns-report/",
+      "source": "TradingView",
+      "publishedAt": "2026-09-19T07:40:23.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Anthropic is reportedly weighing a new AI model to counter OpenAI’s GPT-6 Astra as the company faces mounting competitive pressure ahead of a potential IPO, even as its CEO urges the industry to slow AI development.Anthropic Weighs New AI ModelAnthropic is thinking of launching a new AI model as GP…"
+    },
+    {
+      "title": "AI data centers: Google and Nvidia pledge to throttle power consumption to prevent blackouts - Korben",
+      "url": "https://korben.info/en/ai-data-centers-google-nvidia-power-consumption-blackout.html",
+      "source": "Korben",
+      "publishedAt": "2026-09-19T07:17:48.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "score": 45,
+      "summary": "Google, Nvidia and Emerald AI, a young American company specializing in data center energy management, launched the AI Energy Management Alliance this ..."
     }
   ],
   "general": [
-    {
-      "title": "AI anxiety is real. Here’s how to deal with it, according to therapists. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN25UYzItbzF2elUtVWVJRWtzaVg0R3NoVUtvWXpwXzc5MjVjMXhra042Rk80RGVYTWRZVHNaNE54WEZ2d3FvN0JVTDZVa0k0TV96bVBSajRfN0Z3ZExaY3RUSDB3cjhpaU5xR2tEQ2VsaU9kRkVtQ1Utd1Z6Q2pnWUtwQnBMb0FaUjZsYS1MMTlmRzAxUzA2STFLeUhzdlZEQzhsdUJkbktHbmREN1FqWmt4ckM?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-19T09:02:17.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "How DraftKings Uses A.I. to Target the Gamblers Likeliest to Lose - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzUFZ1NmVuRDZ0WGhvT1BiZUdldFg3ZkpIS1VLOHg0RTdDc0pCQnFKc25tZUNnQnJzcVgyaHNzX3JLdFZqa1h4RjFJT0NGaC1JN1pXZWpPNEZtdlprQlhMdk9YVDBEX01BYkNxYzNQaw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-19T09:00:18.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
     {
       "title": "Europe’s Winter Power Surge Is Biggest Since Energy Crisis",
       "url": "https://www.bloomberg.com/news/articles/2026-09-19/europe-s-winter-power-surge-is-biggest-since-energy-crisis",
@@ -1390,7 +1371,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "World Economy Latest: Fed Boosts Interest Rates, Signals Another 2026 Hike",
@@ -1402,7 +1383,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "A Goldman M&A Banker Helped Bring the Olympics to Los Angeles",
@@ -1464,17 +1445,6 @@
       "score": 50
     },
     {
-      "title": "Anthropic picks consulting firm to monitor AI safety, pledges to spend $1 billion - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnN4LUdjc1JEOHpBaU9kc2hlb3BmX2Nmb1NodlYwbnZ0R1BlRWtxWld2cW1ZdWlMZnQwYWk3bGl0d0JlR3RuZU5PaTE3YkhmRm1JamZfcndhcWZCM3RlN1ZXb09qQ1RJUjRKSmFKS2lxNk9PMTZoR3lfMkVTOXVpaVdpY2JVX3k3N1hiSGREQ3ZtZFdudUkzYm9JLUdiZG1Bc05FSXZR?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-09-19T05:41:44.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Bolivia Eliminates Diesel Subsidy After IMF Loan Approval",
       "url": "https://www.bloomberg.com/news/articles/2026-09-19/bolivia-eliminates-diesel-subsidy-after-imf-loan-approval-mu7ydf34",
       "source": "Bloomberg",
@@ -1499,45 +1469,32 @@
       "score": 50
     },
     {
-      "title": "Blackstone Sees India Nearing Tipping Point for Foreign Capital",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-19/blackstone-sees-india-nearing-tipping-point-for-foreign-capital",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-19T04:01:00.000Z",
-      "kind": "news",
-      "summary": "As Jon Gray recalls it, Blackstone Inc.’s first foray into India started slowly and then ran into headwinds during the global financial crisis.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Accenture and Anthropic Partner to Build Team of Embedded Evaluators at Anthropic - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc2d6LUVDYTRYV2NFODR0eHpiVk9NVld2bGF1N3liREtEblhhLUE5d2NiSVliLU9rR2VGUURqYmRfUW9rSzFmYWJuR1ZXSlVtUnY4OUJVVWE5bWMzMC1ydzNhVW5uNWtBZGFISXpaNmljZmhqVlpQUVFucEJDcDFyVHFEN2RyNXdmUkRxX3BhMHFWRTlpWm1sTGthRVRxY2p2SGxEcXJaYVFSQVdwS0ljbV9NWWMteU14R3JILTk4eHRCeklsQlN4OUxPQldEclhSbk00Ug?oc=5",
-      "source": "Business Wire",
-      "publishedAt": "2026-09-19T03:56:57.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China Opens Probes Into Four Online Travel Booking Platforms",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-19/china-opens-probes-into-four-online-travel-booking-platforms",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-19T03:46:50.000Z",
-      "kind": "news",
-      "summary": "China opened investigations into four online hotel and travel booking platforms over suspected practices that may undermine fair competition and merchants’ rights, extending a broader regulatory crackdown on the sector.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
       "source": "Anthropic",
-      "publishedAt": "2026-09-19T09:30:28.000Z",
+      "publishedAt": "2026-09-19T09:52:36.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Commentary: How to stop data centers from grabbing too much power - Sacramento Bee",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1COXkzTkRIYW83VEdXSDMtRHhrLTYyZ01Fb29SY212LVR0aHI1YzZVYnlIQ0RxNTZiNm83VXlDVjdXNDRWU1RJcUJrZGVncUtEOWNBR0VKNXpmbUs2N294REdWTlVfRTFKTWRVYlc3eG9vTlZa?oc=5",
+      "source": "Sacramento Bee",
+      "publishedAt": "2026-09-19T09:42:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "AI anxiety is real. Here’s how to deal with it, according to therapists. - washingtonpost.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN25UYzItbzF2elUtVWVJRWtzaVg0R3NoVUtvWXpwXzc5MjVjMXhra042Rk80RGVYTWRZVHNaNE54WEZ2d3FvN0JVTDZVa0k0TV96bVBSajRfN0Z3ZExaY3RUSDB3cjhpaU5xR2tEQ2VsaU9kRkVtQ1Utd1Z6Q2pnWUtwQnBMb0FaUjZsYS1MMTlmRzAxUzA2STFLeUhzdlZEQzhsdUJkbktHbmREN1FqWmt4ckM?oc=5",
+      "source": "washingtonpost.com",
+      "publishedAt": "2026-09-19T09:32:03.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1556,23 +1513,36 @@
       "score": 40
     },
     {
-      "title": "What might an AI doomsday look like? Experts have given it some thought - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnZ3Y0JPQ1U1OGs5NUY5UjBVc3kxWjNGVjFieElrZ1lTcTZyNFBzOVFITk9sX2RLTXdKSmwtUGFGQnRtQWE0cTgyaDMtdW1EMDlIVTRpWnRSY2Rwcm4wNnY2M2hhRHpkUU9LWG8tRGtQU0VhTFVkbU5vNjlLS3AzeERrTQ?oc=5",
-      "source": "NBC News",
-      "publishedAt": "2026-09-19T09:00:00.000Z",
+      "title": "Blackstone Sees India Nearing Tipping Point for Foreign Capital",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-19/blackstone-sees-india-nearing-tipping-point-for-foreign-capital",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-19T04:01:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "summary": "As Jon Gray recalls it, Blackstone Inc.’s first foray into India started slowly and then ran into headwinds during the global financial crisis.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "How to know if you can trust an artificial intelligence chatbot's answer to your pressing question - Kansas Reflector",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOEVReElibS1xZ0c0aGVtNmlnU1Jva2JET3lBbU5BbHplVjQ5U2hGQncxYWZscnJxREc5cjZXU2Z2aTU1UzM0YUFpM0lHSXhBTmxWRW5mU0paa0t5M1dkVnRCUmdOSFpGc3JGcHUxMWM3emZZbGFrVjN2bnVoQVJTWVpiYlBXbWlqS2ppU19GZzNuOGRWZVlNdEdPMUI2SkFIbHFRZ1AwaVhRY0Y5UmZTSTJqd3oyRlBTbl9idG9pTm11T1NaNy04ZXp0d0dVanhlRDBv?oc=5",
-      "source": "Kansas Reflector",
-      "publishedAt": "2026-09-19T08:39:14.000Z",
+      "title": "Accenture and Anthropic Partner to Build Team of Embedded Evaluators at Anthropic - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc2d6LUVDYTRYV2NFODR0eHpiVk9NVld2bGF1N3liREtEblhhLUE5d2NiSVliLU9rR2VGUURqYmRfUW9rSzFmYWJuR1ZXSlVtUnY4OUJVVWE5bWMzMC1ydzNhVW5uNWtBZGFISXpaNmljZmhqVlpQUVFucEJDcDFyVHFEN2RyNXdmUkRxX3BhMHFWRTlpWm1sTGthRVRxY2p2SGxEcXJaYVFSQVdwS0ljbV9NWWMteU14R3JILTk4eHRCeklsQlN4OUxPQldEclhSbk00Ug?oc=5",
+      "source": "Business Wire",
+      "publishedAt": "2026-09-19T03:56:57.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "China Opens Probes Into Four Online Travel Booking Platforms",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-19/china-opens-probes-into-four-online-travel-booking-platforms",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-19T03:46:50.000Z",
+      "kind": "news",
+      "summary": "China opened investigations into four online hotel and travel booking platforms over suspected practices that may undermine fair competition and merchants’ rights, extending a broader regulatory crackdown on the sector.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1595,28 +1565,6 @@
       "publishedAt": "2026-09-19T02:31:18.000Z",
       "kind": "news",
       "summary": "South Korea’s nominee for justice minister has withdrawn from consideration for the role before being confirmed, the second ministerial nominee to pull out in a week after the president reshuffled his cabinet.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI concerns beginning to mirror Y2K-era as push for regulation continues - The National Desk",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVjB3VlVKZWg3R0ZXNmRIV1V2Ql9ELWFFWXlxVHVxU1dFWlBLdG5jNFMxc2FOZzJlRDBnSVVuSEhJU25sUlcwQjRPcVNFSGhRTzJwYzBaSUNTRWxKNVJuTkk5S0IzRVkxYk1nZHJvbDZXck9UYVlNMXlHejE1ZS1lVldpRVBoNExzSUlwWmxQVzFDaDVYRHFISDRHMXhKd3YtbDFtMnE4UkxIaFN2em02WnREc0ZENEdMUU9IZGQweF8?oc=5",
-      "source": "The National Desk",
-      "publishedAt": "2026-09-19T02:12:31.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-19T00:23:01.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1669,9 +1617,9 @@
       "score": 40
     },
     {
-      "title": "Anthropic’s Annualized Revenue to Top $100 Billion in 2026, NYT Says - Bloomberg",
+      "title": "Anthropic’s Annualized Revenue to Top $100 Billion in 2026, NYT Says - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLW9ZWElPbVhzUXI2MzJpekpJT3owS3NyU1hYLUJWTmJ3SzBkenZVWi1UM2JOaFhidGUxV054MHN1RXFZMGs5Q0pFbHR4bHNFd2ZWamZlRDl2anZuWkxqSkRnUWhOYWRUam45Y051cmlNeFVieTN5MFI2OG1YVE1wQldLRGM5bzVPZi1DNUxEcy10WTdwWUJfUmc1UUNKMkhtZms4ZFVLOGpuclV3eVQtSkRn?oc=5",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-09-18T22:06:23.000Z",
       "kind": "news",
       "tier": 1,
@@ -1719,7 +1667,7 @@
       "title": "Anthropic’s IPO Will Happen a Month Later Than Expected - WSJ",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdUg4bGdBLTJ6cjNUSm9yN2I3NVRjRDlRTU1MSHc5cEMtbkVBbW9NWjJYaWppbmtaTkxqckpYZmVieXp5ZGt0YUotOEdBNXlRZXZHNmJxVDRlbkxGSm5zTDd5WUVrZ20td05ZaXF3ME9nMW84Zks0OHJSWXlrTDZQTnV0WkRQdG1qalVRUnFyb3FWSEFlS2c?oc=5",
       "source": "WSJ",
-      "publishedAt": "2026-09-18T21:43:00.000Z",
+      "publishedAt": "2026-09-18T21:44:58.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1775,21 +1723,10 @@
       "score": 40
     },
     {
-      "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal - cnbc.com",
+      "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal - CNBC",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYMldnaER6UDBnQk16Y1ViUC1FbndnREdmZmZMZG9QeTlBTnJPN0QwMncyTUxSOTc5SVNQR21tZ3p1ZzVJYnl3N1Y3bVA5SElMVUdOLVdBdnRYRVZvVFVJUnF5SnhJZnpvSW9Vcm1EWmhqSXhH0gF6QVVfeXFMT3dmLVlOb2dWTFFFbVlNQndJRGNBQ1F2VWNlR1VLNHFlM3l4QUtDZ0hjMGhVVzVEQlpneEEwbC1ON0l1elB2ZTU2MkE0WmhTdXNJOVprNTV4eFZXS2F4QkhzemxtYlBvS05JOWdqUlVpTjYzMmU2azFBbHc?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "publishedAt": "2026-09-18T21:31:03.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Data centers, AI increasingly become issue for elections - The Center Square",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZTBjdDVNWHN5Y1RNWGJIbHM4UmgyN2RlQ1BFNlBXQ1BuTGlVX01NM3RqUFZKRWdxVEFvbGR4TmJ4U1ZnbTNIWDE3dm91dE1tWHpPUkFNaC13ZmJjVWhKdHIzcXVsOE5HS2VxRVdSRmZCcmRHUnJ6OXV0WG91TXljRVV1Q0Y0czVOcTA2SEtmNUozLUJOMXcw0gGcAUFVX3lxTE9abzRWVDltNkZ6cUExdks3RGNXNnJoNkplT0xVQVlBQTB2aEd4QXdUT09sQ2N1a1Y2bWJYaEhZSGJMOFB2cDhZLXV2T1hnWG9qWTNVWXhVWjN5OUYwS01sWGZnNS1sbE1DdVpjUEZMaE1EREwxcjlocmFaNkhmVkl2LVRUakFfLXI0U0t6bnlmWElER2o0V1lJaF96Vg?oc=5",
-      "source": "The Center Square",
-      "publishedAt": "2026-09-18T21:30:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1931,6 +1868,77 @@
       "publishedAt": "2026-09-18T20:35:02.000Z",
       "kind": "news",
       "summary": "Hedge funds turned positive on the yen for the first time since July 2025, a noteworthy shift in sentiment weeks after US and Japanese authorities intervened in the market to support the currency.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Anthropic Sales Near $100 Billion Before November IPO, NYT Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/anthropic-s-annualized-revenue-to-top-100-billion-in-2026-nyt",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-18T20:33:40.000Z",
+      "kind": "news",
+      "summary": "Anthropic PBC is expected to generate more than $100 billion in annualized revenue this year as it continues to prepare for a trading debut as soon as November, according to the New York Times, citing people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Bitcoin Tops $80,000 as Coinbase and Crypto Stocks Rally | Closing Bell",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-18/bitcoin-tops-80-000-closing-bell-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-18T20:21:11.000Z",
+      "kind": "news",
+      "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Jess Menton, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-18T20:03:30.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Colombia’s New Finance Chief Woos Wall Street After Budget Shock",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-18/colombia-s-new-finance-chief-woos-wall-street-after-budget-shock",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-18T20:02:11.000Z",
+      "kind": "news",
+      "summary": "Colombia’s top economic officials told investors in New York they’re optimistic about President Abelardo de la Espriella’s austerity plan will be approved by Congress and suggested the country’s external borrowing for next year may be close to half the amount outlined in the budget.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Crusoe CEO: Data Center Indusry Has a 'Marketing Issue’",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-18/crusoe-ceo-data-center-indusry-has-a-marketing-issue-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-18T19:46:40.000Z",
+      "kind": "news",
+      "summary": "Crusoe CEO Chase Lochmiller discusses the AI infrastructure company's nearly $4 billion in fresh funding sending its valuation to almost $31 billion. He also discusses how it will fuel the company’s push to build AI infrastructure spanning data centers, cloud computing and managed AI services. He says Crusoe could eventually enter the public markets and pushes back against growing opposition to data centers, arguing the industry has a “marketing issue” and needs to better com",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Former FTC Technologist Warns Against an AI ‘Cartel’",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-18/former-ftc-technologist-warns-against-an-ai-cartel-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-18T19:45:23.000Z",
+      "kind": "news",
+      "summary": "As frontier AI labs seek greater coordination on safety, Neil Chilson, Head of AI Policy at the Abundance Institute and former FTC Chief Technologist, warns that government-backed antitrust exemptions could create a durable “cartel” that ultimately harms competition. He argues companies can collaborate on safety standards without suspending antitrust rules, and that existing consumer-protection and liability laws already provide tools for addressing harms caused by AI. He joi",
       "tier": 1,
       "tickers": [],
       "related": [],

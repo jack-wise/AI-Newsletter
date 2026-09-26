@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T17:02:06.274Z",
+  "generatedAt": "2026-09-26T17:32:04.651Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -920,6 +920,20 @@
   ],
   "related": [
     {
+      "title": "OpenAI expands review of model behavior after more rogue agent incidents emerge",
+      "url": "https://www.cnbc.com/2026/09/26/openai-agent-model-behavior-review.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-26T17:10:32.000Z",
+      "kind": "news",
+      "summary": "OpenAI is conducting an extensive review of misaligned model activity after disclosures involving an Australian government portal and other websites.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
       "title": "Meta and Microsoft led tech stocks higher last week despite soaring bond yields",
       "url": "https://www.cnbc.com/2026/09/26/meta-microsoft-led-tech-higher-this-week-despite-soaring-bond-yields.html",
       "source": "CNBC",
@@ -931,35 +945,20 @@
       "related": [
         "MSFT"
       ],
-      "score": 75
+      "score": 65
     },
     {
-      "title": "Heads of OpenAI and Anthropic called to face Senate inquiry after rogue agent incidents - The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-26T15:52:00.000Z",
+      "title": "OpenAI agents posted user images online, disclose dozens of third party incidents - Axios",
+      "url": "https://www.axios.com/2026/09/25/openai-models-posted-user-images-online-in-latest-security-episode",
+      "source": "Axios",
+      "publishedAt": "2026-09-26T16:08:38.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 65,
-      "summary": "Sam Altman and Dario Amodei have been invited to appear before the Greens-led inquiry into AI and datacentres"
-    },
-    {
-      "title": "Nvidia Trades Near Its 52-Week High at Its Cheapest Valuation in a Decade. History Says This Is What $1,000 Invested Could Be Worth by 2030. - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/09/26/nvidia-trades-near-its-52-week-high-at-its-cheapes/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-26T13:02:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Nvidia stock is trading at a historically low valuation."
+      "score": 65
     },
     {
       "title": "OpenAI reveals the AI-era workplace skills that matter most - Business Insider",
@@ -976,18 +975,31 @@
       "summary": "OpenAI's latest data shows AI is automating coding fast, but human judgment, priorities, and decision-making still matter most."
     },
     {
-      "title": "Oxford lets OpenAI train its AI models on Bodleian Library - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/sep/26/oxford-university-bodleian-library-open-ai-chat-gpt",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-26T11:23:00.000Z",
+      "title": "OpenAI’s Models Probed Websites of Department of Education, Other Agencies - Education Week",
+      "url": "https://www.edweek.org/policy-politics/openais-models-targeted-websites-of-department-of-education-other-agencies/2026/09",
+      "source": "Education Week",
+      "publishedAt": "2026-09-26T17:18:59.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 65,
-      "summary": "University staff voice concerns over reputational risk of partnering with company behind ChatGPT"
+      "score": 55,
+      "summary": "The department's office for civil rights was probed in an attempted hack, according to a report."
+    },
+    {
+      "title": "OpenAI reveals unexpected AI activity on U.S. government websites - CBC",
+      "url": "https://www.cbc.ca/player/play/video/9.7359773",
+      "source": "CBC",
+      "publishedAt": "2026-09-26T17:09:35.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "The \"Magnificent Seven\" Stocks Explained: Apple, Microsoft, Nvidia, Alphabet, Amazon, Meta, and Tesla. Here's the 1 I'm Selling. - The Motley Fool",
@@ -1033,6 +1045,20 @@
       "score": 55
     },
     {
+      "title": "OpenAI says its AI agents bypassed security controls on US government websites - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/us/openai-says-its-ai-agents-bypassed-security-controls-on-us-government-websites/articleshow/134496014.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-09-26T02:40:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "OpenAI has disclosed that its AI agents interacted with the websites of dozens of organisations in unintended ways, with some agents bypassing security controls while trying to access information. The affected organisations included US government agencies such as the Securities and Exchange Commission and Census Bureau."
+    },
+    {
       "title": "OpenAI said there are 5 main ways rogue AI agents are messing with the internet - Business Insider",
       "url": "https://www.businessinsider.com/openai-rogue-ai-agents-sec-census-2026-9",
       "source": "Business Insider",
@@ -1064,19 +1090,6 @@
       "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
       "source": "The New York Times",
       "publishedAt": "2026-09-25T23:16:40.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI agents posted user images online, disclose dozens of third party incidents - Axios",
-      "url": "https://www.axios.com/2026/09/25/openai-models-posted-user-images-online-in-latest-security-episode",
-      "source": "Axios",
-      "publishedAt": "2026-09-25T23:00:11.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1182,6 +1195,34 @@
       "score": 55
     },
     {
+      "title": "AI bots broke into ‘dozens’ of government sites, OpenAI confirms - Nine.com.au",
+      "url": "https://www.nine.com.au/world-news/openai-bots-bypass-government-university-websites-20260926-p610p5.html",
+      "source": "Nine.com.au",
+      "publishedAt": "2026-09-26T16:16:24.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "OpenAI has confirmed its autonomous (artificial intelligence) AI bots bypassed security controls on the websites of “dozens” of organisations."
+    },
+    {
+      "title": "OpenAI Agents Accessed US Government Websites Without Authorization - Security Affairs",
+      "url": "https://securityaffairs.com/199815/ai/openai-agents-accessed-us-government-websites-without-authorization.html",
+      "source": "Security Affairs",
+      "publishedAt": "2026-09-26T16:15:09.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "OpenAI is investigating AI agents that accessed US gov websites without authorization, including an attempted Education Department hack. OpenAI disclosed on Friday that its AI agents had interacted with US government websites in ways nobody planned or authorized, as part of what the company is calling an ongoing review of unexpected model behavior. The affected [&hellip;]"
+    },
+    {
       "title": "OpenAI says its AI agents posted user images online - Taipei Times",
       "url": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864956",
       "source": "Taipei Times",
@@ -1194,6 +1235,20 @@
       ],
       "score": 45,
       "summary": "OpenAI on Friday said that its artificial intelligence (AI) tools had posted images from ChatGPT users to online sites without the company’s knowledge, the latest example of AI agents operating outside their bounds. The company also confirmed a New York Times report that its tools had accessed Web s"
+    },
+    {
+      "title": "Heads of OpenAI and Anthropic called to face Senate inquiry after rogue agent incidents - theguardian.com",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak",
+      "source": "theguardian.com",
+      "publishedAt": "2026-09-26T15:52:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Sam Altman and Dario Amodei have been invited to appear before the Greens-led inquiry into AI and datacentres"
     },
     {
       "title": "OpenAI says its bots have interacted with multiple U.S. government sites in unexpected AI activity - CBC",
@@ -1277,63 +1332,20 @@
       ],
       "score": 45,
       "summary": "The AI giant's models accessed publicly available information on SEC and U.S. Census Bureau websites."
-    },
-    {
-      "title": "NVIDIA Powers Robotaxi Fleets With Full-stack AI Platform - Quantum Zeitgeist",
-      "url": "https://quantumzeitgeist.com/nvidia-powers-robotaxi-fleets-full-stack/",
-      "source": "Quantum Zeitgeist",
-      "publishedAt": "2026-09-26T14:46:49.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "NVIDIA powers robotaxi development with a full-stack AI platform, enabling fleets to scale to over 6 million vehicles projected by 2035."
-    },
-    {
-      "title": "OpenAI Admits AI Agents Leaked 53 ChatGPT Images [2026] - tech-insider.org",
-      "url": "https://tech-insider.org/openai-agents-leaked-53-chatgpt-images-2026/",
-      "source": "tech-insider.org",
-      "publishedAt": "2026-09-26T14:35:23.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Nvidia Forecast: Vera Rubin Ramp and a $108 Billion Guide Set the Stage for 2027 - TIKR.com",
-      "url": "https://www.tikr.com/blog/nvidia-forecast-vera-rubin-ramp-and-a-108-billion-guide-set-the-stage-for-2027?",
-      "source": "TIKR.com",
-      "publishedAt": "2026-09-26T13:17:32.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Here’s why Nvidia’s Rubin ramp and supply limits matter more than this week’s quiet trading."
-    },
-    {
-      "title": "Rogue OpenAI agents leaked dozens of ChatGPT user images online - Cybernews",
-      "url": "https://cybernews.com/ai-news/openai-agents-leaked-chatgpt-user-images/",
-      "source": "Cybernews",
-      "publishedAt": "2026-09-26T13:16:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "China and US agree to establish AI safety channel and continue trade and military talks - AP News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-09-26T17:21:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Apple faces $5.7 billion patent infringement verdict over iPhone and Apple Watch haptics",
       "url": "https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html",
@@ -1351,17 +1363,6 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeUdRMmdxcXBOTHpHMzVmYXBtUUN3SUYtSWdxV0ZxRHUzZmdzQlJLZHIweGRsZmdWSkJ0ZVdsbWMyVnpWMFNqZlRQX25kUjFGOGw0cFlnXy1Ra2l5YmdpOWZ0dlFMZHNKUE0xNDJ6dGVBbXcyNGdxUUwyWTJRbW9iYWV5TTkxdDZwdGY3U1JfOE1tVmlyanc0U1dBNjhEY2wydmk2WXlEOXZFU2F2NWE1LXRHdUhZVlA0bWlXYTFYaGU5WWxidVRN?oc=5",
       "source": "The Washington Post",
       "publishedAt": "2026-09-26T16:45:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Report: PM’s aide Urich built AI tool to monitor media, causing security breach - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUWR0OUdPQTBSUGVDMGVXTlRjSG14NEVvUWI3dVQ3RVdjd2NxZmx6YzJwcnl5dFhNbW80QTVyM3VhUmg0dVRNTTFFa2FrSXBjUGgtSmVESms2N2pSRnM4VkItUVZ6T2lhc2ZnVXFTbUhScFZNZEgtYXJxUjJWUjh3clZhSmpiTzFkRmd0bVl6VzMwckZOR0hkWnhkMTFtTmljYzBseTk4cG1YQlXSAbABQVVfeXFMTl94U1RtdmVjQmxtQW4wQjJTcnl6OFgxX2xjdUl1NjRwQjd4RmJtX0tGeWY4SXZDVXQ3NHI1RE1HcjRERk5PNGloRTlteW5vYnI1SHNPaWVVZHdSSV9IdDY3amlETjhpTXROektUVUt4YVE5eHRiU2RFTFJDUzItbTZiakttVVJRQnBHWGVfRzJiNlMtTTFBVEJVaHRLUkVWaFlLdUJpNWNwemlrc3EzX1I?oc=5",
-      "source": "The Times of Israel",
-      "publishedAt": "2026-09-26T16:13:38.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1473,17 +1474,6 @@
       "score": 50
     },
     {
-      "title": "Middle-Schoolers Are Seeking Out AI Friends Instead of Real Human Ones - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdzJ4M3I3bDhVc1BkbkVvM2wzWG5GT3NsbUZyN3l4UHpPUGE4YWEzamdMN3JLS21GTkMtRkJ3eDNLMDZBcHQ0OWJXQlBqVUFGUzRSUmRZd2w1dFFwYlFEM1VvQzVNdmxIcmZaeDNrQzN2alpoclUzUkV2azFjQkxFMFloNTN5bHNj?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-09-26T14:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Birding Apps Bring More People Into the Wild",
       "url": "https://www.bloomberg.com/news/videos/2026-09-26/birding-apps-bring-more-people-into-the-wild-video",
       "source": "Bloomberg",
@@ -1578,6 +1568,17 @@
       "score": 50
     },
     {
+      "title": "Court upholds Pentagon’s supply-chain risk label on Anthropic’s Claude AI - The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EMmJiaW9ySmdmaDJlRXF0M0dRQU5UNnc4T3J4NGVTQ2hyVDFpajJ0eGozcVF3SExhNi1rTnBod1RwM1hqRnVhRTdIQUVqdzRYR1hhUE9ZQWtHejl2VjFuZ3JBd2hPNUU2bnlibHJFcVBYaWpaWGFHVzd3?oc=5",
+      "source": "The Cryptonomist",
+      "publishedAt": "2026-09-26T12:39:09.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "China Eyes U.S. AI Data Center Gold Rush Despite Trade Barriers - The Tech Buzz",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEtISlp1eVQxd3NoOF9UVDcxUmJaTk8zYXJOSDJoWUh2ZUZBb1A0VkF4X1BzX0FlYlNwR1dpU1lzVlB4RzE5NDl1NXhvTUx5WlBIRDNkR3hrT3BqaWxJYTBMcW0xdWVsUDU2RGFOaTVHM091TEd1QW51TVZLNVNsam9CVE5HRXBOemxrY1dKb3B3VnBweTZtdDRQcw?oc=5",
       "source": "The Tech Buzz",
@@ -1595,17 +1596,6 @@
       "publishedAt": "2026-09-26T12:33:14.000Z",
       "kind": "news",
       "summary": "Ritholtz Wealth Management founder Barry Ritholtz tells Bloomberg This Weekend that rising bond yields reflect both a normalization of interest rates and inflationary pressures from factors including tariffs and higher energy prices. Speaking with hosts David Gura and Christina Ruffini, Ritholtz says higher yields have made fixed income more attractive while investors should consider whether strong equity gains have pushed their portfolios away from their intended allocations",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI, semiconductors, quantum to drive India's next infrastructure push: FM Sitharaman - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOcVJ2MzVDQTR2TV96Wm9KeUZ6UmxJak0wQXBhZkJtV1M2Y09IekdGXzB0aGx1RExXa1dRMHo2RHgyQXQzaGgyUHJrTzc2ZEZfLUdxenpmYnZrM3ZFenJBRmxFWGg3R2xKbVF6cjJjVDhxeFFIWWt5SWpYWVlFcWhKQ3JWUjVvODl4NTFWZi1jR195ZFd6ZzEzYllTNFVuUHFDbnBXaDVjN1FySmJ5cWRDQ0pxMFBPbEotZXNnU0xVZ2JLUXdkZVB3R3RMd0g4RWVkRGJvck9hTF9PNjlyX1BXYlM4NDYzUnEtTUdPWkR2SERsUUxOX2ZWOER1aFZFbUJ3aHYzZWFWTkNPT3N4cGNsbHRHLTV4Y1VOUkJEVldia210RDhPalNJ0gGIAkFVX3lxTFBfak1KeDZhMWNEQ0o2SFpJMnM4YXdRMDVwa0dXak5ySXM0Wm5GVDhETEJoQjdYLUVHalFNa09iRVV1Uk9ia2JuOU1zSkk3MkFYUldmamhOcHQxR1doY1hCMEJ5VkcxM1IxM011M0hpRGc1YlhlVUJuanBLN2Y3Y2Y3TTZnRG1sa1U3ZXEzOGJNb0I0VVZpSHZRMjVwaXVCVU9TRmxlbExlVUk2QzRIcllJb1E3bGZEaWZidVNVTkNMUzFfS2xPUkFUNGFmMzc1RlJuYmsyb2FYMmdOaWxRYy0zVEJOS2lrS3Z2WDdwWjdpY29XMHJaZmVBZTlOLWxTcGJya2x1WU9mbA?oc=5",
-      "source": "The Economic Times",
-      "publishedAt": "2026-09-26T12:26:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1660,17 +1650,6 @@
       "score": 50
     },
     {
-      "title": "Anthropic's IPO Was Just Delayed to November. Here's the One Number That Has Me Even More Excited. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNX1Y0WVRrWGNkM1JENkZUMER3ZzN2UEZRbGhyUk9UNXlpTU9hX0FiOXNsd3FrcFBxQ1otOWtLQmx3eGstejh3VEdsWnJFa2lRNXNJcGFUVjNiVWdxM2U3VU9wSzBORmNDM2U0a0locmFYbGpQXzJmRmRtS18tS2Zfa2tyUzRjVkYyUjEwY1NMbmFfRmtVNXB2ODhQVWRjRmh0VEhraDh6Z2Rib2NfUUVHdUphX2JzV2RGYmw0UUpaeE81ZkY5OEMyV1ZibEFJNjlTU3RGbVJB?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-26T12:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "What Is an AI Kill Switch? Why Shutting Down AI Isn’t So Simple",
       "url": "https://www.bloomberg.com/news/articles/2026-09-26/what-is-an-ai-kill-switch-why-shutting-down-ai-isn-t-so-simple",
       "source": "Bloomberg",
@@ -1695,32 +1674,10 @@
       "score": 50
     },
     {
-      "title": "U.S. and China agree to \"super intelligence\" dialogue amid AI tensions - Axios",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGNEZLMlBlMDlkamtycGhtQS1obGR1WUxFWVhIdVdqYjNqX2JTRmN0bjd3MFVobEhMdWtaRjdmV1VMX1hSbTVaUVZzRVdIcUpraXpRUmN0d0t2aVdScElDZGZ3?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-09-26T11:21:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China and the US agree to set up a new AI safety channel, and to keep talking on trade, military - AP News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
-      "source": "AP News",
-      "publishedAt": "2026-09-26T11:17:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "On AI agents, the Big Data Center Backlash, and monkeywrenches — Jonathan P. Thompson (LandDesk.org) - coyotegulch.blog",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV29VcTcyd193YThTc2ZEbGNiamtMcWxEdHh2MnBrV2NxdS0tY3NoUjU4VUw4YjZaOVNPME5uNVFDRXJ3TDJSR2huS2RtRjM2TmlBY0N3cEE0UzFWYzhmRFZvcTVVNWpBMjN1cDhXN1lMcW1FNndWbC02WUpnNjlrNkZSX25QYkJCZ21QdEFFTzZBVUhJYTl4V3ZmWEtwZGtTR3l2ZkN6UmZSbjZaRVhhWUhkOVdpZzZCd05CLUZRZ3BkTkZqWHI3UE9n?oc=5",
-      "source": "coyotegulch.blog",
-      "publishedAt": "2026-09-26T16:21:06.000Z",
+      "title": "Atlas Energy Solutions Stock Has The Bull Case Changed After AI Backed Power Deals - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM0xvejdXRjg2YWJDNUt2Y0lEcndvX0l0bUpja2V5VWxmUV9mVlhfeTFOT2s0ckxRb19wa2NDUVpWLXVKQWdFSFZSeEx0T0R6NllkMlNZc0FxS01oVC1fTkp2V2ZnMUhMVFRNbHAwLTdiakFPZlBxUmJSdENra0s0LVhlQWxMTFJRanpRSTJzeFA4NGVkZXRVOVN4TDJpbFUtRkZlaG8tN204S3k2TzlJZEpma3NXTGVUa3ZHR2ZJWGtNZjB5MXRvR3JHVzJrTDN2STVN0gHYAUFVX3lxTE5qSXpnVFI2NmdkdjJEdHlVNVBMNDJZaUl6VEF0cXQyZDBSVXlfX1RjNWpTMjZleG1uSWRVN0JZdkh2NE5MTGQ2YjlnZHdkX21qMkpubVc0T3R3MklQWlVUSjVldEpTRUZqNm1kNXhfTC1QNVJrRm9iNXNidnZ2ZWh1QjdMaGotLWFXQ0JaeF83a3A4eWpua0lhZlYyN1k0enZZWjRTMWhvLVd6UkloVGU3eUd1U2pIZGg3cTJzYXVwVDZoSGJqUmMxNFZha09iV0o5RzVEU0NEaA?oc=5",
+      "source": "simplywall.st",
+      "publishedAt": "2026-09-26T17:29:05.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1728,10 +1685,21 @@
       "score": 40
     },
     {
-      "title": "The AI debate is already shaping the 2028 election. Here’s where Democratic hopefuls stand - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnBuU3Rac3RLZXdjUXhGYUh4VTFISVdZOS1NU0xHV3lldXFGQjhFa3Y2OHpEMmFBT0Joek1UNm8xenM0QTJSSlpsaTdWb2Z0LUtnY05qSEg0anNJVXoxd1NmWkpnRl9XU1ZaNG9TRk80N205WEljY01UTXVUUEgyQXB3d2NYNDV0TldheFV6cmpZZ0RoTEN0d1U4WmFWNUp3OXc?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-26T11:02:00.000Z",
+      "title": "U.S. should err on the side of innovation in AI regulation, U.S. Rep. Arrington says - Click2Houston",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTms4WkhTdnhBcm5ieXJjRkpXX3B2SXNEUTRMczVXTGJycXdJVEZJcDJmTmpNdTdyUm5pWkFkeHctRXM3aGFRd1UtRF9uYkliaFpqT21XMl94VWFpc1hJLS1TYzVNcV9xYUViN3FudG9CTjlaa3BZQ1otekNNVVMzaDVIbHlzRV8wbFJLMlRLdlFwbUdsT3pKM2FJSERrZW9oME5TU1BQczNlRzBIWTE4aGotdG1vcnVmLWZ6T3hWdzBibW40ZDBheVlhZw?oc=5",
+      "source": "Click2Houston",
+      "publishedAt": "2026-09-26T16:55:14.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "U.S. and China agree to \"super intelligence\" dialogue amid AI tensions - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBGNEZLMlBlMDlkamtycGhtQS1obGR1WUxFWVhIdVdqYjNqX2JTRmN0bjd3MFVobEhMdWtaRjdmV1VMX1hSbTVaUVZzRVdIcUpraXpRUmN0d0t2aVdScElDZGZ3?oc=5",
+      "source": "Axios",
+      "publishedAt": "2026-09-26T11:21:12.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1865,17 +1833,6 @@
       "score": 40
     },
     {
-      "title": "Scoping out the footprint for AI infrastructure in Massachusetts - The Boston Globe",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTkt4ODJlbVk0d2xHYUVwSGRsaVZzMFltZWVyVzFUZXRTYWJPQW1IR1BwNHVTaUpGVDlfYkhLa3N2d1liYVYzTHJ6VWZtZ2pvTXFja2llRmJKQjA3dUc1ZkJXOXQyM3UxaVNuV2RIVGVvYVVRQU5wMk53V3IyYXBJM0gxNDhoTXZrMDRERlY5S01QUnNPUWtJ?oc=5",
-      "source": "The Boston Globe",
-      "publishedAt": "2026-09-26T02:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "Deel Dealt New Setbacks in Rippling Case Over Alleged Spying",
       "url": "https://www.bloomberg.com/news/articles/2026-09-26/deel-dealt-fresh-setbacks-in-rippling-case-over-alleged-spying",
       "source": "Bloomberg",
@@ -1900,10 +1857,56 @@
       "score": 40
     },
     {
-      "title": "Pope Leo warns of AI threat to humanity at start of three-day France visit - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3g5REFXVVI4ZEFzU2p3NDNtckJDemE4Y3VFOVlpc1N2aTE1NzhQMUU0WjhYb0dKRHNkTWhsQkRGZkxWVmh2RlV6eEgxNzhvdTdwOV9FcUFEc05vZzQxRk5PbWFvMTEzSTZKWFpmQXZCa0hyS1ZZLXVzQktGSDI0TlpXdUVqeGRjZVU1WmozZm94SzZDdVdLWlFyNDNndndF?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-26T01:30:00.000Z",
+      "title": "Wall Street Week | China’s Trade Reckoning, Syracuse’s Second Chance, Humanoids in Healthcare",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-25/wall-street-week-china-s-trade-reckoning-syracuse-s-second-chance-humanoids-in-healthcare",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-25T23:43:13.000Z",
+      "kind": "news",
+      "summary": "This week, Council on Foreign Relations President Michael Froman breaks down China's export machine, why twenty years of US pressure hasn't worked, and what happens next. And, can a $100 billion Micron factory transform Syracuse from a Rust Belt cautionary tale into a potential model for American reindustrialization? Plus, a bridge named for a hockey legend was meant to strengthen the supply chain between the US and Canada, but the neighbors can’t agree on their trade relatio",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Crusoe Scraps $1.25B Boom Turbine Deal for AI Data Centers - The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0c0OWJGNHZLWm9QV0hhOWhOZUo0VW5QSnhBc1hhZHc4TmxWQXJkNnVqU3VZdGV2VkRUMlNoVkVVcE5jUHpjWDVJbTVmWVJ4TXUwQWNNVmt0OVhxUU1zUlgxUzNYd3hjX01iWVpnQkNnZndrYzJMWVRKN2pMMnQzeUlta3BKMHpURXFWbnlQRUpYR0lm?oc=5",
+      "source": "The Tech Buzz",
+      "publishedAt": "2026-09-25T23:36:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "He’s Completely Terrified of AI—and He’s About to Make Billions Off It - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9zUEUweHctVl9pRnc0TzVDWEtNS29fZ3o3dDVYbkYyQkxNRzY2VmlGODZ3VzFWak1NeF9rVm5WT3Z1WFl1TzNMQy1INU9xejdmMV90bzV6emlpV3ltY1VDVGNZV09Ib1c3RTM2VlJMaw?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-25T23:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Alabama Says TikTok to Pay Up to $300 Million for Kid Safety",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/alabama-says-tiktok-to-pay-up-to-300-million-over-child-safety",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-25T22:47:43.000Z",
+      "kind": "news",
+      "summary": "Alabama’s attorney general said TikTok has agreed to pay up to $300 million and adopt new user protection measures to settle the state’s child-safety lawsuit that was set for a jury trial to begin Monday.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "FTC chair suggests AI developers should be liable for conduct of agents - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR0NHdkNjeHVId0Z1MThydkhrVktZMWtKM1FRYmQ2dlRFb2tqR1pXT3FGMkFBLXF5QkJCRzd1RGtLNENtT2k4bkxFclJ3elNzWVkzaXBTam55UlJGQ2FTLVFYd1AyNmRCNzhOYXJtVENXTzVSbzV3U04wbk5lTDFVSkZONEY0TzdyaG1kS1NGaHV6ZE5GSk1xZE9WY1pTU0JtV1E0Vk9lRQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-25T22:07:32.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

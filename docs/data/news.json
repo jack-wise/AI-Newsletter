@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T15:31:52.967Z",
+  "generatedAt": "2026-09-27T15:37:33.283Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -1025,6 +1025,19 @@
       "summary": "Decision follows disclosures that OpenAI agents searching government websites had acted in unexpected ways"
     },
     {
+      "title": "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/articles/china-weighs-allowing-bytedance-alibaba-152402813.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-27T15:24:02.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Anthropic and OpenAI sound alarm on AI safety — and seek to shape how it’s controlled - Los Angeles Times",
       "url": "https://www.latimes.com/world-nation/story/2026-09-27/as-ai-companies-sound-alarm-on-safety-they-seek-to-shape-how-its-controlled",
       "source": "Los Angeles Times",
@@ -1105,6 +1118,20 @@
       ],
       "score": 55,
       "summary": "Australia has asked the heads of OpenAI and Anthropic to appear before a Senate inquiry into artificial intelligence, days after an OpenAI agent was linked to a breach involving the country’s Medicare system."
+    },
+    {
+      "title": "LG Electronics named Nvidia partner for AI data center cooling - The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10885239",
+      "source": "The Korea Herald",
+      "publishedAt": "2026-09-27T04:37:31.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "LG Electronics has been named a preferred partner in Nvidia’s official partner network for AI data center cooling, deepening ties with the US chip giant as the"
     },
     {
       "title": "Australia’s Deputy PM Defends Data Security After OpenAI Hack",
@@ -1310,37 +1337,21 @@
       ],
       "score": 45,
       "summary": "Stolen PlusAI trailers bore Nvidia logos but held ballast for autonomous truck testing; high-value AI chips and graphics cards are prized black-market targets"
-    },
-    {
-      "title": "OpenAI halts training of top AI models after agent bypasses curbs - Rediff",
-      "url": "https://www.rediff.com/news/commentary/2026/sep/27/openai-halts-training-of-top-ai-models-after-agent-bypasses-curbs/5be5397905be72901ad223a54d13b82f",
-      "source": "Rediff",
-      "publishedAt": "2026-09-27T10:32:25.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "OpenAI has paused all training, evaluation and tool-based use of its most capable artificial intelligence models after an AI agent in one of its training runs got around the"
-    },
-    {
-      "title": "OpenAI Sandbox Faces New Scrutiny After AI Agent Escapes as Anthropic Probes Thousands of Cases - Brave New Coin",
-      "url": "https://bravenewcoin.com/insights/openai-sandbox-faces-new-scrutiny-after-ai-agent-escapes-as-anthropic-probes-thousands-of-cases",
-      "source": "Brave New Coin",
-      "publishedAt": "2026-09-27T10:22:53.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "OpenAI is conducting a broad review of AI agent activity after a series of incidents involving models exceeding assigned boundaries, including attempts to bypass sandbox restrictions and access external systems."
     }
   ],
   "general": [
+    {
+      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
+      "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-27T15:35:34.000Z",
+      "kind": "news",
+      "summary": "The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Academics and AI marking: a welcome aid for overworked staff or a sloppy shortcut? - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM2RpYjRISlU3QzFTT1lfR0tNZ2xiekhLaTFuNUc1NF9HM1ZaUk9tY0Z5OF9TMnhuV3JFRFdubnJrWjRnUDlEbno1Nkc4NU1GckZaNkJ6aHFwYUV4UW1NTG5mN3V6VnNVSk5ETVl5ZERkUmRyRnVJV1ZxdzQ1cXdaZFQ1a0tpRy1ORGNpRlBRZktNQklOaTgxSkNrR0wzLXFKWk9GUHF5bWlPYWhjNmMyWU43YmE0ZTVLX2M0?oc=5",
@@ -1356,7 +1367,7 @@
       "title": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZkM5YUtwWlpHR2pUdG9WZnBZR1ZzdDNKSVpiYkRyY3FTenBpTUJpazFkRFF2WjVQRGhBVEFuaFB6LW5EcUtQMEUtTXdwWXdsQVlfYTkwV3pzV1lnZTF5Y3dmU0dRZm5yY2Q2c2FkTkZyQWZDdm5PREltMG5CY1RxckgtU0g4NWRhUlFzWjgzbTQzbFBfR1BySjVLa0xJdEY4LWNJRDY2WnljNTl2MUJxMkNQNTVYU3VIdnlRbzdUei1nWXNWck1UZXRfVm81c21oOTltY21EckxqSGh1WmlySC1NNHhjNzQ?oc=5",
       "source": "The Guardian",
-      "publishedAt": "2026-09-27T15:00:00.000Z",
+      "publishedAt": "2026-09-27T15:01:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1385,7 +1396,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Meta's Muse agent is attacking one of the economy's most profitable weak spots",
@@ -1394,17 +1405,6 @@
       "publishedAt": "2026-09-27T14:33:22.000Z",
       "kind": "news",
       "summary": "Meta's Muse AI personal agent will work over your credit card spending if you don't mind the invasion. How big a threat is it to the subscription economy?",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Scoop: Top AI companies probing tens of thousands of security incidents - Axios",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaUlRV1JkUEZFRkRINVBlWTR1SWxkZ1hjcUdOMkJDNzF4UXdBVHd2LVlqQmlwb0R3cTVuTFk3MEp1eHlUT0hsRTAzekszcl81ZjNoWDZCMkZBTlk4Z3dlV1RoZnd3YVZSQmpUWWEyc3EyWUFnRHFiQjNacUVEYmxuYXFxVldIdVJ3?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-09-27T14:24:10.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1637,29 +1637,6 @@
       "score": 50
     },
     {
-      "title": "China and US announce AI safety channel after Xi’s Washington visit - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMTVCOHdyeHh5OE9KTXdpMVFPQnlqbFhtWFFubHQ2Sy1qLWxVOTV2aWJLU2tGVWlmN1ZtTlhMVmdnWUxvVXNORE15RTVNM2RBN2F1RDhING1PSENGbXRMTVU3Si1oOWk4NWx5Y0hqNUF2YjVNbjZ5MEI4b2tpbTJNdlI5UXM1cG5FZU43NUYzRWFSZlVCT29mcExoTDdBUQ?oc=5",
-      "source": "The Independent",
-      "publishedAt": "2026-09-27T11:21:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
-      "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-27T11:00:01.000Z",
-      "kind": "news",
-      "summary": "The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Democracy blindsides Silicon Valley’s power players looking to transform the world with AI - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUNhUmlYdWFOSkZnb040My1WZ2d3a3prU1BSMHg3d0taMFd5bzJsMmhVaTJSU2VMdURJVVd5NUQ0R0ZOQmpMeU43TnZfR0Nob2tSSVZrZXlQeUdKOTZ2RzNYTGRIejI3TWh6SEdBQ09aVVZjMnJWX2xMdlE5Zk9QODllbV9lQ1NBZ05oeGFJaDJybzBjU0toSy03R1E?oc=5",
       "source": "The Guardian",
@@ -1682,6 +1659,28 @@
       "score": 50
     },
     {
+      "title": "3 AI Infrastructure Stocks With Pricing Power in Data Center Spending - simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTVhCQ2U2TGRPNE00cDVwYkw4ZXNWTzlBUnJ1cGRWVUt2Ym9KdzgxbC1PNEVPWDJTdGRwUGpRLUJRbGJBYjZ6dG5TZUZyWVVjekN1alZyYTR0ZFFhZk5qMXp2dUpIVXptSkIwYkNndm5qOFBtMGpYQmFiWkRBaDA5MDVkeTN0ek14bFprYTEwcFhHZUtpTjR2WVJiMjBfOGsxMGhROUNJNXNka1RCaE1mZlhXdDhXVExUc2ZFeURqbUhQUkRXME9fUXgzQ0RLY0xNcmVOMXRVR0nSAd4BQVVfeXFMTUZkR0lnRmFfWXBDdVFjaFRwVzlkYlQyb01QajFVZ0JuUHJkX3dHeThseHU4TXpfWVRZNVZCV2pGTzNQQ2tzN2hUR295elZzRDVfRUU4MjFJb2R0YVhXS2szR3R4T2VvOFZZQ1d6Vzlfc3BaU3JJOTN0cmFPNklmMHV3Y3dxT3cycU15QVBYOXkzNmcxUnYxR2lkSVBYUFBNUXFscmRRWEpGcWRnRW5JOWFuU0M0Q3JNaTZnQUloTV8wZkdGX3VCdS0zNGhvM3JvM1pSRmE1d09WVjJKYWtB?oc=5",
+      "source": "simplywall.st",
+      "publishedAt": "2026-09-27T15:35:12.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Anthropic's Dario Amodei portrayed on Saturday Night Live amid rising concern over AI security - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeVY3UHJyOGVGV04yRUhNdnBTeHFXWS15VjE3TXdJMV9aUGJFb1pzXzFRbTVtVTNVb2pIdnJxMXFFSHF1TUZWSWJVNUYxZXU1SkE3RUFVM1dXMjUtdWFMUm1zZnFwVzRlUjdCZkhHXzJiMmllQWx0NlJEcllxVmx6STB4TEJUdTFvZzNfSVh2SzR5cHBnTXpreGRaVTRQcWFOTEwweFRPVXh3cmdNTldnZEhn?oc=5",
+      "source": "thenationalnews.com",
+      "publishedAt": "2026-09-27T15:32:16.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Why Investors Should Be Bullish on Meta Platforms and Its AI Strategy - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdUFLMEhBajMwWEhLaFJ6T1BxNE5OZktjbDFUcGF6UWFpMzJLZGtqSVpCMVhjRjBOcWdfdlRFaWoyQV9zVHVYdmlwR3RxVTVTUjNvV3cwbndIal9vY19ZTS0yeDZacTBfRkRrM3BNeE56RVdpRjg3el9wbWxNVElaakNDXy0wRWttSEx0YXo5cWdhdEt1UU03ZmpIVk9KTC1XX1E?oc=5",
       "source": "Yahoo Finance",
@@ -1699,18 +1698,6 @@
       "publishedAt": "2026-09-27T14:58:39.000Z",
       "kind": "news",
       "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Greg Abel Deployed $10 Billion Into Alphabet's Private Placement, Building a $38 Billion Stake That's Now Berkshire Hathaway's Third-Largest Holding. Is Alphabet Becoming Berkshire's New Apple?",
-      "url": "https://www.fool.com/investing/2026/09/27/greg-abel-deployed-10-billion-into-alphabets-priva/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-27T11:45:59.000Z",
-      "kind": "news",
-      "summary": "Berkshire Hathaway, under Greg Abel's leadership, has significantly increased its stake in Alphabet, making it the third-largest holding. This investment, including a $10 billion private placement, differs from Berkshire's Apple strategy as Abel's confidence in Alphabet stems from observing AI's impact on Berkshire's operating businesses. The article suggests that while Warren Buffett initiated the investment, Abel's deeper involvement indicates a potentially different invest [sentiment: Neutral]",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1831,6 +1818,17 @@
       "score": 40
     },
     {
+      "title": "He’s Completely Terrified of AI—and He’s About to Make Billions Off It - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9zUEUweHctVl9pRnc0TzVDWEtNS29fZ3o3dDVYbkYyQkxNRzY2VmlGODZ3VzFWak1NeF9rVm5WT3Z1WFl1TzNMQy1INU9xejdmMV90bzV6emlpV3ltY1VDVGNZV09Ib1c3RTM2VlJMaw?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-09-27T04:31:39.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "China Dispatches Pair of Pandas to Atlanta Zoo: CCTV Reports",
       "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-dispatches-pair-of-pandas-to-atlanta-zoo-cctv-reports",
       "source": "Bloomberg",
@@ -1913,10 +1911,10 @@
       "score": 40
     },
     {
-      "title": "As A.I. Makes Law Firms More Efficient, Clients Ask: ‘Where’s My Discount?’ - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX3Jub1NoeFN0N3RLRlFSdk5lenpQUTYtMEc1dGRTY2xkRjVpSXIwQ3c5SWdtMTV2M2g0NUE1Z2NldFhoYktSSFhQSzd2WEdtVXpSM2gxcFB3N29QNkh3TmZ2b0JSY0pEUDJyU2ptRFlBb3g3ZWs0OGJiTFlqOHVOdGNHN0lrdlEyNFZ2SkdWYkQ?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-26T21:35:53.000Z",
+      "title": "Scoop: Top AI companies probing tens of thousands of security incidents - axios.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaUlRV1JkUEZFRkRINVBlWTR1SWxkZ1hjcUdOMkJDNzF4UXdBVHd2LVlqQmlwb0R3cTVuTFk3MEp1eHlUT0hsRTAzekszcl81ZjNoWDZCMkZBTlk4Z3dlV1RoZnd3YVZSQmpUWWEyc3EyWUFnRHFiQjNacUVEYmxuYXFxVldIdVJ3?oc=5",
+      "source": "axios.com",
+      "publishedAt": "2026-09-26T23:35:03.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

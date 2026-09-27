@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T16:02:14.088Z",
+  "generatedAt": "2026-09-27T16:31:56.789Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -931,6 +931,20 @@
   ],
   "related": [
     {
+      "title": "China May Let Alibaba Buy New Nvidia Chips, The Information Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-may-let-alibaba-buy-new-nvidia-chips-the-information-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-27T15:44:39.000Z",
+      "kind": "news",
+      "summary": "The Chinese government has signaled it may allow companies such as Alibaba Group Holding Ltd. and ByteDance Ltd to purchase Nvidia Corp.’s new RTX Pro 5500 chips, The Information reported, citing people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
       "title": "China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba - The Information",
       "url": "https://www.theinformation.com/articles/china-weighs-allowing-purchases-new-nvidia-chips-bytedance-alibaba",
       "source": "The Information",
@@ -1011,6 +1025,20 @@
       "score": 65
     },
     {
+      "title": "AI Is Erasing Basic Math Skills, But NVIDIA’s CEO Isn’t Worried About Declining Human Intellect - levelup.com",
+      "url": "https://www.levelup.com/en/news/ai-is-erasing-basic-math-skills-but-nvidias-ceo-isnt-worried-about-declining-human-intellect/",
+      "source": "levelup.com",
+      "publishedAt": "2026-09-27T16:06:17.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Jensen Huang acknowledges that AI could lead to a loss of “intellectual dexterity.”"
+    },
+    {
       "title": "OpenAI pauses advanced model development after AI agents bypass safeguards again - Digital Trends",
       "url": "https://www.digitaltrends.com/computing/openai-pauses-advanced-model-development-after-ai-agents-bypass-safeguards-again/",
       "source": "Digital Trends",
@@ -1037,33 +1065,6 @@
       ],
       "score": 55,
       "summary": "Jensen Huang insists AI safety is just an engineering problem that more compute and better tooling can solve. But OpenAI's own disclosures reveal something far more unsettling about what happens when capable models start rewriting the rules meant to contain them."
-    },
-    {
-      "title": "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports - finance.yahoo.com",
-      "url": "https://finance.yahoo.com/technology/articles/china-weighs-allowing-bytedance-alibaba-152402813.html",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-09-27T15:24:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Anthropic and OpenAI sound alarm on AI safety — and seek to shape how it’s controlled - Los Angeles Times",
-      "url": "https://www.latimes.com/world-nation/story/2026-09-27/as-ai-companies-sound-alarm-on-safety-they-seek-to-shape-how-its-controlled",
-      "source": "Los Angeles Times",
-      "publishedAt": "2026-09-27T15:14:27.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "As tech titans warned an AI-weary world that their own advanced systems could endanger humanity, the question emerged: What do they have to gain"
     },
     {
       "title": "SK Hynix's Solidigm Eyes $150 Billion IPO, Nvidia's GPU Demand Skyrockets and Disney+ Hikes Prices Again - Benzinga",
@@ -1148,6 +1149,20 @@
       "summary": "Australia has asked the heads of OpenAI and Anthropic to appear before a Senate inquiry into artificial intelligence, days after an OpenAI agent was linked to a breach involving the country’s Medicare system."
     },
     {
+      "title": "LG Electronics named Nvidia partner for AI data center cooling - The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10885239",
+      "source": "The Korea Herald",
+      "publishedAt": "2026-09-27T04:37:31.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "LG Electronics has been named a preferred partner in Nvidia’s official partner network for AI data center cooling, deepening ties with the US chip giant as the"
+    },
+    {
       "title": "Australia’s Deputy PM Defends Data Security After OpenAI Hack",
       "url": "https://www.bloomberg.com/news/articles/2026-09-27/australia-s-deputy-pm-defends-data-security-after-openai-hack",
       "source": "Bloomberg",
@@ -1217,18 +1232,17 @@
       "score": 55
     },
     {
-      "title": "Meta and Microsoft led tech stocks higher last week despite soaring bond yields",
-      "url": "https://www.cnbc.com/2026/09/26/meta-microsoft-led-tech-higher-this-week-despite-soaring-bond-yields.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-26T16:21:31.000Z",
+      "title": "China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/articles/china-weighs-allowing-bytedance-alibaba-152402813.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-27T15:24:02.000Z",
       "kind": "news",
-      "summary": "Here's a look at the three developments that drove the action in our portfolio last week.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "MSFT"
+        "NVDA"
       ],
-      "score": 55
+      "score": 45
     },
     {
       "title": "OpenAI pauses training of latest models after AI agents probed U.S. government sites in unexpected ways - CBC",
@@ -1244,9 +1258,9 @@
       "score": 45
     },
     {
-      "title": "Thieves steal Nvidia-labeled trailers expecting massive AI GPU payday, but score 40,000 pounds of sand instead — crooks duped by 20 tons of ballast sand - Tom's Hardware",
-      "url": "https://www.tomshardware.com/pc-components/gpus/thieves-steal-nvidia-labeled-trailers-expecting-massive-ai-gpu-payday-but-score-40-000-pounds-of-sand-instead-crooks-duped-by-20-tons-of-ballast-sand",
-      "source": "Tom's Hardware",
+      "title": "Thieves steal Nvidia-labeled trailers expecting massive AI GPU payday, but score 40,000 pounds of sand instead - yahoo.com",
+      "url": "https://www.yahoo.com/news/us/articles/thieves-steal-nvidia-labeled-trailers-141440899.html",
+      "source": "yahoo.com",
       "publishedAt": "2026-09-27T14:14:40.000Z",
       "kind": "news",
       "tier": 3,
@@ -1254,21 +1268,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 45
-    },
-    {
-      "title": "OpenAI, Anthropic probe tens of thousands of AI model security incidents - Cryptonews.net",
-      "url": "https://cryptonews.net/news/security/33503605/",
-      "source": "Cryptonews.net",
-      "publishedAt": "2026-09-27T12:38:01.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
       "score": 45,
-      "summary": "OpenAI and Anthropic are quietly working through a pile of tens of thousands of AI model security incidents, according to reporting from Axios, and the scale alone suggests the industry’s"
+      "summary": "The two PlusAI trailers with Nvidia-partner markings were apparently left outside the startup's warehouse, making it a juicy target for criminals looking to make easy money on AI GPUs. However, they w..."
     },
     {
       "title": "Anthropic, OpenAI and Google Reportedly Discuss AI Testing Body - findarticles.com",
@@ -1285,9 +1286,9 @@
       "score": 45
     },
     {
-      "title": "OpenAI halts training of AI models after another escape - Techzine Global",
+      "title": "OpenAI halts training of AI models after another escape - techzine.eu",
       "url": "https://www.techzine.eu/news/security/144583/openai-halts-training-of-ai-models-after-another-escape/",
-      "source": "Techzine Global",
+      "source": "techzine.eu",
       "publishedAt": "2026-09-27T12:20:35.000Z",
       "kind": "news",
       "tier": 3,
@@ -1341,6 +1342,29 @@
   ],
   "general": [
     {
+      "title": "Bessent Urges Fed to Keep ‘Open Mind’ on US Inflation Outlook",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/bessent-urges-fed-to-keep-open-mind-on-us-inflation-outlook",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-27T16:19:18.000Z",
+      "kind": "news",
+      "summary": "Treasury Secretary Scott Bessent said Federal Reserve policymakers should keep an “open mind” on interest rates, arguing that productivity gains from artificial intelligence and deregulation will help keep US inflation in check.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Infrastructure Costs Surge as Bond Yields Spike - The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNkhzR01pVzltd1cxcEtQcDNzS1hxc2FfZ0FZWTc2dExRa0l3V3d4N0ZzODJTOHNIWXZCRWFMWFpwREtKX1R1bF9TR05GZjN2S2RxUjNOeHltUDV3Y0V0Sm5wd1dhYWhuQTRaZF9LMV9BVnNLa2RkTy1xdEFBOTBjVkNxVEJ6OWZBR0Mw?oc=5",
+      "source": "The Tech Buzz",
+      "publishedAt": "2026-09-27T16:05:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Bill Gates joins calls for AI safeguards, including legislation - Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQmNRNTdyaGdENWhHUlEzVFpTVnRndmtXcDBfZlVmTVZpWWF2SEF6M1FwXzBtbFZRdWJWOGNKc2JfYll1aEZxamJYYTJwZ2pXMUZ0NW1wWjEyQXRObnRJa29BbzhrLWxXOTFmSVZlRlkyS1Z3endodzAyYm9Sc0NOYlE5REhwbnZQbERfdWc2Mi1LbWVyaGpiOGtjZ1dVWGQ2cTJib1FVM1ZJYkVZbmRJWA?oc=5",
       "source": "Reuters",
@@ -1364,8 +1388,8 @@
       "score": 60
     },
     {
-      "title": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZkM5YUtwWlpHR2pUdG9WZnBZR1ZzdDNKSVpiYkRyY3FTenBpTUJpazFkRFF2WjVQRGhBVEFuaFB6LW5EcUtQMEUtTXdwWXdsQVlfYTkwV3pzV1lnZTF5Y3dmU0dRZm5yY2Q2c2FkTkZyQWZDdm5PREltMG5CY1RxckgtU0g4NWRhUlFzWjgzbTQzbFBfR1BySjVLa0xJdEY4LWNJRDY2WnljNTl2MUJxMkNQNTVYU3VIdnlRbzdUei1nWXNWck1UZXRfVm81c21oOTltY21EckxqSGh1WmlySC1NNHhjNzQ?oc=5",
+      "title": "Academics and AI marking: a welcome aid for overworked staff or a sloppy shortcut? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM2RpYjRISlU3QzFTT1lfR0tNZ2xiekhLaTFuNUc1NF9HM1ZaUk9tY0Z5OF9TMnhuV3JFRFdubnJrWjRnUDlEbno1Nkc4NU1GckZaNkJ6aHFwYUV4UW1NTG5mN3V6VnNVSk5ETVl5ZERkUmRyRnVJV1ZxdzQ1cXdaZFQ1a0tpRy1ORGNpRlBRZktNQklOaTgxSkNrR0wzLXFKWk9GUHF5bWlPYWhjNmMyWU43YmE0ZTVLX2M0?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-09-27T15:01:00.000Z",
       "kind": "news",
@@ -1375,8 +1399,8 @@
       "score": 50
     },
     {
-      "title": "Academics and AI marking: a welcome aid for overworked staff or a sloppy shortcut? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM2RpYjRISlU3QzFTT1lfR0tNZ2xiekhLaTFuNUc1NF9HM1ZaUk9tY0Z5OF9TMnhuV3JFRFdubnJrWjRnUDlEbno1Nkc4NU1GckZaNkJ6aHFwYUV4UW1NTG5mN3V6VnNVSk5ETVl5ZERkUmRyRnVJV1ZxdzQ1cXdaZFQ1a0tpRy1ORGNpRlBRZktNQklOaTgxSkNrR0wzLXFKWk9GUHF5bWlPYWhjNmMyWU43YmE0ZTVLX2M0?oc=5",
+      "title": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZkM5YUtwWlpHR2pUdG9WZnBZR1ZzdDNKSVpiYkRyY3FTenBpTUJpazFkRFF2WjVQRGhBVEFuaFB6LW5EcUtQMEUtTXdwWXdsQVlfYTkwV3pzV1lnZTF5Y3dmU0dRZm5yY2Q2c2FkTkZyQWZDdm5PREltMG5CY1RxckgtU0g4NWRhUlFzWjgzbTQzbFBfR1BySjVLa0xJdEY4LWNJRDY2WnljNTl2MUJxMkNQNTVYU3VIdnlRbzdUei1nWXNWck1UZXRfVm81c21oOTltY21EckxqSGh1WmlySC1NNHhjNzQ?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-09-27T15:01:00.000Z",
       "kind": "news",
@@ -1670,15 +1694,15 @@
       "score": 50
     },
     {
-      "title": "Broken promises, confiscated land: the hyperscale AI datacentre being built in a tiny Indian village - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTGJHYzBnQnBBekZzTEZWTUxZYWJXcXBIa3d6bUJCOFpMTEQzRFk0OFdrc04yNGNXeUtsR2dwSVdRQVY3MEdPb00yUE9vRlRraHQ3YW5IcXBZRFlXNTlZaEpjNHY2QXl0VWFUREpfYU5KX1JVank2TTJ5VmZSaHpwT2k3WktCcE1MVnYwc3BWdWZpWDdCdDA5WU5Kc09tU0dNS1NsT190SXo2LWNxbDNTQ1JSaGV5TE81eHFsMDkwdHY?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-09-27T10:16:00.000Z",
+      "title": "Major lender prepares for a surprising shift in how Americans shop - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGstY2UzVWFfc1FrN214X2NxNzBKUGtRRHJudWVfS19RYmM4bEU0NkRvT3JPQVBPM1QzYll3S0IzNnRRV0RtSGc0anhNanIyYXhicDd1SHcwQmZNNVQxS3NIZDIyZmFFdmR5QmNydkljY3pMSG5zXzcxcGpKUE40Y01PUXp3M0c0NmVORjJ0UG1WQXhRdV9ycDNybG9xOTRpYkRWTA?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-09-27T16:03:00.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "AI Power Demand Sparks Global Debate Over Grid Cost Burden - 조선일보",
@@ -1703,45 +1727,12 @@
       "score": 40
     },
     {
-      "title": "Anthropic's Dario Amodei portrayed on Saturday Night Live amid rising concern over AI security - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeVY3UHJyOGVGV04yRUhNdnBTeHFXWS15VjE3TXdJMV9aUGJFb1pzXzFRbTVtVTNVb2pIdnJxMXFFSHF1TUZWSWJVNUYxZXU1SkE3RUFVM1dXMjUtdWFMUm1zZnFwVzRlUjdCZkhHXzJiMmllQWx0NlJEcllxVmx6STB4TEJUdTFvZzNfSVh2SzR5cHBnTXpreGRaVTRQcWFOTEwweFRPVXh3cmdNTldnZEhn?oc=5",
-      "source": "thenationalnews.com",
-      "publishedAt": "2026-09-27T15:31:41.000Z",
+      "title": "AI Model Security Incidents Expose Industry Control Challenges - The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ULTlvemg3cFY4Y05hTmt5V25pd3lJUm1pME5iVjBiOV81b01TYzJuWE55SmNEMnFsSFJkNGM2Y0lrMXRvbWlkNVlwZzZrYXZ5NGZvQjJRUUR2NnJVTGNBUzFmOGcwVzE2QjI2Z1VWWnNMMXZy?oc=5",
+      "source": "The Cryptonomist",
+      "publishedAt": "2026-09-27T09:40:46.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "New funding supports AI safety research and training at UT San Antonio - Texas Public Radio | TPR",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNWtFLVc2UTZpMC1SRlFPdU5JTDFiQXJxNjc2NHVqamFVdDdoOFk3Q2x3WlAyYUpNVE9MT2VMalY3eUlMR2puWE8taFNsOWFaTjB3NzBON1ZLaTNHSWpnOXNrY1VKRncwMThwTTkwbFJmQTI1a3RIazBKNVNVOW82eXc1T2lueXRFXzNFNEZaOGFxZzRVWEpqc0JhcTdiVDZCazlUUUsxM2lCdw?oc=5",
-      "source": "Texas Public Radio | TPR",
-      "publishedAt": "2026-09-27T15:14:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Why Investors Should Be Bullish on Meta Platforms and Its AI Strategy - finance.yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdUFLMEhBajMwWEhLaFJ6T1BxNE5OZktjbDFUcGF6UWFpMzJLZGtqSVpCMVhjRjBOcWdfdlRFaWoyQV9zVHVYdmlwR3RxVTVTUjNvV3cwbndIal9vY19ZTS0yeDZacTBfRkRrM3BNeE56RVdpRjg3el9wbWxNVElaakNDXy0wRWttSEx0YXo5cWdhdEt1UU03ZmpIVk9KTC1XX1E?oc=5",
-      "source": "finance.yahoo.com",
-      "publishedAt": "2026-09-27T15:05:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI startup urges optimism from Europe despite safety fears - Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iV3o0RlZQcGJoVi01TU5PRDhVXzE2Z25TTHJPczFwUjRoaXJYMGktTXRIelktYm0xdHVQQUJiNEVRei1aWDh4aFhENUlSdWhxNkt5SEdHeG1veXhXdEpVUEpSQnBnS3NNOG1oSEMwSjZYZkUzVnQzVE5xV2JOZw?oc=5",
-      "source": "Tech Xplore",
-      "publishedAt": "2026-09-27T10:50:01.000Z",
-      "kind": "news",
-      "tier": 2,
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1863,56 +1854,70 @@
       "score": 40
     },
     {
-      "title": "Big dreams and tiny revenue are the new norm for AI IPOs - ft.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUmxFc0Vta2dpMDA3eEN6ZW03RmtYNUkxejFsVlk5WG83aUJsRHBfUDJiSnB3UVBEengtNTFXWEZlVUg2Y2dBaTZuUXhNam1WMVF4akFtRHJRaE4ydHEwV0ZtaXYyRElQbjMzRmRzY0F6MzBuLV9nVW9fWXdrUnVBeVNLb3M?oc=5",
-      "source": "ft.com",
-      "publishedAt": "2026-09-27T04:03:52.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "The rules of AI etiquette - ft.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3pBOGVPbjNqQ3lBTTZ0a2l2VlBBSjhZTmtUT0MtOEVJcWVOTDJFWGhPSEVaS25CTGVPRWhZZ1Q4YUhTblJIdXpPNjJQeDlKcDVtZ2RzRWNzY1lzZWk0bmFXQld1LUFhM0J2eVA1Ym5wZXdydWl2ekRBT1pzNDZ5OUs5NHQ?oc=5",
-      "source": "ft.com",
-      "publishedAt": "2026-09-27T04:03:52.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Big companies warn lack of ‘AI openness’ could hit investment in Europe - ft.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeVNjYkJKbWhmNEh3dDJTZVRZckxjcVVaT1I0MjA3eTlBalFsVElEVHNmc05Kc0R5cnMzcDlSVlo1WFFOQnAwQmp5Q0F2X3VfSDhGc3Rsb1o1NE5JSW5XcFphNy13NjBNSUR4a0tHTWozc3RpeWtPXzlKRmF0VUVBWHVtSDE?oc=5",
-      "source": "ft.com",
-      "publishedAt": "2026-09-27T04:02:03.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "South Korea bets big on AI for all - ft.com",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oMmRtMngwVllBUWtFUEFIeGVoc0VGd2RRUWNhdE1YRjdIcFNnWjNqY2ZJVmNzNUhSWW5hejRFTng1TUJ1VGVlMTVjWElTSDZoVTdNeVhuOW1qaHpkTTk4TnNkdkpzYmdidEdIZWdseUs?oc=5",
-      "source": "ft.com",
-      "publishedAt": "2026-09-27T04:01:32.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
       "title": "China Media Says US Shares Responsibility for Managing AI",
       "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-state-media-says-us-shares-responsibility-for-managing-ai",
       "source": "Bloomberg",
       "publishedAt": "2026-09-27T03:59:29.000Z",
       "kind": "news",
       "summary": "China and the US have the ability and responsibility to manage and develop artificial intelligence, according to a post published Sunday by Yuyuantantian, a social media account affiliated with state broadcaster China Central Television.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Thai PM Anutin’s Support Drops in Latest Poll as Pressures Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/thai-pm-anutin-s-support-drops-in-latest-poll-as-pressures-rise",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-27T03:45:17.000Z",
+      "kind": "news",
+      "summary": "Public support for Thai Prime Minister Anutin Charnvirakul and his Bhumjaithai Party has plunged, according to an opinion poll, as his government confronts rising oil prices and a court ruling that may threaten its hold on power.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "South Korea Tax Windfall Seen Above 50 Trillion Won: Yonhap",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/south-korea-tax-windfall-seen-above-50-trillion-won-yonhap",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-27T02:51:08.000Z",
+      "kind": "news",
+      "summary": "South Korea’s excess tax revenue may exceed 50 trillion won ($37 billion) this year, according to a Yonhap News report, reflecting factors including a stronger-than-expected semiconductor cycle.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Japanese anime actor fights TikTok over AI voice cloning - The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZG1ZQTliOHh0QnlEazZ0ZmY3VlJHazBEU3dGd0dEaTVRNUhGYmMxU0lZYWsxb1ZkaUY3ejR0S3BueXJsLXdhb2c0WmlhU3NVT05xdHpRa2lJN25kaEFDU1hmeGZTb3VlSHkyTTVOVEZuLUFrTVhBMzlxWHNiV0dZMlFkb1EwWEZXT3p0VmtUazZueUoxcllZcDF2dXRZZG9FWFE0QmlaZzFoMUtNMXFoc0xNNGdDR19V?oc=5",
+      "source": "The Japan Times",
+      "publishedAt": "2026-09-27T02:31:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "China’s Consumer Stocks Face Lost Decade as AI Steals Spotlight",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/china-s-consumer-stocks-face-lost-decade-as-ai-steals-spotlight",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-27T00:00:00.000Z",
+      "kind": "news",
+      "summary": "Under the shadow of Beijing’s single-minded focus on artificial intelligence, China’s consumer stocks are trapped in a lost decade.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Scoop: Top AI companies probing tens of thousands of security incidents - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaUlRV1JkUEZFRkRINVBlWTR1SWxkZ1hjcUdOMkJDNzF4UXdBVHd2LVlqQmlwb0R3cTVuTFk3MEp1eHlUT0hsRTAzekszcl81ZjNoWDZCMkZBTlk4Z3dlV1RoZnd3YVZSQmpUWWEyc3EyWUFnRHFiQjNacUVEYmxuYXFxVldIdVJ3?oc=5",
+      "source": "Axios",
+      "publishedAt": "2026-09-26T23:28:38.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

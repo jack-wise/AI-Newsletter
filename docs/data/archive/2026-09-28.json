@@ -1,21 +1,6 @@
 {
-  "generatedAt": "2026-09-28T00:01:58.027Z",
-  "siteTitle": "AI Newsletter",
-  "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
-  "priorityTickers": [
-    "FRMI"
-  ],
-  "relatedTickers": [
-    "NVDA",
-    "OpenAI",
-    "MSFT",
-    "AMZN",
-    "GOOGL",
-    "GEV",
-    "SMNEY"
-  ],
-  "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
-  "priority": [
+  "day": "2026-09-28",
+  "items": [
     {
       "title": "SEC filing: PX14A6G — Fermi Inc. (NOTICE OF EXEMPT SOLICITATION)",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026099255/ea0305276-px14a6g_toby.htm",
@@ -729,9 +714,7 @@
       ],
       "related": [],
       "score": 25
-    }
-  ],
-  "related": [
+    },
     {
       "title": "GE Vernova vs. Bloom Energy: Which AI Power Stock Has the Edge? - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/09/27/ge-vernova-vs-bloom-energy-which-ai-power-stock-ha/",
@@ -1141,9 +1124,7 @@
         "OpenAI"
       ],
       "score": 45
-    }
-  ],
-  "general": [
+    },
     {
       "title": "BOJ Rate Hike in October Is Real Possibility, Ex-Official Says",
       "url": "https://www.bloomberg.com/news/articles/2026-09-27/boj-rate-hike-in-october-is-real-possibility-ex-official-says",
@@ -1725,16 +1706,6 @@
       "tickers": [],
       "related": [],
       "score": 40
-    }
-  ],
-  "sourceErrors": [
-    {
-      "source": "stocktwits:FRMI",
-      "error": "HTTP 403 for https://api.stocktwits.com/api/2/streams/symbol/FRMI.json"
-    },
-    {
-      "source": "reddit:r/FRMI",
-      "error": "HTTP 429 for r/FRMI feed"
     }
   ]
 }

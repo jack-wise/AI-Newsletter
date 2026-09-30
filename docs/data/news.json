@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:02:21.757Z",
+  "generatedAt": "2026-09-30T16:31:50.560Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "$FRMI looking good here, nhod",
+      "url": "https://stocktwits.com/StockAuthority/message/665451435",
+      "source": "@StockAuthority on StockTwits",
+      "publishedAt": "2026-09-30T16:24:31.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "46,840 followers",
+          "1 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 80,
+      "summary": "$FRMI looking good here, nhod"
+    },
     {
       "title": "Trump Poised to Announce Korean Investment in US Nuclear TODAY",
       "url": "https://www.reddit.com/r/FRMI/comments/1wu686s/trump_poised_to_announce_korean_investment_in_us/",
@@ -57,7 +79,7 @@
       },
       "tier": 2,
       "related": [],
-      "score": 68,
+      "score": 58,
       "summary": "selling feels overdone. tensor is delayed, but not out. and the news these past days seems very bullish to me and indicates production is getting closer:"
     },
     {
@@ -546,9 +568,9 @@
       "summary": "[September 28, 2026] Fermi America - $FRMI - Discussion Thread"
     },
     {
-      "title": "Fermi Brings on NAES to Run Project Matador Gas Fleet - Hart Energy",
+      "title": "Fermi Brings on NAES to Run Project Matador Gas Fleet - hartenergy.com",
       "url": "https://www.hartenergy.com/upstream/power-generation/data-centers/he-fermi-naes-turbine-fleet/",
-      "source": "Hart Energy",
+      "source": "hartenergy.com",
       "publishedAt": "2026-09-29T19:43:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -910,31 +932,22 @@
       "related": [],
       "score": 38,
       "summary": "US Investment Results (Unofficial)"
-    },
-    {
-      "title": "FRNI to the moon! 🚀",
-      "url": "https://www.reddit.com/r/FRMI/comments/1wn55th/frni_to_the_moon/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-09-22T09:56:30.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Milkitymilk5",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "FRNI to the moon! 🚀"
     }
   ],
   "related": [
+    {
+      "title": "F.T.C. Investigates OpenAI and Anthropic Over Potential Consumer Harms - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/30/technology/ftc-openai-anthropic-investigation.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-30T15:58:41.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
     {
       "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
       "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
@@ -977,23 +990,9 @@
       "score": 75
     },
     {
-      "title": "FTC Probing OpenAI, Anthropic Over Product Safety Concerns (1) - Bloomberg Law News",
-      "url": "https://news.bloomberglaw.com/artificial-intelligence/ftc-probing-openai-and-anthropic-over-product-safety-concerns",
-      "source": "Bloomberg Law News",
-      "publishedAt": "2026-09-30T15:31:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75,
-      "summary": "The Federal Trade Commission is scrutinizing OpenAI, Anthropic PBC and other artificial intelligence companies about the safety of their products amid high-profile cybersecurity incidents, according to a person familiar with the matter."
-    },
-    {
-      "title": "EXCLUSIVE: If AI Capex Cracks, Nvidia Could Feel It Before Meta Does - benzinga.com",
+      "title": "EXCLUSIVE: If AI Capex Cracks, Nvidia Could Feel It Before Meta Does - Benzinga",
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62084519/nvidia-ai-capex-meta",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "publishedAt": "2026-09-30T15:48:48.000Z",
       "kind": "news",
       "tier": 2,
@@ -1005,17 +1004,18 @@
       "summary": "WisdomTree’s Sam Rines says a slowdown in AI capex could hit Nvidia and infrastructure providers harder than AI implementers like Meta."
     },
     {
-      "title": "FTC Probing OpenAI and Anthropic Over Product Safety Concerns - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/ftc-probing-openai-and-anthropic-over-product-safety-concerns",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-09-30T15:01:25.000Z",
+      "title": "CoreWeave to Offer NVIDIA Vera, the First CPU Built for AI Agents - Investing News Network",
+      "url": "https://investingnews.com/coreweave-to-offer-nvidia-vera-the-first-cpu-built-for-ai-agents/",
+      "source": "Investing News Network",
+      "publishedAt": "2026-09-30T15:45:25.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 2,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
-      "score": 65
+      "score": 65,
+      "summary": "CoreWeave Inc. (Nasdaq: CRWV), The Essential Cloud for AI™, today announced it will expand its compute portfolio with the NVIDIA Vera CPU , the first CPU designed for AI agents, to meet the needs of new workloads. The news was shared during Fully Connected , CoreWeave's AI cloud conference, ..."
     },
     {
       "title": "FTC Probing OpenAI, Anthropic Over Product Safety Concerns",
@@ -1059,18 +1059,17 @@
       "score": 65
     },
     {
-      "title": "FTC opens probe into AI giants including Anthropic and OpenAI, New York Post reports - The Lufkin Daily News",
-      "url": "https://lufkindailynews.com/news_reuters/business/ftc-opens-probe-into-ai-giants-including-anthropic-and-openai-new-york-post-reports/article_53def80b-93e9-5b3e-bb63-f10b6e0d90b7.html",
-      "source": "The Lufkin Daily News",
-      "publishedAt": "2026-09-30T13:53:28.000Z",
+      "title": "DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/30/business/china-ai-deepseek-huawei.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-30T13:36:53.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA"
       ],
-      "score": 65,
-      "summary": "By Jody Godoy Sept 30 (Reuters) - The Federal Trade Commission is conducting an industry-wide probe into Anthropic, OpenAI and other AI labs to uncover the potential dangers their technology"
+      "score": 65
     },
     {
       "title": "Morningstar Picks Google’s New Chicago Building for HQ Move",
@@ -1101,18 +1100,47 @@
       "score": 65
     },
     {
-      "title": "OpenAI is sued over rogue AI Hugging Face cyberattack",
-      "url": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
-      "source": "CNBC",
-      "publishedAt": "2026-09-30T10:16:36.000Z",
+      "title": "OpenAI hit with landmark lawsuit following Hugging Face hack - Axios",
+      "url": "https://www.axios.com/2026/09/29/openai-sued-hugging-face-breach",
+      "source": "Axios",
+      "publishedAt": "2026-09-30T11:25:21.000Z",
       "kind": "news",
-      "summary": "The lawsuit appears to be the first publicly reported case seeking to hold an AI developer liable for an incident caused by rogue systems.",
       "tier": 1,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
       "score": 65
+    },
+    {
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product safety risks - qz.com",
+      "url": "https://qz.com/ftc-investigation-openai-anthropic-ai-safety-093026",
+      "source": "qz.com",
+      "publishedAt": "2026-09-30T16:12:55.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "The agency confirmed the probe on Wednesday; it first opened the investigation this summer, according to CBS News"
+    },
+    {
+      "title": "Trump Unveils 'Morally Binding' AI Accord Signed by OpenAI, Google and Nvidia - Yahoo",
+      "url": "https://www.yahoo.com/news/politics/articles/trump-unveils-morally-binding-ai-160603089.html",
+      "source": "Yahoo",
+      "publishedAt": "2026-09-30T16:06:03.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI",
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "The one-page pact, which Trump called \"morally binding,\" asks companies to adopt internal controls, independent audits and board oversight—but carries no penalties and drew criticism for its thin deta..."
     },
     {
       "title": "Vinasoy reports 20% out-of-stock reduction with AWS AI - AI News",
@@ -1128,73 +1156,6 @@
       "score": 55
     },
     {
-      "title": "From OpenAI to Meta, why AI companies want cute ‘agents’ to run your life - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaHV0UU5hbzhWSVBOekpPZWJxNDFGUVVEV1ZWOEpDU0pWVXo1UHhnc2trOVE5d3BrdUxKZWdtZ0N1MHk3Rnh1RjM1MGxOZ3ZNZDlPQ0xFZTczWEUzeWJrTUdObTlDbHdLMFQ5OFRzLXEtdEw5SEZpeldLSjhYVkROd25jRQ?oc=5",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-09-30T15:25:14.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "CoreWeave Stock Rises After Neocloud Goes Live With New Nvidia Hardware - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWTktWWNhMml0OTFuamVSTVg4eFBXR2t6bDViTGhpMVNudURhOXBYcnJfZWU5R2U5MW9iU2pzZER6UG82SUpMUEtMUF8zX0tYQWFlN3ZPMktlNXM1MHNoVXd4RWtDd0hMY1RSVjVYbHJqY0Vpd3ROampyY3Q3MHI3WTd3?oc=5",
-      "source": "Barron's",
-      "publishedAt": "2026-09-30T15:22:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang was everywhere in Q3. The AI giant's stock proves it. - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaHV5TDVmT2tDX2Z3a19vSGZiZ2FYSG5MbEd5V0ZUejRLM21TaEY1ck1uQlNGNXZiUW4teWhONEt4dEk3bmJTQXJGQUtZdWs1OUlvVGVKRTVHMkNQTU45QXBFRTZGbnVOZG52aEFyaEcxSU1IVHU2Ry1Bd09oa1BNeXN0SWlhVjE2ZnBkWXQ3WG5HSGNTTEJLZ19Zd1FTTnJFTGtCM2U5bHBKSWVIQklKM1drTDlTZzhjYkNkUV9ob0RpRmV1TEM5M3Q0SnpfRmRVTVo0Yg?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-30T15:20:47.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI - NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
-      "source": "NVIDIA Blog",
-      "publishedAt": "2026-09-30T15:13:12.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "NVIDIA Vera Rubin NVL72 and Vera CPU on CoreWeave accelerate agentic AI for companies including Cognition, extending a nearly decade-long run on NVIDIA infrastructure that stays productive, durable and fungible across generations."
-    },
-    {
-      "title": "FTC investigating Anthropic, OpenAI and other companies over potential AI risks - CBS News",
-      "url": "https://www.cbsnews.com/news/ftc-investigation-openai-anthropic-ai-safety/",
-      "source": "CBS News",
-      "publishedAt": "2026-09-30T15:07:57.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "The regulatory agency"
-    },
-    {
       "title": "America's SBDC Announces Partnership with OpenAI to Bring AI Training to Small Businesses Nationwide - Morningstar",
       "url": "https://www.morningstar.com/news/pr-newswire/20260930dc59901/americas-sbdc-announces-partnership-with-openai-to-bring-ai-training-to-small-businesses-nationwide",
       "source": "Morningstar",
@@ -1208,15 +1169,16 @@
       "score": 55
     },
     {
-      "title": "CoreWeave to Offer NVIDIA Vera, the First CPU Built for AI Agents - Morningstar",
-      "url": "https://www.morningstar.com/news/business-wire/20260930651069/coreweave-to-offer-nvidia-vera-the-first-cpu-built-for-ai-agents",
-      "source": "Morningstar",
-      "publishedAt": "2026-09-30T13:00:00.000Z",
+      "title": "Anthropic IPO Filing Reveals a Major Vulnerability: Nearly 50% of Sales Flow Through Amazon and Google as Revenue Concentration Raises Risks: Report",
+      "url": "https://www.benzinga.com/markets/private-markets/26/09/62075939/anthropic-ipo-filing-reveals-a-major-vulnerability-nearly-50-of-sales-flow-through-amazon-and-google-as-revenue-concentration-raises-risks-report",
+      "source": "Benzinga",
+      "publishedAt": "2026-09-30T11:50:00.000Z",
       "kind": "news",
+      "summary": "Anthropic's IPO filing reveals a significant reliance on Amazon and Google, with nearly 50% of its sales flowing through these tech giants who are also investors, suppliers, and competitors. The company also faces high revenue concentration with two unnamed customers accounting for 12% each, and a net loss of $42 billion in 2025 despite rapid revenue growth. Despite these vulnerabilities, Anthropic views its relationships with these tech companies as beneficial for market pen [sentiment: Neutral]",
       "tier": 2,
       "tickers": [],
       "related": [
-        "NVDA"
+        "GOOGL"
       ],
       "score": 55
     },
@@ -1234,11 +1196,12 @@
       "score": 55
     },
     {
-      "title": "OpenAI debuts \"dots\" as industry safety focus shifts to \"What did my AI assistant do now?\" - Axios",
-      "url": "https://www.axios.com/2026/09/30/openai-dots-ai-agent-safety",
-      "source": "Axios",
-      "publishedAt": "2026-09-30T09:02:24.000Z",
+      "title": "OpenAI is sued over rogue AI Hugging Face cyberattack",
+      "url": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-30T10:16:36.000Z",
       "kind": "news",
+      "summary": "The lawsuit appears to be the first publicly reported case seeking to hold an AI developer liable for an incident caused by rogue systems.",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1247,10 +1210,10 @@
       "score": 55
     },
     {
-      "title": "OpenAI hit with landmark lawsuit following Hugging Face hack - Axios",
-      "url": "https://www.axios.com/2026/09/29/openai-sued-hugging-face-breach",
+      "title": "OpenAI debuts \"dots\" as industry safety focus shifts to \"What did my AI assistant do now?\" - Axios",
+      "url": "https://www.axios.com/2026/09/30/openai-dots-ai-agent-safety",
       "source": "Axios",
-      "publishedAt": "2026-09-30T08:24:09.000Z",
+      "publishedAt": "2026-09-30T09:02:24.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1313,6 +1276,19 @@
       "summary": "Company’s product comes weeks after Meta introduced its own artificially intelligent agent Muse"
     },
     {
+      "title": "OpenAI Ignored Employees’ Warnings About Safely Testing A.I. Models - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/29/technology/openai-warnings-security.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-29T22:53:40.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
       "title": "Altman unveils ‘always-on’ AI agent after OpenAI shelves model over safety concerns - AP News",
       "url": "https://apnews.com/article/sam-altman-openai-conference-dots-agent-77b6b8888145869206996d7509d24256",
       "source": "AP News",
@@ -1322,6 +1298,20 @@
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "At A.I. Event, Trump Asks Meta, OpenAI and Microsoft to Make Safety Decisions Themselves - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/29/us/politics/ai-trump-meta-microsoft-openai.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-29T22:29:02.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI",
+        "MSFT"
       ],
       "score": 55
     },
@@ -1337,9 +1327,80 @@
         "OpenAI"
       ],
       "score": 55
+    },
+    {
+      "title": "OpenAI Unveils Always-On AI Agent Dots, New $500 Paid Tier - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-29/openai-unveils-always-on-ai-agent-dots-new-500-paid-tier",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-29T17:22:25.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     }
   ],
   "general": [
+    {
+      "title": "Mike Mayo Says AI ‘Scare Trade’ Hit to Bank Stocks Is Overdone - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc1BVVnVPcmdjYXZKYWpOZlUzQjlGSFJuV3QxeUppTTJBUExsWlV5TGs4bzl3azJRU1RGM0NRQW1pT3NvQ25BQzZjSjdJSGRORHRDVUFqYjFYVnB5TlVkeTVRRUc2anhDQUowS0tuTzJaUmRocjBuNm1FeUtHQVQwZ2NpYU50cFN5RTdKWklGLTFpSjk3S3VaaGd4Tmk3bHMta0lOQkYzMlQ3UWpWM3c3NWZCc3NoM25qUDE1dg?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-09-30T16:14:30.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "FlyDubai Crash Averted After Pilot Stabbed Colleague",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-30/flydubai-crash-averted-after-pilot-stabbed-colleague-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-30T16:08:35.000Z",
+      "kind": "news",
+      "summary": "The flight narrowly avoided catastrophe after one of the pilots attacked their colleague, forcing the plane into a steep plunge and an emergency landing in Saudi Arabia. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Clubes de futebol enfretam impacto de R$ 1 bi com fim das bets",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-30/clubes-de-futebol-podem-perder-r-1-bi-com-fim-das-bets-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-30T16:02:49.000Z",
+      "kind": "news",
+      "summary": "Felipe Saturnino fala sobre o impacto nos clubes de futebol da decisão do governo de proibir as apostas online. Edição de Patricia Xavier e produção de Gisele Fernandes. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Mexico’s Peso Becomes Worst in the World as Carry Traders Flee",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/mexico-s-peso-becomes-worst-in-the-world-as-carry-traders-flee",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-30T16:00:06.000Z",
+      "kind": "news",
+      "summary": "Analysts are rushing to cut their year-end forecasts for the Mexican peso after it underperformed every other major currency over the past month.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Florida lawyer denies submitting ‘AI slop’ in bid to dodge court sanctions - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMlg1RV9MZTFpSG5MbEtlU2NySTMxQXFiTGlXOW5saDVHWFl2WmpPTXpqc0RxYURQQmVxU2EtLXp1M0JFQ1ZESDc3VFlfcG45QmhETHNGckUydUxKQm95VGJ1a3FZVjRtS0dPMWN0X1oyaDFrdzNDd1lyQXU0dHBnUEY3cWtBTHp1dkFXaG0xT0NyTFRuX1pFVHMta0x5LTAzX2I5Uy1oQmFldlFZZnZVUzJtblQwNEtlSHZ3?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-09-30T15:59:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "AI market needs to make $6 trillion a year by 2031 to fund its infrastructure habit - The Register",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVG1rR3lJOUp4TWNkYXFIX21lb1lEQnQ4RVpkSUFmXzZJS2tScm9CVUpHOFFYTUxzbGFJQ0JMZ19kVV9YREJrVExvU19ESFd3aUkyUVhLcTZ0YmF4aHp1aEoyV3VfNTEyY0tISWlGUjl5NjFzN3dHdkJQVFI3VUlsVUFTMjJlWDJMU3JRNWlFVzFmakF2blN0eFRsd3oyeXRGbW1hcVFpbnY5M19YWml0ZHo5dTFMRjZaemhoWjBqb0ZTdXVYM0d1d3FJalloRmJiUWxUOHp3?oc=5",
@@ -1421,7 +1482,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Treasury 30-Year Yield's Continuous Rise Reveals Inflation Worry",
@@ -1433,7 +1494,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Consumer Spending Jumps by Most in a Year",
@@ -1445,7 +1506,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bitcoin Rides Risk Roller Coaster as Sepeculative Bets Wind Down",
@@ -1457,7 +1518,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Cheap Eggs Ahead of Election Season Weigh on US’s Top Producer",
@@ -1469,7 +1530,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Robinhood to Offer Weekend Equities Trade; Cal-Maine Falls on Sales Miss | Stock Movers",
@@ -1481,7 +1542,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Diversify Across AI Value Chain: Sundar",
@@ -1493,7 +1554,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Why KKR Says AI Buildout Needing $8 Trillion in New Capital",
@@ -1505,7 +1566,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Trump, Modi Discuss Trade, Energy Ties as New US Tariffs Loom",
@@ -1517,7 +1578,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "All the latest updates on AI data centers - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb0UxRGMyQ3VLZ1hCY2U3dVVzZnYyX1FZSGJ6OElGOFZ3amc1NnY2Z3Fhb2NIcUp4UFNQNTBQZ3RPa2RiaGEtYWROcHpadFpCV244Nng2VDZuOTBMZDNwdHR3ajl4RXhSSEFjSUZQMVlFd25GSXNZWHZxaVpJYXN0VFJSYUtwcWpOc1huZENJSTRjTlJtTUN3RXh4WFgxRkhOZnBLNVFwSHc?oc=5",
+      "source": "The Verge",
+      "publishedAt": "2026-09-30T15:01:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Stripe, Visa-Backed Consortium Launches Dollar Stablecoin",
@@ -1532,12 +1604,34 @@
       "score": 50
     },
     {
+      "title": "Medical Records Firm Uses AI Tool to Expose Flaws that Threaten Patient Privacy - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSXV3OVlGcnRrS1h2cVJoTXJ2NWtFbTNNajBKemhTUFcyOU9sMEJrSFhtejlIZExZY2gxZ0VuTE14c1lTQzVlbURuTXI3UmpnSHZfSjdZdFhwdUR5QVhvcVR1X2FaVWFYbk0tNTJ5LXdUT1FZRnJYMTBtdktsNEgxbm1QbG5kUQ?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-30T14:57:50.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "AI Upstarts Pressured to Get Big-Tech Backstops for Data Centers",
       "url": "https://www.bloomberg.com/news/articles/2026-09-30/ai-upstarts-pressured-to-get-big-tech-backstops-for-data-centers",
       "source": "Bloomberg",
       "publishedAt": "2026-09-30T14:56:45.000Z",
       "kind": "news",
       "summary": "CBRE Group Inc. executives have a warning for artificial-intelligence upstarts hunting for data centers: Find a serious partner to guarantee lease payments or face an uphill battle securing new sites.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "A fake image of a Georgia mayor kissing a person went viral. Can US voters trust everything they see? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xNWl0MGVITzBQTDJZZjlPUGJwYndtdUZxVTBGOWpqVS0zWnhmcUJCVFRFNzVlaDU0VU5pVWZfQ0lDRnhSenZ0QzBZOGZPbTQ5TzN0VmJKUHpyZmJYdXJKQmNXU2ZPLW95djRSNkhzYTJXRk5WMW42ZEU4RGliM00?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-30T14:55:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1568,70 +1662,23 @@
       "score": 50
     },
     {
+      "title": "‘Existential risks’: Anthropic warns its investors about its own AI — Lindsey Granger | RISING - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPN0kxT21ZYmdGMzJHZHYzU3psckJxYzF2X2ttcS1GYWZxZ1RQNlpERGdnaWFHRFRtY0hxbFRvdXBNSFcwMkczXzZsZkV3OTJraVhRSVRQcnE4X19xU2l5SWhlb1pCMUxiQ2oyRVk5QzRPc0tEaW5mVVFqblA0TDhWd1laZTFiTGFLbXR1M1hMeHFpWm5TZTFGd2JuZktwUng1eFY2NXhqR29nQkxETUc1TEs5V1FNN0c4VmltME15YjY1cmxiWEoxTGFJSTJjUjNDczdmSHhQb05iNXdXV0dpTkJidzhDQQ?oc=5",
+      "source": "The Hill",
+      "publishedAt": "2026-09-30T14:47:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Fed’s Preferred Inflation Gauge Comes in Cooler Than Expected",
       "url": "https://www.bloomberg.com/news/videos/2026-09-30/bloomberg-surveillance-9-30-2026-video",
       "source": "Bloomberg",
       "publishedAt": "2026-09-30T14:46:34.000Z",
       "kind": "news",
       "summary": "Jonathan Ferro, Lisa Abramowicz and Annmarie Hordern speak daily with leaders and decision makers from Wall Street to Washington and beyond. No other program better positions investors and executives for the trading day than \"Bloomberg Surveillance.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Brightline Offers 4.75% Equity Stake to Lure Hedge Fund Holdouts",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/brightline-offers-4-75-equity-stake-to-lure-hedge-fund-holdouts",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T14:45:27.000Z",
-      "kind": "news",
-      "summary": "Brightline agreed to give creditors that own its corporate debt at least a 4.75% equity stake in its reorganized business, as well as other incentives, as part of a deal to get the holdouts to back its Chapter 11 restructuring plan.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Florida lawyer denies submitting ‘AI slop’ in bid to dodge court sanctions - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMlg1RV9MZTFpSG5MbEtlU2NySTMxQXFiTGlXOW5saDVHWFl2WmpPTXpqc0RxYURQQmVxU2EtLXp1M0JFQ1ZESDc3VFlfcG45QmhETHNGckUydUxKQm95VGJ1a3FZVjRtS0dPMWN0X1oyaDFrdzNDd1lyQXU0dHBnUEY3cWtBTHp1dkFXaG0xT0NyTFRuX1pFVHMta0x5LTAzX2I5Uy1oQmFldlFZZnZVUzJtblQwNEtlSHZ3?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-30T14:42:33.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI borrowers face tough sell in risky corners of US credit market - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNDgzMm9MOFBWRnQzVE5TX2FjS0dlek94d3FaTnIwWFNSR2M5LW44X093SllVajZPUUYwenVTa0NlWS01WldkRnFxN25oUFNDYlI4QkdZNFlqQk81VjAtRlhCQjlSSFVkaEY0ZmVfeTZWXy1VQndrNTN4ODVSbDAzeFVTNDlERll6amRqNjQ3dTcxeE9kMWoyckRGZlp3WnBBMzY2UGRhM0ZCZkxyd0lsb0Y4NlQ5UQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-09-30T14:41:53.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Partners Group Considers Sale of Modular Builder Parmaco",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/partners-group-considers-sale-of-modular-builder-parmaco",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T14:40:20.000Z",
-      "kind": "news",
-      "summary": "Partners Group AG is exploring a potential sale of Finnish modular building maker Parmaco Oy, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Dubai to Tel Aviv Flight Averts Catastrophe After Pilots Fight",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-30/israel-bound-flight-averts-disaster-after-pilots-fight-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T14:35:10.000Z",
-      "kind": "news",
-      "summary": "A flight operated by FlyDubai from Dubai to Tel Aviv narrowly avoided catastrophe after one of the pilots stabbed his colleague with the intent of bringing down the plane. The plane made an emergency landing in Saudi Arabia. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1654,18 +1701,6 @@
       "source": "PR Newswire",
       "publishedAt": "2026-09-30T14:30:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Panama Panel Backs First Quantum Mine Restart to Fund ‘Closure’",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/panama-panel-backs-first-quantum-mine-restart-to-fund-closure",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T14:25:16.000Z",
-      "kind": "news",
-      "summary": "A Panama ministerial committee is recommending that President Jose Raul Mulino’s administration negotiate a restart of an idled copper mine with First Quantum Minerals Ltd. as a way to fund an “orderly closure” sometime in the future.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1755,9 +1790,9 @@
       "score": 50
     },
     {
-      "title": "'Super intelligence is a national security issue,' Jay Clayton says; dodges AI 'czar' question - cnbc.com",
+      "title": "'Super intelligence is a national security issue,' Jay Clayton says; dodges AI 'czar' question - CNBC",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wM0JiUEhkMHBSZ0dxRkp4bWZ0UFp5NlpEaHhKTmNfRW1QN2xpTVVUbl84LXJSeFdVemNmNDI2ZW5hWTgzUkJBZV80ZFBQNnlHT2RRZUF1SjAwelZLS2loWENMNXZESDZnb053RUg5clctaEdLSGs2RtIBfkFVX3lxTFByNFVVbWpHVm9hZkhwU2p3UWUyYUZTRV9GNGN0dTFSREhmMXpVbUFFVkZselJuX2dBanBUZ0hBaEVjclNhX2hmOEJxaUlSQUhoSFk1YWlpRXZhd0RycVhnNHR4MDdpaHlVbm1mQnlnOFhRN2ZWelkxamJaYVRNQQ?oc=5",
-      "source": "cnbc.com",
+      "source": "CNBC",
       "publishedAt": "2026-09-30T13:32:36.000Z",
       "kind": "news",
       "tier": 1,
@@ -1837,23 +1872,23 @@
       "score": 50
     },
     {
-      "title": "Not Chips. Not Memory. Data Center Cooling Is the Unsung AI Infrastructure Play Nobody's Watching - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOG5MOURraDd1X3BQU1M1bXZ3eDQ1OXBGckhQZjFVdFhxTFZvYnFERG80X19sQTR0dGpTQXRndXJCcHZMeER1VjlWYVBCTFVxSEVvYnAzeEJCNVNyVk9ueUlXNF9LSFdmWkZkOVZDU3RVVHRNbTJMSkJsdXdBVkFYTDNZM0xNN0ZGV25VcEJNeFJ5bVhFaG8ySw?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-09-30T12:57:58.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "DoorDash Unveils Text-to-Order AI Agent That Works With Apple's iMessage",
       "url": "https://www.bloomberg.com/news/articles/2026-09-30/doordash-unveils-text-to-order-ai-agent-that-works-with-apple-s-imessage",
       "source": "Bloomberg",
       "publishedAt": "2026-09-30T12:57:00.000Z",
       "kind": "news",
       "summary": "DoorDash Inc. unveiled an artificial intelligence agent for ordering food that works inside Apple Inc.'s Messages app, stepping up efforts to integrate personal AI assistants ahead of its e-commerce rivals.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Not Chips. Not Memory. Data Center Cooling Is the Unsung AI Infrastructure Play Nobody's Watching - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQbGJ4QkV3WHk0TU1GU0UtZHRVbmc5Z1hpZklhWFFJRWg5b0dVLVdaWTlVZk45aFQ4VjdHTmt6bGpMWDlBd3N0dXVoMjdUOFNscUdXazFKaVRwWUVqZWV1NWVsaERXeEVTaDFYTV9BUHlENE52ZVo1OW1IM3oyZmVqLW94bWRIQzE3NXFHdjg0XzRiZHNLU1YzaE1SSF9ZQl92b2ZkRklzdTFrQzBQUEhjbURGeUhRUXJIUlBJbTZJeEo0ZW5kTWlnNVY3OWdTTTkwWlk5a2JjcnhTeUVYZHhKQmp6WVlGYzE4bmc1cTlBQVNRTFdLdzd2eE41Tl9XZDJxdExKWUQ1UHI5WVNhdEE?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-09-30T12:52:26.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1888,42 +1923,6 @@
       "source": "The Manila Times",
       "publishedAt": "2026-09-30T12:40:04.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Chile Copper Production Sinks to Lowest in More Than 15 Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/chile-copper-production-sinks-to-lowest-in-more-than-15-years",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T12:39:04.000Z",
-      "kind": "news",
-      "summary": "Chile had its worst month of copper output in more than 15 years in August, deepening a slump in the biggest supplier of the metal that helps explain a tightening global market and record prices.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Goods-Trade Gap Widens Unexpectedly to Largest Since 2025",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/us-merchandise-trade-deficit-unexpectedly-widened-in-august",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T12:33:58.000Z",
-      "kind": "news",
-      "summary": "The US merchandise-trade deficit unexpectedly widened in August, reflecting a jump in the value of imports of industrial supplies such as petroleum products.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Consumer Spending Jumps by Most in a Year Despite High Prices",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/us-consumer-spending-rises-by-most-in-a-year-core-pce-up-0-2",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T12:33:32.000Z",
-      "kind": "news",
-      "summary": "US consumer spending rose in August at the fastest pace in over a year, helping to power the economy through persistent inflation.",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T10:02:08.119Z",
+  "generatedAt": "2026-09-30T10:31:54.733Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "selling feels overdone. tensor is delayed, but not out. and the news these past days seems very bullish to me and indicates production is getting closer:",
+      "url": "https://www.reddit.com/r/FRMI/comments/1wu1ckl/selling_feels_overdone_tensor_is_delayed_but_not/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-09-30T10:26:24.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/CommonPollution2745",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "selling feels overdone. tensor is delayed, but not out. and the news these past days seems very bullish to me and indicates production is getting closer:"
+    },
     {
       "title": "[September 30, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1wtv4ki/september_30_2026_fermi_america_frmi_discussion/",
@@ -503,7 +525,7 @@
     },
     {
       "title": "Fermi Brings on NAES to Run Project Matador Gas Fleet - Hart Energy",
-      "url": "https://www.hartenergy.com/upstream/power-generation/data-centers/he-fermi-naes-turbine-fleet/",
+      "url": "https://www.hartenergy.com/upstream/power-generation/data-centers/he-fermi-naes-turbine-fleet",
       "source": "Hart Energy",
       "publishedAt": "2026-09-29T19:43:00.000Z",
       "kind": "news",
@@ -894,41 +916,34 @@
       "related": [],
       "score": 38,
       "summary": "US Investment Results (Unofficial)"
-    },
-    {
-      "title": "FRNI to the moon! 🚀",
-      "url": "https://www.reddit.com/r/FRMI/comments/1wn55th/frni_to_the_moon/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-09-22T09:56:30.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Milkitymilk5",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "FRNI to the moon! 🚀"
     }
   ],
   "related": [
     {
-      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue - WSJ",
-      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
-      "source": "WSJ",
-      "publishedAt": "2026-09-30T09:11:43.000Z",
+      "title": "OpenAI is sued over rogue AI Hugging Face cyberattack",
+      "url": "https://www.cnbc.com/2026/09/30/openai-sued-cyberattack.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-30T10:16:36.000Z",
       "kind": "news",
+      "summary": "The lawsuit appears to be the first publicly reported case seeking to hold an AI developer liable for an incident caused by rogue systems.",
       "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "OpenAI Seeks $30 Billion at $1.4 Trillion Valuation",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-30/the-pulse-9-30-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-30T10:15:39.000Z",
+      "kind": "news",
+      "summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops. Today's guests: Wei Li, BlackRock Global Chief Investment Strategist; Vincent Policard, KKR Co-Head of European Infrastructure; Luigi Lovaglio, Banca Monte dei Paschi di Siena CEO (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
       ],
       "score": 75
     },
@@ -952,6 +967,19 @@
       "publishedAt": "2026-09-30T05:55:34.000Z",
       "kind": "news",
       "summary": "OpenAI aims to raise at least $30 billion from investors in a new round of funding, according to people familiar with the matter. The company is seeking a valuation of around $1.4 trillion, not including the money raised, said the people. This comes after the artificial intelligence startup pushed back its plans for an initial public offering. Bloomberg's Neil Campling reports. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "OpenAI hit with landmark lawsuit following Hugging Face hack - Axios",
+      "url": "https://www.axios.com/2026/09/29/openai-sued-hugging-face-breach",
+      "source": "Axios",
+      "publishedAt": "2026-09-30T05:22:24.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -988,6 +1016,61 @@
       "summary": "SpaceXAI is all set to capitalise on any typos that OpenAI users name when looking up Dots."
     },
     {
+      "title": "Samsung Pouring Another Billion Into AI Infrastructure. Nvidia And KKR Are Also Backing The Venture. - International Business Times",
+      "url": "https://www.ibtimes.com/samsung-pouring-another-billion-ai-infrastructure-nvidia-kkr-are-also-backing-venture-3808016",
+      "source": "International Business Times",
+      "publishedAt": "2026-09-30T10:15:01.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Helix is building data centers, power infrastructure and connectivity for AI customers with more than $10 billion already committed by its founding investors."
+    },
+    {
+      "title": "How Nvidia’s Big Win at Trump’s AI Lunch Will Boost the Stock - Barron's",
+      "url": "https://www.barrons.com/articles/nvidia-stock-price-ai-trump-add8d2b3",
+      "source": "Barron's",
+      "publishedAt": "2026-09-30T10:10:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "DigiCert adds AI agent identity to NVIDIA safety platform - Engineering.com",
+      "url": "https://www.engineering.com/digicert-adds-ai-agent-identity-to-nvidia-safety-platform/",
+      "source": "Engineering.com",
+      "publishedAt": "2026-09-30T09:59:07.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "AI Trust Manager provides cryptographically signed AI Passports, policy-based permissions and a kill switch for agent authority."
+    },
+    {
+      "title": "CUbIQ Plugs Quantum Security Into NVIDIA's AI Networks - Quantum Zeitgeist",
+      "url": "https://quantumzeitgeist.com/nvidia-quantum-security-ai-cubiq-plugs/",
+      "source": "Quantum Zeitgeist",
+      "publishedAt": "2026-09-30T09:43:55.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "CUbIQ integrates quantum security into NVIDIA’s AI networks with a CV-QKD pluggable, demonstrated at ECOC 2026, that detects eavesdropping on optical fiber links."
+    },
+    {
       "title": "OpenAI CFO Accidentally Calls Dots as Muse Giving Meta's AI Agent an Unexpected Shoutout in Faux Pas Mome - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/09/62071461/openai-cfo-accidentally-calls-dots-as-muse-giving-metas-ai-agent-an-unexpected-shoutout-in-faux-pas-moment-shay-boloor-takes-a-dig-at-brand-differentiation",
       "source": "Benzinga",
@@ -1016,9 +1099,9 @@
       "summary": "DeepSeek open-sources Huawei Ascend AI chip toolkit, rivaling Nvidia CUDA."
     },
     {
-      "title": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia - Reuters",
+      "title": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia - reuters.com",
       "url": "https://www.reuters.com/world/asia-pacific/deepseek-partners-with-huawei-develop-chip-programming-tools-reducing-reliance-2026-09-30/",
-      "source": "Reuters",
+      "source": "reuters.com",
       "publishedAt": "2026-09-30T03:03:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1039,19 +1122,6 @@
       "tickers": [],
       "related": [
         "GOOGL"
-      ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI hit with landmark lawsuit following Hugging Face hack - Axios",
-      "url": "https://www.axios.com/2026/09/29/openai-sued-hugging-face-breach",
-      "source": "Axios",
-      "publishedAt": "2026-09-30T02:21:27.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
       ],
       "score": 55
     },
@@ -1124,6 +1194,20 @@
       "summary": "CNBC's Kate Rooney joins 'Fast Money' to recap all the news that came out of OpenAI's developer day."
     },
     {
+      "title": "OpenAI launches cute, ‘capable’ AI agents after shelving deceptive model - The San Francisco Standard",
+      "url": "https://sfstandard.com/2026/09/29/openai-launches-dots/",
+      "source": "The San Francisco Standard",
+      "publishedAt": "2026-09-29T21:24:14.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "CEO Sam Altman announced “dots,” the company’s answer to Meta’s Muse, at OpenAI’s developer day event."
+    },
+    {
       "title": "OpenAI's Ohio mega data center complex to start construction next year - The Columbus Dispatch",
       "url": "https://www.dispatch.com/story/business/energy-resource/2026/09/29/openai-data-center-pike-county-ohio/92009929007/",
       "source": "The Columbus Dispatch",
@@ -1150,6 +1234,19 @@
       "score": 55
     },
     {
+      "title": "OpenAI takes on Meta with dots agent in autonomous AI push - reuters.com",
+      "url": "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/",
+      "source": "reuters.com",
+      "publishedAt": "2026-09-29T17:17:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
       "title": "As AI models go rogue, do you still trust OpenAI and Anthropic to stop them? I don’t and neither should you - The Guardian",
       "url": "https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
       "source": "The Guardian",
@@ -1164,9 +1261,9 @@
       "summary": "The need for independent regulation grows more obvious by the day. We must keep this tech in check before it’s too late, says technology writer Chris Stokel-Walker"
     },
     {
-      "title": "Netlist seeks U.S. import ban on Micron chips used in Google, Nvidia AI computing - Reuters",
+      "title": "Netlist seeks U.S. import ban on Micron chips used in Google, Nvidia AI computing - reuters.com",
       "url": "https://www.reuters.com/legal/litigation/netlist-seeks-us-import-ban-micron-chips-used-google-nvidia-ai-computing-2026-09-29/",
-      "source": "Reuters",
+      "source": "reuters.com",
       "publishedAt": "2026-09-29T15:50:51.000Z",
       "kind": "news",
       "tier": 1,
@@ -1192,19 +1289,6 @@
       "score": 55
     },
     {
-      "title": "Nvidia Was the Big Winner of Trump’s AI Lunch, Here’s Why - Barron's",
-      "url": "https://www.barrons.com/articles/nvidia-stock-price-ai-trump-add8d2b3",
-      "source": "Barron's",
-      "publishedAt": "2026-09-30T08:56:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
       "title": "DevDay 2026 Recap - OpenAI",
       "url": "https://openai.com/index/devday-2026-recap/",
       "source": "OpenAI",
@@ -1214,48 +1298,6 @@
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Amazon.com, Inc. $AMZN Stock Sold by Rehmann Capital Advisory Group",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-amazoncom-inc-amzn-stock-sold-by-rehmann-capital-advisory-group-2026-09-30/",
-      "source": "MarketBeat",
-      "publishedAt": "2026-09-30T07:30:50.000Z",
-      "kind": "news",
-      "summary": "Rehmann Capital Advisory Group reduced its stake in Amazon.com (AMZN) by 6.5% in the second quarter, selling 4,860 shares while still holding 70,007 shares valued at $16.7 million. Despite this sale, Amazon reported strong quarterly results, surpassing analyst expectations with $5.75 EPS and $200.61 billion in revenue, driven by AI and AWS growth. Analysts currently maintain a \"Moderate Buy\" rating for Amazon, with an average price target of $321.19. [sentiment: Somewhat-Bullish]",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "AMZN"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Pelham Capital Ltd. Raises Stake in Amazon.com, Inc. $AMZN",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-pelham-capital-ltd-raises-stake-in-amazoncom-inc-amzn-2026-09-30/",
-      "source": "MarketBeat",
-      "publishedAt": "2026-09-30T07:26:50.000Z",
-      "kind": "news",
-      "summary": "Pelham Capital Ltd. increased its holdings in Amazon.com, Inc. by 12.1% during the second quarter, bringing its total stake to 71,730 shares valued at approximately $17.1 million. This increase makes Amazon its fourth-largest holding, representing 9.7% of its portfolio. The report also highlights Amazon's strong quarterly results, with EPS and revenue exceeding analyst expectations, and a \"Moderate Buy\" consensus rating from analysts despite potential margin pressures for AWS [sentiment: Somewhat-Bullish]",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "AMZN"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Montanova Capital LLC Lowers Stake in Amazon.com, Inc. $AMZN",
-      "url": "https://www.marketbeat.com/instant-alerts/filing-montanova-capital-llc-lowers-stake-in-amazoncom-inc-amzn-2026-09-30/",
-      "source": "MarketBeat",
-      "publishedAt": "2026-09-30T07:19:50.000Z",
-      "kind": "news",
-      "summary": "Montanova Capital LLC has reduced its stake in Amazon.com, Inc. by 19.3% during the second quarter, selling 49,149 shares and retaining 204,860 shares valued at approximately $48.8 million. Despite this reduction, institutional investors collectively hold 72.2% of Amazon's stock, and analysts maintain a positive outlook with a \"Moderate Buy\" consensus rating and an average price target of $321.19. Amazon recently reported strong quarterly earnings of $5.75 per share, signific [sentiment: Somewhat-Bullish]",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "AMZN"
       ],
       "score": 45
     },
@@ -1273,19 +1315,6 @@
       "score": 45
     },
     {
-      "title": "Nvidia (NVDA) Ships an AI Safety Platform After Huang Called Rival Warnings Odd - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-ships-ai-safety-063441658.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-30T06:34:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
       "title": "DeepSeek opens tools to help Huawei chips supplant Nvidia in AI - South China Morning Post",
       "url": "https://www.scmp.com/tech/tech-trends/article/3369301/chinas-deepseek-open-sources-tools-help-huawei-chips-supplant-nvidia-ai",
       "source": "South China Morning Post",
@@ -1298,37 +1327,100 @@
       ],
       "score": 45,
       "summary": "With introduction of suite of six tools, AI model developer aims to create ‘independent’ software ecosystem for AI processors."
-    },
-    {
-      "title": "CUbIQ Plugs Quantum Security Into NVIDIA's AI Networks - Quantum Zeitgeist",
-      "url": "https://quantumzeitgeist.com/nvidia-quantum-security-ai-cubiq-plugs/",
-      "source": "Quantum Zeitgeist",
-      "publishedAt": "2026-09-30T05:19:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "CUbIQ integrates quantum security into NVIDIA’s AI networks with a CV-QKD pluggable, demonstrated at ECOC 2026, that detects eavesdropping on optical fiber links."
-    },
-    {
-      "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model - BBC",
-      "url": "https://www.bbc.com/news/articles/cw7v42rp083eo",
-      "source": "BBC",
-      "publishedAt": "2026-09-30T05:18:13.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Sam Altman spoke in San Francisco during OpenAI’s yearly event for tech developers."
     }
   ],
   "general": [
+    {
+      "title": "Apple Is Finally Ready to Enter Its Next Big Category: the Smart Home",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/apple-is-finally-ready-to-enter-its-next-big-category-the-smart-home",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "kind": "news",
+      "summary": "Apple Inc. plans to make its long-delayed push into the smart-home market on Oct. 13, marking a critical product expansion for the company under new Chief Executive Officer John Ternus.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Trump tries to rename AI 'super intelligence' as polls show him sinking on key issue",
+      "url": "https://www.cnbc.com/2026/09/29/trump-ai-super-intelligence.html",
+      "source": "CNBC",
+      "publishedAt": "2026-09-30T10:26:39.000Z",
+      "kind": "news",
+      "summary": "Trump shrugged when asked if he is concerned that his support for AI and data centers could hurt Republicans in the upcoming midterm election.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Dan Ives prepares to debut fund offering access to private companies fueling AI boom - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TR3pJMWM1TkN2Mk81Vlo5RGtMQ1dCcDE5MFhNRWh1OTBKVURyS25KcC1MQkE0MGFucXRzZUI4M1doZzJ3WmtrcWdQVzZLOGo4WERBUEFnWjhYWXdxbGhUbFRCbER5Q2JEXzdRQmtkeUREWHVRaF9sRy1zVdIBgAFBVV95cUxOME1ELUFLc3dDRTlNdkV4WlhiM0pFVC1mSzZmbmROVE00U0JZcnZGVXZ1bDBIR1dwTldxX3VacGVuMmx5d1RwWjEyd1lIOXM4R04zS2otaHB5cXdibG5YVm41RmlqQW1RSW0yUllCM2xjb3pvd2RnM3FmaDctZ1JnMg?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-09-30T10:21:38.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Surge in Bond Yields Is Spilling Over to the Dollar",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-30/surge-in-bond-yields-is-spilling-over-to-the-dollar",
+      "source": "Bloomberg",
+      "publishedAt": "2026-09-30T10:07:52.000Z",
+      "kind": "news",
+      "summary": "Greenback index is having biggest monthly gain since June.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "As AI images become common, the threat to elections draws alarm: ‘How will voters know what’s true?’ - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xNWl0MGVITzBQTDJZZjlPUGJwYndtdUZxVTBGOWpqVS0zWnhmcUJCVFRFNzVlaDU0VU5pVWZfQ0lDRnhSenZ0QzBZOGZPbTQ5TzN0VmJKUHpyZmJYdXJKQmNXU2ZPLW95djRSNkhzYTJXRk5WMW42ZEU4RGliM00?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-09-30T10:01:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI's coming roadblock in regulation: Antitrust hawks - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SVXliUWZzM3JMYTdJLTlNUTlvUUlmR05MUUp1T1VwT0ZFT3hBNnZ6cjhpaUNQdk9PLUgzUElhM2RNMVhJM1BwNnhQanBLTjFmQjBvNWd2TmNLV1ZlQ29CN3Zha0tiTnpKdl93WlhtOGxvak5qUkhkVNIBfkFVX3lxTE5BZzFFN3hDUk1uUUZTbmJjUFg3c016Njd3MjBQX0ZKNVUzdVZrOVlnOHpZa09ad3JHZjNTdkV5SHZnT3E2N1N4QURwWHgxTF8xY0RaN25lbk1JYldObHRkVE9RaG1lWE5wZi1PM3dCc3UxamlQNVRCc0o5Sm5ZQQ?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-09-30T10:00:01.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "TrackVia Launches Next Generation of Its AI-Ready Field Operations Platform - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOWhEcjcyZDhMSW1sX0J3U3JYUWt6TFpRb0xRX0pwUEt3bENBb0tZeVFwbG1DalV2YnM2clFHQ1JuZEVNbm5UTEJENGMzTVpxTWc3OEdDMEVqQ0tEci1LbjZxUUk3LU9Xa3VmYkpSSV9IM2ZUM3d2SGZINmFrNWd1ZS1ia3FHOENxNkNzY1NJMnJrbVlwdHpySHQ3a0JoRnZBRlFjVXU2elFIWWhQQUQ3clJkcUZKdjhnN094VUc5d0ZER2NEQUNuS0ZtNA?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Beam Global to Present Advanced Battery Technology for AI - globenewswire.com",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPd2pvWTJfZWRTc28tZll6dm03NWlDVUFfODhBX0t1ajl3OFlscHhoTUJ0N2J1dlJoZWpIRy1JR3FqazctaXRzOUtTenVMTkNIS2RRY0FicVpmdC1WREVPQ2pVQW5tVXVjcnJhNDlUSDRVRVJpdHVXMnVTVFFpLUg1ZHF0RURKWUVNS2dpQnhLYmJXdmJGWlJCYm5zQUpwaXg1UEpaY2h4UGhaOWxqemgxRzVxYlk3VWxtRGVRMzR5NnFkSGp2aG5RbElxUGhlRHNPb09vX2RJcFczQXpTYWtKSzhIZ1Q0UTR2VzFlM0xFdk5uUlF1aEFGeGNrdDdjSVlPLVgxRUVKSTBiaEMwdm5wZ2FtSDUwcEUwMEtFYVA1bDh3dHpT?oc=5",
+      "source": "globenewswire.com",
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Israeli Settlement Boycotts Risk Triggering Economic Isolation",
       "url": "https://www.bloomberg.com/news/articles/2026-09-30/israeli-settlement-boycotts-risk-triggering-economic-isolation",
@@ -1342,9 +1434,9 @@
       "score": 60
     },
     {
-      "title": "Bank of England sees growing risk that dangers from AI and debt will materialise - Reuters",
+      "title": "Bank of England sees growing risk that dangers from AI and debt will materialise - reuters.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdDZxOXc0SzIwN2d4Z1p6eDRBOTNfaVlDdFVHSk9LWlZqNk5UUHFwaFEtWDM5VTJFUHFMTFN5bGpaRWZmUldDLW1fQTFTMDlQNGd0QlRHWWxkOFU2SUhUTUtYUUFLZkJhblEwd0xKTnpHLXFDSk1hb1Y0NGJqdzFBVWItVVZjLXd6OUpRbEtHcGRRQmFXZjdlM2tGYzJGaHAyQ0VuM3FkX2dNR1BKMEFQZmwxUkp0NDJxREJLSlhn?oc=5",
-      "source": "Reuters",
+      "source": "reuters.com",
       "publishedAt": "2026-09-30T09:35:44.000Z",
       "kind": "news",
       "tier": 1,
@@ -1374,7 +1466,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Zambia Cuts Rates as Inflation Is Expected to Remain in Target",
@@ -1386,7 +1478,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "EU Member States Back Move to Curb Pesticide Use in Imports",
@@ -1398,7 +1490,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Bull of the Day: Astera Labs (ALAB) - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0JIX3ZCNFF4aVdCRzF2c3Q3VGpBV1F6QVdXbEwtTnV0QW9JTEpMaGJGS2lKN0tjenhzSGVrSUhOcUE2QkVVbHBuSnQ0a0FFcm5yUXJoMDctdE1zVWMtSnhZempsNnV1OHQ2b1RhQjhMb0Zjc3VzYXIybUJ4cUJYSnNnd0RXWTNiTG9GZTRwdVBoS1JIVnI4X0ZqZUFfSzZpRTZNVUFGdjh3LUNFVjZOYTBpQmgwWHk4?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-09-30T09:12:40.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Micron’s $370 Billion Stock Rebound Hinges on AI Spending View",
@@ -1410,7 +1513,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaldseExIVE9TcngwcklZeGpVckV4XzhfSzhNRE9FVlFnQWt0dVp6b3pLRXVqQmE4T21KbW5sTVdoejVyRlF6bXlzbTZveUhGejlLZ3g2VzNGd3hwaGQzU2pfc3p6ZFEtUWl0Y2hnS19raVkyNzhrQlEzd1RwS0haQUI1QQ?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-09-30T09:00:47.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Griffin Commits $3 Billion to Carnegie Mellon in Record Donation",
@@ -1473,6 +1587,17 @@
       "score": 50
     },
     {
+      "title": "Democrats Float AI, Data Center Tax Plans as Tool for Midterms - Bloomberg Government News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHhRWlcwTUtNeGxpLVprbkpLQ0FlQk9xZXdNQUdBN09TRFRWdWZwRGxMcXpUVmkwdnIxaFJMaEtQeGVkOGRNUmg1cDlBT2ZDeFZMQlk5TWlpTEh6d2VnV2tsQ0xRbEprbkNMS3V6UDE2SVp5OHRVZjE2VWJaOEJCUGt5ZTBqT2lVc01HZTJuNWdlSUVBZF9tU2hzZ25MejdnV0E?oc=5",
+      "source": "Bloomberg Government News",
+      "publishedAt": "2026-09-30T08:45:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Goldman Sachs: Euro Stocks Resilient to Macro Pressures",
       "url": "https://www.bloomberg.com/news/videos/2026-09-30/goldman-sachs-euro-stocks-resilient-to-macro-pressures-video",
       "source": "Bloomberg",
@@ -1509,30 +1634,6 @@
       "score": 50
     },
     {
-      "title": "Banks Add Rare Lender Protection to Nestle Water Debt Deal",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/banks-add-rare-lender-protection-to-nestle-water-debt-deal",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T08:13:42.000Z",
-      "kind": "news",
-      "summary": "A group of banks led by Bank of America Corp. and Deutsche Bank AG offered a rare concession to help get a €2.8 billion ($3.2 billion) financing deal for Platinum Equity’s acquisition of a stake in Nestle SA’s water business across the line.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "French Inflation Accelerates to Highest in Two Years",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-30/french-inflation-accelerates-to-highest-in-two-years-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T08:12:07.000Z",
-      "kind": "news",
-      "summary": "Inflation in France quickened to the fastest pace in more than two years as surging oil and natural gas costs continue to weigh on Europe’s economy. Inflation in the euro area’s second-biggest economy stood at 3.4% in September, up from 2.6% in August, statistics agency Insee said. The reading keeps pressure on the European Central Bank to continue raising interest rates. Bloomberg's Oliver Crook has the details. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Germany Tells State-Owned SEFE to Store Gas as Winter Nears",
       "url": "https://www.bloomberg.com/news/articles/2026-09-30/german-government-instructs-energy-company-sefe-to-store-gas",
       "source": "Bloomberg",
@@ -1545,12 +1646,12 @@
       "score": 50
     },
     {
-      "title": "Airbnb’s Bet on Experience-Driven Marketing",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-30/airbnb-s-bet-on-experience-driven-marketing-video",
+      "title": "Tullow Oil Shares Drop 50% After Loss of Ghana Tax Dispute",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-30/tullow-oil-shares-slump-after-loss-of-crucial-ghana-tax-dispute",
       "source": "Bloomberg",
-      "publishedAt": "2026-09-30T08:01:01.000Z",
+      "publishedAt": "2026-09-30T08:00:49.000Z",
       "kind": "news",
-      "summary": "Airbnb Chief Experience Officer Hiroki Asai explains how the company seeks to drive deeper brand engagement through real-world experiences. (Source: Bloomberg)",
+      "summary": "Tullow Oil Plc shares fell by half after the company lost an arbitration case over taxes on fields in Ghana that account for the bulk of its production.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1569,35 +1670,11 @@
       "score": 50
     },
     {
-      "title": "Tullow Oil Shares Slump After Loss of Crucial Ghana Tax Dispute",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/tullow-oil-shares-slump-after-loss-of-crucial-ghana-tax-dispute",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T08:00:49.000Z",
-      "kind": "news",
-      "summary": "Tullow Oil Plc shares fell by more than a third after the company lost an arbitration case over taxes on fields in Ghana that account for the bulk of its production.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Everpure Announces New Data Management Capabilities for Production AI at Scale - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcDdtd19kQkpJMzJDWEt5Q2pmTk9GSGYyckxDeWRxM1V1ekNxcXcxWDZPcVl2N3lxRV85dUVyaUMxR0dYMUw1d3NkbVEzb0FodDFtRER2SEtFUDFaQ2ZiaTFCdlg1Ylh4c3YzcVRubTJqQXhzd04wWXBnZXB2WG9pbV9fX0hCWU13NUVhbWMxakFESWdfZEJXV2RpMjV2cjBFUDh6Mlh4Y2c5WUE5MW9LYkdYZnlDaVZQczh6RjdyVlBYTUZnV3RnSE9mb3J4bk0?oc=5",
       "source": "PR Newswire",
       "publishedAt": "2026-09-30T08:00:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Dollar to Gain From Capital Flows: Market Analysis",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-30/us-dollar-to-gain-from-capital-flows-3-minutes-mliv-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T07:48:15.000Z",
-      "kind": "news",
-      "summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1610,17 +1687,6 @@
       "publishedAt": "2026-09-30T07:43:27.000Z",
       "kind": "news",
       "summary": "Poland’s inflation rate increased to the highest level since mid-2025 as a spike in fuel prices stoked by the Middle East conflict piles pressure on the central bank to tighten monetary policy.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "What do WorldTour cyclists think about artificial intelligence? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWGhSWTd2UU1uM0Y3VnFqck9YcUVSWHkzYXpPWGhRUEF0Y1ZqWmJtN1NLUFFoM3BkQ2xkemZSanRpNUNmbGp5YUpxTXFmZkczZmM5akZEcjY5RkFfZXhwOE92bm5CXzR0SThJcmxEcHg5V1l6empnLW1HUTdQSVM2LUpCWnlJSmJTOVA0dG5mMHQ0S2tRbWxWa25HWEZLLS1DSWc?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-09-30T07:31:59.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1645,6 +1711,17 @@
       "publishedAt": "2026-09-30T07:02:41.000Z",
       "kind": "news",
       "summary": "The Swiss National Bank continued to sell francs in the second quarter, following through on its “increased willingness” to intervene against a stronger currency.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "At UN, developing nations call for bigger say in shaping AI future - CNBC Africa",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQN01lS2UzeUx2QndNOFhOYW1NRl9HcENNVUNxU2ZvbURzd3F3cGdJcm1rZmFPaWhDaW5DWWJfWTNYbUJOZWU2QU1QdDE1OHd1ZEhyYnd4NFhJUlk5OV9jSFF1bGNyOExZT2ZuS0tPMnRrSTNieTVPWXFhcUtaZmxZWDhaZWJaY0RkNjdjQi00OFRIWnFRcVlxZWpMQUFnZHM?oc=5",
+      "source": "CNBC Africa",
+      "publishedAt": "2026-09-30T06:54:12.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1770,34 +1847,10 @@
       "score": 50
     },
     {
-      "title": "Why UK Jobseekers are Hunting for First Jobs Abroad",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-30/why-uk-jobseekers-are-hunting-for-first-jobs-abroad",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T04:15:06.000Z",
-      "kind": "news",
-      "summary": "The UK's sluggish jobs market is forcing more young people to look abroad for work. Irina Anghel reports on where they're going and why. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Michael Burry’s Protégé Warns of ‘Value Traps’ in Korean Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-30/michael-burry-s-protege-warns-of-value-traps-in-korean-stocks",
-      "source": "Bloomberg",
-      "publishedAt": "2026-09-30T04:03:11.000Z",
-      "kind": "news",
-      "summary": "A protégé of Michael Burry has warned that South Korea’s cheap stocks come with a catch: much of their value is often kept out of reach of minority shareholders.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Data Centers Lift US Energy Storage Market, Wood Mackenzie Says - thelec.net",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LRHg2WUpXOUYyTml0NjZWRUtvUGI4UThjUThYMWVLMHp4bURlOGJKa0JqSkZHbTdKSVlDclpNUHpXYUNpWWZaeGxaVFpiWHlOT3k4Q255QkRnN3A5WEF0bDB6M201QkE?oc=5",
-      "source": "thelec.net",
-      "publishedAt": "2026-09-30T09:48:31.000Z",
+      "title": "Regulating AI 'not the right place to start' says Bank of England governor - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Zb3RuM0hVcUpTRmllOWtiLTRxWndGY1hsTFdSLU5lTzZJd0xGVEVOUkNDc1RQWFRJOFpaZ1I2QnRlWHA0MnVKT19zUUh0ZjBpM1pBcTMwYVFLVFk?oc=5",
+      "source": "BBC",
+      "publishedAt": "2026-09-30T10:20:20.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1805,10 +1858,10 @@
       "score": 40
     },
     {
-      "title": "Behind Samsung's $1bn Investment in Helix for AI Hyperscale - Data Centre Magazine",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRzdRWFVsME9qWmc0cTF6NV93eUcwamZfYmZfNDNZdTZDWFFCNHg4REtwOGpBdllnUTRXTEVNclhxYmRXcGREX1M2d21JVDA4ZXRSVEFJZi1jVjhIemdTRjJfWUFVenJaeVdyd1BVcWtHV0dGUHhGQjF3Nk9fM3NVbXdNejdaZ05Kb3FPU1dHOFJTU1FlRGwwZVVfMjM?oc=5",
-      "source": "Data Centre Magazine",
-      "publishedAt": "2026-09-30T09:41:56.000Z",
+      "title": "Beam Global to Present Advances in High-Power Battery Technologies for AI Data Centers and Electric Aviation at The Battery Show North America - Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZGZrX1BpbkVTbGVFaThDazRIVzBSM3VpemREbTF6RFpLOEk5VUhiWEhhdUxTR1dwcm5xaG1rZ3YyVDRfVmJjZ2M1cGEtaUxhT1lFcnJHdXpFR3c5SmI1dXh1dWhBNlR2b254SjZPaGM2YnQyejFscGJvYU1yQXRNM3dkVTNEa2s1WXVtS3pWZzZmNGJDMmdNTjZYUlVlTkFXazE2LXhrYXZ4VXBGSjFIVjRGTG1mdFRnSm95XzcwdEJ1TVVHYmxGc1RXZDR0X29hb3dQTGRNTlJaNDNJRkk4MVVLbWFSNWlyLTdrMWNldnBjTHdpSDJmWERlTUQ4eXhHMmZwOUtB?oc=5",
+      "source": "Quiver Quantitative",
+      "publishedAt": "2026-09-30T10:10:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1816,10 +1869,10 @@
       "score": 40
     },
     {
-      "title": "Readers speak: We all need to know the negative impacts of AI - Hartford Courant",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEd1Tkk3eE82QktfUlo2aWJ0STRYS2V2dWR3aTBOZXNpVnNmOWlqNjNNQWpIQXNKdlRFS3hHZnVadl9ha1l2cklDWEZqNk1LZFpBLTJDTm9PMUkwY3ViRDRfTmJaOEk4TVgyYW13eFBsRXpMUzVNX3lrWnRQNzlDTExJSjdPTGJxNDBlSjFPR0FEallaWURRUjFESnU?oc=5",
-      "source": "Hartford Courant",
-      "publishedAt": "2026-09-30T09:34:03.000Z",
+      "title": "Anthropic warns of AI’s ‘existential risk’ to humans in its IPO filing - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQakpLNVNveHZuMmhVd1BXQm45SmM0eUNGWHNHRFZwMjNZbHpmY3lrSjFGZ3BuWnRuSjVzYVZob0FiR1M1aWhrZ0duVWxQYmZqcl9UTVZwd0tyQWplam9fNEs3cHh5bGktdkhITDlrUlljRzA1ZU9wc3AtN0JyZHJma0hwX2JsamEweE9IOU5NaUVwWU1FeXQ5dUd2RC1WSkd2N0IySXN5MWNlWDZIWnNQakhObzYzRDMw?oc=5",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-09-30T10:04:12.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1827,10 +1880,10 @@
       "score": 40
     },
     {
-      "title": "Georgia joins US-led artificial intelligence initiative - Latest news from Azerbaijan",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdXlLZ2U0RTF5eW55a0N5cEV3cW4wZS1vTWk1QXhQNjl5MlZNTW9sUnhzLXZmRGdIUVI0T0FjbWZSQzh0MGQybXMtVVBBZGt5aS1rdVI5RGw0X3VNOUpRa3VkMUlJTmNna3VENEZvbWZPS2p6SzRxQnhKWDNrazljZHRCZw?oc=5",
-      "source": "Latest news from Azerbaijan",
-      "publishedAt": "2026-09-30T09:30:42.000Z",
+      "title": "AI skills are boosting IT pay — but mostly for senior roles - cio.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNajJOazUzOHJ4XzJia25TU3RlVEJOWjNxZjhsN0I1blQ3aFYzVGFyaG9pWVpBYnRFdkF5Mm9xSG9fU09ITUpVWUZpak9MWnBOcDlWX1VXNm5XelREcGhmb19pV3pBTDE1QkU2aTNNcUUyQXgyUlhBNVA3VmRVY3o2LVNGdDlwOUl0ek5IQm5wQ0xIRTk5ZkEtRFJiQVVacTRSbXc?oc=5",
+      "source": "cio.com",
+      "publishedAt": "2026-09-30T10:03:50.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1838,10 +1891,10 @@
       "score": 40
     },
     {
-      "title": "Samsung to invest in AI infrastructure company - TahawulTech.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObXRBZkZOc0E2T1ZDYTlUdDc1V25mTGJTUEtiZTFuZUZ3dEpzWjJOdDE5ZEgyMG1UNWlDbzlHQTg4ZTNUTHpMRmxOVERrT1o0SnpsbDlkYzZKVFVTTE55Z0RERHlMdVpiT2RnTTZOMmlNVkV0d0JDNUlNZW9xTzhpMVYxdVRjTk1HdE54OVIyTQ?oc=5",
-      "source": "TahawulTech.com",
-      "publishedAt": "2026-09-30T09:13:49.000Z",
+      "title": "How McDonald’s uses AI to recommend menu prices - AI News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONlJVMmdRNTg3Q3VTTEh5MU54UkRqVU4zQ0E4STV3WFpwWXkwS1JSb05ieG9ITU9oNTJ6X2hyOVUzdGdOWFV2ejE2aTNOczQzNlM0QVZVWGRQWGstNHFKOXFpUE5tTnVmRFN6ei1iSTdOVUZCNEJtVWlRYmI4Z3NEeg?oc=5",
+      "source": "AI News",
+      "publishedAt": "2026-09-30T10:02:06.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1849,65 +1902,10 @@
       "score": 40
     },
     {
-      "title": "Bull of the Day: Astera Labs (ALAB) - theglobeandmail.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLVFJOXdveUxFelI5dENOTzZvX0J6Y3pabUh0TEpUc2txREdrSUhQOVpadkdHSmNZNy1vSWg3QzdmdTVXaVo1d09Qd1lSSlNrS0hFYzU1U09yU3J0NGtfUXdUU1lWTnJDZ2tHOWlqZkN1T2F2eFRuaUtrQmpOb3VpQ3Y5NldtV2lOdEN6NFhMV1BqZnhCUldiNTUwNDhhc09CM0FCY0Z6SjVpRmNZYnp1TGF1cHpMelVw?oc=5",
-      "source": "theglobeandmail.com",
-      "publishedAt": "2026-09-30T09:12:40.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Meet Genesis: the AI chip that doesn’t forget - UT San Antonio Today",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11VWJaSERpaDZoVjFfaUxKbTJqV0JpS0ZtcXpnRmxQQmlnNVJRRURMSUppOGpmVFBDbXR6NXU1MXFjUDNlRDUyc3Q5TU9BQjBvdnVpSkttQ084T0VoLWtDM2dFTjlQZndrbnNva2R4aGhhMGhpc0p2bFNNeldheUk?oc=5",
-      "source": "UT San Antonio Today",
-      "publishedAt": "2026-09-30T09:07:45.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "How Investors Are Reacting To Vertiv Holdings Co (VRT) Expanding Its AI Power Chain Reach - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaldkcWtOMWhxbjVxMTdIUnJFMVQ1MkdMazJtbEFyaGhWUl9pOUtmdWNhamp6VjJRU3FLU1ZQX2N1eE9iZUVFaXpvX0FuS1I3SFhtd24xOXoxbklwWUhWcTRsVExKOFZ3bThQMHhYSlpickhxX3o2MjBPVzhsVkVZVm52Z1VoaHp3SVhpUGxPcDRvdnhqc0V4VjVvSFZhU1A2YjhF?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-30T09:07:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Sen. Josh Hawley introduces bill aimed at stopping abuse of Flock cameras and similar AI technology - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PbnoyV0NqcTRPcHRiVlVBbTB6SnpKNXJzZEpocG9FMmUza19aM3R1Wi1WV0toeGNoWTc2T1ZtenBhTjhWLTZmS2NJenR3OXV6NldYa0M3cnNMXzdRQWl2NW9ZZHdUVGo1RVVEc01mcVd2TmdS?oc=5",
-      "source": "CBS News",
-      "publishedAt": "2026-09-30T09:04:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Billionaire Israel Englander Buys 2 Artificial Intelligence (AI) Stocks Up 405% and 575% in 2 Years - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdHpZNXVXaV83OXlzOE1wN0F1RTlONFNfcWxZOVRZNkE5V0FqMDVYUy1yMlhDNlBDRGxHLThJM3pRRUV6RXYyaWZjcnN6RklnWjctUWp4Vk82N1FlTU5BcU1QNHNBMmdzRHBTN0JYZDNsNmItRmh5RldEYzBTVjlOTW8yS1BJNDd3M21tUVBNUi1ZSVlOQWRLbGhrZ2VQN19ISlE?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-09-30T09:04:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "‘Not putting brakes on’: Delaware pursues AI-run companies initiative amid reports of agents going rogue - WHYY",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVE3NUU4cjJyaVNfcGdwNThPd0ZLVktndS1ta2N2VVNQY1ctUGFWNVhpcUxmdElJX0JtajA0VjBPQ3RFTV9icHpkVnBaSkZqOHNjNFdmSUFYVVNrZWRidzB6ekFvUDlhRzZZaDN2UzdYSHFSQm1zVU50MS0xT1N3VFdKMGUtVEZMcHNZdA?oc=5",
-      "source": "WHYY",
-      "publishedAt": "2026-09-30T09:03:07.000Z",
+      "title": "How the bad science of AI doomerism is good for big business - Bulletin of the Atomic Scientists",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMC1uRVlBR191SzZuVVNhLTh3UWVRNTdnLWR0SmRwRWlSZXp0YlJmbzAwVWE1Qk83c2h4WmVFWm1EaWJVNzA4bDN4TFFHVFZIcmRpbTBkMTZTeXluQ3lkWWREa3l4T0JDQjVwVFRjXzFlVGxudkpkQmxabl8xc3hTVFlwTnR2Y0hMMUs1WlF1dnhsbzdLV3RVSA?oc=5",
+      "source": "Bulletin of the Atomic Scientists",
+      "publishedAt": "2026-09-30T10:01:44.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T20:01:51.240Z",
+  "generatedAt": "2026-10-02T20:31:48.047Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,6 +17,36 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
+      "title": "SEC filing: ARS — Fermi Inc. (ARS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026106380/ea0307100-03.pdf",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-10-02T20:09:32.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 95,
+      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
+      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
+    },
+    {
+      "title": "SEC filing: DEF 14A — Fermi Inc. (PROXY STATEMENT)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026106378/ea0307100-02.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-10-02T20:08:03.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 95,
+      "formExplanation": "The company's definitive proxy statement — the formal voting document sent to shareholders ahead of a meeting.",
+      "summary": "Fermi Inc's annual meeting of shareholders is scheduled for October 30, 2026, where shareholders will vote on the election of two Class I directors, Rick Perry and Jeffrey S Stein, and the ratification of Ernst Young LLP as the company's independent auditors for 2026. The company's board of directors recommends voting in favor of both proposals, which are outlined in detail in the proxy statement. The meeting will be held virtually and shareholders of record as of August 31, 2026, are entitled to vote."
+    },
+    {
       "title": "Why Did NKE, FRMI, DKNG Plunge To 52-Week Lows Today? $NKE $FRMI $DKNG https://stocktwits.com/news/equity/markets/why-did-nke-frmi-dkng-plunge-to-52-week-lows-today/cZDSyE1RB0o",
       "url": "https://stocktwits.com/StocktwitsNews/message/665597154",
       "source": "@StocktwitsNews on StockTwits",
@@ -26,7 +56,7 @@
         "score": 60,
         "trust": "medium",
         "reasons": [
-          "112,570 followers",
+          "112,571 followers",
           "official account"
         ]
       },
@@ -404,36 +434,6 @@
       "score": 55,
       "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
       "summary": "Toby R. Neugebauer and other participants, including Vicksburg Investments Management LLC and Melissa A. Neugebauer 2020 Trust, have filed a definitive proxy statement with the SEC to solicit agent designations for a special meeting of Fermi Inc. shareholders. Neugebauer beneficially owns 146,516,035 shares of Fermi's common stock, while the other participants do not own any shares. The filing advises all shareholders to read the definitive proxy statement and other proxy materials because they contain important information regarding the solicitation."
-    },
-    {
-      "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026073338/ea0296426-dfan14a_toby.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-06-30T10:03:03.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
-      "summary": "Toby R. Neugebauer, the largest shareholder of Fermi Inc., is hosting a Town Hall webinar to answer questions from analysts and provide clarity and transparency to shareholders after two leading proxy advisory firms, Glass Lewis and Egan-Jones, recommended that shareholders consent to calling a special meeting of shareholders. Neugebauer owns 146,516,035 shares of Fermi's common stock and is soliciting agent designations for the special meeting, which he believes will empower shareholders to decide the future of the company. The webinar is scheduled for June 30, 2026, and all shareholders and interested parties are invited to attend."
-    },
-    {
-      "title": "SEC filing: DFAN14A — Fermi Inc. (DEFINITIVE ADDITIONAL MATERIALS)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026073115/ea0296368-dfan14a_toby.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-06-29T20:06:27.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "formExplanation": "Proxy-fight material from a non-management participant — solicitation filings made outside the company's own proxy (in a control contest, each side's letters and presentations land here).",
-      "summary": "Toby R. Neugebauer and other participants, including Vicksburg Investments Management LLC and Melissa A. Neugebauer 2020 Trust, have filed a definitive proxy statement with the SEC in connection with soliciting agent designations for a special meeting of Fermi Inc. shareholders. The filing discloses that Mr. Neugebauer beneficially owns 146,516,035 shares of Fermi Inc.'s common stock, while the other participants do not own any shares. The participants are urging all shareholders to read the definitive proxy statement and other proxy materials because they contain important information regarding the special meeting."
     },
     {
       "title": "The Real Bottleneck Isn't Al Chips. It's Power.",
@@ -961,6 +961,20 @@
       "score": 65
     },
     {
+      "title": "Nvidia AI servers worth $300 million were allegedly smuggled to China - The Mac Observer",
+      "url": "https://www.macobserver.com/news/nvidia-ai-servers-300-million-smuggled-china/",
+      "source": "The Mac Observer",
+      "publishedAt": "2026-10-02T15:59:29.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "US prosecutors accuse a California technology executive of routing more than $300 million in Nvidia AI servers to China through third countries."
+    },
+    {
       "title": "Can Google's new model really catch up to OpenAI and Anthropic at the frontier?",
       "url": "https://www.cnbc.com/2026/10/02/tech-download-google-argon-frontier-openai-anthropic.html",
       "source": "CNBC",
@@ -976,9 +990,36 @@
       "score": 65
     },
     {
-      "title": "AWS Launches AI Agent to Audit Customer Cloud Environments - PYMNTS.com",
+      "title": "OpenAI, Blackstone, Softbank form US data center lobbying group —American Infrastructure Alliance's first job is stop states from blocking AI data center - TechRadar",
+      "url": "https://www.techradar.com/pro/openai-blackstone-softbank-form-us-data-center-lobbying-group-american-infrastructure-alliances-first-job-is-stop-states-from-blocking-ai-data-center",
+      "source": "TechRadar",
+      "publishedAt": "2026-10-02T20:05:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Google Wants to Send Data Centers to Space—and Just Launched a Satellite to Test Whether Its Ambitious Plan Will Work - Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/smart-news/google-wants-to-send-data-centers-to-space-and-just-launched-a-satellite-to-test-whether-its-ambitious-plan-will-work-180989613/",
+      "source": "Smithsonian Magazine",
+      "publishedAt": "2026-10-02T20:01:40.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "The tech giant aims to use the near-constant sunlight available in low-Earth orbit to power data centers. The experimental satellite, launched October 1, holds four computer chips that can run Google’s Gemini A.I. for 15 minutes at a time"
+    },
+    {
+      "title": "AWS Launches AI Agent to Audit Customer Cloud Environments - pymnts.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/aws-launches-ai-agent-to-audit-customer-cloud-environments/",
-      "source": "PYMNTS.com",
+      "source": "pymnts.com",
       "publishedAt": "2026-10-02T19:38:31.000Z",
       "kind": "news",
       "tier": 3,
@@ -988,21 +1029,6 @@
       ],
       "score": 55,
       "summary": "Amazon Web Services (AWS) has announced the public preview of an artificial intelligence-powered service that analyzes the user’s AWS cloud environment"
-    },
-    {
-      "title": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong? - Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sold-nvidia-google-microsoft-over-190531978.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-02T19:05:31.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "MSFT",
-        "GOOGL"
-      ],
-      "score": 55
     },
     {
       "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China - Ars Technica",
@@ -1019,6 +1045,35 @@
       "summary": "Nvidia’s chip-smuggling problem won’t go away as arrests continue."
     },
     {
+      "title": "Ed Zitron Warns AI Debt Is A ‘Brewing Crisis’ - Amazon.com (NASDAQ:AMZN), NVIDIA (NASDAQ:NVDA)",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62139287/ai-debt-brewing-crisis-amazon-coreweave",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-02T15:45:39.000Z",
+      "kind": "news",
+      "summary": "AI skeptic Ed Zitron warns that the private credit funding the AI data-center boom is becoming a \"brewing crisis\" due to high borrowing costs and facility delays. Amazon is exploring complex financing by moving $8 billion of Nvidia chips into an investor-funded vehicle and leasing them back. Zitron highlights CoreWeave's substantial debt and rising interest costs, emphasizing that even strong demand for AI services may not resolve the underlying cash flow issues caused by inc [sentiment: Neutral]",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "AMZN"
+      ],
+      "score": 55
+    },
+    {
+      "title": "CoreWeave Unleashes Nvidia's Vera Rubin, Analyst Sees Room to Run",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62137516/coreweave-unleashes-nvidias-vera-rubin-analyst-sees-room-to-run",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-02T15:13:13.000Z",
+      "kind": "news",
+      "summary": "CoreWeave Inc. introduced Nvidia Corp.'s Vera Rubin NVL72 AI supercomputer platform, with coding-agent company Cognition being the first customer to use it, experiencing significantly higher token throughput. Cantor Fitzgerald analyst Brett Knoblauch maintained an Overweight rating and a $176 price target for CoreWeave, citing the company's growth potential and strategic initiatives like the launch of Forge, expansion into CPU-driven workloads, new partnerships, and price hik [sentiment: Bullish]",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI - Ars Technica",
       "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
       "source": "Ars Technica",
@@ -1033,12 +1088,13 @@
       "summary": "Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99."
     },
     {
-      "title": "Nvidia hits record high as AI optimism, buyback lift shares - Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-hits-record-high-as-ai-optimism-buyback-lift-shares-4930063",
-      "source": "Investing.com",
-      "publishedAt": "2026-10-02T14:14:35.000Z",
+      "title": "Nvidia Falls Short of May Record as Value Nears $6 Trillion",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/nvidia-hits-first-record-since-may-as-value-nears-6-trillion",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-02T13:47:58.000Z",
       "kind": "news",
-      "tier": 2,
+      "summary": "Nvidia Corp. shares touched an intraday high for the first time since May before trimming those gains and closing just short of a record as investors piled back into the stock after a two-month selloff that wiped out more than $1 trillion of market value.",
+      "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
@@ -1087,19 +1143,6 @@
       "summary": "This company might be considered the AI gatekeeper."
     },
     {
-      "title": "Three OpenAI Researchers Fired for Allegedly Sharing AI Safety Information - WSJ",
-      "url": "https://www.wsj.com/pro/cybersecurity/three-openai-researchers-fired-for-allegedly-sharing-ai-safety-information-e0234185",
-      "source": "WSJ",
-      "publishedAt": "2026-10-02T11:40:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
       "title": "OpenAI disclose another hack on government department in Australia - The Guardian",
       "url": "https://www.theguardian.com/technology/2026/oct/02/openai-disclose-another-hack-on-government-department-in-australia",
       "source": "The Guardian",
@@ -1128,9 +1171,23 @@
       "summary": "Amazon announces fresh data center investments amid AI infrastructure boom"
     },
     {
-      "title": "Nvidia’s Blind Spots Exposed by China Chip Smuggling - bloomberg.com",
+      "title": "Google sends its 'chips' to space in a refrigerator-sized satellite; CEO Sundar Pichai says: I remember t - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-sends-it-chips-to-space-in-a-refrigerator-sized-satellite-ceo-sundar-pichai-says-i-remember-the-first-meeting-where-/articleshow/134634889.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-10-02T08:06:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "Google has sent its AI chips to space for the first time. A refrigerator-sized prototype satellite carrying four of the company's Tensor Processing Units (TPUs) lifted off on Thursday aboard a SpaceX Falcon 9 rocket from Vandenberg, California."
+    },
+    {
+      "title": "Nvidia’s Blind Spots Exposed by China Chip Smuggling - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/features/2026-10-01/nvidia-faces-questions-over-china-ai-chip-smuggling-cases",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-10-02T06:49:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1182,9 +1239,9 @@
       "score": 55
     },
     {
-      "title": "Watch Nvidia's AI Chips Reach China Despite US Curbs - bloomberg.com",
+      "title": "Watch Nvidia's AI Chips Reach China Despite US Curbs - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/videos/2026-10-02/nvidia-s-ai-chips-reach-china-despite-us-curbs-video",
-      "source": "bloomberg.com",
+      "source": "Bloomberg.com",
       "publishedAt": "2026-10-02T00:00:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1195,17 +1252,19 @@
       "score": 55
     },
     {
-      "title": "OpenAI alerts more than 100 groups about rogue AI agent activity - Reuters",
-      "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/",
-      "source": "Reuters",
-      "publishedAt": "2026-10-01T22:26:30.000Z",
+      "title": "I Sold NVIDIA, Google and Microsoft Over a $2 Trillion AI Gap. Was I Wrong? - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sold-nvidia-google-microsoft-over-190531978.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-02T19:05:31.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "NVDA",
+        "MSFT",
+        "GOOGL"
       ],
-      "score": 55
+      "score": 45
     },
     {
       "title": "California AG Bonta seeking ‘all material information’ about OpenAI hacks - Politico",
@@ -1235,20 +1294,6 @@
       "summary": "California CEO Greg Lui faces 20 years in prison for allegedly smuggling $300M in Nvidia AI servers to China via falsified export paperwork."
     },
     {
-      "title": "NVDA Stock Hits Record High After Morgan Stanley Names Nvidia Top Pick, Says AI Trends Play To Its ‘Strengths’ - Stocktwits",
-      "url": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-is-back-as-morgan-stanley-s-top-pick-all-ai-trends-play-to-nvidia-s-strengths-says-analys/cZDjOo1RBK7",
-      "source": "Stocktwits",
-      "publishedAt": "2026-10-02T17:53:20.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "The firm maintained an ‘Overweight’ rating and a $300 price target on Nvidia."
-    },
-    {
       "title": "Nvidia Shares Jump to Record High After Strong AI Growth - Yahoo Finance",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-jump-record-high-174148351.html",
       "source": "Yahoo Finance",
@@ -1274,50 +1319,56 @@
       ],
       "score": 45,
       "summary": "SpaceX stock SPCX gained 6% on Friday after CEO Elon Musk said the company could reach a potentially significant milestone in powering Nvidia's artificial intelligence hardware.Musk said on X, formerly known as Twitter, that he was \"cautiously optimistic\" that SpaceX could run its version of Nvidia…"
-    },
-    {
-      "title": "Chatham scales its capital markets expertise with OpenAI - OpenAI",
-      "url": "https://openai.com/index/chatham-financial/",
-      "source": "OpenAI",
-      "publishedAt": "2026-10-02T17:29:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Amazon vows $1 bn for data center towns, decries 'myths' - eNCA",
-      "url": "https://www.enca.com/business/amazon-vows-1-bn-data-center-towns-decries-myths",
-      "source": "eNCA",
-      "publishedAt": "2026-10-02T17:22:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "AMZN"
-      ],
-      "score": 45,
-      "summary": "Amazon on Friday pledged more than $1 billion over five years for US communities that host its data centers, the latest tech giant seeking to win over residents increasingly hostile to the AI-fueled construction boom."
-    },
-    {
-      "title": "Officials Say NVIDIA Missed Red Flags in China Chip Smuggling Cases - Northeast Times",
-      "url": "https://northeasttimes.com/2026/10/02/officials-say-nvidia-missed-red-flags-in-china-chip-smuggling-cases/",
-      "source": "Northeast Times",
-      "publishedAt": "2026-10-02T16:49:34.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Federal prosecutors charged a man with shipping NVIDIA chips to China as officials question the company's checks on buyers."
     }
   ],
   "general": [
+    {
+      "title": "German Economy Might Grow 1% This Year, Bundesbank Chief Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/german-economy-might-grow-1-this-year-bundesbank-chief-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-02T20:25:03.000Z",
+      "kind": "news",
+      "summary": "Germany’s output could grow 1% this year, according to Bundesbank President Joachim Nagel.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opinion | Cartoon by Matt Davies - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXRUSU5seC1KNHZocGhWc0otZW83NF9RTlZZQXdWZ1F4SXBIWl9mSjJPVHJnQU9MU2RvODl1RktQTmwxejBVanowMkV6V0hrQjJDN1hyV04tS05QeTFNMEF2N0Q1WWNqcVMtUDQ4S2xzQ29EYjE4LWFVZW4tVnBGc0M4VHhhUDVGRDhRX3gxcVlDblJGX1ktYmpnZlZwd1pfYnZ2WVVWT09uOFI2cVE?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-10-02T20:17:10.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Why Robert Reich Is So Worried About Stagflation",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-02/why-robert-reich-is-so-worried-about-stagflation-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-02T20:16:55.000Z",
+      "kind": "news",
+      "summary": "Robert Reich, former US secretary of labor and UC Berkeley public policy emeritus professor, says what worries him most about the US economy is stagflation. He talks about kitchen table economics heading into the election on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Hedge Funds Are Rebuilding Short Bets Against Japan’s Yen",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/hedge-funds-are-rebuilding-short-bets-against-japan-s-yen",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-02T20:10:08.000Z",
+      "kind": "news",
+      "summary": "Hedge funds rebuilt a short wager against the Japanese yen as the currency remains under pressure.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "A Fabulous Debt, These Are The Plunderers: Must-Read Books",
       "url": "https://www.bloomberg.com/news/videos/2026-10-02/a-fabulous-debt-these-are-the-plunderers-must-read-books",
@@ -1353,17 +1404,6 @@
       "score": 60
     },
     {
-      "title": "Opinion | Cartoon by Matt Davies - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXRUSU5seC1KNHZocGhWc0otZW83NF9RTlZZQXdWZ1F4SXBIWl9mSjJPVHJnQU9MU2RvODl1RktQTmwxejBVanowMkV6V0hrQjJDN1hyV04tS05QeTFNMEF2N0Q1WWNqcVMtUDQ4S2xzQ29EYjE4LWFVZW4tVnBGc0M4VHhhUDVGRDhRX3gxcVlDblJGX1ktYmpnZlZwd1pfYnZ2WVVWT09uOFI2cVE?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-10-02T19:39:52.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Does AI have a soul? Pope Leo and Anthropic clash. - MarketWatch",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM3c3Vjg1QXhkVEp4Sm1UVC1vUlFxb0dNYTVpUklmY2RMTUFsZHZsTHpvdW9EY0RuMDJieDVzUlN5dWhvaEhYVTUxX1BQTmx4ZW02X25DUnFsWThNeU44azRILWdWVXQ5enNQTUdKTURQQU9RR1NGelR5S2JndDFCTnNZTXBrc3A3d1VhUG9oOHpUMTNGM1E?oc=5",
       "source": "MarketWatch",
@@ -1375,6 +1415,17 @@
       "score": 60
     },
     {
+      "title": "Anthropic's IPO Is A Bet On How Far AI Can Go (Private:ANTHRO) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONW9SRV8tYUQyS3FwaGdMSmxJTC1SMkRBREFhbS1RSE0wZXI5dmtCMlFsLU9HMnduZVJnbUtiZ0ZyMHB6dnhRVUFkUHVST1QxeDRNOERnal9SenF2dDI0b2kxMUZISHNnck1tcjU4Y3VUb01NenAycEVVVGZBU0U0bkFlN0ZCQzNQV1kwMg?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-02T20:20:50.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Nscale Hires Meta’s Justin Osofsky to Be COO Ahead of IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-10-02/nscale-hires-meta-s-justin-osofsky-to-be-coo-ahead-of-ipo",
       "source": "Bloomberg",
@@ -1384,7 +1435,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Nadia Lovell: Equities Must Earn the Next Leg Up",
@@ -1396,7 +1447,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Job Growth Falls Short of Forecasts",
@@ -1408,7 +1459,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Colombia Has Started Payments on €3.1 Billion Saab Fighter Deal",
@@ -1420,7 +1471,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Following Your Passion Is The Worst Advice: Welch",
@@ -1432,7 +1483,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Gen Z Doesn't Want To 'Postpone Joy': Suzy Welch",
@@ -1444,7 +1495,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Judge warns AI could stunt lawyers' training and harm their clients - Reuters",
@@ -1455,7 +1506,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Hackers Breached Propulsion System of US-Bound Oil Tanker",
@@ -1695,24 +1746,23 @@
       "score": 50
     },
     {
-      "title": "Paramount’s $52 Billion Debt Saga Ends With Hair-Raising Finale",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-02/paramount-s-52-billion-debt-saga-ends-with-hair-raising-finale",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-02T17:18:15.000Z",
-      "kind": "news",
-      "summary": "A cast of thousands. Records smashed. Instant losses and angry phone calls. If the months-long search for debt to fund the audacious takeover of Warner Bros. Discovery Inc. by David Ellison’s Paramount Skydance Corp. were a prestige drama, the past few days would have been the messy season finale.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "German Army to Start Training With New Attack Drones Next Month",
       "url": "https://www.bloomberg.com/news/articles/2026-10-02/german-army-to-start-training-with-new-attack-drones-next-month",
       "source": "Bloomberg",
       "publishedAt": "2026-10-02T17:05:04.000Z",
       "kind": "news",
       "summary": "German defense startups Helsing and Stark Defence are on track with the development of attack drones, including plans to start training Germany’s army on the equipment in November, according to the government.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI and the monk: Anthropic goes for swami and friends to tame Claude - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaXZSQTRtdnplY1RxeUZCZGoxZF9BZURNRXFoaTV5Y2FnZVZ6Y0dVTFlHR2RNeWVKR3BJdEVLTllqSVZZdUVZLW83NGZLd0h4N1VwRWx0OWlfa1BMeDNpR1dnbElwRUN4akQ3UFVTVU16RktsblZnOUR3RzIxYjlIZnRNQTdCNU9BUXozMWZaQ0cyTG8teG5nXzIxMWU1eXVpMWtIdnMxUXdnSjlRUEJqRmptWjhpeG5nV2U3VE11NktHNUJLdlBZTjU2QVFTT3NpVmRRRtIB2gFBVV95cUxQQlJsa1Z1UGlqbDZILXl3ZEtxWUVDNlN0MU80SjFHZHphUmJlRl9uUG1wOHRfWnJ2YVN4TWtzZ3d4V0FuM2RPY210RjhJeFZRTXVjVWZHSTVvRmN3Zi1QZ3hVbzRoUlliVGVLNHVnck1Xd0F4cTNlWmhpUGtCaXVrMEJCMmxnWlZnZFQxWXo3Z0UzdlRVMTdMcHRieUF2MmhPUXpYaExjVkRaRU9YZnY2UlczNlI5QzBOUGJUSV9kc0dlN2dfZTFqNTVGWTh2TVNtdlZLbTdQMldRUQ?oc=5",
+      "source": "The Times of India",
+      "publishedAt": "2026-10-02T16:54:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1769,17 +1819,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbnpmM01BazRXczlXVUZaVUhCckpMa3RuMnVJMkJRME1WWU0yRW5YMktvTU02UWJCazB3V2lYeENBSnJBR0t3UWVxbjFnN2JOVVQ2N3BwVV9UelBxenFyUDFPZVA3S3BUR0xBVWVmaElOenprUlBZb1JtaHFwMnlNd0lQbEJUb2hDMnZUdTZzNlJfOEZEZVVYOHM0N0FpX2RybWVUcmxJa1RWb2pvZDBfbzYwVnoyRDRNZlI5NXN4X0ctVjg?oc=5",
       "source": "The Washington Post",
       "publishedAt": "2026-10-02T16:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Trump to Name Jay Clayton to Serve as A.I. Czar - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSjZqNkowM3k3WElwUVRaWjcxWGxPR2hBaTh0dzVtQ092LUM4NHFHWDU1X21zUEZYX3NobkhFSXJmS1FZWHBEOEFCNjZMaHgxUURwWXdwd0NOZF9LQnloaUFUaXh5VzhZOW5HSkpBMzUydEktbXFqZXNQSk83aWNlcDhWVQ?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-02T15:57:04.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1863,41 +1902,6 @@
       "source": "CNBC",
       "publishedAt": "2026-10-02T15:09:34.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "DLR Expands AI Infrastructure Opportunity With Blackfuel Collaboration - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZTdkWC1jbC1qMjJNSHBoaGZuOGJZSzBCYWxOR0g1ZFFCbGN4c3ltc2V5cm9LNmJpWlVGMnRmeWtWaVZsdFhWb0stQmI0cFkyLTJSQnZrTjB5emxsZ3dqS1B0NlBmWjhkbzR1QVlhNWhZR0Vlb2lRTlo0QWVXMXNOLUtvSk9vWkFoSVQ1RmZYc3VoaFNhcXlZNV8yWHZtWVlpU2twRVlDUTVIdV9LMWdyS2x3bVhSczFKS0VJTG14Y1c2MnVwSFUwNUVraThwTHhtQzRzUG1haXBXTThoT0x6anVGSVAyMVJoek1J?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-10-02T15:04:40.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Rivian tops Q3 delivery expectations, reconfirms 2026 guidance",
-      "url": "https://www.cnbc.com/2026/10/02/q3-vehicle-deliveries.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-02T14:58:42.000Z",
-      "kind": "news",
-      "summary": "Rivian reported a year-over-year increase in vehicle deliveries of 46% during the third quarter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Amazon’s Smart Glasses Raise Privacy Fears",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-02/opinion-amazon-s-smart-glasses-raise-privacy-fears-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-02T14:53:43.000Z",
-      "kind": "news",
-      "summary": "Amazon is equipping its delivery drivers with smart glasses that capture images of their surroundings. Bloomberg Opinion columnist Dave Lee explains how this raises questions about privacy, data use and the future of delivery work. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

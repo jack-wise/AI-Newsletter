@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T17:02:31.567Z",
+  "generatedAt": "2026-10-04T17:32:13.490Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -942,22 +942,22 @@
       "summary": "Nvidia and Broadcom are two frontrunners in the AI computing race."
     },
     {
-      "title": "Amazon AWS CEO reveals surprising risk to AI stocks and U.S. economy - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-aws-ceo-reveals-surprising-160300511.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-04T16:03:00.000Z",
+      "title": "SoftBank CEO Raises AI Safety Concerns Amid $65B OpenAI Investme - GuruFocus",
+      "url": "https://www.gurufocus.com/news/9108895/softbank-ceo-raises-ai-safety-concerns-amid-65b-openai-investment-sftby-analysis",
+      "source": "GuruFocus",
+      "publishedAt": "2026-10-04T17:05:14.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "AMZN"
+        "OpenAI"
       ],
       "score": 55
     },
     {
-      "title": "Trump, Zuckerberg, Musk and Nvidia: This Week in AI - Benzinga",
+      "title": "Trump, Zuckerberg, Musk and Nvidia: This Week in AI - benzinga.com",
       "url": "https://www.benzinga.com/markets/tech/26/10/62152502/trump-zuckerberg-musk-and-nvidia-this-week-in-ai",
-      "source": "Benzinga",
+      "source": "benzinga.com",
       "publishedAt": "2026-10-04T13:00:08.000Z",
       "kind": "news",
       "tier": 2,
@@ -967,19 +967,6 @@
       ],
       "score": 55,
       "summary": "Trump’s AI plans, Nvidia smuggling case and Amazon’s nuclear deal spotlight AI’s growing influence on policy, energy and trade."
-    },
-    {
-      "title": "Legal risks pile up for Altman as OpenAI uncovers dozens of hacks - ft.com",
-      "url": "https://www.ft.com/content/2c24ece3-ac99-43a8-b0e6-4a3867e37ebf?syn-25a6b1a6=1",
-      "source": "ft.com",
-      "publishedAt": "2026-10-04T11:00:08.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
     },
     {
       "title": "This Under-the-Radar Supplier Could Be Nvidia's Secret Weapon - The Motley Fool",
@@ -1063,6 +1050,19 @@
         "OpenAI"
       ],
       "score": 55
+    },
+    {
+      "title": "Amazon AWS CEO reveals surprising risk to AI stocks and U.S. economy - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-aws-ceo-reveals-surprising-160300511.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-04T16:03:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "AMZN"
+      ],
+      "score": 45
     },
     {
       "title": "California Subpoenas OpenAI as Scrutiny of AI Cybersecurity Risks Grows - PYMNTS.com",
@@ -1244,9 +1244,9 @@
       "summary": "HPE stock neared a record high after unveiling the ProLiant DL394 Gen12 with Nvidia Vera CPU. Full specs, stock data, and analysis."
     },
     {
-      "title": "Nvidia CEO Jensen Huang has emerged as the biggest foil to AI doomerism about the existential risk to humanity - fortune.com",
+      "title": "Nvidia CEO Jensen Huang has emerged as the biggest foil to AI doomerism about the existential risk to humanity - Fortune",
       "url": "https://fortune.com/2026/10/04/nvidia-jensen-huang-ai-doomerism-foil-risk/",
-      "source": "fortune.com",
+      "source": "Fortune",
       "publishedAt": "2026-10-04T12:00:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1258,9 +1258,9 @@
       "summary": "The AI chipmaking giant is stepping in to prevent further AI agent breaches."
     },
     {
-      "title": "Jay Clayton Appointed as White House AI Czar - NVIDIA (NASDAQ:NVDA) - Benzinga",
+      "title": "Jay Clayton Appointed as White House AI Czar - NVIDIA (NASDAQ:NVDA) - benzinga.com",
       "url": "https://www.benzinga.com/news/politics/26/10/62152045/jay-clayton-appointed-ai-czar-trump",
-      "source": "Benzinga",
+      "source": "benzinga.com",
       "publishedAt": "2026-10-04T04:16:47.000Z",
       "kind": "news",
       "tier": 2,
@@ -1272,9 +1272,9 @@
       "summary": "Jay Clayton will lead White House efforts to assess artificial intelligence risks, opportunities and federal responsibilities."
     },
     {
-      "title": "Amazon Pledges $1 Billion for Data Center Communities - Amazon.com (NASDAQ:AMZN) - Benzinga",
+      "title": "Amazon Pledges $1 Billion for Data Center Communities - Amazon.com (NASDAQ:AMZN) - benzinga.com",
       "url": "https://www.benzinga.com/markets/tech/26/10/62151997/amazon-1-billion-data-center-communities-ai-backlash",
-      "source": "Benzinga",
+      "source": "benzinga.com",
       "publishedAt": "2026-10-04T02:56:54.000Z",
       "kind": "news",
       "tier": 2,
@@ -1342,6 +1342,28 @@
   ],
   "general": [
     {
+      "title": "Trump launches ‘Super Intelligence Force’ after calls for AI slowdown - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa19adU9sV0V4bFFRV1BZYlJySTRjbURpekNybjFtZWIzQ3h6LWJrdXRoVG5nSGlMaTh0QlJRZkYwYWczR1JNejNIZ0wwYkFETDhPMVp2c1RrRlhqNFVyMDR1OHJIajljMkgzSEVwOUtEMXY3S2N5UE5KWFpZNExLelNIN0hUSjZhRWRaS0dMd0U0WndnMXpZWjk4UDhGR0daLS1ZV2xUMDBPREJTT3d3VFZKU1FyUQ?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-10-04T17:28:29.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opinion | AI can resurrect the dead. Ask my chatbot mom. - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTGZYYVEyMU90NlZlSWJSaDV0RmUtSDNPd3pEbWZOMms5bmlDRVAtSkdjLXphdEFXNHFqOUE5S3R5aTNld1BIS1ZKdzFRZnJtWXM3alZzcl9zSXZ2b0pBUG1tMzRLeGUxNzRVdjl5bFRQVTYzcGxCN0xwNXo1SERadENzaXRwOXA1T3hwU00zSG11WHlEcDhn?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-10-04T17:19:03.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Supreme Court Opens Term With Climate Fight",
       "url": "https://www.bloomberg.com/news/videos/2026-10-04/supreme-court-opens-term-with-climate-fight-video",
       "source": "Bloomberg",
@@ -1354,11 +1376,12 @@
       "score": 60
     },
     {
-      "title": "Opinion | Think of Artificial Intelligence Like a Weapon - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzVNWWJRRjF5TTRwNWpPZnZCQkhnRmhwOG55ckQyQjZ1SnlaaEZpU3JnXy0wQ1h3SFo5aHd0OGZ0dFdMMzQtMTJBU0s0UDBaanBBX3NCcTZSRTEzVHRaY0RyZndoWkFIUzdlbmd5eG43ak1ZeC1EZE1qSG4wcFlqZXlCT3NSbTNuVEVn?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-10-04T16:35:00.000Z",
+      "title": "Bloomberg This Weekend 10/4/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-04/bloomberg-this-weekend-10-4-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-04T16:33:22.000Z",
       "kind": "news",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Ambassdor Alexander Yui, Taiwan's Representative to the United States, Kevin Gordon, Schwab, Head of Macro Research & Strategy, Todd Blanche, United States Attorney General (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1374,7 +1397,29 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "AI Agents Are Offering to Run Your Life. Should You Let Them? - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9INXpCRkhyZjlPc01yRmtQa3JJX3NnNWU0bXFUSjlib2pIWGFtRHhHSWNBMDlybUV4R040OGxjcm9BeHdlTDNBZ2dSX08tNTJOdmNHODVLTUwxYXJ5aGhONmdR?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-10-04T16:01:48.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI’s Real Gift to Science - The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcW1HZDBHU1JFd1NqX1hLUlJ1ZFZOTDF4N1RSQ3F3OG9DemdIWEE3OUdxRlZhMURtQVQ3ODVBS0ZEY04yeHZTMk9SNkV5S0RzODFwS214QkIxY1pRSlFnWU5NcFA0LVBnNnNGYWlscFpsUkhuYXEwTEZFbU9GajFrb0poakw2MTBnaXI4aFVoakkxTk1OQlFLb1M5MWVFM3ZKNWg0?oc=5",
+      "source": "The Atlantic",
+      "publishedAt": "2026-10-04T15:56:28.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Trump Aide Hassett Says Powell Should ‘Move On’ From Fed Board",
@@ -1383,17 +1428,6 @@
       "publishedAt": "2026-10-04T15:52:43.000Z",
       "kind": "news",
       "summary": "President Donald Trump’s chief economic adviser called on former Federal Reserve Chair Jerome Powell to leave the central bank’s board after an internal report cited management failures in the renovation of its headquarters.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Agents Are Offering to Run Your Life. Should You Let Them? - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9INXpCRkhyZjlPc01yRmtQa3JJX3NnNWU0bXFUSjlib2pIWGFtRHhHSWNBMDlybUV4R040OGxjcm9BeHdlTDNBZ2dSX08tNTJOdmNHODVLTUwxYXJ5aGhONmdR?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-10-04T15:24:41.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1476,17 +1510,6 @@
       "publishedAt": "2026-10-04T14:00:00.000Z",
       "kind": "news",
       "summary": "With equities, gold and oil struggling to make new highs while Treasury yields surge, Wall Street strategists are focusing on trades that pit one asset class against another.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Trump names intelligence chief Jay Clayton as new White House AI czar - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFFueFRZT3l3bzJFYWFUVmJ0Nk5CQ1NMam01eXBwemFWejgzcWxyclNvTFlOX3hRTk4zUDkwRnlubWtudHdwZG5JZzFJbjNlbFFsU0dITUJtdml4bGtSMjlQeVRpS2N6dTdVcXE3LUZWTzBKTGd1a0ZyeGFlUXhPaElFZzBPcEE3ellKZmVn?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-04T13:44:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1646,15 +1669,48 @@
       "score": 50
     },
     {
-      "title": "Investors look to shelter portfolios from rising AI concentration risks - ft.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNekdhS0ZHendtc0EwODhZNzBwOElWRktjZGk3d3AyemRYQW9JcWVnRHBHd1dlSUM2QWI3TXVEM1dQNGpsWXBkWktZMVhEZy1pUXR3bDB3QTBQT28xV3RXMXllbElaVEJRQ083YkNkVE40VFFEcVVYN3JtSGlUOWlVRzBuSEs?oc=5",
-      "source": "ft.com",
-      "publishedAt": "2026-10-04T12:00:08.000Z",
+      "title": "Anthropic report: Is Russia using AI for disinformation in the Central African Republic and elsewhere? - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRmdkdHFFV09tWERfUW9MYlIxN3NRS0NLdkxwdklTUUtzenZZMXNuT012dTU3Z2hFUXpLUFhxMV8zSkhkdllYdnM2bEtTd3c2UzBJRXFJYlJqSGtXTDdmbmkwY2pKX2pZVklMR0pDQ0JBLTRWR2hxZ3V4QVFEaTZLeUJjQ04zbzVQQlk2Y3pzUkdjNmVhUXpqNjFsWU11ejdJbnBfT2RkektIQzVHejlVaTl5SDF6VVUwa29LUHZRQXpLTTNVUmllaGQwTTJUQdIBzgFBVV95cUxOazlNYnZxZmdrTTV4TGdjQUJtLXlzY0M3bm8xWFRwdGhYTDBKR2tQT1NEWlpoeEZJUGI4TTRJakpBc0liSDQtZTNEZmZUZV9kUHNYMmIzM0xsbU9FaERadjFtRDNxVGdOb2Z6M1pmNkZxcUppNzlyMFNpNFdOc0dMQUF0MHR2bTNqYXM2Rk84cVdTdGk5RHY0cXVvX0tObC0tZjdGTm9DNDhEdlFuek03X0pramxKM0YwSnRCUFBxZzVQTG9ucjJYR1NuV1hSUQ?oc=5",
+      "source": "DW.com",
+      "publishedAt": "2026-10-04T17:18:34.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "Guest column: A caution about artificial intelligence - Riverhead News Review",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV29FYjZYXzFaeklJckdoWmRoT0lQM04zaXRna0owQUxuOGFVLTg3LVZrYWRNNkdYMS15WkxMeUJ5ck02UTFZVkoyZDNOZ2Y3a21aUTlFVkVCNWZrcjVsRk8tSnBYdFAxUkxPUWthUVJKcVpkZDY0TmpHWjdhMzlVcnJCN0FsNDE4bVJrWGhoQ0dwOHlFeEMyemRlOGpSR083bFphYTZLUkZ5d3B3VTJLcGZR?oc=5",
+      "source": "Riverhead News Review",
+      "publishedAt": "2026-10-04T17:09:18.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Anthropic Has Been Aggressively Lobbying the Vatican to Consider AI Consciousness - Futurism",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42Y3BtOVJxOWlqTGFfX0dCNmo1OFRHa1hNRDJrOGlCeDJsOXhrcm9FdWhpT0FrZk9zbmZHd3l0UUFsNW1qeEY5bVplRm1UenZsNkZ4R3dNSkFOdlMxR3gwRXBtLUhQeFdURURMWGNJT2lCY3dCbHVzMXRUdw?oc=5",
+      "source": "Futurism",
+      "publishedAt": "2026-10-04T17:02:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Trump announces formation of AI \"Super Intelligence Force\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbzN5aFk5YXQ1bXNDRVBTc25iSmg1MkJXQjA3NzNlS3NrMUM2NlVXTFdNVGhZUW1ieWg3SWVrbWhaQjNhWmRNUFBYdXgtZEhBcFRMZXE1amFkeEwtcG1zaFl6NXdMN3lZWng2RTIyMzc4WVpPd1N3R0JLVnlIMTNHRA?oc=5",
+      "source": "CBS News",
+      "publishedAt": "2026-10-04T16:40:35.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "Whispers of Contagion Risk Are Returning to Europe’s Bond Market",
@@ -1664,72 +1720,6 @@
       "kind": "news",
       "summary": "Traders are on the alert for signs of contagion in Europe’s government bond market after a selloff triggered memories of the region’s debt crisis 15 years ago.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The AI Buildout Needs Power It Cannot Get: 4 Energy Stocks Already Have It - MarketBeat",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNU1OcDRKdGx4QXRfRWFfbnZQeFVudlNMekEwdHpSbU9UT0F5aTBfRVdab2FUU3BhTGJwQzctaVdpcHdlMERBdXUzZV8wZ2ZncmMzYTZBWWZfTEFIX3dEWUgxN19EOVVlTE8wdnBtcXpmZVloS3dpNVVCT1o5MUJEamhWbi1FVjM4OS1wS3E1bHkzUU1nNDh6MDFWUnM3QjJfRWRMOFc4OUFac3dQMko0?oc=5",
-      "source": "MarketBeat",
-      "publishedAt": "2026-10-04T16:26:33.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Menos AI Raises $5.1m To Build AI Infrastructure For Institutional Investors - Crowdfund Insider",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjVJZ1BIMUV0bDZmQ1ZiXzAzWTJJeU5SMDljSW9PQWxCdWVyT21xOGNUamFRcjJjSVVFbHVVVzQwMGRSSVZVLTdjQU5mUER5WWczX1M2MXR4NkJUT0JHNU9ucFhRR3dmY3c1XzV2MmtaQXU4MnhpdlhYQXltNm9LVFlXRW1NTzFwOGMzSUVxTTVCQzhyeXB4aXJwLUJrMHBmVFRXY0I0emlBVXVoTFN3OElXazVJbVYtN21YYTRkLXZOdw?oc=5",
-      "source": "Crowdfund Insider",
-      "publishedAt": "2026-10-04T16:18:30.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "President Donald Trump announces creation of 'Super Intelligence Force' AI task force - ABC7 San Francisco",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmxpc2RpLXFTam1BeDJfZFVLNFhoZzVTR0x5WkdWVUI3QlFGT09wVlkyZklrQVhWQjQyTDl5Vk0zdUpPaGpGRUlHSFRVazlnNmVid3ZOd3pnSzhVM2c4YklFWUpKSkYzdmo3TW9QS2xCbmoxT2k3Qk5pYUlqeUtyWmthMHdFcTFreDFwWmJSWkNlZzQ2WUVvZjQ2WW9vVzhNYU85QjBlNXEyOVJzcHh1RQ?oc=5",
-      "source": "ABC7 San Francisco",
-      "publishedAt": "2026-10-04T16:16:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Why tech companies are racing to put AI data centers in space - Fast Company",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdlZvbGdoSU9CR01jWEZxVDV6MnlXQzZNVW1zRjgwTnRfX3F6RzR2WllJcy00TktJamVUWGRRNElxU0t0NFpHcnFldXRRaTFaNW04UGdHTXkzeHQ5SlVDblVZems4R2FWX0RWcmN2UWhsemlRdUhHRlpIYmFLMEo5YjZWbjcza2I2Z0RWNHhCdEZxeEhCd3RkZ3dqYzlWVEk?oc=5",
-      "source": "Fast Company",
-      "publishedAt": "2026-10-04T16:06:47.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Former FTC Chair Khan dismisses 'constitution' signed by AI leaders to self-police - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNWlCQW9pNmdrQ3JxVmNydmdFdzVJXzhXamx3NlZ1TDFtdDlsWEZIbHNHY2wxSDhFN0hVb0NzcTJaa0E0UEwxLWUxcjN2SlVJS0ItVm1mTmhuSDJndkJidFpUTnV1UTNHb0RSMHNNTThLTmQ0SUpud0FBTGdhN0FJb0tEMmR5WW1oSktoWnNsT2E1UEw5bldVV1Z5M2syeXFOWmJBLdIBqgFBVV95cUxNZmlYMUk4R0J1SG9lU21WZmtDaXo1U19qR3p3amlicFNzWVNka2I0dXB5MXBBZ21uQTVKTDhrYTdqWGdSZ1VOemJaRVJCTnRxOXBROTRoWVg2N21INUk0NTZmZmQ5S2dfNHk5UFFpS1ZaUXA5NDd4ZXctUVhTUUhYb01zQVBEUHljNmYwd2lkQTVndlpxTWxjMnlpa0gyZ0dZN042X0pHWnJnZw?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-10-04T16:05:32.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Hubbis Macro Corner: Higher Rates, Asia Bond Resilience and AI Infrastructure Finance Reshape Portfolio Positioning - Hubbis",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR2ozZ0ZPbHJCaWdjMlM3XzVGRGpPSHpINXdSMXljVmJLcFg4ZWRsOFhSUGZaeGdOYUlpN3NDeHJzQzBsa1NobVMxcHYxN2g2c3VUYmxPMkRoOU5rRDFfTWRSSzItdDZXWE1qZTJ1dnVqU1hmbEx4OHdNYm15dEtEM09FQVIzR29wN05JRXZLT3ZpREJYVDlnUlJLUmp3NFVvMFB0eEZjNlFVS2RmcjNyOGJZU1U5ZWtwd1JGYU9lMzJRaFFkSVJhMHFxTkFWSVZxM2ZlRk0xTlI?oc=5",
-      "source": "Hubbis",
-      "publishedAt": "2026-10-04T16:04:06.000Z",
-      "kind": "news",
-      "tier": 3,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1829,10 +1819,10 @@
       "score": 40
     },
     {
-      "title": "Guest column: A caution about artificial intelligence - The Suffolk Times",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSE51cHNfdVoxb3JINnJtU0hNOVNIbVMyVWo1Wm43cEY4Y1N2WFFTRzZwN2dtWl9TVXZHOF92Y3E1QVJydHgzY1M1b2x1LUdZQTR0OGtkSEk1QU5tYmloOTUzZWtTcWNMbGFIREZrcWhZd01GdDFjeTNSaGVLYXJoZ0V4N1V1cjBGNWNBQ25OTm1xLUNNN1JoX1BEbUZzQWM?oc=5",
-      "source": "The Suffolk Times",
-      "publishedAt": "2026-10-04T05:03:45.000Z",
+      "title": "Trump Promotes Data Centers at Rally With Republican Facing Heat on Them - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeWVmU2N6MWRiaENsSnlaeWItSGdwUkE5ZjNwNUFSQjA0NTdzTjN4bmpLNjJLZjdyR2Jlc0l1NUNmRVNMQUpBVGpueDVEYmNuZEVnT1NKclhuZzlDNDFxN2ZuUDJ3Z0tYSTlKZkd0c0R4VmVKdTJxWTUzbk5uTV84SE5sa3M0TF9NaVE?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-04T04:08:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1840,10 +1830,21 @@
       "score": 40
     },
     {
-      "title": "Trump Promotes Data Centers at Rally With Republican Facing Heat on Them - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeWVmU2N6MWRiaENsSnlaeWItSGdwUkE5ZjNwNUFSQjA0NTdzTjN4bmpLNjJLZjdyR2Jlc0l1NUNmRVNMQUpBVGpueDVEYmNuZEVnT1NKclhuZzlDNDFxN2ZuUDJ3Z0tYSTlKZkd0c0R4VmVKdTJxWTUzbk5uTV84SE5sa3M0TF9NaVE?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-04T04:08:00.000Z",
+      "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVzllZ3FlUmNzR3pPMkNlbDRWSU5yT2lZLXA0bnpMZjI5VmxNTG5KZFBfZEp3elVXSG1XOU5jckVlRVA1M05oRHNtMDdhVDQyY0pLdXlScG54OXJpZlZJSTFtZkMxVVBHOWlaM2hKVmpuaFpwR3c3c05ITDU1N19IcnhENHQwdTAxeGtmRnVpNDdSc0IwWFowTmlxREVocURBVFppVFRoaVdLYXpsbXBmSUxqUTZ6MG1GSjE3RHRmVQ?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-10-04T02:14:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "3 No-Brainer Stocks to Buy If Data Center Expenditures Hit $3 Trillion by 2030 - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNWo2RUVSWnRQV2dFTkRnVHZhV2Rva2pnNmttWnF2NV8zTTVBYnJaeFdzRHY4SVhXWXBCNFhWYkh6Rzk1WS03UXkwbGp4cW9tVjhOYnJDbV9heG9iTFVwVkppX2NNam1GcF9pN1hHd1dkdUc4Q2RCQUtwNkx6elZpVnFXbTUtLUtGNXJZdVo3d0FBc3ViLXBZTw?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-04T02:00:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

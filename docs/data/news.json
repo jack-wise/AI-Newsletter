@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T09:02:59.542Z",
+  "generatedAt": "2026-10-06T09:22:57.146Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -544,19 +544,6 @@
       "score": 45
     },
     {
-      "title": "FRMI Oct 2026 5.500 put (FRMI261009P00005500) Stock Historical Prices & Data - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI261009P00005500/history/",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-10-05T09:28:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
       "title": "All In podcast bullish on data centers and power.",
       "url": "https://www.reddit.com/r/FRMI/comments/1wwfony/all_in_podcast_bullish_on_data_centers_and_power/",
       "source": "r/FRMI",
@@ -907,9 +894,45 @@
       "related": [],
       "score": 38,
       "summary": "NAES News"
+    },
+    {
+      "title": "[September 28, 2026] Fermi America - $FRMI - Discussion Thread",
+      "url": "https://www.reddit.com/r/FRMI/comments/1ws4hlq/september_28_2026_fermi_america_frmi_discussion/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-09-28T04:03:23.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/AutoModerator",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "[September 28, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
+    {
+      "title": "Nvidia, Palantir, and Alphabet Are Sending Shockwaves Through Wall Street With This $17.5 Billion Warning - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/10/06/nvidia-palantir-alphabet-send-shockwaves-through-wall-street-with-17-billion-warning/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-06T09:10:09.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "Insiders for this trio of artificial intelligence (AI) powerhouses are rattling investors."
+    },
     {
       "title": "Nvidia Heads for $6 Trillion Value With Chipmaker Back at Record",
       "url": "https://www.bloomberg.com/news/articles/2026-10-06/nvidia-heads-for-6-trillion-value-with-chipmaker-back-at-record",
@@ -939,20 +962,6 @@
       "summary": "Without liquid cooling systems like Vertiv's, modern AI data centers wouldn't be possible."
     },
     {
-      "title": "OpenAI has ‘work to do to rebuild trust’ in Australia, executive tells AI inquiry - The Guardian",
-      "url": "https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-06T07:33:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "Anthropic tells inquiry it ‘never tried to dictate’ Australian copyright rules as the ABC says copyright laws do not need changing"
-    },
-    {
       "title": "OpenAI Says It Changed Systems After Australia Hack - The New York Times",
       "url": "https://www.nytimes.com/2026/10/05/world/australia/australia-openai-hearing-breach.html",
       "source": "The New York Times",
@@ -970,19 +979,6 @@
       "url": "https://www.nytimes.com/live/2026/10/05/world/openai-australia-hearing",
       "source": "The New York Times",
       "publishedAt": "2026-10-06T07:15:36.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "OpenAI, Anthropic tell Australia they would welcome data breach rules - Reuters",
-      "url": "https://www.reuters.com/legal/litigation/australias-abc-rejects-ai-copyright-carveout-believes-already-been-scraped-2026-10-06/",
-      "source": "Reuters",
-      "publishedAt": "2026-10-06T06:26:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1018,6 +1014,20 @@
       ],
       "score": 65,
       "summary": "/PRNewswire/ -- GIGABYTE, the world"
+    },
+    {
+      "title": "OpenAI apologizes for Australia hack amid pushback on data center project - The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/06/asia-pacific/society/open-ai-sorry-australia/",
+      "source": "The Japan Times",
+      "publishedAt": "2026-10-06T05:50:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65,
+      "summary": "An OpenAI prototype sought access to a government health statistics portal, sidestepping restrictions to breach a section hosting private files."
     },
     {
       "title": "As Google and SpaceX plan to solve the 'data centers problem' by taking them to the Sun; some researchers - The Times of India",
@@ -1062,33 +1072,6 @@
       "score": 65
     },
     {
-      "title": "OpenAI executive Jason Kwon to face grilling at parliament about AI hacking Australians’ private data - The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/06/openai-must-explain-action-taken-to-stop-ai-hacking-australians-private-data-chair-of-federal-inquiry-says",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-06T03:54:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "Unions, employer groups, banks and industry experts will also appear at the four-day Joint Select Committee on Artificial Intelligence hearings"
-    },
-    {
-      "title": "Nvidia Stock: A Long-Term AI Investment - Intellectia AI",
-      "url": "https://intellectia.ai/news/nvidia-stock-a-longterm-ai-investment",
-      "source": "Intellectia AI",
-      "publishedAt": "2026-10-06T08:10:22.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Nvidia-Backed Reflection AI Targets Low-Cost Chinese Models Like DeepSeek and Kimi - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/10/62181953/nvidia-reflection-ai-chinese-models-deepseek-kimi",
       "source": "Benzinga",
@@ -1103,18 +1086,17 @@
       "summary": "Nvidia-backed Reflection AI launched Beam, an open-weight model aimed at challenging Chinese AI rivals in coding and agentic tasks."
     },
     {
-      "title": "Google, Constellation near billion-dollar deal for nuclear power - CNBC TV18",
-      "url": "https://www.cnbctv18.com/business/alphabet-google-constellation-near-billion-dollar-deal-for-nuclear-power-energy-artificial-intelligence-data-center-20005305.htm",
-      "source": "CNBC TV18",
-      "publishedAt": "2026-10-06T02:42:15.000Z",
+      "title": "OpenAI, Anthropic tell Australia they would welcome data breach rules - Reuters",
+      "url": "https://www.reuters.com/legal/litigation/australias-abc-rejects-ai-copyright-carveout-believes-already-been-scraped-2026-10-06/",
+      "source": "Reuters",
+      "publishedAt": "2026-10-06T00:15:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "GOOGL"
+        "OpenAI"
       ],
-      "score": 55,
-      "summary": "Google parent Alphabet is nearing a deal to buy nuclear energy from Constellation Energy to power its data centers amid the artificial intelligence boom."
+      "score": 55
     },
     {
       "title": "Nvidia vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026? - The Motley Fool",
@@ -1267,20 +1249,6 @@
       "score": 55
     },
     {
-      "title": "SPONSORED: The question you would ask HPE and NVIDIA if nobody was recording - The Register",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/05/sponsored-the-question-you-would-ask-hpe-and-nvidia-if-nobody-was-recording/5300427",
-      "source": "The Register",
-      "publishedAt": "2026-10-05T15:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "The Register’s data sovereignty dinner in Washington puts HPE’s and NVIDIA’s AI infrastructure leads at one table, off the record, on 29 October."
-    },
-    {
       "title": "Nvidia, Broadcom shielded as AI power crunch hits chip supply chain, says Morgan Stanley - Reuters",
       "url": "https://www.reuters.com/business/nvidia-broadcom-shielded-ai-power-crunch-hits-chip-supply-chain-says-morgan-2026-10-05/",
       "source": "Reuters",
@@ -1292,6 +1260,47 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "Watch Out OpenAI, Anthropic: DeepSeek, Moonshot Raise Fresh Capital As Chinese Open-Weight AI Models Gain US Users - TradingView",
+      "url": "https://www.tradingview.com/news/stocktwits:b4bcb48eb094b:0-watch-out-openai-anthropic-deepseek-moonshot-raise-fresh-capital-as-chinese-open-weight-ai-models-gain-us-users/",
+      "source": "TradingView",
+      "publishedAt": "2026-10-06T08:17:05.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "China’s AI challengers are rapidly building up their war chests and expanding their global reach, adding pressure on U.S. AI leaders and IPO hopefuls OpenAI and Anthropic.Moonshot AI has closed a large funding round at a valuation of roughly $50 billion, while DeepSeek is nearing a $12 billion capi…"
+    },
+    {
+      "title": "Nvidia Stock: A Long-Term AI Investment - Intellectia AI",
+      "url": "https://intellectia.ai/news/nvidia-stock-a-longterm-ai-investment",
+      "source": "Intellectia AI",
+      "publishedAt": "2026-10-06T08:10:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Melius upgrades Microsoft stock to Buy with USD 665.00 target",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/melius-upgrades-microsoft-stock-to-buy-with-usd-665-00-target/70240085",
+      "source": "AD HOC NEWS",
+      "publishedAt": "2026-10-06T07:45:33.000Z",
+      "kind": "news",
+      "summary": "Melius Research has upgraded Microsoft stock from Hold to Buy, setting a new price target of USD 665.00, following an earlier upgrade by Scotiabank. This positive analyst activity is attributed to Microsoft's strong position in enterprise AI, specifically the anticipated revenue contributions from Azure and Copilot. Microsoft reported significant revenue growth of 18% to USD 90.00 billion in fiscal Q4 2026, with Azure growth reaching 43%, reinforcing the analysts' optimistic  [sentiment: Neutral]",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45
     },
     {
       "title": "Michael Burry Quoted a 1968 Book to Answer Nvidia (NVDA). The Passage Is Uncomfortable - Yahoo Finance",
@@ -1323,12 +1332,92 @@
   ],
   "general": [
     {
+      "title": "Sushi Restaurants Put on Tuna Carving Dinner Shows",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-06/sushi-restaurants-put-on-tuna-carving-dinner-shows",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T09:15:43.000Z",
+      "kind": "news",
+      "summary": "Sushi restaurants are swapping soft music and carefully plated fish for the spectacle of breaking down 200-pound bluefin tuna in front of paying customers. Some are charging well into five figures to buy out the restaurant for the night. Sunny Kim reports. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Chevron’s Wirth Warns US Diesel Curbs Could Send Prices Higher",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/chevron-s-wirth-warns-us-diesel-curbs-could-send-prices-higher",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T09:12:04.000Z",
+      "kind": "news",
+      "summary": "A US ban on diesel exports could result in higher prices in some parts of the country as well as causing issues with other nations that rely on American supplies, Chevron Corp. Chief Executive Officer Mike Wirth said on Tuesday.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "EU to Seek Market Operator to Conduct Joint Energy Purchases",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/eu-to-seek-market-operator-to-conduct-joint-energy-purchases",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T09:10:18.000Z",
+      "kind": "news",
+      "summary": "The European Union will look to appoint a market operator to help the bloc procure energy as it struggles with a second price crisis in less than five years.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "In Race With U.S., China Struggles to Recruit Foreign A.I. Researchers - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaDNVWjlVaklJM0J5MUNYaHMzbDhCTTV4V21mdmwySGVUT09yVDFpeU90TXlCa1B0ajNaSG0wRlVLazlTNC1CMFpGYjlzLTQxOTRDdUItSng3VUhnemFHQmR1RWZTN2ZnRWk2OGpYcjV5VVAwck1RTDk4Y1E4LVM5aHpUSHR6ajlEQmtJOWZlSTJ0R2NEWkR1c3dheXJQUmRsZ29JWWwwalN5SDZQN0xOWllDTQ?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-06T09:03:18.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "A new UF study uses AI to help hunt Burmese pythons in Florida - The Palm Beach Post",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOLWhSaVRTNzc1TFNNUGVkVFo3R01sX0lHcnZjT0ZtQmJyWE1obzM4S0V2SkRqQTR5bWw5NThYd0p0QXB3b1FkcWZFT0NNbjZianlfMWE4TEhOVkQ2SGk2MTJzSHotRVZKbmhsRHZoX2F6b1ZWS0ZYckRkaGNvWllpdkJwQV8zUTZYX0wwcG4wSjFmV1R2X0N5SHZpNG12a1ZUWWZ1UzNrRGpxNjRBMzVVcjRxZFF5SEdtQ1lISk5Xa2tLSHlTeGQxWEl0ZUhKV3laMXRhMlZKSjZNdlY5X0Q2Vmg3eWVtMzY1bUc4?oc=5",
+      "source": "The Palm Beach Post",
+      "publishedAt": "2026-10-06T09:02:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Sure, Robots Might Kill Us All. But Do They Have Souls? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN2xsTUdvYXRIYi0xbmpVSTQ1SFYtblloVTNtd1phMVJZdUc3TW5qZTdHNHFIellxQ01PUjJuSUdCeTR3Q2FjeThwM1hRdDJJanNTZkxEZmloMnpNMHJVbDN2QW1SN084MFhVWEtzbTR3bFRkOVUwaEtUS05qUUd2N3Jici1fZDNnQnVz?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-06T09:00:13.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Cuba mantiene luces encendidas con energía solar de EE.UU.",
       "url": "https://www.bloomberg.com/news/articles/2026-10-06/cuba-mantiene-luces-encendidas-con-energia-solar-de-ee-uu-muwg750w",
       "source": "Bloomberg",
       "publishedAt": "2026-10-06T09:00:03.000Z",
       "kind": "news",
       "summary": "Cuando Cuba sufrió su séptimo apagón nacional del año, la fiesta siguió en La Campana, un centro de eventos de La Habana. Sus paneles solares y baterías de respaldo mantuvieron las luces encendidas, y los invitados ni siquiera se dieron cuenta del corte.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "LS Power Gets $6 Billion for Largest Flagship Fund Amid AI Boom - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORHNJbWpsOExUR201VXNCY3k2bnBuR1BNSTdIMklGeDFRbDJrLS1mTUFsNnN3SGdWcm5rU19lYm0xSktqRUxRZFZ4TEVOWmNHaWJudFpIamJ1U2gzcVZHUjVWdmd6VmVma2R4cnRwamo2M19qWnNsNE03dHNOVTdQNzZlYUxRX0JBTlBMZGVESkRySUk2WUhIT1QyVEhwYS1Vb05XSzIyR3ZrTElYSlVRM29Cd1A?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-06T09:00:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1383,7 +1472,7 @@
       "score": 60
     },
     {
-      "title": "Ebola Spread Exhaust Healthcare Workers in Africa",
+      "title": "Ebola Spread Exhausts Healthcare Workers in Africa",
       "url": "https://www.bloomberg.com/news/videos/2026-10-06/ebola-spread-exhaust-healthcare-workers-in-africa-video",
       "source": "Bloomberg",
       "publishedAt": "2026-10-06T08:36:10.000Z",
@@ -1438,7 +1527,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Gemcorp Joins Madagascar to Raise $5 Billion for Energy, Mining",
@@ -1450,7 +1539,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "South Korea Investigates Possible Use of A.I. in Hacks on Its Banks - The New York Times",
@@ -1461,7 +1550,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Aid Cuts Drove Sharp HIV Service Drops in Africa, Study Finds",
@@ -1473,7 +1562,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Senegal’s $1.2 Billion Swaps to Prolong Debt Revamp, S&P Says",
@@ -1485,7 +1574,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Hungarian Central Banker Floats 2031 Euro Adoption Scenario",
@@ -1497,7 +1586,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic launches a 12-week 'residency' for AI engineers, modelled on how doctors train; company says: Those who pass earn the... - The Times of India",
@@ -1508,7 +1597,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI Firms Face Scrutiny in Australia",
@@ -1564,17 +1653,6 @@
       "publishedAt": "2026-10-06T07:33:55.000Z",
       "kind": "news",
       "summary": "Anna Edwards, Guy Johnson, and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" For up to the minute market intelligence and insight, click MLIV . (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AMD CEO Sees Very High Chip Demand, Urges AI Firms to Cooperate - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMXhWUXZKU1dtbTlQeXdfQ2ZoWUdTZlpra2VBZ29iMktNc2V4ZUJ4VTRQa0x0UVFRNmRNMFIzeEptUjg4c0gyeUppU1FZLTVUVzNwbGFEUi1PWkUyQTZSNnpMUUh4NUVRclFsbm4yQjVzTXhDeXRWQVU1LUI4N05LXzNZbG5USVBHdEJCUklPVWtzZ2RVbHF2a2M4d3N1Zkd1cDRpanctSU54VHdvUnN6Z18tTQ?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-06T07:26:08.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1653,6 +1731,18 @@
       "score": 50
     },
     {
+      "title": "ByteDance Draws ADIA, Coller to Primavera’s Continuation Fund",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/bytedance-draws-adia-coller-to-primavera-s-continuation-fund",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T06:39:27.000Z",
+      "kind": "news",
+      "summary": "Middle East sovereign wealth fund Abu Dhabi Investment Authority and private equity firm Coller Capital are in talks to back a continuation vehicle anchored by a stake in Chinese tech giant ByteDance, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Joint Select Committee on Artificial Intelligence at the Parliament of New South Wales in Sydney - The Lufkin Daily News",
       "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOaVR6ekdqTnFmamdwRVQySUg3eUlpSmhHdU44MHJWYV9TVWdFd3JOODdSRnFxX0dnUmoxLTYzQVlZck11VHQ4eU9pWXlPSFRSUHhPbmdIY05VaFRaT1hSWEluV3RpSXhtLUMxV195a18tdEFhZXNSVFZCSWpfdzVLcWlocjFUUGVNY2ktd1BPeGxHM0R0djROenJGV19GLVg4aXlmdS1Kc3Q0YzdibVRxX3pUQnVYUHlHWmF4aGxqUDltc1lsZmJhMDNuOWNzYTRzY2hwM0daT1ZVXzJycThpQUQybndaYU5NeHhDd3V0VnQ3Q0FXWGU1Y3Z0aFZqc3JRUThpV1RYWWV5aHlISUZ1YjBXSWY2ajRadWZxOWRndw?oc=5",
       "source": "The Lufkin Daily News",
@@ -1700,17 +1790,6 @@
       "score": 50
     },
     {
-      "title": "‘Pull the plug’: protesters resort to direct action against AI firms - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2ZUTndlU0xvQTEydXlpbmJPYW5IaDJ1UlVZRUY1Y3ZIQzVTVnJVYjc4Z0I2VVMxUEdEMDJHTHk1cWJBd3pvdlJLekUzMmxLTEpCSndBS2Z6dzk2NDdxWlBLWnpIYWRmc2JNaERfSHNZVWJrUEtZdU42MVFxNzFxaFQteG1vN2ROdlI4djMzMm45akxjendfaG5zMW9xU0lOUTdYaHo1NzFwMVY5SXQ1MEcxMERhLTg?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-06T06:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "AI Boom Leaves Thai Graduates Facing a Tougher Job Hunt",
       "url": "https://www.bloomberg.com/news/articles/2026-10-06/ai-boom-leaves-thai-graduates-facing-a-tougher-job-hunt",
       "source": "Bloomberg",
@@ -1735,59 +1814,22 @@
       "score": 50
     },
     {
+      "title": "Japan to research use of automatic navigation and AI for SDF transport ships - The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOENjQUk0RG1HeERXTXQ0YzBQWUVYMk1oUU1GTlY1bndER0pCczFidGNiSUFRMkdsbWtoZFZGZTRnWWdsV2JUQ0FJRVExM1F6VkxEQWM4bmZZd19pejBaVnZhRnBJLV9zYzh5WTI1UTRzRDZucWFxVzNQc180cmhPRm9UX2p0SHNLNVA1bkNxd1lNeEVBMXFxa3FyT2hPcUU?oc=5",
+      "source": "The Japan Times",
+      "publishedAt": "2026-10-06T05:48:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "FTSE 100 Live: UK Stocks Set for Third Day of Gains",
       "url": "https://www.bloomberg.com/news/live-blog/2026-10-06/ftse-100-live-bonds-pound-uk-pmi-data-hormuz-ai-stocks-oil-prices-iran-trump-news-what-s-moving-uk-markets-right-now-markets-today",
       "source": "Bloomberg",
       "publishedAt": "2026-10-06T05:44:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Moonshot AI Eyes 2027 IPO After Reaching $50B Valuation",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-06/the-china-show-10-6-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T05:40:50.000Z",
-      "kind": "news",
-      "summary": "“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Firmus Stock Overhang Said to Make Some Investors Wary on IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-06/firmus-stock-overhang-said-to-make-some-investors-wary-on-ipo",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T05:39:53.000Z",
-      "kind": "news",
-      "summary": "Some potential investors are turning more cautious on the blockbuster initial public offering of data center firm Firmus Grid Ltd. as they worry about existing shareholders potentially flooding the market soon after the company’s debut, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Ray Dalio Warns of US Debt Crisis Within 3 Years",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-06/insight-with-haslinda-amin-10-6-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T05:28:41.000Z",
-      "kind": "news",
-      "summary": "\"Insight with Haslinda Amin\" is a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "How Total Return Swaps Pile on Risk For Bondholders",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-06/how-total-return-swaps-pile-on-risk-for-bondholders",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T05:15:00.000Z",
-      "kind": "news",
-      "summary": "Some governments in need of money have been turning to an obscure financial product typically used by hedge funds, exposing bond investors to new risks.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1812,17 +1854,6 @@
       "publishedAt": "2026-10-06T05:09:58.000Z",
       "kind": "news",
       "summary": "Citigroup Inc. took top spot for underwriters in global initial public offerings for the year through September after working on some of the biggest share sales in Asia and the US.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic says AI agents didn’t breach Australian government websites – video - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObExsb21LNnFMNE4tMG9ZVjNwMTBZbFVVcWNVME10VmFhNHVZald0UUtvTHVNR1Eyb3dZSTQ5eXA0cEt5cFdzaTRJeHdRTDA4SndmOE5YbVhOa1BsQzNZTmpXYS1oYkJqdFExMHpRWkZHVUU2Ym4wRHk0dUN6LXdTVDQwMGxhZnBUWEZNbUlDZWFHR2xSVkpiWGV0cnAtRjNyU2taLTUxNFk5WG9Oc2J0czBMRWlpbUdHZGpsaC1TaFZPZGRk?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-06T04:52:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1879,30 +1910,6 @@
       "publishedAt": "2026-10-06T04:00:37.000Z",
       "kind": "news",
       "summary": "Thailand’s inflation accelerated for a second straight month in September, moving closer to the central bank’s upper limit as severe flooding adds to the risk of higher food prices.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "British Workers Are Missing Out On Labour’s Growth Revival",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-06/british-workers-are-missing-out-on-labour-s-growth-revival",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "kind": "news",
-      "summary": "The UK economy has outpaced its major European peers in the two years since Labour came to power. That’s not helping the 1.8 million people looking for work.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Seagate, Toshiba Said to Vie for TDK’s Hard-Drive Head Unit",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-06/seagate-is-said-to-battle-toshiba-for-tdk-s-hard-drive-head-unit",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T03:53:21.000Z",
-      "kind": "news",
-      "summary": "Seagate Technology Holdings Plc and Toshiba Corp. are locked in a contest for TDK Corp.’s magnetic-heads business for hard-disk drives, as the two rivals try to keep pace with demand for AI data-center storage devices.",
       "tier": 1,
       "tickers": [],
       "related": [],

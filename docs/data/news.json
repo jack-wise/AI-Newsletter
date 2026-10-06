@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T06:02:29.019Z",
+  "generatedAt": "2026-10-06T06:32:09.613Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -531,23 +531,10 @@
       "score": 45
     },
     {
-      "title": "FRMI Oct 2026 6.000 call (FRMI261016C00006000) Interactive Stock Chart - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI261016C00006000/chart/",
+      "title": "FRMI Oct 2026 5.500 put (FRMI261009P00005500) Stock Historical Prices & Data - Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/quote/FRMI261009P00005500/history/",
       "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-10-05T15:00:15.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
-      "title": "FRMI Oct 2026 2.500 call (FRMI261002C00002500) Stock Historical Prices & Data - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI261002C00002500/history/",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-10-05T06:42:08.000Z",
+      "publishedAt": "2026-10-05T09:28:16.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -907,9 +894,45 @@
       "related": [],
       "score": 38,
       "summary": "NAES News"
+    },
+    {
+      "title": "[September 28, 2026] Fermi America - $FRMI - Discussion Thread",
+      "url": "https://www.reddit.com/r/FRMI/comments/1ws4hlq/september_28_2026_fermi_america_frmi_discussion/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-09-28T04:03:23.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/AutoModerator",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "[September 28, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
+    {
+      "title": "OpenAI apologizes for Australia hack amid pushback on data center project - The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/06/asia-pacific/society/open-ai-sorry-australia/",
+      "source": "The Japan Times",
+      "publishedAt": "2026-10-06T05:50:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "An OpenAI prototype sought access to a government health statistics portal, sidestepping restrictions to breach a section hosting private files."
+    },
     {
       "title": "As Google and SpaceX plan to solve the 'data centers problem' by taking them to the Sun; some researchers - The Times of India",
       "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-google-and-spacex-plan-to-solve-the-data-centers-problem-by-taking-them-to-the-sun-some-researchers-in-japan-and-germany-want-to-fix-it-right-on-earth-and-their-solution-is-/articleshow/134724456.cms",
@@ -923,20 +946,6 @@
       ],
       "score": 75,
       "summary": "Data centers are putting increasing pressure on power grids as demand for computing continues to grow."
-    },
-    {
-      "title": "Sam Altman says some AI misuse is worth the upside, as OpenAI splits with Anthropic - The Cool Down",
-      "url": "https://www.thecooldown.com/green-tech/openai-sam-altman-anthropic-ai-misuse-policy/",
-      "source": "The Cool Down",
-      "publishedAt": "2026-10-06T05:34:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75,
-      "summary": "Altman said he disagrees with Anthropic about how much risk should come with AI adoption and believes some harm is necessary."
     },
     {
       "title": "OpenAI's Kwon Apologizes for Australian Hack",
@@ -1009,6 +1018,34 @@
       "summary": "Nvidia's 55.6% net margin and $96.7B free cash flow dwarf Taiwan Semi's, but geopolitical risks and customer concentration pose distinct threats to each."
     },
     {
+      "title": "Sam Altman says some AI misuse is worth the upside, as OpenAI splits with Anthropic - thecooldown.com",
+      "url": "https://www.thecooldown.com/green-tech/openai-sam-altman-anthropic-ai-misuse-policy/",
+      "source": "thecooldown.com",
+      "publishedAt": "2026-10-06T05:34:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Altman said he disagrees with Anthropic about how much risk should come with AI adoption and believes some harm is necessary."
+    },
+    {
+      "title": "Google nears billion-dollar deal for nuclear power from Constellation - Bloomberg (CEG:NASDAQ)",
+      "url": "https://seekingalpha.com/news/4650398-google-nears-billion-dollar-deal-for-nuclear-power-from-constellation-bloomberg",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-06T02:51:21.000Z",
+      "kind": "news",
+      "summary": "Google's parent company, Alphabet, is reportedly close to finalizing a multi-year deal with Constellation Energy. The agreement, valued at $1 billion or more, would involve Google purchasing nuclear energy from Constellation. An announcement regarding this deal could be made as early as this week. [sentiment: Bullish]",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
       "title": "Nvidia advances sports tech with 3D body pose and AI-generated slow motion - The Business Journals",
       "url": "https://www.bizjournals.com/sanjose/news/2026/10/05/nvidia-sports-industry-3d-products.html",
       "source": "The Business Journals",
@@ -1022,6 +1059,20 @@
       "score": 55
     },
     {
+      "title": "GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit",
+      "url": "https://www.prnewswire.com/news-releases/googl-goog-investors-have-opportunity-to-lead-alphabet-inc-securities-fraud-lawsuit-302898735.html",
+      "source": "PR Newswire",
+      "publishedAt": "2026-10-05T21:04:39.000Z",
+      "kind": "news",
+      "summary": "The Rosen Law Firm has announced a class action lawsuit against Alphabet Inc. (NASDAQ: GOOGL, GOOG) on behalf of investors who purchased securities between May 19, 2026, and July 16, 2026. The lawsuit alleges that Alphabet made false and misleading statements regarding the performance and delayed launch of its Gemini 3.5 Pro, causing damages to investors. Investors have until December 1, 2026, to move for lead plaintiff status. [sentiment: Bearish]",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
       "title": "Nvidia-backed Reflection unveils first AI model to take on Chinese open models - Reuters",
       "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/",
       "source": "Reuters",
@@ -1031,6 +1082,20 @@
       "tickers": [],
       "related": [
         "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Bronstein, Gewirtz & Grossman LLC Urges Alphabet Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
+      "url": "https://www.globenewswire.com/news-release/2026/10/05/3375026/9788/en/bronstein-gewirtz-grossman-llc-urges-alphabet-inc-investors-to-act-class-action-filed-alleging-investor-harm.html",
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-10-05T20:46:39.000Z",
+      "kind": "news",
+      "summary": "Bronstein, Gewirtz & Grossman LLC has filed a class action lawsuit against Alphabet Inc. (NASDAQ: GOOG) and some of its officers, alleging violations of federal securities laws. The lawsuit claims that Alphabet made false or misleading statements regarding the disappointing training results and delayed launch of Gemini 3.5 Pro, negatively impacting investors who purchased securities between May 19, 2026, and July 16, 2026. The firm is urging affected investors to join the cas [sentiment: Bearish]",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
       ],
       "score": 55
     },
@@ -1078,6 +1143,20 @@
       "score": 55
     },
     {
+      "title": "Rosen Law Firm Urges Alphabet Inc. (NASDAQ: GOOGL, GOOG) Stockholders with Large Losses to Contact the Firm for Information About Their Rights",
+      "url": "https://www.businesswire.com/news/home/20261005193022/en/Rosen-Law-Firm-Urges-Alphabet-Inc.-NASDAQ-GOOGL-GOOG-Stockholders-with-Large-Losses-to-Contact-the-Firm-for-Information-About-Their-Rights",
+      "source": "Business Wire",
+      "publishedAt": "2026-10-05T19:21:39.000Z",
+      "kind": "news",
+      "summary": "Rosen Law Firm has announced a class action lawsuit against Alphabet Inc. (NASDAQ: GOOGL, GOOG) on behalf of investors who purchased securities between May 19, 2026, and July 16, 2026. The lawsuit alleges that Alphabet made misleading statements regarding its Gemini 3.5 Pro, specifically that its training results were disappointing and would cause significant launch delays. Stockholders with large losses are urged to contact the firm by December 1, 2026, to discuss their righ [sentiment: Bearish]",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
       "title": "Dan Ives on Nvidia: It's the one chip in the world fueling the AI revolution - CNBC",
       "url": "https://www.cnbc.com/video/2026/10/05/dan-ives-on-nvidia-its-the-one-chip-in-the-world-fueling-the-ai-revolution.html",
       "source": "CNBC",
@@ -1090,6 +1169,20 @@
       ],
       "score": 55,
       "summary": "Dan Ives, Yorkville Ives partner and senior managing director, joins 'Closing Bell' to discuss Nvidia stock's record run and where it's headed from here."
+    },
+    {
+      "title": "ALPHABET INC. (GOOG, GOOGL) INVESTOR ALERT: Investors With Large Losses in Alphabet Inc. Should Contact Bernstein Liebhard LLP To Discuss Their Rights",
+      "url": "https://www.globenewswire.com/news-release/2026/10/05/3374953/0/en/alphabet-inc-goog-googl-investor-alert-investors-with-large-losses-in-alphabet-inc-should-contact-bernstein-liebhard-llp-to-discuss-their-rights.html",
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-10-05T19:04:16.000Z",
+      "kind": "news",
+      "summary": "Bernstein Liebhard LLP has filed a securities class action lawsuit against Alphabet Inc. on behalf of investors who purchased shares between May 19, 2026, and July 16, 2026. The lawsuit alleges that Alphabet made false and misleading statements, leading to artificially inflated stock prices and significant losses for investors when the truth was disclosed. Investors are encouraged to contact the firm by December 1, 2026, to discuss their rights or potentially serve as lead pl [sentiment: Bearish]",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
     },
     {
       "title": "Nvidia-Backed Reflection Unveils Open AI Model, Taking on China - Bloomberg.com",
@@ -1105,9 +1198,23 @@
       "score": 55
     },
     {
-      "title": "VIDIZMO Joins NVIDIA Inception to Advance Agentic AI That Runs Inside the Customer's Boundary - PR Newswire",
+      "title": "GOOG, GOOGL Class Action Notice: Alphabet Inc. Sued for Securities Fraud After Misstatements about AI Model Development Lead to 4% Stock Drop – Investors Urged to Contact BFA Law",
+      "url": "https://www.businesswire.com/news/home/20261005782193/en/GOOG-GOOGL-Class-Action-Notice-Alphabet-Inc.-Sued-for-Securities-Fraud-After-Misstatements-about-AI-Model-Development-Lead-to-4-Stock-Drop-Investors-Urged-to-Contact-BFA-Law",
+      "source": "Business Wire",
+      "publishedAt": "2026-10-05T18:33:15.000Z",
+      "kind": "news",
+      "summary": "Bleichmar Fonti & Auld LLP has filed a class action lawsuit against Alphabet Inc. (NASDAQ:GOOG, GOOGL) and its executives for alleged securities fraud. The lawsuit claims Alphabet misrepresented the development progress of its Gemini 3.5 Pro AI model, leading to a 4.4% stock drop on July 16, 2026. Investors who suffered losses are encouraged to contact BFA Law by December 1, 2026, to discuss their rights. [sentiment: Bearish]",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
+      "title": "VIDIZMO Joins NVIDIA Inception to Advance Agentic AI That Runs Inside the Customer's Boundary - prnewswire.com",
       "url": "https://www.prnewswire.com/news-releases/vidizmo-joins-nvidia-inception-to-advance-agentic-ai-that-runs-inside-the-customers-boundary-302898701.html",
-      "source": "PR Newswire",
+      "source": "prnewswire.com",
       "publishedAt": "2026-10-05T18:15:00.000Z",
       "kind": "news",
       "tier": 1,
@@ -1200,6 +1307,21 @@
       "score": 55
     },
     {
+      "title": "Microsoft Is Betting on Local AI, With Nvidia as Its Wingman. On Oct. 7 We'll See If It Pays Off - PCMag",
+      "url": "https://www.pcmag.com/news/microsoft-is-betting-on-local-ai-with-nvidia-as-its-wingman-on-oct-7-well",
+      "source": "PCMag",
+      "publishedAt": "2026-10-06T05:03:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "I'll be at Microsoft's event, and here's everything I expect to learn about the Nvidia Spark-powered Surface Laptop Ultra and the future of Windows on Arm."
+    },
+    {
       "title": "OpenAI CEO Says the 'World Should Accept Some Bad Things' From AI - PCMag Middle East",
       "url": "https://me.pcmag.com/en/ai/38243/openai-ceo-says-the-world-should-accept-some-bad-things-from-ai",
       "source": "PCMag Middle East",
@@ -1212,126 +1334,63 @@
       ],
       "score": 45,
       "summary": "In a recent interview, Sam Altman argues that people will ultimately do more good than bad with AI technologies."
-    },
-    {
-      "title": "Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool - therecord.media",
-      "url": "https://therecord.media/wikimedia-foundation-openai-agents-report",
-      "source": "therecord.media",
-      "publishedAt": "2026-10-06T03:33:45.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Beyond the potential misuses of its services, Wikimedia said activity by AI agents can be a drain on web platforms that are already operating with limited resources."
-    },
-    {
-      "title": "Microsoft Is Betting on Local AI, With Nvidia as Its Wingman. On Oct. 7 We'll See If It Pays Off - PCMag",
-      "url": "https://www.pcmag.com/news/microsoft-is-betting-on-local-ai-with-nvidia-as-its-wingman-on-oct-7-well",
-      "source": "PCMag",
-      "publishedAt": "2026-10-06T03:32:19.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "I'll be at Microsoft's event, and here's everything I expect to learn about the Nvidia Spark-powered Surface Laptop Ultra and the future of Windows on Arm."
-    },
-    {
-      "title": "‘One Chip In The World Fueling AI Revolution:’ Dan Ives Supports Nvidia Bull Case As Stock Hits Fresh High - Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/one-chip-world-fueling-ai-031441938.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-06T03:14:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "NYC Council Speaker Julie Menin Presses Anthropic, OpenAI, Google, Meta on AI Catastrophic Risks - NewsCord",
-      "url": "https://newscord.org/article/nyc-council-speaker-julie-menin-presses-anthropic-openai-google-meta-on-ai-catas--Story_20261006_AIresearcherwarnsweade769bb7",
-      "source": "NewsCord",
-      "publishedAt": "2026-10-06T03:09:41.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI",
-        "GOOGL"
-      ],
-      "score": 45,
-      "summary": "13 sources compared: Western Mainstream (4), Western Alternative (3), West Asian (2). Senior leaders from Anthropic, OpenAI, Google, and Meta testified under oath during a New York City Council hearing abou..."
-    },
-    {
-      "title": "OpenAI Mitigates Elevated Errors Across Multiple ChatGPT Services - unite.ai",
-      "url": "https://www.unite.ai/openai-mitigates-elevated-errors-across-multiple-chatgpt-services/",
-      "source": "unite.ai",
-      "publishedAt": "2026-10-06T03:04:01.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "OpenAI applied a mitigation and was monitoring recovery from elevated errors affecting multiple ChatGPT products early on October 6, 2026, according to an incident record on the company's status page. The record lists fi..."
-    },
-    {
-      "title": "Dan Ives Says Nvidia Fuels AI Market, But What If It Has a Lehman Moment? - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/dan-ives-says-nvidia-fuels-023821739.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-06T02:38:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "California Subpoenas OpenAI Over AI Agent Cybersecurity Breaches - Security Boulevard",
-      "url": "https://securityboulevard.com/2026/10/california-subpoenas-openai-over-ai-agent-cybersecurity-breaches/",
-      "source": "Security Boulevard",
-      "publishedAt": "2026-10-06T01:58:58.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "While Nvidia has renewed its artificial intelligence (AI) rally by hitting an all-time high in the U.. - 매일경제",
-      "url": "https://www.mk.co.kr/en/stock/12169064",
-      "source": "매일경제",
-      "publishedAt": "2026-10-06T01:58:28.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "While Nvidia has renewed its artificial intelligence (AI) rally by hitting an all-time high in the U.S. stock market, companies on the Nvidia AI supply chain and infrastructure value chain are also sh.."
     }
   ],
   "general": [
+    {
+      "title": "Informa to Buy Events Firm from Blackstone for £2.2 Billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/informa-to-buy-events-firm-from-blackstone-for-2-2-billion",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T06:18:51.000Z",
+      "kind": "news",
+      "summary": "Informa Plc agreed to buy Clarion in a deal valued at £2.24 billion ($3 billion) including debt, establishing the British company as one of the largest business-to-business events operators.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "German Factory Orders Slump in Setback for Country’s Recovery",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/german-factory-orders-slump-in-setback-for-country-s-recovery",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T06:08:51.000Z",
+      "kind": "news",
+      "summary": "German factory orders fell the most since January, a stumble for the manufacturing sector as it tries to mount a sustained turnaround.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "French Student Unrest Spreads Nationwide",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-06/french-student-unrest-spreads-nationwide-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T06:06:09.000Z",
+      "kind": "news",
+      "summary": "Hundreds of French high schools will shut Tuesday as teacher unions join a student-led protest movement demanding more money for education. The government warned that the unrest had turned into \"urban violence\" and blamed the far left for being behind the movement. Bloomberg's Julien Ponthus reports. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "‘Pull the plug’: protesters resort to direct action against AI firms - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR2ZUTndlU0xvQTEydXlpbmJPYW5IaDJ1UlVZRUY1Y3ZIQzVTVnJVYjc4Z0I2VVMxUEdEMDJHTHk1cWJBd3pvdlJLekUzMmxLTEpCSndBS2Z6dzk2NDdxWlBLWnpIYWRmc2JNaERfSHNZVWJrUEtZdU42MVFxNzFxaFQteG1vN2ROdlI4djMzMm45akxjendfaG5zMW9xU0lOUTdYaHo1NzFwMVY5SXQ1MEcxMERhLTg?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-10-06T06:00:00.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Boom Leaves Thai Graduates Facing a Tougher Job Hunt",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/ai-boom-leaves-thai-graduates-facing-a-tougher-job-hunt",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T05:55:19.000Z",
+      "kind": "news",
+      "summary": "Thailand’s young graduates face an increasingly difficult job market as artificial intelligence and automation raise demand for specialized skills that many entering the workforce lack.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1361,6 +1420,18 @@
       "score": 60
     },
     {
+      "title": "Moonshot AI Eyes 2027 IPO After Reaching $50B Valuation",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-06/the-china-show-10-6-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T05:40:50.000Z",
+      "kind": "news",
+      "summary": "“Bloomberg: The China Show” is your definitive source for news and analysis on the world's second-biggest economy. From politics and policy to tech and trends, Yvonne Man and David Ingles give global investors unique insight, delivering in-depth discussions with the newsmakers who matter. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Firmus Stock Overhang Said to Make Some Investors Wary on IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-10-06/firmus-stock-overhang-said-to-make-some-investors-wary-on-ipo",
       "source": "Bloomberg",
@@ -1373,6 +1444,18 @@
       "score": 60
     },
     {
+      "title": "Ray Dalio Warns of US Debt Crisis Within 3 Years",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-06/insight-with-haslinda-amin-10-6-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T05:28:41.000Z",
+      "kind": "news",
+      "summary": "\"Insight with Haslinda Amin\" is a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "South Korea Investigates Possible Use of A.I. in Hacks on Its Banks - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNakFtbFQyazJjZVY3S21qb193RWduTk1LZ3RZTlFoeEJ2b0tnSVVBclNQeW9EYjVKZHEzTGdPSVJ5eVdjOGxiXzJCVHJkUm5fXzNJODJaRGdpaFFqZ0RTRXRDTlVkMGtlVy1Rcjl1R1FHN3h1SEh0SUxjMHpqeUh2SWJFa2w?oc=5",
       "source": "The New York Times",
@@ -1381,19 +1464,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "Ireland Faces Pressure to Spend Tax Windfall in Budget to Help Voters",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-06/ireland-faces-pressure-to-spend-tax-windfall-in-budget-to-help-voters",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T05:15:00.000Z",
-      "kind": "news",
-      "summary": "Ireland’s government has an enviable budget surplus, and voters want those funds used to help them with soaring energy costs and a cost-of-living squeeze.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "How Total Return Swaps Pile on Risk For Bondholders",
@@ -1405,7 +1476,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Ireland Faces Pressure to Spend Tax Windfall in Budget to Help Voters",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/ireland-faces-pressure-to-spend-tax-windfall-in-budget-to-help-voters",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T05:15:00.000Z",
+      "kind": "news",
+      "summary": "Ireland’s government has an enviable budget surplus, and voters want those funds used to help them with soaring energy costs and a cost-of-living squeeze.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Citi Takes Top Spot in Global IPO Underwriting Through September",
@@ -1417,7 +1500,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding",
@@ -1470,6 +1553,17 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYnI2c1ZTTGdrUU93YkN0MlFyNVNzd0NXb0FZakM5c1pmaFZvaDg1RTJ3ZEpBUVNrSldVUnhvd0FjVUR5bnZLSC03Sm93U0ZlUnBHNmV1d2hnVFgtRnhxRHEwb3BKSms5UU15TWhFbVRISnJ6dFB6Wks4ZEZzMGZ5YWdoVUd3aElpZExxUXJVMlp4YWpFMmNBXzJ4UVVtY1hBOXZOc19Pdi1JaUR0?oc=5",
       "source": "The Regulatory Review",
       "publishedAt": "2026-10-06T04:18:48.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Reflection’s first open-weight model, Beam, aims at China’s GLM-5.2 - The Next Web",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QczVZMUx1aFVmTzVESUhaSHNUMmY2LWhfY0FuWTdKd1kyeEZGUU5tUlgzaG5GVkVtZDJVLWFNQmQ4MU9XY283WGx2bU56cWt4QlhTSk5DYW5QYTVlV1lHNzVxSGNlUy1Gd21lejFqaWtodw?oc=5",
+      "source": "The Next Web",
+      "publishedAt": "2026-10-06T04:07:30.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1724,6 +1818,18 @@
       "score": 50
     },
     {
+      "title": "Philippines’ Inflation Tops Estimates on Pricier Food, Fuel",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/philippines-inflation-heats-up-for-first-time-in-five-months",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-06T01:05:27.000Z",
+      "kind": "news",
+      "summary": "Philippine inflation gained pace again and exceeded economists’ estimates in September as food and fuel prices surged, backing the case for the central bank to further raise its policy rate.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "New World Seeks More Time to Pay Bonds With $1 Billion Swap",
       "url": "https://www.bloomberg.com/news/articles/2026-10-06/new-world-launches-exchange-offer-for-nearly-1-billion-of-bonds",
       "source": "Bloomberg",
@@ -1748,51 +1854,6 @@
       "score": 50
     },
     {
-      "title": "Nidec Scandal Sends Bonds Tumbling in Test for New President",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-06/nidec-scandal-sends-bonds-to-bottom-in-test-for-new-president",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T00:30:02.000Z",
-      "kind": "news",
-      "summary": "Scandal-tainted Nidec Corp., which grew from a startup into the world’s largest manufacturer of precision motors, has fallen to the bottom rank of the yen debt market by one measure, leaving its new president with a challenge to restore investor confidence.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "What the Data Center Boom Looks Like From the Sky - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU19oTTNNdVlNd0VTaVZyeDhIUHk1RDhtVEE5bTdhdmpsR2ZJdXBwRlZrTUNhNFdZRDdsLTNTUDhhZVRuVmIyenVuSS1hMlNPQU95d1kzeGtJYkF5VmtXRVl3Z0lDTUxZdkNwQXpsU09Mbm1mVXVlMU9hVk4yQ3VCeFpB?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-06T00:18:23.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "A.I. Officials Stonewall on Questions About Technology’s Risks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5va0gwejN3VVJWMlNld3VLZDFlLUQ3TFlhbUtaOXNPUVlyUWNOYkNtb0QyOTYyOUdCczBYWVQ4Y2ttRzZLMG45SDBoMkNlQ0dsME4tVThsWEM3eGY2NG16alZTRDAwOHRadVJtQXpyMEdOdUhHTXhZTGxJUmE?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-06T00:17:34.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic tells Australia it's open to laws requiring reporting of AI agent hacks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPakluaktNLUFlZk8zejE5LUV6VWYtdkphTjB0UVpiYjJ2WVYwd2lXUC0xMTdPcFJXYUNMajk5MlMtcmNlSUxiUGY3T0plNzYxMG02X09jbkNlcDBldEdueENYdXhHVnd6TkVmVExyZGtzN0hqdUF5X2VsaEVMX3hWT21ob3VvWWE5UlNqbnZLb24yTXJlYWJiZGl1cjRWNnNad1ljTlF4WTVJREEza2Y0SmlmX0E0QzJfeVZjU1hFOXdYeDU2bEE?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-06T00:15:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Microchip and Navitas target 800V AI data center power ... - eeNews Europe",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMFk3LTFMUGtxUlJldV82NnljRnpOS1FVVG1wTERVWS11UlZSa09jT3dESWpvb3BnRVdobHBOekpmTmMzclZ6Sng4NUZ2WEFmcUlSSmlpMTBUUEV6Rzc4TFhvcmpVeFkxYjlIYUpFSEVqX05zcU11cW1ZUTZzOG9jRG52M0p5bE5JaElkU3ZRWE8?oc=5",
       "source": "eeNews Europe",
@@ -1804,10 +1865,10 @@
       "score": 40
     },
     {
-      "title": "Infineon Completes C2i Semiconductors Acquisition to Boost AI Data Center Power Solutions - bisinfotech.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzR1NWJpdnBxbDBfelMyVW9hS2F6U3pLZkdLWEwzd3QyVE9ndjE5R0Y2azZxYUZ5VW9nOVF2UHpIR3lpUklleVBEQ2hhWmNudm5SUnFjU3VNWkRYT2x4OGN1RW9jSHUwUk9tVlRaSXF3OXFYRy1FYmFsSGFPRURUTnFiclYySVJvM2ZTT3dSUThBZGMyNExTZnkwS3AyYks5VUw0X1BzdENDWmwzSG8ydGc5ZHc5a0h1YkE?oc=5",
-      "source": "bisinfotech.com",
-      "publishedAt": "2026-10-06T05:18:35.000Z",
+      "title": "AI slowdown calls clash with $800 billion infrastructure bets, raising fears for U.S. economy - 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX2wwem5EUC1BelB3WXEzTFNLZFE5NTlxQ3k2M1VjazM2T3g0RkVuZFM2NVNXNEpwVXdIOVpsbU5KMkJ6YU5tYU9vRkI3d0NqLVNiXzVnTTE0TjhvZDJXYmRYSFpzUm9sekZwZ0NtQnU0Wi02QXJZWlBtZmFoeXdoam9sVDJyeFJENVZZUk82T3BYZ0FONjhUczBKa3BSckl4ek40YjVvMnItVXRIdG9ub3VmU2czdFlfdHhickN0ZEkwNm9qUUxOQ2xTYk9IZ3RhWE14Nw?oc=5",
+      "source": "디지털투데이",
+      "publishedAt": "2026-10-06T05:47:24.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1815,12 +1876,34 @@
       "score": 40
     },
     {
-      "title": "Durham council developing AI to process use of AI in info requests - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmMUNGMFlTMVlOYzlJRGF4dy1TQ3YxaWo2TmFfbFVRX0J3S1JjVzhwZ0JOVmM3aGJNVjhQcnp0X3lfeUJtM3lsQTlTVGdXVkNuTTlEazVzLTg2clk?oc=5",
-      "source": "BBC",
-      "publishedAt": "2026-10-06T05:08:20.000Z",
+      "title": "What the Data Center Boom Looks Like From the Sky - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU19oTTNNdVlNd0VTaVZyeDhIUHk1RDhtVEE5bTdhdmpsR2ZJdXBwRlZrTUNhNFdZRDdsLTNTUDhhZVRuVmIyenVuSS1hMlNPQU95d1kzeGtJYkF5VmtXRVl3Z0lDTUxZdkNwQXpsU09Mbm1mVXVlMU9hVk4yQ3VCeFpB?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-06T00:18:23.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "A.I. Officials Stonewall on Questions About Technology’s Risks - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5va0gwejN3VVJWMlNld3VLZDFlLUQ3TFlhbUtaOXNPUVlyUWNOYkNtb0QyOTYyOUdCczBYWVQ4Y2ttRzZLMG45SDBoMkNlQ0dsME4tVThsWEM3eGY2NG16alZTRDAwOHRadVJtQXpyMEdOdUhHTXhZTGxJUmE?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-06T00:17:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Anthropic tells Australia it's open to laws requiring reporting of AI agent hacks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPakluaktNLUFlZk8zejE5LUV6VWYtdkphTjB0UVpiYjJ2WVYwd2lXUC0xMTdPcFJXYUNMajk5MlMtcmNlSUxiUGY3T0plNzYxMG02X09jbkNlcDBldEdueENYdXhHVnd6TkVmVExyZGtzN0hqdUF5X2VsaEVMX3hWT21ob3VvWWE5UlNqbnZLb24yTXJlYWJiZGl1cjRWNnNad1ljTlF4WTVJREEza2Y0SmlmX0E0QzJfeVZjU1hFOXdYeDU2bEE?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-10-06T00:15:00.000Z",
+      "kind": "news",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1832,76 +1915,6 @@
       "publishedAt": "2026-10-06T00:00:00.000Z",
       "kind": "news",
       "summary": "The next wave of artificial intelligence debt financing is taking off in Asia.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Bangkok Braces for Floods Before Global Finance Chiefs Gather",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-06/bangkok-braces-for-floods-before-global-finance-chiefs-gather",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-06T00:00:00.000Z",
-      "kind": "news",
-      "summary": "Bangkok is preparing for possible flooding as more than 15,000 delegates are due to arrive for the annual meetings of the International Monetary Fund and World Bank Group.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI researcher warns 'we are racing to build and grow our own adversary' in NYC hearing",
-      "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-05T23:28:31.000Z",
-      "kind": "news",
-      "summary": "The leading AI labs facing intensifying scrutiny over their safety and security practices.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "S&P 500 Closes In on Record High as Tech Rallies: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-05/s-p-500-closes-in-on-record-high-as-tech-rallies-markets-wrap-muvv94wz",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-05T23:13:44.000Z",
-      "kind": "news",
-      "summary": "Global stocks edged toward record highs as investors shrugged off concerns about elevated oil prices and bond yields near multi-decade highs.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Why A.I. Food Slop Looks So Gross - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYmtsVlRMOGk1WEhsdUhBVy0xMWN1Y094ZjF0TzZGMlZFRDRMMWROSUdUUTZJN1FtQ3hWa2Y2X1FHWXpYS01YcE95NTd3YnBhU1RYWFJVbG5OWnBNUzY2MzQzWF9WTk1GZ2xfZGg2aUN6SkFfMDlTNFYyQXRHbm55dE5UUEVkUkVMR2lpT2JjeWc4VXVxXzlNNzU0M0ZweVpK?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-05T23:11:48.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Oracle 2025 Health Breach Compromised Data of 20 Million People",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-05/oracle-2025-health-breach-compromised-data-of-20-million-people",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-05T23:09:19.000Z",
-      "kind": "news",
-      "summary": "A cybersecurity breach last year of Oracle Corp.’s healthcare unit compromised personal information belonging to nearly 20 million people, according to information released by the Texas attorney general.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Schneider Electric drops $22.6B on PTC as datacenter boom rains money on infra companies - The Register",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWUJnei1IQXRYdzhnTXNZODJqeGcyM19aa1d3U2E0bGlRSkZQSHhxdTczZUxRbDQtcDZsUlgxVmI5aTJkaVY0Q2NHNElIemNIWm5HdVlPTzVad0JCVGFGeUQwQnpBUktjeGFQMzhXR3JDYVZCdkZhRGdtaFhBZ0hiSkduZklQMURHNFZIc1JVODdkQzFJVmk4YmFwem1HbjFsOWdEWA?oc=5",
-      "source": "The Register",
-      "publishedAt": "2026-10-05T22:48:15.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

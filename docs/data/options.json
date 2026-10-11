@@ -1,40 +1,30 @@
 {
-  "generatedAt": "2026-10-11T23:02:09.402Z",
+  "generatedAt": "2026-10-11T23:31:58.559Z",
   "symbol": "FRMI",
   "quoteTime": "2026-10-09T15:59:59",
   "underlying": {
-    "price": 3.44,
+    "price": 3.43,
     "change": -0.23,
-    "changePct": -6.28,
-    "prevClose": 3.66
+    "changePct": -6.71,
+    "prevClose": 3.43
   },
   "iv30": 96.2,
-  "iv30ChangePct": 0.27,
+  "iv30ChangePct": 0,
   "totals": {
-    "contracts": 546,
-    "expirations": 18,
-    "callOI": 554820,
-    "putOI": 200484,
-    "callVol": 17706,
-    "putVol": 2596,
-    "pcOI": 0.36,
-    "pcVol": 0.15
+    "contracts": 516,
+    "expirations": 17,
+    "callOI": 542414,
+    "putOI": 191237,
+    "callVol": 17517,
+    "putVol": 1799,
+    "pcOI": 0.35,
+    "pcVol": 0.1
   },
   "sentiment": {
     "label": "Call-heavy",
-    "note": "More open interest in calls than puts (put/call 0.36) — positioning leans bullish. 30-day implied volatility is 96%."
+    "note": "More open interest in calls than puts (put/call 0.35) — positioning leans bullish. 30-day implied volatility is 96%."
   },
   "expirations": [
-    {
-      "date": "2026-10-09",
-      "days": 0,
-      "callOI": 12406,
-      "putOI": 9247,
-      "callVol": 189,
-      "putVol": 797,
-      "pcOI": 0.75,
-      "atmIV": 389.5
-    },
     {
       "date": "2026-10-16",
       "days": 4,
@@ -104,6 +94,16 @@
       "putVol": 11,
       "pcOI": 0.02,
       "atmIV": 91.2
+    },
+    {
+      "date": "2026-12-18",
+      "days": 67,
+      "callOI": 55539,
+      "putOI": 45088,
+      "callVol": 889,
+      "putVol": 44,
+      "pcOI": 0.81,
+      "atmIV": 105.7
     }
   ],
   "mostActive": [

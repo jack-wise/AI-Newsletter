@@ -1,105 +1,105 @@
 {
-  "generatedAt": "2026-10-13T10:03:00.189Z",
+  "generatedAt": "2026-10-13T10:32:11.303Z",
   "symbol": "FRMI",
   "quoteTime": "2026-10-12T15:59:59",
   "underlying": {
     "price": 3.25,
-    "change": -0.18,
-    "changePct": -5.25,
-    "prevClose": 3.43
+    "change": 0.03,
+    "changePct": 0.92,
+    "prevClose": 3.25
   },
   "iv30": 99.8,
-  "iv30ChangePct": 0,
+  "iv30ChangePct": -0.07,
   "totals": {
     "contracts": 516,
     "expirations": 17,
-    "callOI": 551758,
-    "putOI": 191630,
+    "callOI": 558473,
+    "putOI": 188841,
     "callVol": 11403,
     "putVol": 2581,
-    "pcOI": 0.35,
+    "pcOI": 0.34,
     "pcVol": 0.23
   },
   "sentiment": {
     "label": "Call-heavy",
-    "note": "More open interest in calls than puts (put/call 0.35) — positioning leans bullish. 30-day implied volatility is 100%."
+    "note": "More open interest in calls than puts (put/call 0.34) — positioning leans bullish. 30-day implied volatility is 100%."
   },
   "expirations": [
     {
       "date": "2026-10-16",
       "days": 3,
-      "callOI": 40212,
-      "putOI": 9085,
+      "callOI": 40429,
+      "putOI": 7066,
       "callVol": 541,
       "putVol": 811,
-      "pcOI": 0.23,
+      "pcOI": 0.17,
       "atmIV": 106.2
     },
     {
       "date": "2026-10-23",
       "days": 10,
-      "callOI": 11618,
-      "putOI": 25709,
+      "callOI": 11809,
+      "putOI": 25407,
       "callVol": 213,
       "putVol": 288,
-      "pcOI": 2.21,
+      "pcOI": 2.15,
       "atmIV": 98.4
     },
     {
       "date": "2026-10-30",
       "days": 17,
-      "callOI": 7143,
-      "putOI": 4247,
+      "callOI": 8345,
+      "putOI": 4354,
       "callVol": 1358,
       "putVol": 197,
-      "pcOI": 0.59,
+      "pcOI": 0.52,
       "atmIV": 96.4
     },
     {
       "date": "2026-11-06",
       "days": 24,
-      "callOI": 5439,
-      "putOI": 968,
+      "callOI": 5665,
+      "putOI": 977,
       "callVol": 273,
       "putVol": 17,
-      "pcOI": 0.18,
+      "pcOI": 0.17,
       "atmIV": 98.2
     },
     {
       "date": "2026-11-13",
       "days": 31,
-      "callOI": 887,
-      "putOI": 511,
+      "callOI": 1077,
+      "putOI": 515,
       "callVol": 241,
       "putVol": 5,
-      "pcOI": 0.58,
+      "pcOI": 0.48,
       "atmIV": 101.1
     },
     {
       "date": "2026-11-20",
       "days": 38,
-      "callOI": 150394,
-      "putOI": 23885,
+      "callOI": 151825,
+      "putOI": 23175,
       "callVol": 2251,
       "putVol": 148,
-      "pcOI": 0.16,
+      "pcOI": 0.15,
       "atmIV": 107.7
     },
     {
       "date": "2026-11-27",
       "days": 45,
-      "callOI": 221,
-      "putOI": 13,
+      "callOI": 241,
+      "putOI": 24,
       "callVol": 22,
       "putVol": 11,
-      "pcOI": 0.06,
+      "pcOI": 0.1,
       "atmIV": 105.4
     },
     {
       "date": "2026-12-18",
       "days": 66,
-      "callOI": 56333,
-      "putOI": 45096,
+      "callOI": 56632,
+      "putOI": 45054,
       "callVol": 806,
       "putVol": 184,
       "pcOI": 0.8,
@@ -114,7 +114,7 @@
       "expiry": "2026-10-30",
       "last": 0.05,
       "volume": 1081,
-      "openInterest": 1335,
+      "openInterest": 2335,
       "iv": 97.5
     },
     {
@@ -124,7 +124,7 @@
       "expiry": "2026-11-20",
       "last": 0.11,
       "volume": 1034,
-      "openInterest": 5731,
+      "openInterest": 6718,
       "iv": 124.7
     },
     {
@@ -134,7 +134,7 @@
       "expiry": "2027-01-15",
       "last": 0.14,
       "volume": 871,
-      "openInterest": 41733,
+      "openInterest": 42568,
       "iv": 121.3
     },
     {
@@ -144,7 +144,7 @@
       "expiry": "2027-02-19",
       "last": 0.58,
       "volume": 711,
-      "openInterest": 266,
+      "openInterest": 962,
       "iv": 104
     },
     {
@@ -154,7 +154,7 @@
       "expiry": "2027-02-19",
       "last": 0.07,
       "volume": 700,
-      "openInterest": 431,
+      "openInterest": 1131,
       "iv": 125.2
     },
     {
@@ -164,7 +164,7 @@
       "expiry": "2027-01-15",
       "last": 0.06,
       "volume": 677,
-      "openInterest": 82303,
+      "openInterest": 81760,
       "iv": 132
     },
     {
@@ -174,7 +174,7 @@
       "expiry": "2027-01-15",
       "last": 0.3,
       "volume": 571,
-      "openInterest": 5097,
+      "openInterest": 5561,
       "iv": 111.5
     },
     {
@@ -184,7 +184,7 @@
       "expiry": "2026-11-20",
       "last": 0.05,
       "volume": 417,
-      "openInterest": 6281,
+      "openInterest": 6470,
       "iv": 144.6
     }
   ],
@@ -196,7 +196,7 @@
       "expiry": "2027-01-15",
       "last": 0.06,
       "volume": 677,
-      "openInterest": 82303,
+      "openInterest": 81760,
       "iv": 132
     },
     {
@@ -216,7 +216,7 @@
       "expiry": "2027-01-15",
       "last": 0.14,
       "volume": 871,
-      "openInterest": 41733,
+      "openInterest": 42568,
       "iv": 121.3
     },
     {
@@ -246,7 +246,7 @@
       "expiry": "2026-10-23",
       "last": 0.37,
       "volume": 23,
-      "openInterest": 21242,
+      "openInterest": 21246,
       "iv": 62.4
     },
     {
@@ -256,7 +256,7 @@
       "expiry": "2026-12-18",
       "last": 1.9,
       "volume": 18,
-      "openInterest": 19628,
+      "openInterest": 19620,
       "iv": 113.6
     },
     {
@@ -266,7 +266,7 @@
       "expiry": "2027-01-15",
       "last": 2,
       "volume": 43,
-      "openInterest": 15196,
+      "openInterest": 15179,
       "iv": 110.9
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T03:01:27.261Z",
+  "generatedAt": "2026-10-15T03:31:23.921Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,21 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "SEC filing: 144 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000658/xsl144X01/primary_doc.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-10-14T21:11:09.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 85,
-      "formExplanation": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale).",
-      "summary": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale)."
-    },
     {
       "title": "AMD/FRMI",
       "url": "https://www.reddit.com/r/FRMI/comments/1x6ah8p/amdfrmi/",
@@ -52,6 +37,21 @@
       "related": [],
       "score": 78,
       "summary": "AMD/FRMI"
+    },
+    {
+      "title": "SEC filing: 144 — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000658/xsl144X01/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-10-14T21:11:09.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "formExplanation": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale).",
+      "summary": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale)."
     },
     {
       "title": "SEC filing: 8-K — Fermi Inc. (CURRENT REPORT)",
@@ -885,19 +885,6 @@
   ],
   "related": [
     {
-      "title": "OpenAI Engineer, Who Is Charged With Planting Bug, Advised Saudis - The New York Times",
-      "url": "https://www.nytimes.com/2026/10/14/technology/openai-engineer-hidden-device-saudi-government.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-15T02:26:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75
-    },
-    {
       "title": "8 states are suing OpenAI, saying ChatGPT harms kids. Here are their demands, from data deletion to halting AI testing. - Business Insider",
       "url": "https://www.businessinsider.com/eight-states-sue-openai-saying-chatgpt-harms-children-2026-10",
       "source": "Business Insider",
@@ -955,34 +942,6 @@
       "score": 65
     },
     {
-      "title": "OpenAI sued by 8 states over ChatGPT safety concerns",
-      "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-14T21:09:20.000Z",
-      "kind": "news",
-      "summary": "OpenAI is facing mounting scrutiny over its safety and security practices, including around how the company is working to protect children.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "OpenAI hands its data centre and compute operation to a former xAI executive - The Next Web",
-      "url": "https://thenextweb.com/news/openai-ruddarraju-compute-infrastructure",
-      "source": "The Next Web",
-      "publishedAt": "2026-10-14T21:05:35.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65,
-      "summary": "Uday Ruddarraju, who ran infrastructure at xAI, now leads OpenAI's compute and data centre units. Sachin Katti leaves the role and stays as an adviser."
-    },
-    {
       "title": "Here’s How Anthropic and OpenAI Are Building Economic Moats - Morningstar",
       "url": "https://www.morningstar.com/stocks/heres-how-anthropic-openai-are-building-economic-moats",
       "source": "Morningstar",
@@ -995,6 +954,34 @@
       ],
       "score": 55,
       "summary": "Moats matter, and we think AI labs are building them in two main ways."
+    },
+    {
+      "title": "OpenAI sued by 8 states over ChatGPT safety concerns",
+      "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
+      "source": "CNBC",
+      "publishedAt": "2026-10-14T21:09:20.000Z",
+      "kind": "news",
+      "summary": "OpenAI is facing mounting scrutiny over its safety and security practices, including around how the company is working to protect children.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "OpenAI hands its data centre and compute operation to a former xAI executive - The Next Web",
+      "url": "https://thenextweb.com/news/openai-ruddarraju-compute-infrastructure",
+      "source": "The Next Web",
+      "publishedAt": "2026-10-14T21:05:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Uday Ruddarraju, who ran infrastructure at xAI, now leads OpenAI's compute and data centre units. Sachin Katti leaves the role and stays as an adviser."
     },
     {
       "title": "NVIDIA's cuPotential Takes the CUDA Moat Down to the Atom in the AI-Defined Fab - The Futurum Group",
@@ -1037,20 +1024,6 @@
       ],
       "score": 55,
       "summary": "\"Like countless Americans, Mr. Alfozan came to this country years ago as a young person with a dream,\" his criminal defense lawyer said Wednesday."
-    },
-    {
-      "title": "Nvidia’s Jensen Huang says he would cut off customers who build unsafe AI - The Next Web",
-      "url": "https://thenextweb.com/news/huang-cut-off-unsafe-ai-customers",
-      "source": "The Next Web",
-      "publishedAt": "2026-10-14T19:36:57.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Nvidia's chief executive says he would stop supplying a customer building unsafe AI, then sets out the limits. His remedy is to accelerate, not slow down."
     },
     {
       "title": "OpenAI says it's 'very concerned' that its trade secrets could help Apple's push into AI-enabled devices - Business Insider",
@@ -1256,6 +1229,19 @@
       "score": 55
     },
     {
+      "title": "Block’s OpenAI AI Cuts Security Fix Time to 2 Hours [2026] - https://tech-insider.org/",
+      "url": "https://tech-insider.org/block-openai-daybreak-ai-security-2026/",
+      "source": "https://tech-insider.org/",
+      "publishedAt": "2026-10-15T02:12:32.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
       "title": "NVIDIA GPU Prices Spike 41% in Japan, US Next? [2026] - https://tech-insider.org/",
       "url": "https://tech-insider.org/nvidia-gpu-prices-japan-41-percent-spike-2026/",
       "source": "https://tech-insider.org/",
@@ -1283,6 +1269,20 @@
       "summary": "Google’s recent agreement reveals the scale of the AI power shortage and why supplying power is such an important part of the AI investment story."
     },
     {
+      "title": "Eight states sue OpenAI over ChatGPT's alleged harms to users - NBC Los Angeles",
+      "url": "https://www.nbclosangeles.com/news/national-international/eight-states-sue-openai-chatgpt-alleged-harms-users/3956432/?os&ref=app",
+      "source": "NBC Los Angeles",
+      "publishedAt": "2026-10-15T01:03:41.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "The coordinated lawsuits target the AI giant for the harms its generative AI chatbot is alleged to have caused to ​children in those states."
+    },
+    {
       "title": "Navitas Stock In Focus After Nvidia AI Power Board Launch - Simply Wall Street",
       "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-nvts/navitas-semiconductor/news/navitas-stock-in-focus-after-nvidia-ai-power-board-launch",
       "source": "Simply Wall Street",
@@ -1299,24 +1299,95 @@
   ],
   "general": [
     {
-      "title": "Lithium Extends Deep Slump as Battery Demand Concerns Mount",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/lithium-extends-deep-slump-as-battery-demand-concerns-mount",
+      "title": "Iron Ore Trades Below $90 a Ton for First Time Since 2024",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/iron-ore-trades-below-90-a-ton-for-first-time-since-2024",
       "source": "Bloomberg",
-      "publishedAt": "2026-10-15T02:56:18.000Z",
+      "publishedAt": "2026-10-15T03:22:28.000Z",
       "kind": "news",
-      "summary": "Chinese lithium futures extended a deep selloff this week on growing concerns about the demand outlook for the battery metal.",
+      "summary": "Iron ore futures in Singapore slipped to a two-year low under $90 a ton, extending a retreat fueled by soft demand in China and too much global supply.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "China, North Korea Open Long-Stalled Bridge, Boosting Trade",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/china-north-korea-open-long-stalled-bridge-boosting-trade",
+      "title": "Bonds Pay the Price for India’s Rupee Defense as Rate Bets Build",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/bonds-pay-the-price-for-india-s-rupee-defense-as-rate-bets-build",
       "source": "Bloomberg",
-      "publishedAt": "2026-10-15T02:40:46.000Z",
+      "publishedAt": "2026-10-15T03:14:33.000Z",
       "kind": "news",
-      "summary": "North Korea has opened two major bridges connecting it to key trading partners in the last month, with the latest — a bridge link to China — inaugurated Thursday after a more than decade-long delay.",
+      "summary": "India’s fight to stabilize the rupee is starting to exact a price in the bond market, as traders ramp up bets on faster interest-rate hikes.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "ECB Probably Needs to Embrace Mildly Hawkish Stance, Knot Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/ecb-probably-needs-to-embrace-mildly-hawkish-stance-knot-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-15T03:06:28.000Z",
+      "kind": "news",
+      "summary": "A series of economic and geopolitical disruptions means the European Central Bank might need to embrace a policy stance that has a modest tilt toward monetary tightening, according to one of the frontrunners to succeed President Christine Lagarde.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "India and the World in the Age of AI: Bloomberg New Economy Forum Live Q&A",
+      "url": "https://www.bloomberg.com/sessions/2026-10-15/live-q-amp-a-how-will-india-wield-its-growing-influence-in-the-age-of-ai",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-15T03:04:21.000Z",
+      "kind": "news",
+      "summary": "As governments and companies expand AI capabilities, how will India wield its growing influence? Bloomberg journalists answer your questions on October 15, 2026 at 5 p.m. IST.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Boom Risks Diverting Capital From Australia’s Renewables Push - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcV91a3RXZE1OVFNUTUVIMlVyWDdNVWV4NzEwbkNjbVAweXljc1ZYRTFrRGRxYkFxSXZ4Z3FhdUdDS19PaUdNVk1IQWpOZEJXaGRUNnhzc2l6LVU2RWtfcDhuLTdFR2FwVVhMMERVZE04S2YydFA1Z01jTDhVdEc0b01NWFRoNHFvbEJ6N283S05ENUxNUUhXMHNGUlFWd0pMa29zOEs0WGtjWVpZeVF3ZlBMWVdRUQ?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-15T03:03:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Korean Households Increase Borrowing at Slowest Pace Since March",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/korean-households-increase-borrowing-at-slowest-pace-since-march",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-15T03:00:00.000Z",
+      "kind": "news",
+      "summary": "South Korea’s bank lending to households expanded in September at the slowest pace in six months as softer mortgage growth and a sharp decline in other types of household loans tempered borrowing ahead of a central bank policy decision next week.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Taiwan Dollar, Won Slump as Chip Stock Selloff Hurts Sentiment",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/taiwan-dollar-won-slump-as-chip-stock-selloff-hurts-sentiment",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-15T02:57:56.000Z",
+      "kind": "news",
+      "summary": "The Taiwan dollar and South Korean won led losses among Asian currencies in early trading as an overnight slump in Wall Street semiconductor shares spilled into regional markets, dampening demand for artificial intelligence supply-chain plays.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Lithium Extends Deep Slump as Battery Demand Concerns Mount",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/lithium-extends-deep-slump-as-battery-demand-concerns-mount",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-15T02:56:18.000Z",
+      "kind": "news",
+      "summary": "Chinese lithium futures extended a deep selloff this week on growing concerns about the demand outlook for the battery metal.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1344,7 +1415,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Opinion | The Luddite and the engineer - The Washington Post",
@@ -1355,7 +1426,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Philippine Peso Declines Past 63 Per Dollar for First Time",
@@ -1367,7 +1438,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Banking watchdogs scrutinize AI use amid stability fears, sources say - The Japan Times",
@@ -1378,7 +1449,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "IMF APAC Chief Warns of Rising Market Risks",
@@ -1390,7 +1461,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "RBNZ Chief Economist Says Next Interest Rate Call ‘Wide Open’",
@@ -1402,7 +1473,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Singapore DPM: Must Work Faster to Vie With Wealth Hubs",
@@ -1414,7 +1485,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Duke researchers set to test agentic AI system for cardiovascular care - The Duke Chronicle",
@@ -1422,18 +1493,6 @@
       "source": "The Duke Chronicle",
       "publishedAt": "2026-10-15T02:09:21.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "IMF Warns China Stimulus Lacks Ambition, Leaves Yuan Undervalued",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/imf-warns-china-stimulus-lacks-ambition-leaves-yuan-undervalued",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-15T02:00:00.000Z",
-      "kind": "news",
-      "summary": "China’s yuan is undervalued in real terms because of the country’s flagging domestic economy, and steps to revive demand have fallen far short of what’s needed, according to a senior International Monetary Fund official.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1446,6 +1505,18 @@
       "publishedAt": "2026-10-15T02:00:00.000Z",
       "kind": "news",
       "summary": "The International Monetary Fund expects economic growth in the Asia-Pacific to slow this year and next, warning that rising energy prices and any pullback in the artificial-intelligence boom could test the region’s resilience.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "IMF Warns China Stimulus Lacks Ambition, Leaves Yuan Undervalued",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/imf-warns-china-stimulus-lacks-ambition-leaves-yuan-undervalued",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-15T02:00:00.000Z",
+      "kind": "news",
+      "summary": "China’s yuan is undervalued in real terms because of the country’s flagging domestic economy, and steps to revive demand have fallen far short of what’s needed, according to a senior International Monetary Fund official.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1546,18 +1617,6 @@
       "score": 50
     },
     {
-      "title": "How Valterra's Forging the Future of Platinum | Chief Financial Officer",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-15/how-valterra-s-forging-the-future-of-platinum-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-15T01:30:10.000Z",
-      "kind": "news",
-      "summary": "Chief Financial Officers now play a critical role in shaping corporate strategy and positioning organizations to meet future challenges. This episode profiles Valterra Platinum CFO Sayurie Naidoo, who leads the world's largest company producing platinum group metals. One year after its demerger from Anglo American, the South African firm is looking ahead to develop new markets for PGMs as the adoption of battery electric vehicles threatens their primary area of demand. (Sourc",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
       "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
       "source": "CNBC",
@@ -1652,12 +1711,12 @@
       "score": 50
     },
     {
-      "title": "Treasuries Extend Gains as Equities Selloff Dents Risk Sentiment",
+      "title": "Treasury Haven Trade Bounces Back as Stocks Sink, Yields Entice",
       "url": "https://www.bloomberg.com/news/articles/2026-10-15/treasuries-extend-gains-as-equities-selloff-dents-risk-sentiment",
       "source": "Bloomberg",
       "publishedAt": "2026-10-15T00:27:03.000Z",
       "kind": "news",
-      "summary": "US Treasuries rallied across the curve as a global equities selloff spurred demand for haven assets.",
+      "summary": "US Treasuries led a global bond rally as a selloff in equities deepened risk aversion and spurred demand for haven assets.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1821,65 +1880,6 @@
       "publishedAt": "2026-10-14T22:14:45.000Z",
       "kind": "news",
       "summary": "Winnie Cisar, Global Head of Strategy at CreditSights, discusses the strain from heavy corporate borrowing, including debt tied to AI infrastructure. She said individual issuer problems such as CoreWeave’s may coexist with a broader surge in issuance that is challenging investors’ ability to absorb new debt. She speaks to Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Stock Losses Deepen on Chip Rout, Treasuries Rise: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-14T22:04:59.000Z",
-      "kind": "news",
-      "summary": "A selloff in global equities deepened in Asia as chip stocks plunged and faster-than-expected US inflation fueled concern over further interest rate hikes. Treasuries rallied on haven demand and the dollar fell.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Stocks Slide as Hot Inflation & AI Credit Fears Hit Markets",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-14/the-close-10-14-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-14T22:04:00.000Z",
-      "kind": "news",
-      "summary": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Vanguard President & CIO Greg Davis, UBS Equity Research Analyst, Large-Cap Banks & Consumer Finance Erika Najarian, Janus Henderson CEO Ali Dibadj, CreditSights Global Head of Strategy Winnie Cisar, DoubleLine Global Sovereign & Emerging Markets Head Bill Campbell, Cisco Chair & CEO Chuck Robbins, Blackstone Global",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Latest Oil Market News and Analysis for Oct. 15",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-14/latest-oil-market-news-and-analysis-for-oct-15",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-14T22:02:40.000Z",
-      "kind": "news",
-      "summary": "Oil fell as concerns over Middle East supply disruptions eased and the International Energy Agency raised its forecast for the war’s impact on supply.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "CAIS Summit Panel on AI Buildout",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-14/cais-summit-panel-on-ai-buildout-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-14T21:55:53.000Z",
-      "kind": "news",
-      "summary": "At a forum in Beverly Hills, the discussion focused on obstacles to expanding AI data centers, including rising energy costs and weakening public support for construction. Blackstone’s Mike Forman said infrastructure supply constraints are worsening, particularly around power: utilities that once could connect projects within six to twelve months may now quote waits of up to seven years, require investments as high as $1 billion, and offer less certainty. The panel of Mike Fo",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI-powered law firms draw lawyers from big firms - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMXRSZjIwMHhfT29JbER6S2JUaWhJRV9IVkJPVmxoQ2wzSW9zSkotT2cteTBZS3NkUDJRRFFUandGWE53RVdhQmRnVGZ5NEhJVkZtb21JRkNJclNXWkg1TWliSHZoaHVybmV6RUZVbTI5b29CcDdCcWpvV1R0VG9rbm1DcTZSZHI1WWZUcnJmZjNIN29rVTZSR0ZHUTNZb1Fs?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-14T21:55:43.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

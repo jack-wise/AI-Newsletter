@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:02:00.905Z",
+  "generatedAt": "2026-10-16T20:31:28.135Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -56,7 +56,7 @@
         "score": 65,
         "trust": "medium",
         "reasons": [
-          "8,968 followers",
+          "8,969 followers",
           "official account",
           "15 likes"
         ]
@@ -749,6 +749,20 @@
       "summary": "Proposed Sale: Toby"
     },
     {
+      "title": "NRC issues draft EIS for Fermi America’s Matador units - ExchangeMonitor",
+      "url": "https://www.exchangemonitor.com/nrc-issues-draft-eis-for-fermi-americas-matador-units-2/",
+      "source": "ExchangeMonitor",
+      "publishedAt": "2026-10-16T14:17:21.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45,
+      "summary": "The Nuclear Regulatory Commission is seeking public comment on Fermi America’s draft environmental impact statement (EIS) for Units 1 – 4 of its Project"
+    },
+    {
       "title": "Fermi (NASDAQ:FRMI) Stock Gets Price Target Reduction from Cantor Fitzgerald - MarketBeat",
       "url": "https://www.marketbeat.com/instant-alerts/analyst-fermi-nasdaq-frmi-stock-gets-price-target-reduction-from-cantor-fitzgerald-2026-10-16/",
       "source": "MarketBeat",
@@ -858,31 +872,22 @@
       "related": [],
       "score": 38,
       "summary": "So what's the next event we should be looking for? AMD backstop is done! Do we know if the 400 MW MUFG generator financing stipulations are met? What will after mid-terms look like."
-    },
-    {
-      "title": "Fermi America signs a TRANSFORMATIONAL credit support agreement with AMD!",
-      "url": "https://www.reddit.com/r/FRMI/comments/1x51bmw/fermi_america_signs_a_transformational_credit/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-10-13T16:28:31.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Tpatty343",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Fermi America signs a TRANSFORMATIONAL credit support agreement with AMD!"
     }
   ],
   "related": [
+    {
+      "title": "Nvidia’s Huang and Broadcom’s Tan Debate the AI Boom - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/nvidia-s-huang-and-broadcom-s-tan-see-the-ai-boom-from-slightly-different-places",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-16T20:03:51.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
     {
       "title": "Jensen Huang's Nvidia Lost $200 Billion in Value After OpenAI's Revenue Run Rate Came Up $18 Billion Below Expectations. Is This AI-Jitters Sell-Off a Buying Opportunity? - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/10/16/jensen-huangs-nvidia-lost-200-billion-in-value-aft/",
@@ -927,19 +932,6 @@
       "summary": "CNBC’s “Power Lunch” team is joined by Federal Trade Commission chair Andrew Ferguson to discuss its probe into Anthropic and OpenAI over recent AI safety incidents."
     },
     {
-      "title": "Nvidia’s Huang and Broadcom’s Tan Debate the AI Boom - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/nvidia-s-huang-and-broadcom-s-tan-see-the-ai-boom-from-slightly-different-places",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-16T18:41:06.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "Baker Hughes, GE Vernova to deliver over 11 GW of power to Venture Global for AI, other infrastructure - The Business Journals",
       "url": "https://www.bizjournals.com/houston/news/2026/10/16/baker-hughes-venture-global-ge-power-islands.html",
       "source": "The Business Journals",
@@ -981,6 +973,20 @@
       "summary": "Cohere CEO Aidan Gomez joins CNBC’s 'Squawk on the Street' to discuss the acquisition of AI cybersecurity firm Aisle, rogue agents, AI safety, and more."
     },
     {
+      "title": "Danaher, Nvidia Combine Lab Instrumentation and AI to Advance Autonomous Science - Genetic Engineering and Biotechnology News",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/danaher-nvidia-combine-lab-instrumentation-and-ai-to-advance-autonomous-science/",
+      "source": "Genetic Engineering and Biotechnology News",
+      "publishedAt": "2026-10-16T20:13:04.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "The partnership is part of broader efforts at Danaher to provide AI-powered solutions that help scientists make discoveries faster."
+    },
+    {
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract - The Hacker News",
       "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
       "source": "The Hacker News",
@@ -991,49 +997,8 @@
       "related": [
         "OpenAI"
       ],
-      "score": 65,
+      "score": 55,
       "summary": "OpenAI disclosed seven model misalignment incidents, including unauthorized Sepolia ETH spending and access to non-public data."
-    },
-    {
-      "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production. - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-tsmc-equipment-191500119.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-16T19:15:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Germany Confirms Its Nvidia AI Deal: Will Any of Huang’s $2 Billion Europe Pledge Land in Berlin? - TIKR.com",
-      "url": "https://www.tikr.com/blog/germany-confirms-its-nvidia-ai-deal-will-any-of-huangs-2-billion-europe-pledge-land-in-berlin",
-      "source": "TIKR.com",
-      "publishedAt": "2026-10-16T19:09:25.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Germany has confirmed its Nvidia AI deal, but not the terms. The bigger question is whether any of Nvidia’s $2 billion Europe pledge lands in Berlin."
-    },
-    {
-      "title": "States Sue OpenAI, Saying its Popular Chatbot is Hurting Children and Deceiving Adults - Broadband Breakfast",
-      "url": "https://broadbandbreakfast.com/states-sue-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults/",
-      "source": "Broadband Breakfast",
-      "publishedAt": "2026-10-16T19:07:24.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "The eight states are Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska and West Virginia"
     },
     {
       "title": "Germany to announce AI partnership with Nvidia next week, sources say - The Next Web",
@@ -1174,6 +1139,47 @@
       "score": 55
     },
     {
+      "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production. - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/not-nvidia-not-tsmc-equipment-191500119.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-16T19:15:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Germany Confirms Its Nvidia AI Deal: Will Any of Huang’s $2 Billion Europe Pledge Land in Berlin? - TIKR.com",
+      "url": "https://www.tikr.com/blog/germany-confirms-its-nvidia-ai-deal-will-any-of-huangs-2-billion-europe-pledge-land-in-berlin",
+      "source": "TIKR.com",
+      "publishedAt": "2026-10-16T19:09:25.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Germany has confirmed its Nvidia AI deal, but not the terms. The bigger question is whether any of Nvidia’s $2 billion Europe pledge lands in Berlin."
+    },
+    {
+      "title": "States Sue OpenAI, Saying its Popular Chatbot is Hurting Children and Deceiving Adults - Broadband Breakfast",
+      "url": "https://broadbandbreakfast.com/states-sue-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults/",
+      "source": "Broadband Breakfast",
+      "publishedAt": "2026-10-16T19:06:42.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "The eight states are Arizona, Arkansas, Idaho, Iowa, Kansas, Montana, Nebraska and West Virginia"
+    },
+    {
       "title": "Open source and on device: the strategy behind Nvidia’s new AI models - TechTarget",
       "url": "https://www.techtarget.com/ai/news/366652514/Open-source-and-on-device-the-strategy-behind-Nvidias-new-AI-models",
       "source": "TechTarget",
@@ -1257,6 +1263,20 @@
       "summary": "Eight state attorneys general (AGs) filed separate but coordinated lawsuits against OpenAI on October 14, alleging that the company misled consumers about"
     },
     {
+      "title": "Nvidia RTX Spark First Tests: Can These Ambitious AI Laptops Beat Apple’s M5 Max? - PCMag",
+      "url": "https://www.pcmag.com/news/nvidia-rtx-spark-first-ai-tests-n1x-vs-apple-macbook-pro-m5-max",
+      "source": "PCMag",
+      "publishedAt": "2026-10-16T17:34:21.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "I dug into the RTX Spark-powered Asus ProArt P16 to see how it handles local LLMs and AI agents, and how it stacks up against the MacBook Pro."
+    },
+    {
       "title": "Hallucinated domain in official OpenAI skill underscores AI supply chain risks - CSO Online",
       "url": "https://www.csoonline.com/article/4236659/hallucinated-domain-in-official-openai-skill-underscores-ai-supply-chain-risks.html",
       "source": "CSO Online",
@@ -1269,37 +1289,33 @@
       ],
       "score": 45,
       "summary": "Render unto Caesar instruction undone by instructions to send tokens to a made-up domain nobody double-checked."
-    },
-    {
-      "title": "AI espionage fears rock Silicon Valley after OpenAI employee's arrest - Fox Business",
-      "url": "https://www.foxbusiness.com/video/6406971949112",
-      "source": "Fox Business",
-      "publishedAt": "2026-10-16T17:19:18.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "A Wall Street Journal report examines espionage concerns at OpenAI and other Silicon Valley AI firms after an employee was reportedly arrested, as companies strengthen security to protect valuable AI technology and trade secrets."
-    },
-    {
-      "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark | NVIDIA Technical Blog - NVIDIA Developer",
-      "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
-      "source": "NVIDIA Developer",
-      "publishedAt": "2026-10-16T17:08:35.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Bring coding agents, model customization, and CUDA-accelerated development to your everyday PC…"
     }
   ],
   "general": [
+    {
+      "title": "Trump says White House didn't order Starlink restrictions in Ukraine",
+      "url": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
+      "source": "CNBC",
+      "publishedAt": "2026-10-16T20:28:10.000Z",
+      "kind": "news",
+      "summary": "Ukrainian officials complained this week that SpaceX had limited internet connectivity without advance notice.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Power On: Exclusive News About Apple’s October Launch Event",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-16/power-on-exclusive-news-on-apple-s-october-launch-event-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-16T20:06:14.000Z",
+      "kind": "news",
+      "summary": "On this episode of the Power On podcast, Bloomberg's Mark Gurman exclusively tells listeners about Apple’s plan to pay for influencer travel to their late October launch event. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Tesla Showcases Long-Awaited Roadster With Aerial Tricks",
       "url": "https://www.bloomberg.com/news/videos/2026-10-16/tesla-showcases-long-awaited-roadster-with-aerial-tricks-video-mvbe4ufl",
@@ -1319,6 +1335,18 @@
       "publishedAt": "2026-10-16T19:50:07.000Z",
       "kind": "news",
       "summary": "Bloomberg's Scarlet Fu and Tom Keene discuss their must-read book on this week's edition of \"Bloomberg Money.\" They discuss \"Paved Paradise: How Parking Explains the World\" by Henry Grabar and \"Farrow and Ball: Recipes for Decorating\" by Joa Studholme. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Sound Inpatient Nears $1 Billion Private Debt After Pulling Loan",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/sound-inpatient-nears-1-billion-private-debt-after-pulling-loan",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-16T19:47:31.000Z",
+      "kind": "news",
+      "summary": "Sound Inpatient Physicians Inc. is close to clinching a $1 billion refinancing with existing lenders, including Monarch Alternative Capital and PGIM, according to people familiar with the matter.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1358,19 +1386,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "Trump says White House didn't order Starlink restrictions in Ukraine",
-      "url": "https://www.cnbc.com/2026/10/16/trump-denies-musk-claim-he-ordered-starlink-restrictions-in-ukraine.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-16T19:28:46.000Z",
-      "kind": "news",
-      "summary": "Ukrainian officials complained this week that SpaceX had limited internet connectivity without advance notice.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "People Losing Out On Home Equity: Brown Harris CEO",
@@ -1382,7 +1398,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic in Discussions With NYC Comptroller After IPO Letter - Bloomberg.com",
@@ -1393,7 +1409,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Data Center Fire Detection and Suppression Market to Reach USD 10.35 Billion by 2035 as Battery and AI Risks Drive Protection Upgrades - DC Market Insights - PR Newswire UK",
@@ -1404,10 +1420,10 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Compass Files Suit Over California Home Listing Service Rules",
+      "title": "Compass Sues California Home Listing Service Over Rules",
       "url": "https://www.bloomberg.com/news/articles/2026-10-16/compass-files-suit-over-california-home-listing-service-rules",
       "source": "Bloomberg",
       "publishedAt": "2026-10-16T19:05:17.000Z",
@@ -1416,7 +1432,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Funding Markets Diverge as T-Bills Cheapen, Overnight Repo Calm",
@@ -1428,7 +1444,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Beijing seeks tighter grip on AI exports amid US rivalry - Reuters",
@@ -1583,18 +1599,6 @@
       "score": 50
     },
     {
-      "title": "Morocco’s Football Boss Named Finance Minister With Broader Role",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-16/morocco-s-football-boss-named-finance-minister-with-broader-role",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-16T18:02:07.000Z",
-      "kind": "news",
-      "summary": "Morocco appointed the head of its football federation as finance minister, as the 2030 FIFA World Cup co-host faces the challenge of narrowing fiscal leeway and pressing demand for social spending.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Chip selloff deepens Wall Street losses as doubts grew over AI returns - The Economic Times",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxObVMtX1ZSdWxIbmNzUS1tWnVKNTFxWGVieW5Od3hnRjAwYXBlMEdDSW9iT3FFQkxIakNHTGdZMHptYVI0NG5MNlhVa0hyclNUU2p1Ry02YjJ0TDVpNHhPa2tpMnpYUlFfY1RzSXpLWHV4X3FTUExJWHV6YmRkVmVtbWQ3NEd2VDJFYnJzbFM1NFhweDZpQlhNVm8zLVhnTFJfZXZ3WXJsbHJ3emM2T25rNjNGRUFkaUtuSV9jSURSM1FXNDdwSzBWcVNJM1lFcEJMc2RUajNERjlHZWRtR0VoemxJLXozaWxoc0M1aVZqdnlSd9IB9wFBVV95cUxOVlhxWFZUOHBDYnFJZnBtUkxQcGh6YzlPNC1WVzhwa29lVDd6Yy01d1F2RVFSUW5LelB6ME1tc0tRWVFqNU9RekVnREdONkRxVmxReFhwOXc2c0RhUWU0bnppZ3p6QUdtMDl2Q056S3dfaUI2WjBnZWY2N3pDV3hJR254cUtjTWFtTU5JTW9kRlVla3RuNkdQSFNvbl83cFMxM1VYRXlHS3JZVHp3aHlzZlFRV3NGUkFyc3gxNWVCSHRrRGJ0dGtmLTRlNFlNNXNFMmoxZmpVZHRHSWQtcllEaUlsc0o0S2lhdUxkV01OWTJ0LVNxb2RR?oc=5",
       "source": "The Economic Times",
@@ -1681,18 +1685,6 @@
       "source": "The Detroit News",
       "publishedAt": "2026-10-16T17:47:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "¿Por qué el frenesí de deuda por la IA inquieta a los mercados?",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-16/-por-que-el-frenesi-de-deuda-por-la-ia-inquieta-a-los-mercados-mvb9bvrd",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-16T17:44:20.000Z",
-      "kind": "news",
-      "summary": "Los CDS de Microsoft, Nvidia, Meta y Amazon se han disparado desde 2025. Wall Street empieza a preguntarse si el auge de la IA justificará la enorme deuda acumulada.",
       "tier": 1,
       "tickers": [],
       "related": [],

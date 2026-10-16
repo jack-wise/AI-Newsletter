@@ -1,26 +1,25 @@
 {
-  "generatedAt": "2026-10-15T23:48:49.696Z",
-  "generator": "ai",
+  "generatedAt": "2026-10-16T00:01:29.492Z",
+  "generator": "template",
   "stock": {
     "symbol": "FRMI",
     "price": 3.4,
-    "prevClose": 3.16,
-    "changePct": 7.44,
+    "prevClose": 3.72,
+    "changePct": -8.74,
     "windowChangePct": -28.83,
-    "windowDays": 22,
+    "windowDays": 21,
     "asOf": "2026-10-15",
     "currency": "USD"
   },
   "pulse": {
-    "stories24h": 5,
+    "stories24h": 4,
     "filings": 25,
-    "social24h": 8,
+    "social24h": 9,
     "priorityTotal": 50
   },
   "paragraphs": [
-    "The stock price of Fermi Inc. is currently 3.4, with a 7.44% change from the prior close and a -28.83% change over a window of 22 sessions. There have been 5 new news articles in the last 24 hours.",
-    "Recent news headlines include reports of major shareholder Toby Neugebauer selling shares of the stock, with sales of 1,297,200 shares and 2,750,000 shares reported. Other news includes Fermi detailing a $6.5 billion, 15-year TensorWave lease for 222 MW at Project Matador, and the company's cofounder commenting on the market's interest in the stock.",
-    "There have been recent SEC filings, including 4 Form 4 filings and 2 Form 144 filings, with a total of 25 filings in the feed. Insider transactions and notices of proposed sales have been reported, as well as an 8-K filing disclosing additional information regarding the lease with TensorWave at the Project Matador site."
-  ],
-  "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+    "Fermi Inc. (NASDAQ: FRMI) last traded around $3.40, down 8.7% from the prior close (as of 2026-10-15, end-of-day data). Over the last 21 sessions it is down 28.8%. Live price and charts are in the panel above.",
+    "In the last 24 hours, this tracker surfaced 4 priority Fermi stories. The most recent: “Fermi (NASDAQ:FRMI) Major Shareholder Sells $4,086,180.00 in Stock” (MarketBeat). Also new: “Insider Selling: Fermi (NASDAQ:FRMI) Major Shareholder Sells 2,750,000 Shares of Stock” (MarketBeat).",
+    "On the regulatory side, 25 Fermi SEC filings are in the current feed, most recently a 4 (2026-10-15). Insider activity: 4 Form 4 insider-transaction reports and 2 Form 144 proposed-sale notices in the feed — open the Filings tab for the specifics. The founder-versus-board proxy contest remains visible in the record (3 proxy-solicitation filings)."
+  ]
 }

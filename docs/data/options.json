@@ -1,40 +1,30 @@
 {
-  "generatedAt": "2026-10-18T01:32:24.084Z",
+  "generatedAt": "2026-10-18T02:02:24.128Z",
   "symbol": "FRMI",
   "quoteTime": "2026-10-16T15:59:59",
   "underlying": {
-    "price": 3.18,
+    "price": 3.17,
     "change": -0.23,
-    "changePct": -6.78,
-    "prevClose": 3.39
+    "changePct": -7.28,
+    "prevClose": 3.16
   },
   "iv30": 110.6,
-  "iv30ChangePct": 2.43,
+  "iv30ChangePct": 0,
   "totals": {
-    "contracts": 628,
-    "expirations": 17,
-    "callOI": 592495,
-    "putOI": 193916,
-    "callVol": 20648,
-    "putVol": 14892,
-    "pcOI": 0.33,
-    "pcVol": 0.72
+    "contracts": 578,
+    "expirations": 16,
+    "callOI": 547317,
+    "putOI": 187840,
+    "callVol": 19865,
+    "putVol": 14407,
+    "pcOI": 0.34,
+    "pcVol": 0.73
   },
   "sentiment": {
     "label": "Call-heavy",
-    "note": "More open interest in calls than puts (put/call 0.33) — positioning leans bullish. 30-day implied volatility is very high (111%), so options are pricing large moves."
+    "note": "More open interest in calls than puts (put/call 0.34) — positioning leans bullish. 30-day implied volatility is very high (111%), so options are pricing large moves."
   },
   "expirations": [
-    {
-      "date": "2026-10-16",
-      "days": 0,
-      "callOI": 45178,
-      "putOI": 6076,
-      "callVol": 783,
-      "putVol": 485,
-      "pcOI": 0.13,
-      "atmIV": 799.3
-    },
     {
       "date": "2026-10-23",
       "days": 5,
@@ -104,6 +94,16 @@
       "putVol": 524,
       "pcOI": 0.8,
       "atmIV": 106.5
+    },
+    {
+      "date": "2027-01-15",
+      "days": 89,
+      "callOI": 187819,
+      "putOI": 47084,
+      "callVol": 5434,
+      "putVol": 171,
+      "pcOI": 0.25,
+      "atmIV": 106
     }
   ],
   "mostActive": [

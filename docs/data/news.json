@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:02:24.954Z",
+  "generatedAt": "2026-10-19T21:32:23.332Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -551,19 +551,6 @@
       "summary": "[October 17, 2026] Fermi America - $FRMI - Discussion Thread"
     },
     {
-      "title": "FRMI Mar 2027 7.000 put (FRMI270319P00007000) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI270319P00007000/",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-10-19T12:31:46.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
       "title": "Stock Market Today, Oct. 13: Fermi Surges 14% on AMD Credit Support for Project Matador - The Motley Fool",
       "url": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-today-oct-13-fermi-surges-14-on-amd-credit-support-for-project-matador/",
       "source": "The Motley Fool",
@@ -909,9 +896,45 @@
       "related": [],
       "score": 38,
       "summary": "AMD Gaurantor"
+    },
+    {
+      "title": "FRMI: Texas Capital Securities reiterates Buy, PT at $20",
+      "url": "https://www.reddit.com/r/FRMI/comments/1x4zgm0/frmi_texas_capital_securities_reiterates_buy_pt/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-10-13T15:19:18.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/stocksavvy_ai",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "FRMI: Texas Capital Securities reiterates Buy, PT at $20"
     }
   ],
   "related": [
+    {
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "source": "CNBC",
+      "publishedAt": "2026-10-19T21:05:20.000Z",
+      "kind": "news",
+      "summary": "Google says its Minnesota AI data center will add clean energy to the grid and protect ratepayers. Experts question whether grid upgrades are needed.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 75
+    },
     {
       "title": "Amazon Launches TorchNeuron to Challenge Nvidia's AI Grip - The Tech Buzz",
       "url": "https://www.techbuzz.ai/articles/amazon-launches-torchneuron-to-challenge-nvidia-s-ai-grip",
@@ -937,7 +960,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Google's Minnesota Data Center Project Faces Scrutiny Over Grid Upgrade Claims - The Tech Buzz",
@@ -950,51 +973,8 @@
       "related": [
         "GOOGL"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Google's proposed AI data center in Pine Island, Minnesota is drawing skepticism from experts and residents who question whether promised grid upgrades are necessary or beneficial to ratepayers."
-    },
-    {
-      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool - TechCrunch",
-      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-19T20:09:24.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own."
-    },
-    {
-      "title": "Amazon Challenges Nvidia’s CUDA Moat With Trainium - Amazon.com (NASDAQ:AMZN), NVIDIA (NASDAQ:NVDA) - Benzinga",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62452876/amazon-trainium-nvidia-cuda",
-      "source": "Benzinga",
-      "publishedAt": "2026-10-19T20:05:43.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "AMZN"
-      ],
-      "score": 65,
-      "summary": "Amazon’s TorchNeuron makes it easier to run PyTorch code on Trainium, challenging Nvidia’s software advantage in AI chips."
-    },
-    {
-      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
-      "url": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-19T19:45:28.000Z",
-      "kind": "news",
-      "summary": "Google says its Minnesota AI data center will add clean energy to the grid and protect ratepayers. Experts question whether grid upgrades are needed.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 65
     },
     {
       "title": "Modal says Nvidia’s Vera CPU doubles throughput for its AI sandboxes - The Next Web",
@@ -1025,20 +1005,6 @@
       "summary": "As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever."
     },
     {
-      "title": "US teens can access ‘nudify’ apps despite Apple and Google’s parental controls, report finds - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/oct/19/us-teens-nudify-apps-apple-google-parental-controls",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-19T16:53:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 65,
-      "summary": "Exclusive: Using test accounts, Tech Transparency Project downloaded 135 apps with features to generate nonconsensual nude imagery"
-    },
-    {
       "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia - The Information",
       "url": "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia",
       "source": "The Information",
@@ -1065,18 +1031,32 @@
       "score": 65
     },
     {
-      "title": "Not Nvidia. Not Micron. This Artificial Intelligence (AI) Chip Stock Has the Most Upside Through 2030. - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/10/19/not-nvidia-not-micron-this-artificial-intelligence/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-19T15:15:00.000Z",
+      "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck - Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-amd-nvidia-meta-netflix-spacex-tesla/",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-10-19T21:30:00.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
-      "summary": "Nvidia and Micron have been two of the best artificial intelligence (AI) semiconductor stocks to own, but the easy gains may be over."
+      "score": 55,
+      "summary": "Dow Jones Futures: AMD and Nvidia led the AI trade higher Monday following Friday's big losses. Meta, SpaceX and Tesla have earnings due."
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang warns Germany is falling behind in AI race - Euronews.com",
+      "url": "https://www.euronews.com/2026/10/19/nvidia-ceo-jensen-huang-warns-germany-is-falling-behind-in-ai-race",
+      "source": "Euronews.com",
+      "publishedAt": "2026-10-19T21:12:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "German Chancellor Friedrich Merz and Huang are set to unveil a joint AI pact intended to speed up the integration of AI products across German industry. #EuropeNews"
     },
     {
       "title": "Nvidia’s Vera CPU Wins Modal, Claims 2x AI Speed [2026] - https://tech-insider.org/",
@@ -1092,32 +1072,33 @@
       "score": 55
     },
     {
-      "title": "Nvidia CEO urges German manufacturers to embrace AI - European Interest",
-      "url": "https://www.europeaninterest.eu/nvidia-ceo-urges-german-manufacturers-to-embrace-ai/",
-      "source": "European Interest",
-      "publishedAt": "2026-10-19T20:09:34.000Z",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-19T20:09:24.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
       ],
       "score": 55,
-      "summary": "Nvidia CEO Jensen Huang has urged Germany’s automotive and industrial machinery sectors to quickly adopt artificial intelligence to revitalise the country’s evolving business model by leveraging its abundant manufacturing data and expertise. Huang, whose company develops advanced computer chips and software utilised by organisations such as Anthropic and OpenAI for AI application development, asserted that [&hellip;]"
+      "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own."
     },
     {
-      "title": "Germany Signs Agreement with Nvidia to Develop Advanced Industrial and Physical AI - AI Insider",
-      "url": "https://theaiinsider.tech/2026/10/19/germany-signs-agreement-with-nvidia-to-develop-advanced-industrial-and-physical-ai/",
-      "source": "AI Insider",
-      "publishedAt": "2026-10-19T20:02:57.000Z",
+      "title": "Amazon Challenges Nvidia’s CUDA Moat With Trainium - Amazon.com (NASDAQ:AMZN), NVIDIA (NASDAQ:NVDA) - Benzinga",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62452876/amazon-trainium-nvidia-cuda",
+      "source": "Benzinga",
+      "publishedAt": "2026-10-19T20:05:43.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
-        "NVDA"
+        "NVDA",
+        "AMZN"
       ],
       "score": 55,
-      "summary": "Insider Brief Germany signed an agreement with Nvidia to develop advanced AI models for industrial and physical AI as part of the federal government’s AI"
+      "summary": "Amazon’s TorchNeuron makes it easier to run PyTorch code on Trainium, challenging Nvidia’s software advantage in AI chips."
     },
     {
       "title": "Microsoft Walks Away From AI Data Center Deal, but SemiAnalysis Predicts 50-GW Boom in 2027 - Benzinga",
@@ -1146,6 +1127,20 @@
       ],
       "score": 55,
       "summary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing."
+    },
+    {
+      "title": "Not Nvidia. Not Micron. This Artificial Intelligence (AI) Chip Stock Has the Most Upside Through 2030. - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/10/19/not-nvidia-not-micron-this-artificial-intelligence/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-19T15:15:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia and Micron have been two of the best artificial intelligence (AI) semiconductor stocks to own, but the easy gains may be over."
     },
     {
       "title": "Nvidia wins fast-growing AI startup Modal for new central processors - Reuters",
@@ -1202,20 +1197,6 @@
       "summary": "Microsoft AI data center delay follows a UK grid setback at Nscale's Loughton, Essex site, with power possibly unavailable until the early-to-mid 2030s."
     },
     {
-      "title": "Will AI Companies Generate Enough Revenue to Continue the Build-Out? Here's What Nvidia CEO Jensen Huang Says. - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/10/19/will-ai-companies-generate-enough-revenue-to-conti/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-19T11:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "AI stocks had a two-week crash, but Nvidia CEO Jensen Huang isn't worried."
-    },
-    {
       "title": "Microsoft Pulls out of Nscale U.K. Data-Center Deal Over Power-Supply Issues - WSJ",
       "url": "https://www.wsj.com/tech/microsoft-pulls-out-of-nscale-u-k-data-center-deal-over-power-supply-issues-f804c434",
       "source": "WSJ",
@@ -1230,7 +1211,7 @@
     },
     {
       "title": "AWS's CFO joked about the financial toll of AI. An internal recording reveals why. - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaEZnVnJtTG9xWFdXSExvcXVNQU9fS3lNQTY5RlNTMWtyR3V5MXVob3RpSXFVN3ZsMTExNnhYUUNUNHlNclhNWENaeHcwbVFEclVGX3JBWjBLU3drck4tUGcwZHRFV25lWXhidWdyNmlLQ1JRdzNtV242clJyOGZpbU9FNjdWNTE1Sl8yLThkRFM1ZWxxbEp3MFQ5SW50cFk?oc=5",
+      "url": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
       "source": "Business Insider",
       "publishedAt": "2026-10-19T09:00:00.000Z",
       "kind": "news",
@@ -1239,7 +1220,8 @@
       "related": [
         "AMZN"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "Amazon's $220 billion AI buildout is draining cash as power shortages, costly Nvidia servers, and construction challenges pile up."
     },
     {
       "title": "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay - CNBC",
@@ -1254,6 +1236,34 @@
       ],
       "score": 55,
       "summary": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco."
+    },
+    {
+      "title": "Nvidia CEO urges German manufacturers to embrace AI - European Interest",
+      "url": "https://www.europeaninterest.eu/nvidia-ceo-urges-german-manufacturers-to-embrace-ai/",
+      "source": "European Interest",
+      "publishedAt": "2026-10-19T20:09:34.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Nvidia CEO Jensen Huang has urged Germany’s automotive and industrial machinery sectors to quickly adopt artificial intelligence to revitalise the country’s evolving business model by leveraging its abundant manufacturing data and expertise. Huang, whose company develops advanced computer chips and software utilised by organisations such as Anthropic and OpenAI for AI application development, asserted that [&hellip;]"
+    },
+    {
+      "title": "Germany Signs Agreement with Nvidia to Develop Advanced Industrial and Physical AI - AI Insider",
+      "url": "https://theaiinsider.tech/2026/10/19/germany-signs-agreement-with-nvidia-to-develop-advanced-industrial-and-physical-ai/",
+      "source": "AI Insider",
+      "publishedAt": "2026-10-19T20:02:57.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Insider Brief Germany signed an agreement with Nvidia to develop advanced AI models for industrial and physical AI as part of the federal government’s AI"
     },
     {
       "title": "NVIDIA Heads These 3 Profitable AI Stocks To Watch - Simply Wall Street",
@@ -1271,7 +1281,7 @@
     },
     {
       "title": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry - WRAL",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa294TE5kdDlURUZQOGxPbHZwRkZtQ3dkblQzVFB2aU5lRm9KSUpMcDYxd0MtTFhvT3pVZXFSaldtRTFhS0UwZ1F0T1RaWEJqZUF3QXdud2ljTHl1cWJnU2dGbjg2U2Z0VnN5MTdYYmhCNVVXaHFVX2tOMHBoY1dKREFweVVfSkhVSVNTaUxybjRnTThxZG9VNExYcW9KNGpDd2V4aGtGZjlUM3FqNFJfVEVsRkphd0NJMEF6RzVsTkRkdURaRy1RZVJNd2ZqZw?oc=5",
+      "url": "https://www.wral.com/news/ap/f024c-nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
       "source": "WRAL",
       "publishedAt": "2026-10-19T19:34:41.000Z",
       "kind": "news",
@@ -1280,7 +1290,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 45
+      "score": 45,
+      "summary": "FRANKFURT, Germany (AP) — Nvidia CEO Jensen Huang urged Germany's makers of cars and industrial machines to quickly adopt artificial intelligence to “re-engineer” the country's struggling business model by tapping its wealth of manufacturing data and expertise."
     },
     {
       "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help - NVIDIA Blog",
@@ -1300,7 +1311,7 @@
       "title": "Nscale Loses Microsoft Deal as Power Delays Threaten AI - Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/build-design/microsoft-exits-nscale-data-center-deal-over-uk-power-delays",
       "source": "Data Center Knowledge",
-      "publishedAt": "2026-10-19T19:30:00.000Z",
+      "publishedAt": "2026-10-19T19:32:36.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1327,6 +1338,30 @@
   ],
   "general": [
     {
+      "title": "Eric Schmidt’s 1% Anthropic Stake Set to Pay Massive Windfall",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/eric-schmidt-s-1-anthropic-stake-set-to-pay-massive-windfall",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-19T21:18:00.000Z",
+      "kind": "news",
+      "summary": "Former Google Chief Executive Officer Eric Schmidt owns around 1% of Anthropic PBC thanks to his early investment in the startup, according to people familiar with the matter, setting him up for one of the largest individual windfalls from the company’s imminent public market debut.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "JPMorgan's 2027 Long-Term Capital Market Assumptions",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-19/jpmorgan-s-2027-long-term-capital-market-assumptions-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-19T21:14:02.000Z",
+      "kind": "news",
+      "summary": "David Kelly, chief global strategist at JPMorgan Asset Management, and Stephen Parker, co-head of global investment strategy at JPMorgan Private Bank, discuss their latest Long-Term Capital Market Assumptions report, which projects about 7% annual returns for 60/40 portfolios over the next 10–15 years. They speak on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Korea Plans New Samsung, SK Hynix Chip Hub in Gwangju, Risking Trump's Ire",
       "url": "https://www.bloomberg.com/news/features/2026-10-19/korea-plans-new-samsung-sk-hynix-chip-hub-in-gwangju-risking-trump-s-ire",
       "source": "Bloomberg",
@@ -1339,12 +1374,35 @@
       "score": 60
     },
     {
+      "title": "Cboe’s Early Session for Single-Stock Options Makes Debut",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/cboe-s-early-session-for-single-stock-options-makes-debut",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-19T20:57:09.000Z",
+      "kind": "news",
+      "summary": "Cboe Global Markets Inc. launched pre-market trading in single-stock options, like those on ETFs tracking major stock indexes.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Amazon Rallies as Morgan Stanley Sees Major AI Upside | Closing Bell",
       "url": "https://www.bloomberg.com/news/videos/2026-10-19/amazon-rallies-on-ai-upside-closing-bell-video",
       "source": "Bloomberg",
       "publishedAt": "2026-10-19T20:56:42.000Z",
       "kind": "news",
       "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Bailey Lipschultz, Carol Massar and Norah Mulinda. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Cruise Planners Brings Its \"A\" Game, Setting the Pace for AI Innovation in Travel - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWExkcWxPempnM05rWXBTVzQxbTJoVTl1akpfNWFXZm9MT2RpdjI0X0FtOVVLWUFTMlJHQTdYd3g4MlBheXhwZUdMUWtiZlFPWHdSYWdNajUydGdSQUp3eDYzd1kzNXBaRUFDdmE3eW1NZ0k5UjRBWUtQMVU5RmtRQ2FUb3VHSzhzbndfRDJ5Qzk0eGZHZHZ6MGxhMEdaUzdHSDdybGRYZGZ0dFZDNlFaVXVNWENPdk05Nkl0RHFrbGpaZXIzd2VOWTQ3RU5jR28?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-10-19T20:52:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1375,7 +1433,18 @@
       "score": 60
     },
     {
-      "title": "Intel Asks FCC For Upgrades to Banned Foreign Robot Technology",
+      "title": "Anthropic, Nscale in talks for new $45 billion AI cloud computing deal, Bloomberg News reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcGMyclR5X0JrXzBKem90Uk1sZnBQNkcyRnlyc3ZnWTM4Q0ZoUWtKUzRrd1Y3aHlqaDRjT1pfaFdmV0pHYUFROFI3TFhTWVhtczJsM01PSF8tSEtXejB4emlhVjZGMmQzeWh0RXJoaS0tNDQ1SDhlZDRJZU5hZG5ibE85N3dxU21DS2ZKYm1NV2pVUUF4ZjF3XzQ1ZncwaHVMdXlWZ2FsWjRtQ1d0eFN2YUVQc2x4cTd6YjNwSTVuVUFQZw?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-10-19T20:45:10.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Intel Asks FCC to Allow Upgrades for Banned Foreign Robots",
       "url": "https://www.bloomberg.com/news/articles/2026-10-19/intel-asks-fcc-for-upgrades-to-banned-foreign-robot-technology",
       "source": "Bloomberg",
       "publishedAt": "2026-10-19T20:40:51.000Z",
@@ -1391,6 +1460,17 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSllGTzJjdUdvUUZJRkFiRUxVUlVGZkdzQ2xyS3pXd1dnbVNwNkl2bks5SjhtRWxiaDJvQzdUZ1FCU1N1R0pqcnZVdVE5T2FHVXBpOFNqZjlta1JTMzNYT0tjdDBZd0F2MU14X29HM09BTnoxR2tEcWVPUFVSa3pneVRMTkRFMkZZaHZuVHVTYV9OSDVDbEdBNURVQVdIZHRNTW5UV21WX1hmUkZsTDdOZ1I1TQ?oc=5",
       "source": "The Mighty 790 KFGO",
       "publishedAt": "2026-10-19T20:37:30.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Dario Amodei Predicted at Davos in January 2025 That AI Could Surpass Humans \"at Almost Everything\" Within Two to Three Years. With Anthropic Now Filing for a $2 Trillion IPO, Is That Timeline Still on Track? - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR0tfaEQ3SWRKdTI3UW91dlFZdnMwYUp0U0FYQWNGWkx0N0VvenRvLVpYVGwtYlZ0T1pITU1RU3pIMGVfQmc4dThZeHBmM0x4TkxBN2RocF9ENDBNTG1TNC1KNGxpeXh6eHRGUDNURG1meFp4VjNLS053cmtvSXlzcDR6YmVEWjNGRzJjOFI2SzRXemRnNGN5eA?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-19T20:34:21.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1418,7 +1498,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Citgo Raises Profit Outlook by $2 Billion as Fuel Margins Surge",
@@ -1430,7 +1510,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bond Sale Tied to Manhattan Office Building Is Latest On Hold",
@@ -1442,7 +1522,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Japan Launches Probe in First Sampling Mission to a Moon of Mars",
@@ -1454,7 +1534,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Secretary Wright on Diesel Shortage, Gas Prices, Oil Shipping",
@@ -1510,6 +1590,17 @@
       "publishedAt": "2026-10-19T19:46:07.000Z",
       "kind": "news",
       "summary": "Apple sent invitations for an event next week, calling it \"Pro and tell.\"",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Breakingviews - COMMENTARY: Oxford summit rings the alarm on corporate AI - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkRrNV8yV3ZZWGZNVHlFNnBaSkotODhadDNNRi1FVmFQajVrOHNVWGJEUUNfbTZzWTF2djNyMkdoVEwzdEJYQUJabktlRTJLY2RtOWlvZ1dNR25mNEhSWkN4c242RjNYTTVjTHNITjdiU2xlTzlQWEhIZWFZOG1NdC16NFhoVjNmNF93UzI0MkZKT3c5Zy1pQ1hxbGhDamRp?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-10-19T19:42:22.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1604,41 +1695,6 @@
       "publishedAt": "2026-10-19T18:51:57.000Z",
       "kind": "news",
       "summary": "German Chancellor Friedrich Merz warned that Europe has 'underestimated' the Russia's impact on the continent, saying 'Russia is on the way to destabilize the entire political order' of the region. Merz told Bloomberg's Francine Lacqua that many in Germany are not taking the threat seriously enough, warning that the Russia has larger aims than the current conflict. Merz said 'this is not only territorial gain in Ukraine. They fear democracy. They fear open societies. They fea",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US to Make Some Dark Fleet Ships Legitimate, Wright Says",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-19/us-to-make-some-dark-fleet-ships-legitimate-wright-says-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-19T18:50:57.000Z",
-      "kind": "news",
-      "summary": "The US will turn some \"dark fleet\" oil tankers into legitimate ships that can legally carry crude, says Energy Secretary Chris Wright. He says investors will refurbish some ships and have them carry non-sanctioned oil. He speaks to Bloomberg's Annmarie Hordern at a Citadel Securities event in New York. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic, Musk outline dueling approaches to AI-era philanthropy - The Lufkin Daily News",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSER3UDQ1ai1NQUdTc2Exb0x6M2V2aVVoaTFSOWRNY1N0UUM2ZVl2Rks2SXFNczVuOWhfc2F2dUhjQzh4YmRRN0tuc1Uwc05LQjJzYlRoekMzZ1Z0MFB5YTFfNVlnX3JoRzNVY0FXUDBPd2xsRzNoRkNrX1pDMEZGdTdwdXdfQlNkWU42TnZaSXBMWHQwRUdwWHBrNzNXTE5tMnVGUmRPaUNrQUx2U01XQjd2T2VqRERadmdObUdwem5jMHdOLVlMRHB6OS1HOC1wVEtmb21SdWphMTJoMnoyRzBfTGdCMks0My1ZZW0zSVhVWGNTTWc4?oc=5",
-      "source": "The Lufkin Daily News",
-      "publishedAt": "2026-10-19T18:45:36.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Diversification Will Win Out With Trump Accounts: Bartolini",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-19/diversification-wins-with-trump-accounts-bartolini-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-19T18:42:14.000Z",
-      "kind": "news",
-      "summary": "Matthew Bartolini, global head of research strategists, at State Street Investment Management, joins Isabelle Lee and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss the Trump Accounts after Elon Musk announced this morning that he would distribute a share of SpaceX to each child in the US. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1819,6 +1875,17 @@
       "score": 50
     },
     {
+      "title": "Better Artificial Intelligence Stock for 2026: C3.ai vs. SentinelOne - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVlRrRG5kWFc5dVFtSnNTaUZlcHR6akY5X09MLVR2RzZuQVJKNGVsS0VTSy1PenpGSklSZjk0cnF0M3dwUy1EZm5CbkRqSWJodEtIZHNoTHlYR2h0Qy1IakRmQjlHOVVkajBBM3NyVzRLZFdtcHhRSDR3VUNHQ3RYQjV4OTN4eFlOdGJzN1ZuaUVqMVFNeXRyVlBHZW1ieEtHWHVybmdPbkxQRksxNEVmcnlhTGZhaVpzUk9z?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-19T17:24:46.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Egan-Jones Expects Both Parties to Keep Backing the AI Buildout - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVGtZQVJUcWpCbFNGd2xfZHc1T1VGZVdiNkMzaXFHeWVMU3BZY0lmR3c3T3hiYkFyLWJqa3RMTC1DUFUyazVZSWcxX1NjUU11Qml3S2VQOUJiOTJsb2lMMmplamx1VXNkUm5vXzRyaTNrWkpBcW1pN1VFcXJONWxPcVJldkZ6Zno5X3l0VFdrQ2psVTZJY1Vhb0tZYmkyZUhsWU9qUlMxekphdFJrQ0JkemtncFROM3BXVzNN?oc=5",
       "source": "PR Newswire",
@@ -1847,63 +1914,6 @@
       "publishedAt": "2026-10-19T16:58:20.000Z",
       "kind": "news",
       "summary": "The SpaceX boss said Monday that he'll give one of his company shares to every child in the U.S. next year. He didn't say how the share giveaway would happen.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Markets Brace for Inflation, Tech Earnings",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-19/open-interest-10-19-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-19T16:56:00.000Z",
-      "kind": "news",
-      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Inflation fears rattle markets as Meta leads a massive earnings week. Nvidia-backed Nscale faces a valuation reality check, while Trump-Zelenskyy tensions deepen. Plus, Proofpoint’s $6.3 billion Varonis deal; we talk with Thoma Bravo’s Seth Boro. And JPMorgan’s $230 billion economic-security push with Herman Chan, plus Ed Ludlow on Anthropic’s public-good pledge. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic’s AI Agents Log 6 Times More Hours Than Employees - The National CIO Review",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQm5Ha1E3aVc4VDVSemVjcTJlMXhBbUp1QWJUbmJWaFljczRuZzlrdXZOM2NjOV9zOXhYSEY5VTlYNlVBSjVCeXhYcGV3VFJGQ0hUZlZ3cEZsM1BkaXJxSGZCS3hPZDg4Wm9jRWtaSmloOGxPYkJ3RzNuZnlMQlktZzJfNGF5SEhoUk9xcFI2MjNjdzlMMnhzTThUSTl5SWtOZTV3cGFhWEY3T3I1T1VzckhMVXFhNU1EM09n?oc=5",
-      "source": "The National CIO Review",
-      "publishedAt": "2026-10-19T16:55:51.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Treasuries Fall as Tech Shares Rebound, Denting Haven Demand",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-19/treasuries-fall-as-tech-shares-rebound-weakening-haven-demand",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-19T16:34:56.000Z",
-      "kind": "news",
-      "summary": "Treasuries fell as a rebound in US technology shares sapped haven demand for US government debt.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Illustration shows \"AI Artificial Intelligence\" words and keyboard - The Daily News | Texas' Oldest Newspaper",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUTdxa2x5SVZ6ZzZmdlN2c2N6WEh3ZXVxRW5mT0ZSUlpTdHJOMlJoY1N5dFhjLTdEU3VzRm9BendHMVpxeHhFMWhBQnhmYzdNdGVsNTcxUEtHOTdfRS1DMlVncXF3YjFXeXZDTVlBUHhIYlZuUGt2YVlxQzFHUVRSMmw5cVRja29MZTVTSHVRMzlPRTRwYWt4VVZxTXNLX1RiRUdTTmNLbHlvMndJWnYwTmFjZ2Iwd0hwaVFzZHExbjYtX3ZHTlZWZFJ3UnBLd1ZyLURBSF96WnRhcHRzRkh0VHZNei1NN0NVbERMeExIbjY?oc=5",
-      "source": "The Daily News | Texas' Oldest Newspaper",
-      "publishedAt": "2026-10-19T16:33:22.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Top hyperscalers likely to have more AI-linked debt than now known, S&P Global warns - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR0R4ajM1WGNGNnB0Sms4Uy1aWV8teXNzd0Z5YlllYzE1NlRvSm9oX01Ic1p2SmFDOE5mcmZtSEMtRmh4bU9xZGYyME5NMUdwdmY4cWIwWjU2RXMwUFVmek40YjVSd1E0dElQSmRpSVhNNkJaQndZRnZ4NzZqUWxNbmdxdE9vZTcyUXhKN2trMWVGejRXZldCcWVyTDRBWXJlMXFsRjVDMFZJSGR3N0xIMXVpenZfMHdvcjB4SzlSN3p0UQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-19T16:17:48.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

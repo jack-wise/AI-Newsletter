@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T09:32:23.443Z",
+  "generatedAt": "2026-10-20T10:02:21.321Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -742,6 +742,19 @@
   ],
   "related": [
     {
+      "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders - Reuters",
+      "url": "https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/",
+      "source": "Reuters",
+      "publishedAt": "2026-10-20T09:19:15.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
       "title": "Nvidia boss issues stark AI warning: ‘You don’t have another chance’ - The Independent",
       "url": "https://www.independent.co.uk/tech/nvidia-jensen-huang-germany-ai-b3069662.html",
       "source": "The Independent",
@@ -819,19 +832,6 @@
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet. - Politico",
-      "url": "https://www.politico.com/news/2026/10/20/openai-ai-chips-china-nvidia-01127385",
-      "source": "Politico",
-      "publishedAt": "2026-10-20T08:45:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
       ],
       "score": 55
     },
@@ -1093,6 +1093,32 @@
       "score": 55
     },
     {
+      "title": "DeepSeek And Huawei Team Up On AI Chip Design To Challenge Nvidia - Dataconomy",
+      "url": "https://dataconomy.com/2026/10/20/deepseek-huawei-ai-chip-design-challenge-nvidia/",
+      "source": "Dataconomy",
+      "publishedAt": "2026-10-20T08:52:33.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "OpenAI once pushed to keep AI chips from China. Now it's staying quiet. - Politico",
+      "url": "https://www.politico.com/news/2026/10/20/openai-ai-chips-china-nvidia-01127385",
+      "source": "Politico",
+      "publishedAt": "2026-10-20T08:45:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45
+    },
+    {
       "title": "Microsoft (MSFT) Pulls Out Of UK AI Data Center Project After Power Delays - Simply Wall Street",
       "url": "https://simplywall.st/stocks/us/software/nasdaq-msft/microsoft/news/microsoft-msft-pulls-out-of-uk-ai-data-center-project-after",
       "source": "Simply Wall Street",
@@ -1119,42 +1145,75 @@
       ],
       "score": 45,
       "summary": "Microsoft has withdrawn from Nscale’s planned Loughton AI data centre in the UK, leaving the project without its only publicly announced customer amid reported power grid constraints."
-    },
-    {
-      "title": "Key facts: NVIDIA Sees $108B Q3 Sales; 104‑Qubit Sim; TSMC 3nm NVHBM - TradingView",
-      "url": "https://www.tradingview.com/news/tradingview:dbe34a8da7526:0-key-facts-nvidia-sees-108b-q3-sales-104-qubit-sim-tsmc-3nm-nvhbm/",
-      "source": "TradingView",
-      "publishedAt": "2026-10-20T07:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "This is an AI-generated summary and may contain inaccuracies. Please verify any important information with the original sources."
-    },
-    {
-      "title": "NVIDIA’s “$10 Billion European Strategy” Enters Germany! Jensen Huang: AI Is a New Tool That Will Not Replace Professionals - Moomoo",
-      "url": "https://www.moomoo.com/news/post/1001673246/nvidia-s-10-billion-european-strategy-enters-germany-jensen-huang",
-      "source": "Moomoo",
-      "publishedAt": "2026-10-20T06:48:49.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "Giani: France Pension Reforms Will Be Difficult",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/giani-france-pension-reforms-will-be-difficult-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T09:57:27.000Z",
+      "kind": "news",
+      "summary": "Giada Giani, European Economist at Citi, on French budget concerns following a period of violent unrest. \"The bond market in France will remain in a very fragile situation until the Spring of 2027.\" Giani speaks with Bloomberg's Guy Johnson and Anna Edwards on \"The Opening Trade.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Amazon Pledges €16 Billion in Germany on Data Centers, Prime",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/amazon-pledges-16-billion-in-germany-on-data-centers-prime",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T09:52:15.000Z",
+      "kind": "news",
+      "summary": "Amazon.com Inc. said it will invest more than €16 billion ($17.9 billion) next year in Germany for operations including data centers, satellite program and Prime Video media production.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "New ETHS guidelines to allow AI use in class under teachers’ discretion - The Daily Northwestern",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNzZ6MnhIcWVrVDEtVm5SWDJPRVlYcnpWOVZLQmsyd21MeFdRQUp1eFRmaHQwSkJBZk8tclhBVHR4SHV6UzVRV1VuazJRYlNUSnJXRHR0SkhfZXh2Q2hkR1JuckxVUUtndGdmZFk1WU5nTkZfOU42WXZzdmh4ZlA4dEpZbHpONFRHYnhfd2lsT3lmWWRBUEl4REFQREFTUTI0akVDZVFMeWZWczRIVGRSX2VpeER3RHRr?oc=5",
       "source": "The Daily Northwestern",
       "publishedAt": "2026-10-20T09:26:29.000Z",
       "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Dubai Luxury Home Sales Fall From Record Levels as War Drags On",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/dubai-luxury-home-sales-fall-from-record-levels-as-war-drags-on",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T09:25:03.000Z",
+      "kind": "news",
+      "summary": "Wealthy buyers from around the world continued to snap up Dubai luxury homes during the third quarter, according to researcher Knight Frank, although sales volumes declined about 17% from last year as the Iran war dragged on.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Partners Group Cuts Management Fees at Key Fund Before Overhaul",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/partners-group-cuts-management-fees-at-key-fund-before-overhaul",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T09:22:47.000Z",
+      "kind": "news",
+      "summary": "Partners Group Holding AG is reducing management fees at a key evergreen fund as it seeks investor approval to revamp the private equity vehicle.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Indonesia’s Influencer Strategy Jars Investors Facing MSCI Risk",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/indonesia-s-influencer-strategy-jars-investors-facing-msci-risk",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T09:17:00.000Z",
+      "kind": "news",
+      "summary": "At a meeting on Sunday afternoon involving officials from Indonesia’s Financial Services Authority and the country’s stock exchange, some attendees were surprised to see several prominent Instagrammers present.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1231,15 +1290,37 @@
       "score": 60
     },
     {
-      "title": "I let agents plan a WNBA finals trip (but kept my wallet to myself) - Axios",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwQUtQcnZvNXpnU1VwMUNYQjM5Y0Q2TDl3UDVYU3NydGJtanlORjRWRWVWVUVudER1dHZuMW5kRkw1d05mekJzOWYyLWtXNlhSODkzc3ZnQjBzT1RJTl9NbU1oblJpaVFtR05INC1icHpJVkZwUzRWLVNXMFEwLUE?oc=5",
+      "title": "\"Power is probably the forever bottleneck\": Grid delays threaten the AI race. - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN095N2xyOEljTW53Y2djMG5Gek50Nkd5TERkbGdHVkxmbHdpcXZSbHgtWkE1bEpGT3l0Yk5sLUlSZUtGX3FjTWpwTWtYRlpsMDRmWTJ2OHJ3Q0UzRVpmLWR3ZTZfN0tiTjB5RHp0ZWdSbHF4ZTl3ZG1nQ2N5ZmRTME9n?oc=5",
       "source": "Axios",
-      "publishedAt": "2026-10-20T09:02:02.000Z",
+      "publishedAt": "2026-10-20T09:03:34.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
+    },
+    {
+      "title": "I let agents plan a WNBA finals trip (but kept my wallet to myself) - Axios",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwQUtQcnZvNXpnU1VwMUNYQjM5Y0Q2TDl3UDVYU3NydGJtanlORjRWRWVWVUVudER1dHZuMW5kRkw1d05mekJzOWYyLWtXNlhSODkzc3ZnQjBzT1RJTl9NbU1oblJpaVFtR05INC1icHpJVkZwUzRWLVNXMFEwLUE?oc=5",
+      "source": "Axios",
+      "publishedAt": "2026-10-20T09:02:38.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Nebius: Next Chip To Fall As The AI Infrastructure Bubble Is Starting To Burst (Rating Downgrade) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQnJDM3pkb0UxOWZYbktmVnFPclBPUkFaeXV2OHZIZVFkaTFqdWhaWjNNQnduRU5tVmFGeFU0aUpfZWU2ODN0MnB0WEFWeUdrWkh5Slk3Skw2UFhMQWRnQzhZNHBpZEZVZm1SUGpwY1QyRlhiZEZsT3J1WTFaNDF4Yjk3TkhZWVVfTVZKTjRQX3MxMm9vZ1ZJejNtTXdXZVYyZ0ZSMWVpY0pDZXM0WDhGRk9ZQzRXci1jM3FSWm5ZYWxrRDZz?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-20T09:24:17.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Boom de canetas emagrecedoras alimenta mercado ilegal no Brasil",
@@ -1251,7 +1332,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Netflix Needs Blockbusters to Reverse Its $135 Billion Wipeout",
@@ -1263,10 +1344,10 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "French Bond-Risk Gauge Breaches Key Level After Protests",
+      "title": "French Bond Risk Climbs Again as Investors Wary on Outlook",
       "url": "https://www.bloomberg.com/news/articles/2026-10-20/french-bond-risk-gauge-hits-150-basis-points-after-protests",
       "source": "Bloomberg",
       "publishedAt": "2026-10-20T08:49:59.000Z",
@@ -1275,7 +1356,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bank Indonesia Rate-Hike Bets Rise as MSCI Shock Tests Rupiah",
@@ -1287,7 +1368,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI Selloff Returns, Oil Tops $110 a Barrel - WSJ",
@@ -1298,7 +1379,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "UK Unemployment Drops Ahead of Healey's Budget",
@@ -1310,7 +1391,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Elice’s Record First-Day Plunge Hammers Korea’s Retail Investors",
@@ -1322,7 +1403,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "How Extreme Wealth Is Remaking the South",
@@ -1349,7 +1430,7 @@
       "score": 50
     },
     {
-      "title": "Hungary Plans to Bring Deficit to Below 3% by 2030, Magyar Says",
+      "title": "Hungary Aims to Cut Deficit to Below 3% by 2030, Magyar Says",
       "url": "https://www.bloomberg.com/news/articles/2026-10-20/hungary-plans-to-bring-deficit-to-below-3-by-2030-magyar-says",
       "source": "Bloomberg",
       "publishedAt": "2026-10-20T08:11:33.000Z",
@@ -1481,18 +1562,6 @@
       "score": 50
     },
     {
-      "title": "Saudi Arabia Delays Flagship Investment Summit to 2027 After Houthi Attacks",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/horizons-middle-east-africa-10-20-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T07:31:28.000Z",
-      "kind": "news",
-      "summary": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or start your day in London or Johannesburg. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Emerging Stocks Are Trading at Biggest-Ever Discount to US",
       "url": "https://www.bloomberg.com/news/articles/2026-10-20/emerging-stocks-are-trading-at-their-biggest-ever-discount-to-us",
       "source": "Bloomberg",
@@ -1528,24 +1597,22 @@
       "score": 50
     },
     {
-      "title": "UK Jobs Data, Wage Growth Strengthens Case for Bank of England Rate Hikes",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/uk-jobs-data-wage-growth-strengthens-case-for-bank-of-england-rate-hikes",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T06:51:05.000Z",
+      "title": "AI Fears Return With Data Center Firm Elice’s 33% Debut Flop - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZVlnUDFfOHJDdmJJU1NCOGFMQkQ5VnBETjl2b3JGNWwxOWVlaGk2TDZSX1BrQ1pFVkxkcE50VjBaVzQzZnRfbUJvX0JwMGlFRkdwU1Nyaks5MlBZc0lNc2NYaFMzXzF3cS1uRmVaS0hZdE1jWEJCc0ZMLUtHYS0xUVZKUWJGMElTWFUzWlk5ZWl5R0N2TW9rVDhUdHlQZ2FEMUlodmFfa3R2U3hKZHc?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-20T06:55:00.000Z",
       "kind": "news",
-      "summary": "Plus, the Chancellor rules out increasing capital gains tax in the budget",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "Stephen Roach: Xi May Be Using Trump Summits to Buy Time",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/stephen-roach-xi-may-be-using-trump-summits-to-buy-time-video-mvgbogtq",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T06:48:57.000Z",
+      "title": "AI data center stock Elice plunges in South Korean IPO - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yOHdNeHByVFFiZ1U5SGctZ1BxVVRucjZDZmt4eGt1ak1IZlFUZ2xQLXl1TDRYbm84ZkFDeHZZelBhOGlWNWdnTkJwOFhPRmp4ZEo5UXllb1ViTEhCR2NNQTB5TjViUWtreEN2TzNmZGw2ODhNZmQ2WXRR?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-10-20T06:42:03.000Z",
       "kind": "news",
-      "summary": "Stephen Roach argues Xi Jinping’s willingness to engage in a series of meetings with Donald Trump may reflect concern about China’s economy and a desire to buy time. Roach suggests Xi may not share the personal camaraderie Trump portrays and says Chinese officials are likely realistic about how much progress is possible with an unpredictable counterpart. He spoke with Stephen Engle on Bloomberg's Insight with Haslinda Amin. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1661,76 +1728,6 @@
       "publishedAt": "2026-10-20T05:36:48.000Z",
       "kind": "news",
       "summary": "AI cloud computing firm Nscale is in talks to sell computing power to Anthropic in a deal that could be worth about $45 billion, according to people familiar with the matter. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Elice Slides in Korea Debut Amid Caution Toward AI Stocks - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQlhfR2F5aFV1TnBnUHlEZGFVV1h6eWJDRWxkeVJGRjFMalBSLTBDVFNCOXFNNTZpRkxGSWFLTDNxcHBpTTJ1N0x6aXFtNTZackYyd0oyZHdLbzBZZ2JyakU2NDYzSVN0eFQ2ZjZabkVwRjV5ZzNRSzdmN3FKLU12c3UyeXR6a3IyNzE5VGpWQmJRVEJDVTVMQUd3?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-10-20T05:26:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "BofA, BNP See South Africa Rating Upgrade After Budget",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/bofa-bnp-see-south-africa-rating-upgrade-after-budget",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T05:00:00.000Z",
-      "kind": "news",
-      "summary": "South African Finance Minister Enoch Godongwana is expected to signal the country’s commitment to fiscal discipline on Wednesday, with its debt-to-GDP ratio set to decline for the first time in more than two decades — potentially paving the way for a credit-rating upgrade as soon as next month.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Polish Policymaker Flags Zloty Weakness Among Rate Hike Triggers",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/polish-policymaker-flags-zloty-weakness-among-rate-hike-triggers",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T04:45:01.000Z",
-      "kind": "news",
-      "summary": "Further weakening of the zloty is among the factors that could tip Polish policymakers to raise interest rates, a Monetary Policy Council member said.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI Tool That Hacked Korean Banks Was Used in Japan, GMO Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-tool-that-hacked-korea-banks-were-used-in-japan-gmo-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T04:42:20.000Z",
-      "kind": "news",
-      "summary": "The hackers who recently infiltrated some of Japan’s biggest companies used an AI tool developed in China and linked to a rash of breaches at South Korean banks last month, according to a Tokyo-based internet security firm.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Hungary Set to Hold Rates After Magyar Unveils Budget Plan",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/hungary-set-to-hold-rates-after-magyar-unveils-budget-plan",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T04:30:00.000Z",
-      "kind": "news",
-      "summary": "Hungary’s central bank is set to keep interest rates unchanged for a second month after Prime Minister Peter Magyar unveiled his budget plan for next year.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The A.I. Data Center Backlash Has Reached a Quiet Corner of Rural England - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZUR0R1VXTFp5U29rM0VBTnlVY09MSUU3amd3a09NZVFjeDJISUpCVzBDNjExVHJFdVFYQTlqZXotek1MU3BHS3ZGcWEzTTh0RDV6aEtWUS1MSXVjSnFtYzdIb1BZWUFwaEVUczg5dFlHaWZWMDVFbUpOQkNMVTN1SVpSYVRlM1JKWEQ3Qw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-20T04:01:08.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T11:02:24.900Z",
+  "generatedAt": "2026-10-20T11:32:25.678Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,19 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance UK",
-      "url": "https://uk.finance.yahoo.com/quote/FRMI/",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-10-20T10:16:35.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 65
-    },
     {
       "title": "[October 20, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1xai6ge/october_20_2026_fermi_america_frmi_discussion/",
@@ -876,6 +863,28 @@
       "related": [],
       "score": 38,
       "summary": "[October 14, 2026] Fermi America - $FRMI - Discussion Thread"
+    },
+    {
+      "title": "15% increase?",
+      "url": "https://www.reddit.com/r/FRMI/comments/1x5bz6n/15_increase/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-10-13T23:25:09.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Then_Slide_1615",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "15% increase?"
     }
   ],
   "related": [
@@ -905,7 +914,7 @@
       "related": [
         "GOOGL"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders - Reuters",
@@ -921,17 +930,18 @@
       "score": 65
     },
     {
-      "title": "Nvidia boss issues stark AI warning: ‘You don’t have another chance’ - The Independent",
-      "url": "https://www.independent.co.uk/tech/nvidia-jensen-huang-germany-ai-b3069662.html",
-      "source": "The Independent",
-      "publishedAt": "2026-10-20T07:33:00.000Z",
+      "title": "Former Google CEO Eric Schmidt reportedly owns about 1% of Anthropic ahead of its IPO - The Next Web",
+      "url": "https://thenextweb.com/news/eric-schmidt-anthropic-stake-ipo",
+      "source": "The Next Web",
+      "publishedAt": "2026-10-20T07:31:56.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
+        "GOOGL"
       ],
-      "score": 65
+      "score": 65,
+      "summary": "Former Google CEO Eric Schmidt owns about 1% of Anthropic, Bloomberg reports. The 2021 Series A stake could be worth up to $20bn at IPO."
     },
     {
       "title": "Germany signs AI partnership with Nvidia at Berlin investment summit - The Next Web",
@@ -960,6 +970,47 @@
         "GOOGL"
       ],
       "score": 65
+    },
+    {
+      "title": "OpenAI’s IP chief sees need for human role as AI takes on more patent work - IAM Patent",
+      "url": "https://www.iam-media.com/article/openais-ip-chief-sees-need-human-role-ai-takes-more-patent-work",
+      "source": "IAM Patent",
+      "publishedAt": "2026-10-20T11:12:41.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Gideon Myles explains how his team uses AI, why human creativity still matters and where patents offer advantages over trade secrets"
+    },
+    {
+      "title": "Siemens Energy: A EUR 7 Billion Loan Book, a 157-Euro Fair Value, and the November Date That Settles - ad-hoc-news.de",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/siemens-energy-a-eur-7-billion-loan-book-a-157-euro-fair-value-and-the-november-date-that-settles/70372495",
+      "source": "ad-hoc-news.de",
+      "publishedAt": "2026-10-20T11:10:57.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "SMNEY"
+      ],
+      "score": 55,
+      "summary": "Siemens Energy shares dropped on ABB weakness and AI data center financing fears, not company news."
+    },
+    {
+      "title": "Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-sees-alibaba-bytedance-104826226.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-20T10:48:26.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     },
     {
       "title": "US uses sanctions law to punish theft of Google AI secrets - ICLG",
@@ -1006,7 +1057,7 @@
     },
     {
       "title": "HP expands local AI portfolio with NVIDIA-powered systems - Engineering.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRVRNd1VfQWs4Y2diUlhMWF9YaUFWcVc5SzJBcWRWMWVGN0RVaFVQLWRoMF9fNU9aWjl4UHh5VVVCVVhkcjliX255MWJrM1BFWUVtQ2ZZM0g5M0ExWnV0YjU2WW02VFpfRVJMV1B3ZXgyaXhHTG93Qk1IbjVKSjZGbTZ4b3RzVFFPMkl4bHRGNA?oc=5",
+      "url": "https://www.engineering.com/hp-expands-local-ai-portfolio-with-nvidia-powered-systems/",
       "source": "Engineering.com",
       "publishedAt": "2026-10-20T10:37:39.000Z",
       "kind": "news",
@@ -1015,34 +1066,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI’s Billion Users, US$852bn Valuation and Stargate - AI Magazine",
-      "url": "https://aimagazine.com/news/openais-billion-users-us-852bn-valuation-and-stargate",
-      "source": "AI Magazine",
-      "publishedAt": "2026-10-20T10:26:27.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
       "score": 55,
-      "summary": "OpenAI CEO Sam Altman is turning ChatGPT into an enterprise AI business with one billion weekly users, two million business clients and Stargate compute"
-    },
-    {
-      "title": "Amazon's TorchNeuron lets 85% of AI developers run code on its chips, challenging Nvidia - Dealroom",
-      "url": "https://app.dealroom.co/news/note/amazon-s-torchneuron-lets-85-of-ai-developers-run-code-on-its-chips-challenging-nvidia",
-      "source": "Dealroom",
-      "publishedAt": "2026-10-20T10:14:48.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
+      "summary": "Windows-based RTX Spark PCs arrive Oct. 16, alongside Perplexity integration and a public demo of the ZGX Fury workstation."
     },
     {
       "title": "Nvidia Backs Four German AI Startups as Merz Urges Adoption - The Tech Buzz",
@@ -1084,6 +1109,20 @@
         "NVDA"
       ],
       "score": 55
+    },
+    {
+      "title": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won’t replace heavy industry - The Mercury News",
+      "url": "https://www.mercurynews.com/2026/10/19/germany-nvidia/",
+      "source": "The Mercury News",
+      "publishedAt": "2026-10-19T21:18:52.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Chancellor Merz is struggling to revive growth in Germany after years of near-stagnation."
     },
     {
       "title": "Germany's Merz urges AI investment ahead of Nvidia deal - Reuters",
@@ -1153,19 +1192,6 @@
       ],
       "score": 55,
       "summary": "Amazon’s new software could make switching AI chips easier. Nvidia’s earnings may face little immediate pressure, but its valuation could be another story."
-    },
-    {
-      "title": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry - AP News",
-      "url": "https://apnews.com/article/jensen-huang-nvidia-merz-germany-economy-artificial-intelligence-f024c1e0d181677a19468657907a9025",
-      "source": "AP News",
-      "publishedAt": "2026-10-19T19:28:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
     },
     {
       "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs - The Robot Report",
@@ -1262,33 +1288,103 @@
       "summary": "Microsoft AI data center delay follows a UK grid setback at Nscale's Loughton, Essex site, with power possibly unavailable until the early-to-mid 2030s."
     },
     {
-      "title": "Microsoft Pulls out of Nscale U.K. Data-Center Deal Over Power-Supply Issues - WSJ",
-      "url": "https://www.wsj.com/tech/microsoft-pulls-out-of-nscale-u-k-data-center-deal-over-power-supply-issues-f804c434",
-      "source": "WSJ",
-      "publishedAt": "2026-10-19T11:29:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55
-    },
-    {
-      "title": "ByteDance, Alibaba and Tencent order $35 billion of Nvidia chips: Reuters - Yahoo Finance Australia",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUG9pX212YVotZklXbTlETi1hNzloMjRUQXBMRXl4dXdQRDRxdkF4OVZBcE9LVjIxUmtFQU9WTTlSMHhMSWlkRXBpc2JpR2Q1ZkhBQS14RVd6ZlpTQTZtVzRnR3VFVVhPelJYdi1QVHZVb0FfdkJDYzcxYlZhWWdaaXl5dFdTaE03Wk5z?oc=5",
-      "source": "Yahoo Finance Australia",
-      "publishedAt": "2026-10-20T09:54:13.000Z",
+      "title": "OpenAI’s Billion Users, US$852bn Valuation and Stargate - AI Magazine",
+      "url": "https://aimagazine.com/news/openais-billion-users-us-852bn-valuation-and-stargate",
+      "source": "AI Magazine",
+      "publishedAt": "2026-10-20T10:26:27.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 45
+      "score": 45,
+      "summary": "OpenAI CEO Sam Altman is turning ChatGPT into an enterprise AI business with one billion weekly users, two million business clients and Stargate compute"
     }
   ],
   "general": [
+    {
+      "title": "France’s Lack of Fiscal Anchor a Concern for Markets, Says Vanda’s Nordvig",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/france-s-lack-of-fiscal-anchor-a-market-concern-nordvig-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T11:21:29.000Z",
+      "kind": "news",
+      "summary": "Jens Nordvig, president and co-founder at Vanda, examines the market impact of political instability and riots in France and the options available to the European Central Bank to help the situation. He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US Must Weigh Ukraine Missile Needs Against Others, Rubio Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/us-must-weigh-ukraine-missile-needs-against-others-rubio-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T11:14:48.000Z",
+      "kind": "news",
+      "summary": "The US must balance Ukraine’s urgent requests for air-defense missiles with similar demands it’s receiving from other allies, and with the needs of its own military, Secretary of State Marco Rubio said.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Political Risk Makes France a Go-To Market for Short Sellers",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/political-risk-makes-france-a-go-to-market-for-short-sellers",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T11:14:14.000Z",
+      "kind": "news",
+      "summary": "Political risk in France has become so elevated that its stock market has turned into the largest short in Europe and the US for some investors, according to Barclays Plc strategists.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Senegal Eurobonds Fall as Budget Standoff Puts IMF Deal at Risk",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/senegal-eurobonds-fall-as-budget-standoff-puts-imf-deal-at-risk",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T11:05:42.000Z",
+      "kind": "news",
+      "summary": "Senegal’s dollar bonds weakened after opposition leader Ousmane Sonko threatened to block a revised budget for this year and 2027 spending plan, raising concern this could complicate its debt restructuring and delay a new International Monetary Fund program.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opinion | AI capabilities mean America needs a Manhattan Project for biodefense - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmtja3EwZFhVcEpVbkRPMWFSTldJZV8zTk5pcFprVFBJQkhRblJnMUVLS2xvRVNrRS04OXpaVVF4YkxYbHNJQ25tb2lRak1PTzYxNUptR1RFZUVqTENfbDY0Z0llRzY2aTBZRU1DdkJNNTNRS0wxQ2ZVNTJGYmZPMUFhZW1MRF9YbWlTb3BTUENFczhtck1j?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-10-20T11:04:16.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Consumer Alert: The AI Customer Service Race Could Be Costing Companies Customers - PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNakpWYVFZTVZfaVhJNm1Xb05NSHgxd2g1RmYzSTZEQWFlZTVsOXNmVXFvOHpIOUREVkNja2Q2aVpaNXNKdWFyMnpFcWxXU0pjTnByVUtfMnBSbjRYWjVMcUNydUYtQU9NdFZiNHBQNDJPZXBOMVZkYS04UmdTZTEzOXNYNWxlU1EzM0FaQmd4cENfc2NKeDFnU192TWNsSzg4R05mR2w2Q3RzYlBySkUyVjJWNU91bmRnRmJ0U0JUcDM3TGplRkRybk5XZ1ZTUFhXVVE?oc=5",
+      "source": "PR Newswire",
+      "publishedAt": "2026-10-20T11:04:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Masayoshi Son’s RoboCop Dreams May Get a Boost With Allied Universal Deal",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/masayoshi-son-s-robocop-dreams-may-get-a-boost-with-allied-universal-deal",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T11:02:01.000Z",
+      "kind": "news",
+      "summary": "Masayoshi Son’s SoftBank is contemplating the robot security business",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Traders are growing wary of a copper price crash with no sign of tariffs",
       "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/traders-are-growing-wary-of-a-copper-price-crash-with-no-sign-of-tariffs",
@@ -1362,166 +1458,23 @@
       "score": 60
     },
     {
+      "title": "Meta's AI spending, Muse assistant adoption in focus for quarterly results - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTTZ4aW9rZHRKVUxlbEJ0M256bENvTG9sV3FFQUNqbTYtdk1kaHM0MHM3UEpDRHdYQ0FlcHQ0UUV4ZUc5Tllod0pqaXpGSE0zUmRDbm1SNm9sM1VaV1FGSDI3YVVDdXJnRXpPVXNQdi02V3ByOUgzQW9iZW11a2M4azBxam5mR2UzWjllVXg5SDNzZkdDRU56M01mZGp2VEItQ2trbnVWUGxfcUZMcThz?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-10-20T10:40:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "HSBC CEO warns the AI boom won’t make every data center a good bet",
       "url": "https://www.cnbc.com/2026/10/20/data-center-financing-ai-debt-hsbc.html",
       "source": "CNBC",
       "publishedAt": "2026-10-20T10:39:17.000Z",
       "kind": "news",
       "summary": "Data center campuses house the servers that power AI and cloud computing.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Codelco Sets European Copper Premium at Record $350 a Ton",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/codelco-sets-european-copper-premium-at-record-350-a-ton",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:31:14.000Z",
-      "kind": "news",
-      "summary": "Codelco will charge a record premium of $350 a ton to supply European customers next year, according to a person familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Colombia Passes 16% Budget Increase After IMF Fiscal Warning",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/colombia-passes-16-budget-increase-after-imf-fiscal-warning",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:30:15.000Z",
-      "kind": "news",
-      "summary": "Colombian lawmakers early Tuesday approved a 16% budget increase, adding to investor concerns over the nation’s growing debt burden.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Bank of England Considers Stress Testing AI’s Effect on the Financial Sector",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/bank-of-england-considers-stress-testing-ai-s-effect-on-the-financial-sector",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:30:00.000Z",
-      "kind": "news",
-      "summary": "While the Bank of England is busy stress testing the UK’s private markets, another threat is looming in the minds of regulators.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Polymarket Investors Push CEO Coplan For Change as Kalshi Gains Ground",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:30:00.000Z",
-      "kind": "news",
-      "summary": "When Founders Fund considered investing in Polymarket in 2025, it learned that the prediction-market startup’s young chief executive, Shayne Coplan, had been using company money to pay for private jet flights, his apartment rent and personal expenses. Polymarket wasn’t generating revenue at the time.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Amazon, Meta AI Wearables Raise Privacy Concerns Over Always-Listening Devices",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/amazon-meta-ai-wearables-raise-privacy-concerns-over-always-listening-devices",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:28:00.000Z",
-      "kind": "news",
-      "summary": "AI devices keep running into privacy issues",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "AI Debutant’s Flameout Stokes Fears the Boom Is Ending",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-debutant-s-flameout-stokes-fears-the-boom-is-ending",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:25:04.000Z",
-      "kind": "news",
-      "summary": "Scarcely known outside its home market until this week, Elice Inc. on Tuesday found itself at the heart of a roiling debate about AI valuations and whether companies will be able to deliver on them.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Putin Seeking to Destabilize Europe, German Chancellor Warns",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/the-pulse-10-20-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:24:23.000Z",
-      "kind": "news",
-      "summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops. Today's guests: Subitha Subramaniam, Sarasin & Partners Chief Economist; Tiina Lee, Citi UK CEO; Spencer Rascoff, Match Group CEO; Vanessa Holtz, Bank of America France CEO (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "AI has developed a memory problem - The National",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNDhMbkduRmhwNVUwMzdybUdBbzVsSWc4amYweXlIQUt5Mk1xSEtya29ocXkyZGJxN19EYW9WTU1hUDhNWVRRUXBadl9qa1ZEZnlKUFVpU0JfMWpJUlN6dmJ2MXR5MEJ6ZEtqaHNaNk5BT3NMQm1BUmMwYUx0ZHdveWNrSC1qYWgtR2c?oc=5",
-      "source": "The National",
-      "publishedAt": "2026-10-20T10:18:45.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Meta's AI spending, Muse assistant adoption in focus for quarterly results - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTTZ4aW9rZHRKVUxlbEJ0M256bENvTG9sV3FFQUNqbTYtdk1kaHM0MHM3UEpDRHdYQ0FlcHQ0UUV4ZUc5Tllod0pqaXpGSE0zUmRDbm1SNm9sM1VaV1FGSDI3YVVDdXJnRXpPVXNQdi02V3ByOUgzQW9iZW11a2M4azBxam5mR2UzWjllVXg5SDNzZkdDRU56M01mZGp2VEItQ2trbnVWUGxfcUZMcThz?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-20T10:17:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Private Credit Firm Tikehau Is Said to Seek Strategic Investor",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/private-credit-firm-tikehau-is-said-to-seek-strategic-investor",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:16:04.000Z",
-      "kind": "news",
-      "summary": "Tikehau Capital SCA is looking for a new strategic investor to help fuel its next phase of growth, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Zelenskyy Heads to US Talks as Tensions Mount With Trump",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/zelenskyy-heads-to-us-talks-as-tensions-mount-with-trump-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:14:39.000Z",
-      "kind": "news",
-      "summary": "Ukrainian President Volodymyr Zelenskyy is traveling to Norway for peace talks amid growing pressure from US President Donald Trump to make concessions in order to reach a deal with Russia. Rachel Schilke of Bloomberg Government has more. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Pernod Ricard Plans Debut Hybrid Bond as French Debt Risk Rises",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/pernod-ricard-plans-debut-hybrid-bond-as-french-debt-risk-rises",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:13:02.000Z",
-      "kind": "news",
-      "summary": "Pernod Ricard is planning the sale of a debut hybrid bond alongside a tender for some of its outstanding senior debt, as the company looks to tackle upcoming maturities with its credit ratings on negative outlook.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "AI Bellwether Korea Shows That Investor Skepticism Is Mounting",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/ai-bellwether-korea-shows-that-investor-skepticism-is-mounting",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T10:12:54.000Z",
-      "kind": "news",
-      "summary": "The Kospi index has plunged 40% from its June record.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1539,12 +1492,155 @@
       "score": 50
     },
     {
-      "title": "How an AI Investment Slowdown May Affect Tech Subsectors - Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdmM1S2F1MEt1UUhqcXUtR0daWnRYYVB6LXdzMWxkSWFjRkVWYV9oT2E1bnFjanRSRXJXV1dubXlYVjl0ZUFBSzVBSndaYXVYNTUtaUxOM2ZUNmNkNGF2RDg1QWpseUdBU00yVFljeW9HN1FnWHBjY1BIVHZrUE5ib2NVS05iQVB3TUNFRnNVTERnUVZiZnhWa1FKVkZXYXJGQThQNm04Vi1HQmRQ?oc=5",
-      "source": "Morningstar",
-      "publishedAt": "2026-10-20T10:22:11.000Z",
+      "title": "Codelco Sets European Copper Premium at Record $350 a Ton",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/codelco-sets-european-copper-premium-at-record-350-a-ton",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:31:14.000Z",
       "kind": "news",
-      "tier": 2,
+      "summary": "Codelco will charge a record premium of $350 a ton to supply European customers next year, according to a person familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Projects Signal AI Copper Use May Triple by 2028, Trafigura Says - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMDBmWWxWOVNDU2pQbWNwUUd0RWNhUWdDZUVtMEFGRU56bDM5czZTUDZvbkwweE9yVUZidjFLRmhCVjc3LTEwUDJiVVpFWEdNWHRJbWhfOVRNRzFpQldET2NyNTQ1T1hOMjMtakZFTl9JeUJBVTdSZmh3OWJJNUh0UUFBYnAtY2dZbzJKdndjSlhDVzBLZ25faDdycHc4Z2dLTUdoTmxEZl9VOGI3b3R3Z1UxeTE?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-20T10:30:56.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Colombia Passes 16% Budget Increase After IMF Fiscal Warning",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/colombia-passes-16-budget-increase-after-imf-fiscal-warning",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:30:15.000Z",
+      "kind": "news",
+      "summary": "Colombian lawmakers early Tuesday approved a 16% budget increase, adding to investor concerns over the nation’s growing debt burden.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Polymarket Investors Push CEO Coplan For Change as Kalshi Gains Ground",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/polymarket-investors-push-ceo-coplan-for-change-as-kalshi-gains-ground",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:30:00.000Z",
+      "kind": "news",
+      "summary": "When Founders Fund considered investing in Polymarket in 2025, it learned that the prediction-market startup’s young chief executive, Shayne Coplan, had been using company money to pay for private jet flights, his apartment rent and personal expenses. Polymarket wasn’t generating revenue at the time.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Bank of England Considers Stress Testing AI’s Effect on the Financial Sector",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/bank-of-england-considers-stress-testing-ai-s-effect-on-the-financial-sector",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:30:00.000Z",
+      "kind": "news",
+      "summary": "While the Bank of England is busy stress testing the UK’s private markets, another threat is looming in the minds of regulators.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Amazon, Meta AI Wearables Raise Privacy Concerns Over Always-Listening Devices",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/amazon-meta-ai-wearables-raise-privacy-concerns-over-always-listening-devices",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:28:00.000Z",
+      "kind": "news",
+      "summary": "AI devices keep running into privacy issues",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI Debutant’s Flameout Stokes Fears the Boom Is Ending",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-debutant-s-flameout-stokes-fears-the-boom-is-ending",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:25:04.000Z",
+      "kind": "news",
+      "summary": "Scarcely known outside its home market until this week, Elice Inc. on Tuesday found itself at the heart of a roiling debate about AI valuations and whether companies will be able to deliver on them.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Putin Seeking to Destabilize Europe, German Chancellor Warns",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/the-pulse-10-20-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:24:23.000Z",
+      "kind": "news",
+      "summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops. Today's guests: Subitha Subramaniam, Sarasin & Partners Chief Economist; Tiina Lee, Citi UK CEO; Spencer Rascoff, Match Group CEO; Vanessa Holtz, Bank of America France CEO (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI has developed a memory problem - The National",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNDhMbkduRmhwNVUwMzdybUdBbzVsSWc4amYweXlIQUt5Mk1xSEtya29ocXkyZGJxN19EYW9WTU1hUDhNWVRRUXBadl9qa1ZEZnlKUFVpU0JfMWpJUlN6dmJ2MXR5MEJ6ZEtqaHNaNk5BT3NMQm1BUmMwYUx0ZHdveWNrSC1qYWgtR2c?oc=5",
+      "source": "The National",
+      "publishedAt": "2026-10-20T10:18:45.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Private Credit Firm Tikehau Is Said to Seek Strategic Investor",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/private-credit-firm-tikehau-is-said-to-seek-strategic-investor",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:16:04.000Z",
+      "kind": "news",
+      "summary": "Tikehau Capital SCA is looking for a new strategic investor to help fuel its next phase of growth, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Zelenskyy Heads to US Talks as Tensions Mount With Trump",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-20/zelenskyy-heads-to-us-talks-as-tensions-mount-with-trump-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:14:39.000Z",
+      "kind": "news",
+      "summary": "Ukrainian President Volodymyr Zelenskyy is traveling to Norway for peace talks amid growing pressure from US President Donald Trump to make concessions in order to reach a deal with Russia. Rachel Schilke of Bloomberg Government has more. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Pernod Ricard Plans Debut Hybrid Bond as French Debt Risk Rises",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/pernod-ricard-plans-debut-hybrid-bond-as-french-debt-risk-rises",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:13:02.000Z",
+      "kind": "news",
+      "summary": "Pernod Ricard is planning the sale of a debut hybrid bond alongside a tender for some of its outstanding senior debt, as the company looks to tackle upcoming maturities with its credit ratings on negative outlook.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI Bellwether Korea Shows That Investor Skepticism Is Mounting",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/ai-bellwether-korea-shows-that-investor-skepticism-is-mounting",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-20T10:12:54.000Z",
+      "kind": "news",
+      "summary": "The Kospi index has plunged 40% from its June record.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1613,42 +1709,6 @@
       "source": "The Daily Northwestern",
       "publishedAt": "2026-10-20T09:26:29.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Dubai Luxury Home Sales Fall From Record Levels as War Drags On",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/dubai-luxury-home-sales-fall-from-record-levels-as-war-drags-on",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T09:25:03.000Z",
-      "kind": "news",
-      "summary": "Wealthy buyers from around the world continued to snap up Dubai luxury homes during the third quarter, according to researcher Knight Frank, although sales volumes declined about 17% from last year as the Iran war dragged on.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Partners Group Cuts Management Fees at Key Fund Before Overhaul",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/partners-group-cuts-management-fees-at-key-fund-before-overhaul",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T09:22:47.000Z",
-      "kind": "news",
-      "summary": "Partners Group Holding AG is reducing management fees at a key evergreen fund as it seeks investor approval to revamp the private equity vehicle.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Indonesia’s Influencer Strategy Jars Investors Facing MSCI Risk",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/indonesia-s-influencer-strategy-jars-investors-facing-msci-risk",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T09:17:00.000Z",
-      "kind": "news",
-      "summary": "At a meeting on Sunday afternoon involving officials from Indonesia’s Financial Services Authority and the country’s stock exchange, some attendees were surprised to see several prominent Instagrammers present.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1729,18 +1789,6 @@
       "source": "Axios",
       "publishedAt": "2026-10-20T09:02:38.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "French Bond Risk Climbs Again as Investors Wary on Outlook",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/french-bond-risk-gauge-hits-150-basis-points-after-protests",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T08:49:59.000Z",
-      "kind": "news",
-      "summary": "A measure of French bond risk breached a key level on Tuesday, underscoring the challenges facing the government as it struggles to tame the budget deficit and grapples with cost-of-living protests.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1835,42 +1883,6 @@
       "source": "Reuters",
       "publishedAt": "2026-10-20T07:53:48.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "South Korean Data Center Firm Elice Plunges in Trading Debut",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-20/data-center-firm-elice-plunges-in-trading-debut-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T07:44:47.000Z",
-      "kind": "news",
-      "summary": "Seoul-based neocloud service provider Elice's shares plunged in their trading debut, underscoring lingering concerns about whether the artificial intelligence boom can justify the billions of dollars being poured into the industry. Bloomberg's Anthony Stephens reports. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "MNT-Halan Shares Rise 18% in Egypt Trading Debut After IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/mnt-halan-shares-rise-18-in-egypt-trading-debut-after-ipo",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T07:39:02.000Z",
-      "kind": "news",
-      "summary": "Shares of fintech unicorn MNT-Halan rose as much as 18% as they debuted on the Egyptian stock exchange on Tuesday after the country’s biggest initial public offering in dollar terms since at least 2021.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "China’s Benchmark Switch Spells Ramp-Up of Overnight Operations",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/pboc-faces-multi-month-road-to-new-rate-anchor-analysts-say",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-20T07:33:42.000Z",
-      "kind": "news",
-      "summary": "China’s central bank may be embarking on a multi-month transition toward an overnight policy interest rate, a shift that will require more frequent liquidity operations using the new benchmark candidate to test market reception, analysts say.",
       "tier": 1,
       "tickers": [],
       "related": [],

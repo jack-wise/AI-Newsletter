@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T06:31:25.210Z",
+  "generatedAt": "2026-10-22T07:01:24.527Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -425,7 +425,20 @@
       "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://uk.finance.yahoo.com/quote/FRMI/",
       "source": "Yahoo Finance UK",
-      "publishedAt": "2026-10-21T13:30:03.000Z",
+      "publishedAt": "2026-10-21T13:31:39.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45
+    },
+    {
+      "title": "FRMI Nov 2026 3.500 put (FRMI261106P00003500) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/quote/FRMI261106P00003500/",
+      "source": "Yahoo! Finance Canada",
+      "publishedAt": "2026-10-21T13:24:24.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -448,10 +461,10 @@
       "score": 45
     },
     {
-      "title": "FRMI Jun 2027 2.000 call (FRMI270617C00002000) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI270617C00002000/",
+      "title": "FRMI Nov 2026 7.000 call (FRMI261106C00007000) Stock Historical Prices & Data - Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/quote/FRMI261106C00007000/history/",
       "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-10-21T12:38:39.000Z",
+      "publishedAt": "2026-10-21T12:37:21.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -465,19 +478,6 @@
       "url": "https://www.streetinsider.com/Corporate+News/Fermi+CEO+outlines+capital+strategy+for+Project+Matador/27213715.html",
       "source": "StreetInsider",
       "publishedAt": "2026-10-21T12:33:37.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
-      "title": "FRMI Nov 2026 3.500 call (FRMI261106C00003500) Stock Historical Prices & Data - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI261106C00003500/history/",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-10-21T12:28:56.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -740,7 +740,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Revolut and major EU financial firms go all-in on open weight models at GTC Berlin"
     },
     {
@@ -787,17 +787,32 @@
       "summary": "Nvidias Support for NeoCloud Risks Global AI Ecosystem Collapse Over $171.5 Billion in Investments, Guarantees Expose Circular Financial Risks"
     },
     {
-      "title": "Samsung Electro-Mechanics to supply AI chip substrates to Nvidia - 매일경제",
-      "url": "https://pulse.mk.co.kr/news/all/12182790",
-      "source": "매일경제",
-      "publishedAt": "2026-10-22T05:37:34.000Z",
+      "title": "NVIDIA Secures AI Production via Component Investments - 조선일보",
+      "url": "https://www.chosun.com/english/industry-en/2026/10/22/7W5P7VRJ2RGRTP4OLBBU4QQ4YM/",
+      "source": "조선일보",
+      "publishedAt": "2026-10-22T06:05:05.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "NVIDIA Secures AI Supply Chain with Component Investments"
+    },
+    {
+      "title": "To help world gorge on GPUs, Nvidia brings cash bucket to fatten wafer-thin supply chain - The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/22/to-help-world-gorge-on-gpus-nvidia-brings-cash-bucket-to-fatten-wafer-thin-supply-chain/5304623",
+      "source": "The Register",
+      "publishedAt": "2026-10-22T00:54:33.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Signs Samsung to build substrates, bolsters spend with other players"
     },
     {
       "title": "Elisa Advances AI-RAN Deployment with NVIDIA and Nokia in Finland - The Fast Mode",
@@ -832,6 +847,19 @@
       "url": "https://apnews.com/article/jensen-huang-ai-gtc-berlin-nvidia-a320db64110d99297381912605ebdc57",
       "source": "AP News",
       "publishedAt": "2026-10-21T19:42:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "\"I am giving you money!\" Nvidia's CEO wants every country to build its own AI - Axios",
+      "url": "https://www.axios.com/2026/10/21/nvidia-ceo-jensen-huang-europe-sovereign-ai-tour-bubble",
+      "source": "Axios",
+      "publishedAt": "2026-10-21T19:31:33.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -922,19 +950,6 @@
       "summary": "Containerized datacenters, androids, and telecoms all feature in Berlin keynote interrupted by environmental protesters"
     },
     {
-      "title": "\"I am giving you money!\" Nvidia's CEO wants every country to build its own AI - Axios",
-      "url": "https://www.axios.com/2026/10/21/nvidia-ceo-jensen-huang-europe-sovereign-ai-tour-bubble",
-      "source": "Axios",
-      "publishedAt": "2026-10-21T13:27:53.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
       "url": "https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html",
       "source": "CNBC",
@@ -1019,10 +1034,23 @@
       "score": 55
     },
     {
-      "title": "NVIDIA Unveils 14-Day Modular Data Center for AI Standards - 조선일보",
+      "title": "Samsung Electro-Mechanics to supply AI chip substrates to Nvidia - 매일경제",
+      "url": "https://pulse.mk.co.kr/news/all/12182790",
+      "source": "매일경제",
+      "publishedAt": "2026-10-22T05:37:34.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "NVIDIA Unveils DSX POD for 14-Day AI Data Center Deployment - 조선일보",
       "url": "https://www.chosun.com/english/industry-en/2026/10/22/XK67IORYY5BYLF6XSAHNVGLRJ4/",
       "source": "조선일보",
-      "publishedAt": "2026-10-22T05:04:14.000Z",
+      "publishedAt": "2026-10-22T05:10:20.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1061,20 +1089,6 @@
       "summary": "Nvidia, with partners, will offer fully integrated Vera Rubin rack systems in modular DSX pods starting in 2027. These units aim to cut data center deployment times from six months to as little as two weeks."
     },
     {
-      "title": "NVIDIA Expands AI Supply Chain with Component Supplier Investments - 조선일보",
-      "url": "https://www.chosun.com/english/industry-en/2026/10/22/7W5P7VRJ2RGRTP4OLBBU4QQ4YM/",
-      "source": "조선일보",
-      "publishedAt": "2026-10-22T03:21:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "NVIDIA Secures AI Supply Chain with Component Investments"
-    },
-    {
       "title": "NVIDIA backs six chip suppliers in $279B push to break AI capacity bottleneck - Dealroom",
       "url": "https://app.dealroom.co/news/note/nvidia-backs-six-chip-suppliers-in-279b-push-to-break-ai-capacity-bottleneck",
       "source": "Dealroom",
@@ -1100,20 +1114,6 @@
       ],
       "score": 45,
       "summary": "Nvidia announced European telecom AI deployments, Google Cloud Rubin plans, and supply-chain capacit"
-    },
-    {
-      "title": "Nvidia seals Samsung Electro-Mechanics deal, lifts Korea shares amid KOSPI dip - CHOSUNBIZ - Chosunbiz",
-      "url": "https://biz.chosun.com/en/en-finance/2026/10/22/HHK75K4ONJFZLH5QRW55EPLBP4/",
-      "source": "Chosunbiz",
-      "publishedAt": "2026-10-22T00:39:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Nvidia seals Samsung Electro-Mechanics deal, lifts Korea shares amid KOSPI dip"
     },
     {
       "title": "Nvidia announces AI data center, supply chain, telecom and robotics deals at Berlin event (NVDA:NASDAQ) - Seeking Alpha",
@@ -1144,6 +1144,78 @@
     }
   ],
   "general": [
+    {
+      "title": "Jio Leverage Play Pops Up at SBI as India Brokers Lure IPO Bets",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/jio-leverage-play-pops-up-at-sbi-as-india-brokers-lure-ipo-bets",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T06:42:37.000Z",
+      "kind": "news",
+      "summary": "In a rare move for an Indian initial public offering, SBI Securities is offering a leveraged bet on the deal of Jio Platforms Ltd. — a sign of the intense competition among brokerages as the excitement over the debut is building to a fever pitch.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Evergrande Liquidators Plan First Payout to Creditors Next Year",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/evergrande-liquidators-plan-first-payout-to-creditors-next-year",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T06:41:32.000Z",
+      "kind": "news",
+      "summary": "Nearly three years after China Evergrande Group began winding up, liquidators have recovered less than 1% of the $46 billion sought by creditors, which they aim to begin distributing in the first half of 2027.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "China’s Chip Catch-Up May Take Five Years: Miller",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/china-s-chip-catch-up-may-take-five-years-miller-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T06:40:14.000Z",
+      "kind": "news",
+      "summary": "“Chip War” author Chris Miller says China may need five years or longer to catch up in advanced chips. Speaking on the sidelines of the Barclays Asia Forum in Singapore, he said restrictions on access to cutting-edge chipmaking equipment constrain the country’s capabilities. He appeared on Bloomberg’s Insight with Haslinda Amin. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "BOE Interest Rates Beyond November Clouded by Energy Uncertainty",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/boe-interest-rates-beyond-november-clouded-by-energy-uncertainty",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T06:37:32.000Z",
+      "kind": "news",
+      "summary": "Plus, Barclays announces a £500 million share buyback",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Philippines Surprises With Jumbo Hike as Inflation Surges",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/philippines-delivers-jumbo-rate-hike-as-inflation-heats-up-anew",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T06:31:05.000Z",
+      "kind": "news",
+      "summary": "The Philippine central bank raised the key rate for a fourth consecutive meeting to rein in resurgent inflation and support a weak peso that’s sunk to a record low.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Tesla Cuts Capex Guidance, Meta Hikes AI Spending Outlook, Announces New Stock Class",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/the-asia-trade-10-22-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T06:13:57.000Z",
+      "kind": "news",
+      "summary": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Japan Scrambles to Patch PHP Flaws as Banks, Airlines Go Offline",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/japan-scrambles-to-patch-php-flaws-as-banks-airlines-go-offline",
@@ -1178,7 +1250,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "US Stock Futures Slip as Tech Earnings Rally Fades: Markets Wrap - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeTBrLWVPck50dERfQ3N3cFhBMFpUN3lfZFFOeXZLM0lDR0lOSFp2Vnd0OHFaWU5JQ092UHg4XzlXQlEtN2JQNG1oWnpFYWFKSUFoYmZkT1FqTHR1bXR5b010d3ZvSENDZ0phTk04R1k5aUg4Z2ZTb1p2MmQ2LW53Ulk5NktSU0prZWwtMkFIZFo1SDll?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-22T05:58:59.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Boston Dynamics Founder On Physical AI Outlook",
@@ -1190,7 +1273,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Nokia Reports Continued Strength From AI, Data-Center Rollout - WSJ",
@@ -1201,7 +1284,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "India’s Margin-Funded Stock Bets Fall as Small-Cap Rally Falters",
@@ -1213,7 +1296,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Meta Gains on Results, New Stock Class to Fund AI",
@@ -1225,7 +1308,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "FTSE 100 Live: UK Stocks Set for Losses as Global Equities Decline",
@@ -1236,7 +1319,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "BNP Paribas AM Builds Long-End JGB Bet on Steep Yield Curve",
@@ -1248,19 +1331,30 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "SoftBank Market Value Poised to Halve From Peak on AI Fears",
+      "title": "SoftBank Market Value Halves From Peak as AI Fears Grow",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/softbank-market-value-poised-to-halve-from-peak-as-ai-fears-grow",
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T05:40:39.000Z",
       "kind": "news",
-      "summary": "SoftBank Group Corp.’s market value is poised to halve from its peak in June, as higher borrowing costs fuel investor concerns over the sustainability of its massive investments in artificial intelligence.",
+      "summary": "SoftBank Group Corp.’s market value halved from its peak in June, as higher borrowing costs fuel investor concerns over the sustainability of its massive investments in artificial intelligence.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Long-End US Yield Hits One-Month Low as AI Fears Fuel Haven Bid - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS2QtcWhJRzBXeWNiMnFqOXhfNHd4WDhjb1RqUk0xa3NNbUdyYl8xTE5aRDdCVy01WDRPMGstSjJ1SndrZlFDdllTNEdveGJwVjE4YlpJNlpQQjJNQnVJWFBqNkpCOEhaNzFvTW1yNXRhU2NWdnZ3MUhua0RPaUxhVS0zdkxQZEYxTndHU1k2Sl9kYzVsMmU2a1AwODZZS2hoQndjRHIyel9nYy1OQllYaEhFQ1I?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-22T05:37:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Nigeria Seeks Regional-Hub Status With Depositary Receipts",
@@ -1287,12 +1381,12 @@
       "score": 50
     },
     {
-      "title": "Spain’s Seaya Ventures Enters London After Raising €600 Million",
+      "title": "Spanish VC Seaya Enters London After Raising €600 Million",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/spain-s-seaya-ventures-enters-london-after-raising-600-million",
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T05:00:00.000Z",
       "kind": "news",
-      "summary": "Seaya Ventures, a Spanish venture capital firm backed by Banco Santander SA, is opening an office in London after raising €600 million ($637 million) for a new fund focused on European startups.",
+      "summary": "Seaya, a Spanish venture capital firm backed by Banco Santander SA, is opening an office in London after raising €600 million ($637 million) for a new fund focused on European startups.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1323,17 +1417,6 @@
       "score": 50
     },
     {
-      "title": "Data Center Power Cable Market to Reach USD 4.72 Billion by 2035 as AI Campuses Pull Medium-Voltage Distribution Deeper Into the Data Hall - DC Market Insights - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNaEdXWmxpWm1hVmZaNjg2MVVQMV9XeW1MMnkwd2tzdTl2Tm45Zlp0VDdHODVoNUljdTVhTFF3Sko4WTBnN0o1NWtfd0g3a2hZOFdKd2wtamh6UkxKTVdjUTBHTVdLMzkzT2dKZ1M3S3NYcGNsS00tSk9kS2ZfcWV2ZzlrZ3lOLWUzaXhSbzJoMzU5VVFMRWdKZE96MHFEb0V6aEFaVWw3eWVPTHJzYnhPRVFlZVRMbDdJaGtyZE54dG9GNEE2NGJEZGIxRzFVNnJQS1haSVFuZUJRMnROeG1BZWNaWUlhd3hVQXltWFUweV90LWtxT0poWnpXUlVNWVE3Y0JHWlZndURlamFURFl3S1oxYjlqOHVBejltb05JNlI4dVJzOFZRZTNhbGJHS2pLNFVHb3hmSV9ILWs?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-10-22T04:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Sundar Pichai explains how a team of AI agents helps him run the company - Business Insider",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVmRTbHFwVktUMzNmUHZxbXJEbXpRTzdkNUZYODV3SHJzTjFkeGpHWmEwcVowV1ZJWUVaZUNocXpRQkJ5STAycjUyM0VMZS1leVp1aVZjS1VLY2M3UFZOdDltUlF0amtrV0Q1aW9mZkgtRUZFSXc2ZXZHcUlXLUJkZWl3ZjdUSzA5SVZJcS1ZZGFTUGlja0xSOHpOak4?oc=5",
       "source": "Business Insider",
@@ -1357,48 +1440,12 @@
       "score": 50
     },
     {
-      "title": "Barclays' Rajadhyaksha on Global Market Outlook",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/barclays-rajadhyaksha-on-global-market-outlook-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T03:58:14.000Z",
-      "kind": "news",
-      "summary": "Ajay Rajadhyaksha, Global Chairman of Research at Barclays, discusses his outlook for investing in global markets. He speaks with Haslinda Amin on the sidelines of the Barclays Asia Forum on \"Bloomberg: The Asia Trade\". (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "PGIM's Marcus on APAC Real Estate Investment Outlook",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/pgim-s-marcus-on-apac-real-estate-investment-outlook-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T03:55:22.000Z",
-      "kind": "news",
-      "summary": "Cathy Marcus, Co-head and Global COO of Real Estate at PGIM, discusses her outlook for real estate investment opportunities in the APAC region. She speaks with Shery Ahn on \"Bloomberg: The Asia Trade\". (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Treasuries Climb With Yen as AI Trade Jitters Fuel Haven Bid",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/long-end-us-yield-hits-one-month-low-as-ai-fears-fuel-haven-bid",
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T03:46:59.000Z",
       "kind": "news",
       "summary": "Treasuries rose along with the yen and Swiss franc as investors sought shelter in havens after stocks stumbled on renewed concerns about the artificial intelligence trade.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Barclays’ Singh on Asian Equity Markets",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/barclays-singh-on-asian-equity-markets-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T03:44:14.000Z",
-      "kind": "news",
-      "summary": "Kaanhari Singh, Head of Asia Equity Flow Derivatives Sales at Barclays, says the strategy heading into next year is to go long on quality in Asia's tech sector. She speaks on the sidelines of the Barclays Asia Forum in Singapore. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1434,7 +1481,7 @@
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T02:51:12.000Z",
       "kind": "news",
-      "summary": "Chinese stocks are on track to enter a bear market, dragged down by the unwinding of the global artificial intelligence trade and the lack of stimulus to provide a driver ahead of a crucial earnings season.",
+      "summary": "Chinese stocks are sinking into a bear market, with $2.4 trillion lost since a peak in May, as a protracted slump in consumption and mounting doubts over the profitability of artificial intelligence companies turn them into one of the world’s worst performers.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1501,6 +1548,17 @@
       "score": 50
     },
     {
+      "title": "Why AI’s Deepest Mind Believes the World Is About to Change Radically - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbGl4TVIxUEZZUmFMMVhheHBMV1lCSnlGbGNCX25US2dMRDFCakdUVmJBQ1pOXzdZYmh1eFV0QzNOOXNQc244b1UtUkZIWEF6T2ZoOW5zOVM5Z1VVUUtUTWNoT3E5emdiTDcwcldYMjcxSjBoZWt5VmtaYjBmTGd5Wmw1MGotZ19t?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-10-22T01:53:26.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Canadian publisher Boréal ends relationship with novelist Thélyson Orélien over alleged use of AI - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUndWaWdrNmpwMVVLMDZYZGNqRnhiT3QwMklDLVZrbFJ6MmlHcGVyb3ZTSTZzbzI0RzRoY0RweGRJc2tVaEEyUnFveGFobmhUQ1VQYzRfSXZ1NS13RjgzMU5ic1BDV19uaklIeHVFcXJ3aVBsNV9mNWlWUFg2NGt3Ukw3eXFpUkgyMzRiMWZKWC02YVVQcXlYd2ExNnZZS21NQjQyZmZqcXB3VUo2NUh1RURXd29NUk1NMUFMZ3l2ekU?oc=5",
       "source": "The Guardian",
@@ -1524,6 +1582,28 @@
       "score": 50
     },
     {
+      "title": "Did AI Infrastructure Wins Just Shift AMD Stock's Investment Narrative? - Simply Wall Street",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNV25XT1otX2NnYnJqRF9ON1BiY0trR3FvTEUxNldyRElabC1iQU9XbWs0VjJ3NWc1ZS03a05oU3lndndrbXczQUhPT3gwOXBjNGNoQzA2YUpTek5EdXFQZUszVzRVUGVEYXlwbHVIand5dWJTbG9FMDh6TmMzR0tyd2Y1WGRpSzZWOURqeGZxVy05YmJUSTU2NnZIeW9sa1BMY1BuWnp2dU5GQmxrTUdvd2FUNFpEenZNdHIzaUxrQnhuSDVhaW9KRXZHNXk5aVd5d0laMjRabjFEZEh0Z1HSAeMBQVVfeXFMUHlMOTI4SFowTnR0SlowMThuVmVyZklqRldtVWZmQXQyNkVvMHh6b3ljNnZVVGxTVnktUXVTYnl0MDh6dFdBbDU3TVRhc1dJSUg2S20tMU1ST21Ma29kYnpwaTFCb2JIVDRiV081eThnR0JCX2NvX1NVNlQ0S19xdUxzQUJGVnd3d18yZ1Q5emlfbjQwYUhkdFgtVmk4MERTdE12aVA4Ry0yVW05RnB5VWlnSlN5c042a0VjNk9BRk9tQ08wdjIzLThUUGV3UVd6WFlCcGRwTS1IandaOUZXdzJYU1E?oc=5",
+      "source": "Simply Wall Street",
+      "publishedAt": "2026-10-22T06:58:14.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Lee Jae-yong Makes Surprise Inspection of UAE Al Dhafra Power Plant in AI Power Infrastructure Bet - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tc1YyVWlhYWJMUGlsMFhUNXhUeURBY2dVejE5SVI1d2pod0ZncXFzODZKMFRodFJMdFZpOTcwYUFVY0dTMkdMWW5GTVVQTmJNenN4MURNX1VXMnM3U202OEh4SG91MHZtblVqekMtU1ExTXp1VXc?oc=5",
+      "source": "BigGo Finance",
+      "publishedAt": "2026-10-22T06:05:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Meta put out an ambitious roadmap to Muse monetization after strong quarter and guide",
       "url": "https://www.cnbc.com/investingclub/2026/10/21/meta-put-out-an-ambitious-roadmap-to-muse-monetization-after-strong-quarter-and-guide.html",
       "source": "CNBC",
@@ -1532,18 +1612,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI uncovers massive flaw in web's foundational code - Axios",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8yWTJaTHNWSEthd09VenZuMVhjNjBjb1ZjS2haLUZXb2xvNDhBWXQwUzY2YkJTbkplTHk4ektpVno5NFpJME04alZvaVJ3SjhCNXRURlJmQ0dreGd2RVdUbzBPUVVuY2F6cDdJd0xQVG51Y0s0eDN2V1lmMA?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-10-22T00:52:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "BOK Signals More Tightening on Strong Growth After Holding Rate",
@@ -1553,17 +1622,6 @@
       "kind": "news",
       "summary": "The Bank of Korea said it expects growth this year and next to be “considerably higher” than previous projections, signaling more tightening to come after holding its benchmark interest rate in the wake of rare back-to-back increases.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Lee Jae-yong Makes Surprise Inspection of UAE Al Dhafra Power Plant in AI Power Infrastructure Bet - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tc1YyVWlhYWJMUGlsMFhUNXhUeURBY2dVejE5SVI1d2pod0ZncXFzODZKMFRodFJMdFZpOTcwYUFVY0dTMkdMWW5GTVVQTmJNenN4MURNX1VXMnM3U202OEh4SG91MHZtblVqekMtU1ExTXp1VXc?oc=5",
-      "source": "BigGo Finance",
-      "publishedAt": "2026-10-22T06:05:00.000Z",
-      "kind": "news",
-      "tier": 3,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1626,10 +1684,10 @@
       "score": 40
     },
     {
-      "title": "AI and jobs: The hot new topic for central bankers - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUHVxRjFhb2k0d294NlhCZHFISnROcjRITjBZWjFtVm1BVmh2cjRSbHNITDNjVnNNdzg5Z0NMTThiVUFJQ253RmxyeUdFai1XdU92ajU1M1cxY1N5UzRpa0pkN24xMldxMXNrekRXRldYRTV2ZnA1bEJqcGZYNHJtc2lUcEMydWpkM0NncXRTdzhBY2PSAZgBQVVfeXFMUGdfcWpVa2ZERDBIX0RucUJjWXhMM2lJSlVlUTkzazFHV3IwWmxJVmk3M1JYOGpuejlUZ2F3Z1FFeG9zSkltcVFqZTBEZ1g3ZFBZaVd4ZTg2SXZLWVN2TVBuWHM5c09YRGV3Ui1CakJIWmFxWGFWZkZCTDg5QXZQTGpEYlJuQXJNUWdGMjdiWEthaDVIUzRZMEg?oc=5",
-      "source": "CNBC",
-      "publishedAt": "2026-10-21T23:00:01.000Z",
+      "title": "Tesla Profit Slumps as Elon Musk’s Car Company Considers Merging With SpaceX - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EeFVqWkVVT2NLR2NIeUYtcXEyXzVVeXRhSDVTbm5WV2ZkckMyLXNpR1FYUmYzbU43NXBSNHltQ1JpZHhMTGVCb0V5WF9IQ3ZDV2NlRVRMZ3JMYVFhMjNISmF4NmtxOWV1cFp0dWhkcDdKMkpyNUZYZmpMSWk2QQ?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-21T23:06:24.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1637,12 +1695,11 @@
       "score": 40
     },
     {
-      "title": "MSCI Pressed by Investors to Justify Stark Indonesia Warning",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/msci-pressed-by-investors-to-justify-drastic-indonesia-warning",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-21T23:00:00.000Z",
+      "title": "AI and jobs: The hot new topic for central bankers - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUHVxRjFhb2k0d294NlhCZHFISnROcjRITjBZWjFtVm1BVmh2cjRSbHNITDNjVnNNdzg5Z0NMTThiVUFJQ253RmxyeUdFai1XdU92ajU1M1cxY1N5UzRpa0pkN24xMldxMXNrekRXRldYRTV2ZnA1bEJqcGZYNHJtc2lUcEMydWpkM0NncXRTdzhBY2PSAZgBQVVfeXFMUGdfcWpVa2ZERDBIX0RucUJjWXhMM2lJSlVlUTkzazFHV3IwWmxJVmk3M1JYOGpuejlUZ2F3Z1FFeG9zSkltcVFqZTBEZ1g3ZFBZaVd4ZTg2SXZLWVN2TVBuWHM5c09YRGV3Ui1CakJIWmFxWGFWZkZCTDg5QXZQTGpEYlJuQXJNUWdGMjdiWEthaDVIUzRZMEg?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-10-21T23:00:01.000Z",
       "kind": "news",
-      "summary": "As MSCI Inc. officials joined a call on Tuesday afternoon Jakarta time, many of the more than 100 participants were investors still reeling from the index provider’s sudden warning of a potential double downgrade for Indonesia. They questioned the need for such a drastic step and wanted to know whether the country stood a chance of retaining its emerging-market status.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1667,63 +1724,6 @@
       "publishedAt": "2026-10-21T22:59:34.000Z",
       "kind": "news",
       "summary": "Meta signed an agreement with Mark Zuckerberg to keep him living in the same jurisdiction as the company’s headquarters after the CEO said he was weighing leaving California if the state passes a wealth tax. Ed Ludlow has more. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Comcast Planning Significant Jobs Cuts as Part of Reorganization",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/comcast-planning-significant-jobs-cuts-as-part-of-reorganization",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-21T22:53:38.000Z",
-      "kind": "news",
-      "summary": "Comcast Corp. is planning a significant number of job cuts as part of an overall restructuring of its cable-TV, broadband and wireless businesses, according to people familiar with the company’s thinking.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Anthropic Joins the A.I. Agent Race With Claude Duet - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNblFra1FIR1VRWmpPaW80WGJSZGNtVG02LUMzU0pvR0NQbkJ3R1N1eGxTS0ZhblV6ZDV1VUNiMVVKVHRCNVI5aHZaZjBGREZUSDg3ekExUnFFWjF2QUs4Qk9ZREN6cUt4QVNZTnlwLThQMmt0Wmp3QWh1QkF3TDFuY1hNOGRnU2Ew?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-21T22:45:12.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Meta Earnings Show Increased A.I. Spending, Even as Cash Pressures Grow - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPYTI4UlUxdjlSUm9wTV9lNmJoZlhtSmhRSVgtYUdxa0NCRy1YWGNPUldnLXNrUzlhR003YVUwNjJuSFpWeTRfb1Vzd1JhN2Mtb25MSktUQlc0eWVoQkZhb0dYVWoxWEpxa19ucDZuSVVmQQ?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-21T22:42:39.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Data centers could erase decades of air quality gains - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTnJ4ZW5LdGctRHl2d3Y3dXNwdERIQWxWVktFTjNnakdKZWcwbzVsZnF6UFNrUXF1d0N6MllTMnUwNktONm1nSVNhWlZ6Y2xOVjIxZGh3LWJNRlN0YzJCNVluT2s1US1sd1RNWHUwTHU0SUdJeTZlcjgxQzZuUFB2eE4yam4yaVA1OE9IWWlTeEE5VkJkcFVtNUJidw?oc=5",
-      "source": "The Verge",
-      "publishedAt": "2026-10-21T22:33:44.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "AI Trade Stumbles After Tech Earnings, Oil Rallies: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-21T22:13:33.000Z",
-      "kind": "news",
-      "summary": "Stocks fell as megacap earnings failed to reassure investors about the rebound in the artificial intelligence trade, Chinese equities neared a bear market and escalating Middle East tensions drove oil prices higher. Treasuries and the yen gained on haven demand.",
       "tier": 1,
       "tickers": [],
       "related": [],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T02:01:27.596Z",
+  "generatedAt": "2026-10-22T02:36:27.521Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Serious Question",
+      "url": "https://www.reddit.com/r/FRMI/comments/1xc649g/serious_question/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-10-22T02:04:19.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Low-Mine-3683",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Serious Question"
+    },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000667/xsl144X01/primary_doc.xml",
@@ -557,7 +579,7 @@
       "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://uk.finance.yahoo.com/quote/FRMI/",
       "source": "Yahoo Finance UK",
-      "publishedAt": "2026-10-21T13:26:35.000Z",
+      "publishedAt": "2026-10-21T13:27:15.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -834,30 +856,6 @@
       "related": [],
       "score": 38,
       "summary": "Short Squeeze!!!!"
-    },
-    {
-      "title": "Fermi on Instagram: Three GE Vernova 6B gas turbines have officially arrived on site, marking another major milestone in the buildout of Project Matador’s power generation infrastructure.\"",
-      "url": "https://www.reddit.com/r/FRMI/comments/1x6rbi3/fermi_on_instagram_three_ge_vernova_6b_gas/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-10-15T17:05:30.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/Intrepid-Army-1838",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [
-        "GEV"
-      ],
-      "score": 38,
-      "summary": "Fermi on Instagram: Three GE Vernova 6B gas turbines have officially arrived on site, marking another major milestone in the buildout of Project Matador’s power generation infrastructure.\""
     }
   ],
   "related": [
@@ -874,7 +872,7 @@
         "OpenAI",
         "GOOGL"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Elisa Advances AI-RAN Deployment with NVIDIA and Nokia in Finland - The Fast Mode",
@@ -889,6 +887,34 @@
       ],
       "score": 65,
       "summary": "Elisa Advances AI-RAN Deployment with NVIDIA and Nokia in Finland"
+    },
+    {
+      "title": "Nvidia Widens AI's Footprint From Telecom Sites to a 14-Day Data Center Build - AD HOC NEWS",
+      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/nvidia-widens-ai-s-footprint-from-telecom-sites-to-a-14-day-data-center-build/70389473",
+      "source": "AD HOC NEWS",
+      "publishedAt": "2026-10-22T02:10:49.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia announced European telecom AI deployments, Google Cloud Rubin plans, and supply-chain capacit"
+    },
+    {
+      "title": "NVIDIA Secures AI Semiconductor Supply Chain with Component Investments - 조선일보",
+      "url": "https://www.chosun.com/english/industry-en/2026/10/22/7W5P7VRJ2RGRTP4OLBBU4QQ4YM/",
+      "source": "조선일보",
+      "publishedAt": "2026-10-22T02:05:25.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "NVIDIA Secures AI Supply Chain with Component Investments"
     },
     {
       "title": "Nvidia’s AI Chip Dominance: Can Custom Chips Threaten Its Valuation? - The Acquirer's Multiple",
@@ -1243,42 +1269,52 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "Nvidia Stocks Gain 1.83% as Modular AI Factories Target 14-Day Starts - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stocks-gain-1-83-213606902.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-21T21:36:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Boeing, Microsoft Aim AI at Airlines’ $3.1 Billion Repair Bill - PYMNTS.com",
-      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/boeing-microsoft-aim-ai-airlines-3-billion-dollar-repair-bill/",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-10-21T21:30:13.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Boeing wants airlines to catch mechanical problems before they ground a jet. The aircraft maker announced in a Tuesday (Oct. 20) press release the launch"
     }
   ],
   "general": [
     {
-      "title": "AI & Tech Brief: Agents tamper with their monitors - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0Q3MzZwbUR4ajJvaW84TEhpU0QtZk9VY0VIMnduU1JMcmlKSmx6NUY2elNKenN6enY0MGl1eHZGOTZocGxOa2d3OTBiMDlWWEtqRjdBd0Y3NFNoaWdOYzJNdldkZ1RaZ051R0FKdlpsMDVBa0VCQWx6YmRaQnJCQ24tN3RGclh5QWpmWnZYOVh1ZHZaQnY5bWFqcVVSX3ZGQUhGZWdwNHlhb2w0STBTRHhWUlE1MHFleUI2aA?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-10-22T01:24:38.000Z",
+      "title": "Jio IPO Sees Overwhelming Demand on Day One Even as Nifty Struggles",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/jio-ipo-sees-overwhelming-demand-on-day-one-even-as-nifty-struggles",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T02:30:01.000Z",
       "kind": "news",
+      "summary": "The enthusiasm for Jio’s IPO stands in sharp contrast to the Reliance group’s recent stock-market performance.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "DeepSeek Raises $15 Billion in Challenge to Leading US Labs",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/deepseek-raises-15-billion-in-challenge-to-leading-us-labs",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T02:17:34.000Z",
+      "kind": "news",
+      "summary": "The Chinese AI pioneer DeepSeek has raised about 100 billion yuan ($15 billion) in its latest fundraising round, one of the country’s largest ever and a sign of the startup’s ambitions to compete globally with the likes of Anthropic PBC and OpenAI.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Korea Neocloud Firm Elice Tops IPO Price in Second-Day Rally",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/korea-neocloud-firm-elice-tops-ipo-price-in-second-day-rally",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T02:14:10.000Z",
+      "kind": "news",
+      "summary": "South Korean neocloud-service provider Elice Inc.’s shares rose for a second straight day, climbing above their IPO price and suggesting investors remain committed to the AI trade despite surging industry spending.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Indonesian Stocks Fall as Concerns Over MSCI’s Downgrade Return",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/indonesian-stocks-fall-as-concerns-over-msci-s-downgrade-return",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T02:06:06.000Z",
+      "kind": "news",
+      "summary": "Indonesian shares declined, ending a two-day rebound in a sign of fresh worries about MSCI Inc.’s warning to downgrade the Southeast Asian country.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1288,7 +1324,7 @@
       "title": "Southeast Asia is hungry for AI — and the money isn't just in subscriptions",
       "url": "https://www.cnbc.com/2026/10/22/southeasaisa-singapore-bain-temasek-google-.html",
       "source": "CNBC",
-      "publishedAt": "2026-10-22T01:22:22.000Z",
+      "publishedAt": "2026-10-22T02:01:48.000Z",
       "kind": "news",
       "summary": "Southeast Asia's rapid AI adoption is creating business opportunities beyond paid consumer subscriptions, a partner at Bain & Company, told CNBC.",
       "tier": 1,
@@ -1305,7 +1341,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Singapore Dollar Gains on Yen as Carry Funder, Analysts Say",
@@ -1317,7 +1353,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "UTA student creates AI tool centered on human advancement, not dependence - The Shorthorn",
@@ -1354,12 +1390,12 @@
       "score": 50
     },
     {
-      "title": "BOK Holds Rate After Rare Back-to-Back Increase Due to Chip Boom",
+      "title": "BOK Signals More Tightening on Strong Growth After Holding Rate",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/bok-holds-rate-as-it-takes-stock-of-back-to-back-increases",
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T00:52:07.000Z",
       "kind": "news",
-      "summary": "The Bank of Korea kept its benchmark interest rate unchanged, pausing after a rare back-to-back increase aimed at containing inflation fueled by an unprecedented semiconductor-led economic boom.",
+      "summary": "The Bank of Korea said it expects growth this year and next to be “considerably higher” than previous projections, signaling more tightening to come after holding its benchmark interest rate in the wake of a rare back-to-back increase.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1390,7 +1426,7 @@
       "score": 50
     },
     {
-      "title": "China Stock Rescue May Need More State Buying to Work, BI Says",
+      "title": "China Stock Rescue Needs More State Buying to Work, BI Says",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/china-stock-rescue-may-need-more-state-buying-to-work-bi-says",
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T00:15:41.000Z",
@@ -1531,18 +1567,6 @@
       "score": 50
     },
     {
-      "title": "China’s Petrochemicals Glut Turns to Crunch After Months of War",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/eight-months-of-war-turns-china-petrochemical-glut-into-a-crunch",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-21T23:00:00.000Z",
-      "kind": "news",
-      "summary": "China has burned through much of a petrochemicals glut built up by years of overproduction as the US-Iran war chokes oil flows, setting the stage for higher prices for an array of industrial materials.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Philippines to Lift Key Rate as El Niño Adds to Inflation Threat",
       "url": "https://www.bloomberg.com/news/articles/2026-10-21/philippines-to-lift-key-rate-as-el-nino-adds-to-inflation-threat",
       "source": "Bloomberg",
@@ -1630,18 +1654,6 @@
       "publishedAt": "2026-10-21T22:32:37.000Z",
       "kind": "news",
       "summary": "Iron ore miner Fortescue Ltd. warned that the standoff with state-backed buyer China Mineral Resources Group Co. could hit full-year profit, prompting shares to drop more than 4%.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "APA to Build Major Australia Gas Pipeline to Avert Shortfalls",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-21/apa-to-build-major-australia-gas-pipeline-to-avert-shortfalls",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-21T22:23:06.000Z",
-      "kind": "news",
-      "summary": "APA Group reached a final investment decision on a natural gas pipeline between Queensland and New South Wales states, which could help alleviate projected shortfalls in the more heavily populated southeast of Australia.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1839,18 +1851,6 @@
       "publishedAt": "2026-10-21T21:00:00.000Z",
       "kind": "news",
       "summary": "More than 80% of Bank of Japan watchers anticipate the central bank’s next interest rate increase will come in December, according to a recent Bloomberg survey. None expect a hike when the bank concludes its next meeting on Oct. 30.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Tesla's Future Is Robotaxis, Says Ark's Keeney",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-21/tesla-s-future-is-robotaxis-says-ark-s-keeney-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-21T20:51:27.000Z",
-      "kind": "news",
-      "summary": "Tasha Keeney, Ark Investment director of investment analysis, says robotaxis are the future for Tesla. She says the company is well positioned over its peers and the Cybercab is cheaper to operate compared to Waymo's next generation vehicle. Elon Musk's company reported third-quarter profits that beat estimates. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

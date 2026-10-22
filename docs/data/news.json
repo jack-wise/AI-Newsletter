@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T14:31:31.369Z",
+  "generatedAt": "2026-10-22T15:01:47.812Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -916,6 +916,20 @@
   ],
   "related": [
     {
+      "title": "Red Hat and NVIDIA Built AI Agent Security Controls Agents Cannot Override - Tech Times",
+      "url": "https://www.techtimes.com/articles/329365/20261022/red-hat-nvidia-built-ai-agent-security-controls-agents-cannot-override.htm",
+      "source": "Tech Times",
+      "publishedAt": "2026-10-22T14:28:10.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "AI agent security took a hardware turn Tuesday as Red Hat and NVIDIA unveiled a layered architecture at GTC Berlin that enforces agent limits from outside the agent&rsquo;s own code, using Linux kernel sandboxing and a physically separate DPU processor, while a Deloitte survey finds 74% of enterprises"
+    },
+    {
       "title": "Qblox Integrates NVIDIA DGX Spark With Quantum System Controller - The Quantum Insider",
       "url": "https://thequantuminsider.com/2026/10/22/qblox-hybrid-quantum-computing-nvidia-dgx-spark-nvqlink/",
       "source": "The Quantum Insider",
@@ -926,7 +940,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Qblox has integrated NVIDIA DGX Spark into its quantum control setup, supporting hybrid workloads and GPU-accelerated calibration through CUDA-Q."
     },
     {
@@ -975,7 +989,7 @@
       "title": "SEEQC Combines Chip-Based Processing With NVIDIA AI to Improve Quantum Error Correction - The Quantum Insider",
       "url": "https://thequantuminsider.com/2026/10/22/seeqc-combines-chip-based-processing-with-nvidia-ai-to-improve-quantum-error-correction/",
       "source": "The Quantum Insider",
-      "publishedAt": "2026-10-22T12:23:46.000Z",
+      "publishedAt": "2026-10-22T12:07:16.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1000,10 +1014,10 @@
       "summary": "Google partners with Voltus on massive virtual power plant to stabilize grid for 67M people"
     },
     {
-      "title": "To Make Way for Data Centers, Google Will Pay Others to Use Less Power - The New York Times",
+      "title": "Google Eyes Large ‘Virtual Power Plant’ for Data Centers - The New York Times",
       "url": "https://www.nytimes.com/2026/10/22/climate/google-voltus-virtual-power-plant.html",
       "source": "The New York Times",
-      "publishedAt": "2026-10-22T11:30:05.000Z",
+      "publishedAt": "2026-10-22T11:30:06.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1018,20 +1032,6 @@
       "source": "Bloomberg.com",
       "publishedAt": "2026-10-22T11:02:01.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia’s Jensen Huang Scolds Europe on AI Race",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/nvidia-s-jensen-huang-scolds-europe-on-ai-race",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T11:02:01.000Z",
-      "kind": "news",
-      "summary": "The CEO urges the bloc to get serious and harness its strengths to join the AI race",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1068,20 +1068,6 @@
       "summary": "In an exclusive interview with CNBC, Nvidia CEO Jensen Huang discusses the valuations of frontier labs like Anthropic and OpenAI, and outlines the tools that are in place to control AI models and promote safety."
     },
     {
-      "title": "Nvidia Unveils OpenShell Architecture to Monitor AI Agents - THE ELEC, Korea Electronics Industry Media",
-      "url": "https://www.thelec.net/news/articleView.html?idxno=14839",
-      "source": "THE ELEC, Korea Electronics Industry Media",
-      "publishedAt": "2026-10-22T10:05:49.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Nvidia unveiled its OpenShell reference architecture at its annual GTC 2026 Berlin confere"
-    },
-    {
       "title": "Nvidia Has 80% of Its Portfolio Invested in 2 Artificial Intelligence (AI) Stocks - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/10/22/nvidia-80-portfolio-invested-2-ai-stocks/",
       "source": "The Motley Fool",
@@ -1094,6 +1080,60 @@
       ],
       "score": 65,
       "summary": "AI chip giant Nvidia is betting heavily on SpaceX and Intel."
+    },
+    {
+      "title": "Schneider Electric, NVIDIA & HPE Debut Industrial AI Agents - Data Centre Magazine",
+      "url": "https://datacentremagazine.com/news/schneider-electric-nvidia-and-hpe-debut-industrial-ai-agents",
+      "source": "Data Centre Magazine",
+      "publishedAt": "2026-10-22T14:35:08.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Schneider Electric's Krishna Kasturi, R&D Vice President Industrial Automation, says AI is \"only as valuable as the outcome it delivers on the plant floor\""
+    },
+    {
+      "title": "PLA Partners with Microsoft on Library AI Info Sessions - Publishers Weekly",
+      "url": "https://www.publishersweekly.com/pw/by-topic/industry-news/libraries/article/101589-pla-partners-with-microsoft-on-library-ai-info-sessions.html",
+      "source": "Publishers Weekly",
+      "publishedAt": "2026-10-22T14:34:52.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "“This is about ensuring that people know how to exercise their agency when it comes to AI,” former Public Library Association president PLA president Brandy McNeil said of the educational initiative, which kicks off in December."
+    },
+    {
+      "title": "Lenovo's New Yoga Laptops Target AI Creators With NVIDIA RTX Spark And OLED Displays - NDTV Profit",
+      "url": "https://www.ndtvprofit.com/technology/lenovos-new-yoga-laptops-target-ai-creators-with-nvidia-rtx-spark-and-oled-displays-12221479",
+      "source": "NDTV Profit",
+      "publishedAt": "2026-10-22T14:33:25.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "NVIDIA Corporation (NVDA) Remains a Key AI Growth Driver Despite Benchmark Headwinds - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcVdHR2hGTWJjT2pSVUV3YUM3cUhBeHFlejVVUkdmM05DUHNsLVBVWk5mX2VqSFVQWmpMMnFVN0dmb3F6bUlXTW5CUGxXX0RGYmplbnNXVEJpQ0J2bllqU1RTdzFFa2M4bFlSeFctUTR5ODBjNTRXX25iOEFNRDJUTFFtdHF2cEE5b3R1QlFfbGd3VmJTN0pQYnJ4NllsWWFC?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-22T14:25:20.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     },
     {
       "title": "Zadara Achieves NVIDIA AI Cloud Ready Validation for Sovereign AI Infrastructure Platform - citybiz",
@@ -1110,54 +1150,12 @@
       "summary": "Zadara has achieved NVIDIA AI Cloud Ready validation for its cloud infrastructure platform, confirming its ability to support production AI... Read More"
     },
     {
-      "title": "Tanium Brings Enterprise-Grade Manageability to NVIDIA Local AI Infrastructure - AiThority",
-      "url": "https://aithority.com/it-and-devops/tanium-brings-enterprise-grade-manageability-to-nvidia-local-ai-infrastructure/",
-      "source": "AiThority",
-      "publishedAt": "2026-10-22T13:39:56.000Z",
+      "title": "Nvidia's Huang says scarce capital is holding back neocloud growth (NVDA:NASDAQ) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOWp2eUNENzZ4RXB0THpENk1uR041ZVZjSV9SdThaN0VOdDZhMXg1aF9FUGVKbXdzRXBGQlJaY2pmQmdueUZhVFFEOE9ZOGhfeVhKdElYVkhNMEVsWGJLaUVjbVYzajlfUmZaNFJ1ZFdQSkU3d2ZNbmM2N1NXdHltVFBKN0w0TERkY3N0LWNUTGNiZks1enZYZlBOYVQwTHBQRW10RHd3?oc=5",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-22T11:12:40.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Tanium, a leader in Autonomous IT, announced a collaboration with NVIDIA to extend its enterprise-grade endpoint management to NVIDIA's local AI infrastructure"
-    },
-    {
-      "title": "Scoop: Nvidia shows off 8-port switch prototype to scale desktop AI supercomputers - SDxCentral",
-      "url": "https://www.sdxcentral.com/news/nvidia-shows-off-8-port-switch-prototype-to-scale-desktop-ai-supercomputers/",
-      "source": "SDxCentral",
-      "publishedAt": "2026-10-22T13:39:41.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "400G switch prototype turns Spark personal computers into interconnected AI Jenka blocks"
-    },
-    {
-      "title": "NVIDIA introduces containerized reference design for AI factories - Engineering.com",
-      "url": "https://www.engineering.com/nvidia-introduces-containerized-reference-design-for-ai-factories/",
-      "source": "Engineering.com",
-      "publishedAt": "2026-10-22T13:33:04.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "DSX POD integrates computing, networking and cooling before delivery, with deployment targeted in as little as 14 days."
-    },
-    {
-      "title": "NVIDIA cuDSS Reaches General Availability, With Partners Reporting Speedups of Up to 10x - HPCwire",
-      "url": "https://www.hpcwire.com/2026/10/22/nvidia-cudss-reaches-general-availability-with-partners-reporting-speedups-of-up-to-10x/",
-      "source": "HPCwire",
-      "publishedAt": "2026-10-22T13:31:56.000Z",
-      "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
@@ -1191,46 +1189,6 @@
       "score": 55
     },
     {
-      "title": "Nvidia taps Korean component makers for AI chips, robots - The Korea Herald",
-      "url": "https://www.koreaherald.com/article/10911360",
-      "source": "The Korea Herald",
-      "publishedAt": "2026-10-22T04:22:51.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Samsung Electro-Mechanics and LG Innotek are expanding their ties with Nvidia, applying their expertise in semiconductor substrates and sensing technology to th"
-    },
-    {
-      "title": "Nvidia CEO encourages Europe's lagging AI sector and offers tools to accelerate data center buildout - AP News",
-      "url": "https://apnews.com/article/jensen-huang-ai-gtc-berlin-nvidia-a320db64110d99297381912605ebdc57",
-      "source": "AP News",
-      "publishedAt": "2026-10-21T19:42:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia Is AI’s Central Bank. Now Jensen Huang Must Step Up - Bloomberg.com",
-      "url": "https://www.bloomberg.com/opinion/articles/2026-10-21/nvidia-is-ai-s-central-bank-now-jensen-huang-must-step-up",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-21T18:01:01.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
       "title": "Nvidia's Huang hails Europe's AI potential, flanked by robot ducks - Reuters",
       "url": "https://www.reuters.com/business/germanys-agile-make-up-2000-humanoid-robots-with-nvidia-ceo-says-2026-10-21/",
       "source": "Reuters",
@@ -1256,6 +1214,47 @@
       ],
       "score": 55,
       "summary": "OpenAI says GPT-6 agents weakened misalignment monitoring in two internal coding tasks, disabling alerts and removing a monitoring integration."
+    },
+    {
+      "title": "Scoop: Nvidia shows off 8-port switch prototype to scale desktop AI supercomputers - SDxCentral",
+      "url": "https://www.sdxcentral.com/news/nvidia-shows-off-8-port-switch-prototype-to-scale-desktop-ai-supercomputers/",
+      "source": "SDxCentral",
+      "publishedAt": "2026-10-22T13:39:41.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "400G switch prototype turns Spark personal computers into interconnected AI Jenka blocks"
+    },
+    {
+      "title": "Volkswagen builds AI data flywheel with Nvidia and Voxel51 - Automotive World",
+      "url": "https://www.automotiveworld.com/news/volkswagen-builds-ai-data-flywheel-with-nvidia-and-voxel51/",
+      "source": "Automotive World",
+      "publishedAt": "2026-10-22T13:36:40.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Porsche is leading a VW Group effort to turn fleet data into simulation and training inputs, using Voxel51, Nvidia Cosmos and Azure"
+    },
+    {
+      "title": "NVIDIA cuDSS Reaches General Availability, With Partners Reporting Speedups of Up to 10x - HPCwire",
+      "url": "https://www.hpcwire.com/2026/10/22/nvidia-cudss-reaches-general-availability-with-partners-reporting-speedups-of-up-to-10x/",
+      "source": "HPCwire",
+      "publishedAt": "2026-10-22T13:31:56.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
     },
     {
       "title": "OpenAI Says AI Agents Weakened Internal Monitoring Systems - CDO Magazine",
@@ -1327,12 +1326,141 @@
   ],
   "general": [
     {
+      "title": "AI Spending Faces the Profit Test",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/ai-spending-faces-the-profit-test-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:54:46.000Z",
+      "kind": "news",
+      "summary": "Goldman Sachs Chief US Equity Strategist Ben Snider says concentration in the Magnificent Seven could amplify risk as macro pressures build. Earnings remain strong, but rising costs are weighing on results. Investors are looking to defensive sectors, while the next phase of the AI trade depends on proof that heavy investment can deliver returns. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Spotify Rallies on Subscribers; Hermès falls on China Sales | Stock Movers",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/spotify-up-on-subscribers-hermes-falls-on-china-sales-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:54:37.000Z",
+      "kind": "news",
+      "summary": "- Shares of Procter & Gamble (PG) moved higher ahead of the US market open after the company's sales and profits beat Wall Street expectations. Organic revenue rose 4% in the first quarter, the fastest growth in three years. - Shares of Spotify (SPOT) rallied after results and forecast spoke to improving margin trends. Spotify reported that the service’s paying subscribers increased 2% to hit 306 million in the third quarter, topping Wall Street estimates of 305.1 million. - ",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Spending: Boom or Breaking Point?",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/ai-spending-boom-or-breaking-point-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:53:12.000Z",
+      "kind": "news",
+      "summary": "AI demand is surging, but will massive spending pay off? JPMorgan Asset Management's Gabriela Santos discusses free cash flow, quality, and the shift from building AI infrastructure to adopting it—and what that could mean for market winners, earnings and bonds. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "American Airlines forecasts bigger loss in 2026 on fuel spike, plans to slow growth next year",
+      "url": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-10-22T14:52:09.000Z",
+      "kind": "news",
+      "summary": "It's the fourth major U.S. carrier to cut its 2026 forecast this month because of a spike in fuel costs.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Ukraine’s strikes on Russian data centers disrupt key services and derail AI research - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYWpTNEFPQ2s1OU5QRS1HMzBDVExXeFRlOWUxRzNWamxYTjREcENTMmw1VWlrNkRpdnFNRUFXLVZTUjI3SkZqRlhIZVVXc2hhampybC1pbHVkT2Nhd290ZVlOWEt1TDA4YzgwUUxOM2k1OEE2UFZGWi1DRkU2ckwxVHNZR3pQb2tVN3I2MjFfQlhMZjhqSDdXTTFyRUJCUlFueGlF?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-10-22T14:44:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Barclays to Cut 5,000 Jobs in AI-Fueled Push to Lower Costs - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaGo1ZUMwV0ZhUU1fVi1IUWU3ZjU1TUZhNFVWZ0pIX0RYWkh0bTVVd0VkMnkteS1XbnVRNDRYWGpNSlFmMDB2WlMzelprOXRkWE5SenNQX1Q2Q3Y2YkNoYnhoTzd0ZnVmeE9KZGI1UFRVVDVQLUVQcjNvdkJ4dlVuWnVPdktuTTM4TUN1SllpcVFOSWdUWTFsNHZQejdIZ2U3UllYSjI1REZ3TnB2OWow?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-22T14:43:43.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "PHP Cybersecurity Flaws: How AI Uncovered Software Vulnerabilities",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/php-cybersecurity-flaws-how-ai-uncovered-software-vulnerabilities",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:40:39.000Z",
+      "kind": "news",
+      "summary": "Researchers have disclosed two serious security vulnerabilities in a programming language that powers much of the internet, known as PHP. A race is now on to patch up the flaws in millions of affected websites, software packages and applications before criminal hackers get a chance to exploit them.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Satellite Maker Apex in Funding Talks At $4 Billion Valuation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/satellite-maker-apex-in-funding-talks-at-4-billion-valuation",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:39:10.000Z",
+      "kind": "news",
+      "summary": "Satellite maker Apex is in talks for a new funding round at a roughly $4 billion valuation, according to people familiar with the matter, nearly doubling its value from a prior round in June.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Meta's AI Bet Faces Questions",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/meta-s-ai-bet-faces-questions-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:36:29.000Z",
+      "kind": "news",
+      "summary": "Meta's core ad business remains strong, growing 26%, but investors are weighing lower margins, unclear 2027 spending guidance and potential share dilution. Analyst Michael Nathanson explains why he values Meta's core business at about $900 per share and why it's too early to count on Muse for additional upside. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "A.I. and Its Dangers Are Embedded In the Midterm Elections - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd1dkcFhzRDJhakxUNEd2MFg3amZxc3p2Wjd2VnRRRllFSGdDQWpjY21LQVpyZFhLdC0yOVVxVmFvMnZjNlNBTE1ZdDVvUUptNXI5bzh4M2Y1djVjNzdRNUd5WnNXVkdLc0VzZ2ZPbjdqdUU3YnMzUllqMm9jYUJxc1ptcVdhUTZwOGtyWg?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-22T14:34:09.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Comcast beats earnings expectations as media revenue offsets weakness in connectivity",
       "url": "https://www.cnbc.com/2026/10/22/comcast-cmcsa-earnings-q3-2026.html",
       "source": "CNBC",
-      "publishedAt": "2026-10-22T14:30:59.000Z",
+      "publishedAt": "2026-10-22T14:33:34.000Z",
       "kind": "news",
       "summary": "Comcast is in the process of spinning off its media business into a separate publicly traded company.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Meta’s Zuckerberg Tax Strategy Explained",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-22/meta-s-zuckerberg-tax-strategy-explained-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:29:01.000Z",
+      "kind": "news",
+      "summary": "Meta quietly created a new class of non-voting shares that could give Mark Zuckerberg billions in liquidity without weakening his control of the company. Bloomberg's Ed Ludlow explains the regulatory filings, Zuckerberg’s concerns over California’s proposed billionaire tax, and why Meta says the move is also about funding its massive AI ambitions. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1387,6 +1515,18 @@
       "score": 60
     },
     {
+      "title": "Turkey’s Zorlu Enerji to Miss Coupon on $1.1 Billion Bond",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/turkey-s-zorlu-enerji-to-miss-coupon-on-1-1-billion-bond",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T14:19:47.000Z",
+      "kind": "news",
+      "summary": "Zorlu Enerji, the power producer and distributor owned by one of Turkey’s largest conglomerates, will miss a coupon payment due this week on its $1.1 billion bond, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Procter & Gamble earnings beat as sales rise 4%, boosted by laundry and home products",
       "url": "https://www.cnbc.com/2026/10/22/procter-gamble-pg-q1-2027-earnings.html",
       "source": "CNBC",
@@ -1411,6 +1551,28 @@
       "score": 60
     },
     {
+      "title": "Stifel: Meta results signal continued AI infrastructure demand growth - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMW9zbTBZaXYycF9iaUhWQ0dvN2VpcjZpZlFOaTY1N3YzYWx2dVQ5R1U0MDVFbDl5S2J0SDdtNlZOSXZqNDJIWnZPNDFhbXJPSnp3UGpmUmJ2eWhKSlU4TnRTdkpXZXRTc0J6Y0E5Z2x2MVJFaDh5YzA5dGwzaHh4ckpNMEFRWk5VcWVSVFd1SDJUYW5nQVczNVM5M3d0Um05elZYb0xIWFcwU2syaXlqY3c4aFRvNXFqWTFuOEQ0dzNBMjRuZTZPY0hB?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-10-22T15:00:00.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "IREN vs APLD: comparing two AI infrastructure stocks - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYl80Q3VmcVJlYUJxWUd2aVV6ZVh5SEMzOVFVZ01qWWdrdGdHZTk0cXE5RXpLeHF4OWNETFQ5Wld3cjg5X3QtWWtQS2RjWlZic29ZbjZkZWZtaWctYXBoajAtQ1lxUGt1Qk8wb3dRNWxTZHhpblhKTEFMT1FNOHJCOExBWHVwdUVkTjlmcXRwS1JiMUxkT2dJZUJCVUlQdTJSbElqeTdHOWZzTm9rVFRsMFBUZw?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-10-22T14:36:45.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Texas Developer Seeks $3.5 Billion in Debt Financing for AT&T (T) Headquarters",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/texas-developer-seeks-3-5-billion-in-debt-financing-for-at-t-t-headquarters",
       "source": "Bloomberg",
@@ -1420,19 +1582,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "American Airlines forecasts bigger loss in 2026 on fuel spike, plans to slow growth next year",
-      "url": "https://www.cnbc.com/2026/10/22/american-airlines-aal-q3-2026-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-22T14:00:17.000Z",
-      "kind": "news",
-      "summary": "It's the fourth major U.S. carrier to cut its 2026 forecast this month because of a spike in fuel costs.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Bill Gates thinks AI could make us live like the Amish - The Verge",
@@ -1443,7 +1593,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Banque du Caire Boosts Size of Egypt’s Biggest IPO in a Decade",
@@ -1455,7 +1605,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Germany’s Idle Nuclear Plants Eye New Life as AI Data Centers - Bloomberg.com",
@@ -1466,7 +1616,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Shell and Exxon Put $8 Billion Chemical Unit on Block, FT Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/shell-and-exxon-put-8-billion-chemical-unit-on-block-ft-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T13:58:30.000Z",
+      "kind": "news",
+      "summary": "Shell Plc. and ExxonMobil Holdings Corp. are exploring a sale of their jointly-owned UK-based chemicals unit, according to the Financial Times.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Barclays to Cut 5,000 Jobs in AI Push",
@@ -1478,7 +1640,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "UK Fintech Revolut Expected to Issue Debt in 2027, S&P Says",
@@ -1490,7 +1652,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Apple’s Cash Flow Machine Makes It Investors’ Favorite AI Hedge - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVEhiUVdnQXdudGlrV3VvU0xhbkYyTkhSalotV1BMSWppMF91aEFYcnlFckRaV3drNWNRbzdjUzVxUkt5S0tIUTZabUpzR2hhbExfaDBQc1ctYTlJdFJ1Y1JxcnJkLUhZYl91U0Ffbl9Dcl9GbGdUZk91QlFSd0hiVzNUeS1ZR2VCWXBWZGlFdC05X0tHYlBwNFNYVlFGYk9nQnU2aDgzaUZTaW1MTHdvaE5QRQ?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-22T13:47:28.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "How tech became the villain of the US midterms - The Guardian",
@@ -1501,7 +1674,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "The biggest wealth giveaway in modern history aims to transform the world - The Washington Post",
@@ -1512,27 +1685,16 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Qatar Agrees to Buy US LNG to 2054 as War Disrupts Own Supply",
+      "title": "Qatar Agrees to Buy US LNG to 2054 as War Upends Supply",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/qatar-agrees-to-buy-us-lng-to-2054-as-war-disrupts-own-supply",
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T13:33:21.000Z",
       "kind": "news",
       "summary": "QatarEnergy signed a deal with Cheniere Energy Inc. to buy 4 million tons a year of liquefied natural gas through 2054, the Middle East nation’s first such US offtake deal as its own production has been throttled by the Iran war.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Claude Duet app is Anthropic’s bet on agents - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmgyb1ZobDFPVTdQcnNCbTIwR2EzODI3TmRwUGEyWl92eDY3OV83UVh3LXVfekJpNldLdlBXSW1oQlN0Z0MyRTNvUG1NSHRnTGg0NzBhSUFXbm41NFRIQjNObVNCV0xQS2xxWi1YaHpxN1dEOWtLZnUxRzBNMlJCc3lSTXI?oc=5",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-22T13:53:26.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1590,7 +1752,7 @@
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T13:08:38.000Z",
       "kind": "news",
-      "summary": "Blackstone Inc. President Jon Gray pushed back on the notion that there’s an AI bubble, just days after billionaire Ken Griffin said investors are “almost certainly” in the midst of one.",
+      "summary": "Blackstone Inc. President Jon Gray said investors don’t need to fear that the boom in AI will turn into a bubble, just days after billionaire Ken Griffin said he fears the industry was “almost certainly” headed in that direction.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1603,17 +1765,6 @@
       "publishedAt": "2026-10-22T13:01:17.000Z",
       "kind": "news",
       "summary": "Germany expects total tax revenue through 2030 to be marginally higher than a projection from May as the economy proves more resilient than anticipated, though the government will have no additional fiscal leeway next year.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Why AI’s Deepest Mind Believes the World Is About to Change Radically - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbGl4TVIxUEZZUmFMMVhheHBMV1lCSnlGbGNCX25US2dMRDFCakdUVmJBQ1pOXzdZYmh1eFV0QzNOOXNQc244b1UtUkZIWEF6T2ZoOW5zOVM5Z1VVUUtUTWNoT3E5emdiTDcwcldYMjcxSjBoZWt5VmtaYjBmTGd5Wmw1MGotZ19t?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-10-22T13:01:10.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1638,18 +1789,6 @@
       "publishedAt": "2026-10-22T12:56:03.000Z",
       "kind": "news",
       "summary": "A gauge of Meta Platforms Inc.’s credit risk surged to a fresh record Thursday and its bonds weakened, as plans to ramp up capital spending reignited fears that tech giants will issue more debt for AI buildout in an already saturated market.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Jobless Claims Hit Three-Month Low at 194,000",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/us-jobless-claims-hit-three-month-low-at-194-000-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T12:50:19.000Z",
-      "kind": "news",
-      "summary": "Applications for US unemployment benefits fell by 6,000 to 194,000 last week, a three-month low. The median forecast of economists polled by Bloomberg called for 200,000. Continuing claims rose to a six-week high of 1.73 million in the previous week. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1684,18 +1823,6 @@
       "source": "CNBC",
       "publishedAt": "2026-10-22T12:45:06.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Stocks Fall Amid Tech Earnings; Oil Climbs as MidEast Tensions Rise",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/bloomberg-brief-10-22-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T12:44:27.000Z",
-      "kind": "news",
-      "summary": "US equity futures slide as a recovery rally in AI fades. Meta boosts its capital spending plans for the year. Oil rises as the US pulls some diplomats from Saudi Arabia amid worsening tensions between Houthis and Iran. George Goncalves of MUFG joins \"Bloomberg Brief\" to discuss opportunities in bonds amid market volatility. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1738,18 +1865,6 @@
       "score": 50
     },
     {
-      "title": "AI Buildout Becoming an Economic Predictor, Says Economist Slok",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-22/ai-buildout-becoming-economic-predictor-economist-slok-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T12:32:18.000Z",
-      "kind": "news",
-      "summary": "Torsten Slok, chief economist at Apollo, discusses risks related to delays in data center construction, calling the AI buildout “a very, very critical driver of growth at the moment” for the US economy. He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Mexico Inflation Ticks Up as Banxico Weighs Next Rate Move",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/mexico-inflation-ticks-up-as-banxico-weighs-next-rate-move",
       "source": "Bloomberg",
@@ -1773,138 +1888,24 @@
       "score": 50
     },
     {
+      "title": "Norwegians Leave Gold in Forest as Some Fall for Scam",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-22/norwegians-leave-gold-in-forest-as-some-fall-for-scam",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-22T12:16:20.000Z",
+      "kind": "news",
+      "summary": "Swindlers have persuaded Norwegians into buying gold and leaving it in the forest as part of a growing investment fraud, according to the country’s banking lobby.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Czech Policymaker Sees Tough Rate Hike Call as Energy Risks Grow",
       "url": "https://www.bloomberg.com/news/articles/2026-10-22/czech-policymaker-sees-tough-rate-hike-call-as-energy-risks-grow",
       "source": "Bloomberg",
       "publishedAt": "2026-10-22T12:13:14.000Z",
       "kind": "news",
       "summary": "Czech policymakers face a tough decision on whether to raise interest rates next month, weighing a response to global pressures without adding fuel to a robust jump in market borrowing costs, according to a deputy central bank governor.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bosch to Separate Auto-Parts Unit as Chinese Rivals Gain Ground",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/bosch-to-separate-auto-parts-unit-as-chinese-rivals-gain-ground",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T12:00:00.000Z",
-      "kind": "news",
-      "summary": "Robert Bosch GmbH plans to legally separate its automotive-parts business, as the world’s largest car supplier races to cut costs and respond to intensifying competition from China.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Long-End US Yield Hits One-Month Low as AI Fears Fuel Haven Bid - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS2QtcWhJRzBXeWNiMnFqOXhfNHd4WDhjb1RqUk0xa3NNbUdyYl8xTE5aRDdCVy01WDRPMGstSjJ1SndrZlFDdllTNEdveGJwVjE4YlpJNlpQQjJNQnVJWFBqNkpCOEhaNzFvTW1yNXRhU2NWdnZ3MUhua0RPaUxhVS0zdkxQZEYxTndHU1k2Sl9kYzVsMmU2a1AwODZZS2hoQndjRHIyel9nYy1OQllYaEhFQ1I?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-22T11:56:27.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Sellers are back in tech, while bear market grips Chinese stocks",
-      "url": "https://www.cnbc.com/2026/10/22/sellers-are-back-in-tech-while-bear-market-grips-chinese-stocks.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-22T11:50:48.000Z",
-      "kind": "news",
-      "summary": "Here are the key things investors need to know to start the trading day.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Exclusive | SAP Weighs New Metric to Showcase AI Impact on Business - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNUxjbUtYaW41aXMza2Q3R18wSUpZMmZXNjVGMmE0SUU0WkdncEFlc2xUT3NscDFlVmZCWV9zbXpHVXhlMGd1Wnk0X2VNa3E2R18wVlFPVjhlc19TRlY2ejViX3Z5WmhtejNwVFBCMlljZDZUQ1Y3aEtDemhNbFZibmw0c3J1a1I2S0hOdWJ5VDJ6OU5hcWN6aVhKTjdUZUpFMmVtbw?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-10-22T11:50:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat - The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb1ljUjh3RnVBaVJwemlKem1QeUN2X1UxcnZFY0FETFV3QmFKN3Rta3VJV2JmMUJMNFJDNkNzWVpoOXZSbTV3Mm56c01md2lhUmV6TFF4UkNSbzZreFJ1UGhseTZHY3pJbi1ZLThnRjBnN29pcmhRYnloaGJQaVJpUGp3?oc=5",
-      "source": "The Hacker News",
-      "publishedAt": "2026-10-22T11:45:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Young Brits See Tech and Finance Jobs Plunge 22% in Three Years",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/young-brits-see-tech-and-finance-jobs-plunge-22-in-three-years",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T11:44:26.000Z",
-      "kind": "news",
-      "summary": "Young Britons are being squeezed out of high-paying industries such as tech and finance, according to new research that lays bare the jobless crisis hitting Generation Z.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Ukraine’s strikes on Russian data centers disrupt key services and derail AI research - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYWpTNEFPQ2s1OU5QRS1HMzBDVExXeFRlOWUxRzNWamxYTjREcENTMmw1VWlrNkRpdnFNRUFXLVZTUjI3SkZqRlhIZVVXc2hhampybC1pbHVkT2Nhd290ZVlOWEt1TDA4YzgwUUxOM2k1OEE2UFZGWi1DRkU2ckwxVHNZR3pQb2tVN3I2MjFfQlhMZjhqSDdXTTFyRUJCUlFueGlF?oc=5",
-      "source": "AP News",
-      "publishedAt": "2026-10-22T11:44:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Zacks Investment Ideas feature highlights: SpaceX, Tesla, United Airlines, Carnival, Maersk and Deere - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNSXBBRUd1dXhrVDZ3MWZEa1lCdmV5Tk1xdFNVY1hSdjYzUG8yOFhwZ3J1OTN0M3p1VFYxWGY0R0VRSUV6aGZka3F0ekI5UklmQ0hDcGw4cnBJUlMwOUJzX2ZQQ2VLa3pOWUxxbWJXcXFIS0hvb29TaHZzV29wclhkcWg1a2VRUmcwOGdLNmNsUTBjYXoyWEpYM1lIN0txWGJGSXVpTHpvVERFenpyTkg0Z3R4T2llYks4cFJYZ0kzTFlOaUVKa09mY09ROXFWMHJUR0VjRG51dzNBRTRqNV82Y2xtdFdhcnlDTWFrdF9kc3pHeGlxam5oNWRVSkVyQUd3R29BclNhVk1wMGkyTUE?oc=5",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-10-22T11:36:31.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta Reports $825 Billion in Future Spending Commitments",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/meta-reports-825-billion-in-future-spending-commitments",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T11:35:47.000Z",
-      "kind": "news",
-      "summary": "Meta Platforms Inc. said it has agreed to spend about $825 billion in the future on various leases and contracts, many of them related to computing power and infrastructure for artificial intelligence.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "America Is About to See What Happens When Voters Turn to AI - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMzZXRjhQTXlmLVZ0S1QwNkE1d2hQelZmYnpBdmQxZHdrb21BUm9aVnhQZ1BfRGU2ZmJNSXQwSWZvNkZCeXBUaXBxTUxOeUtHU05PNWhtcTcxV1g2ZXZwQW40QnFxUjhjcmZMQU80dVR6Skpoekd0NzM5MTREV2t2a3RQajBOczZaMnJuU2tNZ09KaFhM?oc=5",
-      "source": "The Atlantic",
-      "publishedAt": "2026-10-22T11:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Stocks Drop as Risk-Off Views Dominate With Oil Up, Meta Falling",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-22/us-futures-slip-as-risk-off-sentiment-dominates-with-oil-rising",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-22T11:29:09.000Z",
-      "kind": "news",
-      "summary": "Stocks opened lower on Thursday as escalating concern about Mideast conflict pushed oil futures higher, spurring inflation fears with US midterm elections less than two weeks away. Meta Platforms Inc. tumbled as investors parsed its results along with the rest of the latest batch of technology earnings for evidence that massive spending on AI is paying off.",
       "tier": 1,
       "tickers": [],
       "related": [],

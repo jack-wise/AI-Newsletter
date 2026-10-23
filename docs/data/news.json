@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:31:38.851Z",
+  "generatedAt": "2026-10-23T11:01:39.588Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -565,21 +565,6 @@
       "score": 45
     },
     {
-      "title": "Stock Market Today, Oct. 13: Fermi Surges 14% on AMD Credit Support for Project Matador - The Motley Fool",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-today-oct-13-fermi-surges-14-on-amd-credit-support-for-project-matador/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45,
-      "summary": "AMD's backing of Fermi's 222 MW lease signals financing momentum for AI campus infrastructure, though full funding hurdles remain ahead, Oct. 13, 2026.",
-      "excerpt": "Fermi secured a credit support agreement from AMD today, sending its stock 14% higher. The funding backstop will help Fermi support \"a lease for phase one of Fermi's Project Matador energy and AI buildout ... with 222 megawatts (MW) of gross power capacity in line with Fermi's first customer lease as announced on August 10, 2026.\" Fermi and AMD also agreed to a separate framework to support an expansion plan up to 650 MW. An analyst at Texas Capital Securities raised their price target to $20 on FRMI stock following the news, stating that AMD's size and reputation help validate the project immensely, especially derisking the expansion to 650 MW."
-    },
-    {
       "title": "[October 20, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1xai6ge/october_20_2026_fermi_america_frmi_discussion/",
       "source": "r/FRMI",
@@ -910,6 +895,28 @@
       "related": [],
       "score": 38,
       "summary": "AMD/FRMI"
+    },
+    {
+      "title": "Fermi’s Project Matador: Parsing Reported AMD Credit Support Against SEC Filings",
+      "url": "https://www.reddit.com/r/FRMI/comments/1x64i2k/fermis_project_matador_parsing_reported_amd/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-10-14T22:04:10.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/the_Desk-Research",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "Fermi’s Project Matador: Parsing Reported AMD Credit Support Against SEC Filings"
     }
   ],
   "related": [
@@ -969,32 +976,17 @@
       "score": 65
     },
     {
-      "title": "Nvidia, TCV Invest in AI Video Startup Higgsfield in Series B Extension",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T05:00:00.000Z",
+      "title": "OpenAI and Poland’s NASK collaborate on AI safety research - Reuters",
+      "url": "https://www.reuters.com/legal/litigation/openai-polands-nask-collaborate-ai-safety-research-2026-10-23/",
+      "source": "Reuters",
+      "publishedAt": "2026-10-23T06:25:00.000Z",
       "kind": "news",
-      "summary": "Higgsfield Inc., an AI video startup founded by a former Snap Inc. executive, said it has attracted investment from Nvidia Corp. and TCV to help fund global infrastructure and hiring to capture growing demand.",
       "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
       "score": 65
-    },
-    {
-      "title": "NVIDIA expands global manufacturing for AI infrastructure - Engineering.com",
-      "url": "https://www.engineering.com/nvidia-expands-global-manufacturing-for-ai-infrastructure/",
-      "source": "Engineering.com",
-      "publishedAt": "2026-10-23T09:45:05.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Substrate capacity is set to grow 2.5x in three years, while semiconductor testing capacity is expected to double from 2026 to 2027."
     },
     {
       "title": "Meta, Nvidia Lead Tech Sell-Off as AI Spending Fears Rattle Wall Street, But Gene Munster Sides With Musk - Benzinga",
@@ -1037,12 +1029,13 @@
       "score": 55
     },
     {
-      "title": "Pony.ai partners with inDrive, Nvidia to launch robotaxis in Kazakhstan - Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/ponyai-partners-with-indrive-nvidia-to-launch-robotaxis-in-kazakhstan-4968014",
-      "source": "Investing.com",
-      "publishedAt": "2026-10-23T04:38:36.000Z",
+      "title": "Nvidia, TCV Invest in AI Video Startup Higgsfield in Series B Extension",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T05:00:00.000Z",
       "kind": "news",
-      "tier": 2,
+      "summary": "Higgsfield Inc., an AI video startup founded by a former Snap Inc. executive, said it has attracted investment from Nvidia Corp. and TCV to help fund global infrastructure and hiring to capture growing demand.",
+      "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
@@ -1059,6 +1052,19 @@
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Microsoft develops AI tool that can diagnose 'sequentially' like a doctor - Reuters",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/microsoft-develops-ai-tool-that-can-diagnose-sequentially-like-doctor-2026-10-23/",
+      "source": "Reuters",
+      "publishedAt": "2026-10-23T00:34:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
       ],
       "score": 55
     },
@@ -1173,18 +1179,18 @@
       "score": 55
     },
     {
-      "title": "Nvidia CEO Jensen Huang says neocloud demand is 'off the charts' but capital is scarce",
-      "url": "https://www.cnbc.com/2026/10/22/nvidia-jensen-huang-neocloud-demand-capital.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-22T10:49:16.000Z",
+      "title": "NVIDIA expands global manufacturing for AI infrastructure - Engineering.com",
+      "url": "https://www.engineering.com/nvidia-expands-global-manufacturing-for-ai-infrastructure/",
+      "source": "Engineering.com",
+      "publishedAt": "2026-10-23T09:45:05.000Z",
       "kind": "news",
-      "summary": "Nvidia CEO Jensen Huang told CNBC Thursday that demand for neocloud firms is \"off the charts,\" but scarce capital is holding back growth.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 55
+      "score": 45,
+      "summary": "Substrate capacity is set to grow 2.5x in three years, while semiconductor testing capacity is expected to double from 2026 to 2027."
     },
     {
       "title": "NVIDIA DSX advances AI factory deployment across Europe - Engineering.com",
@@ -1328,6 +1334,77 @@
   ],
   "general": [
     {
+      "title": "China’s Parcel Sales Are Shrinking as They Become Tax Targets",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/china-s-parcel-sales-are-shrinking-as-they-become-tax-targets",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T11:00:01.000Z",
+      "kind": "news",
+      "summary": "Exports of low-value packages are on the decline in multiple markets as importing countries push back.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Oil Climbs on Threats of a Widening War in Middle East",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/oil-climbs-on-threats-of-a-widening-war-in-middle-east-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T10:58:31.000Z",
+      "kind": "news",
+      "summary": "Brent oil traded at the highest level since May on Friday. Iran-backed Houthi militants claimed recent attacks on the Saudi Red Sea port of Yanbu, as well as deadly strikes on an oil field and airport in the kingdom. The flareup threatens to widen hostilities around the Strait of Hormuz, where crude exports have recovered to near prewar levels. Abeer Abu Omar reports on Bloomberg Television. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Infosys Lowers Sales Forecast After Companies Curb IT Spending",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/infosys-lowers-sales-forecast-after-companies-curb-it-spending",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T10:52:40.000Z",
+      "kind": "news",
+      "summary": "Infosys Ltd. lowered its annual sales forecast in a sign companies continue to curb spending on major information technology projects.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Russia Holds Key Rate as Ukrainian Strikes Spur Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/russia-holds-key-rate-as-ukrainian-strikes-spur-inflation",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T10:44:40.000Z",
+      "kind": "news",
+      "summary": "Russia’s central bank held interest rates unchanged for a second straight meeting as the Kremlin battles the economic consequences of Ukrainian strikes on energy infrastructure.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Private Equity’s Healthcare Playbook Faces an AI and Regulatory Reckoning - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNDVyOVJaZ3lmcmhKRFVtdlVMd0pVQjFBd1BNSTMzZFQxR0lxRG5KSFhmSnA1TlU4TVFQQ3htYU9VN3pmbFNnbXdJR213YmlQSDhYMVh2X3Q0Z2lWcXJ0NUxrVWF4YlktR2xUUEd0NTJVY2dUeVlMaWtaTUlRQ0R5ZTliT1dIQ181emxBdHhoeWVBa0ZMRzdXUjlrZHVZQXdGTURCaUZpa29iZ2FUTzVyb3VtNGt2YWVNNm5SNjBB?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-10-23T10:30:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Chipotle’s Softening Sales Force Analyst to Throw in the Towel",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/chipotle-s-softening-sales-force-analyst-to-throw-in-the-towel",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T10:30:00.000Z",
+      "kind": "news",
+      "summary": "A long-standing Chipotle Mexican Grill Inc. bull has moved to the sidelines, citing concern that a slow start to the fourth quarter suggests softer sales for the year ahead.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "DeepSeek Open-Sources AI Model as China, US Restrict Each Other’s Tech",
       "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/deepseek-open-sources-ai-model-as-china-us-restrict-each-other-s-tech",
       "source": "Bloomberg",
@@ -1409,18 +1486,6 @@
       "score": 60
     },
     {
-      "title": "Axel Springer to Cut Telegraph Jobs After Buying UK Newspaper",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/axel-springer-to-cut-telegraph-jobs-after-buying-uk-newspaper",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T10:05:42.000Z",
-      "kind": "news",
-      "summary": "Axel Springer SE is cutting roles at Telegraph Media Group Ltd., just months after the German company took control of the British newspaper publisher on the promise of fresh investment.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Riskiest Bank Securities Lose Luster as Investors Get Picky",
       "url": "https://www.bloomberg.com/news/articles/2026-10-23/at1s-easy-money-run-fades-as-banks-pay-up-for-riskiest-debt",
       "source": "Bloomberg",
@@ -1445,6 +1510,17 @@
       "score": 60
     },
     {
+      "title": "BofA sees growing investor reluctance to fund AI infrastructure By Investing.com - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaldvNV8tcVNlekR0SHBkR0RuQ01yYlJ6cWNHdGhzRkJLWUdMZ2xQWnRlOGt4Q3VSZmlRZXB4LXZuQXRjaHB2d1dEZXctNDlld01wcks4WjMzcjBUUDI4MHNvYmg1dVdfZ3pweWlZaXJkY1BrUGs1SnI3ZF9iSTcxT1lpczkwNVRmOW5HRWp1Zi1CUG9WbEpzaE93Z3dRV1J2R1VGOUk4Z1h5SzJNMnhjV2J1b3BvQVNNdm96Vw?oc=5",
+      "source": "Investing.com",
+      "publishedAt": "2026-10-23T10:42:01.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "JSW Steel’s Profit More Than Triples on Higher Prices",
       "url": "https://www.bloomberg.com/news/articles/2026-10-23/jsw-steel-s-profit-more-than-triples-on-higher-prices",
       "source": "Bloomberg",
@@ -1454,7 +1530,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Is a job guarantee the solution to mass AI unemployment? - The Guardian",
@@ -1465,7 +1541,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Supersonic aircraft maker Boom will build turbines to power data centers at new factory in Centennial - The Colorado Sun",
@@ -1476,7 +1552,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Macklem Ensnared by Market Pricing and Will Hike, Economists Say",
@@ -1488,7 +1564,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Opinion | Let markets, not government, decide whether there’s an AI bubble - The Washington Post",
@@ -1499,7 +1575,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Carrefour’s €2 Billion Stock Plunge Shows Cost of French Unrest",
@@ -1511,7 +1587,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "BofA’s Hartnett Sees Risk-Off Mood Lasting Until Mid-November",
@@ -1523,7 +1599,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "French Bond Risk Nears Biggest Weekly Rise as Crisis Deepens",
@@ -1535,7 +1611,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Volvo Cars plunges 27% as CEO says China sales slump came 'faster than we thought'",
@@ -1547,7 +1623,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Ship With Russian Diesel Signals US Port After Trump-Putin Deal",
@@ -1556,28 +1632,6 @@
       "publishedAt": "2026-10-23T09:40:44.000Z",
       "kind": "news",
       "summary": "A tanker carrying diesel left the Russian port of Primorsk and intermittently signaled New York, potentially marking the first such shipment following a fuel-supply agreement between Vladimir Putin and Donald Trump.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Vicor: Buy The Dip In This Key AI Power Enabler (NASDAQ:VICR) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTUZDa3R6QTJXajlVaHdrbW01M1Y3MzJaZkw1enhxSFV3RmNLQkhtWDdqQUw3bFowMXkwMTVncTM0OEhWNWk1dlBrVk1uOHdDaHNRNlZtMUJ2c1FqREYxUXp3blNNQl90R3NLNE5KclQ2bm1hMm5OSi1lTXZ4SUMzUlV6cnY5LW9MeGJ1dEI0cXR6RFU?oc=5",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-10-23T09:58:35.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "What Happens When AI Becomes Part of the Crisis? - The Business Continuity Institute",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ1dwbWhEdF8xZGctVHM5NUphQ2hMaVhrTEpzT2MxNkpnbm1PMktuV2g4RmR5b3lNREdCZ2hGcFVHZkJVbGx4TW1RcnE5dk44dHV5UVROYlBjMzRBc3lROGpzUEsxeVdZNkNVQWtlalprSXJqVlN3cXpHb0VPMFgxNXp6cHBZeHM?oc=5",
-      "source": "The Business Continuity Institute",
-      "publishedAt": "2026-10-23T09:25:20.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1600,17 +1654,6 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0dULXFaUm9nREVVNEJjUFlvODVTbkwyV21vZXJ1eVJveDc4cEd4SG5lWEZsRjNxVWNkZWlvRFJPMi10cXhjcldVUkxGd2wtMWtQbzVpYXJLR29taWlmQThpZE5ObWhFSXFpX0VYZlJMZFQ1WFdKYnF4cWhwUDE3b2NueThFenpCWEJSeDg4UzNfRDZleS1qcmpxY2sxWjhwV3ZnUjZqLTRBT2k4bDJoOVc4Zw?oc=5",
       "source": "Bloomberg.com",
       "publishedAt": "2026-10-23T09:21:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Can AI really predict cancer survival better than a doctor? I have my doubts | Devi Sridhar - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRVdjZTFabWU1UkJYZ2RsMUZseEpmMXkzcGl4aFdnQlFIZER4QjVQTlFQTV9EVmRXYzFlYjNPczdFZHd2XzBBakRaN19ZVVZRLVNhZTIzV0EzNExKS1p1QlF5MWwwTFVxVndFTVdTWHBmamc1UWJ4VGZzVlFHcWNzSE1DSWlZZ1lwTGt2UGdTS1JtNlRRYVRVRE8wTjliMFlkVjZqcQ?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-23T09:11:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1664,24 +1707,11 @@
       "score": 50
     },
     {
-      "title": "Volvo Car CEO on Earnings, China Market, Job Cuts",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/volvo-car-ceo-on-earnings-china-cost-cutting",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T09:00:37.000Z",
+      "title": "Take Five: AI trade meets the Fed - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWlIdzFDR0xNQ01RZzhsaXVtMXYtbWU3U3RvejE4NzV3TFZPXzI5SUpGTG9jLUxxbEhiNGFVMTZyUU84MVhTZGJaWkxtZ2cwaG9OTlJiYmFLTzFLLXZFQURzNUE5M05Lcjc5UXQ4Q1RIaVNWOFZlSlA2MTBLUFYtSVdLcGI3V3lCN216QQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-10-23T09:01:10.000Z",
       "kind": "news",
-      "summary": "Volvo Car Chief Executive Officer Håkan Samuelsson discusses the company's performance in the third quarter, the market in China, and cost-cutting measures. He speaks on Bloomberg Television. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "How Prediction Markets Upstaged Election Polls",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/how-prediction-markets-upstaged-election-polls",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T09:00:11.000Z",
-      "kind": "news",
-      "summary": "Voters, donors and media increasingly use the betting platforms Kalshi and Polymarket to forecast election outcomes. Critics warn of new risks to democracy.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1878,36 +1908,11 @@
       "score": 50
     },
     {
-      "title": "AI Trade Faces Earnings Test: Market Snapshot",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/ai-trade-faces-earnings-test-market-snapshot-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T06:57:12.000Z",
+      "title": "China's DeepSeek, MiniMax win approval for AI global use, state media-affiliated entity says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUDVGa0hCU3ppVlo3amtaT1l4T18zcHNWWlFkV3Nveks4TDI5RGxkMzE1TFpEZjIxWFBZNl9ILU9SRVdzMEtCX2JKai1FbXlYTTFFX1Y0U3NfRGZuRGttQ0ZKYVhRS3NaUTlEWldxNzVIQUdzamNVMTE1cVg0N1VpLUlweVZlU3lpOGFRajJ6eHItM3NHTGlLVldsVWxnbTcwQncxekJITDJfWUxWUGt1OWx1Zm4zLXdEdm5ja0VPbXNlNmFxWWstT0lfVkZOQXNTNlRYcktB?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-10-23T06:59:00.000Z",
       "kind": "news",
-      "summary": "Some of the world's biggest tech names delivered earnings this week that drew mixed reactions from investors. The results come as jitters over the trade increasingly shift from cash flows and profits to how the technology’s massive build-out is being financed. \"The Opening Trade\" team spoke to market strategists and CEOs about whether this week's results suggest the artificial intelligence boom is nearing its peak, or still has room to run. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans",
-      "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-23T06:45:04.000Z",
-      "kind": "news",
-      "summary": "SK Hynix shares closed 4% higher after an initial drop in early trading as the chipmaker halted review of Solidigm IPO plans in the U.S.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Saudi Aramco Said to Order HQ Evacuation, Oil Prices Set for Weekly Gain",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/horizons-middle-east-africa-10-23-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T06:41:41.000Z",
-      "kind": "news",
-      "summary": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or start your day in London or Johannesburg. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],

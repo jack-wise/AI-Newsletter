@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:31:39.876Z",
+  "generatedAt": "2026-10-23T17:01:42.125Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 4 — Fermi Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000090514826004542/xslF345X06/form4.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-10-23T01:16:35.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
+    },
     {
       "title": "$FRMI list averages:",
       "url": "https://stocktwits.com/mikesterz7/message/667235682",
@@ -35,23 +50,8 @@
         "FRMI"
       ],
       "related": [],
-      "score": 81,
+      "score": 71,
       "summary": "$FRMI list averages:"
-    },
-    {
-      "title": "SEC filing: 4 — Fermi Inc. (FORM 4)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000090514826004542/xslF345X06/form4.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-10-23T01:16:35.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75,
-      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
-      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
     },
     {
       "title": "$FRMI $795K+ order for the May 21st $4.5 call 🟢",
@@ -535,7 +535,7 @@
       "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance Singapore",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yLU9LeXdROXk4elB1NVNZaWNjVWVSejNycm9pWmFyV1FyRGtLN3lJNnQzRkpTT1hlMUpnY1ZKY25wSE5FcGFBWjdmQ2dzV3lEekE?oc=5",
       "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-10-21T15:14:16.000Z",
+      "publishedAt": "2026-10-21T16:12:28.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -662,19 +662,6 @@
       "score": 35
     },
     {
-      "title": "Fermi CEO outlines capital strategy for Project Matador - StreetInsider",
-      "url": "https://www.streetinsider.com/Corporate+News/Fermi+CEO+outlines+capital+strategy+for+Project+Matador/27213715.html",
-      "source": "StreetInsider",
-      "publishedAt": "2026-10-21T12:33:37.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 35
-    },
-    {
       "title": "FRMI Nov 2026 7.000 call (FRMI261106C00007000) Interactive Stock Chart - Yahoo! Finance Canada",
       "url": "https://ca.finance.yahoo.com/quote/FRMI261106C00007000/chart/",
       "source": "Yahoo! Finance Canada",
@@ -738,9 +725,49 @@
       ],
       "related": [],
       "score": 35
+    },
+    {
+      "title": "FRMI Nov 2026 9.000 put (FRMI261106P00009000) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/quote/FRMI261106P00009000/",
+      "source": "Yahoo! Finance Canada",
+      "publishedAt": "2026-10-21T11:41:21.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 35
     }
   ],
   "related": [
+    {
+      "title": "Watch OpenAI, SpaceX and AI Market Jitters - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/open-interest-10-23-2026-video",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-23T16:36:41.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
+      "title": "OpenAI, SpaceX and AI Market Jitters",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/open-interest-10-23-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T16:00:02.000Z",
+      "kind": "news",
+      "summary": "Get a jump start on the US trading day on \"Bloomberg Open Interest.\" OpenAI seeks fresh funding as investors reassess the AI trade, while SpaceX explores a push into wireless. UBS’s Nadia Lovell weighs the market outlook, CFTC Chair Michael Selig discusses prediction markets and crypto regulation, and Chris Marangi of Gabelli Funds breaks down AI investing and opportunities beyond tech. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
     {
       "title": "Not Intel. Not CoreWeave. This Underappreciated Nvidia-Backed Company Is Growing Artificial Intelligence (AI) Revenue by 123%. Here's Why It's a Buy Today for $8. - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/10/23/not-intel-not-coreweave-this-underappreciated-nvid/",
@@ -868,31 +895,32 @@
       "score": 65
     },
     {
-      "title": "SUSE AI Factory + NVIDIA OpenShell: Agent Security [2026] - https://tech-insider.org/",
-      "url": "https://tech-insider.org/suse-ai-factory-nvidia-openshell-agent-security-2026/",
-      "source": "https://tech-insider.org/",
-      "publishedAt": "2026-10-23T15:47:35.000Z",
+      "title": "Anthropic joins Meta and OpenAI’s personal AI assistant race with Duet - Fortune",
+      "url": "https://fortune.com/2026/10/23/anthropic-joins-meta-and-openais-personal-ai-assistant-race-with-duet/",
+      "source": "Fortune",
+      "publishedAt": "2026-10-23T16:51:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia CEO Encourages Europe's Lagging AI Sector, Encourages Data Center Buildout - Broadband Breakfast",
-      "url": "https://broadbandbreakfast.com/nvidia-ceo-encourages-europes-lagging-ai-sector-encourages-data-center-buildout/",
-      "source": "Broadband Breakfast",
-      "publishedAt": "2026-10-23T15:47:23.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
+        "OpenAI"
       ],
       "score": 55,
-      "summary": "Europe has only about 5% of the world's AI computing capacity, versus 75% in the U.S."
+      "summary": "Claude Duet gives existing subscribers a personal assistant as Anthropic races to secure a place in users’ daily routines."
+    },
+    {
+      "title": "Google signs deal with Voltus to pay consumers to cut back energy usage - Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/technology/4777295/google-signs-deal-voltus-pay-consumers-cut-back-energy-usage-virtual-power-plant/",
+      "source": "Washington Examiner",
+      "publishedAt": "2026-10-23T16:29:15.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "Google signed a deal with Voltus, a distributed energy resource platform, to build a 1 gigawatt virtual power plant to provide extra capacity."
     },
     {
       "title": "Pony AI, NVIDIA Take Their Robotaxi Ambitions to a New Market - Benzinga",
@@ -952,7 +980,7 @@
       "title": "The Signal Chats That Cost OpenAI Researchers Their Jobs - WSJ",
       "url": "https://www.wsj.com/tech/ai/the-signal-chats-that-cost-openai-researchers-their-jobs-594c5853",
       "source": "WSJ",
-      "publishedAt": "2026-10-23T01:01:39.000Z",
+      "publishedAt": "2026-10-23T01:00:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -989,6 +1017,46 @@
       "score": 55
     },
     {
+      "title": "Nvidia's Latest AI Power Play Could Shake Up Video Industry - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-latest-ai-power-play-155842259.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-23T15:58:42.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "SUSE AI Factory + NVIDIA OpenShell: Agent Security [2026] - https://tech-insider.org/",
+      "url": "https://tech-insider.org/suse-ai-factory-nvidia-openshell-agent-security-2026/",
+      "source": "https://tech-insider.org/",
+      "publishedAt": "2026-10-23T15:47:35.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "Nvidia CEO Encourages Europe's Lagging AI Sector, Encourages Data Center Buildout - Broadband Breakfast",
+      "url": "https://broadbandbreakfast.com/nvidia-ceo-encourages-europes-lagging-ai-sector-encourages-data-center-buildout/",
+      "source": "Broadband Breakfast",
+      "publishedAt": "2026-10-23T15:47:23.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Europe has only about 5% of the world's AI computing capacity, versus 75% in the U.S."
+    },
+    {
       "title": "AI Giant Nvidia Invests in Entertainment Startup Higgsfield - Variety",
       "url": "https://variety.com/2026/digital/news/nvidia-tcv-invest-generative-ai-startup-higgsfield-1236929624/",
       "source": "Variety",
@@ -1003,10 +1071,10 @@
       "summary": "Higgsfield, the AI video and image generation startup, extended its Series B funding round with new investments from Nvidia and TCV."
     },
     {
-      "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation - NVIDIA Developer",
+      "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation | NVIDIA Technical Blog - NVIDIA Developer",
       "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
       "source": "NVIDIA Developer",
-      "publishedAt": "2026-10-23T15:10:53.000Z",
+      "publishedAt": "2026-10-23T15:10:13.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1083,79 +1151,55 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "inDrive and Pony.ai Announce Collaboration to Explore Autonomous Mobility in Kazakhstan Built on NVIDIA Hyperion - citybiz",
-      "url": "https://www.citybiz.co/article/923518/indrive-and-pony-ai-announce-collaboration-to-explore-autonomous-mobility-in-kazakhstan-built-on-nvidia-hyperion/",
-      "source": "citybiz",
-      "publishedAt": "2026-10-23T13:41:29.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "inDrive, the global mobility and delivery platform, today announced it has signed a memorandum of understanding (MOU) with NVIDIA and... Read More"
-    },
-    {
-      "title": "Schneider Electric unveils modular data center design for NVIDIA Vera Rubin AI infrastructure - Data Centre Solutions",
-      "url": "https://datacentre.solutions/news/24510-schneider-electric-unveils-modular-data-center-design-for-nvidia-vera-rubin-ai-infrastructure",
-      "source": "Data Centre Solutions",
-      "publishedAt": "2026-10-23T13:02:45.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Schneider Electric unveils a prefabricated modular data centre blueprint built for NVIDIA's Vera Rubin platform, promising faster, more predictable AI infras..."
-    },
-    {
-      "title": "Nokia, Nvidia accelerate AI-RAN, physical AI commercial deployment - Computer Weekly",
-      "url": "https://www.computerweekly.com/news/366652551/Nokia-Nvidia-accelerate-AI-RAN-physical-AI-commercial-deployment",
-      "source": "Computer Weekly",
-      "publishedAt": "2026-10-23T12:49:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "AI hardware leader and global comms tech firm team to deliver AI into radio access networks of four leading European operators, powered by latest processors."
-    },
-    {
-      "title": "Emerald AI, Nvidia share results of latest pilot at Nscale data center in Iceland - Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/emerald-ai-nvidia-share-results-of-latest-pilot-at-nscale-data-center-in-iceland/",
-      "source": "Data Center Dynamics",
-      "publishedAt": "2026-10-23T12:42:39.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Seventh pilot undertaken by Emerald AI to date"
-    },
-    {
-      "title": "Vertiv and NVIDIA pair pre-engineered designs with factory builds to speed AI token output - Data Centre Solutions",
-      "url": "https://datacentre.solutions/news/24490-vertiv-and-nvidia-pair-pre-engineered-designs-with-factory-builds-to-speed-ai-token-output",
-      "source": "Data Centre Solutions",
-      "publishedAt": "2026-10-23T12:39:33.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Vertiv and NVIDIA have combined rapid virtual validation of reference architectures with factory-built deployment, a method Polar Data Centres is applying to..."
     }
   ],
   "general": [
+    {
+      "title": "US Economy 'Quite Dependent' on AI as Growth Engine, Says Tani Fukui",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/us-economy-dependent-on-ai-as-growth-engine-says-fukui-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T16:46:32.000Z",
+      "kind": "news",
+      "summary": "A resurgence in oil prices dragged down stocks and bonds, stoking concerns about inflation just days ahead of the Federal Reserve decision on interest rates. The recent selloff in AI-linked stocks is a reminder that the most popular trades tend to hurt the most when sentiment turns. Tani Fukui, Senior Director of Economic & Market Strategy at MetLife Investment Management, discusses Fed communication and what upcoming data will tell us about US inflation. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Eastern Bank ramps up AI spending for 2027 - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYWJPWFMxODd3bnpnMjZrZXRsa0k1Smw2NVlrVzBOZ1JqdG1EZHF4bTlYT0NNM1NOLVVHVnNfZFdRSGhub1hYT0cwSmtzU3dRSDJNTDZCYWdoSnNxRmFaZEFVc0tIc25YbTNpNkdfN3FnSjBXckNaNmVFSDBkVEJBN2ljOUNaN0VSQkdDS3BkMmhnOG14Q3ZZdDVQcjh1eWJHQnRheg?oc=5",
+      "source": "The Business Journals",
+      "publishedAt": "2026-10-23T16:41:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Apple’s $2,000 iPhone Duo Debuts With Limited Supply",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-23/apple-s-2-000-iphone-duo-debuts-with-limited-supply-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T16:37:47.000Z",
+      "kind": "news",
+      "summary": "Apple Inc. has already shown there’s a strong appetite for its $2,000-and-up foldable iPhone Duo. Now it needs to meet that demand. The new device went on sale Friday, bringing back the once-familiar sight of people lining up overnight to get their hands on it first. Marking the company’s most radical reinvention in the iPhone’s nearly two-decade history, the Duo is a major bet the company can establish itself in a category that’s remained a niche so far. Bloomberg's Anurag R",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opposition deepfake video sparks outrage in Spain ahead of election - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUThLaVcxR2Y0ODBjSU9LUWx3N0kzdm9sakVpVFNyNE85Vmg0MlBnQjgtalBTcmNkbktzZEludHRkdDBReFd0X0o2LTVVTjV0ZUpLakVkMURfbnZnT3BUNGRPWnpWWExqZUhFck1tOXdtSS1xeTE2TS1EcDlqdVpXMFNTbVBfdldscUlhMFRxcw?oc=5",
+      "source": "The Guardian",
+      "publishedAt": "2026-10-23T16:37:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Defense giant Saab sees orders triple after Gripen fighter jet deal with Ukraine",
       "url": "https://www.cnbc.com/2026/10/23/saab-q3-earnings-figther-jet-maker-beats-expectations-as-orders-triple.html",
@@ -1204,6 +1248,17 @@
       "score": 60
     },
     {
+      "title": "Q&A: How AI came to model the 'messy' human mind - Tech Xplore",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PTjNRSWR0T0JFRXNFSkxYaVVSeW5aOHB6MF9Takkyd01kUk83cGNEZGZwYk1tcDEzY213TWE5aUZQRUcwTGNTM2xoM0U4WlAwank1WDhPSXQ2T3h1WE5wTnEwY2RuaEFIU1ZScC1QN24?oc=5",
+      "source": "Tech Xplore",
+      "publishedAt": "2026-10-23T16:30:01.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "The Circuit - Season 6 Trailer",
       "url": "https://www.bloomberg.com/news/videos/2026-10-23/the-circuit-season-6-trailer-video",
       "source": "Bloomberg",
@@ -1213,7 +1268,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Why AI Is Causing a Global Panic Over Cybersecurity",
@@ -1225,7 +1280,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "De olho nas eleições",
@@ -1237,7 +1292,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Opinion | Let markets, not government, decide whether there’s an AI bubble - The Washington Post",
@@ -1248,7 +1303,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Volvo Cars plunges 24% as CEO says China sales slump came 'faster than we thought'",
@@ -1260,7 +1315,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI-discovered bugs may soon trigger fresh disruptions, cyber experts say - Reuters",
@@ -1271,7 +1326,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI Tech Fears Push Global Credit Spreads to 17-Month High",
@@ -1283,7 +1338,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Japan Labor Market 'Can Leverage AI,' Says Masa Takeda",
@@ -1295,7 +1350,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "TikTok U.S. hunts for multiple gigawatts of computing capacity, sources tell CNBC",
@@ -1307,7 +1362,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Stocks Continue to Sell Off as Rising Oil Prices Keep Lid on Treasuries",
@@ -1319,7 +1374,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Silicon Valley Democrats demand investigation into Starlink restrictions in Ukraine",
@@ -1329,17 +1384,6 @@
       "kind": "news",
       "summary": "A letter demanding an investigation indicates Democrats will make investigating Starlink's interruption a top priority if they win control of the U.S. House.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Q&A: How AI came to model the 'messy' human mind - Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PTjNRSWR0T0JFRXNFSkxYaVVSeW5aOHB6MF9Takkyd01kUk83cGNEZGZwYk1tcDEzY213TWE5aUZQRUcwTGNTM2xoM0U4WlAwank1WDhPSXQ2T3h1WE5wTnEwY2RuaEFIU1ZScC1QN24?oc=5",
-      "source": "Tech Xplore",
-      "publishedAt": "2026-10-23T16:30:01.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1420,6 +1464,18 @@
       "publishedAt": "2026-10-23T15:16:45.000Z",
       "kind": "news",
       "summary": "A NYSE options exchange has suspended trading, causing other exchanges to disregard quotes from the venue.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Ineos Quattro Bonds Plunge as Earnings Show Fading War Gains",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/ineos-quattro-bonds-plunge-as-earnings-show-fading-war-gains",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T15:09:15.000Z",
+      "kind": "news",
+      "summary": "Bonds of Ineos Quattro slumped after the unit of Jim Ratcliffe’s chemicals empire reported that pricing gains from Iran war-related import disruptions are fading.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1508,6 +1564,18 @@
       "score": 50
     },
     {
+      "title": "US Consumer Sentiment Slips to Five-Month Low on Inflation",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-consumer-sentiment-slips-to-five-month-low-on-inflation-woes",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-23T14:00:00.000Z",
+      "kind": "news",
+      "summary": "US consumer sentiment edged down to a five-month low in October as high prices and rising interest rates depressed morale.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "US Business Activity Expands, Prices Surge Most Since 2022",
       "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022",
       "source": "Bloomberg",
@@ -1526,6 +1594,17 @@
       "publishedAt": "2026-10-23T13:35:30.000Z",
       "kind": "news",
       "summary": "Mass cybersecurity disruptions, such as this week’s scramble by governments and companies to patch two critical software flaws, are about to “get a lot worse before they get better,” a top executive at Anthropic PBC has warned.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "The AI Bottleneck Takes Many Forms. These 7 Stocks Will Benefit. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZW9pWmdoTWlFaWs3X3ZNdkdYSkRUaFhVcC04a2psYmYyZHFCeHBIbmg2S3FOQ3VPUkdWWE1yY09aZlNaS0VvMXlmQlpvYm1yRHVSMXRkd3hRZG1JNGFqWDFTdGQ4M3gwM1UyZG16QWVuUDB1ZGxobzA0ZU1OVUoySTZ3MkZ3OTNmamkweVRicXVvbFBJ?oc=5",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-23T13:30:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1652,86 +1731,6 @@
       "publishedAt": "2026-10-23T12:30:00.000Z",
       "kind": "news",
       "summary": "General Motors Co. shares are set to record their worst week in more than three years, leading a wider selloff in automotive stocks on Friday. Yet, bullish Wall Street analysts are doubling down on the carmaker.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "BlackRock’s Boivin Sees Rates Getting More in Line With the Environment",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/rates-getting-more-in-line-with-environment-boivin-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T12:16:32.000Z",
-      "kind": "news",
-      "summary": "Jean Boivin, head of BlackRock Investment Institute, discusses the firm turning positive on US Treasuries, how the artificial intelligence buildout is influencing rates, and why long-term US Treasuries are “starting to be attractive.” He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Is a job guarantee the solution to mass AI unemployment? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ0xuWEoxc1JYYU5nTXB0dHJCakpfVFZRTm11enoxMWY0V0dONlk4Q01OSWpKd0piNlNRbmZ0VEstSWwybkhzRkxqTnU3YzZaOHVEeE12Rm1xZDEteUNBT2ZHN3pVNXRKYkktUnFDX1QtOURRb0l5WHNBdXJackluNXhoaUdSMEs5dHM3RVFR?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-23T12:03:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "To Shape AI, Use AI - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWm9wUFFJVmxycDdjam5sRnlUaEw1Rkk5cmgzXzBQUEgzalB1S2c2YXNiXzJua1FxbmxLUVVGVTFQeGVTcVdNTk1mNWdTMlFHV1dxUFp4U2w2NTUwLXNkQ0QtTlhVOC1oNnBjQkZnVlNwMWVtbjVuR0ItZU1iTkpZRk1qUXdIZ2wxSWQxMjNITi1UaWo4WlRCODZlUVUzTW9mdFpHc1IxYzJraHRoV21QNC01V2RRTGt0RFBfczFXYw?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-23T12:00:08.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Dudley Sees Fed Likely to Hold With a Hike Coming in December",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-23/dudley-sees-fed-likely-to-hold-with-a-hike-in-december-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T11:52:16.000Z",
-      "kind": "news",
-      "summary": "Bill Dudley, former New York Fed President and Bloomberg Opinion columnist, discusses messaging on interest rates from the Federal Reserve’s so-called troika, the influence of the artificial intelligence buildout on rates, and his expectation for the central bank to hold steady in October. His opinions are his own. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Fintech Moneyfarm Said to Reject EToro Bid of Up to €300 Million",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/fintech-moneyfarm-said-to-reject-etoro-bid-of-up-to-300-million",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-23T11:49:31.000Z",
-      "kind": "news",
-      "summary": "European digital wealth manager Moneyfarm has rejected a takeover approach from trading platform eToro Group Ltd, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "A Tech Rotation Roils the Markets, Again - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN0FQUFEwV25pVGlhQmdUYzFrZXlCOE16UENqZG4wbE0xV21PczlPaV9mSXFhX2RWeUpVMHY1aVRWYTA5TGkwc3JSUnlJOXA0NFBZMUZBbW1QbE5DbTBkUzFJZGRFTlgyRWpJcjBzc19HTmcyU0JWSThVU0FkUmZPTVpidkVIN1BO?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-23T11:42:50.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic's Claude now writes code and proves it safe automatically - The Decoder",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQWdjb3ROVHcwOVVEQ2RXd2U4dTVjYTN4TUNyTlA1U0pXTDRXNTBaWFhWNmYyaWJiMHdMWXJFZHVGam5MMjR4TVRSNUV0c3hHV1JVb2JHTzJYYzNqZ0ZFY1ppdi1RRUU1ZUJ3SjJ4WmZkYlNXSWhBWEU1eEl4X2E3VFhlaVZfQmpmNTFGQW1YRkowQlNlakE?oc=5",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-23T11:38:06.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

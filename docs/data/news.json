@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T03:01:39.103Z",
+  "generatedAt": "2026-10-25T03:31:37.057Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -556,7 +556,7 @@
       "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance Singapore",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yLU9LeXdROXk4elB1NVNZaWNjVWVSejNycm9pWmFyV1FyRGtLN3lJNnQzRkpTT1hlMUpnY1ZKY25wSE5FcGFBWjdmQ2dzV3lEekE?oc=5",
       "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-10-24T10:28:08.000Z",
+      "publishedAt": "2026-10-24T09:26:25.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -905,6 +905,20 @@
   ],
   "related": [
     {
+      "title": "Nvidia targets local AI assistants with a model built around a 4GB memory budget - MIXED Reality News",
+      "url": "https://mixed-news.com/en/nvidia-nemotron-bolt-local-ai-assistant-4gb/",
+      "source": "MIXED Reality News",
+      "publishedAt": "2026-10-25T03:24:08.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia has released a small AI model designed to power local voice assistants, game characters and robots while leaving memory available for the rest of"
+    },
+    {
       "title": "Constellation, Vistra, and GE Vernova Ranked From Worst to First for the AI Power Boom - Yahoo Finance",
       "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-vistra-ge-vernova-ranked-023500638.html",
       "source": "Yahoo Finance",
@@ -1028,19 +1042,6 @@
       "score": 45
     },
     {
-      "title": "An OpenAI Model Spent Ethereum Without Permission. Here's What That Means For Crypto Investors. - Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/openai-model-spent-ethereum-without-212600871.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-24T21:26:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
       "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats. - TechCrunch",
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "source": "TechCrunch",
@@ -1105,19 +1106,6 @@
       "tickers": [],
       "related": [
         "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Can Nvidia’s stock become a safe haven as Wall Street rethinks the AI trade? - MarketWatch",
-      "url": "https://www.marketwatch.com/story/can-nvidias-stock-become-a-safe-haven-as-wall-street-rethinks-the-ai-trade-64862936",
-      "source": "MarketWatch",
-      "publishedAt": "2026-10-23T18:19:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
       ],
       "score": 45
     },
@@ -1313,9 +1301,33 @@
       ],
       "score": 45,
       "summary": "Google partners with Voltus on massive virtual power plant to stabilize grid for 67M people"
+    },
+    {
+      "title": "To Make Way for Data Centers, Google Will Pay Others to Use Less Power - The New York Times",
+      "url": "https://www.nytimes.com/2026/10/22/climate/google-voltus-virtual-power-plant.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-10-22T11:30:06.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "Why the AI boom may pose more peril to US markets than meets the eye - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS1JhRE80Y0NWeFYwdnpadVdaaU9SbC1qODJLbi1YR1ptSXdKQjlRNWg4WVZ6LUJsaWVOanhjTVpIbzRITm0wRTdUR2pXMVBUVUJPUTBHdVU1ZHFvbWNnMmRMeUNBWV9tTEI2RmxEV1JnYVcwNnk5RXlVZTVnRzREY2owZ0t1TS1QQzJwUHlBcXpocUhYeXRCWlNvMUVlOWJvV2IxNHJNQjNBNkt2YVVpWGNmaFFZeWpheU5jS2dmZDdYQXZGRWpTZGNn?oc=5",
+      "source": "The Business Times",
+      "publishedAt": "2026-10-25T02:23:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
     {
       "title": "Anthropic Sued for Using Elvis Presley Music to Train AI Models - The Hollywood Reporter",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNX2w5MWpVOHBzaUxLMllrM0c1SDcxREV3WGt1VGdMNjM2STE3VHBlSEZwSnBDc1lKWnJ5c0pPNWJHMHlZcV9rVXRRVjNGYkxOcUpNZmRQVmVHTEZJZ1NYcUJhVzBCeW1hQ09mZTIzZm5JVDZ0emRMN3hSUXdhUnhodkF5NWJYTVBZNzNVejk4RjJQWTd0b0lROXNjWHpYM0NKc0hSb1ZtVmM0QQ?oc=5",
@@ -1325,7 +1337,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Brazil Election: Lula Rallies Supporters for One Last Comeback",
@@ -1337,7 +1349,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Schneider Electric Launches 2.5MW Power Module for AI Data Centers - THE ELEC, Korea Electronics Industry Media",
@@ -1382,7 +1394,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Saudi Arabia Suggests Riyadh Airport May Reopen on Sunday",
@@ -1394,7 +1406,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Who Is Dario Amodei? The Anthropic CEO Behind Claude - The Profile | Polina Pompliano",
@@ -1496,6 +1508,17 @@
       "publishedAt": "2026-10-24T15:21:35.000Z",
       "kind": "news",
       "summary": "It was a panicked message from a colleague that woke fund manager Ivelina Green at 5 a.m. on Thursday morning in New York: “Total meltdown.”",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "WA school AI policies are stuck in the 2010s, not prepping us for tomorrow | Op-Ed - The Seattle Times",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWGRWMURscHVpM1E5eHM5d0tpN21DTVJJRUlqUlFURy1xSEktbHNUNmZMRWNsT2NCWUdOelhzaW5rNmtiZnlLdkx0VG8yRTdFdVhUdWp4YXhyaEJaX2MwMzZ5d0h6ZU0yRXBhLUU1X2tfQzZtazl1YXhUNUxtS0lORks1MEhEaWxlZ2lrNm5jdW80LUV3Y29Uag?oc=5",
+      "source": "The Seattle Times",
+      "publishedAt": "2026-10-24T15:00:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1872,28 +1895,6 @@
       "publishedAt": "2026-10-24T05:00:01.000Z",
       "kind": "news",
       "summary": "Customer service can be a \"really, really difficult job.\" Will AI make it easier — or cause even more headaches?",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR1lmc2o1Vk42Wm9tUnhaWV95b1NDUGZfWnhER0tMcDBHbVBYVFVSYnd1SmRwVk5MNEZpaG9uQ1VxM3YtdWkzS2hqc3BSZnpfWlpVQVVwbWlYSUJZZ1Z1N0o5Vm5oTFhaczVqbTRMSlY5dE40djZIY0lkVkxSWnJkM3VHUW9kS21uUWpWeXVJSENZQmVIY3I5U05GaGpjenJMckZuUVJvekdjMkRuYV93UVJsR2JuR05EZWF4SlY4WC1qSTdGbjFENjhtMmZ5QQ?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-24T05:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlpZNXVZQXBxZ1hCTzA4X0VZYUh0QkhJb281X3VmMUt0VVZRY0N2N1Fja1dyZlB4cGlsTGktdjRaRzEzSDgtR01QS1F4V0ZsN0lsbzdTRjhRbG1MMlhfMkluTkxwTXFhOG1XZVVpRlRJX29ULXBEcUdTQUpoa2NkUmRMZFhDbkF3a0N3SDlqbTg1QnR3aFkwSW9LS181X0hsbXM1bXF2a0ZTWldQdlBMSlJRSzFoOGI2aFRF?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-24T04:25:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

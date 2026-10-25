@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T12:01:38.108Z",
+  "generatedAt": "2026-10-25T12:31:37.753Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -914,6 +914,20 @@
   ],
   "related": [
     {
+      "title": "Nvidia vs. Micron: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/10/25/nvidia-vs-micron-the-ai-revolution-is-big-enough-f/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-25T09:30:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Both stocks have soared in recent years."
+    },
+    {
       "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies - The Decoder",
       "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
       "source": "The Decoder",
@@ -957,46 +971,18 @@
       "summary": "OpenAI resumed frontier AI training without live internet access after agents bypassed sandbox controls and uncovered isolation weaknesses."
     },
     {
-      "title": "OpenAI's isolated red-team AI agents built a hidden CPU cache channel to talk with no network or shared files — exploited CPU cache timing to bypass microVM sandboxes - Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-10-25T11:30:00.000Z",
+      "title": "Elon Musk Just Gave Fantastic News for Nvidia Investors - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/10/24/elon-musk-gave-great-news-for-nvidia-investors/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-24T21:17:00.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "A hijacked AI agent could use the same technique to leak data without touching the network."
-    },
-    {
-      "title": "NVIDIA expands Kazakhstan AI infrastructure with Firebird ... - eeNews Europe",
-      "url": "https://www.eenewseurope.com/en/nvidia-kazakhstan-ai-infrastructure-firebird/",
-      "source": "eeNews Europe",
-      "publishedAt": "2026-10-25T11:14:08.000Z",
-      "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
       "score": 55,
-      "summary": "NVIDIA and Firebird advance Kazakhstan AI infrastructure with 45,000 licensed GPUs and Vera Rubin deployments planned for 2027."
-    },
-    {
-      "title": "SpaceX AI growth puts Nvidia and CoreWeave stocks in focus as demand for computing power rises | Hindustan Times - Hindustan Times",
-      "url": "https://www.hindustantimes.com/world-news/us-news/spacex-ai-growth-puts-nvidia-and-coreweave-stocks-in-focus-as-demand-for-computing-power-rises-101792924292801.html",
-      "source": "Hindustan Times",
-      "publishedAt": "2026-10-25T11:02:29.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "SpaceX's AI revenue surge puts Nvidia and CoreWeave stocks in focus as demand for AI computing power grows."
+      "summary": "The new SpaceX SI data center cluster is going to run on the Nvidia Vera Rubin computer."
     },
     {
       "title": "Can Amazon Take Market Share From Nvidia in the AI Chip Race? - The Motley Fool",
@@ -1013,31 +999,59 @@
       "summary": "Amazon's AI chips just got a leg up in their ability to compete with Nvidia's GPUs, but don't expect them to have much of an impact on Nvidia's results."
     },
     {
-      "title": "Anthropic’s Margin is OpenAI’s Opportunity - The Information",
-      "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
-      "source": "The Information",
-      "publishedAt": "2026-10-24T14:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Microsoft Says Its New AI Is Better at Diagnosing Patients Than Real Doctors - Futurism",
-      "url": "https://futurism.com/artificial-intelligence/microsoft-new-ai-better-real-doctors",
-      "source": "Futurism",
-      "publishedAt": "2026-10-25T10:57:00.000Z",
+      "title": "OpenAI's isolated red-team AI agents built a hidden CPU cache channel to talk with no network or shared files — exploited CPU cache timing to bypass microVM sandboxes - Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-10-25T11:30:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "MSFT"
+        "OpenAI"
       ],
       "score": 45,
-      "summary": "Microsoft's MAI-DxO medical AI is more than twice at accurate at diagnosing patients than human doctors, according to its own study."
+      "summary": "A hijacked AI agent could use the same technique to leak data without touching the network."
+    },
+    {
+      "title": "AI Debt Has Exploded 4X To Nearly $500 Billion: What It Means For NVDA, ORCL And CRWV, According To IO Fund - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-debt-exploded-4x-nearly-112437184.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-10-25T11:24:37.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "NVIDIA expands Kazakhstan AI infrastructure with Firebird ... - eeNews Europe",
+      "url": "https://www.eenewseurope.com/en/nvidia-kazakhstan-ai-infrastructure-firebird/",
+      "source": "eeNews Europe",
+      "publishedAt": "2026-10-25T11:14:08.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "NVIDIA and Firebird advance Kazakhstan AI infrastructure with 45,000 licensed GPUs and Vera Rubin deployments planned for 2027."
+    },
+    {
+      "title": "SpaceX AI growth puts Nvidia and CoreWeave stocks in focus as demand for computing power rises | Hindustan Times - Hindustan Times",
+      "url": "https://www.hindustantimes.com/world-news/us-news/spacex-ai-growth-puts-nvidia-and-coreweave-stocks-in-focus-as-demand-for-computing-power-rises-101792924292801.html",
+      "source": "Hindustan Times",
+      "publishedAt": "2026-10-25T11:02:29.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "SpaceX's AI revenue surge puts Nvidia and CoreWeave stocks in focus as demand for AI computing power grows."
     },
     {
       "title": "Nvidia eyes converting old nuclear plants into massive AI data centers — reusing shut-down German energy sites could reduce the cost and timeline of building from scratch - Tom's Hardware",
@@ -1054,6 +1068,20 @@
       "summary": "The plan does not involve using nuclear power."
     },
     {
+      "title": "Microsoft Faces AI Spending Test Ahead of October 28 Earnings - SuaraGarut.ID",
+      "url": "https://suaragarut.id/en/microsoft-ai-spending-earnings-october-28",
+      "source": "SuaraGarut.ID",
+      "publishedAt": "2026-10-25T09:37:12.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Microsoft reports fiscal first-quarter 2027 results October 28, with Azure growth, AI infrastructure spending, cash flow, and investment returns in focus."
+    },
+    {
       "title": "Modders unlock hidden AI performance on NVIDIA RTX 20, 30 and 40 series GPUs, with up to 2× tensor throughput - VideoCardz.com",
       "url": "https://videocardz.com/newz/modders-unlock-hidden-ai-performance-on-nvidia-rtx-20-30-and-40-series-gpus-with-up-to-2x-tensor-throughput",
       "source": "VideoCardz.com",
@@ -1066,33 +1094,6 @@
       ],
       "score": 45,
       "summary": "Modders have removed compute restrictions from several RTX 20, 30 and 40 series GPUs. The changes improve certain AI workloads but do not increase gaming FPS."
-    },
-    {
-      "title": "Nvidia vs. Micron: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-vs-micron-ai-revolution-085000359.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-10-25T08:50:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Microsoft Q1: A $744 Billion AI Reckoning Is Coming (NASDAQ:MSFT) - Seeking Alpha",
-      "url": "https://seekingalpha.com/article/4957236-microsoft-q1-a-744-billion-ai-reckoning-is-coming",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-10-24T18:21:24.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Microsoft Corporation earnings face AI return scrutiny. See key Q1 tests for Azure growth, margins, and cash flow resilience. Click for this MSFT update."
     },
     {
       "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
@@ -1302,6 +1303,21 @@
       "score": 45
     },
     {
+      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters - The Verge",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "source": "The Verge",
+      "publishedAt": "2026-10-22T15:50:30.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "Apple also had a record lobbying quarter."
+    },
+    {
       "title": "Google pays homes and businesses to free up electricity for AI data centres - CNBC TV18",
       "url": "https://www.cnbctv18.com/energy/google-voltus-turn-to-homes-and-businesses-to-free-up-power-for-ai-data-centres-20017318.htm",
       "source": "CNBC TV18",
@@ -1314,23 +1330,21 @@
       ],
       "score": 45,
       "summary": "Google is expanding a deal with Voltus to unlock up to 1,070 MW of flexible power capacity across the US, paying participants to reduce electricity use or make stored energy available when the grid is under pressure."
-    },
-    {
-      "title": "Nvidia's Jensen Huang says he sees no sign of a 2029 memory glut: 'You can always use more'",
-      "url": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-22T13:12:38.000Z",
-      "kind": "news",
-      "summary": "Nvidia's Jensen Huang told CNBC that a surplus of memory supply is unlikely by 2029, as memory stocks have taken a beating in the past week.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "Markets Look to Big Tech for AI Payoff",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-25/markets-look-to-big-tech-for-ai-payoff-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-25T12:10:28.000Z",
+      "kind": "news",
+      "summary": "On Bloomberg This Weekend, MetLife Investment Management Chief Market Strategist Drew Matus examines how AI investment is driving markets, corporate spending and parts of the US economy as investors look to Big Tech earnings for evidence that the spending will pay off. Speaking with hosts David Gura and Christina Ruffini, Matus discusses risks from rising technology investment and what markets need to hear from Federal Reserve Chair Kevin Warsh on inflation. (Source: Bloomber",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Ray-Ban Meta Audio AI Glasses Cost More While Ditching a Key Feature: Review",
       "url": "https://www.bloomberg.com/news/articles/2026-10-25/ray-ban-meta-audio-ai-glasses-cost-more-while-ditching-a-key-feature-review",
@@ -1353,7 +1367,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Opinion | The best defense against bad AI is more good AI - The Washington Post",
@@ -1364,7 +1378,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "France Avoids Repeat of Violence at Protests",
@@ -1376,7 +1390,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "To make AI morally good, tech companies are turning to religion. But some say it isn't that simple - AP News",
@@ -1494,7 +1508,7 @@
       "score": 50
     },
     {
-      "title": "Can Marissa Mayer, Yahoo’s Former CEO, Help Fix A.I.’s Gender Problem? - The New York Times",
+      "title": "Maybe We All Need an A.I. Wife - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaU5KSFZOcEVLQzZ6OTNXOWJENzBVZEpaWFdtcnd0NXZlRS10VEdmcnRMODJ0Y3ZWX2ZfME1PdU41M2RrM2pwb25ZT2FpWTlvTFpQbVRHSXFFM0hsNlNlS1REQk5hdjlOSG5aeGNtSnlBQWt3MThtUFhNakt5TzRKU0E3MkZ5Zw?oc=5",
       "source": "The New York Times",
       "publishedAt": "2026-10-25T09:00:32.000Z",
@@ -1505,7 +1519,7 @@
       "score": 50
     },
     {
-      "title": "Brookfield to Open Doha Office to Deepen Its Middle East Reach",
+      "title": "Brookfield to Open Doha Office to Deepen Middle East Reach",
       "url": "https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach",
       "source": "Bloomberg",
       "publishedAt": "2026-10-25T08:47:01.000Z",
@@ -1552,10 +1566,43 @@
       "score": 50
     },
     {
-      "title": "ChatGPT Is Building Detailed Psychological Profiles of Its Users - Futurism",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYk1GR1dnWGI4QWJGVXFjb2I5cVhlOXdKNnZlMV9DZmN4MDQtWE1ZcWlKRXl1UEVKMVl2XzBiY00xeF9BaUhHR09JOThmQVltcUJXdUNiNFZocUd1TmpPMzdfQzYxbzJWaUxkUG45Vjd3T3NZaXhndzNwLVlVLW9NV3B3?oc=5",
-      "source": "Futurism",
-      "publishedAt": "2026-10-25T11:55:00.000Z",
+      "title": "AI in policing risks deepening discrimination, research warns - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KM3Z1WDJnenRMMkJ6VloxYXNfR2lEbVVkUUlVdGpzWEx1Y2RnRGVGS2xxUHV6R19wd0x3a2tlVFE4RUhRVTBwcmw3TUlwNGtwSzg4T3JJRk0wS1E?oc=5",
+      "source": "BBC",
+      "publishedAt": "2026-10-25T12:18:56.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Project aims to boost AI across tourism sector in South West - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jMmtCWmtWamJZSG1hWXVXQUFtWDdPZUdLdHFEdXZpSmJfRFVjOUhaWWF3TFpUVG9rT3NRNlYzT2pCR0tvb3U3TF92a3FqcjVITm51Y05mV2FVclU?oc=5",
+      "source": "BBC",
+      "publishedAt": "2026-10-25T12:08:09.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "New poll reveals the surprising truth about AI data centers in N.J. - NJ.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEVTcDlkUko0c05UZXYwZm1zUjhSejBCSlZBd3l3d3JucDBoZUlwRS1PdDZyQlpxZ3pwUHg0TC1RMnEtRTRJeWZKVXRjX2tHS3hZWXVCV0tidFNGamdES2VHQTV1Y0oyN1dYWFdRalp5NTBGaE1uaE4xYzNvWThvLTV6NjdFa19CenR6QVY2Wkczd3dZbEp6S2J5ajFPcDR3WDdkRndNY3pyQQ?oc=5",
+      "source": "NJ.com",
+      "publishedAt": "2026-10-25T12:01:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Ex-Manny Yekutiel spokesman now works at Anthropic, another S.F. political staffer at an AI giant - Mission Local",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRVFhWkpsY3lDbkxJampTVXNNNnQyTGtLRHNVU3pnalhOM2pxRHhEZW90c2RmNDlhZTJIejRkdXEzQlpuR2JXbEZUX0VkbDctQlF2aEhqQk80RFdjcTh5d2VKYkNlb3M2ZEdwbkltcXIxSUNFZkYzLVRLSno0bnR1SzhMWjEyenJBNC1Rc0hUVXBCbXRYRUJKSg?oc=5",
+      "source": "Mission Local",
+      "publishedAt": "2026-10-25T12:00:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1567,28 +1614,6 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbk9lV0FTQUFqTXo2a001RG5Nemk4d3N5Vno0VTF5bUhYWWxaVC13bklQWF90M2VfV3NqUnNJRGp1VzYzanhSemluZnhNejlGbmtQQ3ZnT2FBSEpoVUwyeDlMR1dnYmtneTFwMW1xY0tVYm5BSzlwVVBjUUJmTU1kVzFYbks2SnRTd2RxdDBRNXVjV1MxR2hSSUpJUUxFVUhfRXkxbExfdWN2YVV6SUVuZ25VVQ?oc=5",
       "source": "NME",
       "publishedAt": "2026-10-25T11:44:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Anthropic 5%, Musk $10B: AI Philanthropy Fine Print [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQlFXUXJmTlk1b3p1ZVgybmF6cl9jbDRWUXZOejVGbVBEUzdxNjZjYzNXYU5tZXBmS05kb1l3WTMzRHA0a21ITzRDY0NyaGI1Z2pDdTVZcmwwMFZEWGhnU210X3YtNnV4SHNJS2VMczRzR2NYZlBTTjhENmpqX0E5Z2FrMU8tSm9HaE5EU2Jqd04zX1ZRbnU5UW0yNTg?oc=5",
-      "source": "https://tech-insider.org/",
-      "publishedAt": "2026-10-25T11:07:41.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "The power behind AI: Data centers drive the demand for qualified electricians - Data Center Dynamics",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZlk0SkpNUGN4MExkOEMtamZaMHFPRXpiMXRmWmN1VU1HOHlKZ3lDWEJEX2FSejNSNlRMYnVQbEhfTGVCckpTWmxnSUhOWGUtdDd3N0JOT0ZTSTg5Ylk5bmx2TEhTeXppc3hMSnpXUlZDQ0pFRG9PTm45aXBqWWNHUHdFQU95WE5uZS1sX2pfMVYxaVBzRHZQZ0FyT19KLXRXYXdfUEx0cmd3VGtBYlNvZ1lFRzJ0VU9XUmowdlNncU92UQ?oc=5",
-      "source": "Data Center Dynamics",
-      "publishedAt": "2026-10-25T11:06:21.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1887,36 +1912,9 @@
       "tickers": [],
       "related": [],
       "score": 40
-    },
-    {
-      "title": "How This County Made the Data Center Boom Pay Off",
-      "url": "https://www.bloomberg.com/news/videos/2026-10-24/how-this-county-made-the-data-center-boom-pay-off-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-24T14:03:23.000Z",
-      "kind": "news",
-      "summary": "AI is driving a wave of new data centers, but communities are increasingly asking what they get in return. Virginia’s Loudoun County turned the industry into a major tax base that helped fund schools, parks and infrastructure, yet even there, officials are now putting limits on further growth. The bigger lesson may be that towns have more bargaining power than they think. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "The AI data center boom has a ghost problem - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcnRMNFJlM3M5czJrbmZfdXZJeFdxb2N2aFFINktzZjk0ZzBKdFFnNUcxRDZXTnptU1RVc3BDSV9LYkpzdWdiUXRtTWFSb015aXhjdW1fWXZSNW1iaU9oZmZHQi1NQ2RuQm1pQ01HOXdkNDd5VWduME5WYzQ2b1ROUnpsOA?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-24T14:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
     }
   ],
   "sourceErrors": [
-    {
-      "source": "google-news:FRMI",
-      "error": "HTTP 404 for https://news.google.com/rss/search?q=%22Fermi%20America%22%20OR%20%22Project%20Matador%22&hl=en-US&gl=US&ceid=US:en"
-    },
     {
       "source": "reddit-x",
       "error": "HTTP 429 for reddit search.rss"

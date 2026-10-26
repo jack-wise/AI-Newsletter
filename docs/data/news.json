@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T23:01:46.194Z",
+  "generatedAt": "2026-10-26T23:31:45.979Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -480,21 +480,6 @@
       "summary": "[October 24, 2026] Fermi America - $FRMI - Discussion Thread"
     },
     {
-      "title": "Stock Market Today, Oct. 13: Fermi Surges 14% on AMD Credit Support for Project Matador - The Motley Fool",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-today-oct-13-fermi-surges-14-on-amd-credit-support-for-project-matador/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-13T07:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45,
-      "summary": "AMD's backing of Fermi's 222 MW lease signals financing momentum for AI campus infrastructure, though full funding hurdles remain ahead, Oct. 13, 2026.",
-      "excerpt": "Fermi secured a credit support agreement from AMD today, sending its stock 14% higher. The funding backstop will help Fermi support \"a lease for phase one of Fermi's Project Matador energy and AI buildout ... with 222 megawatts (MW) of gross power capacity in line with Fermi's first customer lease as announced on August 10, 2026.\" Fermi and AMD also agreed to a separate framework to support an expansion plan up to 650 MW. An analyst at Texas Capital Securities raised their price target to $20 on FRMI stock following the news, stating that AMD's size and reputation help validate the project immensely, especially derisking the expansion to 650 MW."
-    },
-    {
       "title": "[October 23, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1xd3thl/october_23_2026_fermi_america_frmi_discussion/",
       "source": "r/FRMI",
@@ -935,6 +920,28 @@
       "related": [],
       "score": 38,
       "summary": "[October 15, 2026] Fermi America - $FRMI - Discussion Thread"
+    },
+    {
+      "title": "AMD/FRMI",
+      "url": "https://www.reddit.com/r/FRMI/comments/1x6ah8p/amdfrmi/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-10-15T02:50:21.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/kkw-8828",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 38,
+      "summary": "AMD/FRMI"
     }
   ],
   "related": [
@@ -1036,32 +1043,18 @@
       "summary": "SWI Compute’s CEO says energy is ‘the primary bottleneck facing European AI infrastructure’. Its parent holds 3.6GW of power."
     },
     {
-      "title": "Anthropic Grows More Reliant on Google, Amazon, Microsoft",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-filing-cites-reliance-on-google-amazon-microsoft",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-26T17:09:43.000Z",
-      "kind": "news",
-      "summary": "Anthropic PBC is relying more and more on Alphabet Inc.’s Google, Amazon.com Inc. and Microsoft Corp. to sell its artificial intelligence technology to customers, despite the three companies being rivals, investors and key suppliers of computing power.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT",
-        "GOOGL"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra - OpenAI",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra/",
-      "source": "OpenAI",
-      "publishedAt": "2026-10-26T22:05:13.000Z",
+      "title": "OpenAI Unveils Half-Price AI Model to Target Enterprise Automation - PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-unveils-half-price-ai-model-to-target-enterprise-automation/",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-10-26T23:15:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 55
+      "score": 55,
+      "summary": "OpenAI is rolling out GPT-6.1 Terra, a new artificial intelligence (AI) model that costs half as much as two of its other models and is practical for"
     },
     {
       "title": "Do AI Labs Like Anthropic and OpenAI Have Economic Moats? - Morningstar",
@@ -1073,6 +1066,21 @@
       "tickers": [],
       "related": [
         "OpenAI"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Anthropic Grows More Reliant on Google, Amazon, Microsoft",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-filing-cites-reliance-on-google-amazon-microsoft",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-26T17:09:43.000Z",
+      "kind": "news",
+      "summary": "Anthropic PBC is relying more and more on Alphabet Inc.’s Google, Amazon.com Inc. and Microsoft Corp. to sell its artificial intelligence technology to customers, despite the three companies being rivals, investors and key suppliers of computing power.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT",
+        "GOOGL"
       ],
       "score": 55
     },
@@ -1104,15 +1112,15 @@
       "summary": "Microsoft AI investment redirects resources by offering voluntary buyouts while prioritizing Azure and enterprise Copilot infrastructure for growth."
     },
     {
-      "title": "Microsoft to Offer Buyouts to 60,000 Workers in New Cost Cut - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-26/microsoft-to-offer-buyouts-to-60-000-workers-in-latest-cost-cut",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-26T16:30:37.000Z",
+      "title": "Siemens Partners With NVIDIA to Advance Industrial AI - the Electrical Distributor magazine",
+      "url": "https://tedmag.com/siemens-partners-with-nvidia-to-advance-industrial-ai/",
+      "source": "the Electrical Distributor magazine",
+      "publishedAt": "2026-10-26T16:16:11.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "MSFT"
+        "NVDA"
       ],
       "score": 55
     },
@@ -1159,18 +1167,17 @@
       "summary": "Nvidia's sales and marketing leadership is changing as veterans retire, outsiders bring new expertise, and Jensen Huang's daughter gains influence."
     },
     {
-      "title": "OpenAI Launches GPT-6.1 Terra, Its Half-Good AI Model at Half the Price - Decrypt",
-      "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price",
-      "source": "Decrypt",
-      "publishedAt": "2026-10-26T21:46:02.000Z",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra - OpenAI",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra/",
+      "source": "OpenAI",
+      "publishedAt": "2026-10-26T22:05:13.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 45,
-      "summary": "OpenAI's mid-tier model now operates apps and screens more like a person would, with API prices 50% below GPT-5.6 Terra."
+      "score": 45
     },
     {
       "title": "OpenAI and Anthropic Want the Junior Banker’s 2 a.m. Shift - PYMNTS.com",
@@ -1241,20 +1248,6 @@
       "score": 45
     },
     {
-      "title": "Schneider teams with HPE and Nvidia on industrial AI agents at the edge - Fierce Network",
-      "url": "https://www.fierce-network.com/cloud/schneider-teams-hpe-and-nvidia-industrial-ai-agents-edge",
-      "source": "Fierce Network",
-      "publishedAt": "2026-10-26T17:22:08.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Initial applications target OT monitoring, cybersecurity and energy optimization."
-    },
-    {
       "title": "Nvidia's AI Safety Push Could Slow Things Down by 25%, Analyst Warns - Benzinga",
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62597871/nvidia-ai-safety-speed-cost",
       "source": "Benzinga",
@@ -1323,6 +1316,20 @@
       "summary": "Amazon’s new Nvidia AI servers worth billions are piling up in warehouses as data centers face electricity shortages, raising concerns about cash flow and the cost of its AI expansion."
     },
     {
+      "title": "Schneider teams with HPE and Nvidia on industrial AI agents at the edge - Fierce Network",
+      "url": "https://www.fierce-network.com/cloud/schneider-teams-hpe-and-nvidia-industrial-ai-agents-edge",
+      "source": "Fierce Network",
+      "publishedAt": "2026-10-26T17:22:08.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 35,
+      "summary": "Initial applications target OT monitoring, cybersecurity and energy optimization."
+    },
+    {
       "title": "Nvidia and Schneider test a digital twin to rehearse AI data center upgrades - MarketScale",
       "url": "https://www.marketscale.com/industries/energy/nvidia-and-schneider-test-a-digital-twin-to-rehearse-ai-data-center-upgrades",
       "source": "MarketScale",
@@ -1353,21 +1360,46 @@
   ],
   "general": [
     {
-      "title": "AI & Tech Brief: Anthropic’s S-1 - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZzAzVy1QQWt2WDZveFQ4MG5fSUhCNlIyQW9xeDhNcy03WE1sb0R3Q3FrdGVyaUtiQzhHRl9GZ1QycTQ0Q1ZVRlphYXQycFh4VkRKNnJNaWNlV3ZCVll2SDVQdDFxeUd6OUlWb1NBb1ZHRzYwdGdHVDM0RWhSQXlUdHFhejhYeUdIbVlodmxmWTRDZEZ0UXp1RzNDYWtEQUVpLVlV?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-10-26T22:55:15.000Z",
+      "title": "Anthropic’s IPO Sets Up Defining Moment for Wall Street and AI Boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-s-ipo-sets-up-defining-moment-for-wall-street-and-ai-boom",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-26T23:23:19.000Z",
       "kind": "news",
+      "summary": "Anthropic PBC’s landmark initial public offering is laying bare the stark extremes of the AI boom business model: astonishing growth but deep uncertainty about unpredictable demand and the massive spending required to continue building the resource-intensive technology. The startup, which publicly filed IPO paperwork on Monday, is poised to be the first major US firm focused solely on building AI software to make its market debut.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 60
     },
     {
-      "title": "Can Marissa Mayer, Yahoo’s Former CEO, Help Fix A.I.’s Gender Problem? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaU5KSFZOcEVLQzZ6OTNXOWJENzBVZEpaWFdtcnd0NXZlRS10VEdmcnRMODJ0Y3ZWX2ZfME1PdU41M2RrM2pwb25ZT2FpWTlvTFpQbVRHSXFFM0hsNlNlS1REQk5hdjlOSG5aeGNtSnlBQWt3MThtUFhNakt5TzRKU0E3MkZ5Zw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-10-26T22:50:35.000Z",
+      "title": "South Korea’s Economy Beats Forecasts on AI-Driven Chip Boom",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-26T23:00:00.000Z",
+      "kind": "news",
+      "summary": "South Korea’s economy grew faster than expected in the third quarter as an artificial intelligence-fueled chip boom supported exports and investment, backing the case for further interest-rate increases.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Iran War Boosts Malaysian Data Center Appeal, SD Guthrie Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/iran-war-boosts-malaysian-data-center-appeal-sd-guthrie-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-26T23:00:00.000Z",
+      "kind": "news",
+      "summary": "Malaysia is expected to attract more interest as a data center hub following the outbreak of the US-Iran war, according to SD Guthrie Bhd., giving the palm oil giant and the country’s biggest landowner an opportunity to capitalize on the boom.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI & Tech Brief: Anthropic’s S-1 - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZzAzVy1QQWt2WDZveFQ4MG5fSUhCNlIyQW9xeDhNcy03WE1sb0R3Q3FrdGVyaUtiQzhHRl9GZ1QycTQ0Q1ZVRlphYXQycFh4VkRKNnJNaWNlV3ZCVll2SDVQdDFxeUd6OUlWb1NBb1ZHRzYwdGdHVDM0RWhSQXlUdHFhejhYeUdIbVlodmxmWTRDZEZ0UXp1RzNDYWtEQUVpLVlV?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-10-26T22:55:15.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1381,6 +1413,28 @@
       "publishedAt": "2026-10-26T22:50:07.000Z",
       "kind": "news",
       "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "What if Claude has feelings? Inside Anthropic’s most pressing IPO warnings - The San Francisco Standard",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vcWpUa29zVzhWVXpaWDgwRHRtZ2otQ0dzRTg4UTdxV2JLU0U3cHQxY1JlM0FxZ0pKT2xsdHlxaXRWOEFVRzFMamZoUGtkLWVRdmQ0eU5YM2ZmbHQxQjBzQU5RdzJHWGk2YjVzLXFn?oc=5",
+      "source": "The San Francisco Standard",
+      "publishedAt": "2026-10-26T22:45:48.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Watch Anthropic IPO, AI Financing & Markets Rally - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeVY2MVdISGpic29wd0tyYUJSV3ZIcWJUemRvUmVMbnFOY1JnT0lSenhzMjdfaDBPdnB3dWY3Z1FYR28zWml3YkhWclNGRGR0QjNxMVhUanlVQ205eEd0dmpDekNPemphblA5OWl3QS1nN1d0UFdrc3BHUE5Ma0k1dQ?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-26T22:34:44.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1408,7 +1462,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic reveals $80 billion loss, surging revenue as it prepares to go public - The Washington Post",
@@ -1419,7 +1473,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Jim Cramer warns this overlooked danger could threaten the market rally",
@@ -1431,19 +1485,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
-      "title": "Asian Stocks to Gain as Anthropic Files for IPO: Markets Wrap",
+      "title": "Asian Stocks to Rise on Tech Rebound, Oil Drops: Markets Wrap",
       "url": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
       "source": "Bloomberg",
       "publishedAt": "2026-10-26T22:03:56.000Z",
       "kind": "news",
-      "summary": "Asian stocks were set to rise, tracking gains on Wall Street as Anthropic PBC’s initial public offering filing revived enthusiasm for artificial intelligence ahead of big tech earnings and the Federal Reserve’s rate decision.",
+      "summary": "Asian stocks were set to rise, tracking gains on Wall Street after Anthropic PBC’s initial public offering filing revived enthusiasm for artificial intelligence ahead of big tech earnings and the Federal Reserve’s rate decision.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Latest Oil Market News and Analysis for Oct. 27",
@@ -1455,7 +1509,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "The High Price of India’s iPhone Manufacturing Boom",
@@ -1516,17 +1570,6 @@
       "score": 50
     },
     {
-      "title": "Goldman’s $210 Billion Day of Deals Driven by AI Financing Fever - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDhPSHpsbFdtdG1scmdsMEE1ZXZPQ2VoMDVFUi1uVGZ3bkxMZ1U1dElUQXgyR0Rsc3I4NEVyNHBkTVZwMjZKaTVHSXZDREpDQ3FvYUItaWxxd2xPdy1JaVY2WE43UUtGMzFnd05uaEFvRVFTYVJHdEpzLUJfZ3FsdDRNVkQwenNWcE5IdlMzaTJtS2d4d1djdDZ3Y1NDc09meHFuV0hoR0EtR3F2SThZUkFvLWs?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-26T21:48:08.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Anthropic is burning gas to feed the AI boom - The Verge",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaHJjRElTTVd1TFppMk1PZnBuZjdYaFNuLVZUU0ZDTUdlYmszVkM2RUNQNmk4elRxclp2VDE3RE9XSVY4YjVrUGlGZDRzUFg2THg5R1Q3cnNkMF9WTXBJTVRvU01pUlVOZlU4QUVNZE1MN3lpNHFOMWYxVl9nQURNU0RaT2lBLW5hYnc3NENDX2R2V0xEMjBEQlFpYzZJVzg0Qi1tSmNhR3J1YzhO?oc=5",
       "source": "The Verge",
@@ -1578,17 +1621,6 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcEdOSDdMaGttcEVmUGhpMS1GNG44dFpDbTNtanVZV0FWYno5dEJKOGlINU43Z1E0VFM0MUFDcVdOUTM0VXJoZURka3FFWnQyc01oX2tXdlRpd3RlWUthWjk4Qjg2anZva2FTU0NIN3RYbmVPN1J3MGowaklpVEE3NDcwYUJheU8tNTVhWTlfZjkxeURweUE?oc=5",
       "source": "Business Insider",
       "publishedAt": "2026-10-26T21:36:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic files for potentially the biggest IPO ever as CEO warns of risk to humanity from AI - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNlh5REtLQ3ZiYnhaV0ZnZXRhMVkwV282YXN2ODFlQjA4NWx4UHdUWlNwV1lXZnFHcDZ2S2NkMGF3VnVkczNGb1NVQnJNSk5XdEIyTHZRTUlGYlFVSXpadjNTT0VsVjhMUUxqRExWOEdENGM3bl9HUmJ5eEwzT0Jhc2xRNzdfX1RpV3VVcjNxYjM?oc=5",
-      "source": "AP News",
-      "publishedAt": "2026-10-26T21:31:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1907,29 +1939,6 @@
       "publishedAt": "2026-10-26T20:05:00.000Z",
       "kind": "news",
       "summary": "Instacart will stop offering high-tech shopping carts to grocers, its first announced strategy shift since reports emerged that the company is in talks to sell itself.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Intel to Acquire Startup Classiq in Quantum Computing Push",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-26/intel-to-buy-israeli-startup-classiq-in-quantum-computing-push",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-26T20:01:00.000Z",
-      "kind": "news",
-      "summary": "Intel Corp. agreed to buy Israeli startup Classiq Technologies Ltd. as part of a push to capitalize on quantum computing, a still-nascent field that is seeking commercial applications.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "‘Autonomy, not flesh’: RAF chief outlines AI drone-powered future - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3JKTU8yaUx1UGd4X3RvY2VCTUJYcld3SXZWcERZMGpGS19aUlV4YWpFb3JYSVZTUGlKM0hRTHU0dGRNckp4Vjl6aDNDRXdXdnJDRVYzUWpibXB6dGtmX3FMcmxmVWpNaWhEZ3k4Y3Nwam4xMldJNzdTTks4TVZFSmpidXF6NUs4ekJkcFV5a1dJVkFM?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-10-26T19:51:00.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

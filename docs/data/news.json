@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T15:01:43.488Z",
+  "generatedAt": "2026-10-26T15:07:27.056Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -392,6 +392,19 @@
       "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
     },
     {
+      "title": "FRMI Nov 2026 3.500 put (FRMI261106P00003500) Stock Historical Prices & Data - Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/quote/FRMI261106P00003500/history/",
+      "source": "Yahoo! Finance Canada",
+      "publishedAt": "2026-10-25T20:46:12.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 45
+    },
+    {
       "title": "Stock Market Today, Oct. 13: Fermi Surges 14% on AMD Credit Support for Project Matador - The Motley Fool",
       "url": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-today-oct-13-fermi-surges-14-on-amd-credit-support-for-project-matador/",
       "source": "The Motley Fool",
@@ -717,19 +730,6 @@
       ],
       "related": [],
       "score": 25
-    },
-    {
-      "title": "FRMI Oct 2026 4.000 call (FRMI261016C00004000) Interactive Stock Chart - Yahoo Finance - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI261016C00004000/chart/",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-10-21T23:38:48.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 25
     }
   ],
   "related": [
@@ -737,7 +737,7 @@
       "title": "Fanatics teams up with OpenAI for new AI-powered shopping suggestion feature",
       "url": "https://www.cnbc.com/2026/10/26/fanatics-openai-codex-sports-merchandise-shopping.html",
       "source": "CNBC",
-      "publishedAt": "2026-10-26T15:00:52.000Z",
+      "publishedAt": "2026-10-26T15:05:13.000Z",
       "kind": "news",
       "summary": "Fanatics is using AI to help shoppers navigate more than 1.5 million items of sports merchandise, with a Shop the Look feature powered by OpenAI Codex.",
       "tier": 1,
@@ -830,6 +830,34 @@
       "summary": "Nvidia's sales and marketing leadership is changing as veterans retire, outsiders bring new expertise, and Jensen Huang's daughter gains influence."
     },
     {
+      "title": "98% Of Nvidia Analysts Have \"Buy\" Rating - 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/26/98-of-nvidia-analysts-have-buy-rating/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-10-26T15:05:25.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Almost every Wall Street analyst is pounding the table on Nvidia, yet a growing chorus of skeptics argues the entire AI spending boom rests on a foundation that has yet to deliver a single dollar of payoff outside of tech."
+    },
+    {
+      "title": "How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes - NVIDIA Developer",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes/",
+      "source": "NVIDIA Developer",
+      "publishedAt": "2026-10-26T15:03:39.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Training large-scale AI models on thousands of GPUs is a high-stakes operation where monitoring and automation must be built-in to optimize cluster resiliency and uptime at scale. This concept isn&rsquo;t…"
+    },
+    {
       "title": "Springer Nature and Google DeepMind to build ‘peer review assistant’ - Research Professional News",
       "url": "https://www.researchprofessionalnews.com/rr-news-world-2026-10-springer-nature-and-google-deepmind-to-build-peer-review-assistant/",
       "source": "Research Professional News",
@@ -896,20 +924,6 @@
         "NVDA"
       ],
       "score": 45
-    },
-    {
-      "title": "Siemens expands agentic AI collaboration to tackle 3D IC power and thermal challenges with NVIDIA - EEJournal",
-      "url": "https://www.eejournal.com/industry_news/siemens-expands-agentic-ai-collaboration-to-tackle-3d-ic-power-and-thermal-challenges-with-nvidia/",
-      "source": "EEJournal",
-      "publishedAt": "2026-10-26T13:13:02.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Builds on agentic AI capabilities introduced at DAC 2026, extending them to 3D integrated circuits (3D IC) electrothermal codesign Orchestrates nine…"
     },
     {
       "title": "AI Safety Researchers Find Flaws in OpenAI’s Internal Monitoring System - Program Business",
@@ -1131,22 +1145,32 @@
         "NVDA"
       ],
       "score": 35
-    },
-    {
-      "title": "Siemens Energy CEO Sees Solid Outlook on Broad Electrification - EnergyNow.com",
-      "url": "https://energynow.com/2026/08/siemens-energy-ceo-sees-solid-outlook-on-broad-electrification/",
-      "source": "EnergyNow.com",
-      "publishedAt": "2026-10-25T16:36:01.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "SMNEY"
-      ],
-      "score": 35
     }
   ],
   "general": [
+    {
+      "title": "What Smart People Are Saying About Anthropic's IPO Paperwork - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMV9KRlFKc285NkN5VDFQcTd5NWFWajJQM0NHaUFGTjU5V05NX1lrNDFwaTIzVnktYXZHM24xVXJUV000SmJXMGdJZHhUTmFFdHItZGF3OHZfLVRmOU4tMm5EcEV4Y25ZM0RIOHpDeDI4aERqVWx2SHFPWE85WGsyaU1JOE9aTzRmbGs3MVp3?oc=5",
+      "source": "Business Insider",
+      "publishedAt": "2026-10-26T15:03:21.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Rotation in Tech Stocks Is Healthy, Jefferies' Greenberg Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-26/tech-stock-rotation-healthy-jefferies-greenberg-says-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-26T15:01:00.000Z",
+      "kind": "news",
+      "summary": "Jason Greenberg, executive chairman of tech, media and telecom investment banking at Jefferies, says markets are distinguishing between winners and losers as AI infrastructure spending evolves from chips and systems toward software and, eventually, enterprise applications. He speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Anthropic reveals $80 billion loss, surging revenue as it prepares to go public - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNmtiU2pPX05WX0lNRndwX1E5VkZ5ejV6azhBVUpfWWJMM1RMeHcycHo5OGcyemtKZUVWOFdwQ3FYUW1zR2N0eEFqUEJPZ09JSkU0NzNZQzExX1FuMjRXaUtyODNSeDlRdWpsLVItdE01YXhwc0JreW5veWdHSUJXRjI5c0hTa0pmQ0ZKYzlVZGhKbmNmdlN6QTJjX3dRZU93LWZpVFc1UWppSEl5UlVrWnQ4SWsybkE?oc=5",
@@ -1165,17 +1189,6 @@
       "publishedAt": "2026-10-26T15:00:25.000Z",
       "kind": "news",
       "summary": "With a slew of new storytelling formats, Instagram is priming creators and viewers for its push into TV.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "What Smart People Are Saying About Anthropic's IPO Paperwork - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMV9KRlFKc285NkN5VDFQcTd5NWFWajJQM0NHaUFGTjU5V05NX1lrNDFwaTIzVnktYXZHM24xVXJUV000SmJXMGdJZHhUTmFFdHItZGF3OHZfLVRmOU4tMm5EcEV4Y25ZM0RIOHpDeDI4aERqVWx2SHFPWE85WGsyaU1JOE9aTzRmbGs3MVp3?oc=5",
-      "source": "Business Insider",
-      "publishedAt": "2026-10-26T14:57:56.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1354,51 +1367,6 @@
       "score": 60
     },
     {
-      "title": "Meta announces $95 billion stock offering to fund AI expansion",
-      "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
-      "source": "CNBC",
-      "publishedAt": "2026-10-26T14:05:36.000Z",
-      "kind": "news",
-      "summary": "Meta plans to raise $95 billion to fund AI infrastructure and superintelligence, as Nvidia, AMD and Broadcom eye up to $5 billion in shares.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Anthropic Warns in IPO Filing That Unfavorable Media Coverage of AI Could “Adversely Affect” Its Business - The Hollywood Reporter",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQel9NdFg2eVFjTlduMHBXMnhrbDBDMFlYbEcwaFVBeENuYWdlYU5YLTVOVy1VTWNFTlo2UEJiS3plSks2ZlRXaW45NUk5RjQ1cGxSdkdQcURUV25yekx3ekdTd2w3X3E3cGp6UGxTclk2dDBWTS1FVWpYZVVNRXpxU3FLN2lWaUtnTVE0Q1dsa1BIUUgzWDlrc1JxWUxfS3VGZHN2cVRnNjZadG1sLU1oWEJEcXdCeDFlU3ZDZHd3?oc=5",
-      "source": "The Hollywood Reporter",
-      "publishedAt": "2026-10-26T14:02:57.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Anthropic's IPO: A close look at AI frontrunner's rapid growth, spiraling costs - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX1UzRjJ6M0VaSXoydWlIZ2pzc2tGcUZtMjlzR1JhUE9UR0llUERrRWRJNUdTRWNNQU9IUUEycmZUVk40cEtCSjZ5TzRqZVRWT1JvMEtmQmlENklzd19LLWlDREZZakJ0MWdTOTZleEdBN1FVRFJGMGxHWnpkY2owdVFSQ0FWWHNFcWlPTUtpb1ZDRkZrY0tUMkZrdHRJMnFJZEZveXVQaG41OHFibWFyMWpfNG9jTlR0aTM1enNKT18?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-10-26T14:02:33.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Anthropic Files for IPO to Become First Frontier AI Lab to List - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSU91RXFjTktnUkEyQlRXY3FOdEJBTWNyVVg5QjB4Y0hNaVBFczJSZXdqNXpZWHRxNDBFa0JTWGNSSlhJdFFqSFdXWDVVX01KRTU2Ni1MdU5oYTVGZlBVQjRoYmxIcEI2OUs3UkQ2YjFfdWtUaXFYNFAteTkxaFhUOHBXZ0NaUy1nWnFZREhhaXc5VnhoZW5fVmlVSGVwU3ZhQUJLdE5hU3FSbklJVE1HVzNvUW5jNUh0d0h3TQ?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-26T14:01:45.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
       "title": "Anthropic, PBC - S-1 (Q2) - SEC.gov",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2ItSXJrUWdNaklDTWloN3RSd1VfTldGWDFMc2xySV8ta1ZTSUNNdUpmajBhMmVtTks0QnJIZnI1TWlHdnd1WF91Z2c1WEFHSVNxWTF4UXNMWnJ1RmFCM2hEb3NYd29uSVljWWhpVV81MGFfVENldDJxbFhUeWJ2RU93WmVPSnBJMmM0WDA3OGU?oc=5",
       "source": "SEC.gov",
@@ -1416,6 +1384,62 @@
       "publishedAt": "2026-10-26T14:35:22.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Meta announces $95 billion stock offering to fund AI expansion",
+      "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
+      "source": "CNBC",
+      "publishedAt": "2026-10-26T14:05:36.000Z",
+      "kind": "news",
+      "summary": "Meta plans to raise $95 billion to fund AI infrastructure and superintelligence, as Nvidia, AMD and Broadcom eye up to $5 billion in shares.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Bigger than the railroads: The staggering money behind AI’s data center buildout - The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zaWFDclJTVG9RMG9Nb0tEX1Z3TUxIWTJZSl84ejRMUHdwV1JDZUNZUzR5cmpBbTZaclZ0d0ttQnd1cFp6SHBsMEoxV3ZHUTR5SWZHWWpOcC03a3l5c1VjbDlTOV9GcDJwc1NTSzJ3R2U3eWFC?oc=5",
+      "source": "The Boston Globe",
+      "publishedAt": "2026-10-26T14:04:16.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Anthropic Warns in IPO Filing That Unfavorable Media Coverage of AI Could “Adversely Affect” Its Business - The Hollywood Reporter",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQel9NdFg2eVFjTlduMHBXMnhrbDBDMFlYbEcwaFVBeENuYWdlYU5YLTVOVy1VTWNFTlo2UEJiS3plSks2ZlRXaW45NUk5RjQ1cGxSdkdQcURUV25yekx3ekdTd2w3X3E3cGp6UGxTclk2dDBWTS1FVWpYZVVNRXpxU3FLN2lWaUtnTVE0Q1dsa1BIUUgzWDlrc1JxWUxfS3VGZHN2cVRnNjZadG1sLU1oWEJEcXdCeDFlU3ZDZHd3?oc=5",
+      "source": "The Hollywood Reporter",
+      "publishedAt": "2026-10-26T14:02:57.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Anthropic's IPO: A close look at AI frontrunner's rapid growth, spiraling costs - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX1UzRjJ6M0VaSXoydWlIZ2pzc2tGcUZtMjlzR1JhUE9UR0llUERrRWRJNUdTRWNNQU9IUUEycmZUVk40cEtCSjZ5TzRqZVRWT1JvMEtmQmlENklzd19LLWlDREZZakJ0MWdTOTZleEdBN1FVRFJGMGxHWnpkY2owdVFSQ0FWWHNFcWlPTUtpb1ZDRkZrY0tUMkZrdHRJMnFJZEZveXVQaG41OHFibWFyMWpfNG9jTlR0aTM1enNKT18?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-10-26T14:02:33.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Anthropic Files for IPO to Become First Frontier AI Lab to List - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSU91RXFjTktnUkEyQlRXY3FOdEJBTWNyVVg5QjB4Y0hNaVBFczJSZXdqNXpZWHRxNDBFa0JTWGNSSlhJdFFqSFdXWDVVX01KRTU2Ni1MdU5oYTVGZlBVQjRoYmxIcEI2OUs3UkQ2YjFfdWtUaXFYNFAteTkxaFhUOHBXZ0NaUy1nWnFZREhhaXc5VnhoZW5fVmlVSGVwU3ZhQUJLdE5hU3FSbklJVE1HVzNvUW5jNUh0d0h3TQ?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-26T14:01:45.000Z",
+      "kind": "news",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1500,6 +1524,17 @@
       "score": 50
     },
     {
+      "title": "Apple stock has become an anti-AI trade. Here’s why - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM3NlVWZXMWo2WmN0aWJaSTFLMGcwNk9Sd0JNSXJRX3hVNDg1bFV6Q3JKYlZFa1JwVV9ZZG5lWDJpc1dYaGxLZ3ZKNkRUazRjVXE0ZXFrVTF6eGNFbjM0TlNpaHVIYVNsSHE1Nnl6dTQySy1PWFlGVkRLWEhjUTV3ZmI3T0xuZVZmcm5Da3IyUQ?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-10-26T13:43:49.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "UK Companies at Risk of 5.5% Minimum Wage Hike, Estimates Show",
       "url": "https://www.bloomberg.com/news/articles/2026-10-26/uk-companies-at-risk-of-5-5-minimum-wage-hike-estimates-show",
       "source": "Bloomberg",
@@ -1559,32 +1594,10 @@
       "score": 50
     },
     {
-      "title": "Bigger than the railroads: The staggering money behind AI’s data center buildout - The Boston Globe",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zaWFDclJTVG9RMG9Nb0tEX1Z3TUxIWTJZSl84ejRMUHdwV1JDZUNZUzR5cmpBbTZaclZ0d0ttQnd1cFp6SHBsMEoxV3ZHUTR5SWZHWWpOcC03a3l5c1VjbDlTOV9GcDJwc1NTSzJ3R2U3eWFC?oc=5",
-      "source": "The Boston Globe",
-      "publishedAt": "2026-10-26T13:35:10.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Meet Anthropic’s Seven Founders - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PbzlzS0lIOG1uTVhFNkR2U2NzSTJwc0xWX0xLOVFIRkVyblRlenRncmVaOHVlLTd3TkRuRTJBNGNoM3g5YlBWZUt0ZGxsdExtMncxdkhNc0I1b2RjSW9ybFB5SVd3Y1I3REctdVhsQW1Uc2hOMUJrTg?oc=5",
       "source": "The New York Times",
       "publishedAt": "2026-10-26T13:34:56.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMDJaaWU1VjBlLS1CeDRlSFF5eTFrSVI1c0JrR1VaWVhwOGNubnlzcmxJaU1uZEN0Y1RJZjRHQXMwU1FpUWsxQ01xYmdBOWdzQjFWLVdiTDVlTWtScUJUcHZzcjd1RDBYMGpZc2FfR3cyYUtrVXNPeGREbjdYZVN0Q0JDLWZiM1lrdDI4bDY3Uks4UFBTODJYYmd3?oc=5",
-      "source": "The Verge",
-      "publishedAt": "2026-10-26T13:32:49.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1700,18 +1713,6 @@
       "source": "The Guardian",
       "publishedAt": "2026-10-26T13:12:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Surging Natural Gas Price Tests Europe’s Appetite for Action",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/surging-natural-gas-price-tests-europe-s-appetite-for-action",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-26T13:11:59.000Z",
-      "kind": "news",
-      "summary": "Benchmark futures are back at crisis levels, but the policy response isn’t there yet.",
       "tier": 1,
       "tickers": [],
       "related": [],

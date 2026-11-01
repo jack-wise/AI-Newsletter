@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T12:02:21.196Z",
+  "generatedAt": "2026-11-01T12:32:21.275Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -926,6 +926,20 @@
   ],
   "related": [
     {
+      "title": "Why AI is boosting Meta's ad business while hurting Google search",
+      "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-01T12:00:01.000Z",
+      "kind": "news",
+      "summary": "The gap between Meta's ad revenue growth and Google's search expansion was the widest it's been since 2021 in the latest quarter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 75
+    },
+    {
       "title": "Anthropic Is “Reduplicating AWS” as It Rents Its Own Data Centers. Amazon Reports Thursday - TIKR.com",
       "url": "https://www.tikr.com/blog/anthropic-is-reduplicating-aws-as-it-rents-its-own-data-centers-amazon-reports-thursday?",
       "source": "TIKR.com",
@@ -1008,20 +1022,6 @@
       "score": 55
     },
     {
-      "title": "Meet the Brilliant AI Stock Obliterating Nvidia in 2026 With a Return of 44% - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/10/31/meet-brilliant-ai-stock-nvidia-in-2026-return-44/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-10-31T12:09:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Chip companies aren't the only hardware suppliers making a fortune from the artificial intelligence data center boom."
-    },
-    {
       "title": "NVIDIA Is Reportedly Eyeing Teflon, The Non-Stick Cookware Material, To Fix AI Server Signal Loss In Next-Gen NVLink Switch Boards - Wccftech",
       "url": "https://wccftech.com/nvidia-eyeing-teflon-ptfe-ai-server-signal-loss-nvlink-switch-boards/",
       "source": "Wccftech",
@@ -1066,37 +1066,24 @@
       "summary": "A shared robots.txt line could let sites opt out of AI training with several providers at once, but companies involved are handling it differently."
     },
     {
+      "title": "Meet the Brilliant AI Stock Obliterating Nvidia in 2026 With a Return of 44% - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/10/31/meet-brilliant-ai-stock-nvidia-in-2026-return-44/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-10-31T12:09:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45,
+      "summary": "Chip companies aren't the only hardware suppliers making a fortune from the artificial intelligence data center boom."
+    },
+    {
       "title": "OpenAI’s Altman Meets Samsung Executives as Chip Crunch Deepens - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-sam-altman-samsung-executives-memory-crunch-deepens",
       "source": "Bloomberg.com",
       "publishedAt": "2026-10-31T06:40:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45
-    },
-    {
-      "title": "Samsung AI transformation — Executives Meet OpenAI CEO Sam Altman - The Korea Daily",
-      "url": "https://en.koreadaily.com/samsung-ai-transformation-sam-altman-meeting/",
-      "source": "The Korea Daily",
-      "publishedAt": "2026-10-31T05:39:25.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 45,
-      "summary": "Samsung executives met OpenAI CEO Sam Altman to discuss corporate strategy, accelerating its enterprise-wide AI transformation and data center cooperation."
-    },
-    {
-      "title": "OpenAI Lowers Fundraising Target–After Decreasing Possible Valuation - The Information",
-      "url": "https://www.theinformation.com/briefings/openai-lowers-fundraising-target-after-decreasing-possible-valuation",
-      "source": "The Information",
-      "publishedAt": "2026-10-31T00:33:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1274,20 +1261,6 @@
       "score": 45
     },
     {
-      "title": "CRWV vs. MSFT: Which AI Cloud Stock Offers Better Upside Potential? - The Globe and Mail",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/MSFT-Q/pressreleases/8530978/crwv-vs-msft-which-ai-cloud-stock-offers-better-upside-potential/",
-      "source": "The Globe and Mail",
-      "publishedAt": "2026-10-29T14:18:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "Detailed price information for Microsoft Corp (MSFT-Q) from The Globe and Mail including charting and trades."
-    },
-    {
       "title": "Google's Nvidia chip challenge boosts cloud sales, crimps cash flow - Reuters",
       "url": "https://www.reuters.com/business/googles-nvidia-chip-challenge-boosts-cloud-sales-crimps-cash-flow-2026-10-29/",
       "source": "Reuters",
@@ -1341,9 +1314,48 @@
       ],
       "score": 35,
       "summary": "Nvidia lowered Vera Rubin bandwidth: HBM4 22 to 19.2 TB/s, NVLink 6 3.6 to 3 TB/s. See what changed, why, and how AMD Helios compares."
+    },
+    {
+      "title": "Foxconn explores new OpenAI tie-up for AI hardware - ET Datacenters",
+      "url": "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/foxconn-explores-new-openai-tie-up-for-ai-hardware/135415577",
+      "source": "ET Datacenters",
+      "publishedAt": "2026-11-01T02:38:46.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 35,
+      "summary": "Foxconn is exploring a new partnership with OpenAI, building on their prior agreement for data-center racks and AI hardware. The company's chairman, Young Liu, met with OpenAI CEO Sam Altman to discuss future collaboration."
+    },
+    {
+      "title": "Anthropic's Frenemies Meta and Google Are Showing Cracks In the AI Trade. What That Tells Us About the Anthropic IPO. - Barchart.com",
+      "url": "https://www.barchart.com/story/news/8577768/anthropic-s-frenemies-meta-and-google-are-showing-cracks-in-the-ai-trade-what-that-tells-us-about-the-anthropic-ipo",
+      "source": "Barchart.com",
+      "publishedAt": "2026-11-01T01:00:03.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 35
     }
   ],
   "general": [
+    {
+      "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
+      "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-01T12:19:33.000Z",
+      "kind": "news",
+      "summary": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and resumed phased withdrawals.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Local mom-and-pops are embracing AI food slop, and residents are revolting - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNmZCWm1wR0hsUXRkYlVXcVp0aDBFbWJkSUpZeE5oOXNnM0FzU0ZaeHhFbndfRUI1ZXBueGF5R1VheEptX1dmektlZzlwbTFtR0kzWXI5Y25XbGd6NXVjUnpybFhxWTFyOHpDX0RLMTJSTm9fYzAtX0N0d3IxaFN3VVgxQ2dEb1FFcUVEMHJCNjFTNnMzM3VkVXU5aWpaakFrOEthcC1kbnd1TlhmeGFNbjY5eG83SVZxaFZQY1Bn?oc=5",
@@ -1424,6 +1436,17 @@
       "score": 50
     },
     {
+      "title": "Mathematicians warn AI firms are keeping vital research in the field secret - The Observer",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS2hZMjNvR2hHeWRUSUJOS3NpU0R1enoyVFNHY1JSdlFWS2wyZEw4ejBEQkZsRURsbkp4VVVSMG1fMmg2RGxGQ0t0VVZhRmRFT1RkNzJTR1ZSRDViM3hBNk5aSE9WQ2hIQnB0LUF4R3RTN19CR0lSNm5iX2tCcVlVVFNXTm9rRUdJNGZrUHVfVjVMMUlFV2RSMHROQWJWcHhBNkxJMjJXS1RueHpQcW5rcXd5VHUwNlJTQ3hOMw?oc=5",
+      "source": "The Observer",
+      "publishedAt": "2026-11-01T10:34:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "China to Convene Meeting on Supporting Stock Market, Reports Say",
       "url": "https://www.bloomberg.com/news/articles/2026-11-01/china-to-convene-meeting-on-supporting-stock-market-reports-say",
       "source": "Bloomberg",
@@ -1440,17 +1463,6 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzZBQkZXM21JMjQxb3NhTi1qeGxBZ1VJNWNzMkhyY05USXFSTVBHeEFvYmQzMmJnVXRDengwNzRyS3NkLWszSXUxNDU4a3pRaEtWRHo4ek53ZFliaC1WLVJJYTJJelNfZ0hOOThnMTNQeGdzMEJINTAwQmIweFZaNFhTVDcwQQ?oc=5",
       "source": "The New York Times",
       "publishedAt": "2026-11-01T10:00:17.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "‘Let’s take Alexa out into the garden and smash it with a shoe’: Charlie Brooker and Diane Morgan take aim at Hollywood, AI ... and each other - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONzk5czc1ejNRVWFabG5pamVpX0E5VnphbWVKX1cwMTdEczdhTXQ1aTFRTkV5eHZsNnhUQWdFbXI2T2R3d1ZRRG9wQk5ESzhianNrTzFyeHRCUHk1b2Z1ZDM0Rmxxajl0N3JTbzI0LUlMVV83MVphejNNbVByYy1rN0hwZlE2cHk2Rk5xcGJxNTFqS3FkN3Rfd0FVU3h1VnhieG54YWFLcGFkOW5xMTBpTTZ4LWx2cTQ?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-01T10:00:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1505,18 +1517,6 @@
       "score": 50
     },
     {
-      "title": "Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
-      "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-01T09:03:47.000Z",
-      "kind": "news",
-      "summary": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and resumed phased withdrawals.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Labour’s AI fund joins $6.5bn deal for Anthropic-backed chipmaker - The Telegraph",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbUNXUVhhczZHbm85RDVmaDl3Q0ZIMlBXSzZSVGxMR3Y1Wkl6dEFtb0VYM0pMd1Mtei10N09rTHlwSFdsTzBDN1FSdVBxaGpkLXZ4dDNCbjltcEtTSmFET1pOVUdROEdUMnA2V3Z0WXBVOC1LVzd4WU9GMGFBak8tWmJncjY1dkxEU0V5LTBNNk4wb0tQclRlTDN4N1BOWmljc01oMlg1NTE?oc=5",
       "source": "The Telegraph",
@@ -1562,21 +1562,10 @@
       "score": 50
     },
     {
-      "title": "As billion dollar valuations come crashing down under worries about AI demand; China sends a message to t - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPRjRzR0JCbEJNblpRNnNRQThITXZKT0JvNmFrM1czb0JHdlRvMTE2Z3pYckVvY2UwNnhCcXBVM1NvVGlCRG10T1BKZ1RCZlR1OVJnLUYwbE1Nb3VmeGpQZktia2tjdktfSnVuYjdNOUNaMzRNYTdRZVA5cnhIM2ROb1RSUmFSNXlrdm1PdE42WUI1eWp2bXl4T1o3RE5VZTlJWFZpUzN4eFJRQkZaY0t2b3B3UWZMYUd5bW9pdWdRSmdkWWtzTE1MT2lRR1N0dm1ocm9yR2dpcTFNd3hnVm9YSDQyQ0VlRUFjU3NpZERtQkJLS015V0YyRzRWckVHR2V4OHVvOU0ybGRKNVBwUkxuTGd5QlRnRWhnX3RXUk9kb1JvZF9lbF9lM1VfQU9NYks2blpNN2FpNWk5SmdzbURKWEtwYXhRQdIBywJBVV95cUxOeFRjbGxScjJuRkY3ZTZhZlRnWDB5dXJ4bHRJWVZrekdmOHF1TnhDYWFIR2ZXVnEyU1ltZWUteFpxRG5LV2d2LU0tbjcxYXlPSFNRc21jWUFDLW5kWmZ5bXlEZmdvV0VqYkVCTkR5clhGV1pkN1lpM0NvT2ZqMUtURm5OWGRKLXlSZ1RIcXpqNGttNlFjOEp2OUdVS0k5UXJRTEhISEVZWTFKQmdNWTRVN2dQeWIwaHYxbXZvNm5rZ1llSGVYMFNDN1QxMlVsVmxjaXpjQUl4UE9lcVhVY05UYmxyYlVfajZnYWhZVlJJb2ttT2pUZk1yMlY2U2E2UUMzaHJmMmVhVDFwYzBpNWZ0bVZMc05qQk5ma3JKZVptM1ZFYU84VjB5ZWdRN3N6cHZDdWVWRnhzZFRGMFVOckdyN05zUzBMVUpocVZB?oc=5",
-      "source": "The Times of India",
-      "publishedAt": "2026-11-01T06:32:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI wants Bitcoin miners’ power, but the contracts reveal who really gets paid - CryptoSlate",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRTNJMEFwbEcwalJXMjNZWGVpM24yZFZ3OEEwZ2pvaExCTHY2Z3p6Y1lsNjRjUmJDZ1IyVUxsODQzYlRkWWVNSnFPN1JCcTBsdGUyb3JsQUQtYmxOUE5KbnRKRjdoVzNSZFBLNkN6NmdVNlpPUE5tY3JFUkxGSXp0NHRiWDlhc1V5MFNqOS1kRUJ4THhUVFJGWnB4aUg5ZWxBRWc?oc=5",
-      "source": "CryptoSlate",
-      "publishedAt": "2026-11-01T11:20:22.000Z",
+      "title": "Saudi Aramco Takes 49% Stake in Humain AI Firm - Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSW0tRGdlbzI5ZnpQSVBVd2NnSjRZbGpXY2NTWFMwWlBwM2N0X0ZQSTlOeWNhblp0VXpLckRTLUY1bXhtbjVaNkdBMzd6R2hPc19SbEVsTEp0NDZIRWxUX0s4QmFENHloVjR3VmppdGtGX0gzU3hVUGhtWmkzWFdvTnZjbDIwNGw4Z1Fxbmpmem9mamhv?oc=5",
+      "source": "Urban Acres",
+      "publishedAt": "2026-11-01T12:15:59.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1584,10 +1573,10 @@
       "score": 40
     },
     {
-      "title": "The pressure on artificial intelligence (AI) companies to raise funds is becoming a reality. Concern.. - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NU3RlclRGU2w1TUxITzMyeHRnaTNUeFN5Zm1pa1duSEhaeV9DWE1wLWd5NVNmY0Y3U1JSZjhOUHBJUm9RT1RLYzFyb1E2bUk?oc=5",
-      "source": "매일경제",
-      "publishedAt": "2026-11-01T11:13:09.000Z",
+      "title": "If the AI Boom Goes Bust, What Happens to Crypto? Here's the Most Likely Scenario for the Crypto Market. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQemhpODRUTVpsRjh3eEt5MzNGM2ZZRUtWYXhCa21YRmFuMHlZVFFEOV9SYjF3anVFal9nT0tmSWFucjlrdUowVjRlcEk3ZVMzSWZoS2FpMmE0UEVuVmNUenU5eFk2TlRpYVp5VjIyYThuWmttUVBYdTNQWm5CY2pFWG15ZlkyRVFQcXVrVjA4M0VQaVlh?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-01T12:05:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1595,10 +1584,10 @@
       "score": 40
     },
     {
-      "title": "IBM Quantum's Joseph Broz To Keynote Next Edge Alliance Launch - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tTXNqa2FENTlqQ09fSmRyVzZsenQySkJGOUx4ZDl6c18tWkRTdTlibmJjLTJnU3Y2S19QS1I2Z21scUpqcUpVTk05dzI2X2t1XzlvWmhjSnBHQTdIdWhzdG1GMC1YengxNWNQOFRlaGFLMDN4UTBN?oc=5",
-      "source": "Quantum Zeitgeist",
-      "publishedAt": "2026-11-01T11:11:19.000Z",
+      "title": "Fox News Takes Massive Ratings Hit As It Triples Down on Pro-Data Center Coverage - Futurism",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcU05MGJiUm9FTVpjUVRVckQwa3pmSGcwRmY4clBjLUswZ29IaGRHMXROUHZKeU9aa2tzOWx4aTFxeUZQd0VEYk10VGcwN0dleVNNUU1Gc05nWDBVUEQ5WGFteWFYZzNmU0lTN1gzOVJZQW1xQ0JjUTRCTVNIbmVoTG9GMkllU0VBVEJJV2ZrVnR3VzVMQUE?oc=5",
+      "source": "Futurism",
+      "publishedAt": "2026-11-01T12:03:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1606,10 +1595,10 @@
       "score": 40
     },
     {
-      "title": "Australian public servants demand AI safeguards as politicians eye staff savings - Politico",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPajR3aDlTaW0xczBYM214dmYzbzdSZWk1ay1nMmo2NXBqakF3c2xGWEdLclV3VXAtQ0ZBNlpwNjZFMm43d09fQUx3S2NMcENveENpdndGdlJfN0JDT3F2d1pRT0Z0aWdNVUttSlVhTWxNQkJzaVNwWm94Q3ZsM2hDWkdBRWMzSk51dE1MNXp0NlVyczJPS0dGZENNZTRtQzZUMWRwcjdnZHgydGpsbHRVSkRaTlA2bGNPVk1POEF0cUdWa2Y1dENQc0RxbGU4MUhuWlk1SUVwUlFPNThE?oc=5",
-      "source": "Politico",
-      "publishedAt": "2026-11-01T11:09:00.000Z",
+      "title": "How CPAs are putting AI to work in audits - Journal of Accountancy",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnh0dDAwMElUNmxwWllxUF9lTW84U2JVMHBTNTNWZVZwUTZqV2NuOFJtOWdTU2NKa1NCdVhvWmpRQi02RWdJMUVjb19LU1haV2hKLXE1SnIzeWlrUEhkTkRsSGhDbXROS09mXzRZQ1pnUFRGMUx3U3BTamViZVdqcXYyQWJWTzFnYWw5cnR1Ny1IOEtYNS1rV0FTdw?oc=5",
+      "source": "Journal of Accountancy",
+      "publishedAt": "2026-11-01T12:00:53.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1617,10 +1606,21 @@
       "score": 40
     },
     {
-      "title": "Communicating Christ in Asia in the Age of Artificial Intelligence - AsiaNews",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRWlUQ3U3U3VfQXFQbUU5QlJTZ2E0RkxtWVdILVo1NzJleFBrRTVoM0xTX3pHSjhuVkE0SnViV3FCbFhvMXNyemJjdjAwbm4zbm5ab3BITjJEOW16WGNVX0RSLUR3NnRfYUFFTlo0YUlDT0xSdFhYOFRIYXd5ZU8xMUhzYWZGem9CWXY2eUVaQ2VSVm15VkJZeGNqd1pPZzlVaEdLX3MwYzljenhUdEE?oc=5",
-      "source": "AsiaNews",
-      "publishedAt": "2026-11-01T11:02:24.000Z",
+      "title": "AI raises the stakes for auditor judgment - Journal of Accountancy",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdHN3em1DNEhKazhpQjZnWDBNMXdPcVk2cUFXeHdqODRMNjd6QzZ0VjNPZDU1dE96cW4zbklyWlNMcThHdDZVS2RaUHhpNFJ3S1ZkcjNodGlqSE9vVkFPbGM4N0t5QUo2YURQMHdjLXB4V2hhRHlROFp6ZVpZRWItNlhoTnRiZDB3eTVnVDdKRUZ3c3JRN29QWWw2QQ?oc=5",
+      "source": "Journal of Accountancy",
+      "publishedAt": "2026-11-01T12:00:53.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "How firms make AI adoption work for them - Journal of Accountancy",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2RFb093aWY0Smd4N1h2dUEtVjZidWRPLUpvenM3YWg4UmNQeE1OWU5oWE11dF9WMzVQYWd0U1YwYWRwZFkzSmFoeS1oTXdNTjZFb2hiSDREcjFQOXR0MDFRZ0ZYYkFndHBZeHhrMms1aFB2Nk1TNXQ0RnU2YzlrNHBQSENBR0EtR1FKd3pldDBzV25IblVhMFBB?oc=5",
+      "source": "Journal of Accountancy",
+      "publishedAt": "2026-11-01T12:00:53.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1639,12 +1639,34 @@
       "score": 40
     },
     {
+      "title": "As billion dollar valuations come crashing down under worries about AI demand; China sends a message to t - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPRjRzR0JCbEJNblpRNnNRQThITXZKT0JvNmFrM1czb0JHdlRvMTE2Z3pYckVvY2UwNnhCcXBVM1NvVGlCRG10T1BKZ1RCZlR1OVJnLUYwbE1Nb3VmeGpQZktia2tjdktfSnVuYjdNOUNaMzRNYTdRZVA5cnhIM2ROb1RSUmFSNXlrdm1PdE42WUI1eWp2bXl4T1o3RE5VZTlJWFZpUzN4eFJRQkZaY0t2b3B3UWZMYUd5bW9pdWdRSmdkWWtzTE1MT2lRR1N0dm1ocm9yR2dpcTFNd3hnVm9YSDQyQ0VlRUFjU3NpZERtQkJLS015V0YyRzRWckVHR2V4OHVvOU0ybGRKNVBwUkxuTGd5QlRnRWhnX3RXUk9kb1JvZF9lbF9lM1VfQU9NYks2blpNN2FpNWk5SmdzbURKWEtwYXhRQdIBywJBVV95cUxOeFRjbGxScjJuRkY3ZTZhZlRnWDB5dXJ4bHRJWVZrekdmOHF1TnhDYWFIR2ZXVnEyU1ltZWUteFpxRG5LV2d2LU0tbjcxYXlPSFNRc21jWUFDLW5kWmZ5bXlEZmdvV0VqYkVCTkR5clhGV1pkN1lpM0NvT2ZqMUtURm5OWGRKLXlSZ1RIcXpqNGttNlFjOEp2OUdVS0k5UXJRTEhISEVZWTFKQmdNWTRVN2dQeWIwaHYxbXZvNm5rZ1llSGVYMFNDN1QxMlVsVmxjaXpjQUl4UE9lcVhVY05UYmxyYlVfajZnYWhZVlJJb2ttT2pUZk1yMlY2U2E2UUMzaHJmMmVhVDFwYzBpNWZ0bVZMc05qQk5ma3JKZVptM1ZFYU84VjB5ZWdRN3N6cHZDdWVWRnhzZFRGMFVOckdyN05zUzBMVUpocVZB?oc=5",
+      "source": "The Times of India",
+      "publishedAt": "2026-11-01T06:32:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Companies promised AI gains— here's how the payoff showed up in earnings",
       "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
       "source": "CNBC",
       "publishedAt": "2026-11-01T06:00:01.000Z",
       "kind": "news",
       "summary": "Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Expert discusses AI’s role in modern warfare - The Lawton Constitution",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRzFDZUllZThjdU1IaFRDS1k3U1VJTklZZHFtaTUwUG8xeU00dlBHLW11bVpvS1lHdERuTV9PMGN1X2cwYmFwS0ZjaG0xb2RDcG1vTlRfN050SE52N3RCOGp5aEo4LVB1Ump0VTJOR3IzLThSZ3NmWmRWcjVsYUVTX0Q3aC1LMTVIRkd4YmpzSkVEbWg4a2RLYUwxZWl0RUw1YmNjNTlJTUVzanIybFpwa01EdlhHa0lxN2hmMGxvb0hBdw?oc=5",
+      "source": "The Lawton Constitution",
+      "publishedAt": "2026-11-01T06:00:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1679,17 +1701,6 @@
       "publishedAt": "2026-11-01T05:14:49.000Z",
       "kind": "news",
       "summary": "Macau’s gaming revenue declined for a fifth straight month in October, as weak spending by high-end players offset a surge in Golden Week visitors.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Finding peace, one click at a time: AI-made virtual sanctuaries draw young Koreans - The Korea Herald",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JS3gzNkpDT0RMcUlpdmZXYlkzRlQ5N2RsMmFta3VPM2YwSlpFYlk0U0dsejNITW02S3lqaUtOZUU4SFg0ZnF0SFpxLUMtTWZKSGZrUUZFMA?oc=5",
-      "source": "The Korea Herald",
-      "publishedAt": "2026-11-01T04:10:50.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1897,17 +1908,6 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMW93U1lTNkU0LUN0VDZjWEZXZ1h6eTRpTTRzLWQxSXUxUWJ0eUUwYkM1X2dEMlFsRTl3Z0tQeWpGQkxqMVF1eHgtNE1SZUR4RW9JYkoxVnlYbG93WTJUaGRmTDctUEl0WjlRNlVGUG10NE1xRmtaOVhYcTBhV1dRd3lLT0EwTmhoZFZsS3VkNmtOMmVpWVVkRjFWVng3QlE?oc=5",
       "source": "The Guardian",
       "publishedAt": "2026-10-31T16:20:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "America Needs AI Power. But Who Gets to Decide Where It Is Built? - The Washington Stand",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQanA2LUhIYWtsNVlybVFoWnlfcXBaZTB5N3IzQmgtbXU4X3Ayc2s5Q2tvU0w4SzREdjY4bGd1b3VvTVBIZmtjdGQ1SXpyZUUyUmt5TlJ3cFBuV2VrSVlfSFFGT1NyS1VHa3gteEtSYXBTcF9UdHQzVzlITUxRaGZKV3hOb2ZtbnZqVE8xM0doMUdkcFc2MndRbFlCM2lidElt?oc=5",
-      "source": "The Washington Stand",
-      "publishedAt": "2026-10-31T16:18:13.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

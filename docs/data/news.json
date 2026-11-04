@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T20:01:54.031Z",
+  "generatedAt": "2026-11-04T20:31:46.045Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -147,6 +147,20 @@
       "source": "Yahoo Finance Australia",
       "publishedAt": "2026-11-04T15:41:24.000Z",
       "kind": "news",
+      "tier": 3,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 55
+    },
+    {
+      "title": "What Does Fermi (FRMI) Lease Update Mean For Its Cash Flow Story?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-fermi-frmi-lease-mean-151051363.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-04T15:10:51.000Z",
+      "kind": "news",
+      "summary": "Fermi (NasdaqGS:FRMI) reported an update on its Data Center Lease and Services Agreement with TensorWave TEX1, LLC after the anticipated closing date passed. The company said both parties remain committed to the TEX1 data center arrangement and are working to complete remaining closing conditions. Management framed the TEX1 lease and services project as important for Fermi's longer term plan and potential cash flow profile. The renewed commitment to finalize the TEX1 data cen",
       "tier": 3,
       "tickers": [
         "FRMI"
@@ -581,20 +595,6 @@
       "summary": "[November 02, 2026] Fermi America - $FRMI - Discussion Thread"
     },
     {
-      "title": "What Does Fermi (FRMI) Lease Update Mean For Its Cash Flow Story?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-fermi-frmi-lease-mean-151051363.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-04T07:10:00.000Z",
-      "kind": "news",
-      "summary": "Fermi (NasdaqGS:FRMI) reported an update on its Data Center Lease and Services Agreement with TensorWave TEX1, LLC after the anticipated closing date passed. The company said both parties remain ...",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
       "title": "Fermi Inc. (FRMI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://ca.finance.yahoo.com/quote/FRMI/",
       "source": "Yahoo! Finance Canada",
@@ -911,6 +911,19 @@
   ],
   "related": [
     {
+      "title": "Yep Ads Named an OpenAI Select Partner - The National Law Review",
+      "url": "https://natlawreview.com/press-releases/yep-ads-named-openai-select-partner",
+      "source": "The National Law Review",
+      "publishedAt": "2026-11-04T20:10:26.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
+    {
       "title": "Google responds to political backlash over removing search from schools that ban AI",
       "url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
       "source": "CNBC",
@@ -929,19 +942,6 @@
       "url": "https://www.economist.com/science-and-technology/2026/11/04/openais-approach-to-mathematics-does-not-add-up",
       "source": "The Economist",
       "publishedAt": "2026-11-04T18:11:10.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "OpenAI Agrees to Buy Software Startup Pierre to Bolster Codex - The Information",
-      "url": "https://www.theinformation.com/briefings/openai-agrees-buy-software-startup-pierre-bolster-codex",
-      "source": "The Information",
-      "publishedAt": "2026-11-04T17:56:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -993,6 +993,47 @@
       "summary": "Haiou jailbreak modifies OpenAI Codex instructions to inject persistent ads for a third-party LLM gateway into agent responses."
     },
     {
+      "title": "Jill Hazelbaker jumps to OpenAI as chief corporate affairs officer - Axios",
+      "url": "https://www.axios.com/2026/11/03/jill-hazelbaker-openai-uber",
+      "source": "Axios",
+      "publishedAt": "2026-11-04T14:51:40.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Tech layoffs tracker 2026: All the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others - Yahoo Tech",
+      "url": "https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-canva-squarespace-amazon-microsoft-apple-meta-and-others-141507340.html",
+      "source": "Yahoo Tech",
+      "publishedAt": "2026-11-04T20:17:04.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "There are only a couple of months left of the year and there have been over 200,000 layoffs across the tech industry. Here are the details."
+    },
+    {
+      "title": "Google turns off AI for schoolchildren by default - Yahoo",
+      "url": "https://www.yahoo.com/news/us/articles/google-turns-off-ai-schoolchildren-195022393.html",
+      "source": "Yahoo",
+      "publishedAt": "2026-11-04T19:50:22.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "Google has said it will switch off its AI tools for schoolchildren by default, after drawing criticism for pushing artificial intelligence features to students while schools are still debating how the..."
+    },
+    {
       "title": "OpenAI takes data center power-flexibility pledge national - TechTarget",
       "url": "https://www.techtarget.com/news/openai-takes-data-center-power-flexibility-pledge-national/873751/",
       "source": "TechTarget",
@@ -1024,45 +1065,6 @@
       "url": "https://www.thestreet.com/investing/why-ai-investors-may-need-nvidia-and-application-stocks",
       "source": "TheStreet",
       "publishedAt": "2026-11-04T19:32:20.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Fermaca Unveils NVIDIA-Powered AI Factory Platform to Power Mexico and Latin America - Yahoo Finance Singapore",
-      "url": "https://sg.finance.yahoo.com/news/fermaca-unveils-nvidia-powered-ai-192900033.html",
-      "source": "Yahoo Finance Singapore",
-      "publishedAt": "2026-11-04T19:29:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "CPI | OpenAI Says Apple ChatGPT Deal Doesn’t Shut Out AI Rivals - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcUJyR1VMWDNNeGUzQVhfQlZSSmwzYWFnQjgwRXVFNVhud3VCUjRYM0FEM253TWNHUjlhb1NwN2lITFhiT1dfcGIzbUp1MDR1a3htelJRUGZ0MGQ0UmYxNmtCeGxBbFR1VzdJVDJaQjBHU2d0QmFrWEFsNjJkRVFfdVotalRpVUlBOFdNUExfUWY0aFI2?oc=5",
-      "source": "PYMNTS.com",
-      "publishedAt": "2026-11-04T19:28:12.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "NVIDIA curbs China's backdoor access to AI chips with new cloud partner rules - Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lbG93UVN3U2MtaFpieXhEci02Z0hWZE83SWpzRTdfTHB1bnc4YllKYjFGQ3REaGU3OWxRbHhRWmIya3BpZ0NxZU9QSWxmZ284cGFCZUZySnJJV0k?oc=5",
-      "source": "Fox Business",
-      "publishedAt": "2026-11-04T19:21:51.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1110,6 +1112,20 @@
       ],
       "score": 55,
       "summary": "Google will cut off Search for K-12 students at schools that choose to block its AI tools, The New York Times has reported. Starting early next year, the company's AI features will be off by default for student accounts unless administrators turn them on."
+    },
+    {
+      "title": "Breakfast News: Did Nvidia Just Favor Marvell? - The Motley Fool",
+      "url": "https://www.fool.com/investing/breakfast-news/2026/11/04/breakfast-news/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-04T12:52:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia’s likely role in the Marvell-Lumentum deal, AI stocks hit by midterms, and more…"
     },
     {
       "title": "Exclusive: OpenAI targets Microsoft's GitHub with deal for startup - Axios",
@@ -1208,6 +1224,46 @@
       "summary": "In announcement geared towards schools, tech giant showed how entwined AI is with the world’s most popular website"
     },
     {
+      "title": "Fermaca Unveils NVIDIA-Powered AI Factory Platform to Power Mexico and Latin America - Yahoo Finance Singapore",
+      "url": "https://sg.finance.yahoo.com/news/fermaca-unveils-nvidia-powered-ai-192900033.html",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-11-04T19:29:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
+      "title": "CPI | OpenAI Says Apple ChatGPT Deal Doesn’t Shut Out AI Rivals - PYMNTS.com",
+      "url": "https://www.pymnts.com/cpi-posts/openai-says-apple-chatgpt-deal-doesnt-shut-out-ai-rivals/",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-11-04T19:28:12.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 45,
+      "summary": "OpenAI is pressing a US federal judge to throw out antitrust claims brought by Elon Musk’s X Corp., arguing that its agreement with Apple to integrate"
+    },
+    {
+      "title": "NVIDIA curbs China's backdoor access to AI chips with new cloud partner rules - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lbG93UVN3U2MtaFpieXhEci02Z0hWZE83SWpzRTdfTHB1bnc4YllKYjFGQ3REaGU3OWxRbHhRWmIya3BpZ0NxZU9QSWxmZ284cGFCZUZySnJJV0k?oc=5",
+      "source": "Fox Business",
+      "publishedAt": "2026-11-04T19:21:51.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 45
+    },
+    {
       "title": "AEP, Google Advance $4 Billion Fuel-Cell Project to Power Cheyenne Data Centers - Data Center Frontier",
       "url": "https://www.datacenterfrontier.com/energy/article/55413102/aep-google-advance-4-billion-fuel-cell-project-to-power-cheyenne-data-centers",
       "source": "Data Center Frontier",
@@ -1260,66 +1316,44 @@
       ],
       "score": 45,
       "summary": "Democrats flipped Congress and the Magnificent Seven fractured, with five megacaps surging while two of the group's biggest names moved in the opposite direction. The split points to a rotation that could reshape which companies lead the market through year-end."
-    },
-    {
-      "title": "TeraWulf Falls 4% Despite Google Backstop for $19 Billion Anthropic Leases; Cipher Digital Plunges 18%, IREN Tumbles 9% - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/11/04/terawulf-falls-4-despite-google-backstop-for-19-billion-anthropic-leases-cipher-digital-plunges-18-iren-tumbles-9/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-11-04T17:56:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45,
-      "summary": "Google locked in a massive long-term guarantee for Anthropic's leases at TeraWulf's Kentucky campus, yet the stock is still sliding while rivals are getting crushed. The funding math behind these AI data center buildouts is making investors nervous about who actually pays before the first tenant flips a switch."
-    },
-    {
-      "title": "Nvidia is Far From The Only Threat to AMD - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/11/04/nvidia-is-far-from-the-only-threat-to-amd/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-11-04T17:45:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45,
-      "summary": "Intel just posted its strongest data center growth in 15 years, and Broadcom is pulling AI budgets toward custom chips that undercut GPU pricing. AMD is fighting a two-front war it rarely gets credit for."
-    },
-    {
-      "title": "Siemens Energy stock gets analyst support before fiscal results - ad-hoc-news.de",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/siemens-energy-stock-gets-analyst-support-before-fiscal-results/70458955",
-      "source": "ad-hoc-news.de",
-      "publishedAt": "2026-11-04T17:44:28.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "SMNEY"
-      ],
-      "score": 45,
-      "summary": "Siemens Energy stock remains in focus as Bernstein points to data-center power demand. Fiscal 2026 r"
-    },
-    {
-      "title": "AMD's Helios Rack Systems Land Meta, Microsoft, OpenAI, Anthropic and Oracle as Users - ad-hoc-news.de",
-      "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/amd-s-helios-rack-systems-land-meta-microsoft-openai-anthropic-and-oracle-as-users/70458915",
-      "source": "ad-hoc-news.de",
-      "publishedAt": "2026-11-04T17:40:59.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI",
-        "MSFT"
-      ],
-      "score": 45,
-      "summary": "AMD said five major customers run workloads on its Helios rack-scale systems, as Q3 data center reve"
     }
   ],
   "general": [
+    {
+      "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
+      "url": "https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-04T20:04:26.000Z",
+      "kind": "news",
+      "summary": "Wayfair said its sales jumped 10% in the third quarter as the retailer posted its strongest quarter since the pandemic.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "One Man’s Quest to Help Wine Country Master AI - The Santa Barbara Independent",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM0dERllVNnVZYWJyNnpDMG0zNVl1Mm5YMUJUTkozVjhqU3g4aHU3UFpMU0s3aTRrYVpnWHpBclQzazVSMGtDZzlyMERET2lRaVJSRHVUWGJUYkZsTF9ySGlmek9paEp0d2Etc3B0aFllUS1oVHJ4WGlHa2w0RHNQRGlsU0duTHBZNHFJWA?oc=5",
+      "source": "The Santa Barbara Independent",
+      "publishedAt": "2026-11-04T20:01:17.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Democrats Need to Focus on Corruption, Affordability Says Rep. Morelle",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-04/dems-need-to-focus-on-corruption-says-rep-morelle-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T19:58:02.000Z",
+      "kind": "news",
+      "summary": "Democratic Representative Joe Morelle of New York said that Democrats need to focus on anti-corruption efforts and setting American families up for success after voters handed the party control of both chambers of Congress. Morelle also said that President Trump's continued focus on his White House ballroom today after voters repudiated his policies 'says volumes about his leadership.' (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
       "url": "https://www.cnbc.com/2026/11/04/flutter-fanduel-promotions-q3-2026.html",
@@ -1429,6 +1463,17 @@
       "score": 60
     },
     {
+      "title": "QUICK SPARK: Anthropic Wants AI Companies To Prove Their Models Are Telling The Truth - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX29nU2J0cDJ3aDVTZkQzczVjUDNzOTU3aXJDQUQ3dGVWT2VSakROcmxMNTFzS3IxTlRkclNoeThfNW9tTzVBOHdxSzEwMDNXZ1h0MU56eTEyeUhQN1kyLTU4SzJ0VVA2WkNTaE9JLXVwbmpWdmdqRk50NlhQdlpWMG1NVHM1dzN3Wk5uYWQ2bzRSQzVUZ0xYYm0xU2xIMXpLU21uOHVMUi1LdWNVVXhhb0dIal9fOTY3b1FSN0h3R2R6U2M4dkhETTlldEZUamZmd0EwOWdidw?oc=5",
+      "source": "Benzinga",
+      "publishedAt": "2026-11-04T20:23:30.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "SpaceX Ups Challenge to US Mobile Carriers With Qualcomm Deal",
       "url": "https://www.bloomberg.com/news/videos/2026-11-04/spacex-ups-challenge-to-us-mobile-carriers-with-qualcomm-video",
       "source": "Bloomberg",
@@ -1438,7 +1483,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Exclusive | CrowdStrike to Buy Two AI Security Startups for $495 Million - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBHYWpjdWxPUUszcVo2UmdxQ0UzUWpLZlh6TFdlZXhwWDRCWDM1S1V2eW0xODY4bFN4bzNmM3REWTlYTmpZdm1MYWFlZTdkY2pFZXhncGRfR2x5WjlYdVZoRW9YbUJhV1RxODR5NHhGLVYySlRVa0QwZ0pKMU4yUHd2RkQwWm8zV2pDaFU4VzI3NXhYN0tsVHY3ejV4dmE4YTZrUkNZTDlEUQ?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-11-04T19:29:04.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Anthropic's text watermark is easy to bypass on several older Claude models - The Decoder",
@@ -1449,7 +1505,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "We're cutting our Qnity price target but still loved the beat-and-raise quarter",
@@ -1461,7 +1517,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Wall Street Girding for US Debt Ceiling Showdown in 2027",
@@ -1833,70 +1889,12 @@
       "score": 50
     },
     {
-      "title": "Citadel Securities’ Rubner Says Stocks Are Set Up for Year-End Gains After Vote",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/citadel-securities-rubner-says-stocks-are-set-up-for-year-end-gains-after-vote",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-04T15:45:38.000Z",
-      "kind": "news",
-      "summary": "US stocks are primed for a year-end rebound as the midterm election removes a source of uncertainty, corporate earnings remain resilient and lackluster investor positioning leaves room for renewed buying, according to Citadel Securities’ Scott Rubner.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Crypto Giants Scrap Crime-Fighting Alliance as Hackers Circle",
       "url": "https://www.bloomberg.com/news/articles/2026-11-04/crypto-giants-scrap-crime-fighting-alliance-as-hackers-circle",
       "source": "Bloomberg",
       "publishedAt": "2026-11-04T15:41:28.000Z",
       "kind": "news",
       "summary": "An initiative set up by some of crypto’s largest companies to curb illicit activity has quietly been dissolved, at a time when crime involving digital assets continues to surge.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "CoreWeave Bonds Hit New Lows as Texas Data Centers in Crosshairs",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/coreweave-bonds-hit-new-lows-as-texas-data-centers-in-crosshairs",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-04T15:40:16.000Z",
-      "kind": "news",
-      "summary": "CoreWeave Inc.’s bonds tumbled on Wednesday, in some cases to new lows, after Democratic candidates in favor of slowing down data-center construction won a number of gubernatorial races, including in Texas.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI shopping agents could threaten Amazon and Walmart's ad business - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUWZfYmc3VnVieU56OVF4S1RhMlVMMUhXR2JjZzFhVnVvcnBhLTU0aHFEUDVlN044aThuQWZ4UWpOY1c0cm5wT24xTktkRS1FVjI4VndwLU9WbzFSek1ublFKTmQ2UUxPMTVoam9lcmxnYUM2WGgxdUVOMF9EZ0MyVENMRDU3VUlZQk5yUGd0QXdQWWZUbVo0cVZ2azZFSUFERjhVX1pxaDVOQ0trZ1dRNTR4RFpBenh1QUgyWQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-04T15:37:45.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US bank regulator issues first-ever AI guidance for examiners - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNXzJNWm5iUUp0bUVhSUJOR0FZZHVBbjJwb3BqbW5yYUJTZlpYYTNlVEU5ZXBORnhZQUpyVnNYeWlnaXFkdmZQa2h1YjVEVk92aEpkcUhueTRsTjRMU3NPekZMLWRxdGFyOUFvNWlHNmhCSFZmcTBLbVNiU1Zlb0hHeDZyLVVORnRUMDNLZ3VTZTBOd2pyajVCSnlqWXZuOEpzUkdEa01VRF9aYnpOemlz?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-04T15:35:36.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Elon Musk’s record election bet backfired. The backlash may reach beyond one billionaire",
-      "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-04T15:29:01.000Z",
-      "kind": "news",
-      "summary": "Elon Musk's $474 million election gamble falters as Democrats threaten his Texas empire.",
       "tier": 1,
       "tickers": [],
       "related": [],

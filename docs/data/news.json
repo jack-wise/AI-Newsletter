@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T21:01:50.125Z",
+  "generatedAt": "2026-11-04T21:31:49.718Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,43 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 8-K — Fermi Inc. (CURRENT REPORT)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026115928/ea0310920-8k_fermi.htm",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-11-04T21:05:13.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 95,
+      "formExplanation": "A current report — the form companies use to disclose material events between quarters (deals, leadership changes, results, financings).",
+      "summary": "Fermi Inc. disclosed the results of its 2026 Annual Meeting of Shareholders, where neither of the two Class I director nominees received the required majority of outstanding shares to be elected, but they will continue to serve due to the company's bylaws. The meeting also resulted in the ratification of Ernst Young LLP as the company's independent auditors, with over 492 million votes in favor. The company is reserving its rights regarding a potential breach of a director nomination agreement related to the voting for one of the director nominees, Governor Perry."
+    },
+    {
+      "title": "Not the 8K we want or need",
+      "url": "https://www.reddit.com/r/FRMI/comments/1xo093l/not_the_8k_we_want_or_need/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-11-04T21:19:04.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/PigletExpert9088",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Not the 8K we want or need"
+    },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000689/xsl144X01/primary_doc.xml",
@@ -120,32 +157,10 @@
       "summary": "Are we the worst?"
     },
     {
-      "title": "These two pictures 2 minutes ago",
-      "url": "https://www.reddit.com/r/FRMI/comments/1xn536j/these_two_pictures_2_minutes_ago/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-11-03T21:02:27.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/wassup6789",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 58,
-      "summary": "These two pictures 2 minutes ago"
-    },
-    {
-      "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance UK",
-      "url": "https://uk.finance.yahoo.com/quote/FRMI/",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-11-04T15:50:39.000Z",
+      "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance Australia",
+      "url": "https://au.finance.yahoo.com/quote/FRMI/",
+      "source": "Yahoo Finance Australia",
+      "publishedAt": "2026-11-04T15:41:24.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
@@ -500,19 +515,26 @@
       "summary": "Fermi Inc. discloses the immediate resignation of director Miles Everson, effective July 10, 2026, due to a disagreement over access to company books and records and the delegation of responsibility for overseeing financing transactions to the Finance Committee. Everson's resignation was submitted in a letter, which is attached to the filing as an exhibit, and he did not serve on any committee of the Board at the time of his resignation. The company believes Everson was granted full access to its books and records, except for materials related to pending litigation involving Toby Neugebauer, whom Everson represented on the Board."
     },
     {
-      "title": "SEC filing: 8-K — Fermi Inc. (CURRENT REPORT)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026076788/ea0297535-8k_fermi.htm",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-07-09T21:11:38.000Z",
-      "kind": "filing",
-      "tier": 0,
+      "title": "These two pictures 2 minutes ago",
+      "url": "https://www.reddit.com/r/FRMI/comments/1xn536j/these_two_pictures_2_minutes_ago/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-11-03T21:02:27.000Z",
+      "kind": "social",
       "tickers": [
         "FRMI"
       ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/wassup6789",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
       "related": [],
-      "score": 55,
-      "formExplanation": "A current report — the form companies use to disclose material events between quarters (deals, leadership changes, results, financings).",
-      "summary": "Fermi Inc. commenced an offering for the sale of $350 million aggregate principal amount of convertible senior notes due 2031 to qualified institutional buyers, with the option to purchase up to an additional $52.5 million. The company intends to use the net proceeds to pay for privately negotiated capped call transactions and for general corporate purposes. The company also disclosed that it has deferred its planned election to be taxed as a real estate investment trust for US federal income tax purposes, now expecting to qualify and elect to be taxed as a REIT starting with its taxable year ending December 31, 2026."
+      "score": 48,
+      "summary": "These two pictures 2 minutes ago"
     },
     {
       "title": "Tensorwave Lease still lives!",
@@ -582,11 +604,11 @@
     },
     {
       "title": "What Does Fermi (FRMI) Lease Update Mean For Its Cash Flow Story?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-fermi-frmi-lease-mean-151051363.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-fermi-frmi-lease-mean-151051363.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-11-04T07:10:00.000Z",
+      "publishedAt": "2026-11-04T15:10:51.000Z",
       "kind": "news",
-      "summary": "Fermi (NasdaqGS:FRMI) reported an update on its Data Center Lease and Services Agreement with TensorWave TEX1, LLC after the anticipated closing date passed. The company said both parties remain ...",
+      "summary": "Fermi (NasdaqGS:FRMI) reported an update on its Data Center Lease and Services Agreement with TensorWave TEX1, LLC after the anticipated closing date passed. The company said both parties remain committed to the TEX1 data center arrangement and are working to complete remaining closing conditions. Management framed the TEX1 lease and services project as important for Fermi's longer term plan and potential cash flow profile. The renewed commitment to finalize the TEX1 data cen",
       "tier": 3,
       "tickers": [
         "FRMI"
@@ -885,28 +907,6 @@
       "related": [],
       "score": 38,
       "summary": "[October 25, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "[October 24, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1xdyqf9/october_24_2026_fermi_america_frmi_discussion/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-10-24T04:01:44.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "[October 24, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
@@ -935,21 +935,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Capitalism requires strong competition to function properly, and because of that, I have always been ..."
-    },
-    {
-      "title": "Yep Ads Named an OpenAI Select Partner - The National Law Review",
-      "url": "https://natlawreview.com/press-releases/yep-ads-named-openai-select-partner",
-      "source": "The National Law Review",
-      "publishedAt": "2026-11-04T20:10:26.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 75
     },
     {
       "title": "Google responds to political backlash over removing search from schools that ban AI",
@@ -1021,6 +1008,48 @@
       "summary": "Haiou jailbreak modifies OpenAI Codex instructions to inject persistent ads for a third-party LLM gateway into agent responses."
     },
     {
+      "title": "Meet the Only \"Magnificent Seven\" Stock That's Outperforming the S&P 500 and Nasdaq This Year (Hint: It's Not Nvidia) - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/04/meet-the-only-magnificent-seven-stock-thats-outper/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-04T15:59:31.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Apple is hovering around an all-time high despite a broader sell-off in tech stocks."
+    },
+    {
+      "title": "Latest Fundraising Efforts Show OpenAI & Anthropic on Divergent Paths - Newcomer | Substack",
+      "url": "https://www.newcomer.co/p/latest-fundraising-efforts-show-openai",
+      "source": "Newcomer | Substack",
+      "publishedAt": "2026-11-04T21:15:13.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "Tepid interest in its latest financing & Anthropic’s enterprise dominance have left OpenAI scrambling for a strategy"
+    },
+    {
+      "title": "Microsoft Clarity Helps Merchants Welcome AI Shopping Agents - PYMNTS.com",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-clarity-helps-merchants-welcome-ai-shopping-agents/",
+      "source": "PYMNTS.com",
+      "publishedAt": "2026-11-04T20:54:51.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 55,
+      "summary": "Microsoft has introduced three features for its website and app analytics tool, Clarity, that are designed to help website owners understand how people"
+    },
+    {
       "title": "Google Announces Digital Infrastructure Expansion, Local Jobs, Water Replenishment, and Clean Energy Initiatives with US$15 Billion Malaysia Investment - Google Cloud Press Corner",
       "url": "https://www.googlecloudpresscorner.com/2026-11-04-Google-Announces-Digital-Infrastructure-Expansion-Local-Jobs-Water-Replenishment-and-Clean-Energy-Initiatives-with-US-15-Billion-Malaysia-Investment",
       "source": "Google Cloud Press Corner",
@@ -1048,20 +1077,6 @@
       ],
       "score": 55,
       "summary": "OpenAI just claimed ChatGPT is closing in on Google Search, but independent analysts, Alphabet's own earnings, and a missing baseline in the comparison all tell a messier story about who is actually winning."
-    },
-    {
-      "title": "Tech layoffs tracker 2026: All the job losses across Canva, Squarespace, Amazon, Microsoft, Apple, Meta and others - Yahoo Tech",
-      "url": "https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-canva-squarespace-amazon-microsoft-apple-meta-and-others-141507340.html",
-      "source": "Yahoo Tech",
-      "publishedAt": "2026-11-04T20:17:04.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "There are only a couple of months left of the year and there have been over 200,000 layoffs across the tech industry. Here are the details."
     },
     {
       "title": "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia - Benzinga",
@@ -1115,6 +1130,20 @@
       ],
       "score": 55,
       "summary": "Google will cut off Search for K-12 students at schools that choose to block its AI tools, The New York Times has reported. Starting early next year, the company's AI features will be off by default for student accounts unless administrators turn them on."
+    },
+    {
+      "title": "Breakfast News: Did Nvidia Just Favor Marvell? - The Motley Fool",
+      "url": "https://www.fool.com/investing/breakfast-news/2026/11/04/breakfast-news/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-04T12:52:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia’s likely role in the Marvell-Lumentum deal, AI stocks hit by midterms, and more…"
     },
     {
       "title": "Exclusive: OpenAI targets Microsoft's GitHub with deal for startup - Axios",
@@ -1185,18 +1214,18 @@
       "score": 55
     },
     {
-      "title": "S&P 500 rises as Nvidia, AI stocks rally despite Apple decline - The Business Journal",
-      "url": "https://thebusinessjournal.com/sp-500-rises-nvidia-ai-stocks-apple-wall-street/",
-      "source": "The Business Journal",
-      "publishedAt": "2026-11-03T21:59:26.000Z",
+      "title": "Google says there’s no way to use Search without using artificial intelligence - The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
+      "source": "The Guardian",
+      "publishedAt": "2026-11-03T21:47:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "NVDA"
+        "GOOGL"
       ],
       "score": 55,
-      "summary": "The S&P 500 rose 0.4% as Nvidia and other AI stocks rallied, offsetting Apple's decline. The Dow fell while the Nasdaq gained amid mixed Wall Street trading."
+      "summary": "In announcement geared towards schools, tech giant showed how entwined AI is with the world’s most popular website"
     },
     {
       "title": "CrowdStrike and Dell Expand Security for AI Factory With Nvidia - Channel Insider",
@@ -1242,7 +1271,7 @@
     },
     {
       "title": "Alibaba and Tencent Face Stunning Nvidia Chip Shortfall Despite Millions of Orders - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSFl3NmltanEzbi1IaHM0WlVrU0trNDBoay1DOTc3LXAyVUM3NzRMclF3ajFBa29TOEx1dUFuU0xKdklEY3JJUTE5T2dULTRlaDBWNldnVEJSejNCNmcxRXJzbk1OUHFnZ1pLY3Q2TmpDSXJrUkk4dl9aNk5Fdnhua1VhRExwNFltZ0VFSEtRZ0RXWjFZRUh5MGNnUndGWmRsNkE?oc=5",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-tencent-face-stunning-nvidia-193759713.html",
       "source": "Yahoo Finance",
       "publishedAt": "2026-11-04T19:37:59.000Z",
       "kind": "news",
@@ -1292,35 +1321,173 @@
       ],
       "score": 45,
       "summary": "OpenAI is pressing a US federal judge to throw out antitrust claims brought by Elon Musk’s X Corp., arguing that its agreement with Apple to integrate"
-    },
-    {
-      "title": "NVIDIA curbs China's backdoor access to AI chips with new cloud partner rules - Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lbG93UVN3U2MtaFpieXhEci02Z0hWZE83SWpzRTdfTHB1bnc4YllKYjFGQ3REaGU3OWxRbHhRWmIya3BpZ0NxZU9QSWxmZ284cGFCZUZySnJJV0k?oc=5",
-      "source": "Fox Business",
-      "publishedAt": "2026-11-04T19:21:51.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 45
-    },
-    {
-      "title": "AEP, Google Advance $4 Billion Fuel-Cell Project to Power Cheyenne Data Centers - Data Center Frontier",
-      "url": "https://www.datacenterfrontier.com/energy/article/55413102/aep-google-advance-4-billion-fuel-cell-project-to-power-cheyenne-data-centers",
-      "source": "Data Center Frontier",
-      "publishedAt": "2026-11-04T18:40:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 45
     }
   ],
   "general": [
+    {
+      "title": "Snap shares fall over 10% on third-quarter earnings miss",
+      "url": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-04T21:29:47.000Z",
+      "kind": "news",
+      "summary": "Snap misses on revenue and daily active users in third-quarter earnings reported Wednesday.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "U.S. Stocks Rally on Divided Government as AI Wobbles Continue - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcWlNLV9lYnhkTnhjMlBRNEVoX0ZsM1lmV1NJc1puOVk5V21sNVhYdmF1Q19wbmJzNjBxMmFnbEhZejF4SHhIZFF6SFBhWm45amMtMUxndmZ2aDEtUUZJUEJmTGR2OUtOeTV0M1N3a1h6SGQyNUFMU2dXWndJUlJUVUNJYnFnX0diQnNNUDNLZlU3Uy0tdU1lMk90MEhVWER2cXdMM09zZW5JYWc0?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-11-04T21:26:18.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Exclusive | CrowdStrike to Buy Two AI Security Startups for $495 Million - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBHYWpjdWxPUUszcVo2UmdxQ0UzUWpLZlh6TFdlZXhwWDRCWDM1S1V2eW0xODY4bFN4bzNmM3REWTlYTmpZdm1MYWFlZTdkY2pFZXhncGRfR2x5WjlYdVZoRW9YbUJhV1RxODR5NHhGLVYySlRVa0QwZ0pKMU4yUHd2RkQwWm8zV2pDaFU4VzI3NXhYN0tsVHY3ejV4dmE4YTZrUkNZTDlEUQ?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-11-04T21:26:02.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Arm Holdings Sales Climb 27% on AI Demand - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRXpoNFE4WG9aNjkwazZlZEM1VWtKWlU2d21jZFRjWm12a0ZjckU0SDAxWWYwSzJhLWY1SmtQaTRSdVFoV1FvOE5KNHJMOXo5bG15amtKdGdMdmpZUFJScF9RNHNyMGFDcFhPT3ZpVDFhSVFTc0xXbnJ2blUwT3VnMHFmYUJtcWxYX0liQUhkUlc?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-11-04T21:22:11.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Big Tech Rallies as Election Results Reshape AI Spending Outlook | Closing Bell",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-04/big-tech-rallies-on-ai-outlook-closing-bell-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T21:21:57.000Z",
+      "kind": "news",
+      "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Vonnie Quinn, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Snap Declines After Daily User Growth Falls Short of Estimates",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/snap-declines-after-daily-user-growth-falls-short-of-estimates",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T21:21:19.000Z",
+      "kind": "news",
+      "summary": "Snap Inc. fell after the company reported third-quarter ad revenue and user growth that missed estimates, with Chief Executive Officer Evan Spiegel acknowledging that “advertising revenue growth remains below our ambitions.”",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Qualcomm stock drops 5% on weak earnings forecast as memory shortage weighs on smartphone sales",
+      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-04T21:16:30.000Z",
+      "kind": "news",
+      "summary": "Qualcomm delivered better-than-expected results but issued a weak earnings forecast.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Arm beats second-quarter revenue estimates on AI and data-center demand - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMGV2UGo5V1FRUGxkUzdPWVo1NGhFM2lvM2N5NVUycUUya2VIX3N2aHM5am8tNUhCQ21oMng4LVQ2UllCWnRpdlNqUDd4MTM2ZVhpUTBlR3NQTTdBZFNMVlRDVV9LQ2d4Vjc1M0ZBcldwZmVEaGpDTENnVHR2bmp3Sm9ENnF6YWU1TDRjcmxiSWQwTjY5clQwb2V2a1JMdUhxLXRfLUZwUlNwR0Rob1E?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-04T21:14:05.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Goldman, Apollo in Talks to Sell SpaceX’s $40 Billion AI Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/goldman-apollo-in-talks-to-sell-spacex-s-40-billion-ai-deal",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T21:10:21.000Z",
+      "kind": "news",
+      "summary": "Goldman Sachs Group Inc. and Apollo Global Management Inc. are in talks with Wall Street investors to start selling portions of a roughly $40 billion chip financing deal for SpaceX, just as the AI boom braces for upheaval following a sweeping Democratic victory.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+      "url": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-04T21:06:02.000Z",
+      "kind": "news",
+      "summary": "E.l.f. Beauty posted stronger-than-expected quarterly results on Wednesday as the company continues to see broad-based growth across its portfolio.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Arm Forecast Meets Estimates After Data Center Push Pays Off",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/arm-forecast-meets-estimates-after-data-center-push-pays-off",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T21:05:57.000Z",
+      "kind": "news",
+      "summary": "Arm Holdings Plc gave a revenue forecast for the current period that met analysts’ estimates, a sign its push into data center computing is helping offset a slump in the smartphone market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
+      "url": "https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-04T21:04:47.000Z",
+      "kind": "news",
+      "summary": "Wayfair said its sales jumped 10% in the third quarter as the retailer posted its strongest quarter since the pandemic.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
+      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-04T21:02:53.000Z",
+      "kind": "news",
+      "summary": "McDonald's has leaned into discounts to attract budget-conscious diners over the last two years.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Qualcomm Gives Tepid Profit Outlook After Supply Costs Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/qualcomm-s-push-into-new-markets-helps-make-up-for-phone-slump",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T21:01:36.000Z",
+      "kind": "news",
+      "summary": "Qualcomm Inc., the largest maker of smartphone processors, gave a lackluster forecast for profit in the current quarter, a sign the company is still grappling with higher component prices.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Wall Street Revises Treasury Sales Forecasts on Guidance Revamp",
       "url": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-revises-treasury-sales-forecasts-on-guidance-revamp",
@@ -1328,6 +1495,28 @@
       "publishedAt": "2026-11-04T20:53:40.000Z",
       "kind": "news",
       "summary": "Wall Street strategists are rejigging forecasts for US borrowing next year after the Treasury signaled that changes to auction sizes for notes and bonds are on the horizon.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Internal report raised concerns about AI use on Seattle 911 calls, went ignored - The Seattle Times",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQzIzU3lmQXJtOFJNYUhEckpISENZUXBDNUs1a19tNTBEaGpXMUxRX0dLT2plN0psRTVmZU5BOXRsV0RwSGtMT1hBUXEtVDMtT2puWXFSNTE5ak9rcXowRUxfTmNILTRoTU1rWUgtSGEyUkRVR0RIVTByNHI0TGFFcHdPT2I0VjFoYVlfWWxGTDdWbGVyWEphVDdRc0VrcDRncDA2Y3FobWk1V0xsbUFRc3dyOWI0XzA5dm5JQWxOT29uczFQQ3Rzczk0NDBxeHVMOHc?oc=5",
+      "source": "The Seattle Times",
+      "publishedAt": "2026-11-04T20:51:57.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Under Hinojosa, Texas data center approvals could stay paused - The Texas Tribune",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSlZNQjY5Q3VyY0N4eVlCNVpyQ3FoRHdNdlFGZmlhQkFlbVpXdHlvVkZoNWdoaWtER0cwNjRIMm1DeHpSdlR5bWppRFJ1TjdFMm5CcU5VbEpyeHpBXzVNM2NCY3VhZ3RscmZWQ1M1NXZzZ1lWQVFlTVY5U0NEYTJpcjhYYUh5YWJXMTlIeWl2OXlORGotdjk1cVZwY2I?oc=5",
+      "source": "The Texas Tribune",
+      "publishedAt": "2026-11-04T20:41:34.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1351,29 +1540,6 @@
       "publishedAt": "2026-11-04T20:29:43.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
-      "url": "https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-04T20:04:26.000Z",
-      "kind": "news",
-      "summary": "Wayfair said its sales jumped 10% in the third quarter as the retailer posted its strongest quarter since the pandemic.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "QUICK SPARK: Anthropic Wants AI Companies To Prove Their Models Are Telling The Truth - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX29nU2J0cDJ3aDVTZkQzczVjUDNzOTU3aXJDQUQ3dGVWT2VSakROcmxMNTFzS3IxTlRkclNoeThfNW9tTzVBOHdxSzEwMDNXZ1h0MU56eTEyeUhQN1kyLTU4SzJ0VVA2WkNTaE9JLXVwbmpWdmdqRk50NlhQdlpWMG1NVHM1dzN3Wk5uYWQ2bzRSQzVUZ0xYYm0xU2xIMXpLU21uOHVMUi1LdWNVVXhhb0dIal9fOTY3b1FSN0h3R2R6U2M4dkhETTlldEZUamZmd0EwOWdidw?oc=5",
-      "source": "Benzinga",
-      "publishedAt": "2026-11-04T20:23:30.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1420,18 +1586,6 @@
       "publishedAt": "2026-11-04T19:51:18.000Z",
       "kind": "news",
       "summary": "Voters in the states at the heart of the AI data center boom pushed back on the buildout on Election Night.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
-      "url": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-04T19:47:32.000Z",
-      "kind": "news",
-      "summary": "McDonald's has leaned into discounts to attract budget-conscious diners over the last two years.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1683,6 +1837,17 @@
       "score": 50
     },
     {
+      "title": "AI debt binge isn't crowding out Treasuries, TBAC says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR2NsM2c2MkpoMEM1bUZQN0Vybngxb1dBbDJURG9UTkJnOXJLM2NnNjRaZUMzY2hJc2VqZ3VvQzdiVGptT1k5bnNYUUJJdHhfdy12bmZMdXZvTmdINjAwUWFKLW1lRjdGdUVxUEpKcGpWYU4xczl3X3pxWEZERDFkcWZjMmE3anN1d3Z0N1NxbzFlcDEyV0xRUDZ4TThUUXJLV2ZTZWxoTGNmdDlx?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-04T17:22:08.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Kraft Heinz to divest its North American coffee business in $650 million deal",
       "url": "https://www.cnbc.com/2026/11/04/kraft-heinz-coffee-business-one-rock-deal.html",
       "source": "CNBC",
@@ -1735,166 +1900,6 @@
       "source": "WSJ",
       "publishedAt": "2026-11-04T17:15:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI data-center stocks slide, renewables rally after Democratic US midterm sweep - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcW5CTURXaGFocTExc3NDZk9feEYwc1dTaDVuTkVqUEZxejUwS1ZkZkhaMlNZUnh0UkY5VFo5ZXczeFBPMDFzMVBvUTc0SEUxREtORkRSTE5maGlaZWVMREY5ZXduYlZRQUFPNGNnUFhqNlpiQUhKYWhKeVNscEF2ZGNSaG5ha19TZ3ZkYXJxbVpPZ0RId1g3VXBCM0RfTzdqWnBxbEFqanIxS1NYUGJKOTNPcUlNOEhzM0xvMkt0RlhPcDB1aWF6MnRUaktaQ0R0YWRJ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-04T17:11:03.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Guggenheim Securities Hires Rafael Schnitzler to Strengthen Telecom & Digital Infrastructure Investment Banking Practice - The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPOGtZS3pia0laN2ZSdEt2OE56aThFNS04blk2R3cwb1I2aUpieUhkUnpjZmlRUkY5eDBtMlVPajZRYUMzWk5kdUV2TExNTVkyY091emw1NzlnZGlUYzE0TGpWNXhwTUNvT3ZzcHA5Z0ZsVTZNU084R01GcDdBbkR6a2tWZWI1RjAxNndYN1U2ZlZycG9fbkNFekk1OGZRRjhiRkozSVhzaTVEVkY5bXFFQ1hMY1cyUW80OVc0TmVnb2RkdGVoNkZNaDVYZUdCNkZSM3lJeGtwWDNzcnpwZG5GRlFUUzJXaWxZNFUxakQ5UGY0eEEyTWtfZm9GbE1lR0ZYY01JVjA3SWJEVDhvQ2xqZjE3UjhwSkNORk9qNdIBogJBVV95cUxPZ21aUVpVUDFxd3BzS0o4dUdZODlkQzlIdlNtQTdyS2ZTOXdGbkJnN21tZzNCVHVfUXlZbDN6WGxPN0czNmRTTEdkVXZHc2dkSFoySXpuRmM5YnNyQk05TG90OFhTNHFiRUU1LW9lZ0thT0VHdHdvRTNOcHRjd1FuUnFtZGJHdkpPUVBuQ09vSm10YUtLQlpvWThVZnd0UHlHSnlEWGpFdnhoMVR6aXlMQ0VEVDA3eHlYZXdBeWtzX0UyYjFTb1hyVzdVai1KNllEZDB0MGdIWXNiemRXc1NBV0FUcGs3cDl4c0JDbjN2d2lzYjNkSndkdDJGbHRSTUsxZkxSUHBxNTJ0c011R1lmcnpTZlBnMzRxTG1DaTQ3MWNUQQ?oc=5",
-      "source": "The Manila Times",
-      "publishedAt": "2026-11-04T17:10:26.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Japan to seek software vulnerability data from US AI firms amid cyberattack surge, Nikkei reports - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0JqeWdsQ0xmWS1STnJnN2JIZG1wbTBybm1ZMTlkRUFYdTRRZzhPcks4SGRXSVVGcHlDYmZnemRURmRra2ttcDk4NTVVMFZ3a2htWjVHT1JCR0wyNk9teWNWeXp0Z1FoT3ZEdEt0LW5IMVpiYVJENDNDV0lGa3I3TmhzcWJ0VzBaQjhHd2hfbTQzbWFXYVBEYkNHZmdNQnZvSFhhVEE4NjNnMkM0dm9Ma3hUQkpVNzZXR3FIbWRRajNPcE96UFJuSVg3VFJPZw?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-04T17:08:51.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI debt binge isn't crowding out Treasuries, TBAC says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR2NsM2c2MkpoMEM1bUZQN0Vybngxb1dBbDJURG9UTkJnOXJLM2NnNjRaZUMzY2hJc2VqZ3VvQzdiVGptT1k5bnNYUUJJdHhfdy12bmZMdXZvTmdINjAwUWFKLW1lRjdGdUVxUEpKcGpWYU4xczl3X3pxWEZERDFkcWZjMmE3anN1d3Z0N1NxbzFlcDEyV0xRUDZ4TThUUXJLV2ZTZWxoTGNmdDlx?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-04T17:07:43.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Uber beats on revenue, CEO tells CNBC the company is 'investing significantly' to add drivers",
-      "url": "https://www.cnbc.com/2026/11/04/uber-stock-q3-2026-earnings.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-04T17:04:32.000Z",
-      "kind": "news",
-      "summary": "Uber reported better-than-expected revenue but its mobility unit faced higher fuel costs overseas and tighter driver supply.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Jeanette Winterson’s point about AI brings to mind an Isaac Asimov story | Letters - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeGY1Q3JKd0h5ZWJsQjFid3JJUmVaYVk2S3cwSy1zdTJmUEVtRkpKazZjTEZVQ2J6QURJTEhvRlpFZzhqclBFUm5nODRpRS0talgzNFV4bjJjb0VDZ0xpRXlMLUQyMmlqMGFoWVQyM2IwQXVIUkVUQjZaMWF6WFpnelFlN2ZPR2hFeGc2RE9KU2FpNDNuNGpCQmY1WHo0QjBoVlg2NjVneXBORDZCTUQ2dGE1d0lEWUE?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-04T17:01:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Jim Cramer says this bank stock is a buy after its post-election pullback",
-      "url": "https://www.cnbc.com/investingclub/2026/11/04/cramer-says-this-bank-stock-is-a-buy-after-its-post-election-pullback.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-04T16:54:39.000Z",
-      "kind": "news",
-      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI-generated 'slopaganda' in political ads puts internet platforms on alert",
-      "url": "https://www.cnbc.com/2026/11/03/ai-generated-slopaganda-in-political-ads-puts-platforms-on-alert.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-04T16:30:32.000Z",
-      "kind": "news",
-      "summary": "Tuesday's midterm elections follow record spending on AI-generated political ads.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Wall Street Sees Risks to AI Boom After the Democratic Sweep",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-sees-risks-to-ai-boom-after-the-democratic-sweep",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-04T16:27:47.000Z",
-      "kind": "news",
-      "summary": "While stocks rallied as the Democratic sweep of Congress promises to exert a significant restraint on President Donald Trump, one key corner of the market was left out.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Paraguay Names New Central Banker After Lender Is Taken Over",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/paraguay-names-new-central-banker-after-lender-is-taken-over",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-04T16:18:01.000Z",
-      "kind": "news",
-      "summary": "Paraguayan President Santiago Peña named veteran economist Raúl Vera Bogado to lead the central bank as the South American nation grapples with a solvency crisis at a major lender with ties to the government.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI, Data Center Critics Swept Into Power in Democratic Blowout - Bloomberg Government News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc0NISUJkcHl6YjNOUmg1djQxQjlSR2g5dEVxbnpVNVNEank0MWFYZnNMX21GS0VKVEgzb2xNbFJscDZjWWJvclhPZmdidjNSWUd4RC1rbUd3YzFDSWI5ZTBTWFpIZ0djSGFLbWFiUkdLejNfY3V1ZmM1d3l6YkhJd0EzQVlPVFlIRjdUcEhIQUFFRlJfN0JDZWE4MGdmcFVrdExZaTdtV3hlMDBfcmc?oc=5",
-      "source": "Bloomberg Government News",
-      "publishedAt": "2026-11-04T16:14:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The 3rd Annual Globee® Awards for Artificial Intelligence Invite Product, Service, and Business Achievement Nominations Worldwide - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVDZmM19mU3BqUXBvc05GdVpld0Q0WjFpV19ZNURuVmlXQnBYOWJ0WjEzLVB6STBvSmQ0alcwMTNaSjBDY3NLdV9qMFJ4ekJLYTFCSENyb0pFWmt4TDZkY1FLcS1RcWlnTDI4M0s3RVJEejNNaUlRYy1uR1hMNVpMVVRYaENrWTZPM1g2WjItaU5ST3N2ZTQ1MGdCRnB5elZuYTBxMFJTT3RxSXV1UDNKMTBndzMzS195aEVKSFFpVUV3M0RwLVB0QnU1cTQ4OVdqYXhYb0xLYWwzLUdVcDFUaEZvMVlZcUFfUXEyYm9PejVCWW42WjBPbkwxN2RqaWExNTBwVFVqSFNjSEEwX01N?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-11-04T16:11:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Data centers lost the midterms - The Verge",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fQUQ1UVF5QURiM0pTS2hKbzZaS1hXZTFtM2tENlpGeWR0Mlp1MkFzTXpfb1NfUEplbS1wNXZJLURMdWlia2xKaF8tVWdNSHVsLWE2U2VtRFJHYnJZRGltdlREOE1kLTB3YU9rWFlOS3hWbThNM0ZkNQ?oc=5",
-      "source": "The Verge",
-      "publishedAt": "2026-11-04T16:05:39.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "DeSantis Calls GOP Midterm Wipeout ‘Extinction Level Event’",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/desantis-calls-gop-s-midterm-wipeout-extinction-level-event",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-04T16:02:09.000Z",
-      "kind": "news",
-      "summary": "Florida Governor Ron DeSantis said the blue wave that swept over just about every corner of the US on Election Day — except his state — was akin to a “meteor strike” for the Republican Party.",
       "tier": 1,
       "tickers": [],
       "related": [],

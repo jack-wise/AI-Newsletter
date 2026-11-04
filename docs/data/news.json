@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T16:31:46.480Z",
+  "generatedAt": "2026-11-04T17:01:49.478Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 144 — Fermi Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000689/xsl144X01/primary_doc.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-11-03T23:41:21.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "formExplanation": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale).",
+      "summary": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale)."
+    },
     {
       "title": "$FPS $FRMI List losses:",
       "url": "https://stocktwits.com/mikesterz7/message/668145927",
@@ -36,23 +51,8 @@
         "FRMI"
       ],
       "related": [],
-      "score": 81,
+      "score": 71,
       "summary": "$FPS $FRMI List losses:"
-    },
-    {
-      "title": "SEC filing: 144 — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000689/xsl144X01/primary_doc.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-11-03T23:41:21.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 75,
-      "formExplanation": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale).",
-      "summary": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale)."
     },
     {
       "title": "Well shit…",
@@ -626,10 +626,10 @@
       "excerpt": "Check Out Our Latest Analysis on FRMI Fermi Trading Down 7.3% The company has a market capitalization of $1.31 billion and a price-to-earnings ratio of -1.73. The stock's 50 day moving average price is $4.19 and its 200 day moving average price is $6.47. The company's principal development is Project Matador, a planned energy and data center campus in the Texas Panhandle. The project is designed to use a mix of power sources, including nuclear energy, natural gas, solar generation and battery storage, with the goal of providing reliable electricity for data center customers."
     },
     {
-      "title": "Fermi Inc stock hits 52-week low at 2.44 USD By Investing.com - Investing.com UK",
-      "url": "https://uk.investing.com/news/stock-market-news/fermi-inc-stock-hits-52week-low-at-244-usd-93CH-4949827",
-      "source": "Investing.com UK",
-      "publishedAt": "2026-11-02T14:56:00.000Z",
+      "title": "Fermi Inc stock hits 52-week low at 2.44 USD By Investing.com - Investing.com Canada",
+      "url": "https://ca.investing.com/news/stock-market-news/fermi-inc-stock-hits-52week-low-at-244-usd-93CH-4922630",
+      "source": "Investing.com Canada",
+      "publishedAt": "2026-11-02T15:08:34.000Z",
       "kind": "news",
       "tier": 2,
       "tickers": [
@@ -919,18 +919,30 @@
       "summary": "Haiou jailbreak modifies OpenAI Codex instructions to inject persistent ads for a third-party LLM gateway into agent responses."
     },
     {
-      "title": "TeraWulf gets credit backstop from Google for Anthropic data-center project - The Mighty 790 KFGO",
-      "url": "https://kfgo.com/2026/11/04/terawulf-gets-credit-backstop-from-google-for-anthropic-data-center-project/",
-      "source": "The Mighty 790 KFGO",
-      "publishedAt": "2026-11-04T14:46:53.000Z",
+      "title": "SemiAnalysis: Google AI Nears Anthropic at One-Third The Cost - Alphabet (NASDAQ:GOOGL) - Benzinga",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62873862/google-ai-cost",
+      "source": "Benzinga",
+      "publishedAt": "2026-11-04T16:30:19.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 65
+    },
+    {
+      "title": "TeraWulf gets credit backstop from Google for Anthropic data-center project - Reuters",
+      "url": "https://www.reuters.com/technology/terawulf-gets-credit-backstop-google-anthropic-data-center-project-2026-11-04/",
+      "source": "Reuters",
+      "publishedAt": "2026-11-04T14:11:15.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "GOOGL"
       ],
-      "score": 65,
-      "summary": "Nov 4 (Reuters) - Data-center developer TeraWulf said on Wednesday it has secured a credit backstop agreement with Alphabet's Google to support ​financing needs for its data-center project &zwnj;with Claude creator Anthropic. The company also announced an e..."
+      "score": 65
     },
     {
       "title": "New York City Mayor Zohran Mamdani accuses Google of using monopoly power to push AI into schools; Google - The Times of India",
@@ -975,6 +987,33 @@
       "score": 65
     },
     {
+      "title": "TeraWulf Google Backstop: $19B Anthropic Leases [2026] - tech-insider.org",
+      "url": "https://tech-insider.org/google-credit-backstop-terawulf-anthropic-19b-leases-2026/",
+      "source": "tech-insider.org",
+      "publishedAt": "2026-11-04T16:49:02.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes | NVIDIA Technical Blog - NVIDIA Developer",
+      "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
+      "source": "NVIDIA Developer",
+      "publishedAt": "2026-11-04T16:33:50.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills, and harness code. When you build an agent for your domain…"
+    },
+    {
       "title": "Nvidia Tells Cloud Partners To Sell 51% Of Services Outside China - Forbes",
       "url": "https://www.forbes.com/sites/jonmarkman/2026/11/04/nvidia-tells-cloud-partners-to-sell-51-of-services-outside-china/",
       "source": "Forbes",
@@ -1000,48 +1039,6 @@
       ],
       "score": 55,
       "summary": "AMD just delivered a blowout quarter with data center sales nearly doubling, yet its stock refuses to move while rivals Intel and NVIDIA take the punishment instead. Here is why a record report is producing one of the strangest reactions in the chip sector this year."
-    },
-    {
-      "title": "Ai2 gets $5M from Google to turn AI weather model into a tool for projecting climate change - GeekWire",
-      "url": "https://www.geekwire.com/2026/ai2-gets-5m-from-google-to-turn-ai-weather-model-into-a-tool-for-projecting-climate-change/",
-      "source": "GeekWire",
-      "publishedAt": "2026-11-04T16:00:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55,
-      "summary": "Google is giving the Allen Institute for AI about $5 million, plus $1.8 million in cloud credits, to turn NeuralGCM, a Google AI weather model, into an open-source tool for projecting climate change over the next five to 50 years. Ai2 plans to add the ocean to the model, work on making it reliable in a warmer world and release the code for training it."
-    },
-    {
-      "title": "Forget the 12-Month Squeeze: Microsoft Is Primed for an Explosive AI Payoff - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/11/04/forget-the-12-month-squeeze-microsoft-is-primed-for-an-explosive-ai-payoff/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-11-04T15:45:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "Microsoft's stock barely moved over the past year while its earnings surged, and that widening gap tells a story most investors are misreading entirely."
-    },
-    {
-      "title": "GE Vernova Sinks 10%, Vistra Down 12% as Democrats Win Congress: “Incrementally More Negative Sentiment” - TIKR.com",
-      "url": "https://www.tikr.com/blog/ge-vernova-sinks-10-vistra-down-12-as-democrats-win-congress-incrementally-more-negative-sentiment?ref=yahoofinance&tlnk=yf-261104-rgc2g3jg",
-      "source": "TIKR.com",
-      "publishedAt": "2026-11-04T15:41:44.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GEV"
-      ],
-      "score": 55,
-      "summary": "Looks like the market sold first and read the order book later"
     },
     {
       "title": "Adobe Integrates Agentic CX Enterprise Coworker Into AI Platforms from Anthropic, Google, Microsoft, OpenAI and More - Morningstar",
@@ -1083,33 +1080,6 @@
         "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Jill Hazelbaker jumps to OpenAI as chief corporate affairs officer - Axios",
-      "url": "https://www.axios.com/2026/11/03/jill-hazelbaker-openai-uber",
-      "source": "Axios",
-      "publishedAt": "2026-11-04T10:01:35.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "😾 Google will cut Search for schools without AI - The Neuron",
-      "url": "https://www.theneurondaily.com/p/november-4-wednesday",
-      "source": "The Neuron",
-      "publishedAt": "2026-11-04T09:33:02.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 55,
-      "summary": "PLUS: ChatGPT search is one-fifth of Google, and Anthropic wants 7GW"
     },
     {
       "title": "Google to Spend $15 Billion in Malaysia Data Center Expansion",
@@ -1207,18 +1177,18 @@
       "score": 55
     },
     {
-      "title": "Google says there’s no way to use Search without using artificial intelligence - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-03T21:47:00.000Z",
+      "title": "S&P 500 rises as Nvidia, AI stocks rally despite Apple decline - The Business Journal",
+      "url": "https://thebusinessjournal.com/sp-500-rises-nvidia-ai-stocks-apple-wall-street/",
+      "source": "The Business Journal",
+      "publishedAt": "2026-11-03T21:59:26.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
-        "GOOGL"
+        "NVDA"
       ],
       "score": 55,
-      "summary": "In announcement geared towards schools, tech giant showed how entwined AI is with the world’s most popular website"
+      "summary": "The S&P 500 rose 0.4% as Nvidia and other AI stocks rallied, offsetting Apple's decline. The Dow fell while the Nasdaq gained amid mixed Wall Street trading."
     },
     {
       "title": "Nvidia is happy to take your money whether you're using open or closed models, says Jensen Huang - The Register",
@@ -1233,6 +1203,19 @@
       ],
       "score": 55,
       "summary": "At Fireworks Forge, a celebration of specialized models"
+    },
+    {
+      "title": "Jill Hazelbaker jumps to OpenAI as chief corporate affairs officer - Axios",
+      "url": "https://www.axios.com/2026/11/03/jill-hazelbaker-openai-uber",
+      "source": "Axios",
+      "publishedAt": "2026-11-03T19:47:29.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55
     },
     {
       "title": "Microsoft and Oracle Can't Cool AI Data Centers Without This Growth Stock. Here's Why It Could Soar. - The Motley Fool",
@@ -1288,34 +1271,61 @@
       "score": 55
     },
     {
-      "title": "Datacentres are deeply unpopular – so the geniuses at OpenAI are rebranding them | Arwa Mahdawi - The Guardian",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/datacentres-are-deeply-unpopular-so-the-geniuses-at-openai-are-rebranding-them",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-03T17:03:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55,
-      "summary": "These resource-guzzling centres drive up utility bills and are hated across the political spectrum. Cue a clunky, but potentially influential, new name for them, writes Arwa Mahdawi"
-    },
-    {
-      "title": "One Wall Street Analyst Says This Stock Is the Best Way to Invest in Anthropic and OpenAI. He's Right. - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/one-wall-street-analyst-says-153000811.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-04T15:30:00.000Z",
+      "title": "Ai2 gets $5M from Google to turn AI weather model into a tool for projecting climate change - GeekWire",
+      "url": "https://www.geekwire.com/2026/ai2-gets-5m-from-google-to-turn-ai-weather-model-into-a-tool-for-projecting-climate-change/",
+      "source": "GeekWire",
+      "publishedAt": "2026-11-04T16:00:00.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "OpenAI"
+        "GOOGL"
       ],
-      "score": 45
+      "score": 45,
+      "summary": "Google is giving the Allen Institute for AI about $5 million, plus $1.8 million in cloud credits, to turn NeuralGCM, a Google AI weather model, into an open-source tool for projecting climate change over the next five to 50 years. Ai2 plans to add the ocean to the model, work on making it reliable in a warmer world and release the code for training it."
+    },
+    {
+      "title": "Forget the 12-Month Squeeze: Microsoft Is Primed for an Explosive AI Payoff - 24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/04/forget-the-12-month-squeeze-microsoft-is-primed-for-an-explosive-ai-payoff/",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-11-04T15:45:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 45,
+      "summary": "Microsoft's stock barely moved over the past year while its earnings surged, and that widening gap tells a story most investors are misreading entirely."
+    },
+    {
+      "title": "GE Vernova Sinks 10%, Vistra Down 12% as Democrats Win Congress: “Incrementally More Negative Sentiment” - TIKR.com",
+      "url": "https://www.tikr.com/blog/ge-vernova-sinks-10-vistra-down-12-as-democrats-win-congress-incrementally-more-negative-sentiment?ref=yahoofinance&tlnk=yf-261104-rgc2g3jg",
+      "source": "TIKR.com",
+      "publishedAt": "2026-11-04T15:41:44.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GEV"
+      ],
+      "score": 45,
+      "summary": "Looks like the market sold first and read the order book later"
     }
   ],
   "general": [
+    {
+      "title": "Jim Cramer says this bank stock is a buy after its post-election pullback",
+      "url": "https://www.cnbc.com/investingclub/2026/11/04/cramer-says-this-bank-stock-is-a-buy-after-its-post-election-pullback.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-04T16:54:39.000Z",
+      "kind": "news",
+      "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "AI-generated 'slopaganda' in political ads puts internet platforms on alert",
       "url": "https://www.cnbc.com/2026/11/03/ai-generated-slopaganda-in-political-ads-puts-platforms-on-alert.html",
@@ -1323,6 +1333,18 @@
       "publishedAt": "2026-11-04T16:30:32.000Z",
       "kind": "news",
       "summary": "Tuesday's midterm elections follow record spending on AI-generated political ads.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Wall Street Sees Risks to AI Boom After the Democratic Sweep",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-sees-risks-to-ai-boom-after-the-democratic-sweep",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T16:27:47.000Z",
+      "kind": "news",
+      "summary": "While stocks rallied as the Democratic sweep of Congress promises to exert a significant restraint on President Donald Trump, one key corner of the market was left out.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1363,7 +1385,18 @@
       "score": 60
     },
     {
-      "title": "DeSantis Calls GOP’s Midterm Wipeout ‘Extinction Level Event’",
+      "title": "Who had an even worse day than Republicans? Big tech and their data center construction plans. - The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOXRSRl9mOGgwUFJvN092WGx0LXRzSVpsUzNwQlRSUkQ2U2NvWFhET2YtVHlQdHJqRDFpNTBwV2F5MkNmNC1CWmlweHQ3dklyTmlCclA2RmdNU1d0Nm9FandrM0h3RTVXVDR1RWNTT1FCMEdwTDlXdE9pbU9lN2VQajRiWlp1eFhtVW5Jc2N0RHg5Zw?oc=5",
+      "source": "The Boston Globe",
+      "publishedAt": "2026-11-04T16:05:34.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "DeSantis Calls GOP Midterm Wipeout ‘Extinction Level Event’",
       "url": "https://www.bloomberg.com/news/articles/2026-11-04/desantis-calls-gop-s-midterm-wipeout-extinction-level-event",
       "source": "Bloomberg",
       "publishedAt": "2026-11-04T16:02:09.000Z",
@@ -1375,15 +1408,15 @@
       "score": 60
     },
     {
-      "title": "Stocks and Bonds Rise, Dollar Slides After US Vote: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLVc2azZiNTdEZEJUM0RFOERmNk1QaTRQOGdkbE5EOUM5YVE5M2pqVTFkYmJsTC13MnpKaVRSd2ZLYmowSlhpOE5VcjdJNnJleWZsTDJ2SGN2b3JTOE9pdkZLMmdCblZhSE5ucGoyd2k2SEJwOFpVZVp1aWk1aWJYSHdvQ3VTMGtGa3FXa3NYUWxiWEsz?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-04T16:01:23.000Z",
+      "title": "Six AI Data Center Builders Drop About 20% After the Texas Vote - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGpzbk80alZKZHJNakluSlN6QTlCVU5idWhqQ1VSaG4yR3FKSEV0S1pTXzdBelVOZTRXdTJqN0E3cUpiMXFwbEtYa0ZtOTgwX3ZuMjhQUVlPbGZrdXNCeTRzNGxtdFd1d2ZWY1ptU1VzU01uSzFYaWNXY1hMSmJrOTRBaDZWQ1R4OGxfOGNKRmw4QnM?oc=5",
+      "source": "Stock Titan",
+      "publishedAt": "2026-11-04T16:51:15.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 2,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Prediction Markets Won Big Last Night",
@@ -1395,7 +1428,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Crypto Giants Scrap Crime-Fighting Alliance as Hackers Circle",
@@ -1407,7 +1440,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "CoreWeave Bonds Hit New Lows as Texas Data Centers in Crosshairs",
@@ -1419,7 +1452,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "AI shopping agents could threaten Amazon and Walmart's ad business - Reuters",
@@ -1430,7 +1463,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Senate Bill Seeks to Expand Use of AI Technologies in Healthcare and Reimburse for Adoption - The HIPAA Journal",
@@ -1441,7 +1474,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Hudson River Trading Joins Wall Street’s Prediction Market Shift",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/hudson-river-trading-joins-wall-street-s-prediction-market-shift",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-04T15:36:21.000Z",
+      "kind": "news",
+      "summary": "Hudson River Trading, one of Wall Street’s biggest market makers, has begun trading on Kalshi, joining a growing roster of institutional firms seeking opportunities in the booming prediction-market industry.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "US bank regulator issues first-ever AI guidance for examiners - Reuters",
@@ -1452,7 +1497,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Kraft Heinz to divest its North American coffee business in $650 million deal",
@@ -1464,7 +1509,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Elon Musk’s record election bet backfired. The backlash may reach beyond one billionaire",
@@ -1496,17 +1541,6 @@
       "publishedAt": "2026-11-04T15:26:07.000Z",
       "kind": "news",
       "summary": "Oppenheimer Asset Management Chief Investment Strategist John Stoltzfus remains bullish, pointing to earnings and revenue growth, resilient jobs and consumer demand, while flagging data centers as an issue to watch. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Who had an even worse day than Republicans? Big tech and their data center construction plans. - The Boston Globe",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOXRSRl9mOGgwUFJvN092WGx0LXRzSVpsUzNwQlRSUkQ2U2NvWFhET2YtVHlQdHJqRDFpNTBwV2F5MkNmNC1CWmlweHQ3dklyTmlCclA2RmdNU1d0Nm9FandrM0h3RTVXVDR1RWNTT1FCMEdwTDlXdE9pbU9lN2VQajRiWlp1eFhtVW5Jc2N0RHg5Zw?oc=5",
-      "source": "The Boston Globe",
-      "publishedAt": "2026-11-04T15:17:55.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1560,23 +1594,23 @@
       "score": 50
     },
     {
-      "title": "AMD shares rise as AI-driven data-center strength fuels growth outlook - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT1otSGFrSy03TGU4SkFJWHJ0SlJER0pMU0FvV3RIZm1udEtsLTlqazJwbzFEX1lNR3NGYWdNRnRBMDc1ZEk0elNtb2xHcXFFOEFqSnVsWkVRSTBpeHBPUEwtNDZtSUxuZUpKSnM1aXFlX2VUczJlNWRFSXM3MGxmRXAyYkt0dUloMlhaYVJZUVhqNmU2cGVpNkJaMXY3Sm5Qck04ZjNtbHdBSC02Q3hxd3BR?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-04T14:49:08.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Cyberattacks on Cryptocurrency Targets, Supermarket Fridges Serve Geopolitical Purpose",
       "url": "https://www.bloomberg.com/news/newsletters/2026-11-04/cyberattacks-on-cryptocurrency-targets-supermarket-fridges-serve-geopolitical-purpose",
       "source": "Bloomberg",
       "publishedAt": "2026-11-04T14:46:33.000Z",
       "kind": "news",
       "summary": "Americans’ trust in societal institutions is near record lows.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "AI's massive energy demands could transform thousands of acres of Michigan farmland - The Cool Down",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPc1p0RzNhOWlPN3B5UUptUjRuWEttZG9MUzV2TkF2ZS1oZWgwdGRGMDY5VVZNeklDZWZTYmV5dHNRMU14ZGRlME16TXBiN3lSOUlHVXV1ZFJaY1JHdDY4amZvNFNfTVFscm1MVHVqUG5YN0tMS21LTDlTeGJJVUs0TzY2MA?oc=5",
+      "source": "The Cool Down",
+      "publishedAt": "2026-11-04T14:45:00.000Z",
+      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1743,12 +1777,12 @@
       "score": 50
     },
     {
-      "title": "Poland’s Central Bank Holds Rates for Eighth Straight Month",
+      "title": "Poland Holds Rates Again as Inflation Outlook Gets Riskier",
       "url": "https://www.bloomberg.com/news/articles/2026-11-04/poland-s-central-bank-holds-rates-for-eighth-straight-month",
       "source": "Bloomberg",
       "publishedAt": "2026-11-04T13:57:25.000Z",
       "kind": "news",
-      "summary": "Poland’s central bank kept interest rates unchanged for an eighth straight month as inflation eased on the back of a government cap on fuel prices.",
+      "summary": "Poland kept interest rates unchanged for an eighth straight month as policymakers extend their wait-and-see stance even as inflation risks are expected to climb next year.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1814,18 +1848,6 @@
       "score": 50
     },
     {
-      "title": "Treasury Revamps Debt-Sale Guidance, Holds Auctions Steady",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-04/us-revamps-debt-sale-guidance-holds-auctions-steady-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-04T13:49:52.000Z",
-      "kind": "news",
-      "summary": "The US Treasury revamped the guidance on sales of notes and bonds it has used since early 2024, with new language in the so-called quarterly refunding announcement that may open the door to cuts in the issuance of the longest-dated debt in 2027. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Online Supermarket Unicorn Rohlik Weighs Prague IPO, CEO Says",
       "url": "https://www.bloomberg.com/news/articles/2026-11-04/online-supermarket-unicorn-rohlik-weighs-prague-ipo-ceo-says",
       "source": "Bloomberg",
@@ -1868,29 +1890,6 @@
       "publishedAt": "2026-11-04T13:30:02.000Z",
       "kind": "news",
       "summary": "Canada’s trade surplus with all countries widened to C$5.35 billion ($3.8 billion) in September, as higher energy and gold exports to the US appeared to offset the impact of new tariffs.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Qualcomm to Build Equipment for SpaceX’s US Mobile Network",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-04/qualcomm-to-build-equipment-for-spacex-s-us-mobile-phone-network",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-04T13:30:00.000Z",
-      "kind": "news",
-      "summary": "Qualcomm Inc. will supply hardware components for SpaceX’s planned nationwide terrestrial wireless network, the latest sign that Elon Musk’s rocket and satellite company is committed to challenging the biggest players in the US mobile industry.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Trump's midterm drubbing demonstrates the power of data-centre opponents - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ0RKVlY1MlliV3dhVWp3b2FVOGNsTGEyYnZLb1ZENVpINVdLdDVFTnNsazZ5b3FsbmVocktWZUhacFZmRU83cEFLOTNnOVBKZXJ6RUFoTjFncjJsNHB4Z25QMHlVLTNPRnE5TE5KNU9NN2JQQ09rQmo2N1N4dHFGNUEySXhLUVFhZVlJU0ZUd0V6aXhKVy1OT3JIa3lwdUpDT184VXpQYkthTXg1VWc?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-04T13:18:10.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],

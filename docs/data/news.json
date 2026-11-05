@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T15:46:24.077Z",
+  "generatedAt": "2026-11-05T16:31:47.048Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,41 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "The ship has officially sunk.",
+      "url": "https://www.reddit.com/r/FRMI/comments/1xomiin/the_ship_has_officially_sunk/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-11-05T16:06:40.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/TennKare26",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "The ship has officially sunk."
+    },
+    {
+      "title": "Fermi Inc. stock may move 19% on earnings report next week - Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/fermi-inc-stock-may-move-19-on-earnings-report-next-week-93CH-5005098",
+      "source": "Investing.com",
+      "publishedAt": "2026-11-05T15:48:27.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75
+    },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000694/xsl144X01/primary_doc.xml",
@@ -605,32 +640,6 @@
       "excerpt": "Get Our Latest Analysis on FRMI Fermi Price Performance The firm has a market cap of $1.17 billion and a PE ratio of -1.54. The company has a 50-day simple moving average of $4.12 and a 200-day simple moving average of $6.43. The company's principal development is Project Matador, a planned energy and data center campus in the Texas Panhandle. The project is designed to use a mix of power sources, including nuclear energy, natural gas, solar generation and battery storage, with the goal of providing reliable electricity for data center customers."
     },
     {
-      "title": "Fermi Inc. Holds Annual Shareholder Meeting and Board Vote - TipRanks",
-      "url": "https://www.tipranks.com/news/company-announcements/fermi-inc-holds-annual-shareholder-meeting-and-board-vote?utm_source=marketbeat.com&utm_medium=referral",
-      "source": "TipRanks",
-      "publishedAt": "2026-11-04T22:01:08.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
-      "title": "Fermi Inc. (FRMI) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/quote/FRMI/",
-      "source": "Yahoo! Finance Canada",
-      "publishedAt": "2026-11-04T16:01:06.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 45
-    },
-    {
       "title": "[November 02, 2026] Fermi America - $FRMI - Discussion Thread",
       "url": "https://www.reddit.com/r/FRMI/comments/1xlog5n/november_02_2026_fermi_america_frmi_discussion/",
       "source": "r/FRMI",
@@ -919,6 +928,47 @@
   ],
   "related": [
     {
+      "title": "The AI Selloff Is Getting Worse. Nvidia, Dell and Data Center Stocks Are Plunging Hard. Is It Time to Buy the Dip? - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/05/the-ai-selloff-is-getting-worse-nvidia-dell-and-data-center-stocks-are-plunging-hard-is-it-time-to-buy-the-dip/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-05T16:19:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "A day after the midterms hammered AI stocks, the selling deepened and dragged the whole market down with it. Here's what's driving it and whether it's a chance to buy."
+    },
+    {
+      "title": "Microsoft Sours on Neoclouds Owing to Data Center Delays, Costs - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/microsoft-sours-on-neoclouds-iren-nebius-nscale-on-delays-costs",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-05T15:42:15.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Microsoft Sours on Neoclouds IREN, Nebius, Nscale on Delays, Costs",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/microsoft-sours-on-neoclouds-iren-nebius-nscale-on-delays-costs",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T15:42:15.000Z",
+      "kind": "news",
+      "summary": "Microsoft Corp. helped create the “neocloud” boom, signing tens of billions of dollars in contracts with upstart data center operators in an effort to sate the crushing appetite for its cloud and AI services.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "MSFT"
+      ],
+      "score": 75
+    },
+    {
       "title": "Microsoft Declined to Expand Texas Data Center Offer With Nscale Before IPO",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/microsoft-declined-to-expand-texas-data-center-offer-with-nscale-before-ipo",
       "source": "Bloomberg",
@@ -933,6 +983,33 @@
       "score": 75
     },
     {
+      "title": "Supermicro Launches KV Cache Solution with IBM and NVIDIA Demonstrating Significant Inference Performance Benefits - Investing News Network",
+      "url": "https://investingnews.com/supermicro-launches-kv-cache-solution-with-ibm-and-nvidia-demonstrating-significant-inference-performance-benefits/",
+      "source": "Investing News Network",
+      "publishedAt": "2026-11-05T15:55:50.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "The KV (key-value) cache solution integrates Supermicro Petascale storage servers, IBM Storage Scale software, NVIDIA Dynamo inference software, and NVIDIA Spectrum-X Ethernet switchesPerformance testing shows that the KV cache solution reduces Time-to-First-Token (TTFT) for long-context windows c..."
+    },
+    {
+      "title": "Google AI in School Triggered Teen’s Mental Health Crisis, Lawsuit Says - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/google-ai-in-school-triggered-teen-s-mental-health-crisis-lawsuit-says",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-05T15:08:35.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 65
+    },
+    {
       "title": "Google AI in School Triggered Teen’s Mental Health Crisis, Lawsuit Says",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/google-ai-in-school-triggered-teen-s-mental-health-crisis-lawsuit-says",
       "source": "Bloomberg",
@@ -944,7 +1021,7 @@
       "related": [
         "GOOGL"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "More drops for Nvidia and other AI chip stocks erase Wall Street’s rally from the day before - AP News",
@@ -957,7 +1034,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Motley Fool",
@@ -970,22 +1047,8 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "These semiconductor giants are among the biggest beneficiaries of the AI chip boom, and they are expected to sustain solid growth levels over the long run."
-    },
-    {
-      "title": "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson - Benzinga",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/62926393/amazon-google-nvidia",
-      "source": "Benzinga",
-      "publishedAt": "2026-11-05T15:15:08.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "GOOGL"
-      ],
-      "score": 65
     },
     {
       "title": "After midterm rout, OpenAI tries to win over communities it needs for AI expansion - The Decoder",
@@ -1098,34 +1161,6 @@
       "summary": "On Thursday, OpenAI recommitted to covering the full cost of powering data centers as part of a sequence of obligations the company announced today-two days after voters at the polls categorically..."
     },
     {
-      "title": "Google’s AI Classroom Policy Puts Schools in a Difficult Position",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-05/google-s-ai-classroom-policy-puts-schools-in-a-difficult-position",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:02:00.000Z",
-      "kind": "news",
-      "summary": "The offer to let schools decide whether students can use AI tools comes with a catch",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia-Backed Humanoid Maker Agility Goes Public in First for the US",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/nvidia-backed-humanoid-maker-agility-goes-public-in-first-for-the-us",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:00:21.000Z",
-      "kind": "news",
-      "summary": "Agility Robotics Inc. is set to become the first dedicated humanoid company to go public in the US, marking a major milestone for the emerging category that still has a lot to prove.The startup begins trading Thursday on Nasdaq under the ticker “AGLT” after merging with special purpose acquisition company Churchill Capital Corp. XI. The company has about $465 million on hand before expenses, including a roughly $201 million public investment in private equity led by Foxconn, ",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval - Reuters",
       "url": "https://www.reuters.com/world/china/nvidia-chips-pile-up-hong-kong-china-withholds-import-approval-2026-11-05/",
       "source": "Reuters",
@@ -1151,20 +1186,6 @@
       ],
       "score": 65,
       "summary": "Mark your calendar. Nvidia is on the verge of a business update that will be incredibly important for the stock market."
-    },
-    {
-      "title": "AI Agents: How Meta’s Muse, OpenAI’s Dots Work, What They Can Do, Safety Worries",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/ai-agents-how-meta-s-muse-openai-s-dots-work-what-they-can-do-safety-worries",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T11:29:33.000Z",
-      "kind": "news",
-      "summary": "The tech industry has long been obsessed with the idea of creating a powerful digital assistant — whether it be a chatbot, a smart speaker or robot. Artificial intelligence offers the promise of realizing that goal.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
     },
     {
       "title": "OpenAI is trying to make data centers into Chilean sea bass. Good luck! - Business Insider",
@@ -1209,32 +1230,82 @@
       "summary": "ChatGPT maker promises community input and ratepayer protection after midterms"
     },
     {
-      "title": "OpenAI to Change How It Handles Data Center Efforts After Outcry - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/openai-to-change-how-it-handles-data-center-efforts-after-outcry",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-05T10:00:00.000Z",
+      "title": "Crusoe unveils 3.5 MW modular data centre for Nvidia AI racks - ET Datacenters",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbFp2blJRRlV1b3lRUk9LR3p4cTNRYzBkSmJNRnN3UUgzM0JZUXl3blNNbDhTMHVLSG5XZjdUaGhGaS02M1JoQkh4SWNiNzN1eERhRm5TMmRZZE1fbHhaaWZiQl94LWpkN1pDMVZXem1tUHhmbDZkR2V5OHJMdEo2WE1mejZiTzhpcDBQOExLX2ZncUtRcE44WFl5XzVXSnp1eWZ5bl8zSVpSek1tN29Ec1VWb1Y0al90ZXBnOENURnhTVGsyRFJwa1FFRTlrNWhBc0Vvb3ZXVk5HRG4zUjdiUjN3RjctQS1MNjVXNFUtRWdBZTBWUk8yZUdyTlRnQlVVWHBnY2xwcVNVM0xmYnE2dGszNWlNcHdsamNz0gHqAUFVX3lxTE84cEkzMi1JOEkwZFp0ZFkxaTEwRlBIY0M1UEhmdGQ3bFFLR2lIVVdmNzZadk5rWFZRVF9CTUxQT3NQREJRZHFRVXhrMWZaVUV3OFV2bnhBaXR3ODFpRXZHSkVYUXVNbXpmOFQyY2QwZ01ZREQyUUJDclNKUW9FSms0NHl4S18zdUFZa2QtN1ZIZWdOQWhZLUJsd1N5djJ3M2FoeE9hQXA2T1AzeHY3dTVOdWJmVS1Db254NUx4UkJuWG1YRzZfMTZhYTVvZ3lyM3ZsV2c4OVN3VEJEcnR2eF94dlNPYkM3UG1rdw?oc=5",
+      "source": "ET Datacenters",
+      "publishedAt": "2026-11-05T16:26:21.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Moonshot AI Eyes 8,000+ Nvidia Blackwell GPUs Through European Cloud Providers Despite US Chip Curbs - Brave New Coin",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXNSaXJ0cWdUVm9SV3dMdzVYdFBIeVZLOXpHejJLRFJ4WHZLVVhIV3NKeUVCMzE3dlF0TFpuZ01XUkpzMHdSN1ZDZ1ZlYUhBQTg0UHpHWEpiMXh5eHdkcHZLeWdNWXdEVTY2V2ZBa2hITUU2N3lfMDcxV0xQbHM1VlFYSTFiX0VaQ2tiejMzX05vMy1tVG9FSHBCbnJzdmt2SXlWZDNnVC1sTW9xOGx5Tk5HNVpxUkR6U2hyWmR1cklOelowc1BqQnRzd0U?oc=5",
+      "source": "Brave New Coin",
+      "publishedAt": "2026-11-05T16:15:03.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Google’s AI success is putting its search dominance at risk - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSXRaM2g0dlE5cmV2VjI4MkFkRGFNUFpVOS1YUnNvZmYtU3d4Y2luSWVDSmF4b1hMV3V3X0pjNWM0aXRYX0lsdTlYVExpMUsxQ2tjNUJIN3h4blR3WnRyYXVYM3QyUlMxaFpNWk1UNjNzZ0lqQXZOXy0wOUlUd1VxR1BHYVVtYWlBSGFibjJnUmw5eHpDazE2TFJlVE43MDFHZXZOTW12eTV3a3cz?oc=5",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-11-05T16:09:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
+      "title": "OpenAI Unveils Responsible AI Infrastructure Policies - Blockchain News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5UTBWRlBZNEo5V0gxYkpZS2NuT1hSUmNwbkpzREdSUTZVZUl6Uld1cWZ2aWg0TnNfcERpT2g5NXNqUm0wZnl4YnpobFRoQ2JUUmdLeGFISnI0aV9fODVHU0U5RzZnUEl2Vk5sckhwZmQ4dVdhWkp4N3NueVRGejg?oc=5",
+      "source": "Blockchain News",
+      "publishedAt": "2026-11-05T15:54:47.000Z",
+      "kind": "news",
+      "tier": 3,
       "tickers": [],
       "related": [
         "OpenAI"
       ],
-      "score": 65
+      "score": 55
     },
     {
-      "title": "The midterm AI backlash could strengthen Amazon, Microsoft, and Google while squeezing smaller rivals - Business Insider",
-      "url": "https://www.businessinsider.com/ai-data-center-backlash-amazon-microsoft-google-midterms-2026-11",
-      "source": "Business Insider",
-      "publishedAt": "2026-11-05T10:00:00.000Z",
+      "title": "AMD Tumbles 13%, NVIDIA Slides 7% as AI Regulation Fears Hit Chip Stocks; Intel Sinks 8% - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdzNfN2w5ZVNDUjNHZUxyd0tWZG42ajdJbzg0NkU0NHN3UDN5NG5jWVZrUHhqd1JHMVhVMkpXQ2NDYjcxcDREQ0liOWJ4TEFySkpOV3lJSnJQZGtmeUJRX2dBMExXYU0zNFpnMGdhdllkVHlkcmgwTlFILXdfeTMtcjl4YThqSURBdExta09XQXhYb0x5Uldj?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-05T15:46:01.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "MSFT",
-        "GOOGL"
+        "NVDA"
       ],
-      "score": 65,
-      "summary": "The AI data center backlash could strengthen Amazon, Microsoft, and Google by limiting competition and driving up cloud computing prices."
+      "score": 55
+    },
+    {
+      "title": "More drops for Nvidia and other AI chip stocks erase Wall Street's rally from the day before - Pittsburgh Post-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa2FTRHpfaEpFUjZ6Z2VTMXJPa21QaWNxZjl2b3JrUW1kb18wbDJPaWNNZnk4cWdZQm90WF9xSElxYWsyYjF4UWxhUmRjV1p2cVhOaml1a2RxZjA3aE9BaU9zT1g2QUFpdEUxV0lrckJobHlubVJpVDVKVVVQTXQ0aG53YWtkeVUxYnMtMDRqUmxoYThZdDRUNnBLNG9lbDN6WnJaOVlBcGZxbTU3V1FB?oc=5",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-11-05T15:36:26.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     },
     {
       "title": "Microsoft stock slips as AI capacity timing stays in focus - ad-hoc-news.de",
@@ -1263,75 +1334,198 @@
       ],
       "score": 55,
       "summary": "Company was offered capacity at Nscale-owned site adjacent to its up-and-running Ionic Digital data center"
-    },
-    {
-      "title": "This Is the Number That Could Change Nvidia Stock’s Outlook for 2027 - 24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/11/05/this-is-the-number-that-could-change-nvidia-stocks-outlook-for-2027/",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-11-05T15:33:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Wall Street already sees big upside in Nvidia, but one specific price target for 2027 reframes the entire investment case. The math behind it is simpler and more compelling than most investors expect."
-    },
-    {
-      "title": "Why Blocking New AI Data Centers Could Make Microsoft and Amazon More Valuable - Coinpaper",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR0hiMHd5Q2VveVFvVWFjeGViRGh0REZ2N0FrNGpwekRkYzRfUTBZaUZkWHJWX2hTVDdZYTJuQ0xjcjJrZkRLYmxGQ3dzazl6LWdZY1hhUC1Vcy15bkRaNUVWclBDVWRRcVJiUVpUUjlnUEVPV0ZfVDBtUXhXSTZVTnpmdDNfMjRCbTROdmtEUGRnaWdudkdVZVh0UXJQWGN2OVdaRG9DNUx2dw?oc=5",
-      "source": "Coinpaper",
-      "publishedAt": "2026-11-05T15:30:52.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55
-    },
-    {
-      "title": "OpenAI’s unreleased AI found 948 Linux root bugs for $1.2 million - Martin Cid Magazine",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZXJ1WkJ1ZlppdmRsMVdsV3NiLW5tMzRrODVCQ19aeVc3OE54QVhOaTRNMWVwSFA5bFRQTWJJX1YzcUxYX2ladC1ycmJtYW9tTVBJcmY0RTQwWjZlcWI2X2QzeGJ2OURZZG5ybmExS3dIM0xGcWNmX19JOEx2WUxvQWMyalZ2NzlVS0V3YXVFTGpaemJsQk9JQXNXVQ?oc=5",
-      "source": "Martin Cid Magazine",
-      "publishedAt": "2026-11-05T15:27:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Baseten Brings Inference Expertise to NVIDIA’s Nemotron Coalition - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUElQbTNVNmx4Y1JIUzZUZFFodWt6bEx1d3BpWUVZSnNVaUdyLVQ5elZqLThLWnl3ang5dG1CclFsSURUZWItSFprLXoyRDBmTmFlanRublRuRWYyeDQwaURsY1Z0RnVYUVY1OEt5cFYzTnVIclFYN0NLdGg0ZUdENGttSDF2a0xrX2o0ZmQxUQ?oc=5",
-      "source": "Unite.AI",
-      "publishedAt": "2026-11-05T15:24:03.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia Leads $930B Drop in 12 AI Stocks by 10:04 A.M. ET - FourWeekMBA",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb2ZGS1UyYVd3MXRhaG95eENvZlNNbDV4U2hzZjFCTTJwbHFWWEJnTFc4UllIb0F6Q3RTck96c19xUzcxTlVZT2R4ZHFaa2JseGJfa3JuQW04Um1RSVpZeVVaZXZ6cktnVEZVRXllNDRDSjM1TExIbndYZGNMTG9ESFRHV2ZrWmkzYWc?oc=5",
-      "source": "FourWeekMBA",
-      "publishedAt": "2026-11-05T15:13:28.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
     }
   ],
   "general": [
+    {
+      "title": "The Data Center Fight Is Just Beginning",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/opinion-the-data-center-fight-is-just-beginning-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:28:00.000Z",
+      "kind": "news",
+      "summary": "Voters across America have not only come out against data centers, but also presented a challenge to the AI billionaires behind them. Victorious Democrats must now contend with that outcome while ensuring US AI labs remain competitive on the global stage, Bloomberg Opinion columnist Dave Lee says. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Marc Lore's Wonder confidentially files for IPO",
+      "url": "https://www.cnbc.com/2026/11/05/wonder-confidential-ipo-filing.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-05T16:27:10.000Z",
+      "kind": "news",
+      "summary": "Marc Lore's latest startup Wonder has confidentially filed for an initial public offering.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "How Musk’s Starlink Can Challenge AT&T, Verizon and T-Mobile",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/how-musk-s-starlink-can-challenge-at-t-verizon-and-t-mobile",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:23:20.000Z",
+      "kind": "news",
+      "summary": "Elon Musk’s SpaceX has already transformed the internet-from-space business. Now, he’s taking on another entrenched industry with plans for a terrestrial wireless network to rival Verizon Communications Inc., T-Mobile US Inc. and AT&T Inc.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US Companies Announce Fewest October Job Cuts in Three Years",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/us-companies-announce-fewest-october-job-cuts-in-3-years-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:19:10.000Z",
+      "kind": "news",
+      "summary": "US employers announced the fewest number of job cuts for any October since 2023, while hiring plans picked up as companies began gearing up for the holiday-shopping season. Christopher Hodge, Chief US Economist with Natixis, discusses the US labor market and what to expect from Friday's jobs data. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "State-Driven Data Center Backlash Reshaping the AI Trade",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/state-driven-data-center-backlash-reshaping-the-ai-trade-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:14:10.000Z",
+      "kind": "news",
+      "summary": "The Democratic sweep of Congress and a handful of governor races sent stock prices spiraling for so-called neoclouds. With contests swinging toward candidates promising tougher restrictions on building data centers and other infrastructure, investors and management teams are re-assessing the risk of increased cost and delayed timelines. Brad Warden, Senior Portfolio Manager of Science and Tech Funds at Nomura, discusses AI cycle rotations and where the AI buildout could diver",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Zillow Moves on Weak Results; Dutch Bros Reduces Guidance | Stock Movers",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/zillow-drops-on-results-dutch-bros-reduces-guidance-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:10:35.000Z",
+      "kind": "news",
+      "summary": "On this episode of Stock Movers: - Zillow (Z) is moving after it posted weaker-than-expected results and signaled that adjusted earnings in the next quarter could be the weakest in three years. - Expedia (EXPE) shares are dropping even after the online travel agency raised its outlook for the full year. Still, the midpoint of its fourth-quarter gross bookings forecast trailed the average analyst estimate. - Dutch Bros (BROS) shares sinking after the coffee chain cut its adjus",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "India stocks draw biggest foreign inflow in nearly six years as oil falls, AI trade cools - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT2FNazA4NjVLU04wVlFLNTFIcGplRVJsWmVsakIyMUdZQzRVc0lkY1dHTXVTd0d3ZnR6MU95MDYzTWpJOEZ3MkFNaVlqOFZJMGxabG1Jd2lnZC1ReHNxS1U5ekd1UFhMUXBoSEdPLWNXTWNPdzBhSnYtTVY3MzVuZTQtNEk3SkFVSUxaMWFGM3ItWFRBLUwzYUMteG9oVFd4WURaSTZZSGlVaDM2UlNiMUJWaFNQT280dWRYYmVXRjNyZw?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-05T16:10:23.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI Selloff Is a 'Modest Wave' in a Multiyear Cycle, Bernstein's Chaloff Says",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/ai-selloff-is-modest-wave-in-cycle-bernstein-s-chaloff-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:03:05.000Z",
+      "kind": "news",
+      "summary": "Bernstein Private Wealth Management CIO Alex Chaloff says the selloff in AI stocks is creating buying opportunities in the market. He speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Sony Debuts Retro $60 Wired Headphones in Tribute to 1979 Walkman",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/sony-debuts-retro-60-wired-headphones-in-tribute-to-1979-walkman",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:00:05.000Z",
+      "kind": "news",
+      "summary": "Sony Group Corp. introduced an inexpensive pair of wired headphones, joining a growing trend in what it called “a nod to both the ‘80s Walkman era and today’s retro tech revival.”",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Shield AI To Hit $28.8 Billion Value With $5.3 Billion Radar Acquisition",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/shield-ai-to-hit-28-8-billion-value-with-5-3-billion-radar-acquisition",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T16:00:03.000Z",
+      "kind": "news",
+      "summary": "Defense tech startup set to acquire Echodyne Corp., which sells radar sensors to government and commercial customers.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "More Americans Are Relying on Inheritance to Buy First Home",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/more-americans-are-relying-on-inheritance-to-buy-first-home",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T15:59:52.000Z",
+      "kind": "news",
+      "summary": "First-time homebuyers are not only historically old but also increasingly reliant on family wealth.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Chipmakers Selloff Leads Nasdaq 100 Down 5%",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-05/chipmakers-selloff-leads-nasdaq-100-down-5-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T15:56:30.000Z",
+      "kind": "news",
+      "summary": "Sarah Hunt, Alpine Saxon Woods chief market strategist, reacts to the chipmaker selloff which pulled down the Nasdaq 100 by 5% in early trading on Thursday. Some investors are worried a Democratic sweep of Congress could mean tighter regulation. She speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Ex-Moore Money Manager to Return Cash From His Hedge Fund",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/ex-moore-money-manager-to-return-cash-from-his-hedge-fund",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T15:54:36.000Z",
+      "kind": "news",
+      "summary": "Paul Yablon, a former Moore Capital Management portfolio manager, is returning all external cash from his digital-focused hedge fund Room40 Capital.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "A&O Shearman's $1.1 billion AI plan builds on law firms' tech investments - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQblM2cm9BNktXeTQ2NUhMOVkzNXpMSm04Yl81c1g5bW9iUzFEWVpJZXlzeDZQTFJub1pKaER6RmFTdmhDcVJfbkl4WlNzWWpxU2dCZ1FWakdKR0NlaG9zeEJLSVVJQnFTUWdDNGs1RWlVTTNITjIyeEF5OTdKSFhMZ29sakVMVUhaTjRCX1J1MXhqODBVLWFEejVybXJMNzhqYzd3Ym5Eb3drdDNKeThaUndKN0RwdThPRE9ibVBB?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-05T15:51:43.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "SEALSQ and Eco Wave Power Demonstrate Digital Energy Transactions for AI Data Centers - The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObHcyOWR6MTNJUjhlMlZVdDg5Yy1JSUxjX1BscDFraW01b2dxallHOV9WUWMwd2FDdXZpNjBwN3JLeDBCNTZYYV9Zd1Fhd0JiRGtnZzZUc3N5M2dfck00dnc5M3VVMTZIR2FRWEhpRFY0S1lacUlrVXZnMlRIRlg1R0prTUF0b3lGdTRoeGJqNXJPNHNTR1FycXVQekt1WUpqUkZZQ2VuWkNEU3M?oc=5",
+      "source": "The Quantum Insider",
+      "publishedAt": "2026-11-05T15:49:04.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "SpaceX Default Risk Hits Fresh Peak as Tech-Led Selloff Builds",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/spacex-default-risk-hits-fresh-peak-as-tech-led-selloff-builds",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T15:48:12.000Z",
+      "kind": "news",
+      "summary": "The cost to protect SpaceX debt against default hit a record high Thursday, extending a move sparked by US election results that raised political risks for Elon Musk’s Texas-based companies. Shares in Musk’s SpaceX and Tesla Inc. tumbled amid a broad equity market selloff, led by a rout in chipmakers.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Democratic sweep puts crypto on defensive in Washington",
       "url": "https://www.cnbc.com/2026/11/05/crypto-midterms-democrats-clarity-act.html",
@@ -1357,6 +1551,17 @@
       "score": 60
     },
     {
+      "title": "Expedia CEO says AI agents aren't changing booking habits — yet - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzZUxjRGJ5S3V3ZXpCcGpSLXdkZGU4NFE4VXRUakgtbkt6UHlnZ3lQT2k2M2VZRTEyUGZVVGc1VXlwZEJpR2tJVXF0YV9pRUtNd0M1bWN5Mi1KMVUwUXpUeGxVUWhOV041Z0FHRFl1OXVBaEt4N1I4S9IBfkFVX3lxTE9DNEZYVVN2WXJWdFhtWXlzQUlBcW1yZHF5c2h4QkdXT19BVGRzYllFMWhfUnhzOFZja192bDVfV1lTWDFWTS1OZXR5eExGWHF2cG1kVFNjWjFEMGhxcDNLSk5qY2hFNkUydERiRDI3R28zUUIwbm4tRFF6ZFd3dw?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-11-05T15:34:55.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Chips Selloff Worsens as Fears About AI Trade Grip Stock Market",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/chips-selloff-worsens-as-fears-about-ai-trade-grip-stock-market",
       "source": "Bloomberg",
@@ -1366,7 +1571,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "JBS e bancos são alvo de queixas na Europa por desmatamento",
@@ -1378,7 +1583,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "AI, data-center stocks slump as Democratic sweep clouds expansion plans - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-05T15:28:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Qualcomm slides 9% after earnings, leading postelection chip stock sell-off",
@@ -1390,7 +1606,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Qualcomm Shares Fall Most in Six Months After Weak Profit Forecast",
@@ -1402,7 +1618,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "September Fed Rate Hike Was a Mistake, Miran Says",
@@ -1414,7 +1630,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Authorities tighten restrictions on data centres amid AI boom - Reuters",
@@ -1425,7 +1641,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "NIH Launches Kidney Artificial Intelligence Discovery Challenge: From Nebulae to Nephrons - PR Newswire",
@@ -1436,7 +1652,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "RBC Hires Gaut From Mizuho to Head Strategic Equity Dealmaking",
@@ -1448,7 +1664,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Banco do Brasil enfrenta aumento da inadimplência no agro",
@@ -1486,65 +1702,6 @@
       "score": 50
     },
     {
-      "title": "AI, data-center stocks slip as Democratic sweep clouds expansion plans - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-05T14:38:45.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "The BOE Decides | Special Coverage",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-05/the-boe-decides-special-coverage-11-5-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T14:33:20.000Z",
-      "kind": "news",
-      "summary": "The Bank of England warned inflation is on track to hit almost 5% next year as policymakers voted unanimously to raise interest rates and signaled another hike is on the cards. Traders added to bets for another hike next month. Bloomberg TV brings you Governor Andrew Bailey's press conference live, as well as, all the market reaction and analysis in a special program hosted by the Opening Trade team and a range of experts. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Lower-Income Nations Face Highest Debt Costs Since 1989: World Bank",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/lower-income-nations-face-highest-debt-costs-since-1989-world-bank",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T14:30:00.000Z",
-      "kind": "news",
-      "summary": "Emerging economies’ external debt climbed to a record $9.4 trillion in 2025, according to the World Bank, boosted in part by the poorest nations facing borrowing cost levels unseen since the 1980s.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Five Credit Portfolio Managers Leave Hedge Fund Brevan Howard",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/five-credit-portfolio-managers-leave-hedge-fund-brevan-howard",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T14:17:31.000Z",
-      "kind": "news",
-      "summary": "At least five portfolio managers focused on credit trading at Brevan Howard Asset Management have left the hedge fund firm, the latest sign of fallout from market turmoil.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Milei frena embargos que asfixiaron a pequeñas empresas",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-05/milei-frena-embargos-que-asfixiaron-a-pequenas-empresas",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T14:12:16.000Z",
-      "kind": "news",
-      "summary": "La presión fiscal sobre las pequeñas empresas se convirtió en un problema político para Javier Milei, mientras comerciantes que lo apoyaron cuestionan ahora sus políticas. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Moonshot AI Bypasses U.S. Chip Curbs Via Europe Neocloud Deal - The Tech Buzz",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJvTHhyVjJJaXNiQ3BpMjBDYk43TG91TmJLaDdQdmQyVVlBX29oSkZ0LXJyU3dab1AybmNkY0VQMDZIOUUyaDQ2aFJxTGFXbkktZ096dlZpQmNXUHVpY1VlM2ZOalpZaXZjMWNrd2twbmd6YXE4aWxKOFFLa0lnTWlXX1oyZG5FU051TDZpRXNUWV8wSlQzYw?oc=5",
       "source": "The Tech Buzz",
@@ -1556,35 +1713,11 @@
       "score": 50
     },
     {
-      "title": "Apple MacBook Pro With Touch Screen, OLED Review: Display Is An Added Bonus",
-      "url": "https://www.bloomberg.com/news/features/2026-11-05/apple-macbook-pro-with-touch-screen-oled-review-display-is-an-added-bonus",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T14:00:25.000Z",
-      "kind": "news",
-      "summary": "The machine is one of the priciest on the market but its vivid display and lighter frame excel.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "UNC-Chapel Hill ranks among nation's top universities for AI readiness - PR Newswire",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbmJIWVc3dHg5U2NuRkdVVWRJSWllcjA2ekFGdFpPRlZrekg5dUpNLXplWGRhWU44bnVxR1otNDFOUUNLTHZ0MS1RN2VQU0FSSmE1TlNFZFA5dHQ4dTlqRXlOWlJ4MUY2cHVGQlpHQU55RVN2OHp0UEp3anhxMHhxQnROUnZEbFRiSzNBQnF3WGVPdXhMSUVyS0dZLVk0b1kyWk1iV3E0TFpGMDJic0U0c1gzd24yNnliekFTMFpsbU1oNHM?oc=5",
       "source": "PR Newswire",
       "publishedAt": "2026-11-05T14:00:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US Jobless Claims Fall Below Estimates to 189,000",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-05/us-jobless-claims-fall-below-estimates-to-189-000-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T13:50:20.000Z",
-      "kind": "news",
-      "summary": "Applications for US unemployment benefits fell by 6,000 to 189,000 last week. Continuing claims rose 23,000 in the week ending Oct. 31. Enda Curran reports on Bloomberg Television. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1638,12 +1771,12 @@
       "score": 50
     },
     {
-      "title": "Czechs Hike Rates for Second Time This Year to Tame Price Risks",
+      "title": "Czechs Raise Rates as ‘Fine-Tuning’ Move After Rare Tight Vote",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/czechs-hike-rates-for-second-time-this-year-to-tame-price-risks",
       "source": "Bloomberg",
       "publishedAt": "2026-11-05T13:30:39.000Z",
       "kind": "news",
-      "summary": "The Czech central bank raised interest rates for the second time this year to tame inflation risks from resilient domestic demand and higher energy prices.",
+      "summary": "The Czech central bank raised interest rates for the second time this year in a rare split vote, calling the move monetary fine-tuning.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1685,24 +1818,24 @@
       "score": 50
     },
     {
-      "title": "Pension Fund Raid Deepens German Probe of Soured US Property Deals",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/bvk-pension-fund-raided-over-us-business-munich-prosecutors-say",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T13:13:24.000Z",
-      "kind": "news",
-      "summary": "Munich prosecutors raided German pension giant BVK over its troubled US property investments, dramatically ramping up a corruption probe just two days after investigators searched asset manager Deutsche Finance Group.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Traders Up Bets on Faster BOE Rate-Hike Pace After Hawkish Vote",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/traders-up-bets-on-faster-boe-rate-hike-pace-after-hawkish-vote",
       "source": "Bloomberg",
       "publishedAt": "2026-11-05T13:13:20.000Z",
       "kind": "news",
       "summary": "Traders upped bets on a second straight Bank of England interest-rate hike after all policymakers backed a first increase, with one calling for an even bigger move.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "Cocoa Falls to One-Month Low as Warehouse Stockpiles Rise",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/cocoa-falls-to-one-month-low-as-warehouse-stockpiles-rise",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-05T13:08:50.000Z",
+      "kind": "news",
+      "summary": "Cocoa futures in New York fell to the lowest level in a month as rising stockpiles and muted demand growth provide more of a cushion against weather risks in key producing countries.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1721,24 +1854,23 @@
       "score": 50
     },
     {
-      "title": "Lyft Launches New $9.99-a-Month Lyft Go Subscription With DashPass",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/lyft-launches-new-9-99-a-month-lyft-go-subscription-with-dashpass",
+      "title": "US Stocks Plunge as Traders Dump Everything With AI Exposure",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/us-stock-futures-diverge-as-chip-selloff-extends-into-second-day",
       "source": "Bloomberg",
-      "publishedAt": "2026-11-05T13:00:00.000Z",
+      "publishedAt": "2026-11-05T12:54:02.000Z",
       "kind": "news",
-      "summary": "Lyft Inc. is launching a new loyalty program that includes a DoorDash Inc. membership and credits toward future rides or delivery orders, setting it up to better compete with rival Uber Technologies Inc.’s subscription offering.",
+      "summary": "Technology stocks plummeted on Thursday as traders assessed the implication of a Democratic sweep in the US midterm elections on cloud data centers.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "Chipmaker Rout Deepens as Traders Rotate Into Defensive Stocks",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/us-stock-futures-diverge-as-chip-selloff-extends-into-second-day",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:54:02.000Z",
+      "title": "The less water AI data centers use, the more power they consume. Here’s why. - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNDJzMGs2OWVaRnI4RW83SDNEVDBXWUxYZlRkMFlrR2pxNHZRS3I4MnVEcGFUWlh1Vjh3ekU1NUN2Ymh6YlBUSlRKMHIzMWNCZ1p5ZEI3cjNDbG5TTWxSQTBQMXBMc2dvZ1lEN0lOdEZkWlpYaGYxYkhqamM2NnJuV0tVY1NHRlpudklrQ1Z1R0xtX1BEX1F1UnpRUk5tbkVyVldhZThxdVBENGtVYkxQZUNn?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-11-05T12:48:40.000Z",
       "kind": "news",
-      "summary": "US equities plunged Thursday as a rotation out of chipmakers deepened and investors looked past the initial relief rally following the US midterm elections.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1768,17 +1900,6 @@
       "score": 50
     },
     {
-      "title": "The Morning Risk Report: The Election Day Revolt That Threatens America’s AI Boom - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcGotUzBHcWZiWWpvLUo0OW9HVU5Help1SnpPM3BKOUxfdVFrbHNxSy01U1VZaDl6TVFpTW5ybDJNOHlpclVnaWdGMWpOZWRlVDlCanNEOEYxcWZkQmZhYnRkbV9CdGFzWFk2RGtFaUdBY252MlE0ZHROTVNsM1pRUW00RGMzSW54VjJORTRkM1lGcU90QmFxRmtXWEIyM1pwaHZUV0x3MUJlX2tSanoxVXRiSnRfRmZYRGV1UHFXazJTY2lzWTRmSzRqdEc?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-11-05T12:27:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "BOE United in Delivering First Rate Hike in Three Years",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/boe-united-in-delivering-first-rate-hike-in-three-years",
       "source": "Bloomberg",
@@ -1796,123 +1917,6 @@
       "source": "MarketWatch",
       "publishedAt": "2026-11-05T12:16:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Milei Retreats On Bank Account Freezes That Crushed Businesses",
-      "url": "https://www.bloomberg.com/news/features/2026-11-05/milei-retreats-on-bank-account-freezes-that-crushed-businesses",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:15:24.000Z",
-      "kind": "news",
-      "summary": "President Milei is pumping the breaks on aggressive tax collection tactics as small business owners reconsider how they’ll vote next year",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI-powered insurance startup Kalepa valued at $470 million in new funding round - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdXBCdXJGdnN1M0xnMmZpdGo5T0ZhSF9GYmh0OVNiYTlSNXJuVm52bTVNUnRxc1F5eHNpNzlUVUE3UEdhaUt0emRWc0Vwa29MSURrRmZ6TjJKeU05Y1lvQk1HZi1JT2c3N2hNcW9oYnhmR05WQ0dBY1JPZHZJd09wMkJ1U1lpOWtYcGY3T3JYR0RVMnV0VWRpZGVXRVRwZV9pLU14Z19sU0UwYTRDY2hLMkdrMmZCLUU4SG1xUjJndE1ZU0cwLXNB?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-05T12:13:28.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "How the Federal Reserve Emerged as a Winner From the US Election",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-05/how-the-federal-reserve-emerged-as-a-winner-from-the-us-election",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:09:40.000Z",
-      "kind": "news",
-      "summary": "Risks to Fed autonomy are seen fading with Democrats serving as a brake on Trump.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Datacenters were on the ballot. US voters rejected them - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMjd1X3FyNVRETUU3RUcxaW9aUC1nMFh3NVBfNWtSVWh5UFgwQVNqZ3p2NHYxTjdrZVd6U0lGWlluMkotYjZMaThsZnBpMU5SZ05kbjZXY3kxLTU5SlFRU0lQN0I2OGFvUExIZDRscEpPX0RZV3A5TVhtNS02d2JWNFozSQ?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-05T12:08:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Peloton Forecast Tops Estimates in Sign of Comeback Progress",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/peloton-forecast-tops-estimates-in-sign-of-comeback-progress",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:00:38.000Z",
-      "kind": "news",
-      "summary": "Peloton Interactive Inc. forecast holiday-quarter revenue that was slightly above Wall Street’s expectations, even as the fitness company projected a year-over-year sales decline and narrower profit margins.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Privacy Concerns Over Ad Tech Giving Police Greater Power to Track Phones",
-      "url": "https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:00:19.000Z",
-      "kind": "news",
-      "summary": "Penlink’s Webloc is sold to police in the US, UK and worldwide. It uses technology found in weather, gaming, email and religious apps to locate people using their cellphones.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Bank of England Strikes Hawkish Tone With First Hike Since 2023",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/bank-of-england-unanimously-hikes-rates-warns-of-4-9-inflation",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:00:04.000Z",
-      "kind": "news",
-      "summary": "The Bank of England signaled it was poised to raise interest rates again in the coming months as policymakers backed the first increase in more than three years and warned inflation would approach 5% next year.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Maersk’s outlook for global trade",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-05/maersk-s-outlook-for-global-trade",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:00:01.000Z",
-      "kind": "news",
-      "summary": "Shipping line’s CEO says lagging investment in land-based infrastructure is an impediment to trade",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Exclusive | Mercedes Gives Its Cars an AI Upgrade - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSWVpcXVCdEpmZDktampFRkN0RV9XOVJUR0ZiTVJHY3c4c19QTncwblEwRll2TEMtN190VkpzMThKUFBTdTJPUlZKMnZYY250aWxSR3hOWmFKRExlTGxib3Z0MjJIVVZER251RFhVeDRDaGY2VTB5SHYtc3RVZlpSZlJxTG0?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Zipline Tops $21 Billion Valuation, Adds 300 Walmart Drone Sites",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/zipline-tops-21-billion-valuation-adds-300-walmart-drone-sites",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "kind": "news",
-      "summary": "Zipline closed $1.5 billion of fresh funding, valuing the drone delivery and logistics startup at $21.5 billion as it expands a commercial partnership with Walmart Inc.",
       "tier": 1,
       "tickers": [],
       "related": [],

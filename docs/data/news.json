@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T01:01:46.102Z",
+  "generatedAt": "2026-11-06T01:31:42.677Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 4 — Fermi Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000090514826004667/xslF345X06/form4.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-11-06T01:26:42.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 95,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
+    },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000701/xsl144X01/primary_doc.xml",
@@ -447,21 +462,6 @@
       "score": 55,
       "formExplanation": "A current report — the form companies use to disclose material events between quarters (deals, leadership changes, results, financings).",
       "summary": "Fermi Inc. discloses the resignation of director Miles Everson, effective immediately, as reported in a letter to the Board of Directors on July 10, 2026. The company also includes a response letter from Mr. Everson, dated July 19, 2026, as an exhibit to this amended current report. This amendment provides additional information regarding the circumstances of Mr. Everson's resignation."
-    },
-    {
-      "title": "SEC filing: SCHEDULE 13G — Fermi Inc.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000212347026000005/xslSCHEDULE_13G_X02/primary_doc.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-07-20T20:49:41.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
-      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
     },
     {
       "title": "Not the 8K we want or need",
@@ -910,6 +910,20 @@
   ],
   "related": [
     {
+      "title": "OpenAI Drops NDAs for Data Center Talks After Voter Backlash - The Tech Buzz",
+      "url": "https://www.techbuzz.ai/articles/openai-drops-ndas-for-data-center-talks-after-voter-backlash",
+      "source": "The Tech Buzz",
+      "publishedAt": "2026-11-06T01:02:45.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75,
+      "summary": "ChatGPT maker promises transparency with officials following midterm revolt"
+    },
+    {
       "title": "OpenAI to Change How It Handles Data Center Efforts After Outcry - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/openai-to-change-how-it-handles-data-center-efforts-after-outcry",
       "source": "Bloomberg.com",
@@ -1057,19 +1071,6 @@
       "score": 65
     },
     {
-      "title": "Google faces claims student used AI chat on US school laptop to plan suicide attempt - Reuters",
-      "url": "https://www.reuters.com/business/google-faces-claims-student-used-ai-chat-us-school-laptop-plan-suicide-attempt-2026-11-05/",
-      "source": "Reuters",
-      "publishedAt": "2026-11-05T21:09:24.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 65
-    },
-    {
       "title": "Is Nvidia Still a Millionaire-Maker Stock? - The Motley Fool",
       "url": "https://www.fool.com/investing/2026/11/05/is-nvidia-still-a-millionaire-maker-stock/",
       "source": "The Motley Fool",
@@ -1151,44 +1152,30 @@
       "score": 65
     },
     {
-      "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks - The New York Times",
-      "url": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-11-05T19:27:58.000Z",
+      "title": "Nikkei Hits Bear Market; SoftBank Worth 2x Its OpenAI Bet - FourWeekMBA",
+      "url": "https://fourweekmba.com/ai-nikkei-hits-bear-market-softbank-worth-2x-its-openai-bet/",
+      "source": "FourWeekMBA",
+      "publishedAt": "2026-11-06T01:12:21.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "GOOGL"
+        "OpenAI"
       ],
-      "score": 65
+      "score": 55
     },
     {
-      "title": "Prediction: These Will Be Nvidia's and Palantir's Stock Prices by 2027 (Hint: Only 1 Is a Buy) - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/11/05/prediction-these-will-be-nvidias-and-palantirs-sto/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-05T19:26:00.000Z",
+      "title": "Cult.fit builds operational muscle with Codex - OpenAI",
+      "url": "https://openai.com/index/cultfit-builds-with-codex/",
+      "source": "OpenAI",
+      "publishedAt": "2026-11-06T01:04:25.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
-        "NVDA"
+        "OpenAI"
       ],
-      "score": 65,
-      "summary": "Nvidia and Palantir are two popular AI picks, but only one makes sense right now."
-    },
-    {
-      "title": "Google Plans to Spend $17 Billion on Wyoming Data Center - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-05T19:02:41.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "GOOGL"
-      ],
-      "score": 65
+      "score": 55
     },
     {
       "title": "TradingKey Daily Market Brief: Nasdaq Falls Over 5%, AI Stocks Plunge as Nvidia Drops Over 9%, Micron Falls Over 17%, SanDisk Drops Over 22% - TradingKey",
@@ -1233,93 +1220,144 @@
       "summary": "OpenAI Co-Founder and President Greg Brockman said Wednesday (Nov. 4) that the company could be ready for an initial public offering in 2027 and that it"
     },
     {
-      "title": "Nvidia’s Phone-Building Workaround: AT&T Has About 5,000 - FourWeekMBA",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQczNUbVB4bU1mYnU2OXZadm1CS09hdVhmbTRnbUdlZlZiVFREVExEVDlZcXRBZjhfNzdxSVJ4SFdpOXBmTWpXSlBzOXZyc0ZKellKeFRmb1ozMVdVR3p2VDh0RHg2Wmo3QnFDbDM5My1xQ1lHMFhsYUQyNkRBeXBXSzNjZUluc0U?oc=5",
-      "source": "FourWeekMBA",
-      "publishedAt": "2026-11-06T00:45:00.000Z",
+      "title": "NVIDIA drops 9%, now down for 2026 (NVDA:NASDAQ) - Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4667280-nvidia-drops-9-now-down-for-2026",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-11-05T21:15:03.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia Rout Day: 9 of 10 Beat Estimates, 4 Still Fell Late - FourWeekMBA",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUlpIZFFLblBFZXdvc01iRmtiMDQxM0RoaEx1VU1KYTdJb0JXNmtEakRVY1IyajhSMTg0ZERjcGZFeWZFTnBja0xtdmhWZnBZRWhxSUZRQk9VdkI1c1NhT3NUUVNjT1Q1Mjg0UVJtUVpoUFpQTThIbXNvZWF2OHQwTE1fY1ZwejRLM2lpYw?oc=5",
-      "source": "FourWeekMBA",
-      "publishedAt": "2026-11-06T00:33:20.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "GE Vernova (GEV) Sees New Risks From AI Data Center Permitting Pause - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUE9RWTUxenBfM3ZmN2h0TmV4R1hCYldsODR2b0VkUG4teGprazhvTzVBSFduNVNYYmRTS1BrcWZDeVJFcUdKQlBGaExKYkU2UEExNGpRV0E3TjlnWnZyOThSaURjREo3UVZzV3VkdV9ad3Y1Zng5U2FvYXVrOEtSWmUxNVNHaENHcGc?oc=5",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-06T00:24:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "GEV"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Box Unveils AI Agent Tools and NVIDIA Partnership at BoxWorks 2026 - Yahoo Finance",
-      "url": "https://finance.yahoo.com/technology/ai/articles/box-unveils-ai-agent-tools-001432521.html",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-11-06T00:14:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "NVIDIA’s VFlash speeds robot trajectory decoding 12x, cuts prediction errors by 61% - Interesting Engineering",
-      "url": "https://interestingengineering.com/ai-robotics/nvidia-vflash-robot-planning-speed-trajectory-accuracy",
-      "source": "Interesting Engineering",
-      "publishedAt": "2026-11-06T00:13:00.000Z",
-      "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
       ],
       "score": 55,
-      "summary": "VFlash achieved 70.2% average robot manipulation success, compared with 62.6% for the baseline."
+      "summary": "Why Nvidia stock sank 10% today: analyst risk warnings, China chip restrictions, and a technical breakdown."
     },
     {
-      "title": "NVIDIA Uses AI Agents to Trace Failures Across DGX SuperPOD Clusters - www.tokenpost.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0RGZZSEs4aGNEWEJCS0Fadk5XcE1xS3lsclMyXzlKMlZZOFNwV0V4TzdIV08zSV9CMUtreEk1bHZlV2ZXbGxmeDBJdFA5c2dpOHBlQ0pBSmV2aTQ?oc=5",
-      "source": "www.tokenpost.com",
-      "publishedAt": "2026-11-06T00:13:00.000Z",
+      "title": "Nvidia explores retrofitting old telecom buildings for AI data centers - Information - Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-explores-retrofitting-old-telecom-buildings-for-ai-data-centers--information-93CH-5005447",
+      "source": "Investing.com",
+      "publishedAt": "2026-11-05T19:57:59.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks - The New York Times",
+      "url": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-05T19:27:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Prediction: These Will Be Nvidia's and Palantir's Stock Prices by 2027 (Hint: Only 1 Is a Buy) - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/05/prediction-these-will-be-nvidias-and-palantirs-sto/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-05T19:26:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia and Palantir are two popular AI picks, but only one makes sense right now."
+    },
+    {
+      "title": "Google Plans to Spend $17 Billion on Wyoming Data Center - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-05T19:02:41.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "GOOGL"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Not Nvidia. Not Micron. This Dutch Company Controls a Key Bottleneck of AI Chip Production. - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/05/not-nvidia-not-micron-this-dutch-company-controls/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-05T17:37:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "ASML makes the only machines that can print the world's most advanced chips, and its customers are already asking for delivery slots in 2029 and 2030."
+    },
+    {
+      "title": "OpenAI rebrands data centers as ‘compute campuses,’ unveils new framework - The Hill",
+      "url": "https://thehill.com/policy/technology/6201368-openai-unveils-ai-compute-campus-framework/",
+      "source": "The Hill",
+      "publishedAt": "2026-11-05T17:21:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
       ],
       "score": 55
     }
   ],
   "general": [
     {
-      "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank tumble",
+      "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
       "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
       "source": "CNBC",
-      "publishedAt": "2026-11-06T00:59:14.000Z",
+      "publishedAt": "2026-11-06T01:11:35.000Z",
       "kind": "news",
       "summary": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Plato's Allen on AI Selloff, Investment Strategy",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-06/plato-s-allen-on-ai-selloff-investment-strategy-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T01:10:42.000Z",
+      "kind": "news",
+      "summary": "David Allen, Head of Long/Short Strategies at Plato Investment Management, discusses the region's market selloff as the AI slump deepens and where he sees opportunities in the technology sector. He speaks with Haidi Stroud-Watts on the sidelines of the Sohn Hearts & Minds conference in Queenstown, New Zealand. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Hearts & Minds' Howes on Private Credit",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-06/hearts-minds-howes-on-private-credit-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T01:05:02.000Z",
+      "kind": "news",
+      "summary": "Richard Howes, Managing Director at Hearts & Minds Investment, discusses the investment opportunities in the private credit markets. He speaks with Haidi Stroud-Watts on the sidelines of the Sohn Hearts & Minds conference in Queenstown, New Zealand. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "China’s 10-Year Yield Hits Record Intraday Low on Ample Cash",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/china-s-10-year-yield-hits-record-intraday-low-on-ample-cash",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T00:55:01.000Z",
+      "kind": "news",
+      "summary": "China’s benchmark 10-year sovereign yield dropped to an all-time intraday low, buoyed by ample liquidity.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1361,10 +1399,10 @@
       "score": 60
     },
     {
-      "title": "Anthropic IPO — AI Investment Strategy and Top Software Stocks - The Korea Daily",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPTXo4MlB5TjY5VTZwX0pGcDdaTko5c1VGZ05pcUZ1YnYwTGgydC03cUt1cGtNb0ZxdTl4bjZWTE52LTVZand1SjVxTElRcGlLVUQwVGhESlRrWGlrak5USWFqN29oOFhaVnBPLVlQUDc?oc=5",
-      "source": "The Korea Daily",
-      "publishedAt": "2026-11-06T00:41:24.000Z",
+      "title": "Korean Chip Stocks Sink 10% in Pre-Market as AI Fears Deepen - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdWE2MFFBUE9mQW5YOERLUFFhZ3VmZV91cEpkM1llVUhfM0ZzTHMxYmE0Z3BMSmx4RWx1QVcxMnN1aTMwOU9abHJSQk9wWVB6dFF2RE9peS1ESXhGbE14X1ROZWtpZG9GYkRVcGRJWmhQM0RHb0kwaEd1OWtQVFcydko0eW1SYW1ETzMwZGk4aVdRTGRvTjJQVDNpRERiLUVCTjNWT0lhNUxWellNeEJr?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-06T00:35:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1372,12 +1410,12 @@
       "score": 60
     },
     {
-      "title": "Japan Protests Russia’s Seizure of Japan Tobacco Assets",
+      "title": "Putin Transfers Japan Tobacco Assets to Local Firm in Latest Asset Seizure",
       "url": "https://www.bloomberg.com/news/articles/2026-11-06/japan-protests-russia-s-seizure-of-japan-tobacco-assets",
       "source": "Bloomberg",
       "publishedAt": "2026-11-06T00:31:44.000Z",
       "kind": "news",
-      "summary": "Japan has protested Russia’s seizure of Japan Tobacco International’s local assets, government officials said, the latest development in an escalating diplomatic spat between the two nations.",
+      "summary": "Japan said it has protested Russia’s seizure of Japan Tobacco International’s local assets, the latest development in an escalating diplomatic spat between the two nations.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1393,7 +1431,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "How a Banking Scandal Is Taking Down Trump’s Ally in Paraguay",
@@ -1405,18 +1443,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
-    },
-    {
-      "title": "Japan’s Nikkei Breaks Below Key 60,000 Level on AI Selloff - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVW5hQzNwU0VSZVBHUnhVeTZ3RjVZUk1Xd0JsUnN2aG5FVlY3UkZ0emEtT0p5dkVYUXlmUmpOYXZ5YkRpdGhfdGJ0MjVNdmVYYUx4S3JPQ0tIUU1WUjlmdUNFVTdBVXMzT0R5ekY4TlRCdDFKZkpXS2lvYXozZ0lKeEZMMnVoU0dMTEZkN1VqLUhLYWtLeGJNeDJmZkl3ZFQxVm04MllrMW5UbENIMkE?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-06T00:22:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Tech Selloff Hits Asia After US Market Rout",
@@ -1428,7 +1455,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Atlassian’s Shares Slide After Revenue Outlook Disappoints",
@@ -1440,7 +1467,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Japan’s Nikkei Poised to Enter Bear Market as AI Selloff Deepens",
@@ -1448,11 +1475,11 @@
       "source": "Bloomberg",
       "publishedAt": "2026-11-06T00:15:36.000Z",
       "kind": "news",
-      "summary": "Japan’s Nikkei 225 Stock Average is on track to enter a technical bear market as investors unwind artificial intelligence-related trades.",
+      "summary": "Japan’s Nikkei 225 Stock Average slumped Friday, putting the tech-heavy gauge on course to enter a technical bear market as investors unwind artificial intelligence-related trades.",
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Gold Set for Biggest Weekly Gain Since August After US Midterms",
@@ -1464,7 +1491,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic’s IPO timing in doubt due to AI backlash, sources say - The Globe and Mail",
@@ -1475,7 +1502,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Malaysian Bonds Lure Buyers as Oil Squeezes Peers, Analysts Say",
@@ -1514,10 +1541,10 @@
       "score": 50
     },
     {
-      "title": "Exclusive-AI backlash could threaten Anthropic IPO timing, potential investors say - The Lufkin Daily News",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZlBBLWE1eGVwdHZET2dYN3FhaEdhUUlRX0d2QXVyNTZmd0p1ajI5UlV1a1pJQ3J1UmFUMFRubTJwam1sZ3VHUWk0NTBGM3E3Z3lmZElLQTg2YTVHMWtIQm43RFpPeHJTVHMtMlRleXQzYVZUUG1QX1RjRUE0ZU1jTUQtQnhtYUF3TEhPckh2THZ1YTNqamxndXB3ekN4cFJaci10aVJqU2FlSDNJZjJFSWM4MlE4RjNVTERjWWx3Y1JfZ29BdnU3ZzA0dV9IYjYzNlgtT2VLYWYtU1dkRzNkSXZWNjQ2bl9pX0xpNVpabXVwcmhQU2R4Z2V1NVptTGkwMWRseWZOeEh6SHlLTkE?oc=5",
-      "source": "The Lufkin Daily News",
-      "publishedAt": "2026-11-05T23:45:13.000Z",
+      "title": "What Shaped Anthropic CEO Dario Amodei’s Thinking on A.I. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQzc5ME9TaVQ4MWd2dlgyempENHN0eTRwRDZ0NmN1Vlo3OTRLQWpIdjVsRDVJSnFTSGlyWlJzamtaelVoTHpuSnVITlpuT0VLUnFKUlZpOWFWb2V5UUdyVk5EU3lYb1BwSzFBQ2c0TDNZY3pmcXZFTkM4MXpscEk4V3pR?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-05T23:51:09.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1525,10 +1552,10 @@
       "score": 50
     },
     {
-      "title": "Markets realise they hate America’s blue wave - The Economist",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc0RCdTEzZ1hhSWpXbTRsVGNQNkVHdl9oQnJBM2FRMzBSTDYtbWxmZjlZT2F0LWIwUkNiQmhxRTJGSUtFcjFPVzRSMGRBT1dvbERoVmtva2RiSlRVVXJkdlhZdVVXZWxzWXFqVjI1ZUNoRUlfUlppbnkyN3ZxdXJPU0gwYmpRTWwxWURRbEptam8tck5R?oc=5",
-      "source": "The Economist",
-      "publishedAt": "2026-11-05T23:41:07.000Z",
+      "title": "Exclusive-AI backlash could threaten Anthropic IPO timing, potential investors say - The Lufkin Daily News",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNZlBBLWE1eGVwdHZET2dYN3FhaEdhUUlRX0d2QXVyNTZmd0p1ajI5UlV1a1pJQ3J1UmFUMFRubTJwam1sZ3VHUWk0NTBGM3E3Z3lmZElLQTg2YTVHMWtIQm43RFpPeHJTVHMtMlRleXQzYVZUUG1QX1RjRUE0ZU1jTUQtQnhtYUF3TEhPckh2THZ1YTNqamxndXB3ekN4cFJaci10aVJqU2FlSDNJZjJFSWM4MlE4RjNVTERjWWx3Y1JfZ29BdnU3ZzA0dV9IYjYzNlgtT2VLYWYtU1dkRzNkSXZWNjQ2bl9pX0xpNVpabXVwcmhQU2R4Z2V1NVptTGkwMWRseWZOeEh6SHlLTkE?oc=5",
+      "source": "The Lufkin Daily News",
+      "publishedAt": "2026-11-05T23:45:13.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1631,23 +1658,12 @@
       "score": 50
     },
     {
-      "title": "OCBC’s Profit Gains Dented by Drop in Trading, Insurance Income",
+      "title": "OCBC CEO Raises Outlook as Lending Nudges Profit Higher",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/ocbc-s-profit-gains-dented-by-drop-in-trading-insurance-income",
       "source": "Bloomberg",
       "publishedAt": "2026-11-05T23:21:37.000Z",
       "kind": "news",
-      "summary": "Oversea-Chinese Banking Corp. posted a small increase in third-quarter profit, with lending gains capped by declines in trading and insurance income.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Blue tsunami wipes out $2.5 trillion from Nasdaq, as investors fret about AI trade - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVFVWVUwWmVwQXRLMTV2ZFBIV3dpR1VBUTU4dnhfUW5SN3BwcGZraXF1YTFDMmx2TjZFOTVBTWNqc09zTV9VbE1faDJ5Y294THA0YlFkTlZmX3AzWDJacm96Um1YQ0htd2FLRmJFTlpvLWVhQ0pXdUtyLVh0ZTRESzBJNW1fZ2lrTVBkUEIzejF2VUVLeGdyQWxDazczTmNWQWdOMXIybTR2T0x5OWFGNWMyU256bUhRME54eXBlTQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-05T23:19:28.000Z",
-      "kind": "news",
+      "summary": "Oversea-Chinese Banking Corp.’s profit edged up in the third quarter but gains in net interest income and wealth were dented by smaller contributions from trading and insurance.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1689,12 +1705,23 @@
       "score": 50
     },
     {
+      "title": "Asian Stocks Brace for Selloff as AI Rout Deepens: Markets Wrap - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2RxUlFvNmxoUFFUd2pmeUk3MTJoSkNvTkxwOS1TUlNFd1hDZkNZZ0huMHIxQXhDeWtpWVdVcmJGcDQwdVcwMFJTaHg2Q040OTBCZm5Ja2doTnpQcTh1OFFSdDNucHFXVzFRR2EyTEJfa3BRWDFUY19lcFNNXzRmR2F2UEw4dlVOUW1xSnFqNmI1Wmtr?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-05T23:09:55.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "Latest Oil Market News and Analysis for Nov. 6",
       "url": "https://www.bloomberg.com/news/articles/2026-11-05/latest-oil-market-news-and-analysis-for-nov-6",
       "source": "Bloomberg",
       "publishedAt": "2026-11-05T23:08:17.000Z",
       "kind": "news",
-      "summary": "Oil was on track for the biggest weekly loss since April after a volatile stretch of trading, as investors weighed prospects for an end to the months-long war in the Middle East.",
+      "summary": "Brent oil was on track for its biggest weekly loss since April 2020 after a volatile stretch of trading, as investors weighed prospects for an end to the months-long war in the Middle East.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1777,18 +1804,6 @@
       "publishedAt": "2026-11-05T22:51:38.000Z",
       "kind": "news",
       "summary": "Liz Ann Sonders, chief investment strategist at Charles Schwab, says investors are reassessing the financial burden on hyperscalers, including their use of credit and equity financing, and whether returns on investment justify the cost of capital. She speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Brazil Puts Rare Earths, Copper Atop Critical Minerals List",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/brazil-puts-rare-earths-copper-atop-critical-minerals-list",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T22:50:30.000Z",
-      "kind": "news",
-      "summary": "Brazil approved its first list of critical and strategic minerals under a new national policy aimed at attracting investment and expanding domestic processing of resources increasingly sought by Western countries to reduce reliance on China.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1882,18 +1897,6 @@
       "publishedAt": "2026-11-05T22:19:25.000Z",
       "kind": "news",
       "summary": "MetLife President and CEO Michel Khalaf discusses the company's third-quarter earnings and outlook. Speaking on \"Bloomberg The Close,\" Khalaf says MetLife has limited exposure to AI investments. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Asian Stocks Join US Selloff as AI Slump Deepens: Markets Wrap",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-05T22:17:59.000Z",
-      "kind": "news",
-      "summary": "Asian stocks slumped from the open after a post-election rout in chipmakers deepened on Wall Street amid growing concern that Democrats will seek tighter regulation of the artificial intelligence industry.",
       "tier": 1,
       "tickers": [],
       "related": [],

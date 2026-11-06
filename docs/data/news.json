@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T07:01:44.250Z",
+  "generatedAt": "2026-11-06T07:31:43.276Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,21 +17,6 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
-      "title": "SEC filing: 4 — Fermi Inc. (FORM 4)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000090514826004667/xslF345X06/form4.xml",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-11-06T01:26:42.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 85,
-      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
-      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
-    },
-    {
       "title": "Fermi's Co-Founder and Largest Shareholder, Toby Neugebauer: \"Fermi's Shareholders, the Markets and Texas Voters Have Rejected Rick Perry and Fermi's 'We Can Do Whatever We Want' Board\"",
       "url": "https://www.prnewswire.com/news-releases/fermis-co-founder-and-largest-shareholder-toby-neugebauer-fermis-shareholders-the-markets-and-texas-voters-have-rejected-rick-perry-and-fermis-we-can-do-whatever-we-want-board-302931739.html",
       "source": "PR Newswire",
@@ -44,6 +29,21 @@
       ],
       "related": [],
       "score": 75
+    },
+    {
+      "title": "SEC filing: 4 — Fermi Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000090514826004667/xslF345X06/form4.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-11-06T01:26:42.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 75,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
     },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
@@ -505,17 +505,17 @@
       "score": 45
     },
     {
-      "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance UK",
-      "url": "https://uk.finance.yahoo.com/quote/FRMI/",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-11-05T12:27:19.000Z",
+      "title": "Fermi Inc. (FRMI) stock price, news, quote and history - Yahoo Finance Singapore",
+      "url": "https://sg.finance.yahoo.com/quote/FRMI/",
+      "source": "Yahoo Finance Singapore",
+      "publishedAt": "2026-11-05T07:01:40.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [
         "FRMI"
       ],
       "related": [],
-      "score": 45
+      "score": 35
     },
     {
       "title": "Fermi (NASDAQ:FRMI) Stock Price Down 10.8% - Should You Sell? - MarketBeat",
@@ -547,11 +547,11 @@
     },
     {
       "title": "What Does Fermi (FRMI) Lease Update Mean For Its Cash Flow Story?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-fermi-frmi-lease-mean-151051363.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-fermi-frmi-lease-mean-151051363.html?.tsrc=rss",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-11-04T07:10:00.000Z",
+      "publishedAt": "2026-11-04T15:10:51.000Z",
       "kind": "news",
-      "summary": "Fermi (NasdaqGS:FRMI) reported an update on its Data Center Lease and Services Agreement with TensorWave TEX1, LLC after the anticipated closing date passed. The company said both parties remain ...",
+      "summary": "Fermi (NasdaqGS:FRMI) reported an update on its Data Center Lease and Services Agreement with TensorWave TEX1, LLC after the anticipated closing date passed. The company said both parties remain committed to the TEX1 data center arrangement and are working to complete remaining closing conditions. Management framed the TEX1 lease and services project as important for Fermi's longer term plan and potential cash flow profile. The renewed commitment to finalize the TEX1 data cen",
       "tier": 3,
       "tickers": [
         "FRMI"
@@ -649,11 +649,11 @@
     },
     {
       "title": "Fermi Advances Project Matador, Pivots to Powered-Land Strategy as Director Vote Fails",
-      "url": "https://www.marketbeat.com/instant-alerts/event-fermi-advances-project-matador-pivots-to-powered-land-strategy-as-director-vote-fails-2026-11-02/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "url": "https://finance.yahoo.com/energy/articles/fermi-advances-project-matador-pivots-101220593.html",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-11-02T10:12:20.000Z",
+      "publishedAt": "2026-11-02T02:12:00.000Z",
       "kind": "news",
-      "summary": "Fermi (NASDAQ:FRMI) said at its annual shareholder meeting that it is advancing development at its Project Matador site while shifting its commercial strategy toward a powered-land model for prospective tenants. Chief Executive Officer Lee McIntire, who said he assumed the CEO role in August, chara",
+      "summary": "Fermi (NASDAQ:FRMI) said at its annual shareholder meeting that it is advancing development at its Project Matador site while shifting its commercial strategy toward a powered-land model for ...",
       "tier": 3,
       "tickers": [
         "FRMI"
@@ -730,7 +730,7 @@
       "related": [
         "OpenAI"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "The ChatGPT maker will ensure residents do not pay for the electricity to power those projects Read more at The Business Times."
     },
     {
@@ -799,36 +799,8 @@
       "related": [
         "OpenAI"
       ],
-      "score": 65,
+      "score": 55,
       "summary": "ChatGPT maker promises transparency with officials following midterm revolt"
-    },
-    {
-      "title": "Truck Carrying $11.4 Million Worth of Nvidia AI Chips Vanishes Without a Trace in the US - BigGo Finance",
-      "url": "https://finance.biggo.com/news/56870304-b0d9-4553-a34a-4203123f5ab9",
-      "source": "BigGo Finance",
-      "publishedAt": "2026-11-06T06:06:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "A truck carrying $11.4 million (~15.4 billion won) worth of Nvidia AI semiconductors and hardware disappeared while being transported from Oakland,…"
-    },
-    {
-      "title": "IREN Shares Slump 17% as Bitcoin Mining Revenue Collapses and Microsoft Delivery Slips to 2027 - BigGo Finance",
-      "url": "https://finance.biggo.com/news/7ea73a79-e555-40b6-9bcc-dabf8ea2c565",
-      "source": "BigGo Finance",
-      "publishedAt": "2026-11-06T06:05:00.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 55,
-      "summary": "IREN Ltd reported a 58% sequential decline in Bitcoin mining revenue to $28 million and pushed its more than $4 billion annualized revenue target from…"
     },
     {
       "title": "OpenAI to Change How It Handles Data Center Efforts After Outcry - Bloomberg.com",
@@ -923,20 +895,6 @@
         "NVDA"
       ],
       "score": 55
-    },
-    {
-      "title": "Is Nvidia Still a Millionaire-Maker Stock? - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/11/05/is-nvidia-still-a-millionaire-maker-stock/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-05T20:51:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55,
-      "summary": "Nvidia looks like it can keep beating the S&P 500, but if you're looking for it to deliver another 10x return (or more) like it has in the past, you may want to dial back your expectations."
     },
     {
       "title": "Nvidia CEO Pressed by US Lawmakers Over Tie to Firm in Spy Probe - Bloomberg.com",
@@ -1124,15 +1082,81 @@
       ],
       "score": 55,
       "summary": "OpenAI is responding to the clear vote by US voters against new data centers with voluntary commitments for future sites. The pledges only apply to facilities OpenAI operates itself, though, and a large share of its infrastructure is built by partners like Oracle. Voters rejected new data centers in 40 out of 41 local ballot measures."
+    },
+    {
+      "title": "Nvidia vs. Taiwan Semiconductor: The AI Revolution Is Big Enough for Both. Here's the Better Buy. - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/05/nvidia-vs-taiwan-semiconductor-the-ai-revolution-i/",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-11-05T15:02:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "These semiconductor giants are among the biggest beneficiaries of the AI chip boom, and they are expected to sustain solid growth levels over the long run."
+    },
+    {
+      "title": "After US voters back data center critics, OpenAI promises no secret deals with public officials; says: ‘W - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-us-voters-back-data-center-critics-openai-promises-no-secret-deals-with-public-officials-says-well-pay-the-full-cost-of-/articleshow/135576781.cms",
+      "source": "The Times of India",
+      "publishedAt": "2026-11-05T14:22:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 55,
+      "summary": "OpenAI has pledged greater transparency in data center negotiations."
+    },
+    {
+      "title": "Box expands Nvidia partnership, unveils AI workflow builder - Reuters",
+      "url": "https://www.reuters.com/business/box-expands-nvidia-partnership-unveils-ai-workflow-builder-2026-11-05/",
+      "source": "Reuters",
+      "publishedAt": "2026-11-05T14:06:25.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
     }
   ],
   "general": [
     {
-      "title": "Alpha Dhabi: Long-Term Strategy Include More UAE IPOs (Video)",
+      "title": "IAG Says It Will Keep Rewarding Investors Even as Fuel Surges",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/iag-says-it-will-keep-rewarding-investors-even-as-fuel-surges",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T07:22:33.000Z",
+      "kind": "news",
+      "summary": "IAG SA said it plans to keep rewarding shareholders with dividend payouts and other returns even as the company incurs a higher fuel bill due to the Middle East war.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "German Industrial Production Rises in Latest Boost for Economy",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/german-industrial-production-rises-in-latest-boost-for-economy",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T07:06:17.000Z",
+      "kind": "news",
+      "summary": "German industrial production rose for a second month, bolstering hopes that the economy will muster a turnaround after years of stagnation.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Alpha Dhabi: Long-Term Strategy Include More UAE IPOs",
       "url": "https://www.bloomberg.com/news/videos/2026-11-06/alpha-dhabi-long-term-strategy-include-more-uae-ipos-video",
       "source": "Bloomberg",
       "publishedAt": "2026-11-06T06:57:27.000Z",
       "kind": "news",
+      "summary": "Alpha Dhabi has reported group revenue reaching $15.9 billion for the first nine months of 2026, up 6.1% year on year. Derek Nicholson, Chief Strategist & Investor Relations Officer at Alpha Dhabi Holdings spoke to Bloomberg’s Jennifer Zabasajja on Horizons Middle East & Africa on their investment strategy as well as plans for future IPOs. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1195,7 +1219,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Fonterra's Allen Targets Value-Led Growth in China",
@@ -1207,7 +1231,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Fesharaki Says Oil’s Right Price Is $80-$90",
@@ -1219,7 +1243,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Niles: AI Trade Faces Repricing Amid Data Center Risks",
@@ -1231,7 +1255,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "KB Financial Says Korea Stock Selloff Favors Buyers",
@@ -1243,7 +1267,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "China Tech Stocks Slide in Broad Market Rout",
@@ -1255,7 +1279,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Zambian Budget Gets Copper Boost With El Niño Threatening Crops",
@@ -1267,7 +1291,19 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Moody’s Warns Senegal Debt Rework Likely Tantamount to Default",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/moody-s-warns-senegal-debt-rework-likely-tantamount-to-default",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T06:01:00.000Z",
+      "kind": "news",
+      "summary": "Senegal’s bid to revamp billions of dollars of debt will probably constitute a default under Moody’s Ratings’ methodology, even as Africa’s most distressed sovereign issuer continues to make scheduled payments.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Max Richter: AI Degrades Our Taste in Music",
@@ -1294,47 +1330,11 @@
       "score": 50
     },
     {
-      "title": "Edelweiss' Rashesh Shah on Indian Markets, Capital Gains Tax",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-06/edelweiss-shah-on-indian-markets-capital-gains-tax-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-06T05:56:13.000Z",
-      "kind": "news",
-      "summary": "Edelweiss Financial Services Chairman and Managing Director Rashesh Shah calls for the removal of long-term capital gains (LTCG) tax for foreign investors in India. \"I think we need to showcase to the foreigners we want them. So I would say reduce a lot of complexity, paperwork, the tax regulation,\" he said in an interaction with Bloomberg TV's Haslinda Amin and Menaka Doshi. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Focus: AI boom turns chip packaging into the next battleground for semiconductors - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVTRsRWo5SjhUM1lPV19Xc1ZKUjNWWEx1eTFkZEZLYmpjVG1FNFltZDRRdVBwZ3RBVnk0NlQtbDZmaWdmaFhSY0NFT3Rpa2YzZVRzNl8zSHNzcVdhR3RZdEpFeVNkMW93SDFrbTY5SE9NM3NneHpZOFYxN1FGOVU1ekxjSF9aZ2FyZnRXLU5aY2pFT0gtYTVwMEhfUmU2a2lOaURTeURqcDQ0M185ekd4ZWJwVHdiVWEwanduVElR?oc=5",
       "source": "Reuters",
       "publishedAt": "2026-11-06T05:52:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Thailand EV Tax Gets Carmakers Weighing More Local Production",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/thailand-ev-tax-carmakers-autos-production-manufacturing-millennium-group-xpeng-omoda-jaecoo",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-06T05:45:58.000Z",
-      "kind": "news",
-      "summary": "Thailand’s higher taxes on imported electric vehicles are prompting automakers to consider more local production, boosting Bangkok’s drive to become an EV manufacturing hub.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Iran Oil Exports Near Zero But Peace Deal Not Likely, FGE Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/iran-oil-exports-near-zero-but-peace-deal-not-likely-fge-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-06T05:43:14.000Z",
-      "kind": "news",
-      "summary": "Iranian oil exports have dwindled to almost nothing under the US naval blockade, but the chance of an imminent deal between the two sides to end the war is low, according to FGE NexantECA.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1352,19 +1352,7 @@
       "score": 50
     },
     {
-      "title": "Asia Stocks Sell Off As AI Rout Deepens",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-06/the-asia-trade-11-6-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-06T05:40:41.000Z",
-      "kind": "news",
-      "summary": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Queensland, New Zealand and Hong Kong with Haidi Stroud-Watts and Annabelle Droulers, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "AI's reality check - Reuters",
+      "title": "Morning Bid: AI's reality check - Reuters",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xWEZCT19xVnB0ZUVUZDQzWWRjTGxuUEpqQTE4OU1CZ1ZQNHJpQTR2MnNvejZteVJRZXR2eTZ5dENZX2I0MDRnb0xOUE1ranhSWG5OblJsMEZhZzZxcnNKMFdhMDlRVWVVa0pRR1FhczRCblJZLXZGdmtLMi1DTkk?oc=5",
       "source": "Reuters",
       "publishedAt": "2026-11-06T05:37:00.000Z",
@@ -1434,23 +1422,24 @@
       "score": 50
     },
     {
-      "title": "‘Anti-AI’ Trade Makes Indian Stocks Asia’s Lone Bright Spot",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/indian-stocks-gain-haven-appeal-as-investors-flee-ai-trade",
+      "title": "AI Selloff Drives Asian Stock Markets to Fresh Grim Milestones",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/ai-selloff-asian-stock-markets-nikkei-kospi-taiex-grim-milestones",
       "source": "Bloomberg",
-      "publishedAt": "2026-11-06T05:00:54.000Z",
+      "publishedAt": "2026-11-06T05:11:11.000Z",
       "kind": "news",
-      "summary": "Indian stocks were a lone bright spot in Asia on Friday as the rest of the region slumped on renewed concerns over artificial intelligence.",
+      "summary": "Asian markets are notching fresh grim milestones as the artificial intelligence selloff deepened following the Democrats’ decisive midterm election win.",
       "tier": 1,
       "tickers": [],
       "related": [],
       "score": 50
     },
     {
-      "title": "Indian Stocks Gain Haven Appeal as Investors Flee AI Trade - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMjhVWjg5bW1COFV1bHpsSHMtQ3FJVl83Nm02cHBQNUJEX1JVZ3JxYTVoMmJ1Uk5DazhWOEJYWkNjTzBCX3pLbXkwNmpKQWczNnZySFRYcUkwZ25NUksxUW9odkdRUVQ5Uk5xVW4zTXQ5YWVETzNrdmwyS1h1SXNwaFBydmN1VXJLUC1RWktSeDVLMW5COE0wX2RBbE5GcHZlVUYtRGNVcnA2V1NmQlE?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "title": "‘Anti-AI’ Trade Makes Indian Stocks Asia’s Lone Bright Spot",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/indian-stocks-gain-haven-appeal-as-investors-flee-ai-trade",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T05:00:54.000Z",
       "kind": "news",
+      "summary": "For months, investors touted Indian equities as a place to hide if the global artificial-intelligence trade unraveled. This week, that thesis is playing out.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1585,6 +1574,17 @@
       "score": 50
     },
     {
+      "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcG1MOENXS0g3UE1idXoxamJmd2FjV3g4UWoxVXp6YUwzR0hxeXFLLW5kdGF1YTJhSXNITVpQUG92cWlOdFQwRUI3cm1heS1xRFlRYURwdWt3R3VnS2pqenhpSFd6N0N4U2NuZGV5VzgwT0ZjeTdtcGRRVU9EbFFRUkFWc2xLdUpncG9HbWY3anFiTzJRWWttd016YjlyUDdZMmJoVg?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-11-06T02:08:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
       "title": "China’s AI-Propelled Growth May Take a Blue Wave Hit, BE Says",
       "url": "https://www.bloomberg.com/news/articles/2026-11-06/china-s-ai-propelled-growth-may-take-a-blue-wave-hit-be-says",
       "source": "Bloomberg",
@@ -1631,6 +1631,17 @@
       "score": 50
     },
     {
+      "title": "Vensum Power lands €9M to expand its power converters for AI data centres - Tech Funding News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3EzWndxUjhjbWpQemYyZWZjUFhoN1hUb2ZNZUNTVW9maDMyT3hPTEY4VU8yaFFabTdtNnpjQU5FM2tNNWo1M3dMSWdCUXdrTWpoeHpYaWdYRFdxalJ5UkM4cS1fWjExdEMwVTdWa2tLR3RNX3FUa0F2ZTVycUxNSXJHRDBIdk9xUExqcDZn?oc=5",
+      "source": "Tech Funding News",
+      "publishedAt": "2026-11-06T05:03:22.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
       "title": "Plato's Allen on AI Selloff, Investment Strategy",
       "url": "https://www.bloomberg.com/news/videos/2026-11-06/plato-s-allen-on-ai-selloff-investment-strategy-video",
       "source": "Bloomberg",
@@ -1640,7 +1651,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Hearts & Minds' Howes on Private Credit",
@@ -1650,28 +1661,6 @@
       "kind": "news",
       "summary": "Richard Howes, Managing Director at Hearts & Minds Investment, discusses the investment opportunities in the private credit markets. He speaks with Haidi Stroud-Watts on the sidelines of the Sohn Hearts & Minds conference in Queenstown, New Zealand. (Source: Bloomberg)",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Global AI stock selloff wipes trillions off Wall Street as Nasdaq plunges 5.5% - Gulf Business",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeURWeFBoaHJ1T21BWEFBQk5LdjVjbVc5blJFMy1jNUljbWJIelRZbDFUbkdNQ2VOUFQ5S1prX3Z0WkdMQnp1VjVlY2ZOWDJzbDU0N0lnSGpmdjRZbkJEVzFNbk5hY1VBTHNHZzZ2a2NJQ0pTTzBscGZFRTlzbVJfMnRhajRIM184Ymg2LTRVMHR5TkJERlB6NzJtMkZybEd3WjgtQXZGQkQ1SDZqZUpWT0ppb293ZG8?oc=5",
-      "source": "Gulf Business",
-      "publishedAt": "2026-11-06T06:05:45.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Vensum Power lands €9M to expand its power converters for AI data centres - Tech Funding News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc3EzWndxUjhjbWpQemYyZWZjUFhoN1hUb2ZNZUNTVW9maDMyT3hPTEY4VU8yaFFabTdtNnpjQU5FM2tNNWo1M3dMSWdCUXdrTWpoeHpYaWdYRFdxalJ5UkM4cS1fWjExdEMwVTdWa2tLR3RNX3FUa0F2ZTVycUxNSXJHRDBIdk9xUExqcDZn?oc=5",
-      "source": "Tech Funding News",
-      "publishedAt": "2026-11-06T05:03:22.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1706,6 +1695,18 @@
       "publishedAt": "2026-11-06T00:31:44.000Z",
       "kind": "news",
       "summary": "Japan issued a demand for Vladimir Putin’s government to return the seized assets of Japan Tobacco Inc.’s Russian arm, the latest twist in an escalating diplomatic spat between the two nations.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Atlassian’s Shares Slide After Revenue Outlook Disappoints",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/atlassian-s-shares-slide-after-revenue-outlook-disappoints",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-06T00:18:04.000Z",
+      "kind": "news",
+      "summary": "Atlassian Corp.’s shares slid about 20% after the Australian software company’s quarterly revenue outlook failed to excite investors concerned about tech valuations globally.",
       "tier": 1,
       "tickers": [],
       "related": [],

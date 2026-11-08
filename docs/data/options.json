@@ -1,40 +1,30 @@
 {
-  "generatedAt": "2026-11-08T02:31:47.970Z",
+  "generatedAt": "2026-11-08T03:01:53.056Z",
   "symbol": "FRMI",
   "quoteTime": "2026-11-06T15:59:59",
   "underlying": {
     "price": 1.55,
     "change": 0.04,
-    "changePct": 2.61,
-    "prevClose": 1.53
+    "changePct": 2.55,
+    "prevClose": 1.57
   },
   "iv30": 132.3,
-  "iv30ChangePct": 3.21,
+  "iv30ChangePct": 0,
   "totals": {
-    "contracts": 578,
-    "expirations": 17,
-    "callOI": 682498,
-    "putOI": 186489,
-    "callVol": 39849,
-    "putVol": 16108,
-    "pcOI": 0.27,
+    "contracts": 540,
+    "expirations": 16,
+    "callOI": 641713,
+    "putOI": 184847,
+    "callVol": 39651,
+    "putVol": 15871,
+    "pcOI": 0.29,
     "pcVol": 0.4
   },
   "sentiment": {
     "label": "Call-heavy",
-    "note": "More open interest in calls than puts (put/call 0.27) — positioning leans bullish. 30-day implied volatility is very high (132%), so options are pricing large moves."
+    "note": "More open interest in calls than puts (put/call 0.29) — positioning leans bullish. 30-day implied volatility is very high (132%), so options are pricing large moves."
   },
   "expirations": [
-    {
-      "date": "2026-11-06",
-      "days": 0,
-      "callOI": 40785,
-      "putOI": 1642,
-      "callVol": 198,
-      "putVol": 237,
-      "pcOI": 0.04,
-      "atmIV": null
-    },
     {
       "date": "2026-11-13",
       "days": 5,
@@ -104,6 +94,16 @@
       "putVol": 0,
       "pcOI": null,
       "atmIV": 129.2
+    },
+    {
+      "date": "2027-01-15",
+      "days": 68,
+      "callOI": 207075,
+      "putOI": 57276,
+      "callVol": 1842,
+      "putVol": 416,
+      "pcOI": 0.28,
+      "atmIV": 126.3
     }
   ],
   "mostActive": [
@@ -220,16 +220,6 @@
       "iv": 181.7
     },
     {
-      "contract": "FRMI261106C00002500",
-      "type": "call",
-      "strike": 2.5,
-      "expiry": "2026-11-06",
-      "last": 0.01,
-      "volume": 8,
-      "openInterest": 24948,
-      "iv": 0
-    },
-    {
       "contract": "FRMI261120C00010000",
       "type": "call",
       "strike": 10,
@@ -268,6 +258,16 @@
       "volume": 0,
       "openInterest": 19351,
       "iv": 144.3
+    },
+    {
+      "contract": "FRMI270521C00004500",
+      "type": "call",
+      "strike": 4.5,
+      "expiry": "2027-05-21",
+      "last": 0.17,
+      "volume": 20,
+      "openInterest": 18404,
+      "iv": 127.2
     }
   ],
   "source": "Cboe (delayed)"

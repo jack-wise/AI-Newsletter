@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T15:31:31.290Z",
+  "generatedAt": "2026-11-09T16:01:35.102Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Project Matador",
+      "url": "https://www.reddit.com/r/FRMI/comments/1xrv5we/project_matador/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-11-09T15:49:41.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/itssbri",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Project Matador"
+    },
     {
       "title": "Fermi’s Largest Shareholder Renews Push For Immediate Sale, Claims Board Fumbled $10B-$20B Valuation Opportunity $FRMI https://stocktwits.com/news/equity/markets/fermi-s-largest-shareholder-renews-push-for-immediate-sale-claims-board-fumble",
       "url": "https://stocktwits.com/StocktwitsNews/message/668541150",
@@ -911,31 +933,79 @@
       "related": [],
       "score": 38,
       "summary": "[October 31, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "Perry and Stein remain board members",
-      "url": "https://www.reddit.com/r/FRMI/comments/1xjuagv/perry_and_stein_remain_board_members/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-10-30T23:07:40.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/sunnydays2121",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Perry and Stein remain board members"
     }
   ],
   "related": [
+    {
+      "title": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
+      "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-09T15:57:38.000Z",
+      "kind": "news",
+      "summary": "The Singapore-based company has previously been probed for allegedly supplying China with Nvidia chips.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
+      "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-09T15:51:40.000Z",
+      "kind": "news",
+      "summary": "Huang told Nvidia staff in an email that he had an affair and that the company's board has opened an investigation into allegations the woman is a Chinese spy.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
+      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-09T15:49:30.000Z",
+      "kind": "news",
+      "summary": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia Spy Probe: What We Know Now",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-09/nvidia-spy-probe-what-we-know-now-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-09T15:31:06.000Z",
+      "kind": "news",
+      "summary": "Bloomberg's Michael Shepard says Nvidia's relationship with the Singaporean company called Megaspeed International has been under scrutiny for more than a year. Nvidia CEO Jensen Huang admitted to having an affair with a woman from the company identified as a suspected Chinese spy. Here's a quick recap of what we know so far. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Google Escalates Nvidia Rivalry With Specialized Versions of AI Chips - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/google-escalates-nvidia-rivalry-with-new-versions-of-its-tpu-systems",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-09T15:25:58.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "GOOGL"
+      ],
+      "score": 75
+    },
     {
       "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair - Bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
@@ -977,6 +1047,19 @@
       "score": 75
     },
     {
+      "title": "Jensen Huang Is ‘Core DNA of Nvidia and Its AI Success’: Dan Ives Says CEO ‘Not Replaceable’ - Benzinga",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63037773/jensen-huang-is-core-dna-of-nvidia-and-its-ai-success-dan-ives-says-ceo-not-replaceable",
+      "source": "Benzinga",
+      "publishedAt": "2026-11-09T15:04:18.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
       "title": "Nvidia Drama Explodes; The Startup Tricking Scammers by Using AI Agents - The Information",
       "url": "https://www.theinformation.com/newsletters/ai-agenda/nvidia-drama-explodes-startup-tricking-scammers-using-ai-agents",
       "source": "The Information",
@@ -987,21 +1070,20 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
-      "title": "What is Megaspeed? The Nvidia chip buyer in the spotlight after Jensen Huang’s affair",
-      "url": "https://www.cnbc.com/2026/11/09/megaspeed-nvidia-jensen-huang-alice-huang.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-09T14:55:27.000Z",
+      "title": "Nvidia slumps after a 'foreign intelligence' probe initiated by AI company into CEO Jensen Huang - The Washington Post",
+      "url": "https://www.washingtonpost.com/business/2026/11/09/nvidia-jensen-huang-spy-china/bbe99c9a-dc3f-11f1-912c-4fbb80d73f7f_story.html",
+      "source": "The Washington Post",
+      "publishedAt": "2026-11-09T14:58:32.000Z",
       "kind": "news",
-      "summary": "The Singapore-based company has previously been probed for allegedly supplying China with Nvidia chips.",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia’s Stock Price Drops After Investigation Into CEO Jensen Huang - The New York Times",
@@ -1010,19 +1092,6 @@
       "publishedAt": "2026-11-09T14:50:36.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Jensen Huang Is ‘Core DNA of Nvidia and Its AI Success’: Dan Ives Says CEO ‘Not Replaceable’ - Benzinga",
-      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/11/63037773/jensen-huang-is-core-dna-of-nvidia-and-its-ai-success-dan-ives-says-ceo-not-replaceable",
-      "source": "Benzinga",
-      "publishedAt": "2026-11-09T15:04:18.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [
         "NVDA"
@@ -1056,6 +1125,19 @@
       ],
       "score": 65,
       "summary": "Company says schools should control student AI use, but if they block its AI tools, they’ll lose access to search engine"
+    },
+    {
+      "title": "What to Know About Nvidia’s Investigation of Its C.E.O. - The New York Times",
+      "url": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-09T13:49:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
     },
     {
       "title": "Nvidia Adds ‘Huge Element of Surprise’ to AI Trade, Strategist Hunt Says",
@@ -1098,6 +1180,20 @@
       ],
       "score": 65,
       "summary": "A research newsletter says the AI buildout has peaked, but the dollar amounts tell a different story."
+    },
+    {
+      "title": "Wall St set to open higher after last week's AI rout; Nvidia down - The Lufkin Daily News",
+      "url": "https://lufkindailynews.com/news_reuters/business/wall-st-set-to-open-higher-after-last-weeks-ai-rout-nvidia-down/article_68105a20-f353-5c4c-97a7-a918cacbd180.html",
+      "source": "The Lufkin Daily News",
+      "publishedAt": "2026-11-09T13:44:40.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "By Niket Nishant and Utkarsh Hathi Nov 9 (Reuters) - Wall Street"
     },
     {
       "title": "US Stocks Rise as Crude Falls on War Hopes Even as Nvidia Sinks",
@@ -1155,34 +1251,6 @@
       "score": 65
     },
     {
-      "title": "Nvidia's CEO turmoil gives newly empowered Democrats fresh ammunition in pursuit of oversight",
-      "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-09T13:13:52.000Z",
-      "kind": "news",
-      "summary": "Nvidia CEO Jensen Huang's extramarital affair with an alleged Chinese spy comes as the company is already about to face heightened scrutiny.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Prediction: Nvidia Stock Is Going to Soar After Nov. 17 - The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/11/09/prediction-nvidia-stock-going-to-soar-after-nov-17/",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-09T13:09:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Nvidia's recent sell-off might have created the ultimate buying opportunity for investors."
-    },
-    {
       "title": "Third Lawsuit Over Project Camellia Alleges Fraud, Conspiracy Over OpenAI Data Center in Effingham County - The Georgia Virtue",
       "url": "https://www.thegeorgiavirtue.com/local-government-south-georgia/third-lawsuit-over-project-camellia-alleges-fraud-conspiracy-over-openai-data-center-in-effingham-county/",
       "source": "The Georgia Virtue",
@@ -1197,43 +1265,15 @@
       "summary": "The 44-page lawsuit contrasts in that in addition to claims of improper government action and financial harm to nearby property owners, this complaint also alleges fraud and conspiracy. Specifically, the lawsuit alleges that public officials and private companies worked together to secure land, financial incentives, and zoning approvals for the project - all before Effingham County residents had a real opportunity to make their voices heard on the issue. - South Georgia Local"
     },
     {
-      "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy",
-      "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-09T12:39:15.000Z",
-      "kind": "news",
-      "summary": "Huang told Nvidia staff in an email that he had an affair and that the company's board has opened an investigation into allegations the woman is a Chinese spy.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "China Rejects Espionage Claims Involving Nvidia C.E.O. Jensen Huang - The New York Times",
       "url": "https://www.nytimes.com/2026/11/09/business/jensen-huang-china-spying.html",
       "source": "The New York Times",
-      "publishedAt": "2026-11-09T12:33:36.000Z",
+      "publishedAt": "2026-11-09T12:33:37.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Google Escalates Nvidia Rivalry With Specialized Versions of AI Chips - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-09/google-escalates-nvidia-rivalry-with-new-versions-of-its-tpu-systems",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-09T12:30:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA",
-        "GOOGL"
       ],
       "score": 65
     },
@@ -1257,19 +1297,6 @@
       "url": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9",
       "source": "MarketWatch",
       "publishedAt": "2026-11-09T12:26:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nvidia's \"key man risk\" now in the spotlight - Axios",
-      "url": "https://www.axios.com/2026/11/09/nvidia-key-man-risk-huang",
-      "source": "Axios",
-      "publishedAt": "2026-11-09T12:23:30.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1305,40 +1332,11 @@
       "score": 65
     },
     {
-      "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls - The Decoder",
-      "url": "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-09T11:40:35.000Z",
+      "title": "Nvidia CEO Jensen Huang admits affair, board to launch investigation - Axios",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation",
+      "source": "Axios",
+      "publishedAt": "2026-11-09T11:57:35.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI chip export controls, with a newly elected Democratic Congress poised to ramp up scrutiny of AI chip smuggling to China and push for tighter restrictions."
-    },
-    {
-      "title": "OpenAI and Anthropic Valuations Fall as AI Market Rout Hits Fundraising",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-09/openai-and-anthropic-valuations-fall-as-ai-market-rout-hits-fundraising",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-09T11:28:16.000Z",
-      "kind": "news",
-      "summary": "Anthropic starts marketing for its test-case IPO today",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Nasdaq defies Nvidia impact as Huang faces espionage affair probe",
-      "url": "https://www.cnbc.com/2026/11/09/nasdaq-defies-nvidia-impact-huang-faces-espionage-affair-probe.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-09T11:04:49.000Z",
-      "kind": "news",
-      "summary": "The board opens an investigation into Huang's relationship with an alleged Chinese spy",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1348,6 +1346,29 @@
     }
   ],
   "general": [
+    {
+      "title": "KKR Beats Estimates on 'Mini Berkshire' Profit",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-09/kkr-beats-estimates-on-mini-berkshire-profit-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-09T15:52:24.000Z",
+      "kind": "news",
+      "summary": "KKR & Co. reported a third-quarter profit that beat analysts’ estimates as the “mini Berkshire” unit that holds long-term private equity bets mitigated a slump at its Global Atlantic insurance arm. Allison McNeely reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Opinion | An AI company wants its chatbot to have a conscience. God help us. - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0hhX1U4aHV4OTRSb3JZRDZPQ1NEYWtzVDRVYU5jX2tUMVNpU2NZakVrN0hjRTV1Qy1vb2k1cElOOUxXZi1GeEdXX1B2WlhRMEZXUHMwWXlfNWs1TlpaR1FhLWliZEZpN3JIaHd4bWFmcmRTdGFFRTQyZWJsTjQ2TVE3bGNyMTY4dnFHVlk5Y0pIOGFLUExRVnFZTE52bkJncHJ1YUFTZG9RQk1RXzJBZDJn?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-11-09T15:32:16.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "The AI sell-off rocked Wall Street last week. Why it sets up the market for a big year-end rally - CNBC",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb0ZIZU56UFJiMlFXLTBNaVg5QVAyZUlQZjJxTGRqNFdpbU1ZbkxUTXQ0dWJYRmZqeENUZTBDbzhqUF9CRU9zNmRvaWxYU04xYzVJZU0xd2RSZWY2Qm1VY3lVblpONlpaejVXTkx5TUM4b21BTFg5OFNxLWNoZEdCVg?oc=5",
@@ -1404,7 +1425,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Natural Gas Jumps as Cooler Forecasts Trigger Short Covering",
@@ -1416,7 +1437,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Quanome Agrees to Invest in AI Drug Discovery Company QAI Labs - The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcERhaGhrSG9LNDFLZTRNOGhqZ3A5SWRtbVdhM3haLUNrMEI4MlBoWTRoc0duQnZqeFZoWTg3NTZQY2J0MzlZVWY3eEl3WVlDYnpFUG5wUi1VdG4xb29iYUdDVlBoSHB1Q2pHbi05WEpiSGNRUU5yMm5CY0ZVUE8yQkVtLUxST3UxZVE?oc=5",
+      "source": "The Quantum Insider",
+      "publishedAt": "2026-11-09T14:46:12.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Fox Holds Investor Calls Before Planned Bond Sale for Roku Deal",
@@ -1428,7 +1460,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "America's newest small business owners with no employees are off to a hot start in AI era",
@@ -1440,7 +1472,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "SolidUltra secures €3 million to address AI data centers’ 800VDC power challenge - The Manila Times",
@@ -1449,17 +1481,6 @@
       "publishedAt": "2026-11-09T14:39:15.000Z",
       "kind": "news",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Why Morningstar Thinks Anthropic Is Worth $1.7 Trillion - Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbjMxWE4tU3d5NUZQRUZtTVQtMHZJNjFTVDgtTHFVWWtfRnlEM1htNmRKaXI2b21HeGZ4VFp0V2NhdmxYZUVwd2JUQTVjUVFERHN1SmhyMmZfRUZfNWV2bnJETmFhVTRSN2U5RWZ4R0dvLUhKV1VKTlhDa2VRY3VPRkdVN1A5a2VCbkRGSTZtRWIxdw?oc=5",
-      "source": "Morningstar",
-      "publishedAt": "2026-11-09T14:36:52.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1495,17 +1516,6 @@
       "publishedAt": "2026-11-09T14:20:12.000Z",
       "kind": "news",
       "summary": "Anthropic PBC can begin formally marketing its much-anticipated IPO as early as Tuesday, enabling it to make the case to investors that now is the right time to go public despite last week’s swoon in artificial intelligence-related stocks.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Opinion | An AI company wants its chatbot to have a conscience. God help us. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ0hhX1U4aHV4OTRSb3JZRDZPQ1NEYWtzVDRVYU5jX2tUMVNpU2NZakVrN0hjRTV1Qy1vb2k1cElOOUxXZi1GeEdXX1B2WlhRMEZXUHMwWXlfNWs1TlpaR1FhLWliZEZpN3JIaHd4bWFmcmRTdGFFRTQyZWJsTjQ2TVE3bGNyMTY4dnFHVlk5Y0pIOGFLUExRVnFZTE52bkJncHJ1YUFTZG9RQk1RXzJBZDJn?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-11-09T14:02:16.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1564,28 +1574,6 @@
       "publishedAt": "2026-11-09T13:29:10.000Z",
       "kind": "news",
       "summary": "The aluminum market is in the grips of a major supply squeeze fueled by declining stockpiles of the crucial industrial commodity, with buyers facing rising prices for spot metal and little immediate prospect of relief.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "How Indispensable Is Jensen Huang? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XbFdMNFZJclV1eU56VUJOSjVCbVU0RVlCUnBqd2t0Y0NiTGdsS0h5bWl6Qk4wNW9SR2l3RVE0dktCZi1sdlRFZXlZdDNCQ3B2WUc0cEk2aFdWY0Z0T0gzbmxhMkRIcHZFd3NOeDZ5cVBkV2JkOGg3emNvZkEyQkk?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-11-09T13:28:19.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Meta expands AI age checks for Instagram teens as lawsuits mount - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcEh1SWhQYVpodTlET20tR1AyNUVzQmdZTzNpclljYmdIT21OTXpiNHVOQUE1RFdaUkdydnpkOWp6Z0xONUluTkpzR0ZXbk9ld24zZlpQekhFakdPYy1DU2NJVUhpdnBRRTlRY1FOeUdOdElRMFo5dmxzQW8tMnY0MFpwN080NjFRbXgzODBudmU0MldDU1g0OGhqVFV4SWMyR1JNRFREUGd2MWJjR09R?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-09T13:24:43.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1701,30 +1689,6 @@
       "publishedAt": "2026-11-09T13:00:00.000Z",
       "kind": "news",
       "summary": "Nominal Inc., a startup building software to make manufacturing more efficient, has raised $240 million in funding at a $3 billion valuation, triple what it was worth in a funding round earlier this year.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Europe’s Gas Storage Problems Seen Lasting Well Beyond Winter",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-09/europe-s-gas-storage-problems-seen-lasting-well-beyond-winter",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-09T12:47:37.000Z",
-      "kind": "news",
-      "summary": "Inventory levels could be lowest in more than a decade by spring.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Nordea Fine for Flawed Laundering Controls Dodges Worst Case",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-09/nordea-gets-23-million-fine-in-danish-money-laundering-case",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-09T12:45:20.000Z",
-      "kind": "news",
-      "summary": "Nordea Bank Abp avoided the worst-case scenario in Denmark’s first case of failures to prevent money laundering to be tried in court, with judges imposing a fine far below what prosecutors had sought.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1926,6 +1890,40 @@
       "tickers": [],
       "related": [],
       "score": 50
+    },
+    {
+      "title": "Wall Street Sticks With AI Playbook After Historic Tech Unwind",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-09/jpmorgan-s-lakos-bujas-sees-investor-selloff-nearing-exhaustion",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-09T10:07:25.000Z",
+      "kind": "news",
+      "summary": "Hedge funds dumped technology stocks at one of the fastest paces on record last week, and the momentum crash that followed was the biggest in about 40 years. Even so, few on Wall Street are ready to call time on the AI boom.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "A.I.-Generated Celebrity Ads Get an Assist From Terry Crews - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BMVkyM0JnUnMtX1NkUURodTROSFJ1Vmt5QzFYbFNHSld2OE51cVlRbHZsMEtBRXBEU2tOVnFKUnR5bjZJLU0zUld1N1pRQU9vLVlXVlR2NWtGYjgzb01RY1FhS3JoZEx5dHBpa3lXZTNaNnZ1VC1iamppZE0?oc=5",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-09T10:02:38.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "South Portland schools to consider A.I. moratorium for grades pre-K through 8 - WMTW",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWNXcDVnVlBZbTJSR1RSN2h4dzlSa2NaRU0zZ0NXcDZNdGdNNWFaU2dMdUN3VWs0dHloYW1HTllZVzNQYVpXZXYtSjI1bVg0UHc5MnZ3R3VLU3JkQmZfRnh0WUd5MUx3Z0NCN1pWRXd5alZVN29MRUI1LUhoTnNuYW1MYUZGZ0VpR2cxOWNrRGtZZFVyR05LaVFCUGg4NEd3bDR1cDUwWHgyVVIwNVcxMl8tQQ?oc=5",
+      "source": "WMTW",
+      "publishedAt": "2026-11-09T15:48:00.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     }
   ],
   "sourceErrors": [

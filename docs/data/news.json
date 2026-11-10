@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T18:02:29.934Z",
+  "generatedAt": "2026-11-10T18:32:14.556Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -17,6 +17,29 @@
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
     {
+      "title": "$FRMI analysts are either smoking crack or have insider info",
+      "url": "https://stocktwits.com/peloswing/message/668707574",
+      "source": "@peloswing on StockTwits",
+      "publishedAt": "2026-11-10T18:19:17.000Z",
+      "kind": "social",
+      "credibility": {
+        "score": 50,
+        "trust": "medium",
+        "reasons": [
+          "9,142 followers",
+          "official account",
+          "2 likes"
+        ]
+      },
+      "tier": 2,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 80,
+      "summary": "$FRMI analysts are either smoking crack or have insider info"
+    },
+    {
       "title": "$FRMI Skip this one followers It is now junk with internal fights and shareholder depreciation and dilution Should see 1 dollar very soon",
       "url": "https://stocktwits.com/Steve_TheBull_Rogers/message/668688052",
       "source": "@Steve_TheBull_Rogers on StockTwits",
@@ -26,7 +49,7 @@
         "score": 75,
         "trust": "high",
         "reasons": [
-          "19,995 followers",
+          "19,991 followers",
           "official account",
           "10 likes"
         ]
@@ -919,31 +942,36 @@
       "related": [],
       "score": 38,
       "summary": "[November 03, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "[November 02, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1xlog5n/november_02_2026_fermi_america_frmi_discussion/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-11-02T05:03:43.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "[November 02, 2026] Fermi America - $FRMI - Discussion Thread"
     }
   ],
   "related": [
+    {
+      "title": "China panel chair Moolenaar demands answers on Nvidia CEO's alleged affair with a Chinese spy",
+      "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-10T18:22:44.000Z",
+      "kind": "news",
+      "summary": "Rep. John Moolenaar, R-Mich., is the chairman of the Select Committee on China and told CNBC he expects answers about Jensen Huang's relationship.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "OpenAI lets businesses claim ChatGPT profiles, adds AI agents for US e-commerce firms - Reuters",
+      "url": "https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10/",
+      "source": "Reuters",
+      "publishedAt": "2026-11-10T18:03:43.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "OpenAI"
+      ],
+      "score": 75
+    },
     {
       "title": "Who Is Alice Huang, the Woman in the Middle of Nvidia’s Spy Scandal? - The New York Times",
       "url": "https://www.nytimes.com/2026/11/10/technology/alice-huang-megaspeed-nvidia-jensen-huang.html",
@@ -982,7 +1010,7 @@
       "related": [
         "MSFT"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia falls for second day as investors weigh fallout of CEO’s affair with alleged spy",
@@ -996,21 +1024,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
-    },
-    {
-      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline - TechCrunch",
-      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-10T17:04:19.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
+      "score": 65
     },
     {
       "title": "GE Vernova, Vertiv, and Bloom Energy Just Lost 10% to 24% in a Week. Here's What Set Off the AI Power Sell-off. - The Motley Fool",
@@ -1039,6 +1053,19 @@
       ],
       "score": 65,
       "summary": "The Nvidia founder sent an email to his company this weekend admitting to an affair—one that may have involved a Chinese spy. So what exactly is going on here? Answering that and more in this FAQ."
+    },
+    {
+      "title": "What to Know About Nvidia’s Investigation of CEO Jensen Huang - The New York Times",
+      "url": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-10T15:24:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
     },
     {
       "title": "As Nvidia probes Jensen Huang affair, here’s the board member likely to play a big role",
@@ -1110,20 +1137,6 @@
       "summary": "The AI trade is suffering, but don't make the mistake of overlooking Alphabet's long-term growth trends."
     },
     {
-      "title": "China panel chair Moolenaar demands answers on Nvidia CEO's alleged affair with a Chinese spy",
-      "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-10T13:41:57.000Z",
-      "kind": "news",
-      "summary": "Rep. John Moolenaar, R-Mich., is the chairman of the Select Committee on China and told CNBC he expects answers about Jensen Huang's relationship.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
       "title": "All roads lead to Jensen Huang. That's Nvidia's problem. - Business Insider",
       "url": "https://www.businessinsider.com/affair-jensen-huang-scandal-china-nvidia-ai-bi-today-newsletter-2026-11",
       "source": "Business Insider",
@@ -1165,6 +1178,60 @@
       "summary": "The cliche is one of those smart-sounding rules of thumb that proves true just often enough to remain a Wall Street cliché in good standing."
     },
     {
+      "title": "Anthropic is unveiling office tools that rival Microsoft and Google ahead of its IPO - Quartz",
+      "url": "https://qz.com/anthropic-office-tools-microsoft-google-ipo-111026",
+      "source": "Quartz",
+      "publishedAt": "2026-11-10T18:21:47.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "score": 55,
+      "summary": "The suite includes a spreadsheet service, a video call assistant and a data dashboard tool as the company prepares its IPO"
+    },
+    {
+      "title": "Nvidia, Jensen Huang Face Lawsuit Alleging Investors Were Misled About Spy Affair - Manufacturing.net",
+      "url": "https://www.manufacturing.net/artificial-intelligence/news/22978208/nvidia-jensen-huang-face-lawsuit-alleging-investors-were-misled-about-spy-affair",
+      "source": "Manufacturing.net",
+      "publishedAt": "2026-11-10T18:10:40.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Super Micro Falls 4% as NVIDIA’s Slide Drags AI Server Stocks; Dell Drops 6%, Hewlett Packard Enterprise Declines 2% - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-falls-4-nvidia-180214917.html",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-10T18:02:14.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
+      "title": "Nvidia’s Real Risk Isn’t Jensen Huang’s Scandal. It’s The Family - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSVFwLXRGa1dSZ3k0OEhvLXZELVpmVjVxSDBrWkZNckpWa01CZlh0aEtKS3lZc2U0aHc5YzcyU2VYRmZkM0hTSld0RTF1M3hLSkZmcGdHNmtYdXdleEZ0TkV6WHNWRjU2ZnhRcjg1ZFZEcDdQMFdEaW5PRWtoRmVJQmhYVjFYeF9XelFpR01kSTZIcVhVVEtMazlQR1pwc1lmSkJzN2JkOFRBVUdtNXNRaEZ4aG1MUXNsb21oS2xNWm0tVlc3SjFv?oc=5",
+      "source": "Forbes",
+      "publishedAt": "2026-11-10T18:00:58.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Google Debuts Gemini AI Agent for Healthcare Operations - PYMNTS.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/google-debuts-gemini-ai-agent-healthcare-operations/",
       "source": "PYMNTS.com",
@@ -1179,15 +1246,29 @@
       "summary": "Google Cloud introduced an agentic artificial intelligence solution designed for healthcare operations, according to a Tuesday (Nov. 10) press release."
     },
     {
-      "title": "Anthropic brings Claude to Google Meet to tackle tasks live - Durham Herald Sun",
-      "url": "https://www.heraldsun.com/news/business/article318015570.html",
-      "source": "Durham Herald Sun",
-      "publishedAt": "2026-11-10T17:46:09.000Z",
+      "title": "Nvidia and CEO Jensen Huang face shareholder suit over his affair with alleged Chinese spy - CBS News",
+      "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-shareholder-lawsuit-affair-chinese-spy/",
+      "source": "CBS News",
+      "publishedAt": "2026-11-10T17:57:03.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
       "related": [
-        "GOOGL"
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia CEO Jensen Huang is facing fresh turmoil after shareholders sued him and his company for allegedly misleading them over his affair with an accused Chinese spy​."
+    },
+    {
+      "title": "Alleged spy plot targeting CEO Jensen Huang raises questions about Nvidia's future - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUnhqNGIwcF9JWmRkcDQtVUtCeFVXMjdENGtuMFdBWmZxd0ZVLTVSZW9ESDBLeDFFdzZSNUJxZFF2OUtNTGJGRUtDTHFrTHdiTWZZU2ZJcTFrYW5oNlRBeHNkZXlhQ2c0bzhoWDJLVmREODRWV1FpWXdrSWZFNDVwQ0k1TW5falplUXpUdlNMREVTLWxLblE?oc=5",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-10T17:43:15.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
       ],
       "score": 55
     },
@@ -1219,32 +1300,18 @@
       "score": 55
     },
     {
-      "title": "Anthropic Takes On Google And Microsoft With Claude Sheets - Engadget",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZXRWOExBd2xhc1VhNmZQY1lLQ2R6b3VhZ2kzVm1nMUJfb1RLbnNiaW5LcW1UVUdiQXRqRGlXZHFwODZMSHhsZC1JdXViZTNtUFh3a2JJWWNzdHFCYXlQMWFXeGNIbDVHOFJ3Ni1pRVRwZ0N4Njc0M2ZrVUxBR2FCaHFSMWZ1UFNPMzdKbnEzcUZwaE5BMXU0?oc=5",
-      "source": "Engadget",
-      "publishedAt": "2026-11-10T17:30:00.000Z",
+      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline - TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-10T17:04:19.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 2,
       "tickers": [],
       "related": [
-        "MSFT",
-        "GOOGL"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Australia Mandates Frontier AI Rules Following OpenAI Agent Infiltration - Security Today",
-      "url": "https://securitytoday.com/articles/2026/11/10/australia-mandates-frontier-ai-rules-following-openai-agent-infiltration.aspx",
-      "source": "Security Today",
-      "publishedAt": "2026-11-10T17:02:33.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [
-        "OpenAI"
+        "NVDA"
       ],
       "score": 55,
-      "summary": "New federal standards will establish a dedicated regulator and enforce mandatory incident reporting after a rogue agent breached government portals."
+      "summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
     },
     {
       "title": "GE Vernova falls nearly 10% after SoftBank revises AI data center plans (GEV:NYSE) - Seeking Alpha",
@@ -1261,6 +1328,19 @@
       "summary": "GE Vernova shares fall as much as 9.8% after SoftBank discloses a $3.7 billion charge tied to AI data center equipment changes."
     },
     {
+      "title": "What could NVIDIA’s latest risks mean for the AI chip ecosystem? - Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/what-could-nvidias-latest-risks-mean-for-the-ai-chip-ecosystem-5015096",
+      "source": "Investing.com",
+      "publishedAt": "2026-11-10T13:03:46.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55
+    },
+    {
       "title": "Nvidia's AI Moat Faces A New Test, And Other Top Stocks With Durable Earnings - Seeking Alpha",
       "url": "https://seekingalpha.com/article/4965563-nvidia-stock-ai-moat-faces-new-test-other-top-stocks-durable-earnings",
       "source": "Seeking Alpha",
@@ -1273,88 +1353,89 @@
       ],
       "score": 55,
       "summary": "Nvidia’s recent headlines have put its AI leadership and competitive advantages in focus. Explore three wide-moat stocks with durable earnings power."
-    },
-    {
-      "title": "What could NVIDIA’s latest risks mean for the AI chip ecosystem? - Investing.com",
-      "url": "https://www.investing.com/news/stock-market-news/what-could-nvidias-latest-risks-mean-for-the-ai-chip-ecosystem-5015096",
-      "source": "Investing.com",
-      "publishedAt": "2026-11-10T12:26:31.000Z",
-      "kind": "news",
-      "tier": 2,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Nvidia scandal fails to bring down the tech bulls as spy investigation widens",
-      "url": "https://www.cnbc.com/2026/11/10/nvidia-scandal-fails-to-bring-down-the-tech-bulls-as-spy-investigation-widens.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-10T11:41:56.000Z",
-      "kind": "news",
-      "summary": "President Trump says FBI is \"looking into\" Huang while class action suit emerges",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "The Nvidia Affair Is Terrible Timing for Corporate America - WSJ",
-      "url": "https://www.wsj.com/finance/investing/the-nvidia-affair-is-terrible-timing-for-corporate-america-aa3166c2",
-      "source": "WSJ",
-      "publishedAt": "2026-11-10T11:05:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "Australia Unveils New A.I. Regulator After OpenAI Breach - The New York Times",
-      "url": "https://www.nytimes.com/2026/11/10/world/australia/ai-regulator-openai-hack-medicare.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-11-10T11:01:07.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "OpenAI"
-      ],
-      "score": 55
-    },
-    {
-      "title": "How Jensen Huang’s Yearslong Ties to Alice Huang Enabled $7 Billion-Plus Nvidia Chip Sales to China - The Information",
-      "url": "https://www.theinformation.com/articles/jensen-huangs-yearslong-ties-alice-huang-enabled-nvidia-chip-sales-china",
-      "source": "The Information",
-      "publishedAt": "2026-11-10T10:41:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
-    },
-    {
-      "title": "How Nvidia's crisis and politics could deliver the pause AI leaders want - Axios",
-      "url": "https://www.axios.com/2026/11/10/ai-race-politics-slowdown",
-      "source": "Axios",
-      "publishedAt": "2026-11-10T10:16:40.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
     }
   ],
   "general": [
+    {
+      "title": "Grand Theft Auto VI Finally Comes Out Nov. 19",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-10/grand-theft-auto-vi-finally-comes-out-nov-19-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-10T18:23:43.000Z",
+      "kind": "news",
+      "summary": "The wait is almost over. Grand Theft Auto VI is set to come out on November 19. It's expected to be one of the most lucrative entertainment releases ever. Pre-orders are already at \"unprecedented levels.\" Grand Theft Auto V came out in 2013. Bloomberg Intelligence Technology Research Analyst Nathan Naidu joins Bloomberg Radio with more. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+      "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-10T18:23:36.000Z",
+      "kind": "news",
+      "summary": "Amazon's $250 Ring Drone Cam flies from room to room to investigate suspicious activity, and can capture footage at night.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI-powered hacking demands response within minutes, cybersecurity experts warn - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OcmE5ZFZpZUNzRUJoZ1RYcGZ5LTVSU1UwZklBMDN3SHB6a3Iyb2ItVzNpTDlfd2s0dFQtanJHa3JoN0lxYWlZTm03R2JRaThhem03MW81TnhRUHEtb2tJaW9ycw?oc=5",
+      "source": "The Jerusalem Post",
+      "publishedAt": "2026-11-10T18:17:37.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "US power demand to beat record highs in 2026 and 2027 as AI use surges, EIA says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU09qSWZoX25keGl3bHdyUmFDbFdzUTlTZU84enJuQUlwZDFvejlwNWxiQmVTeC1LWGtLXzMwakppdm9zZkRaUDJOWG1GaVVsdFl3cGZDYmVuZHEtMl9SbzBaVXhqTUVwbDBuVDRMaTkzNGFYeGlZSXpnR1FaMzdCamNONk9wbHJod0tsc0hvaDFjRWFDUU1HcVdQTVFaNXJiaVVNUzRMNmkzd3ZwUU5nbHY2X2taRnpISXc?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-10T18:13:43.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "QuEra, Harvard and Anthropic Use AI to Reduce Quantum Circuit Resource Requirements - The Quantum Insider",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUXJjZ2lyQnVqMU00c0lqR29iZVBuTl9JZTVkOXlwOVNOcHVTWXZfV0daQjFyZFEyUmJiVDJTS3Z4N01YS0c4QmZWODZoY3JnZVhaU2xuajVpd0RvSFRJN3hfbUtuUjNnTXFRS2pDSkM4ZGFRRjRSUUpqTlNjd2ptQ3VyMWFxN0ZSOXpQd1JuSW1tXzNFdTVwem1qMDVNRWgyTi02ZHp2WWF2Zw?oc=5",
+      "source": "The Quantum Insider",
+      "publishedAt": "2026-11-10T18:13:21.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Clearlake Said to Weigh $3.5 Billion Sale of Packaging Firm IPG",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/clearlake-said-to-weigh-3-5-billion-sale-of-packaging-firm-ipg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-10T18:07:36.000Z",
+      "kind": "news",
+      "summary": "Clearlake Capital Group is exploring a sale of packaging company IPG, which could fetch more than $3.5 billion, according to people familiar with the matter.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "ChatGPT is getting verified AI ‘Business Agents’ - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYkdJblVLLTVHVVBiaVJ5dENmXzI3WXhvQk50TjlKTnVrREJKYTJ1Zlg5dmlwYUI3Wndic0lPWTRZX1E1V1hsTWx2X1ZPVVNJQXcyVHc5ZFlSM2dmdHViQVZJak80amZ5dWFyQ2JHWlZwT0ttQTZQQUVJdTdrSVcxdnNpRUZiczRzeWtwUVVxbURkNlFjM1dxcHl3?oc=5",
+      "source": "The Verge",
+      "publishedAt": "2026-11-10T18:00:46.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Dollar Set for Best Day Since September as CPI Lifts Hike Bets",
       "url": "https://www.bloomberg.com/news/articles/2026-11-10/dollar-set-for-best-day-since-september-as-cpi-lifts-hike-bets",
@@ -1362,6 +1443,18 @@
       "publishedAt": "2026-11-10T17:43:37.000Z",
       "kind": "news",
       "summary": "The dollar headed for its strongest gain since September after hotter-than-forecast US inflation reinforced expectations for a Federal Reserve interest-rate hike next month.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Hot Inflation Revives December Rate Hike",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-10/open-interest-11-10-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-10T17:41:38.000Z",
+      "kind": "news",
+      "summary": "Get a jump start on the US trading day with Dani Burger on \"Bloomberg Open Interest.\" Inflation comes in hot, strengthening the case for a December rate hike. Anthropic tests investor appetite with a potential $1.4 trillion valuation, while Nvidia faces fresh scrutiny around Jensen Huang. White House CEA Chair Chris Phelan and Carlyle’s Jason Thomas break down the Fed outlook and AI risk. And Bucks President Josh Glessing on building a franchise beyond Giannis. (Source: Bloom",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1393,7 +1486,7 @@
       "title": "Anthropic wants Claude to join your meetings - Axios",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43RzRod0FibUhPX1ZYX09KMHdodFZMQWNOcFR1dGh5Q2dsaDJ1QjhjWjIzbWhJamI4SGtJUHQ1S3V0YUZWYnp3bWowbXhUMWhpMUxObFNpakVHNm9yZ1VKbzJqTUNwekNUNG15ZGhTdkxJVWdicktQOFNMVHJFZw?oc=5",
       "source": "Axios",
-      "publishedAt": "2026-11-10T17:31:57.000Z",
+      "publishedAt": "2026-11-10T17:32:35.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1409,7 +1502,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Anthropic has its own AI-powered office suite now - The Verge",
@@ -1420,7 +1513,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "CEO Pay Disclosures Set for ‘Ozempic Diet’ as SEC Eases Rules",
@@ -1432,7 +1525,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Corn Jumps After USDA Cuts US Yield in Another Surprise Move",
@@ -1444,7 +1537,18 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "AI is supercharging Iran’s cyber threat, Dream CEO Shalev Hulio warns - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82Ny1ZSDI3RXRPc202WHFpNkxJeDVhSEM0TTFPOWZZU0VZMW5Wa0o2ZVcyMUdfT0hpa21tdmNNX0RkZVpGYjRkcFp0Z1g0N2s4WWx3QWduTXptdkE0M01sRUpRcw?oc=5",
+      "source": "The Jerusalem Post",
+      "publishedAt": "2026-11-10T17:21:06.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "Diamondback, KKR to Acquire Stake in Water Firm for $2.1 Billion",
@@ -1456,7 +1560,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Oura to Buy On-Demand Doctor AI Service Counsel Health; Revenue Jumps 153% in Q4",
@@ -1468,7 +1572,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "US Raises Forecasts for 2027 Gasoline and Diesel Prices",
@@ -1480,7 +1584,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Peloton Draws $6.8 Billion of Demand for Debut Junk-Bond Sale",
@@ -1490,17 +1594,6 @@
       "kind": "news",
       "summary": "Peloton Interactive Inc. has attracted strong investor demand for its debut junk-bond sale, allowing the fitness company to boost the deal’s size and slash borrowing costs.",
       "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 60
-    },
-    {
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdkN0VWFWT3BuM1RBTG1ZWVp6TWs3RVpNZ2JHSGp2Q0NmcEh6Z3p6anZYY1FYYXpSTXRYZ2hoX2dXY2MyaXdGSXptUFlxWXhMRmVyLVgwbEw0N05PTWJmMmF5bE9uYzF5RkhGOHpueGpuUzA3UE5mekh1UE1oWmp1dWhvWTVEaHhacXJkb0poVklsRWd1V2xWVkpuWlZBbDQ3X3RHajUzWmlabGM5Wml4Ni1KWDZLOV9PYlhPag?oc=5",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-10T17:30:00.000Z",
-      "kind": "news",
-      "tier": 2,
       "tickers": [],
       "related": [],
       "score": 50
@@ -1686,7 +1779,7 @@
       "source": "Bloomberg",
       "publishedAt": "2026-11-10T16:28:30.000Z",
       "kind": "news",
-      "summary": "The failed investment firm that sold Toronto-listed versions of Cathie Wood’s exchange-traded funds took self-dealing loans, maintained improper records and failed to act in the best interest of its funds, Canada’s top securities regulator ruled.",
+      "summary": "The failed investment firm that sold Toronto-listed versions of Cathie Wood’s exchange-traded funds took self-dealing loans, maintained improper records and failed to act in the best interest of the funds, Canada’s top securities regulator ruled.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1721,7 +1814,7 @@
       "source": "Bloomberg",
       "publishedAt": "2026-11-10T16:00:00.000Z",
       "kind": "news",
-      "summary": "The share of overdue consumer loans rose marginally in the third quarter as new delinquencies related to housing loans worsened.",
+      "summary": "US consumers are falling further behind on their debts as they navigate higher costs on fuel, groceries and other goods.",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1799,17 +1892,6 @@
       "score": 50
     },
     {
-      "title": "Anthropic Targets Valuation of Up to $1.4 Trillion for Blockbuster I.P.O. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaWplYjFtNjRwemt5Y0dEYV9Wem5ET3FLYXpQOFo0MWttT0hPOW5HN3BRM3hYZWU0YUYwdUJIemhKR0Q4aGw4dWxGbWZ6QlZZcHM3Sm5kMkZsaVVaOE1jOVJueHFSMERPS3lPZHptelZseENfMk0zeGlPUGtZODJEaUZuUmVYbXNucG1xVW1HZw?oc=5",
-      "source": "The New York Times",
-      "publishedAt": "2026-11-10T15:39:57.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "AI training startup Mercor valued at $20 billion in latest funding round - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakRyVVFaNHJEdFVOdTVHYUtNSWN3MEw4SkZXNFFXZFRtM21LLTZmWGtHRU9RcU9QM0dSUENscUhOZWV0WkFBZ1hQQV9vcHBFMzZxRlNrTjZvZFZwZzFZeDR2eGo2U2Q5b3VEcExyek9GY0JxQ0o4SkZYZmRTR21GaDhLTmE2b3J3MzJrRGZORXd0akdkVm41V0gzRGJYVTlvZ1hnZ0VUZ3RSa1RqckxUYUMyQ291NjVVQkdZa3NB?oc=5",
       "source": "Reuters",
@@ -1848,88 +1930,6 @@
       "source": "The Financial Express",
       "publishedAt": "2026-11-10T15:31:58.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Russian October Budget Gap Widens as War Spending Hits Finances",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-10/russian-october-budget-gap-widens-as-war-spending-hits-finances",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-10T15:14:19.000Z",
-      "kind": "news",
-      "summary": "Russia posted a budget deficit of 5.23 trillion rubles ($63 billion) in the first 10 months of 2026, as stronger revenue failed to keep pace with mounting government spending, according to Finance Ministry data published Tuesday.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "LexisNexis Risk Solutions Introduces Know Your Agent Intelligence to Help Government Agencies Navigate the Rise of AI Agents - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQajQzRUtsUVRWSjNzeEM2V3BIZ3pIUGlPTmRiX0JiWUUweHVyX3RpbWZGTm5jWGhONGJhU3AxcmtiY0Y5M29taXhlbTR1UzRlMkhKWGtkZmFPZlEtaDAxcS00U1c0OXJvRmxkZXc0X3Vhd1ZVZHMteXBFQ1ZOd3A2aG1PT29sekYwVy1sMlk5OUZGSkJ2MEprRXZsaEdrb3R1NThaS0RPSTk4LTJrc19qMTFtMFFYdjdNR0QtamFtRTlxLXlnaUcyZkxXRFJaRE14RmVaMFp2QVR6QjAxTHc1TXR3MjZZM0J6VHUxSFVkWVB2ZFg4c1Vaak80ZkdxMW5odUw1Zlg1aklWdmR1?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-11-10T15:13:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Closing the \"AI Gap\" - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BZmYzQW1XMHprMV9QUXkyRmVIMHNOcUZjUGt2cFpTMHFETzNydDlnejcwaGdmdlFrMnBVUU83cjV1V0VkTURXVDhHN2ZLcUY2S1lTbDdJYTNyOExxbHZrMktFcHNzYklwOUJXc1pqVEJTNnVEbTh0Smt5UjhWMkk?oc=5",
-      "source": "PR Newswire",
-      "publishedAt": "2026-11-10T15:04:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
-      "url": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-10T15:01:21.000Z",
-      "kind": "news",
-      "summary": "CoreWeave’s earnings after the bell could calm fears about its debt-fueled AI buildout — or stoke more fear.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "ECB’s Nagel Says December Rate Hike Is ‘Rather Obvious’",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-10/ecb-s-nagel-says-december-rate-hike-is-looking-rather-obvious",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-10T14:54:41.000Z",
-      "kind": "news",
-      "summary": "European Central Bank Governing Council member Joachim Nagel said there’s a strong case to raise interest rates next month and to start constricting the economy to tame inflation.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "US CPI Report October 2026: Key Takeaways on Inflation, Consumer Price Index",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-10/us-cpi-report-october-2026-key-takeaways-on-inflation-consumer-price-index",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-10T14:48:47.000Z",
-      "kind": "news",
-      "summary": "Here are the key takeaways from the US CPI report for October, released Tuesday:",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Anthropic Hired UK Lobby Firm Charlesbye Before IPO, Adding to Sunak",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-hired-uk-lobby-firm-charlesbye-before-ipo-adding-to-sunak",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-10T14:37:33.000Z",
-      "kind": "news",
-      "summary": "Anthropic PBC hired a lobbying firm run by the one-time aide to former British prime minister Boris Johnson, adding to the ranks of UK political veterans the company has recruited to handle mounting calls to regulate artificial intelligence.",
       "tier": 1,
       "tickers": [],
       "related": [],

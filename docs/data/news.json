@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:02:11.700Z",
+  "generatedAt": "2026-11-13T06:31:55.066Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,28 +16,6 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
-    {
-      "title": "[November 13, 2026] Fermi America - $FRMI - Discussion Thread",
-      "url": "https://www.reddit.com/r/FRMI/comments/1xuz117/november_13_2026_fermi_america_frmi_discussion/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-11-13T05:02:14.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/AutoModerator",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 78,
-      "summary": "[November 13, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000719/xsl144X01/primary_doc.xml",
@@ -82,6 +60,28 @@
       "score": 75,
       "formExplanation": "A current report — the form companies use to disclose material events between quarters (deals, leadership changes, results, financings).",
       "summary": "Fermi Inc. disclosed its financial results for the third quarter ended September 30, 2026, through an earnings release and is hosting a conference call to discuss these results. The company also published an investor presentation on its investor relations website, which is furnished as an exhibit to this report. The disclosures provide insight into the company's financial performance and condition, and the accompanying investor presentation offers additional information for investors."
+    },
+    {
+      "title": "[November 13, 2026] Fermi America - $FRMI - Discussion Thread",
+      "url": "https://www.reddit.com/r/FRMI/comments/1xuz117/november_13_2026_fermi_america_frmi_discussion/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-11-13T05:02:14.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/AutoModerator",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 68,
+      "summary": "[November 13, 2026] Fermi America - $FRMI - Discussion Thread"
     },
     {
       "title": "$FRMI the stock keeps finding fresh footing.",
@@ -850,10 +850,24 @@
   ],
   "related": [
     {
-      "title": "Sex, Lies and AI Chips: Jensen Huang’s Last Days as Nvidia CEO - The Information",
-      "url": "https://www.theinformation.com/articles/sex-lies-ai-chips-jensen-huangs-last-days-nvidia-ceo",
-      "source": "The Information",
-      "publishedAt": "2026-11-13T05:24:00.000Z",
+      "title": "Nvidia on track for longest weekly losing streak since 2012 as market value sinks by $1.6 trillion",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-13T05:51:34.000Z",
+      "kind": "news",
+      "summary": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Jensen Huang resigns as Nvidia CEO after affair with alleged spy - The Washington Post",
+      "url": "https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/",
+      "source": "The Washington Post",
+      "publishedAt": "2026-11-13T05:41:07.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -863,12 +877,39 @@
       "score": 75
     },
     {
+      "title": "Nvidia has a big leather jacket to fill: Jensen’s out - Morning Brew",
+      "url": "https://www.morningbrew.com/stories/nvidia-has-a-big-leather-jacket-to-fill-jensens-out",
+      "source": "Morning Brew",
+      "publishedAt": "2026-11-13T06:08:30.000Z",
+      "kind": "news",
+      "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Jensen Huang's scandal-prompted departure means the AI world is losing its most influential cheerleader."
+    },
+    {
       "title": "Nvidia Funded AI Boom Under Jensen Huang, but Gary Marcus Questions if New CEO Will Keep Writing the Chec - Benzinga",
       "url": "https://www.benzinga.com/markets/tech/26/11/63229612/nvidia-ai-boom-jensen-huang-gary-marcus-colette-kress-funding-concerns",
       "source": "Benzinga",
       "publishedAt": "2026-11-13T05:48:39.000Z",
       "kind": "news",
       "tier": 2,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Sex, Lies and AI Chips: Jensen Huang’s Last Days as Nvidia CEO - The Information",
+      "url": "https://www.theinformation.com/articles/sex-lies-ai-chips-jensen-huangs-last-days-nvidia-ceo",
+      "source": "The Information",
+      "publishedAt": "2026-11-13T05:24:00.000Z",
+      "kind": "news",
+      "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
@@ -944,20 +985,6 @@
         "NVDA"
       ],
       "score": 65
-    },
-    {
-      "title": "Trump Had Urged Nvidia’s Jensen Huang to Fight for His Job - The New York Times",
-      "url": "https://www.nytimes.com/2026/11/12/us/politics/trump-jensen-huang-nvidia.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-11-13T03:27:02.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "The president called the Nvidia chief on Tuesday, continuing a pattern of supporting him even as the spy scandal was intensifying."
     },
     {
       "title": "Jensen Huang built the company that powers AI. Now Nvidia must find a way forward without him - AP News",
@@ -1125,60 +1152,31 @@
       "score": 65
     },
     {
-      "title": "Stocks Fall as Huang Resigns, Nvidia Turns to CFO",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-12-2026-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T00:23:37.000Z",
+      "title": "Lutnick should have prevented the diversion of sensitive Nvidia AI chips to China, critics charge - CBS News",
+      "url": "https://www.cbsnews.com/news/lutnick-nvidia-ai-chips-china/",
+      "source": "CBS News",
+      "publishedAt": "2026-11-13T06:13:30.000Z",
       "kind": "news",
-      "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Ross Gerber, Gerber Kawasaki Wealth and Investment Management Co-Founder, President & CEO, Emily Kilcrease, Center for a New American Security Senior Fellow & Director, Nell Minow, ValueEdge Advisors Chair, Carolyn Everson, Permira Senior advisor, Dan Clancy, Twitch CEO, Jim Caron, Morgan Stanley Investme",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65
+      "score": 55,
+      "summary": "Commerce Secretary Howard Lutnick is under fire from critics asking whether his ties to Chinese companies and friendship with ex-Nvidia CEO Jensen Huang contributed to a lack of oversight over Nvidia AI chip sales."
     },
     {
-      "title": "Nvidia Is Not a Normal Company Having a CEO Issue: Everson",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/nvda-is-not-a-normal-company-having-a-ceo-issue-everson-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T00:19:02.000Z",
+      "title": "SMIC sees AI computing crunch until 2028 as Nvidia heat risks tighter chip curbs - South China Morning Post",
+      "url": "https://www.scmp.com/tech/big-tech/article/3374305/chinas-smic-sees-ai-computing-crunch-until-2028-nvidia-heat-risks-tighter-chip-curbs",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-11-13T05:55:56.000Z",
       "kind": "news",
-      "summary": "Carolyn Everson, a board member at Coca-Cola, Disney and Under Armour and a senior advisor at Permira, discusses how boards respond to allegations involving executives. Everson speaks with Romaine Bostick and Jess Menton on “The Close.” (Source: Bloomberg)",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65
-    },
-    {
-      "title": "Charles Elson on Nvidia’s Corporate Governance Structure",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/charles-elson-on-nvidia-s-corporate-governance-structure-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T00:13:57.000Z",
-      "kind": "news",
-      "summary": "Charles Elson, founding director of the University of Delaware’s Weinberg Center for Corporate Governance, says Nvidia’s board should have had a clearer succession plan and stronger oversight in place. He speaks with Romaine Bostick and Jess Menton on “The Close.” (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Who is Colette Kress, interim Nvidia CEO after Jensen Huang exit? - The Guardian",
-      "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-13T00:03:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Chief financial officer Colette Kress to take over on interim basis but other names are in mix to be permanent successor"
+      "score": 55
     },
     {
       "title": "Huang resignation jolts Hyundai Motor’s 2028 autonomous plan and Nvidia tie-up - Chosunbiz",
@@ -1195,9 +1193,23 @@
       "summary": "Huang resignation jolts Hyundai Motors 2028 autonomous plan and Nvidia tie-up Hyundais 2028 rollout faces uncertainty as Nvidia leadership change clouds priority access to 50,000 Blackwell GPUs central to training Atria AI"
     },
     {
-      "title": "Asian Shares Are Mixed as Investors Assess Impact of Nvidia's Fallout on Global AI Development - U.S. News & World Report",
-      "url": "https://www.usnews.com/news/business/articles/2026-11-13/asian-shares-are-mixed-as-investors-assess-impact-of-nvidias-fallout-on-global-ai-development",
-      "source": "U.S. News & World Report",
+      "title": "Fallout from the Nvidia scandal may dampen the exuberance around the AI boom - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://abcnews.com/US/wireStory/fallout-nvidia-scandal-dampen-exuberance-ai-boom-138101241",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-11-13T05:39:44.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 55,
+      "summary": "Nvidia CEO Jensen Huang’s stunning resignation has sent ripples throughout the global technology industry, with competitors itching to take advantage of the uncertainty surrounding the chip giant"
+    },
+    {
+      "title": "Asian shares are mixed as investors assess impact of Nvidia's fallout on global AI development - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcEdIRVVLQ2EwSTczcGx0dnFDM2p4a2lsSDBjN1NKTGxHa1JjM1hILVBWZWhNd1lSanNRVVdpd3NxNy1zbGgtSFE4R2x1M0VoTnVQSVRJb0xLVEJoQ3RvUUFGYV9ZZ21sVGRMYjZwSlRDSzk0ci1IeUVnSlU2MlRrbEpCU05tZXFTRDVMZnZhd2FSVFVtX0xBUW54N0ItVER1OGc?oc=5",
+      "source": "Yahoo Finance",
       "publishedAt": "2026-11-13T05:37:00.000Z",
       "kind": "news",
       "tier": 3,
@@ -1208,10 +1220,10 @@
       "score": 55
     },
     {
-      "title": "Fallout from the Nvidia scandal may dampen the exuberance around the AI boom - Seattle Post-Intelligencer",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPckJkZF82TUhERERaMjVGLVBHbUh0eUpRa0JIQXNSWjBwVzNFX0xUWktRb3NPdmtxbjItb0twYWdzZTdCZ0dMYnNKeTJqX3JocS1TQm5Ielh4Y0Z3a01ZRnhOTklfbVdLaUJDVlFYWmpfRzduZkNCcnVNNUI5X3htV0RNcmkzYmozS3BPSTJBdkp1ZTRYNEE?oc=5",
-      "source": "Seattle Post-Intelligencer",
-      "publishedAt": "2026-11-13T05:10:47.000Z",
+      "title": "Nvidia AI Scandal Triggers Market Turmoil and Regulatory Scrutiny - Global Banking & Finance Review",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ2pqd251c2NjSjQzV1IxcmZYZW9tcWdSeG9WMXFGQ1p2OWp4M3ZUR3NFYm5yZWdFbFBOQmVHMTBCWTRneUhuMDlMUjhhZmJPRk1KTmVGbVpJdFB6Y2ZVbnpkdEdsV2FxejRtYS15c0VSYU9ZNC1GQWc4Qnl5RmVJVFR3?oc=5",
+      "source": "Global Banking & Finance Review",
+      "publishedAt": "2026-11-13T05:36:16.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1221,12 +1233,12 @@
       "score": 55
     },
     {
-      "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
-      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-12T23:14:56.000Z",
+      "title": "Stocks Fall as Huang Resigns, Nvidia Turns to CFO",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-12-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T00:23:37.000Z",
       "kind": "news",
-      "summary": "Without Huang, Cramer said Thursday, \"There won't be a better Nvidia, just a different one.\"",
+      "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Ross Gerber, Gerber Kawasaki Wealth and Investment Management Co-Founder, President & CEO, Emily Kilcrease, Center for a New American Security Senior Fellow & Director, Nell Minow, ValueEdge Advisors Chair, Carolyn Everson, Permira Senior advisor, Dan Clancy, Twitch CEO, Jim Caron, Morgan Stanley Investme",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -1235,10 +1247,10 @@
       "score": 55
     },
     {
-      "title": "Nvidia's leadership change could unravel AI financing, says NYU Professor Gary Marcus - CNBC",
-      "url": "https://www.cnbc.com/video/2026/11/12/nyu-prof.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-12T23:01:00.000Z",
+      "title": "Who is Colette Kress, interim Nvidia CEO after Jensen Huang exit? - The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement",
+      "source": "The Guardian",
+      "publishedAt": "2026-11-13T00:03:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1246,25 +1258,47 @@
         "NVDA"
       ],
       "score": 55,
-      "summary": "Gary Marcus, NYU Professor Emeritus, joins 'Fast Money' to talk Nvidia's circular financing and how the turmoil at the company could have a ripple effect on the broader AI trade."
-    },
-    {
-      "title": "5 takeaways from Nvidia’s Jensen Huang scandal - The Hill",
-      "url": "https://thehill.com/homenews/analysis/6217604-nvidias-jensen-huang-resigned/",
-      "source": "The Hill",
-      "publishedAt": "2026-11-12T22:59:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 55
+      "summary": "Chief financial officer Colette Kress to take over on interim basis but other names are in mix to be permanent successor"
     }
   ],
   "general": [
     {
-      "title": "Scandal topples the AI star - Reuters",
+      "title": "EU leaders seek to tackle challenges at first ever AI summit - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMy10dU5kazRqbk9PSWxUbGRiUm53LU9sLXBHVnBNUW0xbElWLVVoUG9udExuMGlYZ2xldnlOQUJpMzNpNjEzN0N2TllYaUJkQzFDZG5QSXRKZWQwZlF5cUVTWlI3NVZUWkpra0diZGNtT2F3WnRFZ3ZKd3VvQ250c2tOM2VHOFlFMlRYTm5jbGZ4R0ZWaDNQc1ljR2R4SVU4Umo0NQ?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-13T06:06:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Server Maker xFusion Gets Shenzhen Nod for $1.2 Billion Listing",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/server-maker-xfusion-gets-shenzhen-nod-for-1-2-billion-listing",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T06:05:03.000Z",
+      "kind": "news",
+      "summary": "Artificial intelligence server maker xFusion Digital Technologies Co. received approval from the Shenzhen Stock Exchange on Thursday to move ahead with its planned initial public offering on the tech-heavy ChiNext board.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Treasury Yield Surge Shatters Hopes Worst of Bond Rout Is Over",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T06:00:17.000Z",
+      "kind": "news",
+      "summary": "Just when global bond investors were starting to believe the worst of this year’s selloff was over, surging Treasury yields are making them think again.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Morning Bid: Scandal topples the AI star - Reuters",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GOFRsaDEtWVBzYU96UkZKNEM5cWJ1cWF6bVZmM2JQeVR5bWkyU0Vxald4ZlVVN0RqTzZrNlN3TXU2MHdqQV9ISllvaklNUWxibU9zamZqUHQ5blppNnRveUEzODBLUnI0bG5YVkx1eDI0M0JiWnd1R3pSMk5OSWs?oc=5",
       "source": "Reuters",
       "publishedAt": "2026-11-13T05:32:00.000Z",
@@ -1284,7 +1318,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "S&P Sees Nigeria’s 2029 Investment-Grade Goal as Unrealistic",
@@ -1296,7 +1330,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "ByteDance Plans $6 Billion Buyback at $400 Billion Valuation",
@@ -1308,7 +1342,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Oil-Hungry Asia Turns Back to Mideast in Earnest as Flows Expand",
@@ -1320,7 +1354,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "EM Stocks Eye First Weekly Gain Since September as Tech Rebounds",
@@ -1593,52 +1627,15 @@
       "score": 50
     },
     {
-      "title": "Silver Market Set for Deficit Even as Solar Makers Cut Back",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/silver-market-set-for-deficit-even-as-solar-makers-cut-back",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T00:30:00.000Z",
+      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wZ25xVEtzaDVpd1BpVFNrNkZVNjVQa2dJVXo2NXlqT3BiM2tROGxERmUzQWxoZ19vMHdDd0hsS1htcU9jWE9RMllKaXFIaUZLRWFaVUU0VFh3OFhqanc?oc=5",
+      "source": "BBC",
+      "publishedAt": "2026-11-13T06:03:25.000Z",
       "kind": "news",
-      "summary": "The silver market is set for a sixth straight annual supply deficit in 2026, even as solar manufacturers cut their use of the metal and investor selling eases pressure on the physical market.",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "Yuan May Double Global Payment Share as Usage Climbs, HSBC Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/yuan-may-double-global-payment-share-as-usage-climbs-hsbc-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T00:26:18.000Z",
-      "kind": "news",
-      "summary": "A doubling of the Chinese currency’s share of global payments from the current 6%-7% is not impossible, according to the head of yuan internationalization at HSBC Holdings Plc.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Australia Bond Yield Falls Below US Peer as Rate Paths Diverge",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/australia-bond-yield-falls-below-us-peer-as-rate-paths-diverge",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T00:24:14.000Z",
-      "kind": "news",
-      "summary": "Australia’s benchmark bond yield fell below its US counterpart for the first time in more than a year as expectations for monetary policy in the two nations diverge.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T00:05:34.000Z",
-      "kind": "news",
-      "summary": "Federal Reserve Bank of New York President John Williams said that US inflation remains high and that policymakers have to take further action to contain price pressures.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Democratic political group launches new push to shape AI agenda ahead of 2028 - ABC News - Breaking News, Latest News and Videos",
@@ -1652,12 +1649,49 @@
       "score": 40
     },
     {
-      "title": "Democratic political group launches new push to shape AI agenda ahead of 2028 - WRAL",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSEMzelVyU1JMeGd6ek5fUWItQ2VHbjRJSFVaN1Bma2pZOGhvRFlLUE4wcnRHYzFXZmUwa18tUjZpR09MQzJTd2pQdmxOLTJPeGYzWXZhZjJRM2FlM254Ym1PbmdVbmlrYmdQWE9TMkJLVmk1NjZ3Q0RmclEyaEZ3RzZSMFZLR2lwRktQREJyeGJGNml1aDlVNG9CWHpsVkxZN3Bfb3gyaWR3eVBuaFgtQi1RSQ?oc=5",
-      "source": "WRAL",
-      "publishedAt": "2026-11-13T05:08:14.000Z",
+      "title": "Silver Market Set for Deficit Even as Solar Makers Cut Back",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/silver-market-set-for-deficit-even-as-solar-makers-cut-back",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T00:30:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "summary": "The silver market is set for a sixth straight annual supply deficit in 2026, even as solar manufacturers cut their use of the metal and investor selling eases pressure on the physical market.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Yuan May Double Global Payment Share as Usage Climbs, HSBC Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/yuan-may-double-global-payment-share-as-usage-climbs-hsbc-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T00:26:18.000Z",
+      "kind": "news",
+      "summary": "A doubling of the Chinese currency’s share of global payments from the current 6%-7% is not impossible, according to the head of yuan internationalization at HSBC Holdings Plc.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Australia Bond Yield Falls Below US Peer as Rate Paths Diverge",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/australia-bond-yield-falls-below-us-peer-as-rate-paths-diverge",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T00:24:14.000Z",
+      "kind": "news",
+      "summary": "Australia’s benchmark bond yield fell below its US counterpart for the first time in more than a year as expectations for monetary policy in the two nations diverge.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T00:05:34.000Z",
+      "kind": "news",
+      "summary": "Federal Reserve Bank of New York President John Williams said that US inflation remains high and that policymakers have to take further action to contain price pressures.",
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
@@ -1716,17 +1750,6 @@
       "publishedAt": "2026-11-12T23:43:52.000Z",
       "kind": "news",
       "summary": "Samsung Electronics Co. is in talks to acquire Modine Manufacturing Co., a maker of cooling systems for data centers, according to people familiar with the matter.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Jensen Huang's implosion leaves trail of collateral damage - Axios",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PSTEzb0xjVkowcmZNRjdiMHI2cjRjV0VQWTY4OGN6amoyRnJlbFFlRlpWdXctNnNKcjV5T0hCNGhWcUpQaWgxM25pUDlmc0M2SkY0aXowNDF4U094QUpMWV9ac3JDc1pVLUFVeWhTdk9mZTl6Wko2MmR3WQ?oc=5",
-      "source": "Axios",
-      "publishedAt": "2026-11-12T23:20:21.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1820,29 +1843,6 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TMk9GSXpPQWRmemVaSjRsSjVMaGRyQWl0dnBWN2dxcjd3OC1KWF9waTZHTlVoVjUwOERRc3RGcjA1V25Ha2cxYl94Y0RROWpfME5scHVxYjRfdExxbVlpRnFZaFpxWGNOTVRaZ01ZZ2FOTW9Gb1E?oc=5",
       "source": "The New York Times",
       "publishedAt": "2026-11-12T22:09:03.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Why GTA 6 Took 13 Years and $1 Billion to Make",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-12/why-gta-6-took-13-years-and-1-billion-to-make",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-12T22:01:01.000Z",
-      "kind": "news",
-      "summary": "Grand Theft Auto VI is expected to be one of the biggest entertainment releases in history, and potentially one of the most expensive. Why is there so much riding on the game? (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Power Landlords Are Highlighting Bitcoin Mining Roots During AI Rout - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSjIzNXgwQ2xiUlpYM3hNZkFtNUloQlJzc1Fpb19ENUtTWHMtVmczdFhZOXdMVkRfM3FrNE5OR3puQ1JFY2c0WlZQczZ6OF9NMkFCcDJhajhuVWRURjR5ZUlYbVpVbHRjUnZGdjRfVHVDc1VReko3VExtUlB4YTdYQ2N2RTRIVzl5dWNzYnZBMGtxZHJMV3NvQ2FXYjdVZTNSTmlzOXQxeVlNUlczSWRENFFxWnB4QWJJZ0lrNm9Kdw?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-12T22:00:01.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],

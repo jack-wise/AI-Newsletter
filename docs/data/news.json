@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T12:31:56.330Z",
+  "generatedAt": "2026-11-13T13:02:12.430Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,28 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "Target price",
+      "url": "https://www.reddit.com/r/FRMI/comments/1xv76md/target_price/",
+      "source": "r/FRMI",
+      "publishedAt": "2026-11-13T12:57:09.000Z",
+      "kind": "social",
+      "tickers": [
+        "FRMI"
+      ],
+      "credibility": {
+        "score": 30,
+        "trust": "limited",
+        "reasons": [
+          "posted in r/FRMI by /u/Puzzleheaded-Shoe388",
+          "Reddit RSS exposes no upvote count — not score-vetted"
+        ]
+      },
+      "tier": 2,
+      "related": [],
+      "score": 78,
+      "summary": "Target price"
+    },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000719/xsl144X01/primary_doc.xml",
@@ -331,7 +353,7 @@
       "related": [],
       "score": 55,
       "formExplanation": "A current report — the form companies use to disclose material events between quarters (deals, leadership changes, results, financings).",
-      "summary": "Fermi Inc. disclosed that it has posted a fact sheet containing additional information regarding its lease with TensorWave at the Project Matador site to its website. The fact sheet, which is furnished as Exhibit 99.1, provides further details on the lease, but the company undertakes no obligation to update or amend this information. This disclosure is intended to be furnished and not deemed filed for purposes of the Securities Exchange Act of 1934."
+      "summary": "Fermi Inc. disclosed that it has posted a fact sheet on its website containing additional information about its lease with TensorWave at the Project Matador site. The fact sheet, which is furnished as Exhibit 99.1, provides further details about the lease, but the company undertakes no obligation to update or amend the information. This disclosure is intended to provide transparency and update investors about the company's activities, but it does not contain any material financial or operational information."
     },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
@@ -839,31 +861,92 @@
       "related": [],
       "score": 38,
       "summary": "[November 10, 2026] Fermi America - $FRMI - Discussion Thread"
-    },
-    {
-      "title": "Project Matador",
-      "url": "https://www.reddit.com/r/FRMI/comments/1xrv5we/project_matador/",
-      "source": "r/FRMI",
-      "publishedAt": "2026-11-09T15:49:41.000Z",
-      "kind": "social",
-      "tickers": [
-        "FRMI"
-      ],
-      "credibility": {
-        "score": 30,
-        "trust": "limited",
-        "reasons": [
-          "posted in r/FRMI by /u/itssbri",
-          "Reddit RSS exposes no upvote count — not score-vetted"
-        ]
-      },
-      "tier": 2,
-      "related": [],
-      "score": 38,
-      "summary": "Project Matador"
     }
   ],
   "related": [
+    {
+      "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs - CNBC",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-13T12:54:43.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75,
+      "summary": "Jensen Huang’s resignation puts Nvidia’s AI financing strategy in focus as investors watch credit markets and neocloud exposure."
+    },
+    {
+      "title": "I interviewed Huang at peak ‘Jensenmania.’ Three weeks later, Nvidia is grappling with a world without him",
+      "url": "https://www.cnbc.com/2026/11/13/tech-download-jensen-huang-nvidia-departure-jensenmania.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-13T12:46:12.000Z",
+      "kind": "news",
+      "summary": "CNBC's Arjun Kharpal, who interviewed Huang just a few weeks ago at GTC Berlin, unpacks how everything came crashing down for the popular CEO.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia’s Biggest Risk Is Product Pace: Windsor",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/nvidia-s-biggest-risk-is-product-pace-windsor",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T12:41:23.000Z",
+      "kind": "news",
+      "summary": "Radio Free Mobile founder Richard Windsor says the immediate damage to Nvidia is reputational, with its products, contracts and financial outlook still intact. He says the critical test for Jensen Huang’s successor will be maintaining the rapid product-development cycle that underpinned Nvidia’s dominance and warns that any slowdown could cost the company market share and margins. Windsor was speaking to Tom Mackenzie on the latest episode of Bloomberg Tech: Europe which expl",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Dan Ives on Nvidia Without Jensen Huang, Microsoft Outage",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-13/ives-on-nvidia-without-jensen-huang-microsoft-outage-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T12:38:48.000Z",
+      "kind": "news",
+      "summary": "Dan Ives, partner and senior managing director at Yorkville Ives & Co., says that Nvidia without Jensen Huang “evens the playing field” in artificial intelligence and discusses why he thinks the next CEO will be from outside the company. Ives also addresses what he calls Microsoft’s “disaster moment” with disruptions for Outlook, Teams and the Copilot AI tool. He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA",
+        "MSFT"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia-Backed Nscale Says It Needs Additional Financing Ahead of Planned IPO - WSJ",
+      "url": "https://www.wsj.com/tech/nvidia-backed-nscale-says-it-needs-additional-financing-ahead-of-planned-ipo-58f4f8c1",
+      "source": "WSJ",
+      "publishedAt": "2026-11-13T12:30:06.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth. - MarketWatch",
+      "url": "https://www.marketwatch.com/story/nvidia-has-shed-nearly-500-billion-in-market-value-this-week-its-still-a-4-trillion-ai-behemoth-2ca6eba7",
+      "source": "MarketWatch",
+      "publishedAt": "2026-11-13T12:25:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
     {
       "title": "Outlook outage continues as Microsoft flags 'encouraging recovery progress'",
       "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
@@ -883,19 +966,6 @@
       "url": "https://www.axios.com/2026/11/13/ai-stocks-nvidia-chips",
       "source": "Axios",
       "publishedAt": "2026-11-13T12:20:50.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
-    },
-    {
-      "title": "COMMENTARY: Nvidia shock, shifting Fed bets and Europe's electric gamble: The financial week in five charts - Reuters",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/nvidia-shock-shifting-fed-bets-europes-electric-gamble-financial-week-five-2026-11-13/",
-      "source": "Reuters",
-      "publishedAt": "2026-11-13T12:07:11.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -930,21 +1000,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
-    },
-    {
-      "title": "The Tech Download: I interviewed Huang at peak ‘Jensenmania.’ Three weeks later, Nvidia is grappling with a world without him",
-      "url": "https://www.cnbc.com/2026/11/13/tech-download-jensen-huang-nvidia-departure-jensenmania.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-13T12:00:02.000Z",
-      "kind": "news",
-      "summary": "CNBC's Arjun Kharpal, who interviewed Huang just a few weeks ago at GTC Berlin, unpacks how everything came crashing down for the popular CEO.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "The rise, reinvention and uncertain future of Nvidia without Jensen Huang - CNBC",
@@ -957,7 +1013,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Nvidia is facing the biggest crisis in its 33 year history, with founder Jensen Huang resigning as CEO Thursday after admitting to having an affair with alleged Chinese spy Alice Huang, and accusations of two more affairs with employees inside his company. CNBC interviewed one of those women in 2023, on the same day we sat down with Jensen Huang. Three years later, Jensen Huang is out. We look back at our reporting to get a clear picture of where Nvidia stands today, and all "
     },
     {
@@ -973,7 +1029,7 @@
         "NVDA",
         "MSFT"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Dan Ives Cuts Nvidia Price Target, But Stays Bullish Post-Huang",
@@ -987,7 +1043,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "EXCLUSIVE: Huang exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia - Reuters",
@@ -1000,7 +1056,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Nvidia in Crisis: What Next? | Bloomberg Tech: Europe",
@@ -1014,7 +1070,21 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
+    },
+    {
+      "title": "Nvidia CEO Huang’s Fall Threatens US-China Diplomacy - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/jensen-huang-s-nvidia-nvda-scandal-fuels-push-for-tighter-china-chip-curbs",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-13T11:33:44.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "Huang was a mediating voice between the two AI superpowers."
     },
     {
       "title": "Nasdaq futures dip as Nvidia tumult keeps investors on edge - Reuters",
@@ -1027,21 +1097,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
-    },
-    {
-      "title": "Nvidia CEO Huang’s Fall Threatens US-China Diplomacy - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/jensen-huang-s-nvidia-nvda-scandal-fuels-push-for-tighter-china-chip-curbs",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-13T11:29:16.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Huang was a mediating voice between the two AI superpowers."
+      "score": 65
     },
     {
       "title": "Jensen Huang’s Nvidia (NVDA) Scandal Fuels Push for Tighter China Chip Curbs",
@@ -1223,64 +1279,68 @@
         "NVDA"
       ],
       "score": 65
-    },
-    {
-      "title": "How Jensen Huang's dramatic ouster from Nvidia affects Anthropic's $1.4 trillion IPO - Business Insider",
-      "url": "https://www.businessinsider.com/jensen-huang-fall-could-reshape-anthropic-ipo-ai-chip-race-2026-11",
-      "source": "Business Insider",
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Nvidia's former CEO Jensen Huang has resigned, raising questions for Anthropic's $1.4 trillion IPO, AI chip supply, and US-China export controls."
-    },
-    {
-      "title": "Watch China’s AI Sector Caught in the Crossfire After Nvidia Ousts Huang - Bloomberg.com",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/insight-with-haslinda-amin-11-13-2026-video",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-13T09:33:40.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65,
-      "summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture."
-    },
-    {
-      "title": "European shares retreat from record highs after Nvidia CEO's exit - Reuters",
-      "url": "https://www.reuters.com/markets/europe/european-shares-retreat-record-highs-ai-uncertainty-weighs-2026-11-13/",
-      "source": "Reuters",
-      "publishedAt": "2026-11-13T09:21:38.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Microsoft Struggles to Restore Access to Software",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/microsoft-struggles-to-restore-access-to-software-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T08:48:27.000Z",
-      "kind": "news",
-      "summary": "Microsoft is racing to restore access to its flagship software half a day after an outage began, leaving users unable to access email and chat services in one of the tech giant’s most severe disruptions in recent memory. Bloomberg's Peter Elstrom has the latest. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "MSFT"
-      ],
-      "score": 65
     }
   ],
   "general": [
+    {
+      "title": "UK Pushes to Shield Poorer Households From Gas Bill Overhaul",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/uk-pushes-to-shield-poorer-households-from-gas-bill-overhaul",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T12:48:02.000Z",
+      "kind": "news",
+      "summary": "Officials in the UK Department for Energy and Net Zero are pushing to speed up a project to identify households most in need of help with energy bills.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "This water technology stock is set to get a big boost from AI, says Wells Fargo - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sYkFyajZkVHJ4S0lLanQwWXNlZjFqR1hBMjZuQW5CdEZabVNubHQ4WWZpRzB2RFJ1YWl5cG4zVUlRZHczNS11TmNoaUkxUHlpT1hjX1F0WjRoY3lackdWdXZiQlY3c0trRXVWcWxqVGNKYk96cG5rX0c0Z19JcFk?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-11-13T12:43:14.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Big Oil’s War-Fueled Profits Revive Calls for Windfall Taxes",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/big-oil-s-war-fueled-profits-revive-calls-for-windfall-taxes",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T12:40:48.000Z",
+      "kind": "news",
+      "summary": "The five supermajors are on track for their second-most profitable year ever.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Global Equity Funds Draw Record Inflows, BofA Strategists Say",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/global-equity-funds-draw-record-inflows-bofa-strategists-say",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T12:34:12.000Z",
+      "kind": "news",
+      "summary": "Global equity funds are attracting record inflows this year, with few investors willing to make bearish bets, according to Bank of America Corp. strategists.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Russia Oil Revenues Hit Five-Month High on Crude Rally, IEA Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/russia-oil-revenues-hit-five-month-high-on-crude-rally-iea-says",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T12:17:36.000Z",
+      "kind": "news",
+      "summary": "Russia’s October revenues from crude and petroleum-product exports hit the highest since May as the ongoing Iran war bolstered oil prices, according to the International Energy Agency.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "MHI’s ¥67.5B IGCC Loss Flags Execution Risk in AI’s Power Bet - The Futurum Group",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGRLcEpjcjdWZ1paQ2JMSE9PX09LQy1JbEhDczR5dEZtZ0lyb0JpZTIwbkJQcmZvOTJsbGtCTXlFM09fTUhuZF9nMHNxZG4zcXBkUTFKdThVNTRhdnNYajRpY0hwNGstNDZsUTBydGV2YVFFUHZVVTNhNW13YlNWNklaWDJIX29iZ2ZJYnI3cTFwaW5oZUgw?oc=5",
@@ -1317,6 +1377,17 @@
       "score": 60
     },
     {
+      "title": "Executive Perspectives: Iowa leaders share their AI outlooks - Business Record",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjkzd3h6TGVYdm94TlJNS05uem5wWXBzN0lWdWFkS1BtUXN2V3A0UVYzc0RLVnNkajJPLXVab1A3N0k3YThhMTh4MWJnWEs0MVB3cUpTVkpVdlc3bjFYblEzSmZBWHA2azgtN2hkcy1mMUxTUXlUUzQyajJnUG01N09XU1VVSERHM2tMWURsSjZtYVhGa0E?oc=5",
+      "source": "Business Record",
+      "publishedAt": "2026-11-13T12:02:27.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
       "title": "Businessweek In December Is All About China",
       "url": "https://www.bloomberg.com/news/videos/2026-11-13/businessweek-in-december-is-all-about-china",
       "source": "Bloomberg",
@@ -1326,7 +1397,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "The US Job Market Narrative Shifts Toward Inflationary Risks",
@@ -1338,7 +1409,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Private Credit, Stablecoins Pose Risks Beyond Size, Bailey Warns",
@@ -1350,7 +1421,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Most top Fed officials blame AI for fueling inflation. Not Trump’s Fed chief. - The Washington Post",
@@ -1361,7 +1432,30 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
+    },
+    {
+      "title": "Fed's Warsh to take stock of AI revolution as US public grows wary - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWkQ4OXhSU2NkMHBKdUJoR3UxSHZZdDcwX2lwRldpTVlTdWstUGdDMExnaDVjb1ItV2kyUlNGRnlNbS04ZDVWX1hrczMxOXRnTG9MWUxFRXBMNFc5UkYwMnpFOGZsTG1KcTB5dGdlckdHRmFrdERaT1VZWkJKU0JhMER4czlvUEJXQ0JxalhaWUxyQ0pfaHh6WHZlUW1GYVBpb3RxQXVUMVpzMGc4c0E?oc=5",
+      "source": "Reuters",
+      "publishedAt": "2026-11-13T11:28:54.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
+    },
+    {
+      "title": "CSN Losses Are Piling Up as Brazilian Miner’s Troubles Worsen",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-13/csn-losses-are-piling-up-as-brazilian-miner-s-troubles-worsen",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-13T11:28:23.000Z",
+      "kind": "news",
+      "summary": "Brazilian steelmaker Cia. Siderurgica Nacional SA posted another quarterly loss as higher costs and lower iron-ore prices weighed on its mining business, while the troubled company explores further asset sales to reduce its debt pile.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 50
     },
     {
       "title": "New City of London Lord Mayor Seeks to Get Trillions of UK Pensions Invested",
@@ -1439,17 +1533,6 @@
       "publishedAt": "2026-11-13T11:00:33.000Z",
       "kind": "news",
       "summary": "Some of Britain’s biggest retailers are ramping up hiring for artificial intelligence and technology roles, even as rising costs force them to pull back on recruitment for other areas including in-store staff.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "How AI has become a utility bill for Gen Z - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcWtZTE1HcjQ3dmptT2ZPRzlZQUYxUkVIWDRqbVJGOTVCYllMVVZoN1ptMk5EcEoxTWVLZEVDQUdwUlVwZWwxYlk5UzA2blVKNHNSQVdnOS1Uck5wSjhxN2xGZXpNaGR3WXRDUF9IbzlOVkEyOHZkY0hFdUNjQ1d5ZGJFUHRHamV1c0ZaOURIU0hpVjVqSktsTQ?oc=5",
-      "source": "Reuters",
-      "publishedAt": "2026-11-13T11:00:01.000Z",
-      "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1538,18 +1621,6 @@
       "score": 50
     },
     {
-      "title": "Brasília em Off",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/brasilia-em-off-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T09:36:50.000Z",
-      "kind": "news",
-      "summary": "Martha Beck conta sobre os cotados para a Fazenda e a Casa Civil no quarto mandato do presidente Lula. Com edição de Patricia Xavier. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "DeepX Bets $100 Million on New AI Chip Using Samsung Technology",
       "url": "https://www.bloomberg.com/news/articles/2026-11-13/deepx-bets-100-million-on-new-ai-chip-using-samsung-technology",
       "source": "Bloomberg",
@@ -1579,18 +1650,6 @@
       "publishedAt": "2026-11-13T09:17:11.000Z",
       "kind": "news",
       "summary": "Indonesia’s stocks marked their best week since mid-June as foreign investors tiptoed back into the market after months of selling.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "ICTSI: Keen to Expand in Southern, Western Africa",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/ictsi-keen-to-expand-in-southern-western-africa-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T09:13:12.000Z",
-      "kind": "news",
-      "summary": "International Container Terminal Services Senior Adviser Christian Gonzalez says the world’s largest, independent terminal operator is keen to expand in Southern and Western Africa. It currently has 34 terminal operations and port development projects across 19 countries. He speaks with Haslinda Amin on \"Insight with Haslinda Amin.\" (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1632,30 +1691,6 @@
       "score": 50
     },
     {
-      "title": "Iraq October Oil Output Jumps to Highest Since 2019, IEA Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/iraq-october-oil-output-jumps-to-highest-since-2019-iea-says",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T09:05:30.000Z",
-      "kind": "news",
-      "summary": "Iraq’s oil output surged in October and production in the United Arab Emirates held near the previous month’s high, as Gulf producers increased crude flows despite shipping disruptions caused by the Iran war, the International Energy Agency said.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Why a $2 Billion Law Firm Suddenly Collapsed",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/why-a-2-billion-law-firm-suddenly-collapsed",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T09:00:02.000Z",
-      "kind": "news",
-      "summary": "What Weil Gotshal’s collapse says about the frailty of big law.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Bloom Energy vs. Constellation Energy: On-Site Power or Grid Power, Which Wins the Data Center? - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSzBCVXhGc2M0Mk1JZW1JODF6MW1IbFJRbGVMWnBVWlZmQVhYcFpyMDh3WWRqOUpsODB0blI3VVRZOXNYb0tKTU5Qdi00dVRkckE4MjF5MDdyU0k0bnYwY1hkUDFuRXVJdnVjeXNTSUJhRnFXbG0teVJ1d1pYTmV2UHMwcF9sN09FX2Q5YkpxTW5ZVEtkM3Nlaw?oc=5",
       "source": "The Motley Fool",
@@ -1673,18 +1708,6 @@
       "publishedAt": "2026-11-13T08:39:32.000Z",
       "kind": "news",
       "summary": "Nataliia Lipikhina, head of EMEA equity strategy at JPMorgan Private Bank, discusses the rotation away from semiconductor stocks and why she sees hyperscalers benefiting. Speaking on Bloomberg Television, she also comments on European equities and why banks are attractive. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "SocGen's Kabra: Semi Trade's 'YoYo' Cyclicality Supports AI Users--Not Builders",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/socgen-s-kabra-on-semiconductor-trade-ai-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T08:34:43.000Z",
-      "kind": "news",
-      "summary": "Société Générale CIB Chief US Equity Strategist Manish Kabra tells Bloomberg's Anna Edwards and Tom Mackenzie he will focus on companies using AI rather than building AI in 2027, pointing to the cyclicality of the semiconductor trade. \"Semis historically are always a yo-yo index. It goes up a lot. It comes down a lot,\" he says on The Opening Trade. \"The conviction to adopt AI is feeding into hyperscalers. It's feeding into frontier labs. And that's what backwards feeds into t",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1726,18 +1749,6 @@
       "score": 50
     },
     {
-      "title": "Jensen Huang Exit Sets Up US-China Showdown Over AI Chip Curbs",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/jensen-huang-exit-sets-up-us-china-showdown-over-ai-chip-curbs",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T07:30:26.000Z",
-      "kind": "news",
-      "summary": "The fall of Nvidia Corp. Chief Executive Officer Jensen Huang has removed the industry’s most prominent opponent of US chip controls, setting up a showdown over potential new curbs that could accelerate China’s drive for semiconductor self-sufficiency.",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Post-Jensen US Chip Curbs Threaten Southeast Asia’s AI Boom",
       "url": "https://www.bloomberg.com/news/articles/2026-11-13/post-jensen-us-chip-curbs-threaten-southeast-asia-s-ai-boom",
       "source": "Bloomberg",
@@ -1750,26 +1761,37 @@
       "score": 50
     },
     {
-      "title": "Data Center Investors Underestimate Climate Risk, Report Says - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYXZhVERBTXViVWV2MjJOVmpRY0NPX3JaYjI4N3huNHJJZC1OZWJRaDlXc0RCS09hcUtTX2VHTXVxbmZzcmEyNDVFRWJFbTN2ZnVfOXNwRHFqYmdzdGVwQUVzUWFhanF5dGw2M210dV90bFFvTXZvTVFzMW96TWxfYkFqamNUZHZXdU9JT19IeG5vck5ONjA1Q0RaazRGZHBfUzBMakRhNzBhR09GcFByQw?oc=5",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-13T07:00:00.000Z",
+      "title": "AI tears through legacy TCP/IP stacks, exposing vulnerabilities across critical infrastructure, OT and IoT devices - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcWN3ckVDRHlzZWhEUHNodWVFMENUZFVHZ3IzNWY1Zlhrc1VQUThXdE1tejFDeHZjRTFsN2F0cllia1NPUHY0NXNBMlFCSS0zU2UtVFg5cFd6LUhTYVE2eDVVaHJzRW5STXpFcFByNnAtOHJHbUdSLXh5N0FhcnpyUXJ1Rk92VEhtZzJEWkdmQS1GZmx6WldxT1lkVnl0UmRrZUMzUy1SYnZsZmF6Sm9EdHNmTDJUTXo1Q3VUQ1hmbnk1X3djTklwaU9JWlZSSU5NZnMyZlk4R3pvREY3em9RX2J3?oc=5",
+      "source": "Industrial Cyber",
+      "publishedAt": "2026-11-13T12:45:05.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
     },
     {
-      "title": "MaxLinear Targets AI Data Center Networks with 1.6T Power Management IC - The Fast Mode",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ2dlWlJTNFBCdkdpRFJlRkQtODZTT2c4WUNENU5DVEQybHdaVEN6OXE5eG4wZEFuSkhNOG9xVGY2WDlWS0dxMkhUbExZMi0zR0dYZFlPUHVpS3VCcUloM1pMRElsMXM0aTVObXNTUzd4Qm5EdXNCRjBEOVpnenJoNUhkY19ieXREMk5PT1ZudHctcl9JSmFYc1R5a1FTS3hpV25WYjBteTM2OFZpb0VyTWtydTBOR1NEbTZKS3FZTzdURlc5T21JWUNR?oc=5",
-      "source": "The Fast Mode",
-      "publishedAt": "2026-11-13T06:57:35.000Z",
+      "title": "Is Claude-maker Anthropic going public just as the AI bubble bursts? - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWVJPMWF5cVBHQjhIYUZ4V1F1RmdRbTNvWEVDWmZXY2JZSGJMWE81akNWVHFQc0FsRDN0aFk0VmtfT1ZfdFVKdXUxcF91UFczV3lDbzVVSWVwX2YxV0JQdXd5b2FsVm9HRzl2STFFSjNwSWQtS3QtSnBLMm9IUjZCNHBhUmdXLXo5bDc2dWJzQkZGZ9IBkgFBVV95cUxQQmlPNUVGME9kZDNadXdsbk5TRkpXd0FmVDltVDBuRVFUX3REWFJDSWM2X3Z3SzlLbzViX1l2VGxJSl9Uc2dkcm9wVkV2SkdSWk5aYTg3bWw5VERKWnB0WC1xcXlPLU5BdmlZY3RJYnhiaHhoS2NTeTJ6NUtOeHpTV1lvNjUtQ2pCdEJrVTZ4Vm9NUQ?oc=5",
+      "source": "DW.com",
+      "publishedAt": "2026-11-13T12:30:39.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
+      "score": 40
+    },
+    {
+      "title": "AI Infrastructure Stocks Facing A New Fed Test - Simply Wall St",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRWlNY1Z2cFdBUXdUY0lxT25lR21hYnBpUkQ0SExUcm5OdDVtUExPR3cwT19xZFNYR0R6SEtiMG9Kc2JTU0lpXzBMS0tEcHlfTXR3ZmNBdG1QNTVuX25CUzZYWElNMUMzVmp3QVNnU1FteGtMemZaMUxHbERLaUttV1V3SzFpbkxBZkxrS3VRQ05kaS1Ha3NXZnZTYU5sazdiMUtQWmZxdDJmVk5UZGR0MHhzVXdsTmdfWXfSAb8BQVVfeXFMT3ZkNUZvZ2VUN2Y2bGhzMERjbXowUGhtMEt3YkIxTnVrNDZnVFNpVTgwaGJ1MmhtWVFkZ3hQMjFkS0lTWFh4VEJpeXdwVXEtMmZfU3BqdzNQQkhXem1tMHl6dWlZRmdsVDJrbzhPTUNwYlp6ZzZMZ2FmWVhQV3NEbEJYNkJnSC1HOGxUYWxyaHZvdXNCb2ZqNjNFM0xQakt5MkppTW9GU2NrckpKOTBDRG5YbDRwaGUza3pXTGluX3M?oc=5",
+      "source": "Simply Wall St",
+      "publishedAt": "2026-11-13T12:25:03.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
     },
     {
       "title": "New initiative targets AI and reliable climate change information - UN News",
@@ -1783,45 +1805,33 @@
       "score": 40
     },
     {
-      "title": "Lumen Invests In Quantum Networking Research At Ohio State - Quantum Zeitgeist",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdWxGZFIwOVlqX1BwV0tFNGFKRW1FblRPVHNwUFY1Y0d6c0w5M3pBQnpsM3NQaHRZek5aQlJkWHhlSWRRbS15dDd4V1dvSVJhbTdQRndfRkp4cktycTg5UG14dXZPUC0wSkkxWVU2Q1N3ZVJ6Q0kyNFljU1RhSHdYQmxKRkRxbVc5c3c?oc=5",
-      "source": "Quantum Zeitgeist",
-      "publishedAt": "2026-11-13T11:55:14.000Z",
+      "title": "Data Center Investors Underestimate Climate Risk, Report Says - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYXZhVERBTXViVWV2MjJOVmpRY0NPX3JaYjI4N3huNHJJZC1OZWJRaDlXc0RCS09hcUtTX2VHTXVxbmZzcmEyNDVFRWJFbTN2ZnVfOXNwRHFqYmdzdGVwQUVzUWFhanF5dGw2M210dV90bFFvTXZvTVFzMW96TWxfYkFqamNUZHZXdU9JT19IeG5vck5ONjA1Q0RaazRGZHBfUzBMakRhNzBhR09GcFByQw?oc=5",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-13T07:00:00.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Patients More Comfortable Than Doctors With AI-Driven Healthcare Decisions, Survey Finds - U.S. News & World Report",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPemNzdllnMUNXODNjMkItdUJQVzNsdDd6N2lvUUtCVHV6UVp3Wlc1UHRMc0tteF9TcXlsakVwTHpDdTFpRmZfU0VsbEtsWFF0cHpIQkZjdkloM2V5ZS1vcExmS1V1d2xvUjZVUlI2NDdoaDVHeVBwN2JRS1hVaG9uSUIxb3ZuZ09KdTJFMVo1bWVrTEJjRzRONlpDR0ZfbGxndTV1a0JJMmExckNRalRHSGRiMUFyd3p0eVNTS3BqTld4WWlhT2xoSnlKN25iT010SHZzM1dic19IM1hsbzFiUQ?oc=5",
-      "source": "U.S. News & World Report",
-      "publishedAt": "2026-11-13T11:50:27.000Z",
+      "title": "MaxLinear Targets AI Data Center Networks with 1.6T Power Management IC - The Fast Mode",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ2dlWlJTNFBCdkdpRFJlRkQtODZTT2c4WUNENU5DVEQybHdaVEN6OXE5eG4wZEFuSkhNOG9xVGY2WDlWS0dxMkhUbExZMi0zR0dYZFlPUHVpS3VCcUloM1pMRElsMXM0aTVObXNTUzd4Qm5EdXNCRjBEOVpnenJoNUhkY19ieXREMk5PT1ZudHctcl9JSmFYc1R5a1FTS3hpV25WYjBteTM2OFZpb0VyTWtydTBOR1NEbTZKS3FZTzdURlc5T21JWUNR?oc=5",
+      "source": "The Fast Mode",
+      "publishedAt": "2026-11-13T06:57:35.000Z",
       "kind": "news",
-      "tier": 3,
+      "tier": 1,
       "tickers": [],
       "related": [],
       "score": 40
     },
     {
-      "title": "Powering the AI era: Building Resilience Beyond the Data Center - Data Center Frontier",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNWdwRTFCcnlYZjFKcWhDWkZ5WlhkUWZOZ0xmRWJjQ0JFVnJmdExzMURXdFU4YzM3SncwZHhtX3l4MExLREU0T2JIN1h3TmRxOHZCNU02bWx6alo0TEh5RHJWdEhiZ3pYblNKbHhKU0xlZUFYeHowb0xNcDhxdVppS2l4dFNQWnZFWlBISkczczRnaTJSak5FQ1RiaHV4WGxPVkxWaEQtMDZFcExXTEswVFZVYzlIOUdZRVp4bDU5UGJ6Zw?oc=5",
-      "source": "Data Center Frontier",
-      "publishedAt": "2026-11-13T11:45:12.000Z",
+      "title": "From Data Centers to \"AI Compute\": How Big Tech and Washington Are Rewriting the Rules While Hillsboro Plays Catch-Up - The Hillsboro Herald",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMERiSV9ub3YwNjNLRWZWeGRWNHo0a0dCSGJ5T1oxNTNMZGExSGRIZU1IX0p3eFZrM3V5UVhIY3NRRTdTVWEteFloXzM1QzIxU2RNVFIwTFlMMnJOY2JkY3dvMjJfT1M4U2JVSmFWSTRtTEVFOUdld2VuZnVDNlM4Qk1ULW5fcXN3Vlo3bjJqdEF2V0RzRXl2QnlqTkY0SXFZeWJjSTUtZ0JfQXRoN28zRTltLXdHYkE1UW1yNGJpSE9Cem1jdlFjaGR3b3VhMTMzY2tFcjdBZXdjT3M?oc=5",
+      "source": "The Hillsboro Herald",
+      "publishedAt": "2026-11-13T06:57:26.000Z",
       "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Guinness Atkinson CEO Discusses New K-Beauty ETF Launch",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-13/guinness-atkinson-ceo-discusses-new-k-beauty-etf-launch-video",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T06:29:30.000Z",
-      "kind": "news",
-      "summary": "Jim Atkinson, President & CEO at Guinness Atkinson Funds, discusses the launch of the firm's new K-beauty ETF and his outlook for demand. He speaks on Bloomberg's ETQ IQ Asia. (Source: Bloomberg)",
       "tier": 1,
       "tickers": [],
       "related": [],
@@ -1844,18 +1854,6 @@
       "source": "Bloomberg.com",
       "publishedAt": "2026-11-13T06:05:00.000Z",
       "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/treasury-yield-surge-shatters-hopes-worst-of-bond-rout-is-over",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-13T06:00:17.000Z",
-      "kind": "news",
-      "summary": "Just when global bond investors were starting to believe the worst of this year’s rout was over, surging Treasury yields are making them think again.",
       "tier": 1,
       "tickers": [],
       "related": [],

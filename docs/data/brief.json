@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T13:31:46.052Z",
-  "generator": "template",
+  "generatedAt": "2026-11-15T14:01:45.592Z",
+  "generator": "ai",
   "stock": {
     "symbol": "FRMI",
     "price": 2.61,
@@ -14,12 +14,13 @@
   "pulse": {
     "stories24h": 1,
     "filings": 25,
-    "social24h": 2,
+    "social24h": 0,
     "priorityTotal": 50
   },
   "paragraphs": [
-    "Fermi Inc. (NASDAQ: FRMI) last traded around $2.61, up 26.7% from the prior close (as of 2026-11-13, end-of-day data). Over the last 23 sessions it is down 17.4%. Live price and charts are in the panel above.",
-    "In the last 24 hours, this tracker surfaced 1 priority Fermi story. The most recent: “Fermi Inc. (FRMI) stock price, news, quote and history” (Yahoo Finance UK).",
-    "On the regulatory side, 25 Fermi SEC filings are in the current feed, most recently a 144 (2026-11-12). Insider activity: 5 Form 4 insider-transaction reports and 7 Form 144 proposed-sale notices in the feed — open the Filings tab for the specifics. The founder-versus-board proxy contest remains visible in the record (1 proxy-solicitation filing)."
-  ]
+    "The stock price of Fermi Inc. is 2.61, with a 26.7 percent increase from the prior close, but a 17.41 percent decrease over a window of 23 sessions. The price data is as of November 13, 2026. There has been one new news item in the last 24 hours.",
+    "The recent news includes a headline from Yahoo Finance UK, dated November 15, 2026, titled \"Fermi Inc. (FRMI) stock price, news, quote and history\". This is the only recent news item available.",
+    "There have been various recent filings, including forms 144, 10-Q, 8-K, and 4. The form 144 filings, dated November 12 and November 5, 2026, are notices of proposed sales of restricted shares by insiders. The form 10-Q filing, dated November 12, 2026, discloses the company's Q3 2026 financial and operational updates. The form 8-K filing, also dated November 12, 2026, discloses the company's financial results for the third quarter ended September 30, 2026. The form 4 filing, dated November 6, 2026, reports an insider transaction."
+  ],
+  "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
 }

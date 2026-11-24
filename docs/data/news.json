@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T23:31:41.750Z",
+  "generatedAt": "2026-11-24T00:01:44.279Z",
   "siteTitle": "AI Newsletter",
   "tagline": "AI & AI-infrastructure news, refreshed every 30 minutes",
   "priorityTickers": [
@@ -16,6 +16,21 @@
   ],
   "xStatus": "X via open-web discovery (oEmbed) + StockTwits — official X API off",
   "priority": [
+    {
+      "title": "SEC filing: 4 — Fermi Inc. (FORM 4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000090514826005131/xslF345X06/form4.xml",
+      "source": "SEC EDGAR",
+      "publishedAt": "2026-11-23T23:57:47.000Z",
+      "kind": "filing",
+      "tier": 0,
+      "tickers": [
+        "FRMI"
+      ],
+      "related": [],
+      "score": 95,
+      "formExplanation": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock.",
+      "summary": "An insider transaction report — an officer, director, or 10% holder bought, sold, or was granted company stock."
+    },
     {
       "title": "SEC filing: 144 — Fermi Inc.",
       "url": "https://www.sec.gov/Archives/edgar/data/2071778/000195824426000741/xsl144X01/primary_doc.xml",
@@ -415,21 +430,6 @@
       "summary": "A notice of proposed sale — an insider's declaration of intent to sell restricted shares (filed before the sale)."
     },
     {
-      "title": "SEC filing: ARS — Fermi Inc. (ARS)",
-      "url": "https://www.sec.gov/Archives/edgar/data/2071778/000121390026106380/ea0307100-03.pdf",
-      "source": "SEC EDGAR",
-      "publishedAt": "2026-10-02T20:09:32.000Z",
-      "kind": "filing",
-      "tier": 0,
-      "tickers": [
-        "FRMI"
-      ],
-      "related": [],
-      "score": 55,
-      "formExplanation": "An SEC filing — primary-source disclosure straight from EDGAR.",
-      "summary": "An SEC filing — primary-source disclosure straight from EDGAR."
-    },
-    {
       "title": "Former Fermi Inc. CEO files lawsuit against Texas Tech chairman for alleged coercion, retaliation leading to firing",
       "url": "https://www.myhighplains.com/news/your-local-election-hq/amarillo-ai-data-center-project/former-fermi-inc-ceo-files-lawsuit-against-texas-tech-chairman-for-alleged-coercion-retaliation-leading-to-firing/",
       "source": "MyHighPlains",
@@ -757,6 +757,20 @@
   ],
   "related": [
     {
+      "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
+      "source": "CNBC",
+      "publishedAt": "2026-11-23T23:50:00.000Z",
+      "kind": "news",
+      "summary": "Kress steered the company through billions in AI financing deals and during Huang's sudden departure. Now she's back to full-time CFO.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
       "title": "RBC Has Ideas For Canada to Unlock Tech GDP Gains as NVIDIA Rallies",
       "url": "https://www.bloomberg.com/news/newsletters/2026-11-23/rbc-has-ideas-for-canada-to-unlock-tech-gdp-gains-as-nvidia-rallies",
       "source": "Bloomberg",
@@ -798,18 +812,18 @@
       "score": 75
     },
     {
-      "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO - CNBC",
+      "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO",
       "url": "https://www.cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html",
       "source": "CNBC",
       "publishedAt": "2026-11-23T23:14:34.000Z",
       "kind": "news",
+      "summary": "CNBC's Jim Cramer said Jensen Huang's return as Nvidia CEO could help revive the chipmaker's battered stock.",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 75,
-      "summary": "CNBC's Jim Cramer said Jensen Huang's return as Nvidia CEO could help revive the chipmaker's battered stock."
+      "score": 75
     },
     {
       "title": "Jensen Huang cheered by Nvidia employees after return, pledges to be a better CEO",
@@ -818,6 +832,20 @@
       "publishedAt": "2026-11-23T23:13:25.000Z",
       "kind": "news",
       "summary": "Nvidia's Jensen Huang admitted to an affair in a note to employees on Nov. 8 and resigned as CEO on Nov. 12.",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Jensen Huang Returns as Nvidia Fuels Historic Rally",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-23/the-close-11-23-2026-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-23T23:01:49.000Z",
+      "kind": "news",
+      "summary": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Gabelli Funds Portfolio Manager, Growth Portfolios MD John Belton, London Business School Leadership Institute Founding Director Randall Peterson, Raymond James Data Infrastructure & Semiconductors MD Simon Leopold, Center For a New American Security Senior Fellow & Director Emily Kilcrease, Wedbush Securities Senio",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -837,7 +865,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Watch AI-Linked Stocks Take Off as Nvidia Brings Back Jensen Huang - Bloomberg.com",
@@ -850,7 +878,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75,
+      "score": 65,
       "summary": "Stephanie Aliaga, Global Market Strategist at JPMorgan Asset Management says that market reaction to Nvidia shows the power of sentiment, and Jensen Huang's return as CEO \"could power an upswing\" if the fundamentals accompany it. Today, US stocks rallied, recovering from last week’s technology-led selloff, as Jensen Huang's return to lead Nvidia propelled Wall Street toward its best day since April 2025. The surge added more than $1 trillion to Nvidia's market capitalization,"
     },
     {
@@ -865,7 +893,21 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
+    },
+    {
+      "title": "Why Jensen Huang and Nvidia Matter So Much to Markets - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/why-nvidia-ceo-jensen-huang-matters-so-much-to-the-stock-market",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-23T22:37:22.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65,
+      "summary": "The decision by Nvidia Corp.’s board of directors to restore Jensen Huang as chief executive officer on Nov. 23 after President Donald Trump pressed for the move speaks to the enormous impact both of Huang on the company and of the company on the larger stock market. The sharp decline in Nvidia’s stock price that began after news emerged that Huang had had an affair with a woman suspected of being an asset for Chinese intelligence erased more than two trillion dollars of valu"
     },
     {
       "title": "Why Nvidia CEO Jensen Huang Matters So Much to the Stock Market",
@@ -879,7 +921,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "Emily Kilcrease on Jensen Huang’s Return to Nvidia",
@@ -893,7 +935,7 @@
       "related": [
         "NVDA"
       ],
-      "score": 75
+      "score": 65
     },
     {
       "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO - Reuters",
@@ -915,20 +957,6 @@
       "publishedAt": "2026-11-23T22:27:39.000Z",
       "kind": "news",
       "summary": "US stocks staged a stunning rally on Monday, bouncing back from last week’s brutal technology-led selloff after the surprise return of Jensen Huang to lead Nvidia. Norah Mulinda has more. (Source: Bloomberg)",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-23T22:18:23.000Z",
-      "kind": "news",
-      "summary": "Kress steered the company through billions in AI financing deals and during Huang's sudden departure. Now she's back to full-time CFO.",
       "tier": 1,
       "tickers": [],
       "related": [
@@ -963,18 +991,17 @@
       "score": 65
     },
     {
-      "title": "Jensen Huang is back at Nvidia. Is the AI chip maker ‘too big to fail?’ - The Boston Globe",
-      "url": "https://www.bostonglobe.com/2026/11/23/business/nvidia-jensen-huang-ai-bubble-fail/",
-      "source": "The Boston Globe",
-      "publishedAt": "2026-11-23T22:07:30.000Z",
+      "title": "COMMENTARY: TRADING DAY Market euphoria as Huang returns to Nvidia - Reuters",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-23/",
+      "source": "Reuters",
+      "publishedAt": "2026-11-23T22:07:16.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65,
-      "summary": "Nvidia and other AI stocks remain below prior highs despit the day's huge gains."
+      "score": 65
     },
     {
       "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally. - MarketWatch",
@@ -1032,17 +1059,18 @@
       "score": 65
     },
     {
-      "title": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal - The New York Times",
-      "url": "https://www.nytimes.com/2026/11/23/technology/trump-administration-megaspeed-trade-blacklist-nvidia.html",
-      "source": "The New York Times",
-      "publishedAt": "2026-11-23T21:50:55.000Z",
+      "title": "‘Too big to be fired’: Nvidia brings back Jensen Huang and the AI bubble - The Boston Globe",
+      "url": "https://www.bostonglobe.com/2026/11/23/business/nvidia-jensen-huang-ai-bubble-fail/",
+      "source": "The Boston Globe",
+      "publishedAt": "2026-11-23T21:51:54.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
       "related": [
         "NVDA"
       ],
-      "score": 65
+      "score": 65,
+      "summary": "Nvidia and other AI stocks remain below prior highs despit the day's huge gains."
     },
     {
       "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal - Reuters",
@@ -1086,6 +1114,19 @@
       "summary": "Nvidia and Space Exploration Technologies are two companies at the heart of the artificial intelligence trade."
     },
     {
+      "title": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO - The New York Times",
+      "url": "https://www.nytimes.com/2026/11/22/business/nvidia-stock-huang-ai-sp500-markets.html",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-23T21:23:00.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [
+        "NVDA"
+      ],
+      "score": 65
+    },
+    {
       "title": "Jensen Huang’s Return, Nvidia ETFs Surge",
       "url": "https://www.bloomberg.com/news/videos/2026-11-23/etf-iq-11-23-2026-video",
       "source": "Bloomberg",
@@ -1126,50 +1167,66 @@
         "NVDA"
       ],
       "score": 65
-    },
-    {
-      "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "source": "CNBC",
-      "publishedAt": "2026-11-23T21:08:05.000Z",
-      "kind": "news",
-      "summary": "The Nvidia board said it had input from senior levels of the U.S. government.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Jensen Huang’s Return to Nvidia Is Welcomed by Markets, Trump: Big Take Podcast",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-23/jensen-huang-s-return-to-nvidia-is-welcomed-by-markets-trump-big-take-podcast",
-      "source": "Bloomberg",
-      "publishedAt": "2026-11-23T20:52:41.000Z",
-      "kind": "news",
-      "summary": "Nvidia shares leapt more than 30% on the news — even as corporate and federal investigations into Huang’s affair with an alleged Chinese spy are ongoing.",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
-    },
-    {
-      "title": "Huang's stunning Nvidia return sparks relief for battered AI trade - Reuters",
-      "url": "https://www.reuters.com/legal/transactional/huangs-stunning-nvidia-return-sparks-relief-battered-ai-trade-2026-11-23/",
-      "source": "Reuters",
-      "publishedAt": "2026-11-23T20:40:42.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [
-        "NVDA"
-      ],
-      "score": 65
     }
   ],
   "general": [
+    {
+      "title": "Opinion | Jensen Huang’s presidential pardon - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdHlzemtGMjFFd3lZRjZkeDgwWFozODd5eW1OR3NpRThfNDJFLXU1aTZ4ZXluSHJCejl1YVByYmVMb3J3NGlzcGNGTmVrMlhnd0FoTUowbF9WSERNbEVYUVpCbFZQVDgzRjRxUm5VM2theFBBNmk2aHBsUDFsdkNkWm1xcWlHOHdQdWJDby1Ka01mbzZ0TFZCYnZMZzJVdXlTQ3NsNGV3bkNBckVueTdV?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-11-23T23:53:30.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Asian Chip Stocks Set to Jump as Huang Comeback Refires AI Trade",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-23T23:45:20.000Z",
+      "kind": "news",
+      "summary": "Asian semiconductor-related stocks are poised to climb after Nvidia Corp.’s board reinstated Jensen Huang, resuscitating investor appetite for the artificial intelligence trade.",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "AI adoption grows in Asia, but measuring the gains remains tricky - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qd1lqN0hYeXlaSHY2Y3Vwb3ZDYXlDZHA5MkFUZjhza0VqRkZCd0hyNTl4RG5HZ2drdmwtbWxlT2JkbHJZaGRuWGswQlNLRG5oTlhvWTRwNWZoR3RSYXJERV9vZWRpUdIBa0FVX3lxTE9SSm5pQWdkeVNLSHJNSllLZ2M0cXo5VU5FaHRyU2N1QTdtYVliNm5KbWJqcXpGSzhyZ3ZIQ0ZOZ2lKMnpJQmVZWE1aSnZwYzFnMVFYa3kxTXdSbEl3VHktaWEzdDNkR1lEZUNF?oc=5",
+      "source": "CNBC",
+      "publishedAt": "2026-11-23T23:42:27.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Stunning Reversal: Jensen's Second Act",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-23/stunning-reversal-jensen-s-second-act-video",
+      "source": "Bloomberg",
+      "publishedAt": "2026-11-23T23:36:41.000Z",
+      "kind": "news",
+      "summary": "Jensen Huang is back at the helm of Nvidia following a stunning reversal by the chipmaker’s board. Bloomberg’s Ed Ludlow explains how the decision came together, the market’s euphoric response and why Huang’s return leaves some major questions unanswered. (Source: Bloomberg)",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
+    {
+      "title": "Beyond AI: The Best Thematic ETF Opportunities for 2027 - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEQ2bE9QZnNCMlVTWl9YLU1xZGZDcWhqUjVGdmJYQVloY2xpWWhXbktDcmJsdFdMNmRQSUlhN1pWVVd1cTVNbi1MNUt2R2RvVXlfOGRDMDZxOXlOMEhDM083VGdQQ0tSejZoRnZBV25nSVdVUUxXMzM0Q203aVJKRHVHTEUxTVk4Y3FObUpvRGo2Njl6bTc1ZGlUX0FCSDdKRkFwNDZNNnBIZWl4Qnh5UFRmMl9vSXRtZTZuWVFUTG1TbV80WUw4MFJmWVBQSUxCQzNRN0Jn?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-11-23T23:34:04.000Z",
+      "kind": "news",
+      "tier": 1,
+      "tickers": [],
+      "related": [],
+      "score": 60
+    },
     {
       "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
       "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
@@ -1239,7 +1296,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Circular Financing Will Now Be Under a Microscope After Jensen Huang’s Return, Warns Gary Marcus",
@@ -1251,7 +1308,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "EXCLUSIVE: Some US banks tighten AI-agent controls on concern about models escaping safeguards - Reuters",
@@ -1262,7 +1319,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Jensen Huang went to war with Washington — and won a path to China - The Washington Post",
@@ -1273,7 +1330,7 @@
       "tier": 1,
       "tickers": [],
       "related": [],
-      "score": 60
+      "score": 50
     },
     {
       "title": "Peterson: Expect a Lot of Damage From Keeping Huang",
@@ -1304,17 +1361,6 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xWFBzU1YweGFUcWx4ZGQwNG8wRmxRdkdpdEkxR0JLUkNvMWNGWGZJZGdjeExBZmc4TGRJeTNoT094MDl1Vy1HYnhxS1doMUFSdy1RUkoxRUQxc21wejJCS2RxMjQzLVNfTmFsSmU2R2NaVW5NQW5iSWpuckRIYjA?oc=5",
       "source": "The New York Times",
       "publishedAt": "2026-11-23T22:19:47.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
-      "title": "Opinion | Jensen Huang’s presidential pardon - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdHlzemtGMjFFd3lZRjZkeDgwWFozODd5eW1OR3NpRThfNDJFLXU1aTZ4ZXluSHJCejl1YVByYmVMb3J3NGlzcGNGTmVrMlhnd0FoTUowbF9WSERNbEVYUVpCbFZQVDgzRjRxUm5VM2theFBBNmk2aHBsUDFsdkNkWm1xcWlHOHdQdWJDby1Ka01mbzZ0TFZCYnZMZzJVdXlTQ3NsNGV3bkNBckVueTdV?oc=5",
-      "source": "The Washington Post",
-      "publishedAt": "2026-11-23T22:07:57.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1532,17 +1578,6 @@
       "score": 50
     },
     {
-      "title": "CONHI dean candidate emphasizes AI integration, affordability - The Shorthorn",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQb1phX1NodDNWTHFpNURRN1UzWmhSeHc0RkVoQ1NQSWRZWGdpVmN5bDJENGF2Q1kyeFY0dmRBNmJDRWRtcmx0aVRDM3BOSk5NQS1GZ2pGUnhvei04cF9qNkd2ZnBfSk9ZdTYxYXppcjc2Vm1kV18yWElJWkhvQ25XcTlfaHprUWdjVU83a3d3TkNZZkhiNnRqdVFVR29yZkQ2dk83Q1FVZlNNQmVwbHg4eVE4d0x6LVhjUlozZTlXUkNLLTd1ZmR6cG5qbEUzVktYa2pDMjVqT2NoRm5xeTFHcmRiNG9vdw?oc=5",
-      "source": "The Shorthorn",
-      "publishedAt": "2026-11-23T20:00:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Apple vs. Broadcom: Comparing Revenue Trends Amid the Artificial Intelligence Boom - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWXVTTko0dFBXYnNsdWQ2bGNyQ3ZHdE0xcGlMaFpqMmMyNUNEQjNPQTdqbjNGSVdxTnNTb1dOenBYZkdUalZpSEt3UTdBOVdMbV9DaEs5UXVoZzRnaTYwMENCN2ZOU0dLREJjY05uTlpReVJQcGh3RzF2dldETkFPazJrNXdyZ2VNeXZYRE1YdloxTHRGbVE4bmtoZ25ndkJJOXFCSWVsQ2xCbTlFTnpqYXFxYXdrczNRYUhland6bmxrNGNZVEMzMA?oc=5",
       "source": "The Motley Fool",
@@ -1599,17 +1634,6 @@
       "score": 50
     },
     {
-      "title": "DeepMind’s AI agents found cheaper quantum algorithms, and proved them - The Next Web",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcGtZdGJiQjgzN09KM0hoMUs2T0ZXelBFcWM4NXhfWVNLWGdLT0dBdFBKVGFZV3hrRW9TY3BoRm1XR1dlNXFtc0tNWS1COTN5SzVqdTBiS2FQelR6X1ZCa1Q4dmw2MEJXeU9ScXg2V0JRMGg2eDhqNDd4dGVqdGxOMW8tUVZFcFBi?oc=5",
-      "source": "The Next Web",
-      "publishedAt": "2026-11-23T18:33:30.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
-    },
-    {
       "title": "Jensen Is Back. But AI’s Problems Haven’t Gone Away. - WSJ",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWFM4bkNmY3BwVVRwTE1oNUdLQ05FWWItQzVEMnQtTW00eDJsQnZsN3pPY3hsYjRHZEpwSTdQMllTWUxGTEIxWDYzQ3BPV190Q2stSU9FaDMtT21fWlkzdHVlVE5XWHdzRXZlSFBWeVJXLXZoN3NOZ0VhOUZCbWVMbHVlU25xVHdTU0Rhelk3Z2tVZ2hwdGVv?oc=5",
       "source": "WSJ",
@@ -1621,32 +1645,32 @@
       "score": 50
     },
     {
-      "title": "Copper prices crash as AI boom fears trigger $10.8 billion investor selloff - The American Bazaar",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSHk2ZXRPWGFSWUZGMm5NRUZpbno1S253emdFNUNnU0hRRk1RSFQ2UXdNakZXVHNERW45VDdPNFd1MElGTkFWMkh1MjBTOEFHWXpRYWNad3g3LVNuLVFuaTNHeC1PeHBpMnZ1b1Vlc2JUWXJsTTJaVlVZLTZXZE9oTWZzZDV0Z2xXa0VMUDljTER1N0Nia09aeUhZOE84RGFxUlJVREVPN2JhME9KT25Fd29MMTg1aWpPZmtR?oc=5",
-      "source": "The American Bazaar",
-      "publishedAt": "2026-11-23T18:01:28.000Z",
+      "title": "Injunctions Surpass Monetary Damages in Combating Artificial Intelligence Hallucinations, Legal Study Finds - Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNHdCdERwWEVwQ0RvVjZ6dVUtX0xJUDVkSTM3Q1ZlVGJta3V1dEFXbExweDRWNWYzXy1mMnh5SGtSVDYxMl9XdE5GVGlSOGl5MmlTQjJTNzdKMk9nMnVTNFBBZV9xQmNqQUtPMnpaTzhDandqRnZhLW0xTUo1Rnlodm45UXJvMTd2RUw5SDE2dFNxYUxEYWpONXNXeUpWSW56dTR0WkRka0lQTjJaeE5nb3p4VGp4bDhlTmF1NHBGWmUwblE0M3dBelhzSQ?oc=5",
+      "source": "Bioengineer.org",
+      "publishedAt": "2026-11-23T23:46:50.000Z",
       "kind": "news",
-      "tier": 1,
+      "tier": 3,
       "tickers": [],
       "related": [],
-      "score": 50
-    },
-    {
-      "title": "Opinion | Artificial Intelligence Can’t Replace a Doctor - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSXhEdjctc3VpbHJWanoyZ1BfVzZQM3ZZLUdoVkVSMldUVVFKems1QXEtU3ZGaWVnNEZ2YVFVY2pzNFpUVVl2T0VjeTZmWEtlY2Vwd3pSeVNEbTJDZXpWdXp2NEVqWE1GTS0xSmhpMjVLcklrUDREU2l3Q0tjd0RpZUhPTVNvdzBYV1E?oc=5",
-      "source": "WSJ",
-      "publishedAt": "2026-11-23T17:33:00.000Z",
-      "kind": "news",
-      "tier": 1,
-      "tickers": [],
-      "related": [],
-      "score": 50
+      "score": 40
     },
     {
       "title": "Fermi confirms $200 million prepayment as Texas Tech lease deadline nears - Lubbock Lights",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yRzVzbV9MSmpzVDVUNzZoTmlxSlFWQVgwaFRTSGhDQjdVME5PYkVKWTI2NGxPbXdLbFpPeHQ1T3FXdUFPR1VzYk1Lbm5LdXVkYWRHdHl4VjMxQXpXNUcxdmplWW1rNVNTQTJjaw?oc=5",
       "source": "Lubbock Lights",
       "publishedAt": "2026-11-23T23:26:41.000Z",
+      "kind": "news",
+      "tier": 3,
+      "tickers": [],
+      "related": [],
+      "score": 40
+    },
+    {
+      "title": "Bell confirms AI agent breached its security - Yahoo News Canada",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HRGgwSU95WDBHaVVILTAyeE9xTTlSZnpJeEVBSzFFcjZNRHk4MzYxVmJWRTRvMmh3ckVsVC1aS1NOLVg2X3FMd2xEcUtEUkUyTW5LQXd6Zk1Bd05Oc3c3WjhMMTVESXU3d2FGOGtfZHVfdDFfOHh4b3QxWXM?oc=5",
+      "source": "Yahoo News Canada",
+      "publishedAt": "2026-11-23T23:26:05.000Z",
       "kind": "news",
       "tier": 3,
       "tickers": [],
@@ -1698,32 +1722,10 @@
       "score": 40
     },
     {
-      "title": "Psychological Factors and Competence Shape Teachers’ Adoption of Artificial Intelligence - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWF6VVNfV2FseWdEMlRya294LWVEdXY1a3h4TjQ2YWVoa3d0S0QxTVM5Q0R4dGduamYyNldPZElUR05ybVFSdzFjY21mMXd4bFhpQmxtTVppQjBDbkFKb3RzMUFrQmlwOUNUbkxFSUI5Q0xtVXhlOGVyLWZoZ0d3RXc2Nm9PX2xHSUFIOExpcHRHMTBMNnJhckhzV0hZZllwODFTd0sxaUlqSmZmUTlVamJ3?oc=5",
-      "source": "Bioengineer.org",
-      "publishedAt": "2026-11-23T22:50:16.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Automated Biofoundries Link Artificial Intelligence Predictions to Experimental Microbial Engineering - Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMF9jeUJPVmpBR2prdElmWHhlVWw1by0tc2pXbnFQWWExN2RJclIzbDAxQkFxWjdKVzctNDFoWG1oQkE2c21zTmNoQUc4Y0VtbXNJcFhhSHdBcHBkT1BaQWZGdWJMQ2xKMF9Obzc5TUk0UHpPV2tCVWQyc1VaOHl1LWg2cjFDamlqU0hDNEZXb2h4R1A4TTIwR09ES3ZLaTk2RjhjUWc4MTViRTlWLUNzSzlmRkVRRnhON2FTbVJNN2taR28z?oc=5",
-      "source": "Bioengineer.org",
-      "publishedAt": "2026-11-23T22:37:24.000Z",
-      "kind": "news",
-      "tier": 3,
-      "tickers": [],
-      "related": [],
-      "score": 40
-    },
-    {
-      "title": "Child safety groups urge Amazon and eBay to stop selling AI toys until proved safe - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUUVjMFl6NEZwcFFyUDNCWEVEbWNVLUNkLXh3d01KV1h0MDZvTzgxcEpTVkYzUktlNmZ4bnF1VjY5SU1zVktsbm1OOUYzTkVIa00yamJLWm53RlBQSnFNTlBLUktjYS1RUDJ4dWV5MkpSS3FQbndlOTBEb0ZQU2E2Ulh6b0JXVEhmN1E3TElGM0xZSW1VcTVLN2NXNmhBTUZQWnRGZjMybFh3YmJwTGhlZ0JSem81Mlo4aXViaFptWXJBNmtw?oc=5",
-      "source": "The Guardian",
-      "publishedAt": "2026-11-23T17:18:00.000Z",
+      "title": "Copper prices crash as AI boom fears trigger $10.8 billion investor selloff - The American Bazaar",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSHk2ZXRPWGFSWUZGMm5NRUZpbno1S253emdFNUNnU0hRRk1RSFQ2UXdNakZXVHNERW45VDdPNFd1MElGTkFWMkh1MjBTOEFHWXpRYWNad3g3LVNuLVFuaTNHeC1PeHBpMnZ1b1Vlc2JUWXJsTTJaVlVZLTZXZE9oTWZzZDV0Z2xXa0VMUDljTER1N0Nia09aeUhZOE84RGFxUlJVREVPN2JhME9KT25Fd29MMTg1aWpPZmtR?oc=5",
+      "source": "The American Bazaar",
+      "publishedAt": "2026-11-23T18:01:28.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1731,10 +1733,10 @@
       "score": 40
     },
     {
-      "title": "Advanced Micro Devices vs. Dell Technologies: Comparing Revenue Trends Amid the Artificial Intelligence Boom - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZllYTzBZeV9VWHdORkZYcW1uLWoxZjVYY0QyRHRiOHplOF96ZWozNzlZNW12OTFweFJTcWw2OHdCRzl4NHlvSEF3MUx4Z1RHMFo4ZmRqRXlDdjhXNnphcjRrc0dBYnBkYmM0NE12WElmX0dublVLMFBLR3kxNzh1QjFPakwtVDNndnUteDlic2dYSUVWaG5iSEFMdHh4YXlSMzNsZ0RGSE9kZjhLUU4zVnpwa2F2TjZWUmdRZFlFekRKZVFMSEFDS2hwM3NkZFVVM1NmRGlxWXVXZi1TbmFJVkpmcThDNmJZUGhZ?oc=5",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-11-23T17:02:29.000Z",
+      "title": "Opinion | Artificial Intelligence Can’t Replace a Doctor - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSXhEdjctc3VpbHJWanoyZ1BfVzZQM3ZZLUdoVkVSMldUVVFKems1QXEtU3ZGaWVnNEZ2YVFVY2pzNFpUVVl2T0VjeTZmWEtlY2Vwd3pSeVNEbTJDZXpWdXp2NEVqWE1GTS0xSmhpMjVLcklrUDREU2l3Q0tjd0RpZUhPTVNvdzBYV1E?oc=5",
+      "source": "WSJ",
+      "publishedAt": "2026-11-23T17:33:00.000Z",
       "kind": "news",
       "tier": 1,
       "tickers": [],
@@ -1744,24 +1746,16 @@
   ],
   "sourceErrors": [
     {
-      "source": "reddit-x",
-      "error": "HTTP 404 for reddit search.rss"
+      "source": "reddit:r/FRMI",
+      "error": "HTTP 404 for r/FRMI feed"
     },
     {
-      "source": "reddit:r/FRMI",
-      "error": "HTTP 429 for r/FRMI feed"
+      "source": "reddit-x",
+      "error": "HTTP 429 for reddit search.rss"
     },
     {
       "source": "google-news:FRMI",
       "error": "HTTP 429 for https://news.google.com/rss/search?q=%22FRMI%22%20OR%20%22Fermi%20Inc%22%20stock&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:OpenAI",
-      "error": "HTTP 429 for https://news.google.com/rss/search?q=OpenAI%20data%20center%20OR%20compute%20OR%20Stargate&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "source": "google-news:GEV",
-      "error": "HTTP 429 for https://news.google.com/rss/search?q=GE%20Vernova%20gas%20turbine%20AI%20data%20center&hl=en-US&gl=US&ceid=US:en"
     }
   ]
 }
